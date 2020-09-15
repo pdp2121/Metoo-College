@@ -48,11 +48,4 @@ If our parser works out well enough, we can potentially do inferences like MANIP
 ### Knowledge Transfer from Frame Semantics to TRIPS
 Although frame semantics is sufficient for event extraction in our Twitter, the TRIPS LF has better language understanding capability since it captures meanings by grammars and semantic structures. Thus, if we can transfer the knowledge obtained from frame semantics regarding the event-argument relationships to TRIPS-type relations, we might be able to extract linguistic patterns from the tweets just as well as frame semantics, while inventing a more general approach with knowledge defined from semantics that can be extended to studies on other topics.
 
-## Additional notes
-Outline of plans for #metoo paper until submission: (possibly until the end of April)
-- Write descriptions for dataset, with example frame annotated examples (done shortly)
-- Obtain gold annotations for tweets in FrameNet frame semantics (1-2 weeks)
-- Implement and test SEMAFOR on the gold set, fix bugs and add necessary extensions (1 for implementing the system, 1-2 more weeks for experimenting depending on the progress of annotating)
-- Find ways to represent the frame patterns in TRIPS patterns (1 week)
-- Come up with meaningful analysis of the discovered information (1 week)
-- Write paper (3-4 days)
+## check branch
