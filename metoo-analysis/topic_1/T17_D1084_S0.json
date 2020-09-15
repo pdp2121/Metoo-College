@@ -1,0 +1,173 @@
+{
+  "parse": [
+    {
+      "V1203876": {
+        "id": "V1203876",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1201650",
+          "LEX": "ASKED"
+        },
+        "start": 0,
+        "end": 51
+      },
+      "V1201650": {
+        "id": "V1201650",
+        "indicator": "F",
+        "type": "ASK",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V1201631",
+          "FORMAL": "#V1201735",
+          "TENSE": "PAST",
+          "LEX": "ASKED",
+          "WNSENSE": "ask%2:32:00::"
+        },
+        "start": 0,
+        "end": 51
+      },
+      "V1201631": {
+        "id": "V1201631",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1201735": {
+        "id": "V1201735",
+        "indicator": "F",
+        "type": "ANSWER",
+        "word": "RESPOND",
+        "roles": {
+          "AGENT": "#V1201729",
+          "FORMAL": "#V1202745",
+          "CONDITION": "#V1201661",
+          "PROP": "+",
+          "TENSE": "PRES",
+          "LEX": "RESPONDS"
+        },
+        "start": 8,
+        "end": 51
+      },
+      "V1201661": {
+        "id": "V1201661",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "GROUND": "#V1201703",
+          "FIGURE": "#V1201735",
+          "LEX": "IF"
+        },
+        "start": 8,
+        "end": 29
+      },
+      "V1201703": {
+        "id": "V1201703",
+        "indicator": "F",
+        "type": "KISSING",
+        "word": "KISS",
+        "roles": {
+          "AGENT": "#V1201680",
+          "AFFECTED": "#V1201712",
+          "TENSE": "PAST",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "LEX": "KISS",
+          "WNSENSE": "kiss%2:35:00::"
+        },
+        "start": 11,
+        "end": 29
+      },
+      "V1201680": {
+        "id": "V1201680",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 11,
+        "end": 13
+      },
+      "V1201712": {
+        "id": "V1201712",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "PROFORM": "HER",
+          "LEX": "HER",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 24,
+        "end": 29
+      },
+      "V1201729": {
+        "id": "V1201729",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "SIZE": "#V1201772",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 31,
+        "end": 39
+      },
+      "V1201772": {
+        "id": "V1201772",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 31,
+        "end": 39
+      },
+      "V1202745": {
+        "id": "V1202745",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1201769",
+          "LEX": "-"
+        },
+        "start": 48,
+        "end": 51
+      },
+      "V1201769": {
+        "id": "V1201769",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "|...|",
+        "roles": {
+          "LEX": "|...|",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 51,
+        "end": 51
+      },
+      "root": "#V1203876"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+213",
+    "*last-utt-id*=213  utt-id+NIL"
+  ]
+}

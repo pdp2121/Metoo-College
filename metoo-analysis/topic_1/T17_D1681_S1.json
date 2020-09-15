@@ -1,0 +1,96 @@
+{
+  "parse": [
+    {
+      "V2342194": {
+        "id": "V2342194",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2341913",
+          "LEX": "TERRIFIED"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V2341913": {
+        "id": "V2341913",
+        "indicator": "F",
+        "type": "EVOKE-FEAR",
+        "word": "TERRIFY",
+        "roles": {
+          "AFFECTED": "#V2341882",
+          "BENEFICIARY": "#V2341922",
+          "TENSE": "PRES",
+          "MODALITY": "(:* MUST MUST)",
+          "PASSIVE": "+",
+          "LEX": "TERRIFIED",
+          "WNSENSE": "terrify%2:37:00::"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V2341882": {
+        "id": "V2341882",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2341922": {
+        "id": "V2341922",
+        "indicator": "F",
+        "type": "BENEFICIARY",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V2341946",
+          "FIGURE": "#V2341913",
+          "LEX": "FOR"
+        },
+        "start": 22,
+        "end": 40
+      },
+      "V2341946": {
+        "id": "V2341946",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "DAUGHTER",
+        "roles": {
+          "ASSOC-POSS": "#V2341943",
+          "LEX": "DAUGHTER",
+          "WNSENSE": "daughter%1:18:00::"
+        },
+        "start": 26,
+        "end": 40
+      },
+      "V2341943": {
+        "id": "V2341943",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOUR",
+        "roles": {
+          "LEX": "YOUR",
+          "PROFORM": "YOUR",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 26,
+        "end": 40
+      },
+      "root": "#V2342194"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+377",
+    "*last-utt-id*=377  utt-id+NIL"
+  ]
+}

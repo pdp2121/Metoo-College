@@ -1,0 +1,202 @@
+{
+  "parse": [
+    {
+      "V2094350": {
+        "id": "V2094350",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "ACT": "#V2094251",
+          "ACT1": "#V2102010",
+          "OPERATORS": "(AND)",
+          "LEX": "SURVIVE"
+        },
+        "start": 0,
+        "end": 51
+      },
+      "V2094251": {
+        "id": "V2094251",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2093751",
+          "LEX": "SURVIVE"
+        },
+        "start": 0,
+        "end": 17
+      },
+      "V2093751": {
+        "id": "V2093751",
+        "indicator": "F",
+        "type": "LIVE",
+        "word": "SURVIVE",
+        "roles": {
+          "AFFECTED": "#V2093733",
+          "TENSE": "FUT",
+          "MODALITY": "(:* FUTURE WILL)",
+          "LEX": "SURVIVE",
+          "WNSENSE": "survive%2:42:01::"
+        },
+        "start": 0,
+        "end": 17
+      },
+      "V2093733": {
+        "id": "V2093733",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2102010": {
+        "id": "V2102010",
+        "indicator": "SPEECHACT",
+        "type": "SA_REQUEST",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2093848",
+          "LEX": "DO-"
+        },
+        "start": 21,
+        "end": 51
+      },
+      "V2093848": {
+        "id": "V2093848",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "LOCATION": "#V2093770",
+          "AGENT": "#V2093962",
+          "NEUTRAL": "#V2093859",
+          "FREQUENCY": "#V2101157",
+          "TENSE": "PRES",
+          "VFORM": "BASE",
+          "LEX": "DO-"
+        },
+        "start": 21,
+        "end": 51
+      },
+      "V2093962": {
+        "id": "V2093962",
+        "indicator": "IMPRO",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "PROFORM": "*YOU*",
+          "COREF": "SYS"
+        },
+        "start": 21,
+        "end": 51
+      },
+      "V2093770": {
+        "id": "V2093770",
+        "indicator": "F",
+        "type": "POS-WRT-SPEAKER-RELN",
+        "word": "THERE",
+        "roles": {
+          "GROUND": "#V2093947",
+          "FIGURE": "#V2093848",
+          "LEX": "THERE"
+        },
+        "start": 21,
+        "end": 27
+      },
+      "V2093947": {
+        "id": "V2093947",
+        "indicator": "IMPRO",
+        "type": "LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "THERE"
+        },
+        "start": 21,
+        "end": 27
+      },
+      "V2101157": {
+        "id": "V2101157",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2093848",
+          "GROUND": "#V2093806",
+          "LEX": "WAY"
+        },
+        "start": 27,
+        "end": 43
+      },
+      "V2093806": {
+        "id": "V2093806",
+        "indicator": "QUANTIFIER",
+        "type": "ROUTE",
+        "word": "WAY",
+        "roles": {
+          "QUAN": "NONE",
+          "TIME": "#V2093819",
+          "MOD": "#V2093795",
+          "LEX": "WAY",
+          "WNSENSE": "path%1:17:00"
+        },
+        "start": 27,
+        "end": 43
+      },
+      "V2093795": {
+        "id": "V2093795",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2093806",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 30,
+        "end": 36
+      },
+      "V2093819": {
+        "id": "V2093819",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "FIGURE": "#V2093806",
+          "LEX": "TO"
+        },
+        "start": 40,
+        "end": 43
+      },
+      "V2093859": {
+        "id": "V2093859",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "THAT",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "THAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 46,
+        "end": 51
+      },
+      "root": "#V2094350"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+349",
+    "*last-utt-id*=349  utt-id+349",
+    "*last-utt-id*=349  utt-id+NIL"
+  ]
+}

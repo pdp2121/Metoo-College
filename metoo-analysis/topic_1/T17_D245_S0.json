@@ -1,0 +1,184 @@
+{
+  "parse": [
+    {
+      "V2842031": {
+        "id": "V2842031",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2838929",
+          "MOD": "#V2838767",
+          "LEX": "TWEET"
+        },
+        "start": 0,
+        "end": 42
+      },
+      "V2838767": {
+        "id": "V2838767",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V2842031",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2839448": {
+        "id": "V2839448",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2838777",
+          "LEX": "WAY"
+        },
+        "start": 4,
+        "end": 12
+      },
+      "V2838777": {
+        "id": "V2838777",
+        "indicator": "BARE",
+        "type": "METHOD",
+        "word": "WAY",
+        "roles": {
+          "MOD": "#V2838787",
+          "LEX": "WAY",
+          "WNSENSE": "way%1:04:01::"
+        },
+        "start": 4,
+        "end": 12
+      },
+      "V2838787": {
+        "id": "V2838787",
+        "indicator": "F",
+        "type": "ADDITIVE",
+        "word": "TOO",
+        "roles": {
+          "FIGURE": "#V2838777",
+          "LEX": "TOO",
+          "WNSENSE": "too%4:02:00::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "V2838929": {
+        "id": "V2838929",
+        "indicator": "F",
+        "type": "NONVERBAL-SAY",
+        "word": "TWEET",
+        "roles": {
+          "AGENT": "#V2839367",
+          "TIME": "#V2838827",
+          "TENSE": "PRES",
+          "LEX": "TWEET"
+        },
+        "start": 12,
+        "end": 42
+      },
+      "V2839367": {
+        "id": "V2839367",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUANTITY": "#V2838800",
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "AMOUNT": "MANY",
+          "MOD": "#V2838975",
+          "LEX": "TIMES"
+        },
+        "start": 12,
+        "end": 31
+      },
+      "V2838800": {
+        "id": "V2838800",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "AMOUNT": "MANY",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 12,
+        "end": 24
+      },
+      "V2838975": {
+        "id": "V2838975",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2839367",
+          "GROUND": "#V2838815",
+          "LEX": "LIST"
+        },
+        "start": 24,
+        "end": 31
+      },
+      "V2838815": {
+        "id": "V2838815",
+        "indicator": "KIND",
+        "type": "LIST",
+        "word": "LIST",
+        "roles": {
+          "AMOUNT": "2"
+        },
+        "start": 24,
+        "end": 31
+      },
+      "V2838827": {
+        "id": "V2838827",
+        "indicator": "F",
+        "type": "TIME-IN-REL",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2839794",
+          "FIGURE": "#V2838929",
+          "LEX": "IN"
+        },
+        "start": 31,
+        "end": 36
+      },
+      "V2839794": {
+        "id": "V2839794",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V2839608",
+          "LEX": "A"
+        },
+        "start": 34,
+        "end": 36
+      },
+      "V2839608": {
+        "id": "V2839608",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(A)",
+          "VAL": "(A)",
+          "LEX": "A"
+        },
+        "start": 34,
+        "end": 36
+      },
+      "root": "#V2842031"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+485",
+    "*last-utt-id*=485  utt-id+NIL"
+  ]
+}

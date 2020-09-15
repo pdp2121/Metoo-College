@@ -1,0 +1,115 @@
+{
+  "parse": [
+    {
+      "V618602": {
+        "id": "V618602",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V618065",
+          "LEX": "SONGS"
+        },
+        "start": 0,
+        "end": 37
+      },
+      "V618065": {
+        "id": "V618065",
+        "indicator": "INDEF-SET",
+        "type": "MUSIC",
+        "word": "SONG",
+        "roles": {
+          "SIZE": "#V618063",
+          "MOD": "#V618083",
+          "LEX": "SONGS",
+          "WNSENSE": "song%1:10:00::"
+        },
+        "start": 0,
+        "end": 37
+      },
+      "V618063": {
+        "id": "V618063",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "12"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V618083": {
+        "id": "V618083",
+        "indicator": "F",
+        "type": "ENCOURAGE",
+        "word": "ENCOURAGE",
+        "roles": {
+          "AGENT": "#V618065",
+          "AFFECTED": "#V618087",
+          "FORMAL": "#V618121",
+          "TENSE": "PRES",
+          "LEX": "ENCOURAGE",
+          "WNSENSE": "egg_on%2:35:00"
+        },
+        "start": 9,
+        "end": 37
+      },
+      "V618087": {
+        "id": "V618087",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "LEX": "WOMEN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 24,
+        "end": 30
+      },
+      "V618121": {
+        "id": "V618121",
+        "indicator": "F",
+        "type": "SAY",
+        "word": "SAY",
+        "roles": {
+          "AGENT": "#V618087",
+          "NEUTRAL": "#V618496",
+          "VFORM": "BASE",
+          "LEX": "SAY",
+          "WNSENSE": "say%2:32:01::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V618496": {
+        "id": "V618496",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V618143"
+        },
+        "start": 37,
+        "end": 37
+      },
+      "V618143": {
+        "id": "V618143",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "|...|",
+        "roles": {
+          "LEX": "|...|",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 37,
+        "end": 37
+      },
+      "root": "#V618602"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+94",
+    "*last-utt-id*=94  utt-id+NIL"
+  ]
+}

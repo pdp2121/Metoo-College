@@ -1,0 +1,6434 @@
+{
+  "parse": [
+    {
+      "V443491": {
+        "id": "V443491",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V439753",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439753": {
+        "id": "V439753",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "MOD1": "#V439360",
+          "TIME": "#V442408",
+          "NEUTRAL": "#V442253",
+          "NEUTRAL1": "#V440190",
+          "LOCATION": "#V439503",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439360": {
+        "id": "V439360",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "APPARENT",
+        "roles": {
+          "FIGURE": "#V439753",
+          "LEX": "APPARENTLY"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V442408": {
+        "id": "V442408",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439753",
+          "GROUND": "#V439364",
+          "LEX": "RESPONDING"
+        },
+        "start": 11,
+        "end": 40
+      },
+      "V439364": {
+        "id": "V439364",
+        "indicator": "F",
+        "type": "ANSWER",
+        "word": "RESPOND",
+        "roles": {
+          "AGENT1": "#V439440",
+          "MANNER": "#V439371",
+          "VFORM": "ING",
+          "LEX": "RESPONDING",
+          "WNSENSE": "respond%2:32:00::"
+        },
+        "start": 11,
+        "end": 40
+      },
+      "V439371": {
+        "id": "V439371",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "POLITELY",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "POLITELY",
+          "WNSENSE": "politely%4:02:00::"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "V439440": {
+        "id": "V439440",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 31,
+        "end": 40
+      },
+      "V439503": {
+        "id": "V439503",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V439608",
+          "FIGURE": "#V439753",
+          "LEX": "AT"
+        },
+        "start": 40,
+        "end": 54
+      },
+      "V439608": {
+        "id": "V439608",
+        "indicator": "A",
+        "type": "PLACE",
+        "word": "BUS-STOP",
+        "roles": {
+          "LEX": "BUS-STOP",
+          "WNSENSE": "bus_stop%1:15:00"
+        },
+        "start": 43,
+        "end": 54
+      },
+      "V442253": {
+        "id": "V442253",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439611"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439611": {
+        "id": "V439611",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "SUCHTHAT": "#V439616",
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439616": {
+        "id": "V439616",
+        "indicator": "F",
+        "type": "ASK-QUESTION",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V439611",
+          "FORMAL": "#V441510",
+          "AFFECTED": "#V439629",
+          "TENSE": "PAST",
+          "LEX": "ASKED",
+          "WNSENSE": "ask%2:32:02::"
+        },
+        "start": 58,
+        "end": 98
+      },
+      "V439629": {
+        "id": "V439629",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 64,
+        "end": 67
+      },
+      "V441510": {
+        "id": "V441510",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439675"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439675": {
+        "id": "V439675",
+        "indicator": "WH-TERM",
+        "type": "ROUTE",
+        "word": "BUS-ROUTE",
+        "roles": {
+          "SUCHTHAT": "#V439710",
+          "QUAN": "WHICH",
+          "LEX": "BUS-ROUTE",
+          "WNSENSE": "bus_route%1:15:00"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439710": {
+        "id": "V439710",
+        "indicator": "F",
+        "type": "MOVE-BY-MEANS",
+        "word": "TAKE",
+        "roles": {
+          "AGENT": "#V439678",
+          "FORMAL": "#V439675",
+          "TENSE": "PAST",
+          "MODALITY": "(:* SHOULD SHOULD)",
+          "LEX": "TAKE",
+          "WNSENSE": "take%2:38:02::"
+        },
+        "start": 83,
+        "end": 98
+      },
+      "V439678": {
+        "id": "V439678",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00",
+          "COREF": "#V439440"
+        },
+        "start": 83,
+        "end": 86
+      },
+      "V440190": {
+        "id": "V440190",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "ENOUGH",
+          "LEX": "ENOUGH"
+        },
+        "start": 102,
+        "end": 109
+      },
+      "root": "#V443491"
+    },
+    {
+      "V442137": {
+        "id": "V442137",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V439785",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 134
+      },
+      "V439785": {
+        "id": "V439785",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V439804",
+          "FIGURE": "#V442138",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 134
+      },
+      "V442138": {
+        "id": "V442138",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "COREF": "#V439608"
+        },
+        "start": 109,
+        "end": 134
+      },
+      "V439804": {
+        "id": "V439804",
+        "indicator": "F",
+        "type": "ARRANGE-TEXT",
+        "word": "JUSTIFY",
+        "roles": {
+          "AFFECTED": "#V439811",
+          "VFORM": "BASE",
+          "LEX": "JUSTIFY"
+        },
+        "start": 112,
+        "end": 134
+      },
+      "V439811": {
+        "id": "V439811",
+        "indicator": "WH-TERM-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V439819",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 120,
+        "end": 134
+      },
+      "V439819": {
+        "id": "V439819",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V439811",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 125,
+        "end": 134
+      },
+      "root": "#V442137"
+    },
+    {
+      "V443491": {
+        "id": "V443491",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V439753",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439753": {
+        "id": "V439753",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "MOD1": "#V439360",
+          "TIME": "#V442408",
+          "NEUTRAL": "#V442253",
+          "NEUTRAL1": "#V440190",
+          "LOCATION": "#V439503",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439360": {
+        "id": "V439360",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "APPARENT",
+        "roles": {
+          "FIGURE": "#V439753",
+          "LEX": "APPARENTLY"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V442408": {
+        "id": "V442408",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439753",
+          "GROUND": "#V439364",
+          "LEX": "RESPONDING"
+        },
+        "start": 11,
+        "end": 40
+      },
+      "V439364": {
+        "id": "V439364",
+        "indicator": "F",
+        "type": "ANSWER",
+        "word": "RESPOND",
+        "roles": {
+          "AGENT1": "#V439440",
+          "MANNER": "#V439371",
+          "VFORM": "ING",
+          "LEX": "RESPONDING",
+          "WNSENSE": "respond%2:32:00::"
+        },
+        "start": 11,
+        "end": 40
+      },
+      "V439371": {
+        "id": "V439371",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "POLITELY",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "POLITELY",
+          "WNSENSE": "politely%4:02:00::"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "V439440": {
+        "id": "V439440",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 31,
+        "end": 40
+      },
+      "V439503": {
+        "id": "V439503",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V439608",
+          "FIGURE": "#V439753",
+          "LEX": "AT"
+        },
+        "start": 40,
+        "end": 54
+      },
+      "V439608": {
+        "id": "V439608",
+        "indicator": "A",
+        "type": "PLACE",
+        "word": "BUS-STOP",
+        "roles": {
+          "LEX": "BUS-STOP",
+          "WNSENSE": "bus_stop%1:15:00"
+        },
+        "start": 43,
+        "end": 54
+      },
+      "V442253": {
+        "id": "V442253",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439611"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439611": {
+        "id": "V439611",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "SUCHTHAT": "#V439616",
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439616": {
+        "id": "V439616",
+        "indicator": "F",
+        "type": "ASK-QUESTION",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V439611",
+          "FORMAL": "#V441510",
+          "AFFECTED": "#V439629",
+          "TENSE": "PAST",
+          "LEX": "ASKED",
+          "WNSENSE": "ask%2:32:02::"
+        },
+        "start": 58,
+        "end": 98
+      },
+      "V439629": {
+        "id": "V439629",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 67
+      },
+      "V441510": {
+        "id": "V441510",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439675"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439675": {
+        "id": "V439675",
+        "indicator": "WH-TERM",
+        "type": "ROUTE",
+        "word": "BUS-ROUTE",
+        "roles": {
+          "SUCHTHAT": "#V439710",
+          "QUAN": "WHICH",
+          "LEX": "BUS-ROUTE",
+          "WNSENSE": "bus_route%1:15:00"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439710": {
+        "id": "V439710",
+        "indicator": "F",
+        "type": "MOVE-BY-MEANS",
+        "word": "TAKE",
+        "roles": {
+          "AGENT": "#V439678",
+          "FORMAL": "#V439675",
+          "TENSE": "PAST",
+          "MODALITY": "(:* SHOULD SHOULD)",
+          "LEX": "TAKE",
+          "WNSENSE": "take%2:38:02::"
+        },
+        "start": 83,
+        "end": 98
+      },
+      "V439678": {
+        "id": "V439678",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 83,
+        "end": 86
+      },
+      "V440190": {
+        "id": "V440190",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "ENOUGH",
+          "LEX": "ENOUGH"
+        },
+        "start": 102,
+        "end": 109
+      },
+      "root": "#V443491"
+    },
+    {
+      "V442133": {
+        "id": "V442133",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V439785",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 135
+      },
+      "V439785": {
+        "id": "V439785",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V439804",
+          "FIGURE": "#V442134",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 134
+      },
+      "V442134": {
+        "id": "V442134",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 109,
+        "end": 134
+      },
+      "V439804": {
+        "id": "V439804",
+        "indicator": "F",
+        "type": "ARRANGE-TEXT",
+        "word": "JUSTIFY",
+        "roles": {
+          "AFFECTED": "#V439810",
+          "VFORM": "BASE",
+          "LEX": "JUSTIFY"
+        },
+        "start": 112,
+        "end": 134
+      },
+      "V439810": {
+        "id": "V439810",
+        "indicator": "WH-TERM",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V439819",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 120,
+        "end": 134
+      },
+      "V439819": {
+        "id": "V439819",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V439810",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 125,
+        "end": 134
+      },
+      "root": "#V442133"
+    },
+    {
+      "V443426": {
+        "id": "V443426",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V439753",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439753": {
+        "id": "V439753",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "MOD1": "#V439360",
+          "TIME": "#V442408",
+          "NEUTRAL": "#V442251",
+          "NEUTRAL1": "#V440190",
+          "LOCATION": "#V439503",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439360": {
+        "id": "V439360",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "APPARENT",
+        "roles": {
+          "FIGURE": "#V439753",
+          "LEX": "APPARENTLY"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V442408": {
+        "id": "V442408",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439753",
+          "GROUND": "#V439364",
+          "LEX": "RESPONDING"
+        },
+        "start": 11,
+        "end": 40
+      },
+      "V439364": {
+        "id": "V439364",
+        "indicator": "F",
+        "type": "ANSWER",
+        "word": "RESPOND",
+        "roles": {
+          "AGENT1": "#V439440",
+          "MANNER": "#V439371",
+          "VFORM": "ING",
+          "LEX": "RESPONDING",
+          "WNSENSE": "respond%2:32:00::"
+        },
+        "start": 11,
+        "end": 40
+      },
+      "V439371": {
+        "id": "V439371",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "POLITELY",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "POLITELY",
+          "WNSENSE": "politely%4:02:00::"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "V439440": {
+        "id": "V439440",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 31,
+        "end": 40
+      },
+      "V439503": {
+        "id": "V439503",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V439608",
+          "FIGURE": "#V439753",
+          "LEX": "AT"
+        },
+        "start": 40,
+        "end": 54
+      },
+      "V439608": {
+        "id": "V439608",
+        "indicator": "A",
+        "type": "PLACE",
+        "word": "BUS-STOP",
+        "roles": {
+          "LEX": "BUS-STOP",
+          "WNSENSE": "bus_stop%1:15:00"
+        },
+        "start": 43,
+        "end": 54
+      },
+      "V442251": {
+        "id": "V442251",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439611"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439611": {
+        "id": "V439611",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "SUCHTHAT": "#V439616",
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439616": {
+        "id": "V439616",
+        "indicator": "F",
+        "type": "ASK-QUESTION",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V439611",
+          "FORMAL": "#V441508",
+          "AFFECTED": "#V439629",
+          "TENSE": "PAST",
+          "LEX": "ASKED",
+          "WNSENSE": "ask%2:32:02::"
+        },
+        "start": 58,
+        "end": 98
+      },
+      "V439629": {
+        "id": "V439629",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 67
+      },
+      "V441508": {
+        "id": "V441508",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439675"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439675": {
+        "id": "V439675",
+        "indicator": "WH-TERM",
+        "type": "ROUTE",
+        "word": "BUS-ROUTE",
+        "roles": {
+          "SUCHTHAT": "#V439710",
+          "QUAN": "WHICH",
+          "LEX": "BUS-ROUTE",
+          "WNSENSE": "bus_route%1:15:00"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439710": {
+        "id": "V439710",
+        "indicator": "F",
+        "type": "MOVE-BY-MEANS",
+        "word": "TAKE",
+        "roles": {
+          "AGENT": "#V439678",
+          "FORMAL": "#V439675",
+          "TENSE": "PRES",
+          "MODALITY": "(:* SHOULD SHOULD)",
+          "LEX": "TAKE",
+          "WNSENSE": "take%2:38:02::"
+        },
+        "start": 83,
+        "end": 98
+      },
+      "V439678": {
+        "id": "V439678",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 83,
+        "end": 86
+      },
+      "V440190": {
+        "id": "V440190",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "ENOUGH",
+          "LEX": "ENOUGH"
+        },
+        "start": 102,
+        "end": 109
+      },
+      "root": "#V443426"
+    },
+    {
+      "V442137": {
+        "id": "V442137",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V439785",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 135
+      },
+      "V439785": {
+        "id": "V439785",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V439804",
+          "FIGURE": "#V442138",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 134
+      },
+      "V442138": {
+        "id": "V442138",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 109,
+        "end": 134
+      },
+      "V439804": {
+        "id": "V439804",
+        "indicator": "F",
+        "type": "ARRANGE-TEXT",
+        "word": "JUSTIFY",
+        "roles": {
+          "AFFECTED": "#V439811",
+          "VFORM": "BASE",
+          "LEX": "JUSTIFY"
+        },
+        "start": 112,
+        "end": 134
+      },
+      "V439811": {
+        "id": "V439811",
+        "indicator": "WH-TERM-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V439819",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 120,
+        "end": 134
+      },
+      "V439819": {
+        "id": "V439819",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V439811",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 125,
+        "end": 134
+      },
+      "root": "#V442137"
+    },
+    {
+      "V443426": {
+        "id": "V443426",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V439753",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439753": {
+        "id": "V439753",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "MOD1": "#V439360",
+          "TIME": "#V442408",
+          "NEUTRAL": "#V442251",
+          "NEUTRAL1": "#V440190",
+          "LOCATION": "#V439503",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439360": {
+        "id": "V439360",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "APPARENT",
+        "roles": {
+          "FIGURE": "#V439753",
+          "LEX": "APPARENTLY"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V442408": {
+        "id": "V442408",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439753",
+          "GROUND": "#V439364",
+          "LEX": "RESPONDING"
+        },
+        "start": 11,
+        "end": 40
+      },
+      "V439364": {
+        "id": "V439364",
+        "indicator": "F",
+        "type": "ANSWER",
+        "word": "RESPOND",
+        "roles": {
+          "AGENT1": "#V439440",
+          "MANNER": "#V439371",
+          "VFORM": "ING",
+          "LEX": "RESPONDING",
+          "WNSENSE": "respond%2:32:00::"
+        },
+        "start": 11,
+        "end": 40
+      },
+      "V439371": {
+        "id": "V439371",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "POLITELY",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "POLITELY",
+          "WNSENSE": "politely%4:02:00::"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "V439440": {
+        "id": "V439440",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 31,
+        "end": 40
+      },
+      "V439503": {
+        "id": "V439503",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V439608",
+          "FIGURE": "#V439753",
+          "LEX": "AT"
+        },
+        "start": 40,
+        "end": 54
+      },
+      "V439608": {
+        "id": "V439608",
+        "indicator": "A",
+        "type": "PLACE",
+        "word": "BUS-STOP",
+        "roles": {
+          "LEX": "BUS-STOP",
+          "WNSENSE": "bus_stop%1:15:00"
+        },
+        "start": 43,
+        "end": 54
+      },
+      "V442251": {
+        "id": "V442251",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439611"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439611": {
+        "id": "V439611",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "SUCHTHAT": "#V439616",
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439616": {
+        "id": "V439616",
+        "indicator": "F",
+        "type": "ASK-QUESTION",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V439611",
+          "FORMAL": "#V441508",
+          "AFFECTED": "#V439629",
+          "TENSE": "PAST",
+          "LEX": "ASKED",
+          "WNSENSE": "ask%2:32:02::"
+        },
+        "start": 58,
+        "end": 98
+      },
+      "V439629": {
+        "id": "V439629",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 67
+      },
+      "V441508": {
+        "id": "V441508",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439675"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439675": {
+        "id": "V439675",
+        "indicator": "WH-TERM",
+        "type": "ROUTE",
+        "word": "BUS-ROUTE",
+        "roles": {
+          "SUCHTHAT": "#V439710",
+          "QUAN": "WHICH",
+          "LEX": "BUS-ROUTE",
+          "WNSENSE": "bus_route%1:15:00"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439710": {
+        "id": "V439710",
+        "indicator": "F",
+        "type": "MOVE-BY-MEANS",
+        "word": "TAKE",
+        "roles": {
+          "AGENT": "#V439678",
+          "FORMAL": "#V439675",
+          "TENSE": "PRES",
+          "MODALITY": "(:* SHOULD SHOULD)",
+          "LEX": "TAKE",
+          "WNSENSE": "take%2:38:02::"
+        },
+        "start": 83,
+        "end": 98
+      },
+      "V439678": {
+        "id": "V439678",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 83,
+        "end": 86
+      },
+      "V440190": {
+        "id": "V440190",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "ENOUGH",
+          "LEX": "ENOUGH"
+        },
+        "start": 102,
+        "end": 109
+      },
+      "root": "#V443426"
+    },
+    {
+      "V442133": {
+        "id": "V442133",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V439785",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 135
+      },
+      "V439785": {
+        "id": "V439785",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V439804",
+          "FIGURE": "#V442134",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 134
+      },
+      "V442134": {
+        "id": "V442134",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 109,
+        "end": 134
+      },
+      "V439804": {
+        "id": "V439804",
+        "indicator": "F",
+        "type": "ARRANGE-TEXT",
+        "word": "JUSTIFY",
+        "roles": {
+          "AFFECTED": "#V439810",
+          "VFORM": "BASE",
+          "LEX": "JUSTIFY"
+        },
+        "start": 112,
+        "end": 134
+      },
+      "V439810": {
+        "id": "V439810",
+        "indicator": "WH-TERM",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V439819",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 120,
+        "end": 134
+      },
+      "V439819": {
+        "id": "V439819",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V439810",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 125,
+        "end": 134
+      },
+      "root": "#V442133"
+    },
+    {
+      "V443361": {
+        "id": "V443361",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V439753",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439753": {
+        "id": "V439753",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "MOD1": "#V439360",
+          "TIME": "#V442408",
+          "NEUTRAL": "#V442249",
+          "NEUTRAL1": "#V440190",
+          "LOCATION": "#V439503",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439360": {
+        "id": "V439360",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "APPARENT",
+        "roles": {
+          "FIGURE": "#V439753",
+          "LEX": "APPARENTLY"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V442408": {
+        "id": "V442408",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439753",
+          "GROUND": "#V439364",
+          "LEX": "RESPONDING"
+        },
+        "start": 11,
+        "end": 40
+      },
+      "V439364": {
+        "id": "V439364",
+        "indicator": "F",
+        "type": "ANSWER",
+        "word": "RESPOND",
+        "roles": {
+          "AGENT1": "#V439440",
+          "MANNER": "#V439371",
+          "VFORM": "ING",
+          "LEX": "RESPONDING",
+          "WNSENSE": "respond%2:32:00::"
+        },
+        "start": 11,
+        "end": 40
+      },
+      "V439371": {
+        "id": "V439371",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "POLITELY",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "POLITELY",
+          "WNSENSE": "politely%4:02:00::"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "V439440": {
+        "id": "V439440",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 31,
+        "end": 40
+      },
+      "V439503": {
+        "id": "V439503",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V439608",
+          "FIGURE": "#V439753",
+          "LEX": "AT"
+        },
+        "start": 40,
+        "end": 54
+      },
+      "V439608": {
+        "id": "V439608",
+        "indicator": "A",
+        "type": "PLACE",
+        "word": "BUS-STOP",
+        "roles": {
+          "LEX": "BUS-STOP",
+          "WNSENSE": "bus_stop%1:15:00"
+        },
+        "start": 43,
+        "end": 54
+      },
+      "V442249": {
+        "id": "V442249",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439611"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439611": {
+        "id": "V439611",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "SUCHTHAT": "#V439616",
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439616": {
+        "id": "V439616",
+        "indicator": "F",
+        "type": "ASK-QUESTION",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V439611",
+          "FORMAL": "#V441506",
+          "AFFECTED": "#V439629",
+          "TENSE": "PAST",
+          "LEX": "ASKED",
+          "WNSENSE": "ask%2:32:02::"
+        },
+        "start": 58,
+        "end": 98
+      },
+      "V439629": {
+        "id": "V439629",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 67
+      },
+      "V441506": {
+        "id": "V441506",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439675"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439675": {
+        "id": "V439675",
+        "indicator": "WH-TERM",
+        "type": "ROUTE",
+        "word": "BUS-ROUTE",
+        "roles": {
+          "SUCHTHAT": "#V439714",
+          "QUAN": "WHICH",
+          "LEX": "BUS-ROUTE",
+          "WNSENSE": "bus_route%1:15:00"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439714": {
+        "id": "V439714",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "TAKE",
+        "roles": {
+          "AGENT": "#V439678",
+          "AFFECTED-RESULT": "#V439675",
+          "TENSE": "PAST",
+          "MODALITY": "(:* SHOULD SHOULD)",
+          "LEX": "TAKE",
+          "WNSENSE": "create%2:36:00"
+        },
+        "start": 83,
+        "end": 98
+      },
+      "V439678": {
+        "id": "V439678",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 83,
+        "end": 86
+      },
+      "V440190": {
+        "id": "V440190",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "ENOUGH",
+          "LEX": "ENOUGH"
+        },
+        "start": 102,
+        "end": 109
+      },
+      "root": "#V443361"
+    },
+    {
+      "V442137": {
+        "id": "V442137",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V439785",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 135
+      },
+      "V439785": {
+        "id": "V439785",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V439804",
+          "FIGURE": "#V442138",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 134
+      },
+      "V442138": {
+        "id": "V442138",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 109,
+        "end": 134
+      },
+      "V439804": {
+        "id": "V439804",
+        "indicator": "F",
+        "type": "ARRANGE-TEXT",
+        "word": "JUSTIFY",
+        "roles": {
+          "AFFECTED": "#V439811",
+          "VFORM": "BASE",
+          "LEX": "JUSTIFY"
+        },
+        "start": 112,
+        "end": 134
+      },
+      "V439811": {
+        "id": "V439811",
+        "indicator": "WH-TERM-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V439819",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 120,
+        "end": 134
+      },
+      "V439819": {
+        "id": "V439819",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V439811",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 125,
+        "end": 134
+      },
+      "root": "#V442137"
+    },
+    {
+      "V443361": {
+        "id": "V443361",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V439753",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439753": {
+        "id": "V439753",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "MOD1": "#V439360",
+          "TIME": "#V442408",
+          "NEUTRAL": "#V442249",
+          "NEUTRAL1": "#V440190",
+          "LOCATION": "#V439503",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439360": {
+        "id": "V439360",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "APPARENT",
+        "roles": {
+          "FIGURE": "#V439753",
+          "LEX": "APPARENTLY"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V442408": {
+        "id": "V442408",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439753",
+          "GROUND": "#V439364",
+          "LEX": "RESPONDING"
+        },
+        "start": 11,
+        "end": 40
+      },
+      "V439364": {
+        "id": "V439364",
+        "indicator": "F",
+        "type": "ANSWER",
+        "word": "RESPOND",
+        "roles": {
+          "AGENT1": "#V439440",
+          "MANNER": "#V439371",
+          "VFORM": "ING",
+          "LEX": "RESPONDING",
+          "WNSENSE": "respond%2:32:00::"
+        },
+        "start": 11,
+        "end": 40
+      },
+      "V439371": {
+        "id": "V439371",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "POLITELY",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "POLITELY",
+          "WNSENSE": "politely%4:02:00::"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "V439440": {
+        "id": "V439440",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 31,
+        "end": 40
+      },
+      "V439503": {
+        "id": "V439503",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V439608",
+          "FIGURE": "#V439753",
+          "LEX": "AT"
+        },
+        "start": 40,
+        "end": 54
+      },
+      "V439608": {
+        "id": "V439608",
+        "indicator": "A",
+        "type": "PLACE",
+        "word": "BUS-STOP",
+        "roles": {
+          "LEX": "BUS-STOP",
+          "WNSENSE": "bus_stop%1:15:00"
+        },
+        "start": 43,
+        "end": 54
+      },
+      "V442249": {
+        "id": "V442249",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439611"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439611": {
+        "id": "V439611",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "SUCHTHAT": "#V439616",
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439616": {
+        "id": "V439616",
+        "indicator": "F",
+        "type": "ASK-QUESTION",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V439611",
+          "FORMAL": "#V441506",
+          "AFFECTED": "#V439629",
+          "TENSE": "PAST",
+          "LEX": "ASKED",
+          "WNSENSE": "ask%2:32:02::"
+        },
+        "start": 58,
+        "end": 98
+      },
+      "V439629": {
+        "id": "V439629",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 67
+      },
+      "V441506": {
+        "id": "V441506",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439675"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439675": {
+        "id": "V439675",
+        "indicator": "WH-TERM",
+        "type": "ROUTE",
+        "word": "BUS-ROUTE",
+        "roles": {
+          "SUCHTHAT": "#V439714",
+          "QUAN": "WHICH",
+          "LEX": "BUS-ROUTE",
+          "WNSENSE": "bus_route%1:15:00"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439714": {
+        "id": "V439714",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "TAKE",
+        "roles": {
+          "AGENT": "#V439678",
+          "AFFECTED-RESULT": "#V439675",
+          "TENSE": "PAST",
+          "MODALITY": "(:* SHOULD SHOULD)",
+          "LEX": "TAKE",
+          "WNSENSE": "create%2:36:00"
+        },
+        "start": 83,
+        "end": 98
+      },
+      "V439678": {
+        "id": "V439678",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 83,
+        "end": 86
+      },
+      "V440190": {
+        "id": "V440190",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "ENOUGH",
+          "LEX": "ENOUGH"
+        },
+        "start": 102,
+        "end": 109
+      },
+      "root": "#V443361"
+    },
+    {
+      "V442133": {
+        "id": "V442133",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V439785",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 135
+      },
+      "V439785": {
+        "id": "V439785",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V439804",
+          "FIGURE": "#V442134",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 134
+      },
+      "V442134": {
+        "id": "V442134",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 109,
+        "end": 134
+      },
+      "V439804": {
+        "id": "V439804",
+        "indicator": "F",
+        "type": "ARRANGE-TEXT",
+        "word": "JUSTIFY",
+        "roles": {
+          "AFFECTED": "#V439810",
+          "VFORM": "BASE",
+          "LEX": "JUSTIFY"
+        },
+        "start": 112,
+        "end": 134
+      },
+      "V439810": {
+        "id": "V439810",
+        "indicator": "WH-TERM",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V439819",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 120,
+        "end": 134
+      },
+      "V439819": {
+        "id": "V439819",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V439810",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 125,
+        "end": 134
+      },
+      "root": "#V442133"
+    },
+    {
+      "V443296": {
+        "id": "V443296",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V439753",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439753": {
+        "id": "V439753",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "MOD1": "#V439360",
+          "TIME": "#V442408",
+          "NEUTRAL": "#V442247",
+          "NEUTRAL1": "#V440190",
+          "LOCATION": "#V439503",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439360": {
+        "id": "V439360",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "APPARENT",
+        "roles": {
+          "FIGURE": "#V439753",
+          "LEX": "APPARENTLY"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V442408": {
+        "id": "V442408",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439753",
+          "GROUND": "#V439364",
+          "LEX": "RESPONDING"
+        },
+        "start": 11,
+        "end": 40
+      },
+      "V439364": {
+        "id": "V439364",
+        "indicator": "F",
+        "type": "ANSWER",
+        "word": "RESPOND",
+        "roles": {
+          "AGENT1": "#V439440",
+          "MANNER": "#V439371",
+          "VFORM": "ING",
+          "LEX": "RESPONDING",
+          "WNSENSE": "respond%2:32:00::"
+        },
+        "start": 11,
+        "end": 40
+      },
+      "V439371": {
+        "id": "V439371",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "POLITELY",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "POLITELY",
+          "WNSENSE": "politely%4:02:00::"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "V439440": {
+        "id": "V439440",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 31,
+        "end": 40
+      },
+      "V439503": {
+        "id": "V439503",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V439608",
+          "FIGURE": "#V439753",
+          "LEX": "AT"
+        },
+        "start": 40,
+        "end": 54
+      },
+      "V439608": {
+        "id": "V439608",
+        "indicator": "A",
+        "type": "PLACE",
+        "word": "BUS-STOP",
+        "roles": {
+          "LEX": "BUS-STOP",
+          "WNSENSE": "bus_stop%1:15:00"
+        },
+        "start": 43,
+        "end": 54
+      },
+      "V442247": {
+        "id": "V442247",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439611"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439611": {
+        "id": "V439611",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "SUCHTHAT": "#V439616",
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439616": {
+        "id": "V439616",
+        "indicator": "F",
+        "type": "ASK-QUESTION",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V439611",
+          "FORMAL": "#V441504",
+          "AFFECTED": "#V439629",
+          "TENSE": "PAST",
+          "LEX": "ASKED",
+          "WNSENSE": "ask%2:32:02::"
+        },
+        "start": 58,
+        "end": 98
+      },
+      "V439629": {
+        "id": "V439629",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 67
+      },
+      "V441504": {
+        "id": "V441504",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439675"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439675": {
+        "id": "V439675",
+        "indicator": "WH-TERM",
+        "type": "ROUTE",
+        "word": "BUS-ROUTE",
+        "roles": {
+          "SUCHTHAT": "#V439714",
+          "QUAN": "WHICH",
+          "LEX": "BUS-ROUTE",
+          "WNSENSE": "bus_route%1:15:00"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439714": {
+        "id": "V439714",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "TAKE",
+        "roles": {
+          "AGENT": "#V439678",
+          "AFFECTED-RESULT": "#V439675",
+          "TENSE": "PRES",
+          "MODALITY": "(:* SHOULD SHOULD)",
+          "LEX": "TAKE",
+          "WNSENSE": "create%2:36:00"
+        },
+        "start": 83,
+        "end": 98
+      },
+      "V439678": {
+        "id": "V439678",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 83,
+        "end": 86
+      },
+      "V440190": {
+        "id": "V440190",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "ENOUGH",
+          "LEX": "ENOUGH"
+        },
+        "start": 102,
+        "end": 109
+      },
+      "root": "#V443296"
+    },
+    {
+      "V442137": {
+        "id": "V442137",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V439785",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 135
+      },
+      "V439785": {
+        "id": "V439785",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V439804",
+          "FIGURE": "#V442138",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 134
+      },
+      "V442138": {
+        "id": "V442138",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 109,
+        "end": 134
+      },
+      "V439804": {
+        "id": "V439804",
+        "indicator": "F",
+        "type": "ARRANGE-TEXT",
+        "word": "JUSTIFY",
+        "roles": {
+          "AFFECTED": "#V439811",
+          "VFORM": "BASE",
+          "LEX": "JUSTIFY"
+        },
+        "start": 112,
+        "end": 134
+      },
+      "V439811": {
+        "id": "V439811",
+        "indicator": "WH-TERM-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V439819",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 120,
+        "end": 134
+      },
+      "V439819": {
+        "id": "V439819",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V439811",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 125,
+        "end": 134
+      },
+      "root": "#V442137"
+    },
+    {
+      "V443296": {
+        "id": "V443296",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V439753",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439753": {
+        "id": "V439753",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "MOD1": "#V439360",
+          "TIME": "#V442408",
+          "NEUTRAL": "#V442247",
+          "NEUTRAL1": "#V440190",
+          "LOCATION": "#V439503",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439360": {
+        "id": "V439360",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "APPARENT",
+        "roles": {
+          "FIGURE": "#V439753",
+          "LEX": "APPARENTLY"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V442408": {
+        "id": "V442408",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439753",
+          "GROUND": "#V439364",
+          "LEX": "RESPONDING"
+        },
+        "start": 11,
+        "end": 40
+      },
+      "V439364": {
+        "id": "V439364",
+        "indicator": "F",
+        "type": "ANSWER",
+        "word": "RESPOND",
+        "roles": {
+          "AGENT1": "#V439440",
+          "MANNER": "#V439371",
+          "VFORM": "ING",
+          "LEX": "RESPONDING",
+          "WNSENSE": "respond%2:32:00::"
+        },
+        "start": 11,
+        "end": 40
+      },
+      "V439371": {
+        "id": "V439371",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "POLITELY",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "POLITELY",
+          "WNSENSE": "politely%4:02:00::"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "V439440": {
+        "id": "V439440",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 31,
+        "end": 40
+      },
+      "V439503": {
+        "id": "V439503",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V439608",
+          "FIGURE": "#V439753",
+          "LEX": "AT"
+        },
+        "start": 40,
+        "end": 54
+      },
+      "V439608": {
+        "id": "V439608",
+        "indicator": "A",
+        "type": "PLACE",
+        "word": "BUS-STOP",
+        "roles": {
+          "LEX": "BUS-STOP",
+          "WNSENSE": "bus_stop%1:15:00"
+        },
+        "start": 43,
+        "end": 54
+      },
+      "V442247": {
+        "id": "V442247",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439611"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439611": {
+        "id": "V439611",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "SUCHTHAT": "#V439616",
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439616": {
+        "id": "V439616",
+        "indicator": "F",
+        "type": "ASK-QUESTION",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V439611",
+          "FORMAL": "#V441504",
+          "AFFECTED": "#V439629",
+          "TENSE": "PAST",
+          "LEX": "ASKED",
+          "WNSENSE": "ask%2:32:02::"
+        },
+        "start": 58,
+        "end": 98
+      },
+      "V439629": {
+        "id": "V439629",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 67
+      },
+      "V441504": {
+        "id": "V441504",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439675"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439675": {
+        "id": "V439675",
+        "indicator": "WH-TERM",
+        "type": "ROUTE",
+        "word": "BUS-ROUTE",
+        "roles": {
+          "SUCHTHAT": "#V439714",
+          "QUAN": "WHICH",
+          "LEX": "BUS-ROUTE",
+          "WNSENSE": "bus_route%1:15:00"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439714": {
+        "id": "V439714",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "TAKE",
+        "roles": {
+          "AGENT": "#V439678",
+          "AFFECTED-RESULT": "#V439675",
+          "TENSE": "PRES",
+          "MODALITY": "(:* SHOULD SHOULD)",
+          "LEX": "TAKE",
+          "WNSENSE": "create%2:36:00"
+        },
+        "start": 83,
+        "end": 98
+      },
+      "V439678": {
+        "id": "V439678",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 83,
+        "end": 86
+      },
+      "V440190": {
+        "id": "V440190",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "ENOUGH",
+          "LEX": "ENOUGH"
+        },
+        "start": 102,
+        "end": 109
+      },
+      "root": "#V443296"
+    },
+    {
+      "V442133": {
+        "id": "V442133",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V439785",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 135
+      },
+      "V439785": {
+        "id": "V439785",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V439804",
+          "FIGURE": "#V442134",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 134
+      },
+      "V442134": {
+        "id": "V442134",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 109,
+        "end": 134
+      },
+      "V439804": {
+        "id": "V439804",
+        "indicator": "F",
+        "type": "ARRANGE-TEXT",
+        "word": "JUSTIFY",
+        "roles": {
+          "AFFECTED": "#V439810",
+          "VFORM": "BASE",
+          "LEX": "JUSTIFY"
+        },
+        "start": 112,
+        "end": 134
+      },
+      "V439810": {
+        "id": "V439810",
+        "indicator": "WH-TERM",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V439819",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 120,
+        "end": 134
+      },
+      "V439819": {
+        "id": "V439819",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V439810",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 125,
+        "end": 134
+      },
+      "root": "#V442133"
+    },
+    {
+      "V443231": {
+        "id": "V443231",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V439753",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439753": {
+        "id": "V439753",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "MOD1": "#V439360",
+          "TIME": "#V442408",
+          "NEUTRAL": "#V442245",
+          "NEUTRAL1": "#V440190",
+          "LOCATION": "#V439503",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439360": {
+        "id": "V439360",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "APPARENT",
+        "roles": {
+          "FIGURE": "#V439753",
+          "LEX": "APPARENTLY"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V442408": {
+        "id": "V442408",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439753",
+          "GROUND": "#V439364",
+          "LEX": "RESPONDING"
+        },
+        "start": 11,
+        "end": 40
+      },
+      "V439364": {
+        "id": "V439364",
+        "indicator": "F",
+        "type": "ANSWER",
+        "word": "RESPOND",
+        "roles": {
+          "AGENT1": "#V439440",
+          "MANNER": "#V439371",
+          "VFORM": "ING",
+          "LEX": "RESPONDING",
+          "WNSENSE": "respond%2:32:00::"
+        },
+        "start": 11,
+        "end": 40
+      },
+      "V439371": {
+        "id": "V439371",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "POLITELY",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "POLITELY",
+          "WNSENSE": "politely%4:02:00::"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "V439440": {
+        "id": "V439440",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 31,
+        "end": 40
+      },
+      "V439503": {
+        "id": "V439503",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V439608",
+          "FIGURE": "#V439753",
+          "LEX": "AT"
+        },
+        "start": 40,
+        "end": 54
+      },
+      "V439608": {
+        "id": "V439608",
+        "indicator": "A",
+        "type": "PLACE",
+        "word": "BUS-STOP",
+        "roles": {
+          "LEX": "BUS-STOP",
+          "WNSENSE": "bus_stop%1:15:00"
+        },
+        "start": 43,
+        "end": 54
+      },
+      "V442245": {
+        "id": "V442245",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439611"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439611": {
+        "id": "V439611",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "SUCHTHAT": "#V439616",
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439616": {
+        "id": "V439616",
+        "indicator": "F",
+        "type": "ASK-QUESTION",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V439611",
+          "FORMAL": "#V441502",
+          "AFFECTED": "#V439629",
+          "TENSE": "PAST",
+          "LEX": "ASKED",
+          "WNSENSE": "ask%2:32:02::"
+        },
+        "start": 58,
+        "end": 98
+      },
+      "V439629": {
+        "id": "V439629",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 67
+      },
+      "V441502": {
+        "id": "V441502",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439675"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439675": {
+        "id": "V439675",
+        "indicator": "WH-TERM",
+        "type": "ROUTE",
+        "word": "BUS-ROUTE",
+        "roles": {
+          "SUCHTHAT": "#V439715",
+          "QUAN": "WHICH",
+          "LEX": "BUS-ROUTE",
+          "WNSENSE": "bus_route%1:15:00"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439715": {
+        "id": "V439715",
+        "indicator": "F",
+        "type": "ACQUIRE",
+        "word": "TAKE",
+        "roles": {
+          "AGENT": "#V439678",
+          "AFFECTED": "#V439675",
+          "TENSE": "PAST",
+          "MODALITY": "(:* SHOULD SHOULD)",
+          "LEX": "TAKE",
+          "WNSENSE": "take%2:30:01::"
+        },
+        "start": 83,
+        "end": 98
+      },
+      "V439678": {
+        "id": "V439678",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 83,
+        "end": 86
+      },
+      "V440190": {
+        "id": "V440190",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "ENOUGH",
+          "LEX": "ENOUGH"
+        },
+        "start": 102,
+        "end": 109
+      },
+      "root": "#V443231"
+    },
+    {
+      "V442137": {
+        "id": "V442137",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V439785",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 135
+      },
+      "V439785": {
+        "id": "V439785",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V439804",
+          "FIGURE": "#V442138",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 134
+      },
+      "V442138": {
+        "id": "V442138",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 109,
+        "end": 134
+      },
+      "V439804": {
+        "id": "V439804",
+        "indicator": "F",
+        "type": "ARRANGE-TEXT",
+        "word": "JUSTIFY",
+        "roles": {
+          "AFFECTED": "#V439811",
+          "VFORM": "BASE",
+          "LEX": "JUSTIFY"
+        },
+        "start": 112,
+        "end": 134
+      },
+      "V439811": {
+        "id": "V439811",
+        "indicator": "WH-TERM-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V439819",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 120,
+        "end": 134
+      },
+      "V439819": {
+        "id": "V439819",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V439811",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 125,
+        "end": 134
+      },
+      "root": "#V442137"
+    },
+    {
+      "V443231": {
+        "id": "V443231",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V439753",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439753": {
+        "id": "V439753",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "MOD1": "#V439360",
+          "TIME": "#V442408",
+          "NEUTRAL": "#V442245",
+          "NEUTRAL1": "#V440190",
+          "LOCATION": "#V439503",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439360": {
+        "id": "V439360",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "APPARENT",
+        "roles": {
+          "FIGURE": "#V439753",
+          "LEX": "APPARENTLY"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V442408": {
+        "id": "V442408",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439753",
+          "GROUND": "#V439364",
+          "LEX": "RESPONDING"
+        },
+        "start": 11,
+        "end": 40
+      },
+      "V439364": {
+        "id": "V439364",
+        "indicator": "F",
+        "type": "ANSWER",
+        "word": "RESPOND",
+        "roles": {
+          "AGENT1": "#V439440",
+          "MANNER": "#V439371",
+          "VFORM": "ING",
+          "LEX": "RESPONDING",
+          "WNSENSE": "respond%2:32:00::"
+        },
+        "start": 11,
+        "end": 40
+      },
+      "V439371": {
+        "id": "V439371",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "POLITELY",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "POLITELY",
+          "WNSENSE": "politely%4:02:00::"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "V439440": {
+        "id": "V439440",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 31,
+        "end": 40
+      },
+      "V439503": {
+        "id": "V439503",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V439608",
+          "FIGURE": "#V439753",
+          "LEX": "AT"
+        },
+        "start": 40,
+        "end": 54
+      },
+      "V439608": {
+        "id": "V439608",
+        "indicator": "A",
+        "type": "PLACE",
+        "word": "BUS-STOP",
+        "roles": {
+          "LEX": "BUS-STOP",
+          "WNSENSE": "bus_stop%1:15:00"
+        },
+        "start": 43,
+        "end": 54
+      },
+      "V442245": {
+        "id": "V442245",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439611"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439611": {
+        "id": "V439611",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "SUCHTHAT": "#V439616",
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439616": {
+        "id": "V439616",
+        "indicator": "F",
+        "type": "ASK-QUESTION",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V439611",
+          "FORMAL": "#V441502",
+          "AFFECTED": "#V439629",
+          "TENSE": "PAST",
+          "LEX": "ASKED",
+          "WNSENSE": "ask%2:32:02::"
+        },
+        "start": 58,
+        "end": 98
+      },
+      "V439629": {
+        "id": "V439629",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 67
+      },
+      "V441502": {
+        "id": "V441502",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439675"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439675": {
+        "id": "V439675",
+        "indicator": "WH-TERM",
+        "type": "ROUTE",
+        "word": "BUS-ROUTE",
+        "roles": {
+          "SUCHTHAT": "#V439715",
+          "QUAN": "WHICH",
+          "LEX": "BUS-ROUTE",
+          "WNSENSE": "bus_route%1:15:00"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439715": {
+        "id": "V439715",
+        "indicator": "F",
+        "type": "ACQUIRE",
+        "word": "TAKE",
+        "roles": {
+          "AGENT": "#V439678",
+          "AFFECTED": "#V439675",
+          "TENSE": "PAST",
+          "MODALITY": "(:* SHOULD SHOULD)",
+          "LEX": "TAKE",
+          "WNSENSE": "take%2:30:01::"
+        },
+        "start": 83,
+        "end": 98
+      },
+      "V439678": {
+        "id": "V439678",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 83,
+        "end": 86
+      },
+      "V440190": {
+        "id": "V440190",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "ENOUGH",
+          "LEX": "ENOUGH"
+        },
+        "start": 102,
+        "end": 109
+      },
+      "root": "#V443231"
+    },
+    {
+      "V442133": {
+        "id": "V442133",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V439785",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 135
+      },
+      "V439785": {
+        "id": "V439785",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V439804",
+          "FIGURE": "#V442134",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 134
+      },
+      "V442134": {
+        "id": "V442134",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 109,
+        "end": 134
+      },
+      "V439804": {
+        "id": "V439804",
+        "indicator": "F",
+        "type": "ARRANGE-TEXT",
+        "word": "JUSTIFY",
+        "roles": {
+          "AFFECTED": "#V439810",
+          "VFORM": "BASE",
+          "LEX": "JUSTIFY"
+        },
+        "start": 112,
+        "end": 134
+      },
+      "V439810": {
+        "id": "V439810",
+        "indicator": "WH-TERM",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V439819",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 120,
+        "end": 134
+      },
+      "V439819": {
+        "id": "V439819",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V439810",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 125,
+        "end": 134
+      },
+      "root": "#V442133"
+    },
+    {
+      "V443166": {
+        "id": "V443166",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V439753",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439753": {
+        "id": "V439753",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "MOD1": "#V439360",
+          "TIME": "#V442408",
+          "NEUTRAL": "#V442243",
+          "NEUTRAL1": "#V440190",
+          "LOCATION": "#V439503",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439360": {
+        "id": "V439360",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "APPARENT",
+        "roles": {
+          "FIGURE": "#V439753",
+          "LEX": "APPARENTLY"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V442408": {
+        "id": "V442408",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439753",
+          "GROUND": "#V439364",
+          "LEX": "RESPONDING"
+        },
+        "start": 11,
+        "end": 40
+      },
+      "V439364": {
+        "id": "V439364",
+        "indicator": "F",
+        "type": "ANSWER",
+        "word": "RESPOND",
+        "roles": {
+          "AGENT1": "#V439440",
+          "MANNER": "#V439371",
+          "VFORM": "ING",
+          "LEX": "RESPONDING",
+          "WNSENSE": "respond%2:32:00::"
+        },
+        "start": 11,
+        "end": 40
+      },
+      "V439371": {
+        "id": "V439371",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "POLITELY",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "POLITELY",
+          "WNSENSE": "politely%4:02:00::"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "V439440": {
+        "id": "V439440",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 31,
+        "end": 40
+      },
+      "V439503": {
+        "id": "V439503",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V439608",
+          "FIGURE": "#V439753",
+          "LEX": "AT"
+        },
+        "start": 40,
+        "end": 54
+      },
+      "V439608": {
+        "id": "V439608",
+        "indicator": "A",
+        "type": "PLACE",
+        "word": "BUS-STOP",
+        "roles": {
+          "LEX": "BUS-STOP",
+          "WNSENSE": "bus_stop%1:15:00"
+        },
+        "start": 43,
+        "end": 54
+      },
+      "V442243": {
+        "id": "V442243",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439611"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439611": {
+        "id": "V439611",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "SUCHTHAT": "#V439616",
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439616": {
+        "id": "V439616",
+        "indicator": "F",
+        "type": "ASK-QUESTION",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V439611",
+          "FORMAL": "#V441500",
+          "AFFECTED": "#V439629",
+          "TENSE": "PAST",
+          "LEX": "ASKED",
+          "WNSENSE": "ask%2:32:02::"
+        },
+        "start": 58,
+        "end": 98
+      },
+      "V439629": {
+        "id": "V439629",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 67
+      },
+      "V441500": {
+        "id": "V441500",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439675"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439675": {
+        "id": "V439675",
+        "indicator": "WH-TERM",
+        "type": "ROUTE",
+        "word": "BUS-ROUTE",
+        "roles": {
+          "SUCHTHAT": "#V439715",
+          "QUAN": "WHICH",
+          "LEX": "BUS-ROUTE",
+          "WNSENSE": "bus_route%1:15:00"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439715": {
+        "id": "V439715",
+        "indicator": "F",
+        "type": "ACQUIRE",
+        "word": "TAKE",
+        "roles": {
+          "AGENT": "#V439678",
+          "AFFECTED": "#V439675",
+          "TENSE": "PRES",
+          "MODALITY": "(:* SHOULD SHOULD)",
+          "LEX": "TAKE",
+          "WNSENSE": "take%2:30:01::"
+        },
+        "start": 83,
+        "end": 98
+      },
+      "V439678": {
+        "id": "V439678",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 83,
+        "end": 86
+      },
+      "V440190": {
+        "id": "V440190",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "ENOUGH",
+          "LEX": "ENOUGH"
+        },
+        "start": 102,
+        "end": 109
+      },
+      "root": "#V443166"
+    },
+    {
+      "V442137": {
+        "id": "V442137",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V439785",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 135
+      },
+      "V439785": {
+        "id": "V439785",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V439804",
+          "FIGURE": "#V442138",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 134
+      },
+      "V442138": {
+        "id": "V442138",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 109,
+        "end": 134
+      },
+      "V439804": {
+        "id": "V439804",
+        "indicator": "F",
+        "type": "ARRANGE-TEXT",
+        "word": "JUSTIFY",
+        "roles": {
+          "AFFECTED": "#V439811",
+          "VFORM": "BASE",
+          "LEX": "JUSTIFY"
+        },
+        "start": 112,
+        "end": 134
+      },
+      "V439811": {
+        "id": "V439811",
+        "indicator": "WH-TERM-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V439819",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 120,
+        "end": 134
+      },
+      "V439819": {
+        "id": "V439819",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V439811",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 125,
+        "end": 134
+      },
+      "root": "#V442137"
+    },
+    {
+      "V443166": {
+        "id": "V443166",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V439753",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439753": {
+        "id": "V439753",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "MOD1": "#V439360",
+          "TIME": "#V442408",
+          "NEUTRAL": "#V442243",
+          "NEUTRAL1": "#V440190",
+          "LOCATION": "#V439503",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439360": {
+        "id": "V439360",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "APPARENT",
+        "roles": {
+          "FIGURE": "#V439753",
+          "LEX": "APPARENTLY"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V442408": {
+        "id": "V442408",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439753",
+          "GROUND": "#V439364",
+          "LEX": "RESPONDING"
+        },
+        "start": 11,
+        "end": 40
+      },
+      "V439364": {
+        "id": "V439364",
+        "indicator": "F",
+        "type": "ANSWER",
+        "word": "RESPOND",
+        "roles": {
+          "AGENT1": "#V439440",
+          "MANNER": "#V439371",
+          "VFORM": "ING",
+          "LEX": "RESPONDING",
+          "WNSENSE": "respond%2:32:00::"
+        },
+        "start": 11,
+        "end": 40
+      },
+      "V439371": {
+        "id": "V439371",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "POLITELY",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "POLITELY",
+          "WNSENSE": "politely%4:02:00::"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "V439440": {
+        "id": "V439440",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 31,
+        "end": 40
+      },
+      "V439503": {
+        "id": "V439503",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V439608",
+          "FIGURE": "#V439753",
+          "LEX": "AT"
+        },
+        "start": 40,
+        "end": 54
+      },
+      "V439608": {
+        "id": "V439608",
+        "indicator": "A",
+        "type": "PLACE",
+        "word": "BUS-STOP",
+        "roles": {
+          "LEX": "BUS-STOP",
+          "WNSENSE": "bus_stop%1:15:00"
+        },
+        "start": 43,
+        "end": 54
+      },
+      "V442243": {
+        "id": "V442243",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439611"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439611": {
+        "id": "V439611",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "SUCHTHAT": "#V439616",
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439616": {
+        "id": "V439616",
+        "indicator": "F",
+        "type": "ASK-QUESTION",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V439611",
+          "FORMAL": "#V441500",
+          "AFFECTED": "#V439629",
+          "TENSE": "PAST",
+          "LEX": "ASKED",
+          "WNSENSE": "ask%2:32:02::"
+        },
+        "start": 58,
+        "end": 98
+      },
+      "V439629": {
+        "id": "V439629",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 67
+      },
+      "V441500": {
+        "id": "V441500",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439675"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439675": {
+        "id": "V439675",
+        "indicator": "WH-TERM",
+        "type": "ROUTE",
+        "word": "BUS-ROUTE",
+        "roles": {
+          "SUCHTHAT": "#V439715",
+          "QUAN": "WHICH",
+          "LEX": "BUS-ROUTE",
+          "WNSENSE": "bus_route%1:15:00"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439715": {
+        "id": "V439715",
+        "indicator": "F",
+        "type": "ACQUIRE",
+        "word": "TAKE",
+        "roles": {
+          "AGENT": "#V439678",
+          "AFFECTED": "#V439675",
+          "TENSE": "PRES",
+          "MODALITY": "(:* SHOULD SHOULD)",
+          "LEX": "TAKE",
+          "WNSENSE": "take%2:30:01::"
+        },
+        "start": 83,
+        "end": 98
+      },
+      "V439678": {
+        "id": "V439678",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 83,
+        "end": 86
+      },
+      "V440190": {
+        "id": "V440190",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "ENOUGH",
+          "LEX": "ENOUGH"
+        },
+        "start": 102,
+        "end": 109
+      },
+      "root": "#V443166"
+    },
+    {
+      "V442133": {
+        "id": "V442133",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V439785",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 135
+      },
+      "V439785": {
+        "id": "V439785",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V439804",
+          "FIGURE": "#V442134",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 134
+      },
+      "V442134": {
+        "id": "V442134",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 109,
+        "end": 134
+      },
+      "V439804": {
+        "id": "V439804",
+        "indicator": "F",
+        "type": "ARRANGE-TEXT",
+        "word": "JUSTIFY",
+        "roles": {
+          "AFFECTED": "#V439810",
+          "VFORM": "BASE",
+          "LEX": "JUSTIFY"
+        },
+        "start": 112,
+        "end": 134
+      },
+      "V439810": {
+        "id": "V439810",
+        "indicator": "WH-TERM",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V439819",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 120,
+        "end": 134
+      },
+      "V439819": {
+        "id": "V439819",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V439810",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 125,
+        "end": 134
+      },
+      "root": "#V442133"
+    },
+    {
+      "V443473": {
+        "id": "V443473",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V439753",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439753": {
+        "id": "V439753",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "TIME": "#V442424",
+          "NEUTRAL": "#V442253",
+          "NEUTRAL1": "#V440190",
+          "LOCATION": "#V439503",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V442424": {
+        "id": "V442424",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439753",
+          "GROUND": "#V439364",
+          "LEX": "RESPONDING"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V439364": {
+        "id": "V439364",
+        "indicator": "F",
+        "type": "ANSWER",
+        "word": "RESPOND",
+        "roles": {
+          "MOD": "#V439360",
+          "AGENT1": "#V439440",
+          "MANNER": "#V439371",
+          "VFORM": "ING",
+          "LEX": "RESPONDING",
+          "WNSENSE": "respond%2:32:00::"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V439360": {
+        "id": "V439360",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "APPARENT",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "APPARENTLY"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V439371": {
+        "id": "V439371",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "POLITELY",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "POLITELY",
+          "WNSENSE": "politely%4:02:00::"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "V439440": {
+        "id": "V439440",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 31,
+        "end": 40
+      },
+      "V439503": {
+        "id": "V439503",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V439608",
+          "FIGURE": "#V439753",
+          "LEX": "AT"
+        },
+        "start": 40,
+        "end": 54
+      },
+      "V439608": {
+        "id": "V439608",
+        "indicator": "A",
+        "type": "PLACE",
+        "word": "BUS-STOP",
+        "roles": {
+          "LEX": "BUS-STOP",
+          "WNSENSE": "bus_stop%1:15:00"
+        },
+        "start": 43,
+        "end": 54
+      },
+      "V442253": {
+        "id": "V442253",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439611"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439611": {
+        "id": "V439611",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "SUCHTHAT": "#V439616",
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439616": {
+        "id": "V439616",
+        "indicator": "F",
+        "type": "ASK-QUESTION",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V439611",
+          "FORMAL": "#V441510",
+          "AFFECTED": "#V439629",
+          "TENSE": "PAST",
+          "LEX": "ASKED",
+          "WNSENSE": "ask%2:32:02::"
+        },
+        "start": 58,
+        "end": 98
+      },
+      "V439629": {
+        "id": "V439629",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 67
+      },
+      "V441510": {
+        "id": "V441510",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439675"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439675": {
+        "id": "V439675",
+        "indicator": "WH-TERM",
+        "type": "ROUTE",
+        "word": "BUS-ROUTE",
+        "roles": {
+          "SUCHTHAT": "#V439710",
+          "QUAN": "WHICH",
+          "LEX": "BUS-ROUTE",
+          "WNSENSE": "bus_route%1:15:00"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439710": {
+        "id": "V439710",
+        "indicator": "F",
+        "type": "MOVE-BY-MEANS",
+        "word": "TAKE",
+        "roles": {
+          "AGENT": "#V439678",
+          "FORMAL": "#V439675",
+          "TENSE": "PAST",
+          "MODALITY": "(:* SHOULD SHOULD)",
+          "LEX": "TAKE",
+          "WNSENSE": "take%2:38:02::"
+        },
+        "start": 83,
+        "end": 98
+      },
+      "V439678": {
+        "id": "V439678",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 83,
+        "end": 86
+      },
+      "V440190": {
+        "id": "V440190",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "ENOUGH",
+          "LEX": "ENOUGH"
+        },
+        "start": 102,
+        "end": 109
+      },
+      "root": "#V443473"
+    },
+    {
+      "V442137": {
+        "id": "V442137",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V439785",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 135
+      },
+      "V439785": {
+        "id": "V439785",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V439804",
+          "FIGURE": "#V442138",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 134
+      },
+      "V442138": {
+        "id": "V442138",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 109,
+        "end": 134
+      },
+      "V439804": {
+        "id": "V439804",
+        "indicator": "F",
+        "type": "ARRANGE-TEXT",
+        "word": "JUSTIFY",
+        "roles": {
+          "AFFECTED": "#V439811",
+          "VFORM": "BASE",
+          "LEX": "JUSTIFY"
+        },
+        "start": 112,
+        "end": 134
+      },
+      "V439811": {
+        "id": "V439811",
+        "indicator": "WH-TERM-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V439819",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 120,
+        "end": 134
+      },
+      "V439819": {
+        "id": "V439819",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V439811",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 125,
+        "end": 134
+      },
+      "root": "#V442137"
+    },
+    {
+      "V443473": {
+        "id": "V443473",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V439753",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439753": {
+        "id": "V439753",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "TIME": "#V442424",
+          "NEUTRAL": "#V442253",
+          "NEUTRAL1": "#V440190",
+          "LOCATION": "#V439503",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V442424": {
+        "id": "V442424",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439753",
+          "GROUND": "#V439364",
+          "LEX": "RESPONDING"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V439364": {
+        "id": "V439364",
+        "indicator": "F",
+        "type": "ANSWER",
+        "word": "RESPOND",
+        "roles": {
+          "MOD": "#V439360",
+          "AGENT1": "#V439440",
+          "MANNER": "#V439371",
+          "VFORM": "ING",
+          "LEX": "RESPONDING",
+          "WNSENSE": "respond%2:32:00::"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V439360": {
+        "id": "V439360",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "APPARENT",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "APPARENTLY"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V439371": {
+        "id": "V439371",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "POLITELY",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "POLITELY",
+          "WNSENSE": "politely%4:02:00::"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "V439440": {
+        "id": "V439440",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 31,
+        "end": 40
+      },
+      "V439503": {
+        "id": "V439503",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V439608",
+          "FIGURE": "#V439753",
+          "LEX": "AT"
+        },
+        "start": 40,
+        "end": 54
+      },
+      "V439608": {
+        "id": "V439608",
+        "indicator": "A",
+        "type": "PLACE",
+        "word": "BUS-STOP",
+        "roles": {
+          "LEX": "BUS-STOP",
+          "WNSENSE": "bus_stop%1:15:00"
+        },
+        "start": 43,
+        "end": 54
+      },
+      "V442253": {
+        "id": "V442253",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439611"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439611": {
+        "id": "V439611",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "SUCHTHAT": "#V439616",
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439616": {
+        "id": "V439616",
+        "indicator": "F",
+        "type": "ASK-QUESTION",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V439611",
+          "FORMAL": "#V441510",
+          "AFFECTED": "#V439629",
+          "TENSE": "PAST",
+          "LEX": "ASKED",
+          "WNSENSE": "ask%2:32:02::"
+        },
+        "start": 58,
+        "end": 98
+      },
+      "V439629": {
+        "id": "V439629",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 67
+      },
+      "V441510": {
+        "id": "V441510",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439675"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439675": {
+        "id": "V439675",
+        "indicator": "WH-TERM",
+        "type": "ROUTE",
+        "word": "BUS-ROUTE",
+        "roles": {
+          "SUCHTHAT": "#V439710",
+          "QUAN": "WHICH",
+          "LEX": "BUS-ROUTE",
+          "WNSENSE": "bus_route%1:15:00"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439710": {
+        "id": "V439710",
+        "indicator": "F",
+        "type": "MOVE-BY-MEANS",
+        "word": "TAKE",
+        "roles": {
+          "AGENT": "#V439678",
+          "FORMAL": "#V439675",
+          "TENSE": "PAST",
+          "MODALITY": "(:* SHOULD SHOULD)",
+          "LEX": "TAKE",
+          "WNSENSE": "take%2:38:02::"
+        },
+        "start": 83,
+        "end": 98
+      },
+      "V439678": {
+        "id": "V439678",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 83,
+        "end": 86
+      },
+      "V440190": {
+        "id": "V440190",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "ENOUGH",
+          "LEX": "ENOUGH"
+        },
+        "start": 102,
+        "end": 109
+      },
+      "root": "#V443473"
+    },
+    {
+      "V442133": {
+        "id": "V442133",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V439785",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 135
+      },
+      "V439785": {
+        "id": "V439785",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V439804",
+          "FIGURE": "#V442134",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 134
+      },
+      "V442134": {
+        "id": "V442134",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 109,
+        "end": 134
+      },
+      "V439804": {
+        "id": "V439804",
+        "indicator": "F",
+        "type": "ARRANGE-TEXT",
+        "word": "JUSTIFY",
+        "roles": {
+          "AFFECTED": "#V439810",
+          "VFORM": "BASE",
+          "LEX": "JUSTIFY"
+        },
+        "start": 112,
+        "end": 134
+      },
+      "V439810": {
+        "id": "V439810",
+        "indicator": "WH-TERM",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V439819",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 120,
+        "end": 134
+      },
+      "V439819": {
+        "id": "V439819",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V439810",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 125,
+        "end": 134
+      },
+      "root": "#V442133"
+    },
+    {
+      "V443408": {
+        "id": "V443408",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V439753",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439753": {
+        "id": "V439753",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "TIME": "#V442424",
+          "NEUTRAL": "#V442251",
+          "NEUTRAL1": "#V440190",
+          "LOCATION": "#V439503",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V442424": {
+        "id": "V442424",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439753",
+          "GROUND": "#V439364",
+          "LEX": "RESPONDING"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V439364": {
+        "id": "V439364",
+        "indicator": "F",
+        "type": "ANSWER",
+        "word": "RESPOND",
+        "roles": {
+          "MOD": "#V439360",
+          "AGENT1": "#V439440",
+          "MANNER": "#V439371",
+          "VFORM": "ING",
+          "LEX": "RESPONDING",
+          "WNSENSE": "respond%2:32:00::"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V439360": {
+        "id": "V439360",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "APPARENT",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "APPARENTLY"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V439371": {
+        "id": "V439371",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "POLITELY",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "POLITELY",
+          "WNSENSE": "politely%4:02:00::"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "V439440": {
+        "id": "V439440",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 31,
+        "end": 40
+      },
+      "V439503": {
+        "id": "V439503",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V439608",
+          "FIGURE": "#V439753",
+          "LEX": "AT"
+        },
+        "start": 40,
+        "end": 54
+      },
+      "V439608": {
+        "id": "V439608",
+        "indicator": "A",
+        "type": "PLACE",
+        "word": "BUS-STOP",
+        "roles": {
+          "LEX": "BUS-STOP",
+          "WNSENSE": "bus_stop%1:15:00"
+        },
+        "start": 43,
+        "end": 54
+      },
+      "V442251": {
+        "id": "V442251",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439611"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439611": {
+        "id": "V439611",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "SUCHTHAT": "#V439616",
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439616": {
+        "id": "V439616",
+        "indicator": "F",
+        "type": "ASK-QUESTION",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V439611",
+          "FORMAL": "#V441508",
+          "AFFECTED": "#V439629",
+          "TENSE": "PAST",
+          "LEX": "ASKED",
+          "WNSENSE": "ask%2:32:02::"
+        },
+        "start": 58,
+        "end": 98
+      },
+      "V439629": {
+        "id": "V439629",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 67
+      },
+      "V441508": {
+        "id": "V441508",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439675"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439675": {
+        "id": "V439675",
+        "indicator": "WH-TERM",
+        "type": "ROUTE",
+        "word": "BUS-ROUTE",
+        "roles": {
+          "SUCHTHAT": "#V439710",
+          "QUAN": "WHICH",
+          "LEX": "BUS-ROUTE",
+          "WNSENSE": "bus_route%1:15:00"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439710": {
+        "id": "V439710",
+        "indicator": "F",
+        "type": "MOVE-BY-MEANS",
+        "word": "TAKE",
+        "roles": {
+          "AGENT": "#V439678",
+          "FORMAL": "#V439675",
+          "TENSE": "PRES",
+          "MODALITY": "(:* SHOULD SHOULD)",
+          "LEX": "TAKE",
+          "WNSENSE": "take%2:38:02::"
+        },
+        "start": 83,
+        "end": 98
+      },
+      "V439678": {
+        "id": "V439678",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 83,
+        "end": 86
+      },
+      "V440190": {
+        "id": "V440190",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "ENOUGH",
+          "LEX": "ENOUGH"
+        },
+        "start": 102,
+        "end": 109
+      },
+      "root": "#V443408"
+    },
+    {
+      "V442137": {
+        "id": "V442137",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V439785",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 135
+      },
+      "V439785": {
+        "id": "V439785",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V439804",
+          "FIGURE": "#V442138",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 134
+      },
+      "V442138": {
+        "id": "V442138",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 109,
+        "end": 134
+      },
+      "V439804": {
+        "id": "V439804",
+        "indicator": "F",
+        "type": "ARRANGE-TEXT",
+        "word": "JUSTIFY",
+        "roles": {
+          "AFFECTED": "#V439811",
+          "VFORM": "BASE",
+          "LEX": "JUSTIFY"
+        },
+        "start": 112,
+        "end": 134
+      },
+      "V439811": {
+        "id": "V439811",
+        "indicator": "WH-TERM-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V439819",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 120,
+        "end": 134
+      },
+      "V439819": {
+        "id": "V439819",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V439811",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 125,
+        "end": 134
+      },
+      "root": "#V442137"
+    },
+    {
+      "V443408": {
+        "id": "V443408",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V439753",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439753": {
+        "id": "V439753",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "TIME": "#V442424",
+          "NEUTRAL": "#V442251",
+          "NEUTRAL1": "#V440190",
+          "LOCATION": "#V439503",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V442424": {
+        "id": "V442424",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439753",
+          "GROUND": "#V439364",
+          "LEX": "RESPONDING"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V439364": {
+        "id": "V439364",
+        "indicator": "F",
+        "type": "ANSWER",
+        "word": "RESPOND",
+        "roles": {
+          "MOD": "#V439360",
+          "AGENT1": "#V439440",
+          "MANNER": "#V439371",
+          "VFORM": "ING",
+          "LEX": "RESPONDING",
+          "WNSENSE": "respond%2:32:00::"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V439360": {
+        "id": "V439360",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "APPARENT",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "APPARENTLY"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V439371": {
+        "id": "V439371",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "POLITELY",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "POLITELY",
+          "WNSENSE": "politely%4:02:00::"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "V439440": {
+        "id": "V439440",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 31,
+        "end": 40
+      },
+      "V439503": {
+        "id": "V439503",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V439608",
+          "FIGURE": "#V439753",
+          "LEX": "AT"
+        },
+        "start": 40,
+        "end": 54
+      },
+      "V439608": {
+        "id": "V439608",
+        "indicator": "A",
+        "type": "PLACE",
+        "word": "BUS-STOP",
+        "roles": {
+          "LEX": "BUS-STOP",
+          "WNSENSE": "bus_stop%1:15:00"
+        },
+        "start": 43,
+        "end": 54
+      },
+      "V442251": {
+        "id": "V442251",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439611"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439611": {
+        "id": "V439611",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "SUCHTHAT": "#V439616",
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439616": {
+        "id": "V439616",
+        "indicator": "F",
+        "type": "ASK-QUESTION",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V439611",
+          "FORMAL": "#V441508",
+          "AFFECTED": "#V439629",
+          "TENSE": "PAST",
+          "LEX": "ASKED",
+          "WNSENSE": "ask%2:32:02::"
+        },
+        "start": 58,
+        "end": 98
+      },
+      "V439629": {
+        "id": "V439629",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 67
+      },
+      "V441508": {
+        "id": "V441508",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439675"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439675": {
+        "id": "V439675",
+        "indicator": "WH-TERM",
+        "type": "ROUTE",
+        "word": "BUS-ROUTE",
+        "roles": {
+          "SUCHTHAT": "#V439710",
+          "QUAN": "WHICH",
+          "LEX": "BUS-ROUTE",
+          "WNSENSE": "bus_route%1:15:00"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439710": {
+        "id": "V439710",
+        "indicator": "F",
+        "type": "MOVE-BY-MEANS",
+        "word": "TAKE",
+        "roles": {
+          "AGENT": "#V439678",
+          "FORMAL": "#V439675",
+          "TENSE": "PRES",
+          "MODALITY": "(:* SHOULD SHOULD)",
+          "LEX": "TAKE",
+          "WNSENSE": "take%2:38:02::"
+        },
+        "start": 83,
+        "end": 98
+      },
+      "V439678": {
+        "id": "V439678",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 83,
+        "end": 86
+      },
+      "V440190": {
+        "id": "V440190",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "ENOUGH",
+          "LEX": "ENOUGH"
+        },
+        "start": 102,
+        "end": 109
+      },
+      "root": "#V443408"
+    },
+    {
+      "V442133": {
+        "id": "V442133",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V439785",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 135
+      },
+      "V439785": {
+        "id": "V439785",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V439804",
+          "FIGURE": "#V442134",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 134
+      },
+      "V442134": {
+        "id": "V442134",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 109,
+        "end": 134
+      },
+      "V439804": {
+        "id": "V439804",
+        "indicator": "F",
+        "type": "ARRANGE-TEXT",
+        "word": "JUSTIFY",
+        "roles": {
+          "AFFECTED": "#V439810",
+          "VFORM": "BASE",
+          "LEX": "JUSTIFY"
+        },
+        "start": 112,
+        "end": 134
+      },
+      "V439810": {
+        "id": "V439810",
+        "indicator": "WH-TERM",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V439819",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 120,
+        "end": 134
+      },
+      "V439819": {
+        "id": "V439819",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V439810",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 125,
+        "end": 134
+      },
+      "root": "#V442133"
+    },
+    {
+      "V443343": {
+        "id": "V443343",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V439753",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439753": {
+        "id": "V439753",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "TIME": "#V442424",
+          "NEUTRAL": "#V442249",
+          "NEUTRAL1": "#V440190",
+          "LOCATION": "#V439503",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V442424": {
+        "id": "V442424",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439753",
+          "GROUND": "#V439364",
+          "LEX": "RESPONDING"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V439364": {
+        "id": "V439364",
+        "indicator": "F",
+        "type": "ANSWER",
+        "word": "RESPOND",
+        "roles": {
+          "MOD": "#V439360",
+          "AGENT1": "#V439440",
+          "MANNER": "#V439371",
+          "VFORM": "ING",
+          "LEX": "RESPONDING",
+          "WNSENSE": "respond%2:32:00::"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V439360": {
+        "id": "V439360",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "APPARENT",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "APPARENTLY"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V439371": {
+        "id": "V439371",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "POLITELY",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "POLITELY",
+          "WNSENSE": "politely%4:02:00::"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "V439440": {
+        "id": "V439440",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 31,
+        "end": 40
+      },
+      "V439503": {
+        "id": "V439503",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V439608",
+          "FIGURE": "#V439753",
+          "LEX": "AT"
+        },
+        "start": 40,
+        "end": 54
+      },
+      "V439608": {
+        "id": "V439608",
+        "indicator": "A",
+        "type": "PLACE",
+        "word": "BUS-STOP",
+        "roles": {
+          "LEX": "BUS-STOP",
+          "WNSENSE": "bus_stop%1:15:00"
+        },
+        "start": 43,
+        "end": 54
+      },
+      "V442249": {
+        "id": "V442249",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439611"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439611": {
+        "id": "V439611",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "SUCHTHAT": "#V439616",
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439616": {
+        "id": "V439616",
+        "indicator": "F",
+        "type": "ASK-QUESTION",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V439611",
+          "FORMAL": "#V441506",
+          "AFFECTED": "#V439629",
+          "TENSE": "PAST",
+          "LEX": "ASKED",
+          "WNSENSE": "ask%2:32:02::"
+        },
+        "start": 58,
+        "end": 98
+      },
+      "V439629": {
+        "id": "V439629",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 67
+      },
+      "V441506": {
+        "id": "V441506",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439675"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439675": {
+        "id": "V439675",
+        "indicator": "WH-TERM",
+        "type": "ROUTE",
+        "word": "BUS-ROUTE",
+        "roles": {
+          "SUCHTHAT": "#V439714",
+          "QUAN": "WHICH",
+          "LEX": "BUS-ROUTE",
+          "WNSENSE": "bus_route%1:15:00"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439714": {
+        "id": "V439714",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "TAKE",
+        "roles": {
+          "AGENT": "#V439678",
+          "AFFECTED-RESULT": "#V439675",
+          "TENSE": "PAST",
+          "MODALITY": "(:* SHOULD SHOULD)",
+          "LEX": "TAKE",
+          "WNSENSE": "create%2:36:00"
+        },
+        "start": 83,
+        "end": 98
+      },
+      "V439678": {
+        "id": "V439678",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 83,
+        "end": 86
+      },
+      "V440190": {
+        "id": "V440190",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "ENOUGH",
+          "LEX": "ENOUGH"
+        },
+        "start": 102,
+        "end": 109
+      },
+      "root": "#V443343"
+    },
+    {
+      "V442137": {
+        "id": "V442137",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V439785",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 135
+      },
+      "V439785": {
+        "id": "V439785",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V439804",
+          "FIGURE": "#V442138",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 134
+      },
+      "V442138": {
+        "id": "V442138",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 109,
+        "end": 134
+      },
+      "V439804": {
+        "id": "V439804",
+        "indicator": "F",
+        "type": "ARRANGE-TEXT",
+        "word": "JUSTIFY",
+        "roles": {
+          "AFFECTED": "#V439811",
+          "VFORM": "BASE",
+          "LEX": "JUSTIFY"
+        },
+        "start": 112,
+        "end": 134
+      },
+      "V439811": {
+        "id": "V439811",
+        "indicator": "WH-TERM-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V439819",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 120,
+        "end": 134
+      },
+      "V439819": {
+        "id": "V439819",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V439811",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 125,
+        "end": 134
+      },
+      "root": "#V442137"
+    },
+    {
+      "V443343": {
+        "id": "V443343",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V439753",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439753": {
+        "id": "V439753",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "TIME": "#V442424",
+          "NEUTRAL": "#V442249",
+          "NEUTRAL1": "#V440190",
+          "LOCATION": "#V439503",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V442424": {
+        "id": "V442424",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439753",
+          "GROUND": "#V439364",
+          "LEX": "RESPONDING"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V439364": {
+        "id": "V439364",
+        "indicator": "F",
+        "type": "ANSWER",
+        "word": "RESPOND",
+        "roles": {
+          "MOD": "#V439360",
+          "AGENT1": "#V439440",
+          "MANNER": "#V439371",
+          "VFORM": "ING",
+          "LEX": "RESPONDING",
+          "WNSENSE": "respond%2:32:00::"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V439360": {
+        "id": "V439360",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "APPARENT",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "APPARENTLY"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V439371": {
+        "id": "V439371",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "POLITELY",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "POLITELY",
+          "WNSENSE": "politely%4:02:00::"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "V439440": {
+        "id": "V439440",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 31,
+        "end": 40
+      },
+      "V439503": {
+        "id": "V439503",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V439608",
+          "FIGURE": "#V439753",
+          "LEX": "AT"
+        },
+        "start": 40,
+        "end": 54
+      },
+      "V439608": {
+        "id": "V439608",
+        "indicator": "A",
+        "type": "PLACE",
+        "word": "BUS-STOP",
+        "roles": {
+          "LEX": "BUS-STOP",
+          "WNSENSE": "bus_stop%1:15:00"
+        },
+        "start": 43,
+        "end": 54
+      },
+      "V442249": {
+        "id": "V442249",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439611"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439611": {
+        "id": "V439611",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "SUCHTHAT": "#V439616",
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439616": {
+        "id": "V439616",
+        "indicator": "F",
+        "type": "ASK-QUESTION",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V439611",
+          "FORMAL": "#V441506",
+          "AFFECTED": "#V439629",
+          "TENSE": "PAST",
+          "LEX": "ASKED",
+          "WNSENSE": "ask%2:32:02::"
+        },
+        "start": 58,
+        "end": 98
+      },
+      "V439629": {
+        "id": "V439629",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 67
+      },
+      "V441506": {
+        "id": "V441506",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439675"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439675": {
+        "id": "V439675",
+        "indicator": "WH-TERM",
+        "type": "ROUTE",
+        "word": "BUS-ROUTE",
+        "roles": {
+          "SUCHTHAT": "#V439714",
+          "QUAN": "WHICH",
+          "LEX": "BUS-ROUTE",
+          "WNSENSE": "bus_route%1:15:00"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439714": {
+        "id": "V439714",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "TAKE",
+        "roles": {
+          "AGENT": "#V439678",
+          "AFFECTED-RESULT": "#V439675",
+          "TENSE": "PAST",
+          "MODALITY": "(:* SHOULD SHOULD)",
+          "LEX": "TAKE",
+          "WNSENSE": "create%2:36:00"
+        },
+        "start": 83,
+        "end": 98
+      },
+      "V439678": {
+        "id": "V439678",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 83,
+        "end": 86
+      },
+      "V440190": {
+        "id": "V440190",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "ENOUGH",
+          "LEX": "ENOUGH"
+        },
+        "start": 102,
+        "end": 109
+      },
+      "root": "#V443343"
+    },
+    {
+      "V442133": {
+        "id": "V442133",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V439785",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 135
+      },
+      "V439785": {
+        "id": "V439785",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V439804",
+          "FIGURE": "#V442134",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 134
+      },
+      "V442134": {
+        "id": "V442134",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 109,
+        "end": 134
+      },
+      "V439804": {
+        "id": "V439804",
+        "indicator": "F",
+        "type": "ARRANGE-TEXT",
+        "word": "JUSTIFY",
+        "roles": {
+          "AFFECTED": "#V439810",
+          "VFORM": "BASE",
+          "LEX": "JUSTIFY"
+        },
+        "start": 112,
+        "end": 134
+      },
+      "V439810": {
+        "id": "V439810",
+        "indicator": "WH-TERM",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V439819",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 120,
+        "end": 134
+      },
+      "V439819": {
+        "id": "V439819",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V439810",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 125,
+        "end": 134
+      },
+      "root": "#V442133"
+    },
+    {
+      "V443278": {
+        "id": "V443278",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V439753",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439753": {
+        "id": "V439753",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "TIME": "#V442424",
+          "NEUTRAL": "#V442247",
+          "NEUTRAL1": "#V440190",
+          "LOCATION": "#V439503",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V442424": {
+        "id": "V442424",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439753",
+          "GROUND": "#V439364",
+          "LEX": "RESPONDING"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V439364": {
+        "id": "V439364",
+        "indicator": "F",
+        "type": "ANSWER",
+        "word": "RESPOND",
+        "roles": {
+          "MOD": "#V439360",
+          "AGENT1": "#V439440",
+          "MANNER": "#V439371",
+          "VFORM": "ING",
+          "LEX": "RESPONDING",
+          "WNSENSE": "respond%2:32:00::"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V439360": {
+        "id": "V439360",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "APPARENT",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "APPARENTLY"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V439371": {
+        "id": "V439371",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "POLITELY",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "POLITELY",
+          "WNSENSE": "politely%4:02:00::"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "V439440": {
+        "id": "V439440",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 31,
+        "end": 40
+      },
+      "V439503": {
+        "id": "V439503",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V439608",
+          "FIGURE": "#V439753",
+          "LEX": "AT"
+        },
+        "start": 40,
+        "end": 54
+      },
+      "V439608": {
+        "id": "V439608",
+        "indicator": "A",
+        "type": "PLACE",
+        "word": "BUS-STOP",
+        "roles": {
+          "LEX": "BUS-STOP",
+          "WNSENSE": "bus_stop%1:15:00"
+        },
+        "start": 43,
+        "end": 54
+      },
+      "V442247": {
+        "id": "V442247",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439611"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439611": {
+        "id": "V439611",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "SUCHTHAT": "#V439616",
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439616": {
+        "id": "V439616",
+        "indicator": "F",
+        "type": "ASK-QUESTION",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V439611",
+          "FORMAL": "#V441504",
+          "AFFECTED": "#V439629",
+          "TENSE": "PAST",
+          "LEX": "ASKED",
+          "WNSENSE": "ask%2:32:02::"
+        },
+        "start": 58,
+        "end": 98
+      },
+      "V439629": {
+        "id": "V439629",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 67
+      },
+      "V441504": {
+        "id": "V441504",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439675"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439675": {
+        "id": "V439675",
+        "indicator": "WH-TERM",
+        "type": "ROUTE",
+        "word": "BUS-ROUTE",
+        "roles": {
+          "SUCHTHAT": "#V439714",
+          "QUAN": "WHICH",
+          "LEX": "BUS-ROUTE",
+          "WNSENSE": "bus_route%1:15:00"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439714": {
+        "id": "V439714",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "TAKE",
+        "roles": {
+          "AGENT": "#V439678",
+          "AFFECTED-RESULT": "#V439675",
+          "TENSE": "PRES",
+          "MODALITY": "(:* SHOULD SHOULD)",
+          "LEX": "TAKE",
+          "WNSENSE": "create%2:36:00"
+        },
+        "start": 83,
+        "end": 98
+      },
+      "V439678": {
+        "id": "V439678",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 83,
+        "end": 86
+      },
+      "V440190": {
+        "id": "V440190",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "ENOUGH",
+          "LEX": "ENOUGH"
+        },
+        "start": 102,
+        "end": 109
+      },
+      "root": "#V443278"
+    },
+    {
+      "V442137": {
+        "id": "V442137",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V439785",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 135
+      },
+      "V439785": {
+        "id": "V439785",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V439804",
+          "FIGURE": "#V442138",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 134
+      },
+      "V442138": {
+        "id": "V442138",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 109,
+        "end": 134
+      },
+      "V439804": {
+        "id": "V439804",
+        "indicator": "F",
+        "type": "ARRANGE-TEXT",
+        "word": "JUSTIFY",
+        "roles": {
+          "AFFECTED": "#V439811",
+          "VFORM": "BASE",
+          "LEX": "JUSTIFY"
+        },
+        "start": 112,
+        "end": 134
+      },
+      "V439811": {
+        "id": "V439811",
+        "indicator": "WH-TERM-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V439819",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 120,
+        "end": 134
+      },
+      "V439819": {
+        "id": "V439819",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V439811",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 125,
+        "end": 134
+      },
+      "root": "#V442137"
+    },
+    {
+      "V443278": {
+        "id": "V443278",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V439753",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V439753": {
+        "id": "V439753",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "TIME": "#V442424",
+          "NEUTRAL": "#V442247",
+          "NEUTRAL1": "#V440190",
+          "LOCATION": "#V439503",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 109
+      },
+      "V442424": {
+        "id": "V442424",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439753",
+          "GROUND": "#V439364",
+          "LEX": "RESPONDING"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V439364": {
+        "id": "V439364",
+        "indicator": "F",
+        "type": "ANSWER",
+        "word": "RESPOND",
+        "roles": {
+          "MOD": "#V439360",
+          "AGENT1": "#V439440",
+          "MANNER": "#V439371",
+          "VFORM": "ING",
+          "LEX": "RESPONDING",
+          "WNSENSE": "respond%2:32:00::"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V439360": {
+        "id": "V439360",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "APPARENT",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "APPARENTLY"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V439371": {
+        "id": "V439371",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "POLITELY",
+        "roles": {
+          "FIGURE": "#V439364",
+          "LEX": "POLITELY",
+          "WNSENSE": "politely%4:02:00::"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "V439440": {
+        "id": "V439440",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 31,
+        "end": 40
+      },
+      "V439503": {
+        "id": "V439503",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V439608",
+          "FIGURE": "#V439753",
+          "LEX": "AT"
+        },
+        "start": 40,
+        "end": 54
+      },
+      "V439608": {
+        "id": "V439608",
+        "indicator": "A",
+        "type": "PLACE",
+        "word": "BUS-STOP",
+        "roles": {
+          "LEX": "BUS-STOP",
+          "WNSENSE": "bus_stop%1:15:00"
+        },
+        "start": 43,
+        "end": 54
+      },
+      "V442247": {
+        "id": "V442247",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439611"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439611": {
+        "id": "V439611",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "SUCHTHAT": "#V439616",
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 54,
+        "end": 98
+      },
+      "V439616": {
+        "id": "V439616",
+        "indicator": "F",
+        "type": "ASK-QUESTION",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V439611",
+          "FORMAL": "#V441504",
+          "AFFECTED": "#V439629",
+          "TENSE": "PAST",
+          "LEX": "ASKED",
+          "WNSENSE": "ask%2:32:02::"
+        },
+        "start": 58,
+        "end": 98
+      },
+      "V439629": {
+        "id": "V439629",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 67
+      },
+      "V441504": {
+        "id": "V441504",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V439675"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439675": {
+        "id": "V439675",
+        "indicator": "WH-TERM",
+        "type": "ROUTE",
+        "word": "BUS-ROUTE",
+        "roles": {
+          "SUCHTHAT": "#V439714",
+          "QUAN": "WHICH",
+          "LEX": "BUS-ROUTE",
+          "WNSENSE": "bus_route%1:15:00"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V439714": {
+        "id": "V439714",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "TAKE",
+        "roles": {
+          "AGENT": "#V439678",
+          "AFFECTED-RESULT": "#V439675",
+          "TENSE": "PRES",
+          "MODALITY": "(:* SHOULD SHOULD)",
+          "LEX": "TAKE",
+          "WNSENSE": "create%2:36:00"
+        },
+        "start": 83,
+        "end": 98
+      },
+      "V439678": {
+        "id": "V439678",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 83,
+        "end": 86
+      },
+      "V440190": {
+        "id": "V440190",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "ENOUGH",
+          "LEX": "ENOUGH"
+        },
+        "start": 102,
+        "end": 109
+      },
+      "root": "#V443278"
+    },
+    {
+      "V442133": {
+        "id": "V442133",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V439785",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 135
+      },
+      "V439785": {
+        "id": "V439785",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V439804",
+          "FIGURE": "#V442134",
+          "LEX": "TO"
+        },
+        "start": 109,
+        "end": 134
+      },
+      "V442134": {
+        "id": "V442134",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 109,
+        "end": 134
+      },
+      "V439804": {
+        "id": "V439804",
+        "indicator": "F",
+        "type": "ARRANGE-TEXT",
+        "word": "JUSTIFY",
+        "roles": {
+          "AFFECTED": "#V439810",
+          "VFORM": "BASE",
+          "LEX": "JUSTIFY"
+        },
+        "start": 112,
+        "end": 134
+      },
+      "V439810": {
+        "id": "V439810",
+        "indicator": "WH-TERM",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V439819",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 120,
+        "end": 134
+      },
+      "V439819": {
+        "id": "V439819",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V439810",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 125,
+        "end": 134
+      },
+      "root": "#V442133"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+61",
+    "*last-utt-id*=61  utt-id+61",
+    "*last-utt-id*=61  utt-id+NIL"
+  ]
+}

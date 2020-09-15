@@ -1,0 +1,151 @@
+{
+  "parse": [
+    {
+      "V41225": {
+        "id": "V41225",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V38448",
+          "LEX": "AGES"
+        },
+        "start": 1,
+        "end": 39
+      },
+      "V38448": {
+        "id": "V38448",
+        "indicator": "INDEF-SET",
+        "type": "AGE-SCALE",
+        "word": "AGE",
+        "roles": {
+          "ASSOC-WITH1": "#V39055",
+          "ASSOC-WITH": "#V38442",
+          "SCALE": "TIME-MEASURE-SCALE",
+          "LEX": "AGES",
+          "WNSENSE": "age%1:07:00::"
+        },
+        "start": 1,
+        "end": 39
+      },
+      "V38442": {
+        "id": "V38442",
+        "indicator": "KIND",
+        "type": "PERSON",
+        "word": "OFFENDERS",
+        "roles": {
+          "SIZE": "#V38435",
+          "MOD": "#V38437",
+          "LEX": "OFFENDERS",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 1,
+        "end": 39
+      },
+      "V38435": {
+        "id": "V38435",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "6"
+        },
+        "start": 1,
+        "end": 3
+      },
+      "V38437": {
+        "id": "V38437",
+        "indicator": "F",
+        "type": "DIFFERENT",
+        "word": "DIFFERENT",
+        "roles": {
+          "FIGURE": "#V38442",
+          "SCALE": "DIFFERENT-SCALE",
+          "LEX": "DIFFERENT",
+          "WNSENSE": "different%3:00:00::"
+        },
+        "start": 3,
+        "end": 13
+      },
+      "V39055": {
+        "id": "V39055",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MOD": "#V38463"
+        },
+        "start": 29,
+        "end": 39
+      },
+      "V38463": {
+        "id": "V38463",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "EXTENT": "#V38545",
+          "GROUND": "#V38674",
+          "FIGURE": "#V39055"
+        },
+        "start": 29,
+        "end": 39
+      },
+      "V38545": {
+        "id": "V38545",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "AMOUNT": "#V38454",
+          "LEX": "24"
+        },
+        "start": 29,
+        "end": 32
+      },
+      "V38454": {
+        "id": "V38454",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "24"
+        },
+        "start": 29,
+        "end": 32
+      },
+      "V38674": {
+        "id": "V38674",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V38483",
+          "LEX": "67"
+        },
+        "start": 36,
+        "end": 39
+      },
+      "V38483": {
+        "id": "V38483",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "67",
+          "LEX": "67"
+        },
+        "start": 36,
+        "end": 39
+      },
+      "root": "#V41225"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+2",
+    "*last-utt-id*=2  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "parse": [
+    {
+      "V680774": {
+        "id": "V680774",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V680771",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 14
+      },
+      "V680771": {
+        "id": "V680771",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V680467"
+        },
+        "start": 0,
+        "end": 14
+      },
+      "V680467": {
+        "id": "V680467",
+        "indicator": "THE-SET",
+        "type": "AGE-SCALE",
+        "word": "AGE",
+        "roles": {
+          "NAME-OF": "AGES",
+          "NAME-MODIFIERS": "(V680473 V680487)",
+          "LEX": "AGES",
+          "WNSENSE": "age%1:07:00::"
+        },
+        "start": 0,
+        "end": 14
+      },
+      "V680477": {
+        "id": "V680477",
+        "indicator": "INDEF-SET",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V680473",
+          "SEQUENCE1": "#V680487",
+          "LEX": "AND"
+        },
+        "start": 6,
+        "end": 14
+      },
+      "V680473": {
+        "id": "V680473",
+        "indicator": "THE",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "NUMBER": "9",
+          "LEX": "NINE"
+        },
+        "start": 6,
+        "end": 8
+      },
+      "V680487": {
+        "id": "V680487",
+        "indicator": "THE",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "NUMBER": "12",
+          "LEX": "TWELVE"
+        },
+        "start": 13,
+        "end": 14
+      },
+      "root": "#V680774"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+119",
+    "*last-utt-id*=119  utt-id+NIL"
+  ]
+}

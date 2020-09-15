@@ -1,0 +1,199 @@
+{
+  "parse": [
+    {
+      "V1911055": {
+        "id": "V1911055",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1907294",
+          "MOD": "#V1907232",
+          "LEX": "RECOGNIZED"
+        },
+        "start": 0,
+        "end": 81
+      },
+      "V1907232": {
+        "id": "V1907232",
+        "indicator": "F",
+        "type": "QUALIFICATION",
+        "word": "MAYBE",
+        "roles": {
+          "FIGURE": "#V1911055",
+          "LEX": "MAYBE",
+          "WNSENSE": "maybe%4:02:00::"
+        },
+        "start": 0,
+        "end": 6
+      },
+      "V1907294": {
+        "id": "V1907294",
+        "indicator": "F",
+        "type": "COME-TO-UNDERSTAND",
+        "word": "RECOGNIZE",
+        "roles": {
+          "MOD1": "#V1907239",
+          "MOD": [
+            "#V1907393",
+            "#V1907324"
+          ],
+          "NEUTRAL": "#V1907255",
+          "TENSE": "FUT",
+          "MODALITY": "(:* FUTURE WILL)",
+          "PASSIVE": "+",
+          "LEX": "RECOGNIZED",
+          "WNSENSE": "see%2:31:01"
+        },
+        "start": 6,
+        "end": 81
+      },
+      "V1907239": {
+        "id": "V1907239",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SOMEDAY",
+        "roles": {
+          "FIGURE": "#V1907294",
+          "LEX": "SOMEDAY",
+          "WNSENSE": "someday%4:02:00::"
+        },
+        "start": 6,
+        "end": 14
+      },
+      "V1907255": {
+        "id": "V1907255",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 14,
+        "end": 16
+      },
+      "V1907324": {
+        "id": "V1907324",
+        "indicator": "F",
+        "type": "PURCHASE-COST",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V1907346",
+          "FIGURE": "#V1907294",
+          "LEX": "FOR"
+        },
+        "start": 35,
+        "end": 49
+      },
+      "V1907346": {
+        "id": "V1907346",
+        "indicator": "WH-TERM-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V1907387",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 39,
+        "end": 49
+      },
+      "V1907387": {
+        "id": "V1907387",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "AGENT": "#V1907365",
+          "NEUTRAL": "#V1907346",
+          "TENSE": "PRES",
+          "LEX": "DO-",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 44,
+        "end": 49
+      },
+      "V1907365": {
+        "id": "V1907365",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 44,
+        "end": 46
+      },
+      "V1907393": {
+        "id": "V1907393",
+        "indicator": "F",
+        "type": "CHOICE-OPTION",
+        "word": "INSTEAD-OF",
+        "roles": {
+          "GROUND": "#V1907407",
+          "FIGURE": "#V1907294",
+          "LEX": "INSTEAD-OF"
+        },
+        "start": 49,
+        "end": 81
+      },
+      "V1907407": {
+        "id": "V1907407",
+        "indicator": "WH-TERM-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V1907416",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 61,
+        "end": 81
+      },
+      "V1907416": {
+        "id": "V1907416",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V1907407",
+          "AFFECTED": "#V1907448",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 66,
+        "end": 81
+      },
+      "V1907448": {
+        "id": "V1907448",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 75,
+        "end": 81
+      },
+      "root": "#V1911055"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+340",
+    "*last-utt-id*=340  utt-id+NIL"
+  ]
+}

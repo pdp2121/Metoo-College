@@ -1,0 +1,169 @@
+{
+  "parse": [
+    {
+      "V799434": {
+        "id": "V799434",
+        "indicator": "SPEECHACT",
+        "type": "SA_REQUEST",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V795092",
+          "LEX": "HAND"
+        },
+        "start": 0,
+        "end": 41
+      },
+      "V795092": {
+        "id": "V795092",
+        "indicator": "F",
+        "type": "GIVING",
+        "word": "HAND",
+        "roles": {
+          "AGENT": "#V799105",
+          "AFFECTED": "#V795258",
+          "TIME": "#V796296",
+          "TENSE": "PRES",
+          "VFORM": "BASE",
+          "LEX": "HAND"
+        },
+        "start": 0,
+        "end": 41
+      },
+      "V799105": {
+        "id": "V799105",
+        "indicator": "IMPRO",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "PROFORM": "*YOU*",
+          "COREF": "SYS"
+        },
+        "start": 0,
+        "end": 41
+      },
+      "V796296": {
+        "id": "V796296",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V795092",
+          "GROUND": "#V795399",
+          "LEX": "LEANING-ON"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V795399": {
+        "id": "V795399",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": null,
+        "roles": {
+          "AFFECTED": "#V795650",
+          "METHOD": "#V794993",
+          "FORMAL": "#V795034",
+          "VFORM": "ING",
+          "LEX": "LEANING-ON"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V794993": {
+        "id": "V794993",
+        "indicator": "F",
+        "type": "CONNECTED",
+        "word": "LEANING-ON",
+        "roles": {
+          "VFORM": "ING",
+          "LEX": "LEANING-ON",
+          "WNSENSE": "lean_on%2:35:00"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V795650": {
+        "id": "V795650",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V795024"
+        },
+        "start": 11,
+        "end": 26
+      },
+      "V795024": {
+        "id": "V795024",
+        "indicator": "THE",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "CHIN",
+        "roles": {
+          "ASSOC-POSS": "#V795016",
+          "ASSOC-WITH": "#V795021",
+          "LEX": "CHIN",
+          "WNSENSE": "chin%1:08:00::"
+        },
+        "start": 11,
+        "end": 26
+      },
+      "V795021": {
+        "id": "V795021",
+        "indicator": "KIND",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "ELBOW",
+        "roles": {
+          "LEX": "ELBOW",
+          "WNSENSE": "elbow%1:08:00::"
+        },
+        "start": 11,
+        "end": 26
+      },
+      "V795016": {
+        "id": "V795016",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 11,
+        "end": 26
+      },
+      "V795034": {
+        "id": "V795034",
+        "indicator": "F",
+        "type": "DIRECTION-IN",
+        "word": "IN",
+        "roles": {
+          "FIGURE": "#V795650",
+          "LEX": "IN",
+          "WNSENSE": "in%4:02:01::"
+        },
+        "start": 26,
+        "end": 29
+      },
+      "V795258": {
+        "id": "V795258",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "LURKIN",
+        "roles": {
+          "LEX": "LURKIN",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 34,
+        "end": 41
+      },
+      "root": "#V799434"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+163",
+    "*last-utt-id*=163  utt-id+NIL"
+  ]
+}

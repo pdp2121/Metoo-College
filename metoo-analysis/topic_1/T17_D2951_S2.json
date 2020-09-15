@@ -1,0 +1,184 @@
+{
+  "parse": [
+    {
+      "V2512339": {
+        "id": "V2512339",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2510160",
+          "LEX": "WALKING"
+        },
+        "start": 0,
+        "end": 73
+      },
+      "V2510160": {
+        "id": "V2510160",
+        "indicator": "BARE",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "MOD": "#V2510076",
+          "RESULT": "#V2510193",
+          "TIME": "#V2510089",
+          "LEX": "WALKING"
+        },
+        "start": 0,
+        "end": 73
+      },
+      "V2510076": {
+        "id": "V2510076",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "IN-PUBLIC",
+        "roles": {
+          "FIGURE": "#V2510160",
+          "LEX": "IN-PUBLIC",
+          "WNSENSE": "in_public%4:02:00"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V2510089": {
+        "id": "V2510089",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "BY",
+        "roles": {
+          "GROUND": "#V2510153",
+          "FIGURE": "#V2510160",
+          "LEX": "BY",
+          "WNSENSE": "by%4:02:00::"
+        },
+        "start": 10,
+        "end": 30
+      },
+      "V2510153": {
+        "id": "V2510153",
+        "indicator": "A",
+        "type": "TIME-INTERVAL",
+        "word": "WHILE",
+        "roles": {
+          "MOD": "#V2510146",
+          "LEX": "WHILE",
+          "WNSENSE": "while%1:28:00::"
+        },
+        "start": 13,
+        "end": 30
+      },
+      "V2510146": {
+        "id": "V2510146",
+        "indicator": "F",
+        "type": "MORE-VAL",
+        "word": "STRANGE",
+        "roles": {
+          "ORIENTATION": "LESS",
+          "INTENSITY": "MED",
+          "FIGURE": "#V2510153",
+          "SCALE": "NOT-TYPICAL-SCALE",
+          "LEX": "STRANGER",
+          "WNSENSE": "better%3:00:00::"
+        },
+        "start": 15,
+        "end": 24
+      },
+      "V2510193": {
+        "id": "V2510193",
+        "indicator": "F",
+        "type": "DIRECTION-DOWN-GROUND",
+        "word": "DOWN",
+        "roles": {
+          "GROUND": "#V2510235",
+          "LEX": "DOWN"
+        },
+        "start": 38,
+        "end": 73
+      },
+      "V2510235": {
+        "id": "V2510235",
+        "indicator": "THE-SET",
+        "type": "PROFESSIONAL",
+        "word": null,
+        "roles": {
+          "ASSOC-WITH1": "#V2510214",
+          "ASSOC-WITH": "#V2510224",
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V2510232",
+          "SEQUENCE1": "#V2510245",
+          "LEX": "PUNC-AND"
+        },
+        "start": 43,
+        "end": 73
+      },
+      "V2510245": {
+        "id": "V2510245",
+        "indicator": "INDEF-SET",
+        "type": "PROFESSIONAL",
+        "word": "WORKER",
+        "roles": {
+          "MOD": "#V2510258",
+          "LEX": "WORKERS",
+          "WNSENSE": "worker%1:18:00::"
+        },
+        "start": 43,
+        "end": 73
+      },
+      "V2510258": {
+        "id": "V2510258",
+        "indicator": "F",
+        "type": "INCLUSIVE",
+        "word": "CO-",
+        "roles": {
+          "FIGURE": "#V2510245"
+        },
+        "start": 43,
+        "end": 73
+      },
+      "V2510232": {
+        "id": "V2510232",
+        "indicator": "INDEF-SET",
+        "type": "PROFESSIONAL",
+        "word": "BOSS",
+        "roles": {
+          "LEX": "BOSS",
+          "WNSENSE": "professional%1:18:00"
+        },
+        "start": 43,
+        "end": 73
+      },
+      "V2510224": {
+        "id": "V2510224",
+        "indicator": "KIND",
+        "type": "SUBSTANCE",
+        "word": "W",
+        "roles": {
+          "LEX": "W",
+          "WNSENSE": "w%1:27:00::"
+        },
+        "start": 43,
+        "end": 73
+      },
+      "V2510214": {
+        "id": "V2510214",
+        "indicator": "KIND",
+        "type": "THOROUGHFARE",
+        "word": "STREET",
+        "roles": {
+          "LEX": "STREET",
+          "WNSENSE": "street%1:06:00::"
+        },
+        "start": 43,
+        "end": 73
+      },
+      "root": "#V2512339"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to sequences not reimplemented yet",
+    "*last-utt-id*=NIL  utt-id+470",
+    "*last-utt-id*=470  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "parse": [
+    {
+      "V1990418": {
+        "id": "V1990418",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1989832",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 102
+      },
+      "V1989832": {
+        "id": "V1989832",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V1989441",
+          "SEQUENCE1": "#V1989467",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 102
+      },
+      "V1989467": {
+        "id": "V1989467",
+        "indicator": "F",
+        "type": "KISSING",
+        "word": "KISS",
+        "roles": {
+          "AGENT": "#V1989435",
+          "AFFECTED": "#V1989475",
+          "TIME": "#V1989478",
+          "LEX": "KISSED",
+          "WNSENSE": "kiss%2:35:00::"
+        },
+        "start": 0,
+        "end": 102
+      },
+      "V1989441": {
+        "id": "V1989441",
+        "indicator": "F",
+        "type": "PUSH",
+        "word": "FORCE",
+        "roles": {
+          "AGENT": "#V1989435",
+          "AFFECTED": "#V1989451",
+          "LEX": "FORCED",
+          "WNSENSE": "force%2:38:00::"
+        },
+        "start": 0,
+        "end": 102
+      },
+      "V1989435": {
+        "id": "V1989435",
+        "indicator": "THE",
+        "type": "PERSON",
+        "word": "NEIGHBOR",
+        "roles": {
+          "ASSOC-POSS": "#V1989430",
+          "LEX": "NEIGHBOR",
+          "WNSENSE": "neighbor%1:18:00::"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V1989430": {
+        "id": "V1989430",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V1989451": {
+        "id": "V1989451",
+        "indicator": "THE",
+        "type": "STRUCTURAL-OPENING",
+        "word": "DOOR",
+        "roles": {
+          "LEX": "DOOR",
+          "WNSENSE": "door%1:06:00::"
+        },
+        "start": 19,
+        "end": 28
+      },
+      "V1989475": {
+        "id": "V1989475",
+        "indicator": "THE",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "NECK",
+        "roles": {
+          "ASSOC-POSS": "#V1989472",
+          "LEX": "NECK",
+          "WNSENSE": "neck%1:08:00::"
+        },
+        "start": 39,
+        "end": 47
+      },
+      "V1989472": {
+        "id": "V1989472",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 39,
+        "end": 47
+      },
+      "V1989478": {
+        "id": "V1989478",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHILE",
+        "roles": {
+          "GROUND": "#V1989653",
+          "FIGURE": "#V1989467",
+          "LEX": "WHILE"
+        },
+        "start": 47,
+        "end": 102
+      },
+      "V1989653": {
+        "id": "V1989653",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V1989514",
+          "SEQUENCE1": "#V1989531",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 53,
+        "end": 102
+      },
+      "V1989531": {
+        "id": "V1989531",
+        "indicator": "F",
+        "type": "PUSH",
+        "word": "PUSH",
+        "roles": {
+          "RESULT": "#V1989539",
+          "AGENT": "#V1989500",
+          "AFFECTED": "#V1989535",
+          "METHOD": "#V1989547",
+          "LEX": "PUSHED",
+          "WNSENSE": "push%1:04:00::"
+        },
+        "start": 53,
+        "end": 102
+      },
+      "V1989514": {
+        "id": "V1989514",
+        "indicator": "F",
+        "type": "SOUND-EXPRESSION",
+        "word": "CRY",
+        "roles": {
+          "AGENT": "#V1989500",
+          "LEX": "CRIED",
+          "WNSENSE": "cry%2:29:00::"
+        },
+        "start": 53,
+        "end": 102
+      },
+      "V1989500": {
+        "id": "V1989500",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 53,
+        "end": 55
+      },
+      "V1989535": {
+        "id": "V1989535",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00",
+          "COREF": "#V1989435"
+        },
+        "start": 72,
+        "end": 76
+      },
+      "V1989539": {
+        "id": "V1989539",
+        "indicator": "F",
+        "type": "AWAY",
+        "word": "AWAY",
+        "roles": {
+          "FIGURE": "#V1989535",
+          "LEX": "AWAY"
+        },
+        "start": 76,
+        "end": 81
+      },
+      "V1989547": {
+        "id": "V1989547",
+        "indicator": "F",
+        "type": "WITH-INSTRUMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V1989759",
+          "FIGURE": "#V1989531",
+          "LEX": "WITH"
+        },
+        "start": 81,
+        "end": 102
+      },
+      "V1989759": {
+        "id": "V1989759",
+        "indicator": "A",
+        "type": "POWER",
+        "word": "POWER",
+        "roles": {
+          "REFOBJECT": "#V1989587",
+          "QUAN": "UNIVERSAL",
+          "LEX": "POWER",
+          "WNSENSE": "electricity%1:19:01"
+        },
+        "start": 86,
+        "end": 102
+      },
+      "V1989587": {
+        "id": "V1989587",
+        "indicator": "THE",
+        "type": "POWER",
+        "word": "POWER",
+        "roles": {
+          "ASSOC-POSS": "#V1989581",
+          "LEX": "POWER",
+          "WNSENSE": "electricity%1:19:01"
+        },
+        "start": 90,
+        "end": 102
+      },
+      "V1989581": {
+        "id": "V1989581",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 90,
+        "end": 102
+      },
+      "root": "#V1990418"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+364",
+    "*last-utt-id*=364  utt-id+NIL"
+  ]
+}

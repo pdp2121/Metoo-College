@@ -1,0 +1,144 @@
+{
+  "parse": [
+    {
+      "V1115233": {
+        "id": "V1115233",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1115145",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 53
+      },
+      "V1115145": {
+        "id": "V1115145",
+        "indicator": "F",
+        "type": "EVENT-OF-CAUSATION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V1114763",
+          "SEQUENCE1": "#V1114807",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 53
+      },
+      "V1114807": {
+        "id": "V1114807",
+        "indicator": "F",
+        "type": "ACQUIRE",
+        "word": "GRAB",
+        "roles": {
+          "AGENT": "#V1114758",
+          "AFFECTED": "#V1114813",
+          "LEX": "GRABBED",
+          "WNSENSE": "grab%2:40:00::"
+        },
+        "start": 0,
+        "end": 53
+      },
+      "V1114763": {
+        "id": "V1114763",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V1114770",
+          "AGENT": "#V1114758",
+          "LEX": "WALKED",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 0,
+        "end": 53
+      },
+      "V1114758": {
+        "id": "V1114758",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 6
+      },
+      "V1114770": {
+        "id": "V1114770",
+        "indicator": "F",
+        "type": "BACK-OF",
+        "word": "BEHIND",
+        "roles": {
+          "GROUND": "#V1115033",
+          "FIGURE": "#V1114758",
+          "LEX": "BEHIND",
+          "WNSENSE": "behind%4:02:00::"
+        },
+        "start": 13,
+        "end": 33
+      },
+      "V1115033": {
+        "id": "V1115033",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1114785"
+        },
+        "start": 20,
+        "end": 33
+      },
+      "V1114785": {
+        "id": "V1114785",
+        "indicator": "THE",
+        "type": "CHRONICLE",
+        "word": "REGISTER",
+        "roles": {
+          "LEX": "REGISTER",
+          "WNSENSE": "register%1:10:00::"
+        },
+        "start": 20,
+        "end": 33
+      },
+      "V1114813": {
+        "id": "V1114813",
+        "indicator": "THE",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "BUTT",
+        "roles": {
+          "ASSOC-POSS": "#V1114810",
+          "LEX": "BUTT",
+          "WNSENSE": "butt%1:06:00::"
+        },
+        "start": 45,
+        "end": 53
+      },
+      "V1114810": {
+        "id": "V1114810",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 45,
+        "end": 53
+      },
+      "root": "#V1115233"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+215",
+    "*last-utt-id*=215  utt-id+NIL"
+  ]
+}

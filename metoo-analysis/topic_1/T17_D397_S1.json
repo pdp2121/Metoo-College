@@ -1,0 +1,213 @@
+{
+  "parse": [
+    {
+      "V1708426": {
+        "id": "V1708426",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1705261",
+          "LEX": "JUMPED"
+        },
+        "start": 0,
+        "end": 76
+      },
+      "V1705261": {
+        "id": "V1705261",
+        "indicator": "F",
+        "type": "JUMP",
+        "word": "JUMP",
+        "roles": {
+          "RESULT1": "#V1705334",
+          "RESULT": "#V1705271",
+          "AGENT": "#V1705256",
+          "TIME": "#V1708244",
+          "TENSE": "PAST",
+          "LEX": "JUMPED",
+          "WNSENSE": "jump%2:38:01::"
+        },
+        "start": 0,
+        "end": 76
+      },
+      "V1705256": {
+        "id": "V1705256",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": "#V1705253",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 0,
+        "end": 13
+      },
+      "V1705253": {
+        "id": "V1705253",
+        "indicator": "F",
+        "type": "MORE-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V1705256",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLDER",
+          "WNSENSE": "better%3:00:00::"
+        },
+        "start": 3,
+        "end": 9
+      },
+      "V1705271": {
+        "id": "V1705271",
+        "indicator": "F",
+        "type": "DIRECTION-OUT",
+        "word": "OUT",
+        "roles": {
+          "FIGURE": "#V1705256",
+          "LEX": "OUT",
+          "WNSENSE": "out%4:02:02::"
+        },
+        "start": 20,
+        "end": 24
+      },
+      "V1705334": {
+        "id": "V1705334",
+        "indicator": "F",
+        "type": "FROM-LOC",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V1705383",
+          "FIGURE": "#V1705256",
+          "LEX": "FROM"
+        },
+        "start": 24,
+        "end": 36
+      },
+      "V1705383": {
+        "id": "V1705383",
+        "indicator": "A",
+        "type": "TREE",
+        "word": "TREE",
+        "roles": {
+          "LEX": "TREE",
+          "WNSENSE": "tree%1:20:00::"
+        },
+        "start": 29,
+        "end": 36
+      },
+      "V1708244": {
+        "id": "V1708244",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1705261",
+          "GROUND": "#V1705611",
+          "LEX": "AND"
+        },
+        "start": 36,
+        "end": 76
+      },
+      "V1705611": {
+        "id": "V1705611",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V1705393",
+          "SEQUENCE1": "#V1705418",
+          "VFORM": "ING",
+          "LEX": "AND"
+        },
+        "start": 36,
+        "end": 76
+      },
+      "V1705418": {
+        "id": "V1705418",
+        "indicator": "F",
+        "type": "LOCUTION",
+        "word": "SAY",
+        "roles": {
+          "NEUTRAL": "#V1708232",
+          "LEX": "SAYING",
+          "WNSENSE": "say%2:32:02::"
+        },
+        "start": 36,
+        "end": 76
+      },
+      "V1705393": {
+        "id": "V1705393",
+        "indicator": "F",
+        "type": "ACQUIRE",
+        "word": "GRAB",
+        "roles": {
+          "AFFECTED": "#V1705396",
+          "LEX": "GRABBING",
+          "WNSENSE": "grab%2:40:00::"
+        },
+        "start": 36,
+        "end": 76
+      },
+      "V1705396": {
+        "id": "V1705396",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "HIMSELF",
+        "roles": {
+          "PROFORM": "HIMSELF",
+          "LEX": "HIMSELF",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 53
+      },
+      "V1708232": {
+        "id": "V1708232",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1705440"
+        },
+        "start": 64,
+        "end": 76
+      },
+      "V1705440": {
+        "id": "V1705440",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THING",
+        "roles": {
+          "MOD": "#V1705434",
+          "LEX": "THINGS",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 64,
+        "end": 76
+      },
+      "V1705434": {
+        "id": "V1705434",
+        "indicator": "F",
+        "type": "OFFENSIVE-VAL",
+        "word": "LEWD",
+        "roles": {
+          "ORIENTATION": "POS",
+          "FIGURE": "#V1705440",
+          "SCALE": "OFFENSIVENESS-SCALE",
+          "LEX": "LEWD",
+          "WNSENSE": "lewd%5:00:00:dirty:02"
+        },
+        "start": 64,
+        "end": 69
+      },
+      "root": "#V1708426"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+286",
+    "*last-utt-id*=286  utt-id+NIL"
+  ]
+}

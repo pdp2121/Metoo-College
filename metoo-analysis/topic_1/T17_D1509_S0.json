@@ -1,0 +1,173 @@
+{
+  "parse": [
+    {
+      "V214490": {
+        "id": "V214490",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V209740",
+          "LEX": "TOLD"
+        },
+        "start": 0,
+        "end": 65
+      },
+      "V209740": {
+        "id": "V209740",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "TIME": "#V209726",
+          "AGENT": "#V209686",
+          "AGENT1": "#V209751",
+          "NEUTRAL": "#V209757",
+          "FREQUENCY": "#V209733",
+          "TENSE": "PAST",
+          "LEX": "TOLD",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 0,
+        "end": 65
+      },
+      "V209686": {
+        "id": "V209686",
+        "indicator": "BARE",
+        "type": "PERSON",
+        "word": "NEIGHBOR",
+        "roles": {
+          "ASSOC-WITH1": "#V209654",
+          "ASSOC-WITH": "#V210183",
+          "LOCATION": "#V210142",
+          "LEX": "NEIGHBOR",
+          "WNSENSE": "neighbor%1:18:00::"
+        },
+        "start": 0,
+        "end": 37
+      },
+      "V209654": {
+        "id": "V209654",
+        "indicator": "KIND",
+        "type": "AGE-SCALE",
+        "word": "AGE",
+        "roles": {
+          "SCALE": "TIME-MEASURE-SCALE",
+          "LEX": "AGE",
+          "WNSENSE": "age%1:07:00::"
+        },
+        "start": 0,
+        "end": 37
+      },
+      "V210183": {
+        "id": "V210183",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V209976",
+          "LEX": "TWELVE"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V209976": {
+        "id": "V209976",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(12 18)",
+          "VAL": "(12 18)",
+          "LEX": "TWELVE"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V210142": {
+        "id": "V210142",
+        "indicator": "F",
+        "type": "AT-SCALE-VALUE",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V209686",
+          "GROUND": "#V209816",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD"
+        },
+        "start": 13,
+        "end": 28
+      },
+      "V209816": {
+        "id": "V209816",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "-20"
+        },
+        "start": 13,
+        "end": 28
+      },
+      "V209726": {
+        "id": "V209726",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "UNTIL-NOW",
+        "roles": {
+          "FIGURE": "#V209740",
+          "LEX": "UNTIL-NOW",
+          "WNSENSE": "until_now%4:02:00"
+        },
+        "start": 37,
+        "end": 47
+      },
+      "V209733": {
+        "id": "V209733",
+        "indicator": "F",
+        "type": "NEVER",
+        "word": "NEVER",
+        "roles": {
+          "FIGURE": "#V209740",
+          "LEX": "NEVER",
+          "WNSENSE": "never%4:02:00::"
+        },
+        "start": 47,
+        "end": 53
+      },
+      "V209751": {
+        "id": "V209751",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ANYONE",
+        "roles": {
+          "PROFORM": "ANYONE",
+          "LEX": "ANYONE",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V209757": {
+        "id": "V209757",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "|...|",
+        "roles": {
+          "LEX": "|...|",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 65,
+        "end": 65
+      },
+      "root": "#V214490"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+34",
+    "*last-utt-id*=34  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "parse": [
+    {
+      "V876309": {
+        "id": "V876309",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V875531",
+          "LEX": "LET"
+        },
+        "start": 0,
+        "end": 34
+      },
+      "V875531": {
+        "id": "V875531",
+        "indicator": "F",
+        "type": "ALLOW",
+        "word": "LET",
+        "roles": {
+          "AGENT": "#V875510",
+          "AFFECTED": "#V875559",
+          "MOD": "#V875563",
+          "TENSE": "PRES",
+          "LEX": "LET",
+          "WNSENSE": "let%2:41:00::"
+        },
+        "start": 0,
+        "end": 34
+      },
+      "V875510": {
+        "id": "V875510",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V875559": {
+        "id": "V875559",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 6,
+        "end": 10
+      },
+      "V875563": {
+        "id": "V875563",
+        "indicator": "F",
+        "type": "WITHOUT",
+        "word": "WITHOUT",
+        "roles": {
+          "GROUND": "#V875726",
+          "FIGURE": "#V875531",
+          "LEX": "WITHOUT"
+        },
+        "start": 10,
+        "end": 34
+      },
+      "V875726": {
+        "id": "V875726",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V875579"
+        },
+        "start": 18,
+        "end": 34
+      },
+      "V875579": {
+        "id": "V875579",
+        "indicator": "BARE",
+        "type": "DETERMINE",
+        "word": "GUESS",
+        "roles": {
+          "ASSOC-WITH": "#V875570",
+          "LEX": "GUESSING",
+          "WNSENSE": "reason%2:31:01"
+        },
+        "start": 18,
+        "end": 34
+      },
+      "V875570": {
+        "id": "V875570",
+        "indicator": "KIND",
+        "type": "TIME-DEFINED-BY-DURATION",
+        "word": "SECOND",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "SECOND",
+          "WNSENSE": "second%1:28:01::"
+        },
+        "start": 18,
+        "end": 34
+      },
+      "root": "#V876309"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+181",
+    "*last-utt-id*=181  utt-id+NIL"
+  ]
+}

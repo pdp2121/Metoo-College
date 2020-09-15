@@ -1,0 +1,90 @@
+{
+  "parse": [
+    {
+      "V2487270": {
+        "id": "V2487270",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2486843",
+          "LEX": "WORK"
+        },
+        "start": 0,
+        "end": 20
+      },
+      "V2486843": {
+        "id": "V2486843",
+        "indicator": "F",
+        "type": "FUNCTION",
+        "word": "WORK",
+        "roles": {
+          "LOCATION": "#V2486882",
+          "NEUTRAL": "#V2486827",
+          "TIME": "#V2486831",
+          "TENSE": "PRES",
+          "LEX": "WORK",
+          "WNSENSE": "work%2:35:02::"
+        },
+        "start": 0,
+        "end": 20
+      },
+      "V2486827": {
+        "id": "V2486827",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2486831": {
+        "id": "V2486831",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "STILL",
+        "roles": {
+          "FIGURE": "#V2486843",
+          "LEX": "STILL",
+          "WNSENSE": "still%4:02:01::"
+        },
+        "start": 5,
+        "end": 11
+      },
+      "V2486882": {
+        "id": "V2486882",
+        "indicator": "F",
+        "type": "POS-WRT-SPEAKER-RELN",
+        "word": "THERE",
+        "roles": {
+          "GROUND": "#V2486938",
+          "FIGURE": "#V2486843",
+          "LEX": "THERE"
+        },
+        "start": 16,
+        "end": 20
+      },
+      "V2486938": {
+        "id": "V2486938",
+        "indicator": "IMPRO",
+        "type": "LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "THERE"
+        },
+        "start": 16,
+        "end": 20
+      },
+      "root": "#V2487270"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+445",
+    "*last-utt-id*=445  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "parse": [
+    {
+      "V2102283": {
+        "id": "V2102283",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2101514",
+          "LEX": "SAID"
+        },
+        "start": 0,
+        "end": 46
+      },
+      "V2101514": {
+        "id": "V2101514",
+        "indicator": "F",
+        "type": "COMMAND",
+        "word": "SAY",
+        "roles": {
+          "AGENT": "#V2101501",
+          "FORMAL": "#V2101574",
+          "TENSE": "PAST",
+          "LEX": "SAID",
+          "WNSENSE": "say%2:32:04::"
+        },
+        "start": 0,
+        "end": 46
+      },
+      "V2101501": {
+        "id": "V2101501",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "ADULT",
+        "roles": {
+          "LEX": "ADULT",
+          "WNSENSE": "adult%1:18:00::"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V2101574": {
+        "id": "V2101574",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "MAKE",
+        "roles": {
+          "AGENT": "#V2101501",
+          "AFFECTED-RESULT": "#V2101650",
+          "MOD": "#V2101661",
+          "NEGATION": "+",
+          "VFORM": "BASE",
+          "LEX": "MAKE",
+          "WNSENSE": "make%1:04:00::"
+        },
+        "start": 14,
+        "end": 46
+      },
+      "V2101650": {
+        "id": "V2101650",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "BIG-DEAL",
+        "roles": {
+          "LEX": "BIG-DEAL",
+          "WNSENSE": "big_deal%1:18:00"
+        },
+        "start": 26,
+        "end": 37
+      },
+      "V2101661": {
+        "id": "V2101661",
+        "indicator": "F",
+        "type": "ASSOCIATED-INFORMATION",
+        "word": "ABOUT",
+        "roles": {
+          "GROUND": "#V2101672",
+          "FIGURE": "#V2101574",
+          "LEX": "ABOUT",
+          "WNSENSE": "about%4:02:00::"
+        },
+        "start": 37,
+        "end": 46
+      },
+      "V2101672": {
+        "id": "V2101672",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V2101514"
+        },
+        "start": 43,
+        "end": 46
+      },
+      "root": "#V2102283"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+370",
+    "*last-utt-id*=370  utt-id+NIL"
+  ]
+}

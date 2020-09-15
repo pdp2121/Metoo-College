@@ -1,0 +1,113 @@
+{
+  "parse": [
+    {
+      "V1804323": {
+        "id": "V1804323",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1804117",
+          "LEX": "S"
+        },
+        "start": 0,
+        "end": 43
+      },
+      "V1804117": {
+        "id": "V1804117",
+        "indicator": "A",
+        "type": "RATE",
+        "word": null,
+        "roles": {
+          "REPEATS": "#V1803506",
+          "OVER-PERIOD": "#V1803564",
+          "LEX": "S"
+        },
+        "start": 0,
+        "end": 43
+      },
+      "V1803506": {
+        "id": "V1803506",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "PROFORM": "THAT",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 0,
+        "end": 7
+      },
+      "V1803564": {
+        "id": "V1803564",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": "THING",
+        "roles": {
+          "MOD": [
+            "#V1803600",
+            "#V1803560"
+          ],
+          "LEX": "THING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 7,
+        "end": 43
+      },
+      "V1803560": {
+        "id": "V1803560",
+        "indicator": "F",
+        "type": "ACTUAL",
+        "word": "REAL",
+        "roles": {
+          "FIGURE": "#V1803564",
+          "SCALE": "ACTUAL-SCALE",
+          "LEX": "REAL",
+          "WNSENSE": "real%3:00:00::"
+        },
+        "start": 9,
+        "end": 14
+      },
+      "V1803600": {
+        "id": "V1803600",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V1803564",
+          "MOD": "#V1803592",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 20,
+        "end": 43
+      },
+      "V1803592": {
+        "id": "V1803592",
+        "indicator": "F",
+        "type": "AUTHENTIC-VAL",
+        "word": "ACTUALLY",
+        "roles": {
+          "FIGURE": "#V1803600",
+          "SCALE": "AUTHENTICITY-SCALE",
+          "ORIENTATION": "POS",
+          "LEX": "ACTUALLY",
+          "WNSENSE": "genuine%3:00:00"
+        },
+        "start": 25,
+        "end": 34
+      },
+      "root": "#V1804323"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+345",
+    "*last-utt-id*=345  utt-id+NIL"
+  ]
+}

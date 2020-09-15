@@ -1,0 +1,163 @@
+{
+  "parse": [
+    {
+      "V928261": {
+        "id": "V928261",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V928251",
+          "LEX": "EIGHTEEN"
+        },
+        "start": 0,
+        "end": 77
+      },
+      "V928251": {
+        "id": "V928251",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V926728",
+          "SEQUENCE1": "#V926735",
+          "LEX": "EIGHTEEN",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 77
+      },
+      "V926728": {
+        "id": "V926728",
+        "indicator": "THE",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "NUMBER": "18",
+          "LEX": "EIGHTEEN"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V926735": {
+        "id": "V926735",
+        "indicator": "INDEF-SET",
+        "type": "PERSON",
+        "word": "BOOBS",
+        "roles": {
+          "MOD": "#V926743",
+          "LEX": "BOOBS",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 6,
+        "end": 77
+      },
+      "V926743": {
+        "id": "V926743",
+        "indicator": "F",
+        "type": "ACQUIRE",
+        "word": "GRAB",
+        "roles": {
+          "AFFECTED": "#V926735",
+          "AGENT": "#V926814",
+          "REASON": "#V926875",
+          "VFORM": "PASSIVE",
+          "LEX": "GRABBED",
+          "WNSENSE": "grab%2:40:00::"
+        },
+        "start": 12,
+        "end": 77
+      },
+      "V926814": {
+        "id": "V926814",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "BOUNCER",
+        "roles": {
+          "MOD": "#V926861",
+          "LEX": "BOUNCER",
+          "WNSENSE": "bouncer%1:18:00::"
+        },
+        "start": 20,
+        "end": 56
+      },
+      "V926861": {
+        "id": "V926861",
+        "indicator": "F",
+        "type": "SUPPOSE",
+        "word": "SUPPOSE",
+        "roles": {
+          "NEUTRAL": "#V926814",
+          "MOD": "#V926849",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "SUPPOSED",
+          "WNSENSE": "suppose%2:32:00::"
+        },
+        "start": 33,
+        "end": 56
+      },
+      "V926849": {
+        "id": "V926849",
+        "indicator": "F",
+        "type": "EVAL-WRT-EXPECTATION",
+        "word": "ONLY",
+        "roles": {
+          "FIGURE": "#V926861",
+          "LEX": "ONLY",
+          "WNSENSE": "only%4:02:02::"
+        },
+        "start": 42,
+        "end": 47
+      },
+      "V926875": {
+        "id": "V926875",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V926908",
+          "FIGURE": "#V926743",
+          "LEX": "TO"
+        },
+        "start": 56,
+        "end": 77
+      },
+      "V926908": {
+        "id": "V926908",
+        "indicator": "F",
+        "type": "PHYSICAL-SCRUTINY",
+        "word": "SEARCH",
+        "roles": {
+          "NEUTRAL": "#V926911",
+          "VFORM": "BASE",
+          "PROGR": "+",
+          "LEX": "SEARCHING",
+          "WNSENSE": "search%1:04:00::"
+        },
+        "start": 59,
+        "end": 77
+      },
+      "V926911": {
+        "id": "V926911",
+        "indicator": "INDEF-SET",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LEX": "GUYS",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 72,
+        "end": 77
+      },
+      "root": "#V928261"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to sequences not reimplemented yet",
+    "*last-utt-id*=NIL  utt-id+162",
+    "*last-utt-id*=162  utt-id+NIL"
+  ]
+}

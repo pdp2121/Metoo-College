@@ -1,0 +1,148 @@
+{
+  "parse": [
+    {
+      "V1561382": {
+        "id": "V1561382",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1560613",
+          "MOD": "#V1561036",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 45
+      },
+      "V1561036": {
+        "id": "V1561036",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V1560948",
+          "SEQUENCE1": "#V1560487",
+          "OPERATOR": "OR",
+          "LEX": "EVEN",
+          "WNSENSE": "even%4:02:00::"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V1560948": {
+        "id": "V1560948",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1561382",
+          "GROUND": "#V1560460",
+          "LEX": "TIMES"
+        },
+        "start": 0,
+        "end": 20
+      },
+      "V1560460": {
+        "id": "V1560460",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "AMOUNT": "SOME",
+          "MOD": "#V1560453",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 0,
+        "end": 20
+      },
+      "V1560453": {
+        "id": "V1560453",
+        "indicator": "F",
+        "type": "N-TUPLE-VAL",
+        "word": "MULTIPLE",
+        "roles": {
+          "FIGURE": "#V1560460",
+          "SCALE": "DOMAIN",
+          "LEX": "MULTIPLE",
+          "WNSENSE": "multiple%3:00:00::"
+        },
+        "start": 5,
+        "end": 14
+      },
+      "V1560487": {
+        "id": "V1560487",
+        "indicator": "F",
+        "type": "MODIFIER",
+        "word": "EVEN",
+        "roles": {
+          "FIGURE": "#V1561382",
+          "LEX": "EVEN",
+          "WNSENSE": "even%4:02:00::"
+        },
+        "start": 23,
+        "end": 28
+      },
+      "V1560613": {
+        "id": "V1560613",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "REFOBJECT": "#V1560834",
+          "QUAN": "UNIVERSAL",
+          "LEX": "-"
+        },
+        "start": 28,
+        "end": 45
+      },
+      "V1560834": {
+        "id": "V1560834",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1560630",
+          "LEX": "-"
+        },
+        "start": 32,
+        "end": 45
+      },
+      "V1560630": {
+        "id": "V1560630",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V1560534",
+          "LEX": "THE"
+        },
+        "start": 35,
+        "end": 45
+      },
+      "V1560534": {
+        "id": "V1560534",
+        "indicator": "F",
+        "type": "PREVIOUS-VAL",
+        "word": "ABOVE",
+        "roles": {
+          "FIGURE": "#V1560630",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "ABOVE",
+          "WNSENSE": "above%5:00:00:preceding:00"
+        },
+        "start": 39,
+        "end": 45
+      },
+      "root": "#V1561382"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+283",
+    "*last-utt-id*=283  utt-id+NIL"
+  ]
+}

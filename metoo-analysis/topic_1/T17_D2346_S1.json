@@ -1,0 +1,115 @@
+{
+  "parse": [
+    {
+      "V1102959": {
+        "id": "V1102959",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1102627",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V1102627": {
+        "id": "V1102627",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1102960",
+          "FORMAL": "#V1102876",
+          "TENSE": "PAST",
+          "LEX": "WAS",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V1102960": {
+        "id": "V1102960",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ",
+          "COREF": "#V1102809"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V1102876": {
+        "id": "V1102876",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1102960",
+          "GROUND": "#V1102642",
+          "LEX": "CHASED"
+        },
+        "start": 4,
+        "end": 25
+      },
+      "V1102642": {
+        "id": "V1102642",
+        "indicator": "F",
+        "type": "PURSUE",
+        "word": "CHASE",
+        "roles": {
+          "AFFECTED": "#V1102960",
+          "MOD": "#V1102648",
+          "WNSENSE": "chase%2:38:00::"
+        },
+        "start": 4,
+        "end": 25
+      },
+      "V1102648": {
+        "id": "V1102648",
+        "indicator": "F",
+        "type": "PIVOT",
+        "word": "AROUND",
+        "roles": {
+          "GROUND": "#V1102809",
+          "FIGURE": "#V1102642",
+          "LEX": "AROUND",
+          "WNSENSE": "around%4:02:01::"
+        },
+        "start": 11,
+        "end": 25
+      },
+      "V1102809": {
+        "id": "V1102809",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1102698"
+        },
+        "start": 18,
+        "end": 25
+      },
+      "V1102698": {
+        "id": "V1102698",
+        "indicator": "A",
+        "type": "TABLE",
+        "word": "DESK",
+        "roles": {
+          "LEX": "DESK",
+          "WNSENSE": "desk%1:06:00::"
+        },
+        "start": 18,
+        "end": 25
+      },
+      "root": "#V1102959"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=231  utt-id+232",
+    "*last-utt-id*=232  utt-id+NIL"
+  ]
+}

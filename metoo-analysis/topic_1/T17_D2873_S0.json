@@ -1,0 +1,6750 @@
+{
+  "parse": [
+    {
+      "V1645597": {
+        "id": "V1645597",
+        "indicator": "F",
+        "type": "COMMERCE-PAY",
+        "word": "SPEND",
+        "roles": {
+          "AGENT": "#V1645581",
+          "REASON": "#V1645508",
+          "TENSE": "PAST",
+          "LEX": "SPENT"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V1645508": {
+        "id": "V1645508",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V1646287",
+          "FIGURE": "#V1645597",
+          "LEX": "FOR"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1646287": {
+        "id": "V1646287",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "REFOBJECT": "#V1646912",
+          "QUAN": "UNIVERSAL",
+          "LEX": "NIGHTS"
+        },
+        "start": 4,
+        "end": 22
+      },
+      "V1646912": {
+        "id": "V1646912",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V1645563",
+          "LEX": "NIGHTS"
+        },
+        "start": 8,
+        "end": 22
+      },
+      "V1645563": {
+        "id": "V1645563",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "LEX": "NIGHTS",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "V1645581": {
+        "id": "V1645581",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "root": "#V1645597"
+    },
+    {
+      "V1651023": {
+        "id": "V1651023",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1645683",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 125
+      },
+      "V1645683": {
+        "id": "V1645683",
+        "indicator": "F",
+        "type": "EVOKE-SHAME",
+        "word": "SHAME",
+        "roles": {
+          "TIME": [
+            "#V1646561",
+            "#V1648902"
+          ],
+          "FREQUENCY": "#V1649931",
+          "AFFECTED": "#V1645652",
+          "MOD": "#V1645905",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 125
+      },
+      "V1646561": {
+        "id": "V1646561",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645605",
+          "LEX": "CRYING"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1645605": {
+        "id": "V1645605",
+        "indicator": "F",
+        "type": "SOUND-EXPRESSION",
+        "word": "CRY",
+        "roles": {
+          "VFORM": "ING",
+          "LEX": "CRYING",
+          "WNSENSE": "cry%2:29:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1648902": {
+        "id": "V1648902",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645609",
+          "LEX": "BLAMING"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645609": {
+        "id": "V1645609",
+        "indicator": "F",
+        "type": "BLAME",
+        "word": "BLAME",
+        "roles": {
+          "AFFECTED": "#V1645612",
+          "FREQUENCY": "#V1646926",
+          "VFORM": "ING",
+          "LEX": "BLAMING",
+          "WNSENSE": "blame%2:32:00::"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645612": {
+        "id": "V1645612",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MYSELF",
+        "roles": {
+          "PROFORM": "MYSELF",
+          "LEX": "MYSELF",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 45,
+        "end": 52
+      },
+      "V1646926": {
+        "id": "V1646926",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645609",
+          "GROUND": "#V1645625",
+          "LEX": "TIMES"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645625": {
+        "id": "V1645625",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00",
+          "COREF": "#V1645563"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645652": {
+        "id": "V1645652",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 62,
+        "end": 64
+      },
+      "V1645905": {
+        "id": "V1645905",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "IN-PUBLIC",
+        "roles": {
+          "FIGURE": "#V1645683",
+          "LEX": "IN-PUBLIC",
+          "WNSENSE": "in_public%4:02:00"
+        },
+        "start": 75,
+        "end": 85
+      },
+      "V1649931": {
+        "id": "V1649931",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645918",
+          "LEX": "TIMES"
+        },
+        "start": 85,
+        "end": 125
+      },
+      "V1645918": {
+        "id": "V1645918",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "MOD": "#V1645983",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 85,
+        "end": 125
+      },
+      "V1645983": {
+        "id": "V1645983",
+        "indicator": "F",
+        "type": "EXPERIENCER-EMOTION",
+        "word": "FEEL",
+        "roles": {
+          "EXPERIENCER": "#V1645945",
+          "FORMAL": "#V1646002",
+          "LOCATION": "#V1646014",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "FELT",
+          "WNSENSE": "feel%2:37:00::"
+        },
+        "start": 95,
+        "end": 125
+      },
+      "V1645945": {
+        "id": "V1645945",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V1646002": {
+        "id": "V1646002",
+        "indicator": "F",
+        "type": "AFRAID",
+        "word": "SCARED",
+        "roles": {
+          "FIGURE": "#V1645945",
+          "SCALE": "FEAR-SCALE",
+          "LEX": "SCARED",
+          "WNSENSE": "scared%5:00:00:afraid:00"
+        },
+        "start": 107,
+        "end": 114
+      },
+      "V1646014": {
+        "id": "V1646014",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V1646041",
+          "FIGURE": "#V1645983",
+          "LEX": "ON"
+        },
+        "start": 114,
+        "end": 125
+      },
+      "V1646041": {
+        "id": "V1646041",
+        "indicator": "THE",
+        "type": "VEHICLE",
+        "word": "METRO",
+        "roles": {
+          "LEX": "METRO",
+          "WNSENSE": "transport%1:06:00"
+        },
+        "start": 117,
+        "end": 125
+      },
+      "root": "#V1651023"
+    },
+    {
+      "V1645597": {
+        "id": "V1645597",
+        "indicator": "F",
+        "type": "COMMERCE-PAY",
+        "word": "SPEND",
+        "roles": {
+          "AGENT": "#V1645581",
+          "REASON": "#V1645508",
+          "TENSE": "PAST",
+          "LEX": "SPENT"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V1645508": {
+        "id": "V1645508",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V1646287",
+          "FIGURE": "#V1645597",
+          "LEX": "FOR"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1646287": {
+        "id": "V1646287",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "REFOBJECT": "#V1646912",
+          "QUAN": "UNIVERSAL",
+          "LEX": "NIGHTS"
+        },
+        "start": 4,
+        "end": 22
+      },
+      "V1646912": {
+        "id": "V1646912",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V1645563",
+          "LEX": "NIGHTS"
+        },
+        "start": 8,
+        "end": 22
+      },
+      "V1645563": {
+        "id": "V1645563",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "LEX": "NIGHTS",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "V1645581": {
+        "id": "V1645581",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "root": "#V1645597"
+    },
+    {
+      "V1650991": {
+        "id": "V1650991",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1645683",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1645683": {
+        "id": "V1645683",
+        "indicator": "F",
+        "type": "EVOKE-SHAME",
+        "word": "SHAME",
+        "roles": {
+          "TIME": [
+            "#V1646561",
+            "#V1648902"
+          ],
+          "FREQUENCY": "#V1649853",
+          "AFFECTED": "#V1645652",
+          "MOD": "#V1645905",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1646561": {
+        "id": "V1646561",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645605",
+          "LEX": "CRYING"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1645605": {
+        "id": "V1645605",
+        "indicator": "F",
+        "type": "SOUND-EXPRESSION",
+        "word": "CRY",
+        "roles": {
+          "VFORM": "ING",
+          "LEX": "CRYING",
+          "WNSENSE": "cry%2:29:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1648902": {
+        "id": "V1648902",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645609",
+          "LEX": "BLAMING"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645609": {
+        "id": "V1645609",
+        "indicator": "F",
+        "type": "BLAME",
+        "word": "BLAME",
+        "roles": {
+          "AFFECTED": "#V1645612",
+          "FREQUENCY": "#V1646926",
+          "VFORM": "ING",
+          "LEX": "BLAMING",
+          "WNSENSE": "blame%2:32:00::"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645612": {
+        "id": "V1645612",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MYSELF",
+        "roles": {
+          "PROFORM": "MYSELF",
+          "LEX": "MYSELF",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 52
+      },
+      "V1646926": {
+        "id": "V1646926",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645609",
+          "GROUND": "#V1645625",
+          "LEX": "TIMES"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645625": {
+        "id": "V1645625",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645652": {
+        "id": "V1645652",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 62,
+        "end": 64
+      },
+      "V1645905": {
+        "id": "V1645905",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "IN-PUBLIC",
+        "roles": {
+          "FIGURE": "#V1645683",
+          "LEX": "IN-PUBLIC",
+          "WNSENSE": "in_public%4:02:00"
+        },
+        "start": 75,
+        "end": 85
+      },
+      "V1649853": {
+        "id": "V1649853",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645918",
+          "LEX": "TIMES"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645918": {
+        "id": "V1645918",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "MOD": "#V1645983",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645983": {
+        "id": "V1645983",
+        "indicator": "F",
+        "type": "EXPERIENCER-EMOTION",
+        "word": "FEEL",
+        "roles": {
+          "EXPERIENCER": "#V1645945",
+          "FORMAL": "#V1646000",
+          "LOCATION": "#V1646014",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "FELT",
+          "WNSENSE": "feel%2:37:00::"
+        },
+        "start": 95,
+        "end": 126
+      },
+      "V1645945": {
+        "id": "V1645945",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V1646000": {
+        "id": "V1646000",
+        "indicator": "F",
+        "type": "AFRAID",
+        "word": "SCARED",
+        "roles": {
+          "FIGURE": "#V1645945",
+          "SCALE": "FEAR-SCALE",
+          "LEX": "SCARED",
+          "WNSENSE": "scared%5:00:00:afraid:00"
+        },
+        "start": 107,
+        "end": 114
+      },
+      "V1646014": {
+        "id": "V1646014",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V1646041",
+          "FIGURE": "#V1645983",
+          "LEX": "ON"
+        },
+        "start": 114,
+        "end": 126
+      },
+      "V1646041": {
+        "id": "V1646041",
+        "indicator": "THE",
+        "type": "VEHICLE",
+        "word": "METRO",
+        "roles": {
+          "LEX": "METRO",
+          "WNSENSE": "transport%1:06:00"
+        },
+        "start": 117,
+        "end": 126
+      },
+      "root": "#V1650991"
+    },
+    {
+      "V1645597": {
+        "id": "V1645597",
+        "indicator": "F",
+        "type": "COMMERCE-PAY",
+        "word": "SPEND",
+        "roles": {
+          "AGENT": "#V1645581",
+          "REASON": "#V1645508",
+          "TENSE": "PAST",
+          "LEX": "SPENT"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V1645508": {
+        "id": "V1645508",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V1646287",
+          "FIGURE": "#V1645597",
+          "LEX": "FOR"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1646287": {
+        "id": "V1646287",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "REFOBJECT": "#V1646912",
+          "QUAN": "UNIVERSAL",
+          "LEX": "NIGHTS"
+        },
+        "start": 4,
+        "end": 22
+      },
+      "V1646912": {
+        "id": "V1646912",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V1645563",
+          "LEX": "NIGHTS"
+        },
+        "start": 8,
+        "end": 22
+      },
+      "V1645563": {
+        "id": "V1645563",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "LEX": "NIGHTS",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "V1645581": {
+        "id": "V1645581",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "root": "#V1645597"
+    },
+    {
+      "V1650959": {
+        "id": "V1650959",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1645683",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1645683": {
+        "id": "V1645683",
+        "indicator": "F",
+        "type": "EVOKE-SHAME",
+        "word": "SHAME",
+        "roles": {
+          "TIME": [
+            "#V1646561",
+            "#V1648902"
+          ],
+          "FREQUENCY": "#V1649775",
+          "AFFECTED": "#V1645652",
+          "MOD": "#V1645905",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1646561": {
+        "id": "V1646561",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645605",
+          "LEX": "CRYING"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1645605": {
+        "id": "V1645605",
+        "indicator": "F",
+        "type": "SOUND-EXPRESSION",
+        "word": "CRY",
+        "roles": {
+          "VFORM": "ING",
+          "LEX": "CRYING",
+          "WNSENSE": "cry%2:29:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1648902": {
+        "id": "V1648902",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645609",
+          "LEX": "BLAMING"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645609": {
+        "id": "V1645609",
+        "indicator": "F",
+        "type": "BLAME",
+        "word": "BLAME",
+        "roles": {
+          "AFFECTED": "#V1645612",
+          "FREQUENCY": "#V1646926",
+          "VFORM": "ING",
+          "LEX": "BLAMING",
+          "WNSENSE": "blame%2:32:00::"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645612": {
+        "id": "V1645612",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MYSELF",
+        "roles": {
+          "PROFORM": "MYSELF",
+          "LEX": "MYSELF",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 52
+      },
+      "V1646926": {
+        "id": "V1646926",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645609",
+          "GROUND": "#V1645625",
+          "LEX": "TIMES"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645625": {
+        "id": "V1645625",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645652": {
+        "id": "V1645652",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 62,
+        "end": 64
+      },
+      "V1645905": {
+        "id": "V1645905",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "IN-PUBLIC",
+        "roles": {
+          "FIGURE": "#V1645683",
+          "LEX": "IN-PUBLIC",
+          "WNSENSE": "in_public%4:02:00"
+        },
+        "start": 75,
+        "end": 85
+      },
+      "V1649775": {
+        "id": "V1649775",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645918",
+          "LEX": "TIMES"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645918": {
+        "id": "V1645918",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "MOD": "#V1645983",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645983": {
+        "id": "V1645983",
+        "indicator": "F",
+        "type": "EXPERIENCER-EMOTION",
+        "word": "FEEL",
+        "roles": {
+          "EXPERIENCER": "#V1645945",
+          "FORMAL": "#V1645998",
+          "LOCATION": "#V1646014",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "FELT",
+          "WNSENSE": "feel%2:37:00::"
+        },
+        "start": 95,
+        "end": 126
+      },
+      "V1645945": {
+        "id": "V1645945",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V1645998": {
+        "id": "V1645998",
+        "indicator": "F",
+        "type": "AFRAID",
+        "word": "SCARED",
+        "roles": {
+          "FIGURE": "#V1645945",
+          "SCALE": "FEAR-SCALE",
+          "LEX": "SCARED",
+          "WNSENSE": "scared%5:00:00:afraid:00"
+        },
+        "start": 107,
+        "end": 114
+      },
+      "V1646014": {
+        "id": "V1646014",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V1646041",
+          "FIGURE": "#V1645983",
+          "LEX": "ON"
+        },
+        "start": 114,
+        "end": 126
+      },
+      "V1646041": {
+        "id": "V1646041",
+        "indicator": "THE",
+        "type": "VEHICLE",
+        "word": "METRO",
+        "roles": {
+          "LEX": "METRO",
+          "WNSENSE": "transport%1:06:00"
+        },
+        "start": 117,
+        "end": 126
+      },
+      "root": "#V1650959"
+    },
+    {
+      "V1645597": {
+        "id": "V1645597",
+        "indicator": "F",
+        "type": "COMMERCE-PAY",
+        "word": "SPEND",
+        "roles": {
+          "AGENT": "#V1645581",
+          "BENEFICIARY": "#V1645511",
+          "TENSE": "PAST",
+          "LEX": "SPENT"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V1645511": {
+        "id": "V1645511",
+        "indicator": "F",
+        "type": "BENEFICIARY",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V1646287",
+          "FIGURE": "#V1645597",
+          "LEX": "FOR"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1646287": {
+        "id": "V1646287",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "REFOBJECT": "#V1646912",
+          "QUAN": "UNIVERSAL",
+          "LEX": "NIGHTS"
+        },
+        "start": 4,
+        "end": 22
+      },
+      "V1646912": {
+        "id": "V1646912",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V1645563",
+          "LEX": "NIGHTS"
+        },
+        "start": 8,
+        "end": 22
+      },
+      "V1645563": {
+        "id": "V1645563",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "LEX": "NIGHTS",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "V1645581": {
+        "id": "V1645581",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "root": "#V1645597"
+    },
+    {
+      "V1651023": {
+        "id": "V1651023",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1645683",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1645683": {
+        "id": "V1645683",
+        "indicator": "F",
+        "type": "EVOKE-SHAME",
+        "word": "SHAME",
+        "roles": {
+          "TIME": [
+            "#V1646561",
+            "#V1648902"
+          ],
+          "FREQUENCY": "#V1649931",
+          "AFFECTED": "#V1645652",
+          "MOD": "#V1645905",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1646561": {
+        "id": "V1646561",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645605",
+          "LEX": "CRYING"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1645605": {
+        "id": "V1645605",
+        "indicator": "F",
+        "type": "SOUND-EXPRESSION",
+        "word": "CRY",
+        "roles": {
+          "VFORM": "ING",
+          "LEX": "CRYING",
+          "WNSENSE": "cry%2:29:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1648902": {
+        "id": "V1648902",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645609",
+          "LEX": "BLAMING"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645609": {
+        "id": "V1645609",
+        "indicator": "F",
+        "type": "BLAME",
+        "word": "BLAME",
+        "roles": {
+          "AFFECTED": "#V1645612",
+          "FREQUENCY": "#V1646926",
+          "VFORM": "ING",
+          "LEX": "BLAMING",
+          "WNSENSE": "blame%2:32:00::"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645612": {
+        "id": "V1645612",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MYSELF",
+        "roles": {
+          "PROFORM": "MYSELF",
+          "LEX": "MYSELF",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 52
+      },
+      "V1646926": {
+        "id": "V1646926",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645609",
+          "GROUND": "#V1645625",
+          "LEX": "TIMES"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645625": {
+        "id": "V1645625",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645652": {
+        "id": "V1645652",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 62,
+        "end": 64
+      },
+      "V1645905": {
+        "id": "V1645905",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "IN-PUBLIC",
+        "roles": {
+          "FIGURE": "#V1645683",
+          "LEX": "IN-PUBLIC",
+          "WNSENSE": "in_public%4:02:00"
+        },
+        "start": 75,
+        "end": 85
+      },
+      "V1649931": {
+        "id": "V1649931",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645918",
+          "LEX": "TIMES"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645918": {
+        "id": "V1645918",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "MOD": "#V1645983",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645983": {
+        "id": "V1645983",
+        "indicator": "F",
+        "type": "EXPERIENCER-EMOTION",
+        "word": "FEEL",
+        "roles": {
+          "EXPERIENCER": "#V1645945",
+          "FORMAL": "#V1646002",
+          "LOCATION": "#V1646014",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "FELT",
+          "WNSENSE": "feel%2:37:00::"
+        },
+        "start": 95,
+        "end": 126
+      },
+      "V1645945": {
+        "id": "V1645945",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V1646002": {
+        "id": "V1646002",
+        "indicator": "F",
+        "type": "AFRAID",
+        "word": "SCARED",
+        "roles": {
+          "FIGURE": "#V1645945",
+          "SCALE": "FEAR-SCALE",
+          "LEX": "SCARED",
+          "WNSENSE": "scared%5:00:00:afraid:00"
+        },
+        "start": 107,
+        "end": 114
+      },
+      "V1646014": {
+        "id": "V1646014",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V1646041",
+          "FIGURE": "#V1645983",
+          "LEX": "ON"
+        },
+        "start": 114,
+        "end": 126
+      },
+      "V1646041": {
+        "id": "V1646041",
+        "indicator": "THE",
+        "type": "VEHICLE",
+        "word": "METRO",
+        "roles": {
+          "LEX": "METRO",
+          "WNSENSE": "transport%1:06:00"
+        },
+        "start": 117,
+        "end": 126
+      },
+      "root": "#V1651023"
+    },
+    {
+      "V1645597": {
+        "id": "V1645597",
+        "indicator": "F",
+        "type": "COMMERCE-PAY",
+        "word": "SPEND",
+        "roles": {
+          "AGENT": "#V1645581",
+          "BENEFICIARY": "#V1645511",
+          "TENSE": "PAST",
+          "LEX": "SPENT"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V1645511": {
+        "id": "V1645511",
+        "indicator": "F",
+        "type": "BENEFICIARY",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V1646287",
+          "FIGURE": "#V1645597",
+          "LEX": "FOR"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1646287": {
+        "id": "V1646287",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "REFOBJECT": "#V1646912",
+          "QUAN": "UNIVERSAL",
+          "LEX": "NIGHTS"
+        },
+        "start": 4,
+        "end": 22
+      },
+      "V1646912": {
+        "id": "V1646912",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V1645563",
+          "LEX": "NIGHTS"
+        },
+        "start": 8,
+        "end": 22
+      },
+      "V1645563": {
+        "id": "V1645563",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "LEX": "NIGHTS",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "V1645581": {
+        "id": "V1645581",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "root": "#V1645597"
+    },
+    {
+      "V1650991": {
+        "id": "V1650991",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1645683",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1645683": {
+        "id": "V1645683",
+        "indicator": "F",
+        "type": "EVOKE-SHAME",
+        "word": "SHAME",
+        "roles": {
+          "TIME": [
+            "#V1646561",
+            "#V1648902"
+          ],
+          "FREQUENCY": "#V1649853",
+          "AFFECTED": "#V1645652",
+          "MOD": "#V1645905",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1646561": {
+        "id": "V1646561",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645605",
+          "LEX": "CRYING"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1645605": {
+        "id": "V1645605",
+        "indicator": "F",
+        "type": "SOUND-EXPRESSION",
+        "word": "CRY",
+        "roles": {
+          "VFORM": "ING",
+          "LEX": "CRYING",
+          "WNSENSE": "cry%2:29:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1648902": {
+        "id": "V1648902",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645609",
+          "LEX": "BLAMING"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645609": {
+        "id": "V1645609",
+        "indicator": "F",
+        "type": "BLAME",
+        "word": "BLAME",
+        "roles": {
+          "AFFECTED": "#V1645612",
+          "FREQUENCY": "#V1646926",
+          "VFORM": "ING",
+          "LEX": "BLAMING",
+          "WNSENSE": "blame%2:32:00::"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645612": {
+        "id": "V1645612",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MYSELF",
+        "roles": {
+          "PROFORM": "MYSELF",
+          "LEX": "MYSELF",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 52
+      },
+      "V1646926": {
+        "id": "V1646926",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645609",
+          "GROUND": "#V1645625",
+          "LEX": "TIMES"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645625": {
+        "id": "V1645625",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645652": {
+        "id": "V1645652",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 62,
+        "end": 64
+      },
+      "V1645905": {
+        "id": "V1645905",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "IN-PUBLIC",
+        "roles": {
+          "FIGURE": "#V1645683",
+          "LEX": "IN-PUBLIC",
+          "WNSENSE": "in_public%4:02:00"
+        },
+        "start": 75,
+        "end": 85
+      },
+      "V1649853": {
+        "id": "V1649853",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645918",
+          "LEX": "TIMES"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645918": {
+        "id": "V1645918",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "MOD": "#V1645983",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645983": {
+        "id": "V1645983",
+        "indicator": "F",
+        "type": "EXPERIENCER-EMOTION",
+        "word": "FEEL",
+        "roles": {
+          "EXPERIENCER": "#V1645945",
+          "FORMAL": "#V1646000",
+          "LOCATION": "#V1646014",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "FELT",
+          "WNSENSE": "feel%2:37:00::"
+        },
+        "start": 95,
+        "end": 126
+      },
+      "V1645945": {
+        "id": "V1645945",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V1646000": {
+        "id": "V1646000",
+        "indicator": "F",
+        "type": "AFRAID",
+        "word": "SCARED",
+        "roles": {
+          "FIGURE": "#V1645945",
+          "SCALE": "FEAR-SCALE",
+          "LEX": "SCARED",
+          "WNSENSE": "scared%5:00:00:afraid:00"
+        },
+        "start": 107,
+        "end": 114
+      },
+      "V1646014": {
+        "id": "V1646014",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V1646041",
+          "FIGURE": "#V1645983",
+          "LEX": "ON"
+        },
+        "start": 114,
+        "end": 126
+      },
+      "V1646041": {
+        "id": "V1646041",
+        "indicator": "THE",
+        "type": "VEHICLE",
+        "word": "METRO",
+        "roles": {
+          "LEX": "METRO",
+          "WNSENSE": "transport%1:06:00"
+        },
+        "start": 117,
+        "end": 126
+      },
+      "root": "#V1650991"
+    },
+    {
+      "V1645597": {
+        "id": "V1645597",
+        "indicator": "F",
+        "type": "COMMERCE-PAY",
+        "word": "SPEND",
+        "roles": {
+          "AGENT": "#V1645581",
+          "BENEFICIARY": "#V1645511",
+          "TENSE": "PAST",
+          "LEX": "SPENT"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V1645511": {
+        "id": "V1645511",
+        "indicator": "F",
+        "type": "BENEFICIARY",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V1646287",
+          "FIGURE": "#V1645597",
+          "LEX": "FOR"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1646287": {
+        "id": "V1646287",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "REFOBJECT": "#V1646912",
+          "QUAN": "UNIVERSAL",
+          "LEX": "NIGHTS"
+        },
+        "start": 4,
+        "end": 22
+      },
+      "V1646912": {
+        "id": "V1646912",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V1645563",
+          "LEX": "NIGHTS"
+        },
+        "start": 8,
+        "end": 22
+      },
+      "V1645563": {
+        "id": "V1645563",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "LEX": "NIGHTS",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "V1645581": {
+        "id": "V1645581",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "root": "#V1645597"
+    },
+    {
+      "V1650959": {
+        "id": "V1650959",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1645683",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1645683": {
+        "id": "V1645683",
+        "indicator": "F",
+        "type": "EVOKE-SHAME",
+        "word": "SHAME",
+        "roles": {
+          "TIME": [
+            "#V1646561",
+            "#V1648902"
+          ],
+          "FREQUENCY": "#V1649775",
+          "AFFECTED": "#V1645652",
+          "MOD": "#V1645905",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1646561": {
+        "id": "V1646561",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645605",
+          "LEX": "CRYING"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1645605": {
+        "id": "V1645605",
+        "indicator": "F",
+        "type": "SOUND-EXPRESSION",
+        "word": "CRY",
+        "roles": {
+          "VFORM": "ING",
+          "LEX": "CRYING",
+          "WNSENSE": "cry%2:29:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1648902": {
+        "id": "V1648902",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645609",
+          "LEX": "BLAMING"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645609": {
+        "id": "V1645609",
+        "indicator": "F",
+        "type": "BLAME",
+        "word": "BLAME",
+        "roles": {
+          "AFFECTED": "#V1645612",
+          "FREQUENCY": "#V1646926",
+          "VFORM": "ING",
+          "LEX": "BLAMING",
+          "WNSENSE": "blame%2:32:00::"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645612": {
+        "id": "V1645612",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MYSELF",
+        "roles": {
+          "PROFORM": "MYSELF",
+          "LEX": "MYSELF",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 52
+      },
+      "V1646926": {
+        "id": "V1646926",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645609",
+          "GROUND": "#V1645625",
+          "LEX": "TIMES"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645625": {
+        "id": "V1645625",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645652": {
+        "id": "V1645652",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 62,
+        "end": 64
+      },
+      "V1645905": {
+        "id": "V1645905",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "IN-PUBLIC",
+        "roles": {
+          "FIGURE": "#V1645683",
+          "LEX": "IN-PUBLIC",
+          "WNSENSE": "in_public%4:02:00"
+        },
+        "start": 75,
+        "end": 85
+      },
+      "V1649775": {
+        "id": "V1649775",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645918",
+          "LEX": "TIMES"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645918": {
+        "id": "V1645918",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "MOD": "#V1645983",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645983": {
+        "id": "V1645983",
+        "indicator": "F",
+        "type": "EXPERIENCER-EMOTION",
+        "word": "FEEL",
+        "roles": {
+          "EXPERIENCER": "#V1645945",
+          "FORMAL": "#V1645998",
+          "LOCATION": "#V1646014",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "FELT",
+          "WNSENSE": "feel%2:37:00::"
+        },
+        "start": 95,
+        "end": 126
+      },
+      "V1645945": {
+        "id": "V1645945",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V1645998": {
+        "id": "V1645998",
+        "indicator": "F",
+        "type": "AFRAID",
+        "word": "SCARED",
+        "roles": {
+          "FIGURE": "#V1645945",
+          "SCALE": "FEAR-SCALE",
+          "LEX": "SCARED",
+          "WNSENSE": "scared%5:00:00:afraid:00"
+        },
+        "start": 107,
+        "end": 114
+      },
+      "V1646014": {
+        "id": "V1646014",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V1646041",
+          "FIGURE": "#V1645983",
+          "LEX": "ON"
+        },
+        "start": 114,
+        "end": 126
+      },
+      "V1646041": {
+        "id": "V1646041",
+        "indicator": "THE",
+        "type": "VEHICLE",
+        "word": "METRO",
+        "roles": {
+          "LEX": "METRO",
+          "WNSENSE": "transport%1:06:00"
+        },
+        "start": 117,
+        "end": 126
+      },
+      "root": "#V1650959"
+    },
+    {
+      "V1645597": {
+        "id": "V1645597",
+        "indicator": "F",
+        "type": "COMMERCE-PAY",
+        "word": "SPEND",
+        "roles": {
+          "AGENT": "#V1645581",
+          "EXTENT": "#V1645512",
+          "TENSE": "PAST",
+          "LEX": "SPENT"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V1645512": {
+        "id": "V1645512",
+        "indicator": "F",
+        "type": "TIME-DURATION-REL",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V1646287",
+          "FIGURE": "#V1645597",
+          "LEX": "FOR"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1646287": {
+        "id": "V1646287",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "REFOBJECT": "#V1646912",
+          "QUAN": "UNIVERSAL",
+          "LEX": "NIGHTS"
+        },
+        "start": 4,
+        "end": 22
+      },
+      "V1646912": {
+        "id": "V1646912",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V1645563",
+          "LEX": "NIGHTS"
+        },
+        "start": 8,
+        "end": 22
+      },
+      "V1645563": {
+        "id": "V1645563",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "LEX": "NIGHTS",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "V1645581": {
+        "id": "V1645581",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "root": "#V1645597"
+    },
+    {
+      "V1651023": {
+        "id": "V1651023",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1645683",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1645683": {
+        "id": "V1645683",
+        "indicator": "F",
+        "type": "EVOKE-SHAME",
+        "word": "SHAME",
+        "roles": {
+          "TIME": [
+            "#V1646561",
+            "#V1648902"
+          ],
+          "FREQUENCY": "#V1649931",
+          "AFFECTED": "#V1645652",
+          "MOD": "#V1645905",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1646561": {
+        "id": "V1646561",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645605",
+          "LEX": "CRYING"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1645605": {
+        "id": "V1645605",
+        "indicator": "F",
+        "type": "SOUND-EXPRESSION",
+        "word": "CRY",
+        "roles": {
+          "VFORM": "ING",
+          "LEX": "CRYING",
+          "WNSENSE": "cry%2:29:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1648902": {
+        "id": "V1648902",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645609",
+          "LEX": "BLAMING"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645609": {
+        "id": "V1645609",
+        "indicator": "F",
+        "type": "BLAME",
+        "word": "BLAME",
+        "roles": {
+          "AFFECTED": "#V1645612",
+          "FREQUENCY": "#V1646926",
+          "VFORM": "ING",
+          "LEX": "BLAMING",
+          "WNSENSE": "blame%2:32:00::"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645612": {
+        "id": "V1645612",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MYSELF",
+        "roles": {
+          "PROFORM": "MYSELF",
+          "LEX": "MYSELF",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 52
+      },
+      "V1646926": {
+        "id": "V1646926",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645609",
+          "GROUND": "#V1645625",
+          "LEX": "TIMES"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645625": {
+        "id": "V1645625",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645652": {
+        "id": "V1645652",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 62,
+        "end": 64
+      },
+      "V1645905": {
+        "id": "V1645905",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "IN-PUBLIC",
+        "roles": {
+          "FIGURE": "#V1645683",
+          "LEX": "IN-PUBLIC",
+          "WNSENSE": "in_public%4:02:00"
+        },
+        "start": 75,
+        "end": 85
+      },
+      "V1649931": {
+        "id": "V1649931",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645918",
+          "LEX": "TIMES"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645918": {
+        "id": "V1645918",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "MOD": "#V1645983",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645983": {
+        "id": "V1645983",
+        "indicator": "F",
+        "type": "EXPERIENCER-EMOTION",
+        "word": "FEEL",
+        "roles": {
+          "EXPERIENCER": "#V1645945",
+          "FORMAL": "#V1646002",
+          "LOCATION": "#V1646014",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "FELT",
+          "WNSENSE": "feel%2:37:00::"
+        },
+        "start": 95,
+        "end": 126
+      },
+      "V1645945": {
+        "id": "V1645945",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V1646002": {
+        "id": "V1646002",
+        "indicator": "F",
+        "type": "AFRAID",
+        "word": "SCARED",
+        "roles": {
+          "FIGURE": "#V1645945",
+          "SCALE": "FEAR-SCALE",
+          "LEX": "SCARED",
+          "WNSENSE": "scared%5:00:00:afraid:00"
+        },
+        "start": 107,
+        "end": 114
+      },
+      "V1646014": {
+        "id": "V1646014",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V1646041",
+          "FIGURE": "#V1645983",
+          "LEX": "ON"
+        },
+        "start": 114,
+        "end": 126
+      },
+      "V1646041": {
+        "id": "V1646041",
+        "indicator": "THE",
+        "type": "VEHICLE",
+        "word": "METRO",
+        "roles": {
+          "LEX": "METRO",
+          "WNSENSE": "transport%1:06:00"
+        },
+        "start": 117,
+        "end": 126
+      },
+      "root": "#V1651023"
+    },
+    {
+      "V1645597": {
+        "id": "V1645597",
+        "indicator": "F",
+        "type": "COMMERCE-PAY",
+        "word": "SPEND",
+        "roles": {
+          "AGENT": "#V1645581",
+          "EXTENT": "#V1645512",
+          "TENSE": "PAST",
+          "LEX": "SPENT"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V1645512": {
+        "id": "V1645512",
+        "indicator": "F",
+        "type": "TIME-DURATION-REL",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V1646287",
+          "FIGURE": "#V1645597",
+          "LEX": "FOR"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1646287": {
+        "id": "V1646287",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "REFOBJECT": "#V1646912",
+          "QUAN": "UNIVERSAL",
+          "LEX": "NIGHTS"
+        },
+        "start": 4,
+        "end": 22
+      },
+      "V1646912": {
+        "id": "V1646912",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V1645563",
+          "LEX": "NIGHTS"
+        },
+        "start": 8,
+        "end": 22
+      },
+      "V1645563": {
+        "id": "V1645563",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "LEX": "NIGHTS",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "V1645581": {
+        "id": "V1645581",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "root": "#V1645597"
+    },
+    {
+      "V1650991": {
+        "id": "V1650991",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1645683",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1645683": {
+        "id": "V1645683",
+        "indicator": "F",
+        "type": "EVOKE-SHAME",
+        "word": "SHAME",
+        "roles": {
+          "TIME": [
+            "#V1646561",
+            "#V1648902"
+          ],
+          "FREQUENCY": "#V1649853",
+          "AFFECTED": "#V1645652",
+          "MOD": "#V1645905",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1646561": {
+        "id": "V1646561",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645605",
+          "LEX": "CRYING"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1645605": {
+        "id": "V1645605",
+        "indicator": "F",
+        "type": "SOUND-EXPRESSION",
+        "word": "CRY",
+        "roles": {
+          "VFORM": "ING",
+          "LEX": "CRYING",
+          "WNSENSE": "cry%2:29:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1648902": {
+        "id": "V1648902",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645609",
+          "LEX": "BLAMING"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645609": {
+        "id": "V1645609",
+        "indicator": "F",
+        "type": "BLAME",
+        "word": "BLAME",
+        "roles": {
+          "AFFECTED": "#V1645612",
+          "FREQUENCY": "#V1646926",
+          "VFORM": "ING",
+          "LEX": "BLAMING",
+          "WNSENSE": "blame%2:32:00::"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645612": {
+        "id": "V1645612",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MYSELF",
+        "roles": {
+          "PROFORM": "MYSELF",
+          "LEX": "MYSELF",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 52
+      },
+      "V1646926": {
+        "id": "V1646926",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645609",
+          "GROUND": "#V1645625",
+          "LEX": "TIMES"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645625": {
+        "id": "V1645625",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645652": {
+        "id": "V1645652",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 62,
+        "end": 64
+      },
+      "V1645905": {
+        "id": "V1645905",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "IN-PUBLIC",
+        "roles": {
+          "FIGURE": "#V1645683",
+          "LEX": "IN-PUBLIC",
+          "WNSENSE": "in_public%4:02:00"
+        },
+        "start": 75,
+        "end": 85
+      },
+      "V1649853": {
+        "id": "V1649853",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645918",
+          "LEX": "TIMES"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645918": {
+        "id": "V1645918",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "MOD": "#V1645983",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645983": {
+        "id": "V1645983",
+        "indicator": "F",
+        "type": "EXPERIENCER-EMOTION",
+        "word": "FEEL",
+        "roles": {
+          "EXPERIENCER": "#V1645945",
+          "FORMAL": "#V1646000",
+          "LOCATION": "#V1646014",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "FELT",
+          "WNSENSE": "feel%2:37:00::"
+        },
+        "start": 95,
+        "end": 126
+      },
+      "V1645945": {
+        "id": "V1645945",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V1646000": {
+        "id": "V1646000",
+        "indicator": "F",
+        "type": "AFRAID",
+        "word": "SCARED",
+        "roles": {
+          "FIGURE": "#V1645945",
+          "SCALE": "FEAR-SCALE",
+          "LEX": "SCARED",
+          "WNSENSE": "scared%5:00:00:afraid:00"
+        },
+        "start": 107,
+        "end": 114
+      },
+      "V1646014": {
+        "id": "V1646014",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V1646041",
+          "FIGURE": "#V1645983",
+          "LEX": "ON"
+        },
+        "start": 114,
+        "end": 126
+      },
+      "V1646041": {
+        "id": "V1646041",
+        "indicator": "THE",
+        "type": "VEHICLE",
+        "word": "METRO",
+        "roles": {
+          "LEX": "METRO",
+          "WNSENSE": "transport%1:06:00"
+        },
+        "start": 117,
+        "end": 126
+      },
+      "root": "#V1650991"
+    },
+    {
+      "V1645597": {
+        "id": "V1645597",
+        "indicator": "F",
+        "type": "COMMERCE-PAY",
+        "word": "SPEND",
+        "roles": {
+          "AGENT": "#V1645581",
+          "EXTENT": "#V1645512",
+          "TENSE": "PAST",
+          "LEX": "SPENT"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V1645512": {
+        "id": "V1645512",
+        "indicator": "F",
+        "type": "TIME-DURATION-REL",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V1646287",
+          "FIGURE": "#V1645597",
+          "LEX": "FOR"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1646287": {
+        "id": "V1646287",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "REFOBJECT": "#V1646912",
+          "QUAN": "UNIVERSAL",
+          "LEX": "NIGHTS"
+        },
+        "start": 4,
+        "end": 22
+      },
+      "V1646912": {
+        "id": "V1646912",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V1645563",
+          "LEX": "NIGHTS"
+        },
+        "start": 8,
+        "end": 22
+      },
+      "V1645563": {
+        "id": "V1645563",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "LEX": "NIGHTS",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "V1645581": {
+        "id": "V1645581",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "root": "#V1645597"
+    },
+    {
+      "V1650959": {
+        "id": "V1650959",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1645683",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1645683": {
+        "id": "V1645683",
+        "indicator": "F",
+        "type": "EVOKE-SHAME",
+        "word": "SHAME",
+        "roles": {
+          "TIME": [
+            "#V1646561",
+            "#V1648902"
+          ],
+          "FREQUENCY": "#V1649775",
+          "AFFECTED": "#V1645652",
+          "MOD": "#V1645905",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1646561": {
+        "id": "V1646561",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645605",
+          "LEX": "CRYING"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1645605": {
+        "id": "V1645605",
+        "indicator": "F",
+        "type": "SOUND-EXPRESSION",
+        "word": "CRY",
+        "roles": {
+          "VFORM": "ING",
+          "LEX": "CRYING",
+          "WNSENSE": "cry%2:29:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1648902": {
+        "id": "V1648902",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645609",
+          "LEX": "BLAMING"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645609": {
+        "id": "V1645609",
+        "indicator": "F",
+        "type": "BLAME",
+        "word": "BLAME",
+        "roles": {
+          "AFFECTED": "#V1645612",
+          "FREQUENCY": "#V1646926",
+          "VFORM": "ING",
+          "LEX": "BLAMING",
+          "WNSENSE": "blame%2:32:00::"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645612": {
+        "id": "V1645612",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MYSELF",
+        "roles": {
+          "PROFORM": "MYSELF",
+          "LEX": "MYSELF",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 52
+      },
+      "V1646926": {
+        "id": "V1646926",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645609",
+          "GROUND": "#V1645625",
+          "LEX": "TIMES"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645625": {
+        "id": "V1645625",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645652": {
+        "id": "V1645652",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 62,
+        "end": 64
+      },
+      "V1645905": {
+        "id": "V1645905",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "IN-PUBLIC",
+        "roles": {
+          "FIGURE": "#V1645683",
+          "LEX": "IN-PUBLIC",
+          "WNSENSE": "in_public%4:02:00"
+        },
+        "start": 75,
+        "end": 85
+      },
+      "V1649775": {
+        "id": "V1649775",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645918",
+          "LEX": "TIMES"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645918": {
+        "id": "V1645918",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "MOD": "#V1645983",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645983": {
+        "id": "V1645983",
+        "indicator": "F",
+        "type": "EXPERIENCER-EMOTION",
+        "word": "FEEL",
+        "roles": {
+          "EXPERIENCER": "#V1645945",
+          "FORMAL": "#V1645998",
+          "LOCATION": "#V1646014",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "FELT",
+          "WNSENSE": "feel%2:37:00::"
+        },
+        "start": 95,
+        "end": 126
+      },
+      "V1645945": {
+        "id": "V1645945",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V1645998": {
+        "id": "V1645998",
+        "indicator": "F",
+        "type": "AFRAID",
+        "word": "SCARED",
+        "roles": {
+          "FIGURE": "#V1645945",
+          "SCALE": "FEAR-SCALE",
+          "LEX": "SCARED",
+          "WNSENSE": "scared%5:00:00:afraid:00"
+        },
+        "start": 107,
+        "end": 114
+      },
+      "V1646014": {
+        "id": "V1646014",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V1646041",
+          "FIGURE": "#V1645983",
+          "LEX": "ON"
+        },
+        "start": 114,
+        "end": 126
+      },
+      "V1646041": {
+        "id": "V1646041",
+        "indicator": "THE",
+        "type": "VEHICLE",
+        "word": "METRO",
+        "roles": {
+          "LEX": "METRO",
+          "WNSENSE": "transport%1:06:00"
+        },
+        "start": 117,
+        "end": 126
+      },
+      "root": "#V1650959"
+    },
+    {
+      "V1645595": {
+        "id": "V1645595",
+        "indicator": "F",
+        "type": "SPEND-TIME",
+        "word": "SPEND",
+        "roles": {
+          "NEUTRAL": "#V1645581",
+          "EXTENT": "#V1645512",
+          "TENSE": "PAST",
+          "LEX": "SPENT"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V1645512": {
+        "id": "V1645512",
+        "indicator": "F",
+        "type": "TIME-DURATION-REL",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V1646287",
+          "FIGURE": "#V1645595",
+          "LEX": "FOR"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1646287": {
+        "id": "V1646287",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "REFOBJECT": "#V1646912",
+          "QUAN": "UNIVERSAL",
+          "LEX": "NIGHTS"
+        },
+        "start": 4,
+        "end": 22
+      },
+      "V1646912": {
+        "id": "V1646912",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V1645563",
+          "LEX": "NIGHTS"
+        },
+        "start": 8,
+        "end": 22
+      },
+      "V1645563": {
+        "id": "V1645563",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "LEX": "NIGHTS",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "V1645581": {
+        "id": "V1645581",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "root": "#V1645595"
+    },
+    {
+      "V1651023": {
+        "id": "V1651023",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1645683",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1645683": {
+        "id": "V1645683",
+        "indicator": "F",
+        "type": "EVOKE-SHAME",
+        "word": "SHAME",
+        "roles": {
+          "TIME": [
+            "#V1646561",
+            "#V1648902"
+          ],
+          "FREQUENCY": "#V1649931",
+          "AFFECTED": "#V1645652",
+          "MOD": "#V1645905",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1646561": {
+        "id": "V1646561",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645605",
+          "LEX": "CRYING"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1645605": {
+        "id": "V1645605",
+        "indicator": "F",
+        "type": "SOUND-EXPRESSION",
+        "word": "CRY",
+        "roles": {
+          "VFORM": "ING",
+          "LEX": "CRYING",
+          "WNSENSE": "cry%2:29:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1648902": {
+        "id": "V1648902",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645609",
+          "LEX": "BLAMING"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645609": {
+        "id": "V1645609",
+        "indicator": "F",
+        "type": "BLAME",
+        "word": "BLAME",
+        "roles": {
+          "AFFECTED": "#V1645612",
+          "FREQUENCY": "#V1646926",
+          "VFORM": "ING",
+          "LEX": "BLAMING",
+          "WNSENSE": "blame%2:32:00::"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645612": {
+        "id": "V1645612",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MYSELF",
+        "roles": {
+          "PROFORM": "MYSELF",
+          "LEX": "MYSELF",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 52
+      },
+      "V1646926": {
+        "id": "V1646926",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645609",
+          "GROUND": "#V1645625",
+          "LEX": "TIMES"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645625": {
+        "id": "V1645625",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645652": {
+        "id": "V1645652",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 62,
+        "end": 64
+      },
+      "V1645905": {
+        "id": "V1645905",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "IN-PUBLIC",
+        "roles": {
+          "FIGURE": "#V1645683",
+          "LEX": "IN-PUBLIC",
+          "WNSENSE": "in_public%4:02:00"
+        },
+        "start": 75,
+        "end": 85
+      },
+      "V1649931": {
+        "id": "V1649931",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645918",
+          "LEX": "TIMES"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645918": {
+        "id": "V1645918",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "MOD": "#V1645983",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645983": {
+        "id": "V1645983",
+        "indicator": "F",
+        "type": "EXPERIENCER-EMOTION",
+        "word": "FEEL",
+        "roles": {
+          "EXPERIENCER": "#V1645945",
+          "FORMAL": "#V1646002",
+          "LOCATION": "#V1646014",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "FELT",
+          "WNSENSE": "feel%2:37:00::"
+        },
+        "start": 95,
+        "end": 126
+      },
+      "V1645945": {
+        "id": "V1645945",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V1646002": {
+        "id": "V1646002",
+        "indicator": "F",
+        "type": "AFRAID",
+        "word": "SCARED",
+        "roles": {
+          "FIGURE": "#V1645945",
+          "SCALE": "FEAR-SCALE",
+          "LEX": "SCARED",
+          "WNSENSE": "scared%5:00:00:afraid:00"
+        },
+        "start": 107,
+        "end": 114
+      },
+      "V1646014": {
+        "id": "V1646014",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V1646041",
+          "FIGURE": "#V1645983",
+          "LEX": "ON"
+        },
+        "start": 114,
+        "end": 126
+      },
+      "V1646041": {
+        "id": "V1646041",
+        "indicator": "THE",
+        "type": "VEHICLE",
+        "word": "METRO",
+        "roles": {
+          "LEX": "METRO",
+          "WNSENSE": "transport%1:06:00"
+        },
+        "start": 117,
+        "end": 126
+      },
+      "root": "#V1651023"
+    },
+    {
+      "V1645595": {
+        "id": "V1645595",
+        "indicator": "F",
+        "type": "SPEND-TIME",
+        "word": "SPEND",
+        "roles": {
+          "NEUTRAL": "#V1645581",
+          "EXTENT": "#V1645512",
+          "TENSE": "PAST",
+          "LEX": "SPENT"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V1645512": {
+        "id": "V1645512",
+        "indicator": "F",
+        "type": "TIME-DURATION-REL",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V1646287",
+          "FIGURE": "#V1645595",
+          "LEX": "FOR"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1646287": {
+        "id": "V1646287",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "REFOBJECT": "#V1646912",
+          "QUAN": "UNIVERSAL",
+          "LEX": "NIGHTS"
+        },
+        "start": 4,
+        "end": 22
+      },
+      "V1646912": {
+        "id": "V1646912",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V1645563",
+          "LEX": "NIGHTS"
+        },
+        "start": 8,
+        "end": 22
+      },
+      "V1645563": {
+        "id": "V1645563",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "LEX": "NIGHTS",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "V1645581": {
+        "id": "V1645581",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "root": "#V1645595"
+    },
+    {
+      "V1650991": {
+        "id": "V1650991",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1645683",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1645683": {
+        "id": "V1645683",
+        "indicator": "F",
+        "type": "EVOKE-SHAME",
+        "word": "SHAME",
+        "roles": {
+          "TIME": [
+            "#V1646561",
+            "#V1648902"
+          ],
+          "FREQUENCY": "#V1649853",
+          "AFFECTED": "#V1645652",
+          "MOD": "#V1645905",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1646561": {
+        "id": "V1646561",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645605",
+          "LEX": "CRYING"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1645605": {
+        "id": "V1645605",
+        "indicator": "F",
+        "type": "SOUND-EXPRESSION",
+        "word": "CRY",
+        "roles": {
+          "VFORM": "ING",
+          "LEX": "CRYING",
+          "WNSENSE": "cry%2:29:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1648902": {
+        "id": "V1648902",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645609",
+          "LEX": "BLAMING"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645609": {
+        "id": "V1645609",
+        "indicator": "F",
+        "type": "BLAME",
+        "word": "BLAME",
+        "roles": {
+          "AFFECTED": "#V1645612",
+          "FREQUENCY": "#V1646926",
+          "VFORM": "ING",
+          "LEX": "BLAMING",
+          "WNSENSE": "blame%2:32:00::"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645612": {
+        "id": "V1645612",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MYSELF",
+        "roles": {
+          "PROFORM": "MYSELF",
+          "LEX": "MYSELF",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 52
+      },
+      "V1646926": {
+        "id": "V1646926",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645609",
+          "GROUND": "#V1645625",
+          "LEX": "TIMES"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645625": {
+        "id": "V1645625",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645652": {
+        "id": "V1645652",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 62,
+        "end": 64
+      },
+      "V1645905": {
+        "id": "V1645905",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "IN-PUBLIC",
+        "roles": {
+          "FIGURE": "#V1645683",
+          "LEX": "IN-PUBLIC",
+          "WNSENSE": "in_public%4:02:00"
+        },
+        "start": 75,
+        "end": 85
+      },
+      "V1649853": {
+        "id": "V1649853",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645918",
+          "LEX": "TIMES"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645918": {
+        "id": "V1645918",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "MOD": "#V1645983",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645983": {
+        "id": "V1645983",
+        "indicator": "F",
+        "type": "EXPERIENCER-EMOTION",
+        "word": "FEEL",
+        "roles": {
+          "EXPERIENCER": "#V1645945",
+          "FORMAL": "#V1646000",
+          "LOCATION": "#V1646014",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "FELT",
+          "WNSENSE": "feel%2:37:00::"
+        },
+        "start": 95,
+        "end": 126
+      },
+      "V1645945": {
+        "id": "V1645945",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V1646000": {
+        "id": "V1646000",
+        "indicator": "F",
+        "type": "AFRAID",
+        "word": "SCARED",
+        "roles": {
+          "FIGURE": "#V1645945",
+          "SCALE": "FEAR-SCALE",
+          "LEX": "SCARED",
+          "WNSENSE": "scared%5:00:00:afraid:00"
+        },
+        "start": 107,
+        "end": 114
+      },
+      "V1646014": {
+        "id": "V1646014",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V1646041",
+          "FIGURE": "#V1645983",
+          "LEX": "ON"
+        },
+        "start": 114,
+        "end": 126
+      },
+      "V1646041": {
+        "id": "V1646041",
+        "indicator": "THE",
+        "type": "VEHICLE",
+        "word": "METRO",
+        "roles": {
+          "LEX": "METRO",
+          "WNSENSE": "transport%1:06:00"
+        },
+        "start": 117,
+        "end": 126
+      },
+      "root": "#V1650991"
+    },
+    {
+      "V1645595": {
+        "id": "V1645595",
+        "indicator": "F",
+        "type": "SPEND-TIME",
+        "word": "SPEND",
+        "roles": {
+          "NEUTRAL": "#V1645581",
+          "EXTENT": "#V1645512",
+          "TENSE": "PAST",
+          "LEX": "SPENT"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V1645512": {
+        "id": "V1645512",
+        "indicator": "F",
+        "type": "TIME-DURATION-REL",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V1646287",
+          "FIGURE": "#V1645595",
+          "LEX": "FOR"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1646287": {
+        "id": "V1646287",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "REFOBJECT": "#V1646912",
+          "QUAN": "UNIVERSAL",
+          "LEX": "NIGHTS"
+        },
+        "start": 4,
+        "end": 22
+      },
+      "V1646912": {
+        "id": "V1646912",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V1645563",
+          "LEX": "NIGHTS"
+        },
+        "start": 8,
+        "end": 22
+      },
+      "V1645563": {
+        "id": "V1645563",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "LEX": "NIGHTS",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "V1645581": {
+        "id": "V1645581",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "root": "#V1645595"
+    },
+    {
+      "V1650959": {
+        "id": "V1650959",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1645683",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1645683": {
+        "id": "V1645683",
+        "indicator": "F",
+        "type": "EVOKE-SHAME",
+        "word": "SHAME",
+        "roles": {
+          "TIME": [
+            "#V1646561",
+            "#V1648902"
+          ],
+          "FREQUENCY": "#V1649775",
+          "AFFECTED": "#V1645652",
+          "MOD": "#V1645905",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1646561": {
+        "id": "V1646561",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645605",
+          "LEX": "CRYING"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1645605": {
+        "id": "V1645605",
+        "indicator": "F",
+        "type": "SOUND-EXPRESSION",
+        "word": "CRY",
+        "roles": {
+          "VFORM": "ING",
+          "LEX": "CRYING",
+          "WNSENSE": "cry%2:29:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1648902": {
+        "id": "V1648902",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645609",
+          "LEX": "BLAMING"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645609": {
+        "id": "V1645609",
+        "indicator": "F",
+        "type": "BLAME",
+        "word": "BLAME",
+        "roles": {
+          "AFFECTED": "#V1645612",
+          "FREQUENCY": "#V1646926",
+          "VFORM": "ING",
+          "LEX": "BLAMING",
+          "WNSENSE": "blame%2:32:00::"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645612": {
+        "id": "V1645612",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MYSELF",
+        "roles": {
+          "PROFORM": "MYSELF",
+          "LEX": "MYSELF",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 52
+      },
+      "V1646926": {
+        "id": "V1646926",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645609",
+          "GROUND": "#V1645625",
+          "LEX": "TIMES"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645625": {
+        "id": "V1645625",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645652": {
+        "id": "V1645652",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 62,
+        "end": 64
+      },
+      "V1645905": {
+        "id": "V1645905",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "IN-PUBLIC",
+        "roles": {
+          "FIGURE": "#V1645683",
+          "LEX": "IN-PUBLIC",
+          "WNSENSE": "in_public%4:02:00"
+        },
+        "start": 75,
+        "end": 85
+      },
+      "V1649775": {
+        "id": "V1649775",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645918",
+          "LEX": "TIMES"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645918": {
+        "id": "V1645918",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "MOD": "#V1645983",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645983": {
+        "id": "V1645983",
+        "indicator": "F",
+        "type": "EXPERIENCER-EMOTION",
+        "word": "FEEL",
+        "roles": {
+          "EXPERIENCER": "#V1645945",
+          "FORMAL": "#V1645998",
+          "LOCATION": "#V1646014",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "FELT",
+          "WNSENSE": "feel%2:37:00::"
+        },
+        "start": 95,
+        "end": 126
+      },
+      "V1645945": {
+        "id": "V1645945",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V1645998": {
+        "id": "V1645998",
+        "indicator": "F",
+        "type": "AFRAID",
+        "word": "SCARED",
+        "roles": {
+          "FIGURE": "#V1645945",
+          "SCALE": "FEAR-SCALE",
+          "LEX": "SCARED",
+          "WNSENSE": "scared%5:00:00:afraid:00"
+        },
+        "start": 107,
+        "end": 114
+      },
+      "V1646014": {
+        "id": "V1646014",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V1646041",
+          "FIGURE": "#V1645983",
+          "LEX": "ON"
+        },
+        "start": 114,
+        "end": 126
+      },
+      "V1646041": {
+        "id": "V1646041",
+        "indicator": "THE",
+        "type": "VEHICLE",
+        "word": "METRO",
+        "roles": {
+          "LEX": "METRO",
+          "WNSENSE": "transport%1:06:00"
+        },
+        "start": 117,
+        "end": 126
+      },
+      "root": "#V1650959"
+    },
+    {
+      "V1645597": {
+        "id": "V1645597",
+        "indicator": "F",
+        "type": "COMMERCE-PAY",
+        "word": "SPEND",
+        "roles": {
+          "AGENT": "#V1645581",
+          "MOD": "#V1645514",
+          "TENSE": "PAST",
+          "LEX": "SPENT"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V1645514": {
+        "id": "V1645514",
+        "indicator": "F",
+        "type": "PURCHASE-COST",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V1646287",
+          "FIGURE": "#V1645597",
+          "LEX": "FOR"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1646287": {
+        "id": "V1646287",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "REFOBJECT": "#V1646912",
+          "QUAN": "UNIVERSAL",
+          "LEX": "NIGHTS"
+        },
+        "start": 4,
+        "end": 22
+      },
+      "V1646912": {
+        "id": "V1646912",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V1645563",
+          "LEX": "NIGHTS"
+        },
+        "start": 8,
+        "end": 22
+      },
+      "V1645563": {
+        "id": "V1645563",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "LEX": "NIGHTS",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "V1645581": {
+        "id": "V1645581",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "root": "#V1645597"
+    },
+    {
+      "V1651023": {
+        "id": "V1651023",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1645683",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1645683": {
+        "id": "V1645683",
+        "indicator": "F",
+        "type": "EVOKE-SHAME",
+        "word": "SHAME",
+        "roles": {
+          "TIME": [
+            "#V1646561",
+            "#V1648902"
+          ],
+          "FREQUENCY": "#V1649931",
+          "AFFECTED": "#V1645652",
+          "MOD": "#V1645905",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1646561": {
+        "id": "V1646561",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645605",
+          "LEX": "CRYING"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1645605": {
+        "id": "V1645605",
+        "indicator": "F",
+        "type": "SOUND-EXPRESSION",
+        "word": "CRY",
+        "roles": {
+          "VFORM": "ING",
+          "LEX": "CRYING",
+          "WNSENSE": "cry%2:29:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1648902": {
+        "id": "V1648902",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645609",
+          "LEX": "BLAMING"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645609": {
+        "id": "V1645609",
+        "indicator": "F",
+        "type": "BLAME",
+        "word": "BLAME",
+        "roles": {
+          "AFFECTED": "#V1645612",
+          "FREQUENCY": "#V1646926",
+          "VFORM": "ING",
+          "LEX": "BLAMING",
+          "WNSENSE": "blame%2:32:00::"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645612": {
+        "id": "V1645612",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MYSELF",
+        "roles": {
+          "PROFORM": "MYSELF",
+          "LEX": "MYSELF",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 52
+      },
+      "V1646926": {
+        "id": "V1646926",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645609",
+          "GROUND": "#V1645625",
+          "LEX": "TIMES"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645625": {
+        "id": "V1645625",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645652": {
+        "id": "V1645652",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 62,
+        "end": 64
+      },
+      "V1645905": {
+        "id": "V1645905",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "IN-PUBLIC",
+        "roles": {
+          "FIGURE": "#V1645683",
+          "LEX": "IN-PUBLIC",
+          "WNSENSE": "in_public%4:02:00"
+        },
+        "start": 75,
+        "end": 85
+      },
+      "V1649931": {
+        "id": "V1649931",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645918",
+          "LEX": "TIMES"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645918": {
+        "id": "V1645918",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "MOD": "#V1645983",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645983": {
+        "id": "V1645983",
+        "indicator": "F",
+        "type": "EXPERIENCER-EMOTION",
+        "word": "FEEL",
+        "roles": {
+          "EXPERIENCER": "#V1645945",
+          "FORMAL": "#V1646002",
+          "LOCATION": "#V1646014",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "FELT",
+          "WNSENSE": "feel%2:37:00::"
+        },
+        "start": 95,
+        "end": 126
+      },
+      "V1645945": {
+        "id": "V1645945",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V1646002": {
+        "id": "V1646002",
+        "indicator": "F",
+        "type": "AFRAID",
+        "word": "SCARED",
+        "roles": {
+          "FIGURE": "#V1645945",
+          "SCALE": "FEAR-SCALE",
+          "LEX": "SCARED",
+          "WNSENSE": "scared%5:00:00:afraid:00"
+        },
+        "start": 107,
+        "end": 114
+      },
+      "V1646014": {
+        "id": "V1646014",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V1646041",
+          "FIGURE": "#V1645983",
+          "LEX": "ON"
+        },
+        "start": 114,
+        "end": 126
+      },
+      "V1646041": {
+        "id": "V1646041",
+        "indicator": "THE",
+        "type": "VEHICLE",
+        "word": "METRO",
+        "roles": {
+          "LEX": "METRO",
+          "WNSENSE": "transport%1:06:00"
+        },
+        "start": 117,
+        "end": 126
+      },
+      "root": "#V1651023"
+    },
+    {
+      "V1645597": {
+        "id": "V1645597",
+        "indicator": "F",
+        "type": "COMMERCE-PAY",
+        "word": "SPEND",
+        "roles": {
+          "AGENT": "#V1645581",
+          "MOD": "#V1645514",
+          "TENSE": "PAST",
+          "LEX": "SPENT"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V1645514": {
+        "id": "V1645514",
+        "indicator": "F",
+        "type": "PURCHASE-COST",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V1646287",
+          "FIGURE": "#V1645597",
+          "LEX": "FOR"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1646287": {
+        "id": "V1646287",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "REFOBJECT": "#V1646912",
+          "QUAN": "UNIVERSAL",
+          "LEX": "NIGHTS"
+        },
+        "start": 4,
+        "end": 22
+      },
+      "V1646912": {
+        "id": "V1646912",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V1645563",
+          "LEX": "NIGHTS"
+        },
+        "start": 8,
+        "end": 22
+      },
+      "V1645563": {
+        "id": "V1645563",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "LEX": "NIGHTS",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "V1645581": {
+        "id": "V1645581",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "root": "#V1645597"
+    },
+    {
+      "V1650991": {
+        "id": "V1650991",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1645683",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1645683": {
+        "id": "V1645683",
+        "indicator": "F",
+        "type": "EVOKE-SHAME",
+        "word": "SHAME",
+        "roles": {
+          "TIME": [
+            "#V1646561",
+            "#V1648902"
+          ],
+          "FREQUENCY": "#V1649853",
+          "AFFECTED": "#V1645652",
+          "MOD": "#V1645905",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1646561": {
+        "id": "V1646561",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645605",
+          "LEX": "CRYING"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1645605": {
+        "id": "V1645605",
+        "indicator": "F",
+        "type": "SOUND-EXPRESSION",
+        "word": "CRY",
+        "roles": {
+          "VFORM": "ING",
+          "LEX": "CRYING",
+          "WNSENSE": "cry%2:29:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1648902": {
+        "id": "V1648902",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645609",
+          "LEX": "BLAMING"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645609": {
+        "id": "V1645609",
+        "indicator": "F",
+        "type": "BLAME",
+        "word": "BLAME",
+        "roles": {
+          "AFFECTED": "#V1645612",
+          "FREQUENCY": "#V1646926",
+          "VFORM": "ING",
+          "LEX": "BLAMING",
+          "WNSENSE": "blame%2:32:00::"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645612": {
+        "id": "V1645612",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MYSELF",
+        "roles": {
+          "PROFORM": "MYSELF",
+          "LEX": "MYSELF",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 52
+      },
+      "V1646926": {
+        "id": "V1646926",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645609",
+          "GROUND": "#V1645625",
+          "LEX": "TIMES"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645625": {
+        "id": "V1645625",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645652": {
+        "id": "V1645652",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 62,
+        "end": 64
+      },
+      "V1645905": {
+        "id": "V1645905",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "IN-PUBLIC",
+        "roles": {
+          "FIGURE": "#V1645683",
+          "LEX": "IN-PUBLIC",
+          "WNSENSE": "in_public%4:02:00"
+        },
+        "start": 75,
+        "end": 85
+      },
+      "V1649853": {
+        "id": "V1649853",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645918",
+          "LEX": "TIMES"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645918": {
+        "id": "V1645918",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "MOD": "#V1645983",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645983": {
+        "id": "V1645983",
+        "indicator": "F",
+        "type": "EXPERIENCER-EMOTION",
+        "word": "FEEL",
+        "roles": {
+          "EXPERIENCER": "#V1645945",
+          "FORMAL": "#V1646000",
+          "LOCATION": "#V1646014",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "FELT",
+          "WNSENSE": "feel%2:37:00::"
+        },
+        "start": 95,
+        "end": 126
+      },
+      "V1645945": {
+        "id": "V1645945",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V1646000": {
+        "id": "V1646000",
+        "indicator": "F",
+        "type": "AFRAID",
+        "word": "SCARED",
+        "roles": {
+          "FIGURE": "#V1645945",
+          "SCALE": "FEAR-SCALE",
+          "LEX": "SCARED",
+          "WNSENSE": "scared%5:00:00:afraid:00"
+        },
+        "start": 107,
+        "end": 114
+      },
+      "V1646014": {
+        "id": "V1646014",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V1646041",
+          "FIGURE": "#V1645983",
+          "LEX": "ON"
+        },
+        "start": 114,
+        "end": 126
+      },
+      "V1646041": {
+        "id": "V1646041",
+        "indicator": "THE",
+        "type": "VEHICLE",
+        "word": "METRO",
+        "roles": {
+          "LEX": "METRO",
+          "WNSENSE": "transport%1:06:00"
+        },
+        "start": 117,
+        "end": 126
+      },
+      "root": "#V1650991"
+    },
+    {
+      "V1645597": {
+        "id": "V1645597",
+        "indicator": "F",
+        "type": "COMMERCE-PAY",
+        "word": "SPEND",
+        "roles": {
+          "AGENT": "#V1645581",
+          "MOD": "#V1645514",
+          "TENSE": "PAST",
+          "LEX": "SPENT"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V1645514": {
+        "id": "V1645514",
+        "indicator": "F",
+        "type": "PURCHASE-COST",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V1646287",
+          "FIGURE": "#V1645597",
+          "LEX": "FOR"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1646287": {
+        "id": "V1646287",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "REFOBJECT": "#V1646912",
+          "QUAN": "UNIVERSAL",
+          "LEX": "NIGHTS"
+        },
+        "start": 4,
+        "end": 22
+      },
+      "V1646912": {
+        "id": "V1646912",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V1645563",
+          "LEX": "NIGHTS"
+        },
+        "start": 8,
+        "end": 22
+      },
+      "V1645563": {
+        "id": "V1645563",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "LEX": "NIGHTS",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "V1645581": {
+        "id": "V1645581",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "root": "#V1645597"
+    },
+    {
+      "V1650959": {
+        "id": "V1650959",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1645683",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1645683": {
+        "id": "V1645683",
+        "indicator": "F",
+        "type": "EVOKE-SHAME",
+        "word": "SHAME",
+        "roles": {
+          "TIME": [
+            "#V1646561",
+            "#V1648902"
+          ],
+          "FREQUENCY": "#V1649775",
+          "AFFECTED": "#V1645652",
+          "MOD": "#V1645905",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1646561": {
+        "id": "V1646561",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645605",
+          "LEX": "CRYING"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1645605": {
+        "id": "V1645605",
+        "indicator": "F",
+        "type": "SOUND-EXPRESSION",
+        "word": "CRY",
+        "roles": {
+          "VFORM": "ING",
+          "LEX": "CRYING",
+          "WNSENSE": "cry%2:29:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1648902": {
+        "id": "V1648902",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645609",
+          "LEX": "BLAMING"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645609": {
+        "id": "V1645609",
+        "indicator": "F",
+        "type": "BLAME",
+        "word": "BLAME",
+        "roles": {
+          "AFFECTED": "#V1645612",
+          "FREQUENCY": "#V1646926",
+          "VFORM": "ING",
+          "LEX": "BLAMING",
+          "WNSENSE": "blame%2:32:00::"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645612": {
+        "id": "V1645612",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MYSELF",
+        "roles": {
+          "PROFORM": "MYSELF",
+          "LEX": "MYSELF",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 52
+      },
+      "V1646926": {
+        "id": "V1646926",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645609",
+          "GROUND": "#V1645625",
+          "LEX": "TIMES"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645625": {
+        "id": "V1645625",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645652": {
+        "id": "V1645652",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 62,
+        "end": 64
+      },
+      "V1645905": {
+        "id": "V1645905",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "IN-PUBLIC",
+        "roles": {
+          "FIGURE": "#V1645683",
+          "LEX": "IN-PUBLIC",
+          "WNSENSE": "in_public%4:02:00"
+        },
+        "start": 75,
+        "end": 85
+      },
+      "V1649775": {
+        "id": "V1649775",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645918",
+          "LEX": "TIMES"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645918": {
+        "id": "V1645918",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "MOD": "#V1645983",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645983": {
+        "id": "V1645983",
+        "indicator": "F",
+        "type": "EXPERIENCER-EMOTION",
+        "word": "FEEL",
+        "roles": {
+          "EXPERIENCER": "#V1645945",
+          "FORMAL": "#V1645998",
+          "LOCATION": "#V1646014",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "FELT",
+          "WNSENSE": "feel%2:37:00::"
+        },
+        "start": 95,
+        "end": 126
+      },
+      "V1645945": {
+        "id": "V1645945",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V1645998": {
+        "id": "V1645998",
+        "indicator": "F",
+        "type": "AFRAID",
+        "word": "SCARED",
+        "roles": {
+          "FIGURE": "#V1645945",
+          "SCALE": "FEAR-SCALE",
+          "LEX": "SCARED",
+          "WNSENSE": "scared%5:00:00:afraid:00"
+        },
+        "start": 107,
+        "end": 114
+      },
+      "V1646014": {
+        "id": "V1646014",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V1646041",
+          "FIGURE": "#V1645983",
+          "LEX": "ON"
+        },
+        "start": 114,
+        "end": 126
+      },
+      "V1646041": {
+        "id": "V1646041",
+        "indicator": "THE",
+        "type": "VEHICLE",
+        "word": "METRO",
+        "roles": {
+          "LEX": "METRO",
+          "WNSENSE": "transport%1:06:00"
+        },
+        "start": 117,
+        "end": 126
+      },
+      "root": "#V1650959"
+    },
+    {
+      "V1645597": {
+        "id": "V1645597",
+        "indicator": "F",
+        "type": "COMMERCE-PAY",
+        "word": "SPEND",
+        "roles": {
+          "AGENT": "#V1645581",
+          "REASON": "#V1645508",
+          "TENSE": "PAST",
+          "LEX": "SPENT"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V1645508": {
+        "id": "V1645508",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V1646287",
+          "FIGURE": "#V1645597",
+          "LEX": "FOR"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1646287": {
+        "id": "V1646287",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "REFOBJECT": "#V1646912",
+          "QUAN": "UNIVERSAL",
+          "LEX": "NIGHTS"
+        },
+        "start": 4,
+        "end": 22
+      },
+      "V1646912": {
+        "id": "V1646912",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V1645563",
+          "LEX": "NIGHTS"
+        },
+        "start": 8,
+        "end": 22
+      },
+      "V1645563": {
+        "id": "V1645563",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "LEX": "NIGHTS",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "V1645581": {
+        "id": "V1645581",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "root": "#V1645597"
+    },
+    {
+      "V1651149": {
+        "id": "V1651149",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1645683",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1645683": {
+        "id": "V1645683",
+        "indicator": "F",
+        "type": "EVOKE-SHAME",
+        "word": "SHAME",
+        "roles": {
+          "TIME": [
+            "#V1646561",
+            "#V1648902"
+          ],
+          "FREQUENCY": "#V1650199",
+          "AFFECTED": "#V1645652",
+          "MOD": "#V1645905",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1646561": {
+        "id": "V1646561",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645605",
+          "LEX": "CRYING"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1645605": {
+        "id": "V1645605",
+        "indicator": "F",
+        "type": "SOUND-EXPRESSION",
+        "word": "CRY",
+        "roles": {
+          "VFORM": "ING",
+          "LEX": "CRYING",
+          "WNSENSE": "cry%2:29:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1648902": {
+        "id": "V1648902",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645609",
+          "LEX": "BLAMING"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645609": {
+        "id": "V1645609",
+        "indicator": "F",
+        "type": "BLAME",
+        "word": "BLAME",
+        "roles": {
+          "AFFECTED": "#V1645612",
+          "FREQUENCY": "#V1646926",
+          "VFORM": "ING",
+          "LEX": "BLAMING",
+          "WNSENSE": "blame%2:32:00::"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645612": {
+        "id": "V1645612",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MYSELF",
+        "roles": {
+          "PROFORM": "MYSELF",
+          "LEX": "MYSELF",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 52
+      },
+      "V1646926": {
+        "id": "V1646926",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645609",
+          "GROUND": "#V1645625",
+          "LEX": "TIMES"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645625": {
+        "id": "V1645625",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645652": {
+        "id": "V1645652",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 62,
+        "end": 64
+      },
+      "V1645905": {
+        "id": "V1645905",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "IN-PUBLIC",
+        "roles": {
+          "FIGURE": "#V1645683",
+          "LEX": "IN-PUBLIC",
+          "WNSENSE": "in_public%4:02:00"
+        },
+        "start": 75,
+        "end": 85
+      },
+      "V1650199": {
+        "id": "V1650199",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645918",
+          "LEX": "TIMES"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645918": {
+        "id": "V1645918",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "MOD": "#V1645983",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645983": {
+        "id": "V1645983",
+        "indicator": "F",
+        "type": "EXPERIENCER-EMOTION",
+        "word": "FEEL",
+        "roles": {
+          "EXPERIENCER": "#V1645945",
+          "FORMAL": "#V1646002",
+          "LOCATION": "#V1646014",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "FELT",
+          "WNSENSE": "feel%2:37:00::"
+        },
+        "start": 95,
+        "end": 126
+      },
+      "V1645945": {
+        "id": "V1645945",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V1646002": {
+        "id": "V1646002",
+        "indicator": "F",
+        "type": "AFRAID",
+        "word": "SCARED",
+        "roles": {
+          "FIGURE": "#V1645945",
+          "SCALE": "FEAR-SCALE",
+          "LEX": "SCARED",
+          "WNSENSE": "scared%5:00:00:afraid:00"
+        },
+        "start": 107,
+        "end": 114
+      },
+      "V1646014": {
+        "id": "V1646014",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V1646407",
+          "FIGURE": "#V1645983",
+          "LEX": "ON"
+        },
+        "start": 114,
+        "end": 126
+      },
+      "V1646407": {
+        "id": "V1646407",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1646041"
+        },
+        "start": 117,
+        "end": 126
+      },
+      "V1646041": {
+        "id": "V1646041",
+        "indicator": "THE",
+        "type": "VEHICLE",
+        "word": "METRO",
+        "roles": {
+          "LEX": "METRO",
+          "WNSENSE": "transport%1:06:00"
+        },
+        "start": 117,
+        "end": 126
+      },
+      "root": "#V1651149"
+    },
+    {
+      "V1645597": {
+        "id": "V1645597",
+        "indicator": "F",
+        "type": "COMMERCE-PAY",
+        "word": "SPEND",
+        "roles": {
+          "AGENT": "#V1645581",
+          "REASON": "#V1645508",
+          "TENSE": "PAST",
+          "LEX": "SPENT"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V1645508": {
+        "id": "V1645508",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V1646287",
+          "FIGURE": "#V1645597",
+          "LEX": "FOR"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1646287": {
+        "id": "V1646287",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "REFOBJECT": "#V1646912",
+          "QUAN": "UNIVERSAL",
+          "LEX": "NIGHTS"
+        },
+        "start": 4,
+        "end": 22
+      },
+      "V1646912": {
+        "id": "V1646912",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V1645563",
+          "LEX": "NIGHTS"
+        },
+        "start": 8,
+        "end": 22
+      },
+      "V1645563": {
+        "id": "V1645563",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "LEX": "NIGHTS",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "V1645581": {
+        "id": "V1645581",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "root": "#V1645597"
+    },
+    {
+      "V1651117": {
+        "id": "V1651117",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1645683",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1645683": {
+        "id": "V1645683",
+        "indicator": "F",
+        "type": "EVOKE-SHAME",
+        "word": "SHAME",
+        "roles": {
+          "TIME": [
+            "#V1646561",
+            "#V1648902"
+          ],
+          "FREQUENCY": "#V1650121",
+          "AFFECTED": "#V1645652",
+          "MOD": "#V1645905",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1646561": {
+        "id": "V1646561",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645605",
+          "LEX": "CRYING"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1645605": {
+        "id": "V1645605",
+        "indicator": "F",
+        "type": "SOUND-EXPRESSION",
+        "word": "CRY",
+        "roles": {
+          "VFORM": "ING",
+          "LEX": "CRYING",
+          "WNSENSE": "cry%2:29:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1648902": {
+        "id": "V1648902",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645609",
+          "LEX": "BLAMING"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645609": {
+        "id": "V1645609",
+        "indicator": "F",
+        "type": "BLAME",
+        "word": "BLAME",
+        "roles": {
+          "AFFECTED": "#V1645612",
+          "FREQUENCY": "#V1646926",
+          "VFORM": "ING",
+          "LEX": "BLAMING",
+          "WNSENSE": "blame%2:32:00::"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645612": {
+        "id": "V1645612",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MYSELF",
+        "roles": {
+          "PROFORM": "MYSELF",
+          "LEX": "MYSELF",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 52
+      },
+      "V1646926": {
+        "id": "V1646926",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645609",
+          "GROUND": "#V1645625",
+          "LEX": "TIMES"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645625": {
+        "id": "V1645625",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645652": {
+        "id": "V1645652",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 62,
+        "end": 64
+      },
+      "V1645905": {
+        "id": "V1645905",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "IN-PUBLIC",
+        "roles": {
+          "FIGURE": "#V1645683",
+          "LEX": "IN-PUBLIC",
+          "WNSENSE": "in_public%4:02:00"
+        },
+        "start": 75,
+        "end": 85
+      },
+      "V1650121": {
+        "id": "V1650121",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645918",
+          "LEX": "TIMES"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645918": {
+        "id": "V1645918",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "MOD": "#V1645983",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645983": {
+        "id": "V1645983",
+        "indicator": "F",
+        "type": "EXPERIENCER-EMOTION",
+        "word": "FEEL",
+        "roles": {
+          "EXPERIENCER": "#V1645945",
+          "FORMAL": "#V1646000",
+          "LOCATION": "#V1646014",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "FELT",
+          "WNSENSE": "feel%2:37:00::"
+        },
+        "start": 95,
+        "end": 126
+      },
+      "V1645945": {
+        "id": "V1645945",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V1646000": {
+        "id": "V1646000",
+        "indicator": "F",
+        "type": "AFRAID",
+        "word": "SCARED",
+        "roles": {
+          "FIGURE": "#V1645945",
+          "SCALE": "FEAR-SCALE",
+          "LEX": "SCARED",
+          "WNSENSE": "scared%5:00:00:afraid:00"
+        },
+        "start": 107,
+        "end": 114
+      },
+      "V1646014": {
+        "id": "V1646014",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V1646407",
+          "FIGURE": "#V1645983",
+          "LEX": "ON"
+        },
+        "start": 114,
+        "end": 126
+      },
+      "V1646407": {
+        "id": "V1646407",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1646041"
+        },
+        "start": 117,
+        "end": 126
+      },
+      "V1646041": {
+        "id": "V1646041",
+        "indicator": "THE",
+        "type": "VEHICLE",
+        "word": "METRO",
+        "roles": {
+          "LEX": "METRO",
+          "WNSENSE": "transport%1:06:00"
+        },
+        "start": 117,
+        "end": 126
+      },
+      "root": "#V1651117"
+    },
+    {
+      "V1645597": {
+        "id": "V1645597",
+        "indicator": "F",
+        "type": "COMMERCE-PAY",
+        "word": "SPEND",
+        "roles": {
+          "AGENT": "#V1645581",
+          "REASON": "#V1645508",
+          "TENSE": "PAST",
+          "LEX": "SPENT"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V1645508": {
+        "id": "V1645508",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V1646287",
+          "FIGURE": "#V1645597",
+          "LEX": "FOR"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1646287": {
+        "id": "V1646287",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "REFOBJECT": "#V1646912",
+          "QUAN": "UNIVERSAL",
+          "LEX": "NIGHTS"
+        },
+        "start": 4,
+        "end": 22
+      },
+      "V1646912": {
+        "id": "V1646912",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V1645563",
+          "LEX": "NIGHTS"
+        },
+        "start": 8,
+        "end": 22
+      },
+      "V1645563": {
+        "id": "V1645563",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "LEX": "NIGHTS",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "V1645581": {
+        "id": "V1645581",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "root": "#V1645597"
+    },
+    {
+      "V1651085": {
+        "id": "V1651085",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1645683",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1645683": {
+        "id": "V1645683",
+        "indicator": "F",
+        "type": "EVOKE-SHAME",
+        "word": "SHAME",
+        "roles": {
+          "TIME": [
+            "#V1646561",
+            "#V1648902"
+          ],
+          "FREQUENCY": "#V1650043",
+          "AFFECTED": "#V1645652",
+          "MOD": "#V1645905",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1646561": {
+        "id": "V1646561",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645605",
+          "LEX": "CRYING"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1645605": {
+        "id": "V1645605",
+        "indicator": "F",
+        "type": "SOUND-EXPRESSION",
+        "word": "CRY",
+        "roles": {
+          "VFORM": "ING",
+          "LEX": "CRYING",
+          "WNSENSE": "cry%2:29:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1648902": {
+        "id": "V1648902",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645609",
+          "LEX": "BLAMING"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645609": {
+        "id": "V1645609",
+        "indicator": "F",
+        "type": "BLAME",
+        "word": "BLAME",
+        "roles": {
+          "AFFECTED": "#V1645612",
+          "FREQUENCY": "#V1646926",
+          "VFORM": "ING",
+          "LEX": "BLAMING",
+          "WNSENSE": "blame%2:32:00::"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645612": {
+        "id": "V1645612",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MYSELF",
+        "roles": {
+          "PROFORM": "MYSELF",
+          "LEX": "MYSELF",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 52
+      },
+      "V1646926": {
+        "id": "V1646926",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645609",
+          "GROUND": "#V1645625",
+          "LEX": "TIMES"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645625": {
+        "id": "V1645625",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645652": {
+        "id": "V1645652",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 62,
+        "end": 64
+      },
+      "V1645905": {
+        "id": "V1645905",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "IN-PUBLIC",
+        "roles": {
+          "FIGURE": "#V1645683",
+          "LEX": "IN-PUBLIC",
+          "WNSENSE": "in_public%4:02:00"
+        },
+        "start": 75,
+        "end": 85
+      },
+      "V1650043": {
+        "id": "V1650043",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645918",
+          "LEX": "TIMES"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645918": {
+        "id": "V1645918",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "MOD": "#V1645983",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645983": {
+        "id": "V1645983",
+        "indicator": "F",
+        "type": "EXPERIENCER-EMOTION",
+        "word": "FEEL",
+        "roles": {
+          "EXPERIENCER": "#V1645945",
+          "FORMAL": "#V1645998",
+          "LOCATION": "#V1646014",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "FELT",
+          "WNSENSE": "feel%2:37:00::"
+        },
+        "start": 95,
+        "end": 126
+      },
+      "V1645945": {
+        "id": "V1645945",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V1645998": {
+        "id": "V1645998",
+        "indicator": "F",
+        "type": "AFRAID",
+        "word": "SCARED",
+        "roles": {
+          "FIGURE": "#V1645945",
+          "SCALE": "FEAR-SCALE",
+          "LEX": "SCARED",
+          "WNSENSE": "scared%5:00:00:afraid:00"
+        },
+        "start": 107,
+        "end": 114
+      },
+      "V1646014": {
+        "id": "V1646014",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V1646407",
+          "FIGURE": "#V1645983",
+          "LEX": "ON"
+        },
+        "start": 114,
+        "end": 126
+      },
+      "V1646407": {
+        "id": "V1646407",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1646041"
+        },
+        "start": 117,
+        "end": 126
+      },
+      "V1646041": {
+        "id": "V1646041",
+        "indicator": "THE",
+        "type": "VEHICLE",
+        "word": "METRO",
+        "roles": {
+          "LEX": "METRO",
+          "WNSENSE": "transport%1:06:00"
+        },
+        "start": 117,
+        "end": 126
+      },
+      "root": "#V1651085"
+    },
+    {
+      "V1645597": {
+        "id": "V1645597",
+        "indicator": "F",
+        "type": "COMMERCE-PAY",
+        "word": "SPEND",
+        "roles": {
+          "AGENT": "#V1645581",
+          "BENEFICIARY": "#V1645511",
+          "TENSE": "PAST",
+          "LEX": "SPENT"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V1645511": {
+        "id": "V1645511",
+        "indicator": "F",
+        "type": "BENEFICIARY",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V1646287",
+          "FIGURE": "#V1645597",
+          "LEX": "FOR"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1646287": {
+        "id": "V1646287",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "REFOBJECT": "#V1646912",
+          "QUAN": "UNIVERSAL",
+          "LEX": "NIGHTS"
+        },
+        "start": 4,
+        "end": 22
+      },
+      "V1646912": {
+        "id": "V1646912",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V1645563",
+          "LEX": "NIGHTS"
+        },
+        "start": 8,
+        "end": 22
+      },
+      "V1645563": {
+        "id": "V1645563",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "LEX": "NIGHTS",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "V1645581": {
+        "id": "V1645581",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "root": "#V1645597"
+    },
+    {
+      "V1651149": {
+        "id": "V1651149",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1645683",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1645683": {
+        "id": "V1645683",
+        "indicator": "F",
+        "type": "EVOKE-SHAME",
+        "word": "SHAME",
+        "roles": {
+          "TIME": [
+            "#V1646561",
+            "#V1648902"
+          ],
+          "FREQUENCY": "#V1650199",
+          "AFFECTED": "#V1645652",
+          "MOD": "#V1645905",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1646561": {
+        "id": "V1646561",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645605",
+          "LEX": "CRYING"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1645605": {
+        "id": "V1645605",
+        "indicator": "F",
+        "type": "SOUND-EXPRESSION",
+        "word": "CRY",
+        "roles": {
+          "VFORM": "ING",
+          "LEX": "CRYING",
+          "WNSENSE": "cry%2:29:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1648902": {
+        "id": "V1648902",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645609",
+          "LEX": "BLAMING"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645609": {
+        "id": "V1645609",
+        "indicator": "F",
+        "type": "BLAME",
+        "word": "BLAME",
+        "roles": {
+          "AFFECTED": "#V1645612",
+          "FREQUENCY": "#V1646926",
+          "VFORM": "ING",
+          "LEX": "BLAMING",
+          "WNSENSE": "blame%2:32:00::"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645612": {
+        "id": "V1645612",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MYSELF",
+        "roles": {
+          "PROFORM": "MYSELF",
+          "LEX": "MYSELF",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 52
+      },
+      "V1646926": {
+        "id": "V1646926",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645609",
+          "GROUND": "#V1645625",
+          "LEX": "TIMES"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645625": {
+        "id": "V1645625",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645652": {
+        "id": "V1645652",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 62,
+        "end": 64
+      },
+      "V1645905": {
+        "id": "V1645905",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "IN-PUBLIC",
+        "roles": {
+          "FIGURE": "#V1645683",
+          "LEX": "IN-PUBLIC",
+          "WNSENSE": "in_public%4:02:00"
+        },
+        "start": 75,
+        "end": 85
+      },
+      "V1650199": {
+        "id": "V1650199",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645918",
+          "LEX": "TIMES"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645918": {
+        "id": "V1645918",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "MOD": "#V1645983",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645983": {
+        "id": "V1645983",
+        "indicator": "F",
+        "type": "EXPERIENCER-EMOTION",
+        "word": "FEEL",
+        "roles": {
+          "EXPERIENCER": "#V1645945",
+          "FORMAL": "#V1646002",
+          "LOCATION": "#V1646014",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "FELT",
+          "WNSENSE": "feel%2:37:00::"
+        },
+        "start": 95,
+        "end": 126
+      },
+      "V1645945": {
+        "id": "V1645945",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V1646002": {
+        "id": "V1646002",
+        "indicator": "F",
+        "type": "AFRAID",
+        "word": "SCARED",
+        "roles": {
+          "FIGURE": "#V1645945",
+          "SCALE": "FEAR-SCALE",
+          "LEX": "SCARED",
+          "WNSENSE": "scared%5:00:00:afraid:00"
+        },
+        "start": 107,
+        "end": 114
+      },
+      "V1646014": {
+        "id": "V1646014",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V1646407",
+          "FIGURE": "#V1645983",
+          "LEX": "ON"
+        },
+        "start": 114,
+        "end": 126
+      },
+      "V1646407": {
+        "id": "V1646407",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1646041"
+        },
+        "start": 117,
+        "end": 126
+      },
+      "V1646041": {
+        "id": "V1646041",
+        "indicator": "THE",
+        "type": "VEHICLE",
+        "word": "METRO",
+        "roles": {
+          "LEX": "METRO",
+          "WNSENSE": "transport%1:06:00"
+        },
+        "start": 117,
+        "end": 126
+      },
+      "root": "#V1651149"
+    },
+    {
+      "V1645597": {
+        "id": "V1645597",
+        "indicator": "F",
+        "type": "COMMERCE-PAY",
+        "word": "SPEND",
+        "roles": {
+          "AGENT": "#V1645581",
+          "BENEFICIARY": "#V1645511",
+          "TENSE": "PAST",
+          "LEX": "SPENT"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V1645511": {
+        "id": "V1645511",
+        "indicator": "F",
+        "type": "BENEFICIARY",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V1646287",
+          "FIGURE": "#V1645597",
+          "LEX": "FOR"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1646287": {
+        "id": "V1646287",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "REFOBJECT": "#V1646912",
+          "QUAN": "UNIVERSAL",
+          "LEX": "NIGHTS"
+        },
+        "start": 4,
+        "end": 22
+      },
+      "V1646912": {
+        "id": "V1646912",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V1645563",
+          "LEX": "NIGHTS"
+        },
+        "start": 8,
+        "end": 22
+      },
+      "V1645563": {
+        "id": "V1645563",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "LEX": "NIGHTS",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "V1645581": {
+        "id": "V1645581",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "root": "#V1645597"
+    },
+    {
+      "V1651117": {
+        "id": "V1651117",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1645683",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1645683": {
+        "id": "V1645683",
+        "indicator": "F",
+        "type": "EVOKE-SHAME",
+        "word": "SHAME",
+        "roles": {
+          "TIME": [
+            "#V1646561",
+            "#V1648902"
+          ],
+          "FREQUENCY": "#V1650121",
+          "AFFECTED": "#V1645652",
+          "MOD": "#V1645905",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "SHAMED"
+        },
+        "start": 30,
+        "end": 126
+      },
+      "V1646561": {
+        "id": "V1646561",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645605",
+          "LEX": "CRYING"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1645605": {
+        "id": "V1645605",
+        "indicator": "F",
+        "type": "SOUND-EXPRESSION",
+        "word": "CRY",
+        "roles": {
+          "VFORM": "ING",
+          "LEX": "CRYING",
+          "WNSENSE": "cry%2:29:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1648902": {
+        "id": "V1648902",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645609",
+          "LEX": "BLAMING"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645609": {
+        "id": "V1645609",
+        "indicator": "F",
+        "type": "BLAME",
+        "word": "BLAME",
+        "roles": {
+          "AFFECTED": "#V1645612",
+          "FREQUENCY": "#V1646926",
+          "VFORM": "ING",
+          "LEX": "BLAMING",
+          "WNSENSE": "blame%2:32:00::"
+        },
+        "start": 37,
+        "end": 62
+      },
+      "V1645612": {
+        "id": "V1645612",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MYSELF",
+        "roles": {
+          "PROFORM": "MYSELF",
+          "LEX": "MYSELF",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 52
+      },
+      "V1646926": {
+        "id": "V1646926",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645609",
+          "GROUND": "#V1645625",
+          "LEX": "TIMES"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645625": {
+        "id": "V1645625",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 52,
+        "end": 62
+      },
+      "V1645652": {
+        "id": "V1645652",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 62,
+        "end": 64
+      },
+      "V1645905": {
+        "id": "V1645905",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "IN-PUBLIC",
+        "roles": {
+          "FIGURE": "#V1645683",
+          "LEX": "IN-PUBLIC",
+          "WNSENSE": "in_public%4:02:00"
+        },
+        "start": 75,
+        "end": 85
+      },
+      "V1650121": {
+        "id": "V1650121",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1645683",
+          "GROUND": "#V1645918",
+          "LEX": "TIMES"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645918": {
+        "id": "V1645918",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "MOD": "#V1645983",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 85,
+        "end": 126
+      },
+      "V1645983": {
+        "id": "V1645983",
+        "indicator": "F",
+        "type": "EXPERIENCER-EMOTION",
+        "word": "FEEL",
+        "roles": {
+          "EXPERIENCER": "#V1645945",
+          "FORMAL": "#V1646000",
+          "LOCATION": "#V1646014",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "FELT",
+          "WNSENSE": "feel%2:37:00::"
+        },
+        "start": 95,
+        "end": 126
+      },
+      "V1645945": {
+        "id": "V1645945",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V1646000": {
+        "id": "V1646000",
+        "indicator": "F",
+        "type": "AFRAID",
+        "word": "SCARED",
+        "roles": {
+          "FIGURE": "#V1645945",
+          "SCALE": "FEAR-SCALE",
+          "LEX": "SCARED",
+          "WNSENSE": "scared%5:00:00:afraid:00"
+        },
+        "start": 107,
+        "end": 114
+      },
+      "V1646014": {
+        "id": "V1646014",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V1646407",
+          "FIGURE": "#V1645983",
+          "LEX": "ON"
+        },
+        "start": 114,
+        "end": 126
+      },
+      "V1646407": {
+        "id": "V1646407",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1646041"
+        },
+        "start": 117,
+        "end": 126
+      },
+      "V1646041": {
+        "id": "V1646041",
+        "indicator": "THE",
+        "type": "VEHICLE",
+        "word": "METRO",
+        "roles": {
+          "LEX": "METRO",
+          "WNSENSE": "transport%1:06:00"
+        },
+        "start": 117,
+        "end": 126
+      },
+      "root": "#V1651117"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+300",
+    "*last-utt-id*=300  utt-id+300",
+    "*last-utt-id*=300  utt-id+NIL"
+  ]
+}

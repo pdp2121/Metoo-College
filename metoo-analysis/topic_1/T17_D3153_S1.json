@@ -1,0 +1,175 @@
+{
+  "parse": [
+    {
+      "V2038178": {
+        "id": "V2038178",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2036395",
+          "LEX": "CALL"
+        },
+        "start": 0,
+        "end": 66
+      },
+      "V2036395": {
+        "id": "V2036395",
+        "indicator": "F",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "AGENT": "#V2038179",
+          "NEUTRAL": "#V2036995",
+          "FORMAL": "#V2037535",
+          "TENSE": "PRES",
+          "LEX": "CALL",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 0,
+        "end": 66
+      },
+      "V2038179": {
+        "id": "V2038179",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ",
+          "COREF": "#V2036821"
+        },
+        "start": 0,
+        "end": 66
+      },
+      "V2036995": {
+        "id": "V2036995",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2036418"
+        },
+        "start": 7,
+        "end": 27
+      },
+      "V2036418": {
+        "id": "V2036418",
+        "indicator": "INDEF-SET",
+        "type": "PROFESSIONAL",
+        "word": "POLICE",
+        "roles": {
+          "MOD": "#V2036415",
+          "LEX": "POLICE",
+          "WNSENSE": "professional%1:18:00"
+        },
+        "start": 7,
+        "end": 27
+      },
+      "V2036415": {
+        "id": "V2036415",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "GROUND": "#V2036634",
+          "FIGURE": "#V2036418",
+          "LEX": "METROPOLITAN",
+          "WNSENSE": "metropolitan%3:01:00::"
+        },
+        "start": 7,
+        "end": 20
+      },
+      "V2036634": {
+        "id": "V2036634",
+        "indicator": "KIND",
+        "type": "REFERENTIAL-SEM",
+        "word": "METROPOLIS",
+        "roles": {},
+        "start": 7,
+        "end": 20
+      },
+      "V2037535": {
+        "id": "V2037535",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2036980"
+        },
+        "start": 30,
+        "end": 66
+      },
+      "V2036980": {
+        "id": "V2036980",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "AM-PM": "#V2036549",
+          "DOW": "#V2036826",
+          "LEX": "-"
+        },
+        "start": 30,
+        "end": 66
+      },
+      "V2036821": {
+        "id": "V2036821",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(20 7230 1212)",
+          "VAL": "(20 7230 1212)",
+          "LEX": "TWENTY"
+        },
+        "start": 30,
+        "end": 46
+      },
+      "V2036549": {
+        "id": "V2036549",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V2036762",
+          "LEX": "(44 NIL)"
+        },
+        "start": 46,
+        "end": 53
+      },
+      "V2036762": {
+        "id": "V2036762",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 46,
+        "end": 53
+      },
+      "V2036826": {
+        "id": "V2036826",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(20 7230 1212)",
+          "VAL": "(20 7230 1212)",
+          "LEX": "TWENTY"
+        },
+        "start": 53,
+        "end": 66
+      },
+      "root": "#V2038178"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "pertainym sense info is: SENSE-INFO ((:WN-SENSE-KEYS (\"metropolis%1:14:00::\"))",
+    "                                     (:PENN-PARTS-OF-SPEECH (PARSER::NN)",
+    "                                      :TRIPS-PARTS-OF-SPEECH (W::N))) LF: ONT::REFERENTIAL-SEM LF-FORM: (W::METROPOLIS) domain info: NILReference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+334",
+    "*last-utt-id*=334  utt-id+NIL"
+  ]
+}

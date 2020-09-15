@@ -1,0 +1,88 @@
+{
+  "parse": [
+    {
+      "V1480459": {
+        "id": "V1480459",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1479063",
+          "LEX": "^S"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V1479063": {
+        "id": "V1479063",
+        "indicator": "F",
+        "type": "EXISTS",
+        "word": "BE",
+        "roles": {
+          "NOROLE": "#V1479031",
+          "NEUTRAL": "#V1479401",
+          "MOD": "#V1479021",
+          "TENSE": "PRES",
+          "LEX": "^S"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V1479021": {
+        "id": "V1479021",
+        "indicator": "F",
+        "type": "SEQUENCE-POSITION",
+        "word": "THEN",
+        "roles": {
+          "FIGURE": "#V1479063",
+          "LEX": "THEN",
+          "WNSENSE": "then%4:02:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V1479031": {
+        "id": "V1479031",
+        "indicator": "PRO",
+        "type": "EXPLETIVE",
+        "word": null,
+        "roles": {
+          "PROFORM": "THERE",
+          "LEX": "THERE"
+        },
+        "start": 5,
+        "end": 11
+      },
+      "V1479401": {
+        "id": "V1479401",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1479089"
+        },
+        "start": 14,
+        "end": 26
+      },
+      "V1479089": {
+        "id": "V1479089",
+        "indicator": "THE",
+        "type": "PHYSICAL-SCRUTINY",
+        "word": "GROPING",
+        "roles": {
+          "LEX": "GROPING",
+          "WNSENSE": "inspect%2:38:00"
+        },
+        "start": 14,
+        "end": 26
+      },
+      "root": "#V1480459"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+260",
+    "*last-utt-id*=260  utt-id+NIL"
+  ]
+}

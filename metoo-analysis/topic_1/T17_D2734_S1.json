@@ -1,0 +1,106 @@
+{
+  "parse": [
+    {
+      "V103931": {
+        "id": "V103931",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "MOD": [
+            "#V103660",
+            "#V103763"
+          ],
+          "CONTENT": "#V103922",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V103660": {
+        "id": "V103660",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V103931",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V103763": {
+        "id": "V103763",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "JUST-AS",
+        "roles": {
+          "FIGURE": "#V103931",
+          "MOD": "#V103681",
+          "LEX": "JUST-AS",
+          "WNSENSE": "just_as%4:02:02"
+        },
+        "start": 4,
+        "end": 16
+      },
+      "V103681": {
+        "id": "V103681",
+        "indicator": "F",
+        "type": "NEG",
+        "word": "NOT",
+        "roles": {
+          "FIGURE": "#V103763",
+          "LEX": "NOT",
+          "WNSENSE": "not%4:02:00::"
+        },
+        "start": 4,
+        "end": 8
+      },
+      "V103922": {
+        "id": "V103922",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V103813"
+        },
+        "start": 16,
+        "end": 33
+      },
+      "V103813": {
+        "id": "V103813",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "TEENAGER",
+        "roles": {
+          "MOD": "#V103807",
+          "LEX": "TEENAGER",
+          "WNSENSE": "teenager%1:18:00::"
+        },
+        "start": 16,
+        "end": 33
+      },
+      "V103807": {
+        "id": "V103807",
+        "indicator": "F",
+        "type": "NAIVE-VAL",
+        "word": "NAIVE",
+        "roles": {
+          "FIGURE": "#V103813",
+          "SCALE": "BEHAVIORAL-SCALE",
+          "LEX": "NAIVE",
+          "WNSENSE": "naive%3:00:00::"
+        },
+        "start": 18,
+        "end": 24
+      },
+      "root": "#V103931"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+15",
+    "*last-utt-id*=15  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "parse": [
+    {
+      "V210086": {
+        "id": "V210086",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V209811",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V209811": {
+        "id": "V209811",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V209795",
+          "FORMAL": "#V210041",
+          "TENSE": "PAST",
+          "LEX": "WAS",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V209795": {
+        "id": "V209795",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V210041": {
+        "id": "V210041",
+        "indicator": "F",
+        "type": "MEMBERSHIP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V209795",
+          "GROUND": "#V209946",
+          "LEX": "ELEVEN"
+        },
+        "start": 7,
+        "end": 10
+      },
+      "V209946": {
+        "id": "V209946",
+        "indicator": "THE-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V209825"
+        },
+        "start": 7,
+        "end": 10
+      },
+      "V209825": {
+        "id": "V209825",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "11",
+          "LEX": "ELEVEN"
+        },
+        "start": 7,
+        "end": 10
+      },
+      "root": "#V210086"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+33",
+    "*last-utt-id*=33  utt-id+NIL"
+  ]
+}

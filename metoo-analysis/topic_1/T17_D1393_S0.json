@@ -1,0 +1,223 @@
+{
+  "parse": [
+    {
+      "V1804204": {
+        "id": "V1804204",
+        "indicator": "SPEECHACT",
+        "type": "SA_REQUEST",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V1801330",
+          "LEX": "PAGING"
+        },
+        "start": 0,
+        "end": 78
+      },
+      "V1801330": {
+        "id": "V1801330",
+        "indicator": "F",
+        "type": "REQUEST",
+        "word": "PAGING",
+        "roles": {
+          "AGENT": "#V1804192",
+          "AFFECTED": "#V1804149",
+          "TENSE": "PRES",
+          "VFORM": "BASE",
+          "LEX": "PAGING",
+          "WNSENSE": "call%2:41:04"
+        },
+        "start": 0,
+        "end": 78
+      },
+      "V1804192": {
+        "id": "V1804192",
+        "indicator": "IMPRO",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "PROFORM": "*YOU*",
+          "COREF": "SYS"
+        },
+        "start": 0,
+        "end": 78
+      },
+      "V1804149": {
+        "id": "V1804149",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "SEQUENCE": "#V1801355",
+          "SEQUENCE1": "#V1801420",
+          "LEX": "MEN"
+        },
+        "start": 7,
+        "end": 78
+      },
+      "V1801355": {
+        "id": "V1801355",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": "#V1801361",
+          "LEX": "MEN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 7,
+        "end": 36
+      },
+      "V1801361": {
+        "id": "V1801361",
+        "indicator": "F",
+        "type": "ANSWER",
+        "word": "RESPOND",
+        "roles": {
+          "AGENT": "#V1801355",
+          "FORMAL": "#V1801837",
+          "VFORM": "ING",
+          "LEX": "RESPONDING",
+          "WNSENSE": "respond%2:32:00::"
+        },
+        "start": 11,
+        "end": 36
+      },
+      "V1801837": {
+        "id": "V1801837",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1801401",
+          "LEX": "-"
+        },
+        "start": 22,
+        "end": 36
+      },
+      "V1801401": {
+        "id": "V1801401",
+        "indicator": "THE-SET",
+        "type": "LOC-AS-POINT",
+        "word": "POSTS",
+        "roles": {
+          "LEX": "POSTS",
+          "WNSENSE": "point%1:15:00"
+        },
+        "start": 25,
+        "end": 36
+      },
+      "V1801420": {
+        "id": "V1801420",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": [
+            "#V1801443",
+            "#V1801417"
+          ],
+          "LEX": "MEN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 41,
+        "end": 78
+      },
+      "V1801417": {
+        "id": "V1801417",
+        "indicator": "F",
+        "type": "MORE-VAL",
+        "word": ">",
+        "roles": {
+          "FIGURE": "#V1801420",
+          "SCALE": "DOMAIN",
+          "LEX": ">",
+          "WNSENSE": "better%3:00:00::"
+        },
+        "start": 41,
+        "end": 43
+      },
+      "V1801443": {
+        "id": "V1801443",
+        "indicator": "F",
+        "type": "WANT",
+        "word": "WANT",
+        "roles": {
+          "EXPERIENCER": "#V1801432",
+          "NEUTRAL": "#V1801420",
+          "FORMAL": "#V1801476",
+          "TENSE": "PRES",
+          "LEX": "WANT",
+          "WNSENSE": "want%2:37:00::"
+        },
+        "start": 47,
+        "end": 78
+      },
+      "V1801432": {
+        "id": "V1801432",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 47,
+        "end": 51
+      },
+      "V1801476": {
+        "id": "V1801476",
+        "indicator": "F",
+        "type": "CONTROL-MANAGE",
+        "word": "TREAT",
+        "roles": {
+          "AGENT": "#V1801420",
+          "AFFECTED": "#V1801479",
+          "VFORM": "BASE",
+          "LEX": "TREAT",
+          "WNSENSE": "control%2:41:00"
+        },
+        "start": 56,
+        "end": 78
+      },
+      "V1801479": {
+        "id": "V1801479",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "MOD": "#V1801482",
+          "LEX": "WOMEN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 65,
+        "end": 78
+      },
+      "V1801482": {
+        "id": "V1801482",
+        "indicator": "F",
+        "type": "MORE-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "MED",
+          "FIGURE": "#V1801479",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BETTER",
+          "WNSENSE": "better%3:00:00::"
+        },
+        "start": 71,
+        "end": 78
+      },
+      "root": "#V1804204"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to sequences not reimplemented yet",
+    "*last-utt-id*=NIL  utt-id+308",
+    "*last-utt-id*=308  utt-id+NIL"
+  ]
+}

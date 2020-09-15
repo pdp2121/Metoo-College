@@ -1,0 +1,108 @@
+{
+  "parse": [
+    {
+      "V102527": {
+        "id": "V102527",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "MOD": [
+            "#V102153",
+            "#V102256"
+          ],
+          "CONTENT": "#V102476",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V102153": {
+        "id": "V102153",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V102527",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V102256": {
+        "id": "V102256",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "JUST-AS",
+        "roles": {
+          "FIGURE": "#V102527",
+          "MOD": "#V102174",
+          "LEX": "JUST-AS",
+          "WNSENSE": "just_as%4:02:02"
+        },
+        "start": 4,
+        "end": 16
+      },
+      "V102174": {
+        "id": "V102174",
+        "indicator": "F",
+        "type": "NEG",
+        "word": "NOT",
+        "roles": {
+          "FIGURE": "#V102256",
+          "LEX": "NOT",
+          "WNSENSE": "not%4:02:00::"
+        },
+        "start": 4,
+        "end": 8
+      },
+      "V102476": {
+        "id": "V102476",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V102353"
+        },
+        "start": 16,
+        "end": 29
+      },
+      "V102353": {
+        "id": "V102353",
+        "indicator": "A",
+        "type": "CHILD",
+        "word": "KID",
+        "roles": {
+          "MOD": "#V102302",
+          "LEX": "KID",
+          "WNSENSE": "kid%1:18:00::"
+        },
+        "start": 16,
+        "end": 29
+      },
+      "V102302": {
+        "id": "V102302",
+        "indicator": "F",
+        "type": "SMALL",
+        "word": "LITTLE",
+        "roles": {
+          "ORIENTATION": "LESS",
+          "INTENSITY": "MED",
+          "FIGURE": "#V102353",
+          "SCALE": "SIZE-SCALE",
+          "LEX": "LITTLE",
+          "WNSENSE": "little%3:00:01::"
+        },
+        "start": 18,
+        "end": 25
+      },
+      "root": "#V102527"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+14",
+    "*last-utt-id*=14  utt-id+NIL"
+  ]
+}

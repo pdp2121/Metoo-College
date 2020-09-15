@@ -1,0 +1,82 @@
+{
+  "parse": [
+    {
+      "V387387": {
+        "id": "V387387",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V387013",
+          "LEX": "COMING"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V387013": {
+        "id": "V387013",
+        "indicator": "F",
+        "type": "COME",
+        "word": "COME",
+        "roles": {
+          "AFFECTED": "#V386985",
+          "BENEFICIARY": "#V387028",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "COMING",
+          "WNSENSE": "come%2:42:15::"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V386985": {
+        "id": "V386985",
+        "indicator": "PRO-SET",
+        "type": "PERSON",
+        "word": "WE",
+        "roles": {
+          "PROFORM": "WE",
+          "LEX": "WE",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "US"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V387028": {
+        "id": "V387028",
+        "indicator": "F",
+        "type": "BENEFICIARY",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V387058",
+          "FIGURE": "#V387013",
+          "LEX": "FOR"
+        },
+        "start": 14,
+        "end": 22
+      },
+      "V387058": {
+        "id": "V387058",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 18,
+        "end": 22
+      },
+      "root": "#V387387"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+56",
+    "*last-utt-id*=56  utt-id+NIL"
+  ]
+}

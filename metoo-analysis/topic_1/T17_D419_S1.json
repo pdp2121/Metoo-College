@@ -1,0 +1,169 @@
+{
+  "parse": [
+    {
+      "V1944504": {
+        "id": "V1944504",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1943120",
+          "LEX": "REPORTED"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V1943120": {
+        "id": "V1943120",
+        "indicator": "F",
+        "type": "ASSERT",
+        "word": "REPORT",
+        "roles": {
+          "AGENT": "#V1943104",
+          "NEUTRAL": "#V1943127",
+          "FORMAL": "#V1944443",
+          "TENSE": "PAST",
+          "LEX": "REPORTED",
+          "WNSENSE": "assert%2:32:01"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V1943104": {
+        "id": "V1943104",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1943127": {
+        "id": "V1943127",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 11,
+        "end": 15
+      },
+      "V1944443": {
+        "id": "V1944443",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1943127",
+          "GROUND": "#V1943130",
+          "LEX": "GOT"
+        },
+        "start": 15,
+        "end": 39
+      },
+      "V1943130": {
+        "id": "V1943130",
+        "indicator": "F",
+        "type": "HAVE",
+        "word": "GOT",
+        "roles": {
+          "NEUTRAL1": "#V1943127",
+          "EXTENT": "#V1944001",
+          "WNSENSE": "keep%2:40:12"
+        },
+        "start": 15,
+        "end": 39
+      },
+      "V1944001": {
+        "id": "V1944001",
+        "indicator": "F",
+        "type": "EXTENT-PREDICATE",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1943130",
+          "GROUND": "#V1944002",
+          "LEX": "-"
+        },
+        "start": 19,
+        "end": 39
+      },
+      "V1944002": {
+        "id": "V1944002",
+        "indicator": "THE",
+        "type": "VALUE",
+        "word": null,
+        "roles": {
+          "MOD": "#V1943368"
+        },
+        "start": 19,
+        "end": 39
+      },
+      "V1943368": {
+        "id": "V1943368",
+        "indicator": "F",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V1943260",
+          "SEQUENCE1": "#V1943196",
+          "OPERATOR": "AND"
+        },
+        "start": 19,
+        "end": 39
+      },
+      "V1943260": {
+        "id": "V1943260",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1944002",
+          "GROUND": "#V1943180",
+          "LEX": "BLAMED"
+        },
+        "start": 19,
+        "end": 26
+      },
+      "V1943180": {
+        "id": "V1943180",
+        "indicator": "F",
+        "type": "BLAME",
+        "word": "BLAME",
+        "roles": {
+          "AFFECTED": "#V1944002",
+          "WNSENSE": "blame%2:32:00::"
+        },
+        "start": 19,
+        "end": 26
+      },
+      "V1943196": {
+        "id": "V1943196",
+        "indicator": "F",
+        "type": "PUNISH",
+        "word": "PUNISH",
+        "roles": {
+          "AFFECTED": "#V1944002",
+          "LEX": "PUNISHED",
+          "WNSENSE": "punish%2:41:00::"
+        },
+        "start": 30,
+        "end": 39
+      },
+      "root": "#V1944504"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+332",
+    "*last-utt-id*=332  utt-id+NIL"
+  ]
+}

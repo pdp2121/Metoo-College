@@ -1,0 +1,84 @@
+{
+  "parse": [
+    {
+      "V1365569": {
+        "id": "V1365569",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V1365247",
+          "FOCUS": "#V1365211",
+          "LEX": "HAVE"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V1365247": {
+        "id": "V1365247",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V1365234",
+          "AFFECTED": "#V1365211",
+          "FORMAL": "#V1365270",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V1365211": {
+        "id": "V1365211",
+        "indicator": "WH-TERM",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V1365234": {
+        "id": "V1365234",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 11,
+        "end": 15
+      },
+      "V1365270": {
+        "id": "V1365270",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V1365211",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "root": "#V1365569"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+243",
+    "*last-utt-id*=243  utt-id+NIL"
+  ]
+}

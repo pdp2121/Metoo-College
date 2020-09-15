@@ -1,0 +1,105 @@
+{
+  "parse": [
+    {
+      "V1455889": {
+        "id": "V1455889",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "MOD": [
+            "#V1455533",
+            "#V1455543"
+          ],
+          "CONTENT": "#V1455885",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V1455533": {
+        "id": "V1455533",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1455889",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V1455543": {
+        "id": "V1455543",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V1455889",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 4,
+        "end": 8
+      },
+      "V1455885": {
+        "id": "V1455885",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1455554"
+        },
+        "start": 8,
+        "end": 33
+      },
+      "V1455554": {
+        "id": "V1455554",
+        "indicator": "BARE",
+        "type": "FEELING",
+        "word": "FEELING",
+        "roles": {
+          "ASSOC-WITH": "#V1455551",
+          "LEX": "FEELING",
+          "WNSENSE": "feeling%1:03:00::"
+        },
+        "start": 8,
+        "end": 33
+      },
+      "V1455551": {
+        "id": "V1455551",
+        "indicator": "KIND",
+        "type": "CONTENT",
+        "word": "MESSAGE",
+        "roles": {
+          "MOD": "#V1455548",
+          "LEX": "MESSAGE",
+          "WNSENSE": "message%1:10:00::"
+        },
+        "start": 8,
+        "end": 33
+      },
+      "V1455548": {
+        "id": "V1455548",
+        "indicator": "F",
+        "type": "INSTANTANEOUS-VAL",
+        "word": "INSTANT",
+        "roles": {
+          "FIGURE": "#V1455551",
+          "SCALE": "SPEED-SCALE",
+          "LEX": "INSTANT",
+          "WNSENSE": "instant%5:00:00:fast:01"
+        },
+        "start": 8,
+        "end": 17
+      },
+      "root": "#V1455889"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+226",
+    "*last-utt-id*=226  utt-id+NIL"
+  ]
+}

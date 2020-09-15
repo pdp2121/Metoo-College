@@ -1,0 +1,105 @@
+{
+  "parse": [
+    {
+      "V982992": {
+        "id": "V982992",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V982686",
+          "LEX": "GIVE"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V982686": {
+        "id": "V982686",
+        "indicator": "F",
+        "type": "GIVING",
+        "word": "GIVE",
+        "roles": {
+          "AGENT": "#V982677",
+          "AFFECTED-RESULT": "#V982710",
+          "AFFECTED": "#V982737",
+          "TENSE": "PRES",
+          "LEX": "GIVE",
+          "WNSENSE": "give%2:40:03::"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V982677": {
+        "id": "V982677",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V982710": {
+        "id": "V982710",
+        "indicator": "PRO-SET",
+        "type": "PERSON",
+        "word": "US",
+        "roles": {
+          "PROFORM": "US",
+          "LEX": "US",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "US"
+        },
+        "start": 9,
+        "end": 12
+      },
+      "V982737": {
+        "id": "V982737",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "|...|",
+        "roles": {
+          "ASSOC-WITH": "#V982729",
+          "LEX": "|...|",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V982729": {
+        "id": "V982729",
+        "indicator": "KIND",
+        "type": "STRENGTH-SCALE",
+        "word": "STRENGTH",
+        "roles": {
+          "SIZE": "#V982713",
+          "LEX": "STRENGTH",
+          "WNSENSE": "strength%1:07:00::"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V982713": {
+        "id": "V982713",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "UNIVERSAL"
+        },
+        "start": 12,
+        "end": 16
+      },
+      "root": "#V982992"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+200",
+    "*last-utt-id*=200  utt-id+NIL"
+  ]
+}

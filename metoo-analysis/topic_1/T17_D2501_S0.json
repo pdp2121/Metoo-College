@@ -1,0 +1,146 @@
+{
+  "parse": [
+    {
+      "V280992": {
+        "id": "V280992",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V279761",
+          "LEX": "FOLLOWED"
+        },
+        "start": 0,
+        "end": 60
+      },
+      "V279761": {
+        "id": "V279761",
+        "indicator": "F",
+        "type": "FOLLOW-SOMETHING",
+        "word": "FOLLOW",
+        "roles": {
+          "NEUTRAL": "#V279726",
+          "AGENT": "#V279834",
+          "MOD": "#V279625",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "FOLLOWED"
+        },
+        "start": 0,
+        "end": 60
+      },
+      "V279625": {
+        "id": "V279625",
+        "indicator": "F",
+        "type": "SITUATED-IN",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V279691",
+          "FIGURE": "#V279761",
+          "LEX": "IN"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V279691": {
+        "id": "V279691",
+        "indicator": "BARE",
+        "type": "TRY",
+        "word": "HEADSHOT",
+        "roles": {
+          "LEX": "HEADSHOT",
+          "WNSENSE": "headshot%1:04:01::"
+        },
+        "start": 3,
+        "end": 12
+      },
+      "V279726": {
+        "id": "V279726",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 12,
+        "end": 14
+      },
+      "V279834": {
+        "id": "V279834",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "MOD": "#V279839",
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 27,
+        "end": 60
+      },
+      "V279839": {
+        "id": "V279839",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": "MASTERBATING",
+        "roles": {
+          "LOCATION": "#V279847",
+          "VFORM": "ING",
+          "LEX": "MASTERBATING"
+        },
+        "start": 36,
+        "end": 60
+      },
+      "V279847": {
+        "id": "V279847",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V279911",
+          "FIGURE": "#V279839",
+          "LEX": "IN"
+        },
+        "start": 49,
+        "end": 60
+      },
+      "V279911": {
+        "id": "V279911",
+        "indicator": "THE",
+        "type": "LAND-VEHICLE",
+        "word": "CAR",
+        "roles": {
+          "ASSOC-POSS": "#V279906",
+          "LEX": "CAR",
+          "WNSENSE": "car%1:06:00::"
+        },
+        "start": 52,
+        "end": 60
+      },
+      "V279906": {
+        "id": "V279906",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00",
+          "COREF": "#V279834"
+        },
+        "start": 52,
+        "end": 60
+      },
+      "root": "#V280992"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+51",
+    "*last-utt-id*=51  utt-id+NIL"
+  ]
+}

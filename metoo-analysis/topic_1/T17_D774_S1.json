@@ -1,0 +1,129 @@
+{
+  "parse": [
+    {
+      "V187006": {
+        "id": "V187006",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V186059",
+          "MOD": "#V186039",
+          "LEX": "MENTIONED"
+        },
+        "start": 0,
+        "end": 31
+      },
+      "V186039": {
+        "id": "V186039",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V187006",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V186059": {
+        "id": "V186059",
+        "indicator": "F",
+        "type": "SAY",
+        "word": "MENTION",
+        "roles": {
+          "AGENT": "#V187007",
+          "FORMAL": "#V186382",
+          "FREQUENCY": "#V186049",
+          "TENSE": "PAST",
+          "LEX": "MENTIONED",
+          "WNSENSE": "mention%2:32:00::"
+        },
+        "start": 4,
+        "end": 31
+      },
+      "V187007": {
+        "id": "V187007",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ",
+          "COREF": "#V186143"
+        },
+        "start": 4,
+        "end": 31
+      },
+      "V186049": {
+        "id": "V186049",
+        "indicator": "F",
+        "type": "NEVER",
+        "word": "NEVER",
+        "roles": {
+          "FIGURE": "#V186059",
+          "LEX": "NEVER",
+          "WNSENSE": "never%4:02:00::"
+        },
+        "start": 4,
+        "end": 10
+      },
+      "V186382": {
+        "id": "V186382",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V186167"
+        },
+        "start": 20,
+        "end": 31
+      },
+      "V186167": {
+        "id": "V186167",
+        "indicator": "SM",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "REFOBJECT": "#V186143",
+          "QUAN": "MOST",
+          "LEX": "-"
+        },
+        "start": 20,
+        "end": 31
+      },
+      "V186143": {
+        "id": "V186143",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V186081",
+          "LEX": "-"
+        },
+        "start": 25,
+        "end": 31
+      },
+      "V186081": {
+        "id": "V186081",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V186382"
+        },
+        "start": 28,
+        "end": 31
+      },
+      "root": "#V187006"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+25",
+    "*last-utt-id*=25  utt-id+NIL"
+  ]
+}

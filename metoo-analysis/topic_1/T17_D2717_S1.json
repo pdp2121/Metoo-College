@@ -1,0 +1,147 @@
+{
+  "parse": [
+    {
+      "V2666329": {
+        "id": "V2666329",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2665541",
+          "LEX": "CONFIRM"
+        },
+        "start": 0,
+        "end": 49
+      },
+      "V2665541": {
+        "id": "V2665541",
+        "indicator": "F",
+        "type": "CORRELATION",
+        "word": "CONFIRM",
+        "roles": {
+          "NEUTRAL": "#V2666330",
+          "NEUTRAL1": "#V2665549",
+          "TENSE": "PAST",
+          "NEGATION": "+",
+          "MODALITY": "(:* DO DO)",
+          "LEX": "CONFIRM",
+          "WNSENSE": "confirm%2:31:00::"
+        },
+        "start": 0,
+        "end": 49
+      },
+      "V2666330": {
+        "id": "V2666330",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ",
+          "COREF": "#V2665586"
+        },
+        "start": 0,
+        "end": 49
+      },
+      "V2665549": {
+        "id": "V2665549",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "SUCHTHAT": "#V2665560",
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 16,
+        "end": 49
+      },
+      "V2665560": {
+        "id": "V2665560",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2665552",
+          "NEUTRAL1": "#V2665549",
+          "TIME": "#V2665575",
+          "TENSE": "PAST",
+          "LEX": "WAS",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 20,
+        "end": 49
+      },
+      "V2665552": {
+        "id": "V2665552",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 20,
+        "end": 23
+      },
+      "V2665575": {
+        "id": "V2665575",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "UNTIL",
+        "roles": {
+          "GROUND": "#V2665593",
+          "FIGURE": "#V2665560",
+          "LEX": "UNTIL"
+        },
+        "start": 27,
+        "end": 49
+      },
+      "V2665593": {
+        "id": "V2665593",
+        "indicator": "F",
+        "type": "AFTER",
+        "word": "LATER",
+        "roles": {
+          "EXTENT": "#V2665586"
+        },
+        "start": 34,
+        "end": 49
+      },
+      "V2665586": {
+        "id": "V2665586",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2665584",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 34,
+        "end": 43
+      },
+      "V2665584": {
+        "id": "V2665584",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "30"
+        },
+        "start": 34,
+        "end": 43
+      },
+      "root": "#V2666329"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+495",
+    "*last-utt-id*=495  utt-id+NIL"
+  ]
+}

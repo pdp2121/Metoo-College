@@ -1,0 +1,117 @@
+{
+  "parse": [
+    {
+      "V2713397": {
+        "id": "V2713397",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2713390",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V2713390": {
+        "id": "V2713390",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2712932",
+          "SEQUENCE1": "#V2713015",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V2713015": {
+        "id": "V2713015",
+        "indicator": "F",
+        "type": "WIN-COMPETE",
+        "word": "WIN",
+        "roles": {
+          "AGENT": "#V2713398",
+          "LEX": "WON",
+          "WNSENSE": "win%1:11:00::"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V2712932": {
+        "id": "V2712932",
+        "indicator": "F",
+        "type": "SUBMIT",
+        "word": "FILE",
+        "roles": {
+          "AGENT": "#V2713398",
+          "AFFECTED": "#V2712977",
+          "AGENT1": "#V2712985",
+          "LEX": "FILED",
+          "WNSENSE": "submit%2:32:01"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V2713398": {
+        "id": "V2713398",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ",
+          "COREF": "#V2712998"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V2712977": {
+        "id": "V2712977",
+        "indicator": "A",
+        "type": "COMPLAIN",
+        "word": "COMPLAINT",
+        "roles": {
+          "LEX": "COMPLAINT",
+          "WNSENSE": "complain%2:32:00"
+        },
+        "start": 6,
+        "end": 18
+      },
+      "V2712985": {
+        "id": "V2712985",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2712998",
+          "FIGURE": "#V2712932",
+          "LEX": "WITH"
+        },
+        "start": 18,
+        "end": 28
+      },
+      "V2712998": {
+        "id": "V2712998",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "EEOC",
+        "roles": {
+          "LEX": "EEOC",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 23,
+        "end": 28
+      },
+      "root": "#V2713397"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+496",
+    "*last-utt-id*=496  utt-id+NIL"
+  ]
+}

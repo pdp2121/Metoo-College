@@ -1,0 +1,92 @@
+{
+  "parse": [
+    {
+      "V1108060": {
+        "id": "V1108060",
+        "indicator": "F",
+        "type": "LISTING",
+        "word": "LIST",
+        "roles": {
+          "CONDITION": "#V1108068",
+          "TENSE": "PRES",
+          "LEX": "LIST"
+        },
+        "start": 0,
+        "end": 24
+      },
+      "V1108068": {
+        "id": "V1108068",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "GROUND": "#V1108093",
+          "FIGURE": "#V1108060",
+          "LEX": "IF"
+        },
+        "start": 5,
+        "end": 24
+      },
+      "V1108093": {
+        "id": "V1108093",
+        "indicator": "F",
+        "type": "HAVE",
+        "word": "HAVE",
+        "roles": {
+          "NEUTRAL": "#V1108412",
+          "NEUTRAL1": "#V1108125",
+          "TENSE": "PRES",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:40:00::"
+        },
+        "start": 8,
+        "end": 24
+      },
+      "V1108412": {
+        "id": "V1108412",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(U)",
+          "VAL": "(U)",
+          "LEX": "U"
+        },
+        "start": 8,
+        "end": 10
+      },
+      "V1108125": {
+        "id": "V1108125",
+        "indicator": "THE",
+        "type": "OBJECT-DEPENDENT-LOCATION",
+        "word": "BACK",
+        "roles": {
+          "ASSOC-POSS": "#V1108110",
+          "LEX": "BACK",
+          "WNSENSE": "region%1:15:00"
+        },
+        "start": 15,
+        "end": 24
+      },
+      "V1108110": {
+        "id": "V1108110",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 15,
+        "end": 24
+      },
+      "root": "#V1108060"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+173",
+    "*last-utt-id*=173  utt-id+NIL"
+  ]
+}

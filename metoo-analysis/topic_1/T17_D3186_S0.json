@@ -1,0 +1,213 @@
+{
+  "parse": [
+    {
+      "V2396492": {
+        "id": "V2396492",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2395608",
+          "LEX": "LIMPING"
+        },
+        "start": 0,
+        "end": 62
+      },
+      "V2395608": {
+        "id": "V2395608",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "LIMP",
+        "roles": {
+          "RESULT1": "#V2395699",
+          "RESULT": [
+            "#V2395615",
+            "#V2395583"
+          ],
+          "AGENT": "#V2395548",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "LIMPING"
+        },
+        "start": 0,
+        "end": 62
+      },
+      "V2395548": {
+        "id": "V2395548",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2395583": {
+        "id": "V2395583",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V2395604",
+          "FIGURE": "#V2395608",
+          "LEX": "ON"
+        },
+        "start": 6,
+        "end": 18
+      },
+      "V2395604": {
+        "id": "V2395604",
+        "indicator": "INDEF-SET",
+        "type": "MEDICAL-INSTRUMENT",
+        "word": "CRUTCH",
+        "roles": {
+          "LEX": "CRUTCHES",
+          "WNSENSE": "medical_instrument%1:06:00"
+        },
+        "start": 9,
+        "end": 18
+      },
+      "V2395615": {
+        "id": "V2395615",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2396390",
+          "FIGURE": "#V2395548",
+          "LEX": "TO"
+        },
+        "start": 26,
+        "end": 50
+      },
+      "V2396390": {
+        "id": "V2396390",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2395640"
+        },
+        "start": 29,
+        "end": 50
+      },
+      "V2395640": {
+        "id": "V2395640",
+        "indicator": "THE",
+        "type": "LAND-VEHICLE",
+        "word": "CAR",
+        "roles": {
+          "ASSOC-POSS": "#V2395637",
+          "LOCATION": "#V2395651",
+          "LEX": "CAR",
+          "WNSENSE": "car%1:06:00::"
+        },
+        "start": 29,
+        "end": 50
+      },
+      "V2395637": {
+        "id": "V2395637",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 29,
+        "end": 50
+      },
+      "V2395651": {
+        "id": "V2395651",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V2396017",
+          "FIGURE": "#V2395640",
+          "LEX": "ON"
+        },
+        "start": 36,
+        "end": 50
+      },
+      "V2396017": {
+        "id": "V2396017",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2395689"
+        },
+        "start": 39,
+        "end": 50
+      },
+      "V2395689": {
+        "id": "V2395689",
+        "indicator": "A",
+        "type": "DAY",
+        "word": "DAY",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V2395677",
+          "LEX": "DAY",
+          "WNSENSE": "day%1:28:03::"
+        },
+        "start": 39,
+        "end": 50
+      },
+      "V2395677": {
+        "id": "V2395677",
+        "indicator": "F",
+        "type": "NOT-AFFECTIONATE-VAL",
+        "word": "ICY",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2395689",
+          "SCALE": "AFFECTION-SCALE",
+          "LEX": "ICY",
+          "WNSENSE": "icy%5:00:00:cold:02"
+        },
+        "start": 42,
+        "end": 46
+      },
+      "V2395699": {
+        "id": "V2395699",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2395716",
+          "FIGURE": "#V2395548",
+          "LEX": "AT"
+        },
+        "start": 50,
+        "end": 62
+      },
+      "V2395716": {
+        "id": "V2395716",
+        "indicator": "THE",
+        "type": "COMMERCIAL-FACILITY",
+        "word": "MALL",
+        "roles": {
+          "LEX": "MALL",
+          "WNSENSE": "mall%1:06:01::"
+        },
+        "start": 53,
+        "end": 62
+      },
+      "root": "#V2396492"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+400",
+    "*last-utt-id*=400  utt-id+NIL"
+  ]
+}

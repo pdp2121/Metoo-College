@@ -1,0 +1,138 @@
+{
+  "parse": [
+    {
+      "V1812914": {
+        "id": "V1812914",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1812494",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 65
+      },
+      "V1812494": {
+        "id": "V1812494",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V1812316",
+          "SEQUENCE1": "#V1812335",
+          "TENSE": "PRES",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 65
+      },
+      "V1812335": {
+        "id": "V1812335",
+        "indicator": "F",
+        "type": "EXPOSE",
+        "word": "EXPOSE",
+        "roles": {
+          "MANNER": [
+            "#V1812331",
+            "#V1812343"
+          ],
+          "AGENT": "#V1812269",
+          "AFFECTED": "#V1812338",
+          "LEX": "EXPOSES",
+          "WNSENSE": "expose%2:35:00::"
+        },
+        "start": 0,
+        "end": 65
+      },
+      "V1812316": {
+        "id": "V1812316",
+        "indicator": "F",
+        "type": "CONTROL-MANAGE",
+        "word": "PULLS-OVER",
+        "roles": {
+          "AGENT": "#V1812269",
+          "AFFECTED": "#V1812338",
+          "LEX": "PULLS-OVER",
+          "WNSENSE": "pull_over%2:38:00"
+        },
+        "start": 0,
+        "end": 65
+      },
+      "V1812269": {
+        "id": "V1812269",
+        "indicator": "BARE",
+        "type": "MALE-PERSON",
+        "word": "DUDE",
+        "roles": {
+          "LEX": "DUDE",
+          "WNSENSE": "dude%1:18:01::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V1812331": {
+        "id": "V1812331",
+        "indicator": "F",
+        "type": "INSTANTANEOUS-VAL",
+        "word": "SUDDENLY",
+        "roles": {
+          "FIGURE": "#V1812335",
+          "SCALE": "SPEED-SCALE",
+          "LEX": "SUDDENLY",
+          "WNSENSE": "instantaneous%5:00:00:fast:01"
+        },
+        "start": 20,
+        "end": 29
+      },
+      "V1812338": {
+        "id": "V1812338",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "HIMSELF",
+        "roles": {
+          "PROFORM": "HIMSELF",
+          "LEX": "HIMSELF",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "#V1812269"
+        },
+        "start": 37,
+        "end": 45
+      },
+      "V1812343": {
+        "id": "V1812343",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V1812373",
+          "FIGURE": "#V1812335",
+          "LEX": "WITH"
+        },
+        "start": 45,
+        "end": 65
+      },
+      "V1812373": {
+        "id": "V1812373",
+        "indicator": "QUANTIFIER",
+        "type": "PROVOKE",
+        "word": "PROVOCATION",
+        "roles": {
+          "QUAN": "NONE",
+          "LEX": "PROVOCATION",
+          "WNSENSE": "persuade%2:32:00"
+        },
+        "start": 50,
+        "end": 65
+      },
+      "root": "#V1812914"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+322",
+    "*last-utt-id*=322  utt-id+NIL"
+  ]
+}

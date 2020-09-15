@@ -1,0 +1,89 @@
+{
+  "parse": [
+    {
+      "V1077073": {
+        "id": "V1077073",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1076680",
+          "LEX": "STORY"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V1076680": {
+        "id": "V1076680",
+        "indicator": "A",
+        "type": "COMPOSITION",
+        "word": "STORY",
+        "roles": {
+          "MOD": [
+            "#V1076662",
+            "#V1076684"
+          ],
+          "SIZE": "#V1076699",
+          "LEX": "STORY",
+          "WNSENSE": "composition%1:07:01"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V1076699": {
+        "id": "V1076699",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V1076662": {
+        "id": "V1076662",
+        "indicator": "F",
+        "type": "EVAL-WRT-EXPECTATION",
+        "word": "JUST",
+        "roles": {
+          "FIGURE": "#V1076680"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V1076684": {
+        "id": "V1076684",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V1076725",
+          "FIGURE": "#V1076680",
+          "LEX": "OF"
+        },
+        "start": 15,
+        "end": 23
+      },
+      "V1076725": {
+        "id": "V1076725",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "MANY",
+          "LEX": "MANY"
+        },
+        "start": 18,
+        "end": 23
+      },
+      "root": "#V1077073"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+186",
+    "*last-utt-id*=186  utt-id+NIL"
+  ]
+}

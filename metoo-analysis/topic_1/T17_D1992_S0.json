@@ -1,0 +1,195 @@
+{
+  "parse": [
+    {
+      "V2961374": {
+        "id": "V2961374",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2961369",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 60
+      },
+      "V2961369": {
+        "id": "V2961369",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2959805"
+        },
+        "start": 0,
+        "end": 60
+      },
+      "V2959805": {
+        "id": "V2959805",
+        "indicator": "THE",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V2959472",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 60
+      },
+      "V2959472": {
+        "id": "V2959472",
+        "indicator": "F",
+        "type": "MEET",
+        "word": "MEET",
+        "roles": {
+          "TIME": "#V2959436",
+          "REASON": "#V2959656",
+          "AGENT": "#V2959458",
+          "AGENT1": "#V2959556",
+          "LOCATION": "#V2959564",
+          "WNSENSE": "meet%2:38:01::"
+        },
+        "start": 0,
+        "end": 60
+      },
+      "V2959436": {
+        "id": "V2959436",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2959805",
+          "FIGURE": "#V2959472",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2959458": {
+        "id": "V2959458",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V2959556": {
+        "id": "V2959556",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "ACTOR",
+        "roles": {
+          "ASSOC-WITH": "#V2959540",
+          "LEX": "ACTOR",
+          "WNSENSE": "actor%1:18:00::"
+        },
+        "start": 11,
+        "end": 21
+      },
+      "V2959540": {
+        "id": "V2959540",
+        "indicator": "KIND",
+        "type": "BACTERIUM",
+        "word": "B",
+        "roles": {
+          "LEX": "B",
+          "WNSENSE": "b%1:05:00::"
+        },
+        "start": 11,
+        "end": 21
+      },
+      "V2959564": {
+        "id": "V2959564",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2959644",
+          "FIGURE": "#V2959472",
+          "LEX": "IN"
+        },
+        "start": 21,
+        "end": 39
+      },
+      "V2959644": {
+        "id": "V2959644",
+        "indicator": "THE",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "HOTEL-ROOM",
+        "roles": {
+          "ASSOC-POSS": "#V2959623",
+          "LEX": "HOTEL-ROOM",
+          "WNSENSE": "hotel_room%1:06:00"
+        },
+        "start": 24,
+        "end": 39
+      },
+      "V2959623": {
+        "id": "V2959623",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00",
+          "COREF": "#V2959556"
+        },
+        "start": 24,
+        "end": 39
+      },
+      "V2959656": {
+        "id": "V2959656",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2959675",
+          "FIGURE": "#V2959472",
+          "LEX": "TO"
+        },
+        "start": 39,
+        "end": 60
+      },
+      "V2959675": {
+        "id": "V2959675",
+        "indicator": "F",
+        "type": "UNLOAD",
+        "word": "DROP-OFF",
+        "roles": {
+          "AFFECTED": "#V2959767",
+          "VFORM": "BASE",
+          "LEX": "DROP",
+          "WNSENSE": "offload%2:35:00"
+        },
+        "start": 42,
+        "end": 60
+      },
+      "V2959767": {
+        "id": "V2959767",
+        "indicator": "BARE",
+        "type": "EXPENSE",
+        "word": "PER-DIEM",
+        "roles": {
+          "LEX": "PER-DIEM",
+          "WNSENSE": "per_diem%1:21:00"
+        },
+        "start": 51,
+        "end": 60
+      },
+      "root": "#V2961374"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+517",
+    "*last-utt-id*=517  utt-id+NIL"
+  ]
+}

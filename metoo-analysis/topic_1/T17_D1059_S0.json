@@ -1,0 +1,88 @@
+{
+  "parse": [
+    {
+      "V907435": {
+        "id": "V907435",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V907432",
+          "LEX": "SEXUAL-ABUSE"
+        },
+        "start": 0,
+        "end": 31
+      },
+      "V907432": {
+        "id": "V907432",
+        "indicator": "THE",
+        "type": "ABSTRACT-OBJECT",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V907126",
+          "SEQUENCE1": "#V907133",
+          "LEX": "SEXUAL-ABUSE"
+        },
+        "start": 0,
+        "end": 31
+      },
+      "V907126": {
+        "id": "V907126",
+        "indicator": "BARE",
+        "type": "CRIMINAL-ACTIVITY",
+        "word": "SEXUAL-ABUSE",
+        "roles": {
+          "LEX": "SEXUAL-ABUSE",
+          "WNSENSE": "sexual_abuse%1:04:00"
+        },
+        "start": 0,
+        "end": 13
+      },
+      "V907133": {
+        "id": "V907133",
+        "indicator": "INDEF-SET",
+        "type": "DIRECTION",
+        "word": "TRENDS",
+        "roles": {
+          "LOCATION": "#V907142",
+          "LEX": "TRENDS",
+          "WNSENSE": "direction%1:15:00"
+        },
+        "start": 15,
+        "end": 31
+      },
+      "V907142": {
+        "id": "V907142",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V907164",
+          "FIGURE": "#V907133",
+          "LEX": "ON"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "V907164": {
+        "id": "V907164",
+        "indicator": "BARE",
+        "type": "PERCEIVABLE-SOUND-PROPERTY",
+        "word": "TWITTER",
+        "roles": {
+          "LEX": "TWITTER",
+          "WNSENSE": "twitter%1:11:00::"
+        },
+        "start": 25,
+        "end": 31
+      },
+      "root": "#V907435"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to sequences not reimplemented yet",
+    "*last-utt-id*=NIL  utt-id+167",
+    "*last-utt-id*=167  utt-id+NIL"
+  ]
+}

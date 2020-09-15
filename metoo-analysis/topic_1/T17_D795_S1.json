@@ -1,0 +1,158 @@
+{
+  "parse": [
+    {
+      "V394373": {
+        "id": "V394373",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V390468",
+          "LEX": "WAS"
+        },
+        "start": 1,
+        "end": 38
+      },
+      "V390468": {
+        "id": "V390468",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V390425",
+          "NEUTRAL1": "#V391087",
+          "TENSE": "PAST",
+          "LEX": "WAS",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 1,
+        "end": 38
+      },
+      "V390425": {
+        "id": "V390425",
+        "indicator": "THE",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "ORDINAL": "1",
+          "IDENTIFIED-AS": "#V393610",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "TIME"
+        },
+        "start": 1,
+        "end": 18
+      },
+      "V393610": {
+        "id": "V393610",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V392558",
+          "LEX": "I"
+        },
+        "start": 16,
+        "end": 18
+      },
+      "V392558": {
+        "id": "V392558",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(I)",
+          "VAL": "(I)",
+          "LEX": "I"
+        },
+        "start": 16,
+        "end": 18
+      },
+      "V391087": {
+        "id": "V391087",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUANTITY": "#V390494",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V390492",
+          "MOD": "#V390502",
+          "LEX": "YEARS"
+        },
+        "start": 22,
+        "end": 38
+      },
+      "V390492": {
+        "id": "V390492",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V390484"
+        },
+        "start": 22,
+        "end": 38
+      },
+      "V390484": {
+        "id": "V390484",
+        "indicator": "F",
+        "type": "EVAL-WRT-EXPECTATION",
+        "word": "ONLY",
+        "roles": {
+          "FIGURE": "#V390492",
+          "GROUND": "#V390538"
+        },
+        "start": 22,
+        "end": 38
+      },
+      "V390538": {
+        "id": "V390538",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "6"
+        },
+        "start": 22,
+        "end": 38
+      },
+      "V390494": {
+        "id": "V390494",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V390492",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 22,
+        "end": 36
+      },
+      "V390502": {
+        "id": "V390502",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V391087",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 36,
+        "end": 38
+      },
+      "root": "#V394373"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yet",
+    "*last-utt-id*=81  utt-id+82",
+    "*last-utt-id*=82  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "parse": [
+    {
+      "V390370": {
+        "id": "V390370",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V390326",
+          "LEX": "THESE"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V390326": {
+        "id": "V390326",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THESE",
+        "roles": {
+          "PROFORM": "THESE",
+          "MOD": "#V390355",
+          "LEX": "THESE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V390355": {
+        "id": "V390355",
+        "indicator": "F",
+        "type": "MEMBERSHIP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V390326",
+          "GROUND": "#V390330",
+          "LEX": "MAN"
+        },
+        "start": 6,
+        "end": 10
+      },
+      "V390330": {
+        "id": "V390330",
+        "indicator": "THE-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {},
+        "start": 6,
+        "end": 10
+      },
+      "root": "#V390370"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+80",
+    "*last-utt-id*=80  utt-id+NIL"
+  ]
+}

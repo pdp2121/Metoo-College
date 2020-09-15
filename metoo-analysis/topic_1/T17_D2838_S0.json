@@ -1,0 +1,266 @@
+{
+  "parse": [
+    {
+      "V1230390": {
+        "id": "V1230390",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1224870",
+          "LEX": "TRIED"
+        },
+        "start": 0,
+        "end": 80
+      },
+      "V1224870": {
+        "id": "V1224870",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V1224852",
+          "FORMAL": "#V1224907",
+          "TENSE": "PAST",
+          "LEX": "TRIED",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 0,
+        "end": 80
+      },
+      "V1224852": {
+        "id": "V1224852",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1224907": {
+        "id": "V1224907",
+        "indicator": "F",
+        "type": "LISTING",
+        "word": "LIST",
+        "roles": {
+          "AGENT": "#V1224852",
+          "NEUTRAL": "#V1230378",
+          "VFORM": "BASE",
+          "LEX": "LIST"
+        },
+        "start": 8,
+        "end": 80
+      },
+      "V1230378": {
+        "id": "V1230378",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1225111"
+        },
+        "start": 16,
+        "end": 80
+      },
+      "V1225111": {
+        "id": "V1225111",
+        "indicator": "INDEF-SET",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "REFSET": "#V1224968",
+          "SIZE": "UNIVERSAL",
+          "LEX": "TIMES"
+        },
+        "start": 16,
+        "end": 80
+      },
+      "V1224968": {
+        "id": "V1224968",
+        "indicator": "THE-SET",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SIZE": "#V1224934",
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": [
+            "#V1225030",
+            "#V1224960"
+          ],
+          "LEX": "TIMES"
+        },
+        "start": 20,
+        "end": 80
+      },
+      "V1224934": {
+        "id": "V1224934",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "MOST"
+        },
+        "start": 24,
+        "end": 29
+      },
+      "V1224960": {
+        "id": "V1224960",
+        "indicator": "F",
+        "type": "ABLE",
+        "word": "ABLE",
+        "roles": {
+          "FIGURE": "#V1224968",
+          "SCALE": "ABLE-SCALE",
+          "MOD": "#V1224954",
+          "LEX": "ABLE",
+          "WNSENSE": "able%5:00:00:competent:00"
+        },
+        "start": 29,
+        "end": 38
+      },
+      "V1224954": {
+        "id": "V1224954",
+        "indicator": "F",
+        "type": "NEG",
+        "word": "NOT",
+        "roles": {
+          "FIGURE": "#V1224960",
+          "LEX": "NOT",
+          "WNSENSE": "not%4:02:00::"
+        },
+        "start": 29,
+        "end": 33
+      },
+      "V1225030": {
+        "id": "V1225030",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1226610",
+          "NEUTRAL1": "#V1224968",
+          "EXTENT": "#V1226821",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "BEEN",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 44,
+        "end": 80
+      },
+      "V1226610": {
+        "id": "V1226610",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V1226264",
+          "LEX": "I"
+        },
+        "start": 44,
+        "end": 47
+      },
+      "V1226264": {
+        "id": "V1226264",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(I)",
+          "VAL": "(I)",
+          "LEX": "I"
+        },
+        "start": 44,
+        "end": 47
+      },
+      "V1226821": {
+        "id": "V1226821",
+        "indicator": "F",
+        "type": "EXTENT-PREDICATE",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1225030",
+          "GROUND": "#V1226822",
+          "LEX": "-"
+        },
+        "start": 57,
+        "end": 80
+      },
+      "V1226822": {
+        "id": "V1226822",
+        "indicator": "THE",
+        "type": "VALUE",
+        "word": null,
+        "roles": {
+          "MOD": "#V1225282"
+        },
+        "start": 57,
+        "end": 80
+      },
+      "V1225282": {
+        "id": "V1225282",
+        "indicator": "F",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V1225141",
+          "SEQUENCE1": "#V1225060",
+          "OPERATOR": "AND"
+        },
+        "start": 57,
+        "end": 80
+      },
+      "V1225141": {
+        "id": "V1225141",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1226822",
+          "GROUND": "#V1225043",
+          "LEX": "HARASSED"
+        },
+        "start": 57,
+        "end": 66
+      },
+      "V1225043": {
+        "id": "V1225043",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "HARASS",
+        "roles": {
+          "AFFECTED": "#V1226822",
+          "WNSENSE": "harass%2:37:00::"
+        },
+        "start": 57,
+        "end": 66
+      },
+      "V1225060": {
+        "id": "V1225060",
+        "indicator": "F",
+        "type": "ATTACK",
+        "word": "ASSAULT",
+        "roles": {
+          "AFFECTED": "#V1226822",
+          "LEX": "ASSAULTED",
+          "WNSENSE": "assault%2:33:00::"
+        },
+        "start": 70,
+        "end": 80
+      },
+      "root": "#V1230390"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+236",
+    "*last-utt-id*=236  utt-id+NIL"
+  ]
+}

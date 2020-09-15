@@ -1,0 +1,238 @@
+{
+  "parse": [
+    {
+      "V1057888": {
+        "id": "V1057888",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1056076",
+          "LEX": "ASKED"
+        },
+        "start": 0,
+        "end": 71
+      },
+      "V1056076": {
+        "id": "V1056076",
+        "indicator": "F",
+        "type": "ASK",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V1056026",
+          "NEUTRAL": "#V1056793",
+          "TIME": "#V1055949",
+          "TENSE": "PAST",
+          "LEX": "ASKED"
+        },
+        "start": 0,
+        "end": 71
+      },
+      "V1055949": {
+        "id": "V1055949",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V1055991",
+          "FIGURE": "#V1056076",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V1055991": {
+        "id": "V1055991",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1055975",
+          "FORMAL": "#V1056945",
+          "TENSE": "PAST",
+          "LEX": "WAS",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 5,
+        "end": 15
+      },
+      "V1055975": {
+        "id": "V1055975",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V1056945": {
+        "id": "V1056945",
+        "indicator": "F",
+        "type": "MEMBERSHIP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1055975",
+          "GROUND": "#V1056662",
+          "LEX": "TWELVE"
+        },
+        "start": 12,
+        "end": 15
+      },
+      "V1056662": {
+        "id": "V1056662",
+        "indicator": "THE-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V1056005"
+        },
+        "start": 12,
+        "end": 15
+      },
+      "V1056005": {
+        "id": "V1056005",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "12",
+          "LEX": "TWELVE"
+        },
+        "start": 12,
+        "end": 15
+      },
+      "V1056026": {
+        "id": "V1056026",
+        "indicator": "A",
+        "type": "MALE-CHILD",
+        "word": "BOY",
+        "roles": {
+          "LOCATION": [
+            "#V1056056",
+            "#V1056313"
+          ],
+          "LEX": "BOY",
+          "WNSENSE": "boy%1:18:00::"
+        },
+        "start": 15,
+        "end": 45
+      },
+      "V1056313": {
+        "id": "V1056313",
+        "indicator": "F",
+        "type": "AT-SCALE-VALUE",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1056026",
+          "GROUND": "#V1056011",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD"
+        },
+        "start": 19,
+        "end": 31
+      },
+      "V1056011": {
+        "id": "V1056011",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "18"
+        },
+        "start": 19,
+        "end": 31
+      },
+      "V1056056": {
+        "id": "V1056056",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1056067",
+          "FIGURE": "#V1056026",
+          "LEX": "AT"
+        },
+        "start": 35,
+        "end": 45
+      },
+      "V1056067": {
+        "id": "V1056067",
+        "indicator": "BARE",
+        "type": "RELIGIOUS-FACILITY",
+        "word": "CHURCH",
+        "roles": {
+          "LEX": "CHURCH",
+          "WNSENSE": "church%1:06:00::"
+        },
+        "start": 38,
+        "end": 45
+      },
+      "V1056793": {
+        "id": "V1056793",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1056195",
+          "LEX": "-"
+        },
+        "start": 51,
+        "end": 71
+      },
+      "V1056195": {
+        "id": "V1056195",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": "NUMBER",
+        "roles": {
+          "ASSOC-POSS": "#V1056182",
+          "ASSOC-WITH": "#V1056188",
+          "SCALE": "LINEAR-EXTENT-SCALE",
+          "LEX": "NUMBER",
+          "WNSENSE": "number%1:07:00::"
+        },
+        "start": 55,
+        "end": 71
+      },
+      "V1056188": {
+        "id": "V1056188",
+        "indicator": "KIND",
+        "type": "DEVICE",
+        "word": "PHONE",
+        "roles": {
+          "LEX": "PHONE",
+          "WNSENSE": "phone%1:06:01::"
+        },
+        "start": 55,
+        "end": 71
+      },
+      "V1056182": {
+        "id": "V1056182",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 55,
+        "end": 71
+      },
+      "root": "#V1057888"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+181",
+    "*last-utt-id*=181  utt-id+NIL"
+  ]
+}

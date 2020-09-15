@@ -1,0 +1,8081 @@
+{
+  "parse": [
+    {
+      "V2478302": {
+        "id": "V2478302",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2473784",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2473784": {
+        "id": "V2473784",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V2472604",
+          "SEQUENCE1": "#V2472652",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472652": {
+        "id": "V2472652",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AGENT1": "#V2472661",
+          "FORMAL": "#V2472675",
+          "LEX": "TOLD",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472604": {
+        "id": "V2472604",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AFFECTED": "#V2472620",
+          "FORMAL": "#V2472625",
+          "LEX": "HAD",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472572": {
+        "id": "V2472572",
+        "indicator": "BARE",
+        "type": "PROFESSIONAL",
+        "word": "PROF",
+        "roles": {
+          "ASSOC-WITH": "#V2472567",
+          "LOCATION": "#V2472581",
+          "LEX": "PROF",
+          "WNSENSE": "prof%1:18:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472567": {
+        "id": "V2472567",
+        "indicator": "KIND",
+        "type": "DISCIPLINE",
+        "word": "SCIENCE",
+        "roles": {
+          "LEX": "SCIENCE",
+          "WNSENSE": "subject%1:09:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472581": {
+        "id": "V2472581",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2472595",
+          "FIGURE": "#V2472572",
+          "LEX": "AT"
+        },
+        "start": 13,
+        "end": 19
+      },
+      "V2472595": {
+        "id": "V2472595",
+        "indicator": "BARE",
+        "type": "COPY",
+        "word": "CC",
+        "roles": {
+          "LEX": "CC"
+        },
+        "start": 16,
+        "end": 19
+      },
+      "V2472620": {
+        "id": "V2472620",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 23,
+        "end": 26
+      },
+      "V2472625": {
+        "id": "V2472625",
+        "indicator": "F",
+        "type": "SUBMIT",
+        "word": "SUBMIT",
+        "roles": {
+          "AGENT": "#V2472620",
+          "AFFECTED": "#V2472631",
+          "TIME": "#V2472634",
+          "VFORM": "BASE",
+          "LEX": "SUBMIT",
+          "WNSENSE": "submit%2:32:01::"
+        },
+        "start": 26,
+        "end": 68
+      },
+      "V2472631": {
+        "id": "V2472631",
+        "indicator": "BARE",
+        "type": "PROPOSAL",
+        "word": "ASSIGNMENT",
+        "roles": {
+          "ASSOC-WITH": "#V2472628",
+          "LEX": "ASSIGNMENT"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472628": {
+        "id": "V2472628",
+        "indicator": "KIND",
+        "type": "RESEARCH-FACILITY",
+        "word": "LAB",
+        "roles": {
+          "LEX": "LAB",
+          "WNSENSE": "lab%1:06:00::"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472634": {
+        "id": "V2472634",
+        "indicator": "F",
+        "type": "DURING",
+        "word": "DURING",
+        "roles": {
+          "GROUND": "#V2472641",
+          "FIGURE": "#V2472625",
+          "LEX": "DURING"
+        },
+        "start": 48,
+        "end": 68
+      },
+      "V2472641": {
+        "id": "V2472641",
+        "indicator": "INDEF-SET",
+        "type": "TIME-DEFINED-BY-DURATION",
+        "word": "HOUR",
+        "roles": {
+          "ASSOC-WITH": "#V2472637",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "HOURS",
+          "WNSENSE": "hour%1:28:01::"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472637": {
+        "id": "V2472637",
+        "indicator": "KIND",
+        "type": "BUSINESS-FACILITY",
+        "word": "OFFICE",
+        "roles": {
+          "LEX": "OFFICE",
+          "WNSENSE": "office_building%1:06:00"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472661": {
+        "id": "V2472661",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 75,
+        "end": 78
+      },
+      "V2472675": {
+        "id": "V2472675",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V2472667",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WAS"
+        },
+        "start": 78,
+        "end": 90
+      },
+      "V2472667": {
+        "id": "V2472667",
+        "indicator": "THE",
+        "type": "BODY-PART",
+        "word": "BODY",
+        "roles": {
+          "ASSOC-POSS": "#V2472664",
+          "LEX": "BODY",
+          "WNSENSE": "body%1:08:01::"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472664": {
+        "id": "V2472664",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "root": "#V2478302"
+    },
+    {
+      "V2473415": {
+        "id": "V2473415",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2472819",
+          "ACT1": "#V2473564",
+          "LEX": "APROPOS"
+        },
+        "start": 90,
+        "end": 104
+      },
+      "V2472819": {
+        "id": "V2472819",
+        "indicator": "SPEECHACT",
+        "type": "SA_EVALUATE",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472691",
+          "LEX": "GREAT"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472691": {
+        "id": "V2472691",
+        "indicator": "F",
+        "type": "GREAT-VAL",
+        "word": "GREAT",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V2472820",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "GREAT",
+          "WNSENSE": "great%5:00:01:extraordinary:00"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472820": {
+        "id": "V2472820",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "COREF": "#V2472572"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2473564": {
+        "id": "V2473564",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472698",
+          "LEX": "APROPOS"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2472698": {
+        "id": "V2472698",
+        "indicator": "F",
+        "type": "APPROPRIATE-VAL",
+        "word": "APROPOS",
+        "roles": {
+          "FIGURE": "#V2473565",
+          "SCALE": "APPROPRIATE-SCALE",
+          "LEX": "APROPOS",
+          "WNSENSE": "apropos%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2473565": {
+        "id": "V2473565",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "CONTEXT-REL": "UTT-FRAG",
+          "COREF": "#V2472572"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V2473415"
+    },
+    {
+      "V2473305": {
+        "id": "V2473305",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2472708",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 115
+      },
+      "V2472708": {
+        "id": "V2472708",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V2472716",
+          "FIGURE": "#V2473306",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 115
+      },
+      "V2473306": {
+        "id": "V2473306",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "COREF": "#V2472572"
+        },
+        "start": 104,
+        "end": 115
+      },
+      "V2472716": {
+        "id": "V2472716",
+        "indicator": "QUANTIFIER",
+        "type": "REFERENTIAL-SEM",
+        "word": "NOTHING",
+        "roles": {
+          "QUAN": "NOTHING",
+          "LEX": "NOTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 107,
+        "end": 115
+      },
+      "root": "#V2473305"
+    },
+    {
+      "V2478302": {
+        "id": "V2478302",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2473784",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2473784": {
+        "id": "V2473784",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V2472604",
+          "SEQUENCE1": "#V2472652",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472652": {
+        "id": "V2472652",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AGENT1": "#V2472661",
+          "FORMAL": "#V2472675",
+          "LEX": "TOLD",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472604": {
+        "id": "V2472604",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AFFECTED": "#V2472620",
+          "FORMAL": "#V2472625",
+          "LEX": "HAD",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472572": {
+        "id": "V2472572",
+        "indicator": "BARE",
+        "type": "PROFESSIONAL",
+        "word": "PROF",
+        "roles": {
+          "ASSOC-WITH": "#V2472567",
+          "LOCATION": "#V2472581",
+          "LEX": "PROF",
+          "WNSENSE": "prof%1:18:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472567": {
+        "id": "V2472567",
+        "indicator": "KIND",
+        "type": "DISCIPLINE",
+        "word": "SCIENCE",
+        "roles": {
+          "LEX": "SCIENCE",
+          "WNSENSE": "subject%1:09:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472581": {
+        "id": "V2472581",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2472595",
+          "FIGURE": "#V2472572",
+          "LEX": "AT"
+        },
+        "start": 13,
+        "end": 19
+      },
+      "V2472595": {
+        "id": "V2472595",
+        "indicator": "BARE",
+        "type": "COPY",
+        "word": "CC",
+        "roles": {
+          "LEX": "CC"
+        },
+        "start": 16,
+        "end": 19
+      },
+      "V2472620": {
+        "id": "V2472620",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 26
+      },
+      "V2472625": {
+        "id": "V2472625",
+        "indicator": "F",
+        "type": "SUBMIT",
+        "word": "SUBMIT",
+        "roles": {
+          "AGENT": "#V2472620",
+          "AFFECTED": "#V2472631",
+          "TIME": "#V2472634",
+          "VFORM": "BASE",
+          "LEX": "SUBMIT",
+          "WNSENSE": "submit%2:32:01::"
+        },
+        "start": 26,
+        "end": 68
+      },
+      "V2472631": {
+        "id": "V2472631",
+        "indicator": "BARE",
+        "type": "PROPOSAL",
+        "word": "ASSIGNMENT",
+        "roles": {
+          "ASSOC-WITH": "#V2472628",
+          "LEX": "ASSIGNMENT"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472628": {
+        "id": "V2472628",
+        "indicator": "KIND",
+        "type": "RESEARCH-FACILITY",
+        "word": "LAB",
+        "roles": {
+          "LEX": "LAB",
+          "WNSENSE": "lab%1:06:00::"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472634": {
+        "id": "V2472634",
+        "indicator": "F",
+        "type": "DURING",
+        "word": "DURING",
+        "roles": {
+          "GROUND": "#V2472641",
+          "FIGURE": "#V2472625",
+          "LEX": "DURING"
+        },
+        "start": 48,
+        "end": 68
+      },
+      "V2472641": {
+        "id": "V2472641",
+        "indicator": "INDEF-SET",
+        "type": "TIME-DEFINED-BY-DURATION",
+        "word": "HOUR",
+        "roles": {
+          "ASSOC-WITH": "#V2472637",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "HOURS",
+          "WNSENSE": "hour%1:28:01::"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472637": {
+        "id": "V2472637",
+        "indicator": "KIND",
+        "type": "BUSINESS-FACILITY",
+        "word": "OFFICE",
+        "roles": {
+          "LEX": "OFFICE",
+          "WNSENSE": "office_building%1:06:00"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472661": {
+        "id": "V2472661",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 75,
+        "end": 78
+      },
+      "V2472675": {
+        "id": "V2472675",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V2472667",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WAS"
+        },
+        "start": 78,
+        "end": 90
+      },
+      "V2472667": {
+        "id": "V2472667",
+        "indicator": "THE",
+        "type": "BODY-PART",
+        "word": "BODY",
+        "roles": {
+          "ASSOC-POSS": "#V2472664",
+          "LEX": "BODY",
+          "WNSENSE": "body%1:08:01::"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472664": {
+        "id": "V2472664",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "root": "#V2478302"
+    },
+    {
+      "V2473415": {
+        "id": "V2473415",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2472819",
+          "ACT1": "#V2473561",
+          "LEX": "APROPOS"
+        },
+        "start": 90,
+        "end": 104
+      },
+      "V2472819": {
+        "id": "V2472819",
+        "indicator": "SPEECHACT",
+        "type": "SA_EVALUATE",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472691",
+          "LEX": "GREAT"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472691": {
+        "id": "V2472691",
+        "indicator": "F",
+        "type": "GREAT-VAL",
+        "word": "GREAT",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V2472820",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "GREAT",
+          "WNSENSE": "great%5:00:01:extraordinary:00"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472820": {
+        "id": "V2472820",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 90,
+        "end": 96
+      },
+      "V2473561": {
+        "id": "V2473561",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472700",
+          "LEX": "APROPOS"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2472700": {
+        "id": "V2472700",
+        "indicator": "F",
+        "type": "APPROPRIATE-VAL",
+        "word": "APROPOS",
+        "roles": {
+          "FIGURE": "#V2473562",
+          "SCALE": "APPROPRIATE-SCALE",
+          "LEX": "APROPOS",
+          "WNSENSE": "apropos%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2473562": {
+        "id": "V2473562",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "CONTEXT-REL": "UTT-FRAG"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V2473415"
+    },
+    {
+      "V2473305": {
+        "id": "V2473305",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2472708",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 116
+      },
+      "V2472708": {
+        "id": "V2472708",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V2472716",
+          "FIGURE": "#V2473306",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 115
+      },
+      "V2473306": {
+        "id": "V2473306",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 104,
+        "end": 115
+      },
+      "V2472716": {
+        "id": "V2472716",
+        "indicator": "QUANTIFIER",
+        "type": "REFERENTIAL-SEM",
+        "word": "NOTHING",
+        "roles": {
+          "QUAN": "NOTHING",
+          "LEX": "NOTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 107,
+        "end": 115
+      },
+      "root": "#V2473305"
+    },
+    {
+      "V2478302": {
+        "id": "V2478302",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2473784",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2473784": {
+        "id": "V2473784",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V2472604",
+          "SEQUENCE1": "#V2472652",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472652": {
+        "id": "V2472652",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AGENT1": "#V2472661",
+          "FORMAL": "#V2472675",
+          "LEX": "TOLD",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472604": {
+        "id": "V2472604",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AFFECTED": "#V2472620",
+          "FORMAL": "#V2472625",
+          "LEX": "HAD",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472572": {
+        "id": "V2472572",
+        "indicator": "BARE",
+        "type": "PROFESSIONAL",
+        "word": "PROF",
+        "roles": {
+          "ASSOC-WITH": "#V2472567",
+          "LOCATION": "#V2472581",
+          "LEX": "PROF",
+          "WNSENSE": "prof%1:18:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472567": {
+        "id": "V2472567",
+        "indicator": "KIND",
+        "type": "DISCIPLINE",
+        "word": "SCIENCE",
+        "roles": {
+          "LEX": "SCIENCE",
+          "WNSENSE": "subject%1:09:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472581": {
+        "id": "V2472581",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2472595",
+          "FIGURE": "#V2472572",
+          "LEX": "AT"
+        },
+        "start": 13,
+        "end": 19
+      },
+      "V2472595": {
+        "id": "V2472595",
+        "indicator": "BARE",
+        "type": "COPY",
+        "word": "CC",
+        "roles": {
+          "LEX": "CC"
+        },
+        "start": 16,
+        "end": 19
+      },
+      "V2472620": {
+        "id": "V2472620",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 26
+      },
+      "V2472625": {
+        "id": "V2472625",
+        "indicator": "F",
+        "type": "SUBMIT",
+        "word": "SUBMIT",
+        "roles": {
+          "AGENT": "#V2472620",
+          "AFFECTED": "#V2472631",
+          "TIME": "#V2472634",
+          "VFORM": "BASE",
+          "LEX": "SUBMIT",
+          "WNSENSE": "submit%2:32:01::"
+        },
+        "start": 26,
+        "end": 68
+      },
+      "V2472631": {
+        "id": "V2472631",
+        "indicator": "BARE",
+        "type": "PROPOSAL",
+        "word": "ASSIGNMENT",
+        "roles": {
+          "ASSOC-WITH": "#V2472628",
+          "LEX": "ASSIGNMENT"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472628": {
+        "id": "V2472628",
+        "indicator": "KIND",
+        "type": "RESEARCH-FACILITY",
+        "word": "LAB",
+        "roles": {
+          "LEX": "LAB",
+          "WNSENSE": "lab%1:06:00::"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472634": {
+        "id": "V2472634",
+        "indicator": "F",
+        "type": "DURING",
+        "word": "DURING",
+        "roles": {
+          "GROUND": "#V2472641",
+          "FIGURE": "#V2472625",
+          "LEX": "DURING"
+        },
+        "start": 48,
+        "end": 68
+      },
+      "V2472641": {
+        "id": "V2472641",
+        "indicator": "INDEF-SET",
+        "type": "TIME-DEFINED-BY-DURATION",
+        "word": "HOUR",
+        "roles": {
+          "ASSOC-WITH": "#V2472637",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "HOURS",
+          "WNSENSE": "hour%1:28:01::"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472637": {
+        "id": "V2472637",
+        "indicator": "KIND",
+        "type": "BUSINESS-FACILITY",
+        "word": "OFFICE",
+        "roles": {
+          "LEX": "OFFICE",
+          "WNSENSE": "office_building%1:06:00"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472661": {
+        "id": "V2472661",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 75,
+        "end": 78
+      },
+      "V2472675": {
+        "id": "V2472675",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V2472667",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WAS"
+        },
+        "start": 78,
+        "end": 90
+      },
+      "V2472667": {
+        "id": "V2472667",
+        "indicator": "THE",
+        "type": "BODY-PART",
+        "word": "BODY",
+        "roles": {
+          "ASSOC-POSS": "#V2472664",
+          "LEX": "BODY",
+          "WNSENSE": "body%1:08:01::"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472664": {
+        "id": "V2472664",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "root": "#V2478302"
+    },
+    {
+      "V2473415": {
+        "id": "V2473415",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2472819",
+          "ACT1": "#V2473558",
+          "LEX": "APROPOS"
+        },
+        "start": 90,
+        "end": 104
+      },
+      "V2472819": {
+        "id": "V2472819",
+        "indicator": "SPEECHACT",
+        "type": "SA_EVALUATE",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472691",
+          "LEX": "GREAT"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472691": {
+        "id": "V2472691",
+        "indicator": "F",
+        "type": "GREAT-VAL",
+        "word": "GREAT",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V2472820",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "GREAT",
+          "WNSENSE": "great%5:00:01:extraordinary:00"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472820": {
+        "id": "V2472820",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 90,
+        "end": 96
+      },
+      "V2473558": {
+        "id": "V2473558",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472702",
+          "LEX": "APROPOS"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2472702": {
+        "id": "V2472702",
+        "indicator": "F",
+        "type": "APPROPRIATE-VAL",
+        "word": "APROPOS",
+        "roles": {
+          "FIGURE": "#V2473559",
+          "SCALE": "APPROPRIATE-SCALE",
+          "LEX": "APROPOS",
+          "WNSENSE": "apropos%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2473559": {
+        "id": "V2473559",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "CONTEXT-REL": "UTT-FRAG"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V2473415"
+    },
+    {
+      "V2473305": {
+        "id": "V2473305",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2472708",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 116
+      },
+      "V2472708": {
+        "id": "V2472708",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V2472716",
+          "FIGURE": "#V2473306",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 115
+      },
+      "V2473306": {
+        "id": "V2473306",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 104,
+        "end": 115
+      },
+      "V2472716": {
+        "id": "V2472716",
+        "indicator": "QUANTIFIER",
+        "type": "REFERENTIAL-SEM",
+        "word": "NOTHING",
+        "roles": {
+          "QUAN": "NOTHING",
+          "LEX": "NOTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 107,
+        "end": 115
+      },
+      "root": "#V2473305"
+    },
+    {
+      "V2478299": {
+        "id": "V2478299",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2473784",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2473784": {
+        "id": "V2473784",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V2472604",
+          "SEQUENCE1": "#V2472652",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472652": {
+        "id": "V2472652",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AGENT1": "#V2472661",
+          "FORMAL": "#V2472675",
+          "LEX": "TOLD",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472604": {
+        "id": "V2472604",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AFFECTED": "#V2472620",
+          "FORMAL": "#V2472625",
+          "LEX": "HAD",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472572": {
+        "id": "V2472572",
+        "indicator": "BARE",
+        "type": "PROFESSIONAL",
+        "word": "PROF",
+        "roles": {
+          "ASSOC-WITH": "#V2472567",
+          "LOCATION": "#V2472581",
+          "LEX": "PROF",
+          "WNSENSE": "prof%1:18:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472567": {
+        "id": "V2472567",
+        "indicator": "KIND",
+        "type": "DISCIPLINE",
+        "word": "SCIENCE",
+        "roles": {
+          "LEX": "SCIENCE",
+          "WNSENSE": "subject%1:09:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472581": {
+        "id": "V2472581",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2472595",
+          "FIGURE": "#V2472572",
+          "LEX": "AT"
+        },
+        "start": 13,
+        "end": 19
+      },
+      "V2472595": {
+        "id": "V2472595",
+        "indicator": "BARE",
+        "type": "COPY",
+        "word": "CC",
+        "roles": {
+          "LEX": "CC"
+        },
+        "start": 16,
+        "end": 19
+      },
+      "V2472620": {
+        "id": "V2472620",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 26
+      },
+      "V2472625": {
+        "id": "V2472625",
+        "indicator": "F",
+        "type": "SUBMIT",
+        "word": "SUBMIT",
+        "roles": {
+          "AGENT": "#V2472620",
+          "AFFECTED": "#V2472631",
+          "TIME": "#V2472634",
+          "VFORM": "BASE",
+          "LEX": "SUBMIT",
+          "WNSENSE": "submit%2:32:01::"
+        },
+        "start": 26,
+        "end": 68
+      },
+      "V2472631": {
+        "id": "V2472631",
+        "indicator": "BARE",
+        "type": "PROPOSAL",
+        "word": "ASSIGNMENT",
+        "roles": {
+          "ASSOC-WITH": "#V2472628",
+          "LEX": "ASSIGNMENT"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472628": {
+        "id": "V2472628",
+        "indicator": "KIND",
+        "type": "RESEARCH-FACILITY",
+        "word": "LAB",
+        "roles": {
+          "LEX": "LAB",
+          "WNSENSE": "lab%1:06:00::"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472634": {
+        "id": "V2472634",
+        "indicator": "F",
+        "type": "DURING",
+        "word": "DURING",
+        "roles": {
+          "GROUND": "#V2472641",
+          "FIGURE": "#V2472625",
+          "LEX": "DURING"
+        },
+        "start": 48,
+        "end": 68
+      },
+      "V2472641": {
+        "id": "V2472641",
+        "indicator": "INDEF-SET",
+        "type": "TIME-DEFINED-BY-DURATION",
+        "word": "HOUR",
+        "roles": {
+          "ASSOC-WITH": "#V2472637",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "HOURS",
+          "WNSENSE": "hour%1:28:01::"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472637": {
+        "id": "V2472637",
+        "indicator": "KIND",
+        "type": "BUSINESS-FACILITY",
+        "word": "OFFICE",
+        "roles": {
+          "LEX": "OFFICE",
+          "WNSENSE": "office_building%1:06:00"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472661": {
+        "id": "V2472661",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 75,
+        "end": 78
+      },
+      "V2472675": {
+        "id": "V2472675",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V2472668",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WAS"
+        },
+        "start": 78,
+        "end": 90
+      },
+      "V2472668": {
+        "id": "V2472668",
+        "indicator": "THE",
+        "type": "GROUP-OBJECT",
+        "word": "BODY",
+        "roles": {
+          "ASSOC-POSS": "#V2472664",
+          "LEX": "BODY",
+          "WNSENSE": "grouping%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472664": {
+        "id": "V2472664",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "root": "#V2478299"
+    },
+    {
+      "V2473415": {
+        "id": "V2473415",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2472819",
+          "ACT1": "#V2473564",
+          "LEX": "APROPOS"
+        },
+        "start": 90,
+        "end": 104
+      },
+      "V2472819": {
+        "id": "V2472819",
+        "indicator": "SPEECHACT",
+        "type": "SA_EVALUATE",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472691",
+          "LEX": "GREAT"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472691": {
+        "id": "V2472691",
+        "indicator": "F",
+        "type": "GREAT-VAL",
+        "word": "GREAT",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V2472820",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "GREAT",
+          "WNSENSE": "great%5:00:01:extraordinary:00"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472820": {
+        "id": "V2472820",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 90,
+        "end": 96
+      },
+      "V2473564": {
+        "id": "V2473564",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472698",
+          "LEX": "APROPOS"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2472698": {
+        "id": "V2472698",
+        "indicator": "F",
+        "type": "APPROPRIATE-VAL",
+        "word": "APROPOS",
+        "roles": {
+          "FIGURE": "#V2473565",
+          "SCALE": "APPROPRIATE-SCALE",
+          "LEX": "APROPOS",
+          "WNSENSE": "apropos%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2473565": {
+        "id": "V2473565",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "CONTEXT-REL": "UTT-FRAG"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V2473415"
+    },
+    {
+      "V2473305": {
+        "id": "V2473305",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2472708",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 116
+      },
+      "V2472708": {
+        "id": "V2472708",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V2472716",
+          "FIGURE": "#V2473306",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 115
+      },
+      "V2473306": {
+        "id": "V2473306",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 104,
+        "end": 115
+      },
+      "V2472716": {
+        "id": "V2472716",
+        "indicator": "QUANTIFIER",
+        "type": "REFERENTIAL-SEM",
+        "word": "NOTHING",
+        "roles": {
+          "QUAN": "NOTHING",
+          "LEX": "NOTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 107,
+        "end": 115
+      },
+      "root": "#V2473305"
+    },
+    {
+      "V2478299": {
+        "id": "V2478299",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2473784",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2473784": {
+        "id": "V2473784",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V2472604",
+          "SEQUENCE1": "#V2472652",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472652": {
+        "id": "V2472652",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AGENT1": "#V2472661",
+          "FORMAL": "#V2472675",
+          "LEX": "TOLD",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472604": {
+        "id": "V2472604",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AFFECTED": "#V2472620",
+          "FORMAL": "#V2472625",
+          "LEX": "HAD",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472572": {
+        "id": "V2472572",
+        "indicator": "BARE",
+        "type": "PROFESSIONAL",
+        "word": "PROF",
+        "roles": {
+          "ASSOC-WITH": "#V2472567",
+          "LOCATION": "#V2472581",
+          "LEX": "PROF",
+          "WNSENSE": "prof%1:18:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472567": {
+        "id": "V2472567",
+        "indicator": "KIND",
+        "type": "DISCIPLINE",
+        "word": "SCIENCE",
+        "roles": {
+          "LEX": "SCIENCE",
+          "WNSENSE": "subject%1:09:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472581": {
+        "id": "V2472581",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2472595",
+          "FIGURE": "#V2472572",
+          "LEX": "AT"
+        },
+        "start": 13,
+        "end": 19
+      },
+      "V2472595": {
+        "id": "V2472595",
+        "indicator": "BARE",
+        "type": "COPY",
+        "word": "CC",
+        "roles": {
+          "LEX": "CC"
+        },
+        "start": 16,
+        "end": 19
+      },
+      "V2472620": {
+        "id": "V2472620",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 26
+      },
+      "V2472625": {
+        "id": "V2472625",
+        "indicator": "F",
+        "type": "SUBMIT",
+        "word": "SUBMIT",
+        "roles": {
+          "AGENT": "#V2472620",
+          "AFFECTED": "#V2472631",
+          "TIME": "#V2472634",
+          "VFORM": "BASE",
+          "LEX": "SUBMIT",
+          "WNSENSE": "submit%2:32:01::"
+        },
+        "start": 26,
+        "end": 68
+      },
+      "V2472631": {
+        "id": "V2472631",
+        "indicator": "BARE",
+        "type": "PROPOSAL",
+        "word": "ASSIGNMENT",
+        "roles": {
+          "ASSOC-WITH": "#V2472628",
+          "LEX": "ASSIGNMENT"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472628": {
+        "id": "V2472628",
+        "indicator": "KIND",
+        "type": "RESEARCH-FACILITY",
+        "word": "LAB",
+        "roles": {
+          "LEX": "LAB",
+          "WNSENSE": "lab%1:06:00::"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472634": {
+        "id": "V2472634",
+        "indicator": "F",
+        "type": "DURING",
+        "word": "DURING",
+        "roles": {
+          "GROUND": "#V2472641",
+          "FIGURE": "#V2472625",
+          "LEX": "DURING"
+        },
+        "start": 48,
+        "end": 68
+      },
+      "V2472641": {
+        "id": "V2472641",
+        "indicator": "INDEF-SET",
+        "type": "TIME-DEFINED-BY-DURATION",
+        "word": "HOUR",
+        "roles": {
+          "ASSOC-WITH": "#V2472637",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "HOURS",
+          "WNSENSE": "hour%1:28:01::"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472637": {
+        "id": "V2472637",
+        "indicator": "KIND",
+        "type": "BUSINESS-FACILITY",
+        "word": "OFFICE",
+        "roles": {
+          "LEX": "OFFICE",
+          "WNSENSE": "office_building%1:06:00"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472661": {
+        "id": "V2472661",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 75,
+        "end": 78
+      },
+      "V2472675": {
+        "id": "V2472675",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V2472668",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WAS"
+        },
+        "start": 78,
+        "end": 90
+      },
+      "V2472668": {
+        "id": "V2472668",
+        "indicator": "THE",
+        "type": "GROUP-OBJECT",
+        "word": "BODY",
+        "roles": {
+          "ASSOC-POSS": "#V2472664",
+          "LEX": "BODY",
+          "WNSENSE": "grouping%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472664": {
+        "id": "V2472664",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "root": "#V2478299"
+    },
+    {
+      "V2473415": {
+        "id": "V2473415",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2472819",
+          "ACT1": "#V2473561",
+          "LEX": "APROPOS"
+        },
+        "start": 90,
+        "end": 104
+      },
+      "V2472819": {
+        "id": "V2472819",
+        "indicator": "SPEECHACT",
+        "type": "SA_EVALUATE",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472691",
+          "LEX": "GREAT"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472691": {
+        "id": "V2472691",
+        "indicator": "F",
+        "type": "GREAT-VAL",
+        "word": "GREAT",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V2472820",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "GREAT",
+          "WNSENSE": "great%5:00:01:extraordinary:00"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472820": {
+        "id": "V2472820",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 90,
+        "end": 96
+      },
+      "V2473561": {
+        "id": "V2473561",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472700",
+          "LEX": "APROPOS"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2472700": {
+        "id": "V2472700",
+        "indicator": "F",
+        "type": "APPROPRIATE-VAL",
+        "word": "APROPOS",
+        "roles": {
+          "FIGURE": "#V2473562",
+          "SCALE": "APPROPRIATE-SCALE",
+          "LEX": "APROPOS",
+          "WNSENSE": "apropos%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2473562": {
+        "id": "V2473562",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "CONTEXT-REL": "UTT-FRAG"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V2473415"
+    },
+    {
+      "V2473305": {
+        "id": "V2473305",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2472708",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 116
+      },
+      "V2472708": {
+        "id": "V2472708",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V2472716",
+          "FIGURE": "#V2473306",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 115
+      },
+      "V2473306": {
+        "id": "V2473306",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 104,
+        "end": 115
+      },
+      "V2472716": {
+        "id": "V2472716",
+        "indicator": "QUANTIFIER",
+        "type": "REFERENTIAL-SEM",
+        "word": "NOTHING",
+        "roles": {
+          "QUAN": "NOTHING",
+          "LEX": "NOTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 107,
+        "end": 115
+      },
+      "root": "#V2473305"
+    },
+    {
+      "V2478299": {
+        "id": "V2478299",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2473784",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2473784": {
+        "id": "V2473784",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V2472604",
+          "SEQUENCE1": "#V2472652",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472652": {
+        "id": "V2472652",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AGENT1": "#V2472661",
+          "FORMAL": "#V2472675",
+          "LEX": "TOLD",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472604": {
+        "id": "V2472604",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AFFECTED": "#V2472620",
+          "FORMAL": "#V2472625",
+          "LEX": "HAD",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472572": {
+        "id": "V2472572",
+        "indicator": "BARE",
+        "type": "PROFESSIONAL",
+        "word": "PROF",
+        "roles": {
+          "ASSOC-WITH": "#V2472567",
+          "LOCATION": "#V2472581",
+          "LEX": "PROF",
+          "WNSENSE": "prof%1:18:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472567": {
+        "id": "V2472567",
+        "indicator": "KIND",
+        "type": "DISCIPLINE",
+        "word": "SCIENCE",
+        "roles": {
+          "LEX": "SCIENCE",
+          "WNSENSE": "subject%1:09:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472581": {
+        "id": "V2472581",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2472595",
+          "FIGURE": "#V2472572",
+          "LEX": "AT"
+        },
+        "start": 13,
+        "end": 19
+      },
+      "V2472595": {
+        "id": "V2472595",
+        "indicator": "BARE",
+        "type": "COPY",
+        "word": "CC",
+        "roles": {
+          "LEX": "CC"
+        },
+        "start": 16,
+        "end": 19
+      },
+      "V2472620": {
+        "id": "V2472620",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 26
+      },
+      "V2472625": {
+        "id": "V2472625",
+        "indicator": "F",
+        "type": "SUBMIT",
+        "word": "SUBMIT",
+        "roles": {
+          "AGENT": "#V2472620",
+          "AFFECTED": "#V2472631",
+          "TIME": "#V2472634",
+          "VFORM": "BASE",
+          "LEX": "SUBMIT",
+          "WNSENSE": "submit%2:32:01::"
+        },
+        "start": 26,
+        "end": 68
+      },
+      "V2472631": {
+        "id": "V2472631",
+        "indicator": "BARE",
+        "type": "PROPOSAL",
+        "word": "ASSIGNMENT",
+        "roles": {
+          "ASSOC-WITH": "#V2472628",
+          "LEX": "ASSIGNMENT"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472628": {
+        "id": "V2472628",
+        "indicator": "KIND",
+        "type": "RESEARCH-FACILITY",
+        "word": "LAB",
+        "roles": {
+          "LEX": "LAB",
+          "WNSENSE": "lab%1:06:00::"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472634": {
+        "id": "V2472634",
+        "indicator": "F",
+        "type": "DURING",
+        "word": "DURING",
+        "roles": {
+          "GROUND": "#V2472641",
+          "FIGURE": "#V2472625",
+          "LEX": "DURING"
+        },
+        "start": 48,
+        "end": 68
+      },
+      "V2472641": {
+        "id": "V2472641",
+        "indicator": "INDEF-SET",
+        "type": "TIME-DEFINED-BY-DURATION",
+        "word": "HOUR",
+        "roles": {
+          "ASSOC-WITH": "#V2472637",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "HOURS",
+          "WNSENSE": "hour%1:28:01::"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472637": {
+        "id": "V2472637",
+        "indicator": "KIND",
+        "type": "BUSINESS-FACILITY",
+        "word": "OFFICE",
+        "roles": {
+          "LEX": "OFFICE",
+          "WNSENSE": "office_building%1:06:00"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472661": {
+        "id": "V2472661",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 75,
+        "end": 78
+      },
+      "V2472675": {
+        "id": "V2472675",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V2472668",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WAS"
+        },
+        "start": 78,
+        "end": 90
+      },
+      "V2472668": {
+        "id": "V2472668",
+        "indicator": "THE",
+        "type": "GROUP-OBJECT",
+        "word": "BODY",
+        "roles": {
+          "ASSOC-POSS": "#V2472664",
+          "LEX": "BODY",
+          "WNSENSE": "grouping%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472664": {
+        "id": "V2472664",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "root": "#V2478299"
+    },
+    {
+      "V2473415": {
+        "id": "V2473415",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2472819",
+          "ACT1": "#V2473558",
+          "LEX": "APROPOS"
+        },
+        "start": 90,
+        "end": 104
+      },
+      "V2472819": {
+        "id": "V2472819",
+        "indicator": "SPEECHACT",
+        "type": "SA_EVALUATE",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472691",
+          "LEX": "GREAT"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472691": {
+        "id": "V2472691",
+        "indicator": "F",
+        "type": "GREAT-VAL",
+        "word": "GREAT",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V2472820",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "GREAT",
+          "WNSENSE": "great%5:00:01:extraordinary:00"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472820": {
+        "id": "V2472820",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 90,
+        "end": 96
+      },
+      "V2473558": {
+        "id": "V2473558",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472702",
+          "LEX": "APROPOS"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2472702": {
+        "id": "V2472702",
+        "indicator": "F",
+        "type": "APPROPRIATE-VAL",
+        "word": "APROPOS",
+        "roles": {
+          "FIGURE": "#V2473559",
+          "SCALE": "APPROPRIATE-SCALE",
+          "LEX": "APROPOS",
+          "WNSENSE": "apropos%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2473559": {
+        "id": "V2473559",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "CONTEXT-REL": "UTT-FRAG"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V2473415"
+    },
+    {
+      "V2473305": {
+        "id": "V2473305",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2472708",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 116
+      },
+      "V2472708": {
+        "id": "V2472708",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V2472716",
+          "FIGURE": "#V2473306",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 115
+      },
+      "V2473306": {
+        "id": "V2473306",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 104,
+        "end": 115
+      },
+      "V2472716": {
+        "id": "V2472716",
+        "indicator": "QUANTIFIER",
+        "type": "REFERENTIAL-SEM",
+        "word": "NOTHING",
+        "roles": {
+          "QUAN": "NOTHING",
+          "LEX": "NOTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 107,
+        "end": 115
+      },
+      "root": "#V2473305"
+    },
+    {
+      "V2478296": {
+        "id": "V2478296",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2473784",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2473784": {
+        "id": "V2473784",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V2472604",
+          "SEQUENCE1": "#V2472652",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472652": {
+        "id": "V2472652",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AGENT1": "#V2472661",
+          "FORMAL": "#V2472675",
+          "LEX": "TOLD",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472604": {
+        "id": "V2472604",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AFFECTED": "#V2472620",
+          "FORMAL": "#V2472625",
+          "LEX": "HAD",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472572": {
+        "id": "V2472572",
+        "indicator": "BARE",
+        "type": "PROFESSIONAL",
+        "word": "PROF",
+        "roles": {
+          "ASSOC-WITH": "#V2472567",
+          "LOCATION": "#V2472581",
+          "LEX": "PROF",
+          "WNSENSE": "prof%1:18:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472567": {
+        "id": "V2472567",
+        "indicator": "KIND",
+        "type": "DISCIPLINE",
+        "word": "SCIENCE",
+        "roles": {
+          "LEX": "SCIENCE",
+          "WNSENSE": "subject%1:09:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472581": {
+        "id": "V2472581",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2472595",
+          "FIGURE": "#V2472572",
+          "LEX": "AT"
+        },
+        "start": 13,
+        "end": 19
+      },
+      "V2472595": {
+        "id": "V2472595",
+        "indicator": "BARE",
+        "type": "COPY",
+        "word": "CC",
+        "roles": {
+          "LEX": "CC"
+        },
+        "start": 16,
+        "end": 19
+      },
+      "V2472620": {
+        "id": "V2472620",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 26
+      },
+      "V2472625": {
+        "id": "V2472625",
+        "indicator": "F",
+        "type": "SUBMIT",
+        "word": "SUBMIT",
+        "roles": {
+          "AGENT": "#V2472620",
+          "AFFECTED": "#V2472631",
+          "TIME": "#V2472634",
+          "VFORM": "BASE",
+          "LEX": "SUBMIT",
+          "WNSENSE": "submit%2:32:01::"
+        },
+        "start": 26,
+        "end": 68
+      },
+      "V2472631": {
+        "id": "V2472631",
+        "indicator": "BARE",
+        "type": "PROPOSAL",
+        "word": "ASSIGNMENT",
+        "roles": {
+          "ASSOC-WITH": "#V2472628",
+          "LEX": "ASSIGNMENT"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472628": {
+        "id": "V2472628",
+        "indicator": "KIND",
+        "type": "RESEARCH-FACILITY",
+        "word": "LAB",
+        "roles": {
+          "LEX": "LAB",
+          "WNSENSE": "lab%1:06:00::"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472634": {
+        "id": "V2472634",
+        "indicator": "F",
+        "type": "DURING",
+        "word": "DURING",
+        "roles": {
+          "GROUND": "#V2472641",
+          "FIGURE": "#V2472625",
+          "LEX": "DURING"
+        },
+        "start": 48,
+        "end": 68
+      },
+      "V2472641": {
+        "id": "V2472641",
+        "indicator": "INDEF-SET",
+        "type": "TIME-DEFINED-BY-DURATION",
+        "word": "HOUR",
+        "roles": {
+          "ASSOC-WITH": "#V2472637",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "HOURS",
+          "WNSENSE": "hour%1:28:01::"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472637": {
+        "id": "V2472637",
+        "indicator": "KIND",
+        "type": "BUSINESS-FACILITY",
+        "word": "OFFICE",
+        "roles": {
+          "LEX": "OFFICE",
+          "WNSENSE": "office_building%1:06:00"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472661": {
+        "id": "V2472661",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 75,
+        "end": 78
+      },
+      "V2472675": {
+        "id": "V2472675",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V2472669",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WAS"
+        },
+        "start": 78,
+        "end": 90
+      },
+      "V2472669": {
+        "id": "V2472669",
+        "indicator": "THE",
+        "type": "INFO-MEDIUM",
+        "word": "BODY",
+        "roles": {
+          "ASSOC-POSS": "#V2472664",
+          "LEX": "BODY",
+          "WNSENSE": "speech%1:10:01"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472664": {
+        "id": "V2472664",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "root": "#V2478296"
+    },
+    {
+      "V2473415": {
+        "id": "V2473415",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2472819",
+          "ACT1": "#V2473564",
+          "LEX": "APROPOS"
+        },
+        "start": 90,
+        "end": 104
+      },
+      "V2472819": {
+        "id": "V2472819",
+        "indicator": "SPEECHACT",
+        "type": "SA_EVALUATE",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472691",
+          "LEX": "GREAT"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472691": {
+        "id": "V2472691",
+        "indicator": "F",
+        "type": "GREAT-VAL",
+        "word": "GREAT",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V2472820",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "GREAT",
+          "WNSENSE": "great%5:00:01:extraordinary:00"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472820": {
+        "id": "V2472820",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 90,
+        "end": 96
+      },
+      "V2473564": {
+        "id": "V2473564",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472698",
+          "LEX": "APROPOS"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2472698": {
+        "id": "V2472698",
+        "indicator": "F",
+        "type": "APPROPRIATE-VAL",
+        "word": "APROPOS",
+        "roles": {
+          "FIGURE": "#V2473565",
+          "SCALE": "APPROPRIATE-SCALE",
+          "LEX": "APROPOS",
+          "WNSENSE": "apropos%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2473565": {
+        "id": "V2473565",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "CONTEXT-REL": "UTT-FRAG"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V2473415"
+    },
+    {
+      "V2473305": {
+        "id": "V2473305",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2472708",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 116
+      },
+      "V2472708": {
+        "id": "V2472708",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V2472716",
+          "FIGURE": "#V2473306",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 115
+      },
+      "V2473306": {
+        "id": "V2473306",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 104,
+        "end": 115
+      },
+      "V2472716": {
+        "id": "V2472716",
+        "indicator": "QUANTIFIER",
+        "type": "REFERENTIAL-SEM",
+        "word": "NOTHING",
+        "roles": {
+          "QUAN": "NOTHING",
+          "LEX": "NOTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 107,
+        "end": 115
+      },
+      "root": "#V2473305"
+    },
+    {
+      "V2478296": {
+        "id": "V2478296",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2473784",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2473784": {
+        "id": "V2473784",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V2472604",
+          "SEQUENCE1": "#V2472652",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472652": {
+        "id": "V2472652",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AGENT1": "#V2472661",
+          "FORMAL": "#V2472675",
+          "LEX": "TOLD",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472604": {
+        "id": "V2472604",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AFFECTED": "#V2472620",
+          "FORMAL": "#V2472625",
+          "LEX": "HAD",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472572": {
+        "id": "V2472572",
+        "indicator": "BARE",
+        "type": "PROFESSIONAL",
+        "word": "PROF",
+        "roles": {
+          "ASSOC-WITH": "#V2472567",
+          "LOCATION": "#V2472581",
+          "LEX": "PROF",
+          "WNSENSE": "prof%1:18:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472567": {
+        "id": "V2472567",
+        "indicator": "KIND",
+        "type": "DISCIPLINE",
+        "word": "SCIENCE",
+        "roles": {
+          "LEX": "SCIENCE",
+          "WNSENSE": "subject%1:09:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472581": {
+        "id": "V2472581",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2472595",
+          "FIGURE": "#V2472572",
+          "LEX": "AT"
+        },
+        "start": 13,
+        "end": 19
+      },
+      "V2472595": {
+        "id": "V2472595",
+        "indicator": "BARE",
+        "type": "COPY",
+        "word": "CC",
+        "roles": {
+          "LEX": "CC"
+        },
+        "start": 16,
+        "end": 19
+      },
+      "V2472620": {
+        "id": "V2472620",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 26
+      },
+      "V2472625": {
+        "id": "V2472625",
+        "indicator": "F",
+        "type": "SUBMIT",
+        "word": "SUBMIT",
+        "roles": {
+          "AGENT": "#V2472620",
+          "AFFECTED": "#V2472631",
+          "TIME": "#V2472634",
+          "VFORM": "BASE",
+          "LEX": "SUBMIT",
+          "WNSENSE": "submit%2:32:01::"
+        },
+        "start": 26,
+        "end": 68
+      },
+      "V2472631": {
+        "id": "V2472631",
+        "indicator": "BARE",
+        "type": "PROPOSAL",
+        "word": "ASSIGNMENT",
+        "roles": {
+          "ASSOC-WITH": "#V2472628",
+          "LEX": "ASSIGNMENT"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472628": {
+        "id": "V2472628",
+        "indicator": "KIND",
+        "type": "RESEARCH-FACILITY",
+        "word": "LAB",
+        "roles": {
+          "LEX": "LAB",
+          "WNSENSE": "lab%1:06:00::"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472634": {
+        "id": "V2472634",
+        "indicator": "F",
+        "type": "DURING",
+        "word": "DURING",
+        "roles": {
+          "GROUND": "#V2472641",
+          "FIGURE": "#V2472625",
+          "LEX": "DURING"
+        },
+        "start": 48,
+        "end": 68
+      },
+      "V2472641": {
+        "id": "V2472641",
+        "indicator": "INDEF-SET",
+        "type": "TIME-DEFINED-BY-DURATION",
+        "word": "HOUR",
+        "roles": {
+          "ASSOC-WITH": "#V2472637",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "HOURS",
+          "WNSENSE": "hour%1:28:01::"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472637": {
+        "id": "V2472637",
+        "indicator": "KIND",
+        "type": "BUSINESS-FACILITY",
+        "word": "OFFICE",
+        "roles": {
+          "LEX": "OFFICE",
+          "WNSENSE": "office_building%1:06:00"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472661": {
+        "id": "V2472661",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 75,
+        "end": 78
+      },
+      "V2472675": {
+        "id": "V2472675",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V2472669",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WAS"
+        },
+        "start": 78,
+        "end": 90
+      },
+      "V2472669": {
+        "id": "V2472669",
+        "indicator": "THE",
+        "type": "INFO-MEDIUM",
+        "word": "BODY",
+        "roles": {
+          "ASSOC-POSS": "#V2472664",
+          "LEX": "BODY",
+          "WNSENSE": "speech%1:10:01"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472664": {
+        "id": "V2472664",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "root": "#V2478296"
+    },
+    {
+      "V2473415": {
+        "id": "V2473415",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2472819",
+          "ACT1": "#V2473561",
+          "LEX": "APROPOS"
+        },
+        "start": 90,
+        "end": 104
+      },
+      "V2472819": {
+        "id": "V2472819",
+        "indicator": "SPEECHACT",
+        "type": "SA_EVALUATE",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472691",
+          "LEX": "GREAT"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472691": {
+        "id": "V2472691",
+        "indicator": "F",
+        "type": "GREAT-VAL",
+        "word": "GREAT",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V2472820",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "GREAT",
+          "WNSENSE": "great%5:00:01:extraordinary:00"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472820": {
+        "id": "V2472820",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 90,
+        "end": 96
+      },
+      "V2473561": {
+        "id": "V2473561",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472700",
+          "LEX": "APROPOS"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2472700": {
+        "id": "V2472700",
+        "indicator": "F",
+        "type": "APPROPRIATE-VAL",
+        "word": "APROPOS",
+        "roles": {
+          "FIGURE": "#V2473562",
+          "SCALE": "APPROPRIATE-SCALE",
+          "LEX": "APROPOS",
+          "WNSENSE": "apropos%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2473562": {
+        "id": "V2473562",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "CONTEXT-REL": "UTT-FRAG"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V2473415"
+    },
+    {
+      "V2473305": {
+        "id": "V2473305",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2472708",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 116
+      },
+      "V2472708": {
+        "id": "V2472708",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V2472716",
+          "FIGURE": "#V2473306",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 115
+      },
+      "V2473306": {
+        "id": "V2473306",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 104,
+        "end": 115
+      },
+      "V2472716": {
+        "id": "V2472716",
+        "indicator": "QUANTIFIER",
+        "type": "REFERENTIAL-SEM",
+        "word": "NOTHING",
+        "roles": {
+          "QUAN": "NOTHING",
+          "LEX": "NOTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 107,
+        "end": 115
+      },
+      "root": "#V2473305"
+    },
+    {
+      "V2478296": {
+        "id": "V2478296",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2473784",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2473784": {
+        "id": "V2473784",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V2472604",
+          "SEQUENCE1": "#V2472652",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472652": {
+        "id": "V2472652",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AGENT1": "#V2472661",
+          "FORMAL": "#V2472675",
+          "LEX": "TOLD",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472604": {
+        "id": "V2472604",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AFFECTED": "#V2472620",
+          "FORMAL": "#V2472625",
+          "LEX": "HAD",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472572": {
+        "id": "V2472572",
+        "indicator": "BARE",
+        "type": "PROFESSIONAL",
+        "word": "PROF",
+        "roles": {
+          "ASSOC-WITH": "#V2472567",
+          "LOCATION": "#V2472581",
+          "LEX": "PROF",
+          "WNSENSE": "prof%1:18:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472567": {
+        "id": "V2472567",
+        "indicator": "KIND",
+        "type": "DISCIPLINE",
+        "word": "SCIENCE",
+        "roles": {
+          "LEX": "SCIENCE",
+          "WNSENSE": "subject%1:09:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472581": {
+        "id": "V2472581",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2472595",
+          "FIGURE": "#V2472572",
+          "LEX": "AT"
+        },
+        "start": 13,
+        "end": 19
+      },
+      "V2472595": {
+        "id": "V2472595",
+        "indicator": "BARE",
+        "type": "COPY",
+        "word": "CC",
+        "roles": {
+          "LEX": "CC"
+        },
+        "start": 16,
+        "end": 19
+      },
+      "V2472620": {
+        "id": "V2472620",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 26
+      },
+      "V2472625": {
+        "id": "V2472625",
+        "indicator": "F",
+        "type": "SUBMIT",
+        "word": "SUBMIT",
+        "roles": {
+          "AGENT": "#V2472620",
+          "AFFECTED": "#V2472631",
+          "TIME": "#V2472634",
+          "VFORM": "BASE",
+          "LEX": "SUBMIT",
+          "WNSENSE": "submit%2:32:01::"
+        },
+        "start": 26,
+        "end": 68
+      },
+      "V2472631": {
+        "id": "V2472631",
+        "indicator": "BARE",
+        "type": "PROPOSAL",
+        "word": "ASSIGNMENT",
+        "roles": {
+          "ASSOC-WITH": "#V2472628",
+          "LEX": "ASSIGNMENT"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472628": {
+        "id": "V2472628",
+        "indicator": "KIND",
+        "type": "RESEARCH-FACILITY",
+        "word": "LAB",
+        "roles": {
+          "LEX": "LAB",
+          "WNSENSE": "lab%1:06:00::"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472634": {
+        "id": "V2472634",
+        "indicator": "F",
+        "type": "DURING",
+        "word": "DURING",
+        "roles": {
+          "GROUND": "#V2472641",
+          "FIGURE": "#V2472625",
+          "LEX": "DURING"
+        },
+        "start": 48,
+        "end": 68
+      },
+      "V2472641": {
+        "id": "V2472641",
+        "indicator": "INDEF-SET",
+        "type": "TIME-DEFINED-BY-DURATION",
+        "word": "HOUR",
+        "roles": {
+          "ASSOC-WITH": "#V2472637",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "HOURS",
+          "WNSENSE": "hour%1:28:01::"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472637": {
+        "id": "V2472637",
+        "indicator": "KIND",
+        "type": "BUSINESS-FACILITY",
+        "word": "OFFICE",
+        "roles": {
+          "LEX": "OFFICE",
+          "WNSENSE": "office_building%1:06:00"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472661": {
+        "id": "V2472661",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 75,
+        "end": 78
+      },
+      "V2472675": {
+        "id": "V2472675",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V2472669",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WAS"
+        },
+        "start": 78,
+        "end": 90
+      },
+      "V2472669": {
+        "id": "V2472669",
+        "indicator": "THE",
+        "type": "INFO-MEDIUM",
+        "word": "BODY",
+        "roles": {
+          "ASSOC-POSS": "#V2472664",
+          "LEX": "BODY",
+          "WNSENSE": "speech%1:10:01"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472664": {
+        "id": "V2472664",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "root": "#V2478296"
+    },
+    {
+      "V2473415": {
+        "id": "V2473415",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2472819",
+          "ACT1": "#V2473558",
+          "LEX": "APROPOS"
+        },
+        "start": 90,
+        "end": 104
+      },
+      "V2472819": {
+        "id": "V2472819",
+        "indicator": "SPEECHACT",
+        "type": "SA_EVALUATE",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472691",
+          "LEX": "GREAT"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472691": {
+        "id": "V2472691",
+        "indicator": "F",
+        "type": "GREAT-VAL",
+        "word": "GREAT",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V2472820",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "GREAT",
+          "WNSENSE": "great%5:00:01:extraordinary:00"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472820": {
+        "id": "V2472820",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 90,
+        "end": 96
+      },
+      "V2473558": {
+        "id": "V2473558",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472702",
+          "LEX": "APROPOS"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2472702": {
+        "id": "V2472702",
+        "indicator": "F",
+        "type": "APPROPRIATE-VAL",
+        "word": "APROPOS",
+        "roles": {
+          "FIGURE": "#V2473559",
+          "SCALE": "APPROPRIATE-SCALE",
+          "LEX": "APROPOS",
+          "WNSENSE": "apropos%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2473559": {
+        "id": "V2473559",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "CONTEXT-REL": "UTT-FRAG"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V2473415"
+    },
+    {
+      "V2473305": {
+        "id": "V2473305",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2472708",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 116
+      },
+      "V2472708": {
+        "id": "V2472708",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V2472716",
+          "FIGURE": "#V2473306",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 115
+      },
+      "V2473306": {
+        "id": "V2473306",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 104,
+        "end": 115
+      },
+      "V2472716": {
+        "id": "V2472716",
+        "indicator": "QUANTIFIER",
+        "type": "REFERENTIAL-SEM",
+        "word": "NOTHING",
+        "roles": {
+          "QUAN": "NOTHING",
+          "LEX": "NOTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 107,
+        "end": 115
+      },
+      "root": "#V2473305"
+    },
+    {
+      "V2478323": {
+        "id": "V2478323",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2473784",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2473784": {
+        "id": "V2473784",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V2472604",
+          "SEQUENCE1": "#V2472652",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472652": {
+        "id": "V2472652",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AGENT1": "#V2472661",
+          "FORMAL": "#V2472675",
+          "LEX": "TOLD",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472604": {
+        "id": "V2472604",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AFFECTED": "#V2472620",
+          "FORMAL": "#V2472625",
+          "LEX": "HAD",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472572": {
+        "id": "V2472572",
+        "indicator": "BARE",
+        "type": "PROFESSIONAL",
+        "word": "PROF",
+        "roles": {
+          "ASSOC-WITH": "#V2472567",
+          "LOCATION": "#V2472581",
+          "LEX": "PROF",
+          "WNSENSE": "prof%1:18:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472567": {
+        "id": "V2472567",
+        "indicator": "KIND",
+        "type": "DISCIPLINE",
+        "word": "SCIENCE",
+        "roles": {
+          "LEX": "SCIENCE",
+          "WNSENSE": "subject%1:09:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472581": {
+        "id": "V2472581",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2472595",
+          "FIGURE": "#V2472572",
+          "LEX": "AT"
+        },
+        "start": 13,
+        "end": 19
+      },
+      "V2472595": {
+        "id": "V2472595",
+        "indicator": "BARE",
+        "type": "COPY",
+        "word": "CC",
+        "roles": {
+          "LEX": "CC"
+        },
+        "start": 16,
+        "end": 19
+      },
+      "V2472620": {
+        "id": "V2472620",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 26
+      },
+      "V2472625": {
+        "id": "V2472625",
+        "indicator": "F",
+        "type": "SUBMIT",
+        "word": "SUBMIT",
+        "roles": {
+          "AGENT": "#V2472620",
+          "AFFECTED": "#V2472631",
+          "TIME": "#V2472634",
+          "VFORM": "BASE",
+          "LEX": "SUBMIT",
+          "WNSENSE": "submit%2:32:01::"
+        },
+        "start": 26,
+        "end": 68
+      },
+      "V2472631": {
+        "id": "V2472631",
+        "indicator": "BARE",
+        "type": "PROPOSAL",
+        "word": "ASSIGNMENT",
+        "roles": {
+          "ASSOC-WITH": "#V2472628",
+          "LEX": "ASSIGNMENT"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472628": {
+        "id": "V2472628",
+        "indicator": "KIND",
+        "type": "RESEARCH-FACILITY",
+        "word": "LAB",
+        "roles": {
+          "LEX": "LAB",
+          "WNSENSE": "lab%1:06:00::"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472634": {
+        "id": "V2472634",
+        "indicator": "F",
+        "type": "DURING",
+        "word": "DURING",
+        "roles": {
+          "GROUND": "#V2472641",
+          "FIGURE": "#V2472625",
+          "LEX": "DURING"
+        },
+        "start": 48,
+        "end": 68
+      },
+      "V2472641": {
+        "id": "V2472641",
+        "indicator": "INDEF-SET",
+        "type": "TIME-DEFINED-BY-DURATION",
+        "word": "HOUR",
+        "roles": {
+          "ASSOC-WITH": "#V2472637",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "HOURS",
+          "WNSENSE": "hour%1:28:01::"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472637": {
+        "id": "V2472637",
+        "indicator": "KIND",
+        "type": "BUSINESS-FACILITY",
+        "word": "OFFICE",
+        "roles": {
+          "LEX": "OFFICE",
+          "WNSENSE": "office_building%1:06:00"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472661": {
+        "id": "V2472661",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 75,
+        "end": 78
+      },
+      "V2472675": {
+        "id": "V2472675",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V2472993",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WAS"
+        },
+        "start": 78,
+        "end": 90
+      },
+      "V2472993": {
+        "id": "V2472993",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2472667"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472667": {
+        "id": "V2472667",
+        "indicator": "THE",
+        "type": "BODY-PART",
+        "word": "BODY",
+        "roles": {
+          "ASSOC-POSS": "#V2472664",
+          "LEX": "BODY",
+          "WNSENSE": "body%1:08:01::"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472664": {
+        "id": "V2472664",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "root": "#V2478323"
+    },
+    {
+      "V2473415": {
+        "id": "V2473415",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2472819",
+          "ACT1": "#V2473564",
+          "LEX": "APROPOS"
+        },
+        "start": 90,
+        "end": 104
+      },
+      "V2472819": {
+        "id": "V2472819",
+        "indicator": "SPEECHACT",
+        "type": "SA_EVALUATE",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472691",
+          "LEX": "GREAT"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472691": {
+        "id": "V2472691",
+        "indicator": "F",
+        "type": "GREAT-VAL",
+        "word": "GREAT",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V2472820",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "GREAT",
+          "WNSENSE": "great%5:00:01:extraordinary:00"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472820": {
+        "id": "V2472820",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 90,
+        "end": 96
+      },
+      "V2473564": {
+        "id": "V2473564",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472698",
+          "LEX": "APROPOS"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2472698": {
+        "id": "V2472698",
+        "indicator": "F",
+        "type": "APPROPRIATE-VAL",
+        "word": "APROPOS",
+        "roles": {
+          "FIGURE": "#V2473565",
+          "SCALE": "APPROPRIATE-SCALE",
+          "LEX": "APROPOS",
+          "WNSENSE": "apropos%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2473565": {
+        "id": "V2473565",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "CONTEXT-REL": "UTT-FRAG"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V2473415"
+    },
+    {
+      "V2473305": {
+        "id": "V2473305",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2472708",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 116
+      },
+      "V2472708": {
+        "id": "V2472708",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V2472716",
+          "FIGURE": "#V2473306",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 115
+      },
+      "V2473306": {
+        "id": "V2473306",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 104,
+        "end": 115
+      },
+      "V2472716": {
+        "id": "V2472716",
+        "indicator": "QUANTIFIER",
+        "type": "REFERENTIAL-SEM",
+        "word": "NOTHING",
+        "roles": {
+          "QUAN": "NOTHING",
+          "LEX": "NOTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 107,
+        "end": 115
+      },
+      "root": "#V2473305"
+    },
+    {
+      "V2478323": {
+        "id": "V2478323",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2473784",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2473784": {
+        "id": "V2473784",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V2472604",
+          "SEQUENCE1": "#V2472652",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472652": {
+        "id": "V2472652",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AGENT1": "#V2472661",
+          "FORMAL": "#V2472675",
+          "LEX": "TOLD",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472604": {
+        "id": "V2472604",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AFFECTED": "#V2472620",
+          "FORMAL": "#V2472625",
+          "LEX": "HAD",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472572": {
+        "id": "V2472572",
+        "indicator": "BARE",
+        "type": "PROFESSIONAL",
+        "word": "PROF",
+        "roles": {
+          "ASSOC-WITH": "#V2472567",
+          "LOCATION": "#V2472581",
+          "LEX": "PROF",
+          "WNSENSE": "prof%1:18:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472567": {
+        "id": "V2472567",
+        "indicator": "KIND",
+        "type": "DISCIPLINE",
+        "word": "SCIENCE",
+        "roles": {
+          "LEX": "SCIENCE",
+          "WNSENSE": "subject%1:09:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472581": {
+        "id": "V2472581",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2472595",
+          "FIGURE": "#V2472572",
+          "LEX": "AT"
+        },
+        "start": 13,
+        "end": 19
+      },
+      "V2472595": {
+        "id": "V2472595",
+        "indicator": "BARE",
+        "type": "COPY",
+        "word": "CC",
+        "roles": {
+          "LEX": "CC"
+        },
+        "start": 16,
+        "end": 19
+      },
+      "V2472620": {
+        "id": "V2472620",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 26
+      },
+      "V2472625": {
+        "id": "V2472625",
+        "indicator": "F",
+        "type": "SUBMIT",
+        "word": "SUBMIT",
+        "roles": {
+          "AGENT": "#V2472620",
+          "AFFECTED": "#V2472631",
+          "TIME": "#V2472634",
+          "VFORM": "BASE",
+          "LEX": "SUBMIT",
+          "WNSENSE": "submit%2:32:01::"
+        },
+        "start": 26,
+        "end": 68
+      },
+      "V2472631": {
+        "id": "V2472631",
+        "indicator": "BARE",
+        "type": "PROPOSAL",
+        "word": "ASSIGNMENT",
+        "roles": {
+          "ASSOC-WITH": "#V2472628",
+          "LEX": "ASSIGNMENT"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472628": {
+        "id": "V2472628",
+        "indicator": "KIND",
+        "type": "RESEARCH-FACILITY",
+        "word": "LAB",
+        "roles": {
+          "LEX": "LAB",
+          "WNSENSE": "lab%1:06:00::"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472634": {
+        "id": "V2472634",
+        "indicator": "F",
+        "type": "DURING",
+        "word": "DURING",
+        "roles": {
+          "GROUND": "#V2472641",
+          "FIGURE": "#V2472625",
+          "LEX": "DURING"
+        },
+        "start": 48,
+        "end": 68
+      },
+      "V2472641": {
+        "id": "V2472641",
+        "indicator": "INDEF-SET",
+        "type": "TIME-DEFINED-BY-DURATION",
+        "word": "HOUR",
+        "roles": {
+          "ASSOC-WITH": "#V2472637",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "HOURS",
+          "WNSENSE": "hour%1:28:01::"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472637": {
+        "id": "V2472637",
+        "indicator": "KIND",
+        "type": "BUSINESS-FACILITY",
+        "word": "OFFICE",
+        "roles": {
+          "LEX": "OFFICE",
+          "WNSENSE": "office_building%1:06:00"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472661": {
+        "id": "V2472661",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 75,
+        "end": 78
+      },
+      "V2472675": {
+        "id": "V2472675",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V2472993",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WAS"
+        },
+        "start": 78,
+        "end": 90
+      },
+      "V2472993": {
+        "id": "V2472993",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2472667"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472667": {
+        "id": "V2472667",
+        "indicator": "THE",
+        "type": "BODY-PART",
+        "word": "BODY",
+        "roles": {
+          "ASSOC-POSS": "#V2472664",
+          "LEX": "BODY",
+          "WNSENSE": "body%1:08:01::"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472664": {
+        "id": "V2472664",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "root": "#V2478323"
+    },
+    {
+      "V2473415": {
+        "id": "V2473415",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2472819",
+          "ACT1": "#V2473561",
+          "LEX": "APROPOS"
+        },
+        "start": 90,
+        "end": 104
+      },
+      "V2472819": {
+        "id": "V2472819",
+        "indicator": "SPEECHACT",
+        "type": "SA_EVALUATE",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472691",
+          "LEX": "GREAT"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472691": {
+        "id": "V2472691",
+        "indicator": "F",
+        "type": "GREAT-VAL",
+        "word": "GREAT",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V2472820",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "GREAT",
+          "WNSENSE": "great%5:00:01:extraordinary:00"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472820": {
+        "id": "V2472820",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 90,
+        "end": 96
+      },
+      "V2473561": {
+        "id": "V2473561",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472700",
+          "LEX": "APROPOS"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2472700": {
+        "id": "V2472700",
+        "indicator": "F",
+        "type": "APPROPRIATE-VAL",
+        "word": "APROPOS",
+        "roles": {
+          "FIGURE": "#V2473562",
+          "SCALE": "APPROPRIATE-SCALE",
+          "LEX": "APROPOS",
+          "WNSENSE": "apropos%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2473562": {
+        "id": "V2473562",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "CONTEXT-REL": "UTT-FRAG"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V2473415"
+    },
+    {
+      "V2473305": {
+        "id": "V2473305",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2472708",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 116
+      },
+      "V2472708": {
+        "id": "V2472708",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V2472716",
+          "FIGURE": "#V2473306",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 115
+      },
+      "V2473306": {
+        "id": "V2473306",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 104,
+        "end": 115
+      },
+      "V2472716": {
+        "id": "V2472716",
+        "indicator": "QUANTIFIER",
+        "type": "REFERENTIAL-SEM",
+        "word": "NOTHING",
+        "roles": {
+          "QUAN": "NOTHING",
+          "LEX": "NOTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 107,
+        "end": 115
+      },
+      "root": "#V2473305"
+    },
+    {
+      "V2478323": {
+        "id": "V2478323",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2473784",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2473784": {
+        "id": "V2473784",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V2472604",
+          "SEQUENCE1": "#V2472652",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472652": {
+        "id": "V2472652",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AGENT1": "#V2472661",
+          "FORMAL": "#V2472675",
+          "LEX": "TOLD",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472604": {
+        "id": "V2472604",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AFFECTED": "#V2472620",
+          "FORMAL": "#V2472625",
+          "LEX": "HAD",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472572": {
+        "id": "V2472572",
+        "indicator": "BARE",
+        "type": "PROFESSIONAL",
+        "word": "PROF",
+        "roles": {
+          "ASSOC-WITH": "#V2472567",
+          "LOCATION": "#V2472581",
+          "LEX": "PROF",
+          "WNSENSE": "prof%1:18:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472567": {
+        "id": "V2472567",
+        "indicator": "KIND",
+        "type": "DISCIPLINE",
+        "word": "SCIENCE",
+        "roles": {
+          "LEX": "SCIENCE",
+          "WNSENSE": "subject%1:09:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472581": {
+        "id": "V2472581",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2472595",
+          "FIGURE": "#V2472572",
+          "LEX": "AT"
+        },
+        "start": 13,
+        "end": 19
+      },
+      "V2472595": {
+        "id": "V2472595",
+        "indicator": "BARE",
+        "type": "COPY",
+        "word": "CC",
+        "roles": {
+          "LEX": "CC"
+        },
+        "start": 16,
+        "end": 19
+      },
+      "V2472620": {
+        "id": "V2472620",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 26
+      },
+      "V2472625": {
+        "id": "V2472625",
+        "indicator": "F",
+        "type": "SUBMIT",
+        "word": "SUBMIT",
+        "roles": {
+          "AGENT": "#V2472620",
+          "AFFECTED": "#V2472631",
+          "TIME": "#V2472634",
+          "VFORM": "BASE",
+          "LEX": "SUBMIT",
+          "WNSENSE": "submit%2:32:01::"
+        },
+        "start": 26,
+        "end": 68
+      },
+      "V2472631": {
+        "id": "V2472631",
+        "indicator": "BARE",
+        "type": "PROPOSAL",
+        "word": "ASSIGNMENT",
+        "roles": {
+          "ASSOC-WITH": "#V2472628",
+          "LEX": "ASSIGNMENT"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472628": {
+        "id": "V2472628",
+        "indicator": "KIND",
+        "type": "RESEARCH-FACILITY",
+        "word": "LAB",
+        "roles": {
+          "LEX": "LAB",
+          "WNSENSE": "lab%1:06:00::"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472634": {
+        "id": "V2472634",
+        "indicator": "F",
+        "type": "DURING",
+        "word": "DURING",
+        "roles": {
+          "GROUND": "#V2472641",
+          "FIGURE": "#V2472625",
+          "LEX": "DURING"
+        },
+        "start": 48,
+        "end": 68
+      },
+      "V2472641": {
+        "id": "V2472641",
+        "indicator": "INDEF-SET",
+        "type": "TIME-DEFINED-BY-DURATION",
+        "word": "HOUR",
+        "roles": {
+          "ASSOC-WITH": "#V2472637",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "HOURS",
+          "WNSENSE": "hour%1:28:01::"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472637": {
+        "id": "V2472637",
+        "indicator": "KIND",
+        "type": "BUSINESS-FACILITY",
+        "word": "OFFICE",
+        "roles": {
+          "LEX": "OFFICE",
+          "WNSENSE": "office_building%1:06:00"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472661": {
+        "id": "V2472661",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 75,
+        "end": 78
+      },
+      "V2472675": {
+        "id": "V2472675",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V2472993",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WAS"
+        },
+        "start": 78,
+        "end": 90
+      },
+      "V2472993": {
+        "id": "V2472993",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2472667"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472667": {
+        "id": "V2472667",
+        "indicator": "THE",
+        "type": "BODY-PART",
+        "word": "BODY",
+        "roles": {
+          "ASSOC-POSS": "#V2472664",
+          "LEX": "BODY",
+          "WNSENSE": "body%1:08:01::"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472664": {
+        "id": "V2472664",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "root": "#V2478323"
+    },
+    {
+      "V2473415": {
+        "id": "V2473415",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2472819",
+          "ACT1": "#V2473558",
+          "LEX": "APROPOS"
+        },
+        "start": 90,
+        "end": 104
+      },
+      "V2472819": {
+        "id": "V2472819",
+        "indicator": "SPEECHACT",
+        "type": "SA_EVALUATE",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472691",
+          "LEX": "GREAT"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472691": {
+        "id": "V2472691",
+        "indicator": "F",
+        "type": "GREAT-VAL",
+        "word": "GREAT",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V2472820",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "GREAT",
+          "WNSENSE": "great%5:00:01:extraordinary:00"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472820": {
+        "id": "V2472820",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 90,
+        "end": 96
+      },
+      "V2473558": {
+        "id": "V2473558",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472702",
+          "LEX": "APROPOS"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2472702": {
+        "id": "V2472702",
+        "indicator": "F",
+        "type": "APPROPRIATE-VAL",
+        "word": "APROPOS",
+        "roles": {
+          "FIGURE": "#V2473559",
+          "SCALE": "APPROPRIATE-SCALE",
+          "LEX": "APROPOS",
+          "WNSENSE": "apropos%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2473559": {
+        "id": "V2473559",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "CONTEXT-REL": "UTT-FRAG"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V2473415"
+    },
+    {
+      "V2473305": {
+        "id": "V2473305",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2472708",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 116
+      },
+      "V2472708": {
+        "id": "V2472708",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V2472716",
+          "FIGURE": "#V2473306",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 115
+      },
+      "V2473306": {
+        "id": "V2473306",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 104,
+        "end": 115
+      },
+      "V2472716": {
+        "id": "V2472716",
+        "indicator": "QUANTIFIER",
+        "type": "REFERENTIAL-SEM",
+        "word": "NOTHING",
+        "roles": {
+          "QUAN": "NOTHING",
+          "LEX": "NOTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 107,
+        "end": 115
+      },
+      "root": "#V2473305"
+    },
+    {
+      "V2478320": {
+        "id": "V2478320",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2473784",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2473784": {
+        "id": "V2473784",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V2472604",
+          "SEQUENCE1": "#V2472652",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472652": {
+        "id": "V2472652",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AGENT1": "#V2472661",
+          "FORMAL": "#V2472675",
+          "LEX": "TOLD",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472604": {
+        "id": "V2472604",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AFFECTED": "#V2472620",
+          "FORMAL": "#V2472625",
+          "LEX": "HAD",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472572": {
+        "id": "V2472572",
+        "indicator": "BARE",
+        "type": "PROFESSIONAL",
+        "word": "PROF",
+        "roles": {
+          "ASSOC-WITH": "#V2472567",
+          "LOCATION": "#V2472581",
+          "LEX": "PROF",
+          "WNSENSE": "prof%1:18:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472567": {
+        "id": "V2472567",
+        "indicator": "KIND",
+        "type": "DISCIPLINE",
+        "word": "SCIENCE",
+        "roles": {
+          "LEX": "SCIENCE",
+          "WNSENSE": "subject%1:09:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472581": {
+        "id": "V2472581",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2472595",
+          "FIGURE": "#V2472572",
+          "LEX": "AT"
+        },
+        "start": 13,
+        "end": 19
+      },
+      "V2472595": {
+        "id": "V2472595",
+        "indicator": "BARE",
+        "type": "COPY",
+        "word": "CC",
+        "roles": {
+          "LEX": "CC"
+        },
+        "start": 16,
+        "end": 19
+      },
+      "V2472620": {
+        "id": "V2472620",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 26
+      },
+      "V2472625": {
+        "id": "V2472625",
+        "indicator": "F",
+        "type": "SUBMIT",
+        "word": "SUBMIT",
+        "roles": {
+          "AGENT": "#V2472620",
+          "AFFECTED": "#V2472631",
+          "TIME": "#V2472634",
+          "VFORM": "BASE",
+          "LEX": "SUBMIT",
+          "WNSENSE": "submit%2:32:01::"
+        },
+        "start": 26,
+        "end": 68
+      },
+      "V2472631": {
+        "id": "V2472631",
+        "indicator": "BARE",
+        "type": "PROPOSAL",
+        "word": "ASSIGNMENT",
+        "roles": {
+          "ASSOC-WITH": "#V2472628",
+          "LEX": "ASSIGNMENT"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472628": {
+        "id": "V2472628",
+        "indicator": "KIND",
+        "type": "RESEARCH-FACILITY",
+        "word": "LAB",
+        "roles": {
+          "LEX": "LAB",
+          "WNSENSE": "lab%1:06:00::"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472634": {
+        "id": "V2472634",
+        "indicator": "F",
+        "type": "DURING",
+        "word": "DURING",
+        "roles": {
+          "GROUND": "#V2472641",
+          "FIGURE": "#V2472625",
+          "LEX": "DURING"
+        },
+        "start": 48,
+        "end": 68
+      },
+      "V2472641": {
+        "id": "V2472641",
+        "indicator": "INDEF-SET",
+        "type": "TIME-DEFINED-BY-DURATION",
+        "word": "HOUR",
+        "roles": {
+          "ASSOC-WITH": "#V2472637",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "HOURS",
+          "WNSENSE": "hour%1:28:01::"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472637": {
+        "id": "V2472637",
+        "indicator": "KIND",
+        "type": "BUSINESS-FACILITY",
+        "word": "OFFICE",
+        "roles": {
+          "LEX": "OFFICE",
+          "WNSENSE": "office_building%1:06:00"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472661": {
+        "id": "V2472661",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 75,
+        "end": 78
+      },
+      "V2472675": {
+        "id": "V2472675",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V2472990",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WAS"
+        },
+        "start": 78,
+        "end": 90
+      },
+      "V2472990": {
+        "id": "V2472990",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2472668"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472668": {
+        "id": "V2472668",
+        "indicator": "THE",
+        "type": "GROUP-OBJECT",
+        "word": "BODY",
+        "roles": {
+          "ASSOC-POSS": "#V2472664",
+          "LEX": "BODY",
+          "WNSENSE": "grouping%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472664": {
+        "id": "V2472664",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "root": "#V2478320"
+    },
+    {
+      "V2473415": {
+        "id": "V2473415",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2472819",
+          "ACT1": "#V2473564",
+          "LEX": "APROPOS"
+        },
+        "start": 90,
+        "end": 104
+      },
+      "V2472819": {
+        "id": "V2472819",
+        "indicator": "SPEECHACT",
+        "type": "SA_EVALUATE",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472691",
+          "LEX": "GREAT"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472691": {
+        "id": "V2472691",
+        "indicator": "F",
+        "type": "GREAT-VAL",
+        "word": "GREAT",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V2472820",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "GREAT",
+          "WNSENSE": "great%5:00:01:extraordinary:00"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472820": {
+        "id": "V2472820",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 90,
+        "end": 96
+      },
+      "V2473564": {
+        "id": "V2473564",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472698",
+          "LEX": "APROPOS"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2472698": {
+        "id": "V2472698",
+        "indicator": "F",
+        "type": "APPROPRIATE-VAL",
+        "word": "APROPOS",
+        "roles": {
+          "FIGURE": "#V2473565",
+          "SCALE": "APPROPRIATE-SCALE",
+          "LEX": "APROPOS",
+          "WNSENSE": "apropos%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2473565": {
+        "id": "V2473565",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "CONTEXT-REL": "UTT-FRAG"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V2473415"
+    },
+    {
+      "V2473305": {
+        "id": "V2473305",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2472708",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 116
+      },
+      "V2472708": {
+        "id": "V2472708",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V2472716",
+          "FIGURE": "#V2473306",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 115
+      },
+      "V2473306": {
+        "id": "V2473306",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 104,
+        "end": 115
+      },
+      "V2472716": {
+        "id": "V2472716",
+        "indicator": "QUANTIFIER",
+        "type": "REFERENTIAL-SEM",
+        "word": "NOTHING",
+        "roles": {
+          "QUAN": "NOTHING",
+          "LEX": "NOTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 107,
+        "end": 115
+      },
+      "root": "#V2473305"
+    },
+    {
+      "V2478320": {
+        "id": "V2478320",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2473784",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2473784": {
+        "id": "V2473784",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V2472604",
+          "SEQUENCE1": "#V2472652",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472652": {
+        "id": "V2472652",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AGENT1": "#V2472661",
+          "FORMAL": "#V2472675",
+          "LEX": "TOLD",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472604": {
+        "id": "V2472604",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AFFECTED": "#V2472620",
+          "FORMAL": "#V2472625",
+          "LEX": "HAD",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472572": {
+        "id": "V2472572",
+        "indicator": "BARE",
+        "type": "PROFESSIONAL",
+        "word": "PROF",
+        "roles": {
+          "ASSOC-WITH": "#V2472567",
+          "LOCATION": "#V2472581",
+          "LEX": "PROF",
+          "WNSENSE": "prof%1:18:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472567": {
+        "id": "V2472567",
+        "indicator": "KIND",
+        "type": "DISCIPLINE",
+        "word": "SCIENCE",
+        "roles": {
+          "LEX": "SCIENCE",
+          "WNSENSE": "subject%1:09:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472581": {
+        "id": "V2472581",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2472595",
+          "FIGURE": "#V2472572",
+          "LEX": "AT"
+        },
+        "start": 13,
+        "end": 19
+      },
+      "V2472595": {
+        "id": "V2472595",
+        "indicator": "BARE",
+        "type": "COPY",
+        "word": "CC",
+        "roles": {
+          "LEX": "CC"
+        },
+        "start": 16,
+        "end": 19
+      },
+      "V2472620": {
+        "id": "V2472620",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 26
+      },
+      "V2472625": {
+        "id": "V2472625",
+        "indicator": "F",
+        "type": "SUBMIT",
+        "word": "SUBMIT",
+        "roles": {
+          "AGENT": "#V2472620",
+          "AFFECTED": "#V2472631",
+          "TIME": "#V2472634",
+          "VFORM": "BASE",
+          "LEX": "SUBMIT",
+          "WNSENSE": "submit%2:32:01::"
+        },
+        "start": 26,
+        "end": 68
+      },
+      "V2472631": {
+        "id": "V2472631",
+        "indicator": "BARE",
+        "type": "PROPOSAL",
+        "word": "ASSIGNMENT",
+        "roles": {
+          "ASSOC-WITH": "#V2472628",
+          "LEX": "ASSIGNMENT"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472628": {
+        "id": "V2472628",
+        "indicator": "KIND",
+        "type": "RESEARCH-FACILITY",
+        "word": "LAB",
+        "roles": {
+          "LEX": "LAB",
+          "WNSENSE": "lab%1:06:00::"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472634": {
+        "id": "V2472634",
+        "indicator": "F",
+        "type": "DURING",
+        "word": "DURING",
+        "roles": {
+          "GROUND": "#V2472641",
+          "FIGURE": "#V2472625",
+          "LEX": "DURING"
+        },
+        "start": 48,
+        "end": 68
+      },
+      "V2472641": {
+        "id": "V2472641",
+        "indicator": "INDEF-SET",
+        "type": "TIME-DEFINED-BY-DURATION",
+        "word": "HOUR",
+        "roles": {
+          "ASSOC-WITH": "#V2472637",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "HOURS",
+          "WNSENSE": "hour%1:28:01::"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472637": {
+        "id": "V2472637",
+        "indicator": "KIND",
+        "type": "BUSINESS-FACILITY",
+        "word": "OFFICE",
+        "roles": {
+          "LEX": "OFFICE",
+          "WNSENSE": "office_building%1:06:00"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472661": {
+        "id": "V2472661",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 75,
+        "end": 78
+      },
+      "V2472675": {
+        "id": "V2472675",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V2472990",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WAS"
+        },
+        "start": 78,
+        "end": 90
+      },
+      "V2472990": {
+        "id": "V2472990",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2472668"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472668": {
+        "id": "V2472668",
+        "indicator": "THE",
+        "type": "GROUP-OBJECT",
+        "word": "BODY",
+        "roles": {
+          "ASSOC-POSS": "#V2472664",
+          "LEX": "BODY",
+          "WNSENSE": "grouping%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472664": {
+        "id": "V2472664",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "root": "#V2478320"
+    },
+    {
+      "V2473415": {
+        "id": "V2473415",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2472819",
+          "ACT1": "#V2473561",
+          "LEX": "APROPOS"
+        },
+        "start": 90,
+        "end": 104
+      },
+      "V2472819": {
+        "id": "V2472819",
+        "indicator": "SPEECHACT",
+        "type": "SA_EVALUATE",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472691",
+          "LEX": "GREAT"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472691": {
+        "id": "V2472691",
+        "indicator": "F",
+        "type": "GREAT-VAL",
+        "word": "GREAT",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V2472820",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "GREAT",
+          "WNSENSE": "great%5:00:01:extraordinary:00"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472820": {
+        "id": "V2472820",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 90,
+        "end": 96
+      },
+      "V2473561": {
+        "id": "V2473561",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472700",
+          "LEX": "APROPOS"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2472700": {
+        "id": "V2472700",
+        "indicator": "F",
+        "type": "APPROPRIATE-VAL",
+        "word": "APROPOS",
+        "roles": {
+          "FIGURE": "#V2473562",
+          "SCALE": "APPROPRIATE-SCALE",
+          "LEX": "APROPOS",
+          "WNSENSE": "apropos%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2473562": {
+        "id": "V2473562",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "CONTEXT-REL": "UTT-FRAG"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V2473415"
+    },
+    {
+      "V2473305": {
+        "id": "V2473305",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2472708",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 116
+      },
+      "V2472708": {
+        "id": "V2472708",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V2472716",
+          "FIGURE": "#V2473306",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 115
+      },
+      "V2473306": {
+        "id": "V2473306",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 104,
+        "end": 115
+      },
+      "V2472716": {
+        "id": "V2472716",
+        "indicator": "QUANTIFIER",
+        "type": "REFERENTIAL-SEM",
+        "word": "NOTHING",
+        "roles": {
+          "QUAN": "NOTHING",
+          "LEX": "NOTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 107,
+        "end": 115
+      },
+      "root": "#V2473305"
+    },
+    {
+      "V2478320": {
+        "id": "V2478320",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2473784",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2473784": {
+        "id": "V2473784",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V2472604",
+          "SEQUENCE1": "#V2472652",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472652": {
+        "id": "V2472652",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AGENT1": "#V2472661",
+          "FORMAL": "#V2472675",
+          "LEX": "TOLD",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472604": {
+        "id": "V2472604",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AFFECTED": "#V2472620",
+          "FORMAL": "#V2472625",
+          "LEX": "HAD",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472572": {
+        "id": "V2472572",
+        "indicator": "BARE",
+        "type": "PROFESSIONAL",
+        "word": "PROF",
+        "roles": {
+          "ASSOC-WITH": "#V2472567",
+          "LOCATION": "#V2472581",
+          "LEX": "PROF",
+          "WNSENSE": "prof%1:18:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472567": {
+        "id": "V2472567",
+        "indicator": "KIND",
+        "type": "DISCIPLINE",
+        "word": "SCIENCE",
+        "roles": {
+          "LEX": "SCIENCE",
+          "WNSENSE": "subject%1:09:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472581": {
+        "id": "V2472581",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2472595",
+          "FIGURE": "#V2472572",
+          "LEX": "AT"
+        },
+        "start": 13,
+        "end": 19
+      },
+      "V2472595": {
+        "id": "V2472595",
+        "indicator": "BARE",
+        "type": "COPY",
+        "word": "CC",
+        "roles": {
+          "LEX": "CC"
+        },
+        "start": 16,
+        "end": 19
+      },
+      "V2472620": {
+        "id": "V2472620",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 26
+      },
+      "V2472625": {
+        "id": "V2472625",
+        "indicator": "F",
+        "type": "SUBMIT",
+        "word": "SUBMIT",
+        "roles": {
+          "AGENT": "#V2472620",
+          "AFFECTED": "#V2472631",
+          "TIME": "#V2472634",
+          "VFORM": "BASE",
+          "LEX": "SUBMIT",
+          "WNSENSE": "submit%2:32:01::"
+        },
+        "start": 26,
+        "end": 68
+      },
+      "V2472631": {
+        "id": "V2472631",
+        "indicator": "BARE",
+        "type": "PROPOSAL",
+        "word": "ASSIGNMENT",
+        "roles": {
+          "ASSOC-WITH": "#V2472628",
+          "LEX": "ASSIGNMENT"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472628": {
+        "id": "V2472628",
+        "indicator": "KIND",
+        "type": "RESEARCH-FACILITY",
+        "word": "LAB",
+        "roles": {
+          "LEX": "LAB",
+          "WNSENSE": "lab%1:06:00::"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472634": {
+        "id": "V2472634",
+        "indicator": "F",
+        "type": "DURING",
+        "word": "DURING",
+        "roles": {
+          "GROUND": "#V2472641",
+          "FIGURE": "#V2472625",
+          "LEX": "DURING"
+        },
+        "start": 48,
+        "end": 68
+      },
+      "V2472641": {
+        "id": "V2472641",
+        "indicator": "INDEF-SET",
+        "type": "TIME-DEFINED-BY-DURATION",
+        "word": "HOUR",
+        "roles": {
+          "ASSOC-WITH": "#V2472637",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "HOURS",
+          "WNSENSE": "hour%1:28:01::"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472637": {
+        "id": "V2472637",
+        "indicator": "KIND",
+        "type": "BUSINESS-FACILITY",
+        "word": "OFFICE",
+        "roles": {
+          "LEX": "OFFICE",
+          "WNSENSE": "office_building%1:06:00"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472661": {
+        "id": "V2472661",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 75,
+        "end": 78
+      },
+      "V2472675": {
+        "id": "V2472675",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V2472990",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WAS"
+        },
+        "start": 78,
+        "end": 90
+      },
+      "V2472990": {
+        "id": "V2472990",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2472668"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472668": {
+        "id": "V2472668",
+        "indicator": "THE",
+        "type": "GROUP-OBJECT",
+        "word": "BODY",
+        "roles": {
+          "ASSOC-POSS": "#V2472664",
+          "LEX": "BODY",
+          "WNSENSE": "grouping%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472664": {
+        "id": "V2472664",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "root": "#V2478320"
+    },
+    {
+      "V2473415": {
+        "id": "V2473415",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2472819",
+          "ACT1": "#V2473558",
+          "LEX": "APROPOS"
+        },
+        "start": 90,
+        "end": 104
+      },
+      "V2472819": {
+        "id": "V2472819",
+        "indicator": "SPEECHACT",
+        "type": "SA_EVALUATE",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472691",
+          "LEX": "GREAT"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472691": {
+        "id": "V2472691",
+        "indicator": "F",
+        "type": "GREAT-VAL",
+        "word": "GREAT",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V2472820",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "GREAT",
+          "WNSENSE": "great%5:00:01:extraordinary:00"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472820": {
+        "id": "V2472820",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 90,
+        "end": 96
+      },
+      "V2473558": {
+        "id": "V2473558",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472702",
+          "LEX": "APROPOS"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2472702": {
+        "id": "V2472702",
+        "indicator": "F",
+        "type": "APPROPRIATE-VAL",
+        "word": "APROPOS",
+        "roles": {
+          "FIGURE": "#V2473559",
+          "SCALE": "APPROPRIATE-SCALE",
+          "LEX": "APROPOS",
+          "WNSENSE": "apropos%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2473559": {
+        "id": "V2473559",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "CONTEXT-REL": "UTT-FRAG"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V2473415"
+    },
+    {
+      "V2473305": {
+        "id": "V2473305",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2472708",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 116
+      },
+      "V2472708": {
+        "id": "V2472708",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V2472716",
+          "FIGURE": "#V2473306",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 115
+      },
+      "V2473306": {
+        "id": "V2473306",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 104,
+        "end": 115
+      },
+      "V2472716": {
+        "id": "V2472716",
+        "indicator": "QUANTIFIER",
+        "type": "REFERENTIAL-SEM",
+        "word": "NOTHING",
+        "roles": {
+          "QUAN": "NOTHING",
+          "LEX": "NOTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 107,
+        "end": 115
+      },
+      "root": "#V2473305"
+    },
+    {
+      "V2478317": {
+        "id": "V2478317",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2473784",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2473784": {
+        "id": "V2473784",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V2472604",
+          "SEQUENCE1": "#V2472652",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472652": {
+        "id": "V2472652",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AGENT1": "#V2472661",
+          "FORMAL": "#V2472675",
+          "LEX": "TOLD",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472604": {
+        "id": "V2472604",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AFFECTED": "#V2472620",
+          "FORMAL": "#V2472625",
+          "LEX": "HAD",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472572": {
+        "id": "V2472572",
+        "indicator": "BARE",
+        "type": "PROFESSIONAL",
+        "word": "PROF",
+        "roles": {
+          "ASSOC-WITH": "#V2472567",
+          "LOCATION": "#V2472581",
+          "LEX": "PROF",
+          "WNSENSE": "prof%1:18:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472567": {
+        "id": "V2472567",
+        "indicator": "KIND",
+        "type": "DISCIPLINE",
+        "word": "SCIENCE",
+        "roles": {
+          "LEX": "SCIENCE",
+          "WNSENSE": "subject%1:09:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472581": {
+        "id": "V2472581",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2472595",
+          "FIGURE": "#V2472572",
+          "LEX": "AT"
+        },
+        "start": 13,
+        "end": 19
+      },
+      "V2472595": {
+        "id": "V2472595",
+        "indicator": "BARE",
+        "type": "COPY",
+        "word": "CC",
+        "roles": {
+          "LEX": "CC"
+        },
+        "start": 16,
+        "end": 19
+      },
+      "V2472620": {
+        "id": "V2472620",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 26
+      },
+      "V2472625": {
+        "id": "V2472625",
+        "indicator": "F",
+        "type": "SUBMIT",
+        "word": "SUBMIT",
+        "roles": {
+          "AGENT": "#V2472620",
+          "AFFECTED": "#V2472631",
+          "TIME": "#V2472634",
+          "VFORM": "BASE",
+          "LEX": "SUBMIT",
+          "WNSENSE": "submit%2:32:01::"
+        },
+        "start": 26,
+        "end": 68
+      },
+      "V2472631": {
+        "id": "V2472631",
+        "indicator": "BARE",
+        "type": "PROPOSAL",
+        "word": "ASSIGNMENT",
+        "roles": {
+          "ASSOC-WITH": "#V2472628",
+          "LEX": "ASSIGNMENT"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472628": {
+        "id": "V2472628",
+        "indicator": "KIND",
+        "type": "RESEARCH-FACILITY",
+        "word": "LAB",
+        "roles": {
+          "LEX": "LAB",
+          "WNSENSE": "lab%1:06:00::"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472634": {
+        "id": "V2472634",
+        "indicator": "F",
+        "type": "DURING",
+        "word": "DURING",
+        "roles": {
+          "GROUND": "#V2472641",
+          "FIGURE": "#V2472625",
+          "LEX": "DURING"
+        },
+        "start": 48,
+        "end": 68
+      },
+      "V2472641": {
+        "id": "V2472641",
+        "indicator": "INDEF-SET",
+        "type": "TIME-DEFINED-BY-DURATION",
+        "word": "HOUR",
+        "roles": {
+          "ASSOC-WITH": "#V2472637",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "HOURS",
+          "WNSENSE": "hour%1:28:01::"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472637": {
+        "id": "V2472637",
+        "indicator": "KIND",
+        "type": "BUSINESS-FACILITY",
+        "word": "OFFICE",
+        "roles": {
+          "LEX": "OFFICE",
+          "WNSENSE": "office_building%1:06:00"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472661": {
+        "id": "V2472661",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 75,
+        "end": 78
+      },
+      "V2472675": {
+        "id": "V2472675",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V2472987",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WAS"
+        },
+        "start": 78,
+        "end": 90
+      },
+      "V2472987": {
+        "id": "V2472987",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2472669"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472669": {
+        "id": "V2472669",
+        "indicator": "THE",
+        "type": "INFO-MEDIUM",
+        "word": "BODY",
+        "roles": {
+          "ASSOC-POSS": "#V2472664",
+          "LEX": "BODY",
+          "WNSENSE": "speech%1:10:01"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472664": {
+        "id": "V2472664",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "root": "#V2478317"
+    },
+    {
+      "V2473415": {
+        "id": "V2473415",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2472819",
+          "ACT1": "#V2473564",
+          "LEX": "APROPOS"
+        },
+        "start": 90,
+        "end": 104
+      },
+      "V2472819": {
+        "id": "V2472819",
+        "indicator": "SPEECHACT",
+        "type": "SA_EVALUATE",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472691",
+          "LEX": "GREAT"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472691": {
+        "id": "V2472691",
+        "indicator": "F",
+        "type": "GREAT-VAL",
+        "word": "GREAT",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V2472820",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "GREAT",
+          "WNSENSE": "great%5:00:01:extraordinary:00"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472820": {
+        "id": "V2472820",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 90,
+        "end": 96
+      },
+      "V2473564": {
+        "id": "V2473564",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472698",
+          "LEX": "APROPOS"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2472698": {
+        "id": "V2472698",
+        "indicator": "F",
+        "type": "APPROPRIATE-VAL",
+        "word": "APROPOS",
+        "roles": {
+          "FIGURE": "#V2473565",
+          "SCALE": "APPROPRIATE-SCALE",
+          "LEX": "APROPOS",
+          "WNSENSE": "apropos%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2473565": {
+        "id": "V2473565",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "CONTEXT-REL": "UTT-FRAG"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V2473415"
+    },
+    {
+      "V2473305": {
+        "id": "V2473305",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2472708",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 116
+      },
+      "V2472708": {
+        "id": "V2472708",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V2472716",
+          "FIGURE": "#V2473306",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 115
+      },
+      "V2473306": {
+        "id": "V2473306",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 104,
+        "end": 115
+      },
+      "V2472716": {
+        "id": "V2472716",
+        "indicator": "QUANTIFIER",
+        "type": "REFERENTIAL-SEM",
+        "word": "NOTHING",
+        "roles": {
+          "QUAN": "NOTHING",
+          "LEX": "NOTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 107,
+        "end": 115
+      },
+      "root": "#V2473305"
+    },
+    {
+      "V2478317": {
+        "id": "V2478317",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2473784",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2473784": {
+        "id": "V2473784",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V2472604",
+          "SEQUENCE1": "#V2472652",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472652": {
+        "id": "V2472652",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AGENT1": "#V2472661",
+          "FORMAL": "#V2472675",
+          "LEX": "TOLD",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472604": {
+        "id": "V2472604",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AFFECTED": "#V2472620",
+          "FORMAL": "#V2472625",
+          "LEX": "HAD",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472572": {
+        "id": "V2472572",
+        "indicator": "BARE",
+        "type": "PROFESSIONAL",
+        "word": "PROF",
+        "roles": {
+          "ASSOC-WITH": "#V2472567",
+          "LOCATION": "#V2472581",
+          "LEX": "PROF",
+          "WNSENSE": "prof%1:18:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472567": {
+        "id": "V2472567",
+        "indicator": "KIND",
+        "type": "DISCIPLINE",
+        "word": "SCIENCE",
+        "roles": {
+          "LEX": "SCIENCE",
+          "WNSENSE": "subject%1:09:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472581": {
+        "id": "V2472581",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2472595",
+          "FIGURE": "#V2472572",
+          "LEX": "AT"
+        },
+        "start": 13,
+        "end": 19
+      },
+      "V2472595": {
+        "id": "V2472595",
+        "indicator": "BARE",
+        "type": "COPY",
+        "word": "CC",
+        "roles": {
+          "LEX": "CC"
+        },
+        "start": 16,
+        "end": 19
+      },
+      "V2472620": {
+        "id": "V2472620",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 26
+      },
+      "V2472625": {
+        "id": "V2472625",
+        "indicator": "F",
+        "type": "SUBMIT",
+        "word": "SUBMIT",
+        "roles": {
+          "AGENT": "#V2472620",
+          "AFFECTED": "#V2472631",
+          "TIME": "#V2472634",
+          "VFORM": "BASE",
+          "LEX": "SUBMIT",
+          "WNSENSE": "submit%2:32:01::"
+        },
+        "start": 26,
+        "end": 68
+      },
+      "V2472631": {
+        "id": "V2472631",
+        "indicator": "BARE",
+        "type": "PROPOSAL",
+        "word": "ASSIGNMENT",
+        "roles": {
+          "ASSOC-WITH": "#V2472628",
+          "LEX": "ASSIGNMENT"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472628": {
+        "id": "V2472628",
+        "indicator": "KIND",
+        "type": "RESEARCH-FACILITY",
+        "word": "LAB",
+        "roles": {
+          "LEX": "LAB",
+          "WNSENSE": "lab%1:06:00::"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472634": {
+        "id": "V2472634",
+        "indicator": "F",
+        "type": "DURING",
+        "word": "DURING",
+        "roles": {
+          "GROUND": "#V2472641",
+          "FIGURE": "#V2472625",
+          "LEX": "DURING"
+        },
+        "start": 48,
+        "end": 68
+      },
+      "V2472641": {
+        "id": "V2472641",
+        "indicator": "INDEF-SET",
+        "type": "TIME-DEFINED-BY-DURATION",
+        "word": "HOUR",
+        "roles": {
+          "ASSOC-WITH": "#V2472637",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "HOURS",
+          "WNSENSE": "hour%1:28:01::"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472637": {
+        "id": "V2472637",
+        "indicator": "KIND",
+        "type": "BUSINESS-FACILITY",
+        "word": "OFFICE",
+        "roles": {
+          "LEX": "OFFICE",
+          "WNSENSE": "office_building%1:06:00"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472661": {
+        "id": "V2472661",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 75,
+        "end": 78
+      },
+      "V2472675": {
+        "id": "V2472675",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V2472987",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WAS"
+        },
+        "start": 78,
+        "end": 90
+      },
+      "V2472987": {
+        "id": "V2472987",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2472669"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472669": {
+        "id": "V2472669",
+        "indicator": "THE",
+        "type": "INFO-MEDIUM",
+        "word": "BODY",
+        "roles": {
+          "ASSOC-POSS": "#V2472664",
+          "LEX": "BODY",
+          "WNSENSE": "speech%1:10:01"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472664": {
+        "id": "V2472664",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "root": "#V2478317"
+    },
+    {
+      "V2473415": {
+        "id": "V2473415",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2472819",
+          "ACT1": "#V2473561",
+          "LEX": "APROPOS"
+        },
+        "start": 90,
+        "end": 104
+      },
+      "V2472819": {
+        "id": "V2472819",
+        "indicator": "SPEECHACT",
+        "type": "SA_EVALUATE",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472691",
+          "LEX": "GREAT"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472691": {
+        "id": "V2472691",
+        "indicator": "F",
+        "type": "GREAT-VAL",
+        "word": "GREAT",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V2472820",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "GREAT",
+          "WNSENSE": "great%5:00:01:extraordinary:00"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472820": {
+        "id": "V2472820",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 90,
+        "end": 96
+      },
+      "V2473561": {
+        "id": "V2473561",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472700",
+          "LEX": "APROPOS"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2472700": {
+        "id": "V2472700",
+        "indicator": "F",
+        "type": "APPROPRIATE-VAL",
+        "word": "APROPOS",
+        "roles": {
+          "FIGURE": "#V2473562",
+          "SCALE": "APPROPRIATE-SCALE",
+          "LEX": "APROPOS",
+          "WNSENSE": "apropos%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2473562": {
+        "id": "V2473562",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "CONTEXT-REL": "UTT-FRAG"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V2473415"
+    },
+    {
+      "V2473305": {
+        "id": "V2473305",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2472708",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 116
+      },
+      "V2472708": {
+        "id": "V2472708",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V2472716",
+          "FIGURE": "#V2473306",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 115
+      },
+      "V2473306": {
+        "id": "V2473306",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 104,
+        "end": 115
+      },
+      "V2472716": {
+        "id": "V2472716",
+        "indicator": "QUANTIFIER",
+        "type": "REFERENTIAL-SEM",
+        "word": "NOTHING",
+        "roles": {
+          "QUAN": "NOTHING",
+          "LEX": "NOTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 107,
+        "end": 115
+      },
+      "root": "#V2473305"
+    },
+    {
+      "V2478317": {
+        "id": "V2478317",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2473784",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2473784": {
+        "id": "V2473784",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V2472604",
+          "SEQUENCE1": "#V2472652",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472652": {
+        "id": "V2472652",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AGENT1": "#V2472661",
+          "FORMAL": "#V2472675",
+          "LEX": "TOLD",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472604": {
+        "id": "V2472604",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AFFECTED": "#V2472620",
+          "FORMAL": "#V2472625",
+          "LEX": "HAD",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472572": {
+        "id": "V2472572",
+        "indicator": "BARE",
+        "type": "PROFESSIONAL",
+        "word": "PROF",
+        "roles": {
+          "ASSOC-WITH": "#V2472567",
+          "LOCATION": "#V2472581",
+          "LEX": "PROF",
+          "WNSENSE": "prof%1:18:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472567": {
+        "id": "V2472567",
+        "indicator": "KIND",
+        "type": "DISCIPLINE",
+        "word": "SCIENCE",
+        "roles": {
+          "LEX": "SCIENCE",
+          "WNSENSE": "subject%1:09:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472581": {
+        "id": "V2472581",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2472595",
+          "FIGURE": "#V2472572",
+          "LEX": "AT"
+        },
+        "start": 13,
+        "end": 19
+      },
+      "V2472595": {
+        "id": "V2472595",
+        "indicator": "BARE",
+        "type": "COPY",
+        "word": "CC",
+        "roles": {
+          "LEX": "CC"
+        },
+        "start": 16,
+        "end": 19
+      },
+      "V2472620": {
+        "id": "V2472620",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 26
+      },
+      "V2472625": {
+        "id": "V2472625",
+        "indicator": "F",
+        "type": "SUBMIT",
+        "word": "SUBMIT",
+        "roles": {
+          "AGENT": "#V2472620",
+          "AFFECTED": "#V2472631",
+          "TIME": "#V2472634",
+          "VFORM": "BASE",
+          "LEX": "SUBMIT",
+          "WNSENSE": "submit%2:32:01::"
+        },
+        "start": 26,
+        "end": 68
+      },
+      "V2472631": {
+        "id": "V2472631",
+        "indicator": "BARE",
+        "type": "PROPOSAL",
+        "word": "ASSIGNMENT",
+        "roles": {
+          "ASSOC-WITH": "#V2472628",
+          "LEX": "ASSIGNMENT"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472628": {
+        "id": "V2472628",
+        "indicator": "KIND",
+        "type": "RESEARCH-FACILITY",
+        "word": "LAB",
+        "roles": {
+          "LEX": "LAB",
+          "WNSENSE": "lab%1:06:00::"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472634": {
+        "id": "V2472634",
+        "indicator": "F",
+        "type": "DURING",
+        "word": "DURING",
+        "roles": {
+          "GROUND": "#V2472641",
+          "FIGURE": "#V2472625",
+          "LEX": "DURING"
+        },
+        "start": 48,
+        "end": 68
+      },
+      "V2472641": {
+        "id": "V2472641",
+        "indicator": "INDEF-SET",
+        "type": "TIME-DEFINED-BY-DURATION",
+        "word": "HOUR",
+        "roles": {
+          "ASSOC-WITH": "#V2472637",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "HOURS",
+          "WNSENSE": "hour%1:28:01::"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472637": {
+        "id": "V2472637",
+        "indicator": "KIND",
+        "type": "BUSINESS-FACILITY",
+        "word": "OFFICE",
+        "roles": {
+          "LEX": "OFFICE",
+          "WNSENSE": "office_building%1:06:00"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472661": {
+        "id": "V2472661",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 75,
+        "end": 78
+      },
+      "V2472675": {
+        "id": "V2472675",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V2472987",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WAS"
+        },
+        "start": 78,
+        "end": 90
+      },
+      "V2472987": {
+        "id": "V2472987",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2472669"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472669": {
+        "id": "V2472669",
+        "indicator": "THE",
+        "type": "INFO-MEDIUM",
+        "word": "BODY",
+        "roles": {
+          "ASSOC-POSS": "#V2472664",
+          "LEX": "BODY",
+          "WNSENSE": "speech%1:10:01"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472664": {
+        "id": "V2472664",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "root": "#V2478317"
+    },
+    {
+      "V2473415": {
+        "id": "V2473415",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2472819",
+          "ACT1": "#V2473558",
+          "LEX": "APROPOS"
+        },
+        "start": 90,
+        "end": 104
+      },
+      "V2472819": {
+        "id": "V2472819",
+        "indicator": "SPEECHACT",
+        "type": "SA_EVALUATE",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472691",
+          "LEX": "GREAT"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472691": {
+        "id": "V2472691",
+        "indicator": "F",
+        "type": "GREAT-VAL",
+        "word": "GREAT",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V2472820",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "GREAT",
+          "WNSENSE": "great%5:00:01:extraordinary:00"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472820": {
+        "id": "V2472820",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 90,
+        "end": 96
+      },
+      "V2473558": {
+        "id": "V2473558",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472702",
+          "LEX": "APROPOS"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2472702": {
+        "id": "V2472702",
+        "indicator": "F",
+        "type": "APPROPRIATE-VAL",
+        "word": "APROPOS",
+        "roles": {
+          "FIGURE": "#V2473559",
+          "SCALE": "APPROPRIATE-SCALE",
+          "LEX": "APROPOS",
+          "WNSENSE": "apropos%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2473559": {
+        "id": "V2473559",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "CONTEXT-REL": "UTT-FRAG"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V2473415"
+    },
+    {
+      "V2473305": {
+        "id": "V2473305",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2472708",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 116
+      },
+      "V2472708": {
+        "id": "V2472708",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V2472716",
+          "FIGURE": "#V2473306",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 115
+      },
+      "V2473306": {
+        "id": "V2473306",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 104,
+        "end": 115
+      },
+      "V2472716": {
+        "id": "V2472716",
+        "indicator": "QUANTIFIER",
+        "type": "REFERENTIAL-SEM",
+        "word": "NOTHING",
+        "roles": {
+          "QUAN": "NOTHING",
+          "LEX": "NOTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 107,
+        "end": 115
+      },
+      "root": "#V2473305"
+    },
+    {
+      "V2478302": {
+        "id": "V2478302",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2473784",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2473784": {
+        "id": "V2473784",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V2472604",
+          "SEQUENCE1": "#V2472652",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472652": {
+        "id": "V2472652",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AGENT1": "#V2472661",
+          "FORMAL": "#V2472675",
+          "LEX": "TOLD",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472604": {
+        "id": "V2472604",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AFFECTED": "#V2472620",
+          "FORMAL": "#V2472625",
+          "LEX": "HAD",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472572": {
+        "id": "V2472572",
+        "indicator": "BARE",
+        "type": "PROFESSIONAL",
+        "word": "PROF",
+        "roles": {
+          "ASSOC-WITH": "#V2472567",
+          "LOCATION": "#V2472581",
+          "LEX": "PROF",
+          "WNSENSE": "prof%1:18:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472567": {
+        "id": "V2472567",
+        "indicator": "KIND",
+        "type": "DISCIPLINE",
+        "word": "SCIENCE",
+        "roles": {
+          "LEX": "SCIENCE",
+          "WNSENSE": "subject%1:09:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472581": {
+        "id": "V2472581",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2472595",
+          "FIGURE": "#V2472572",
+          "LEX": "AT"
+        },
+        "start": 13,
+        "end": 19
+      },
+      "V2472595": {
+        "id": "V2472595",
+        "indicator": "BARE",
+        "type": "COPY",
+        "word": "CC",
+        "roles": {
+          "LEX": "CC"
+        },
+        "start": 16,
+        "end": 19
+      },
+      "V2472620": {
+        "id": "V2472620",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 26
+      },
+      "V2472625": {
+        "id": "V2472625",
+        "indicator": "F",
+        "type": "SUBMIT",
+        "word": "SUBMIT",
+        "roles": {
+          "AGENT": "#V2472620",
+          "AFFECTED": "#V2472631",
+          "TIME": "#V2472634",
+          "VFORM": "BASE",
+          "LEX": "SUBMIT",
+          "WNSENSE": "submit%2:32:01::"
+        },
+        "start": 26,
+        "end": 68
+      },
+      "V2472631": {
+        "id": "V2472631",
+        "indicator": "BARE",
+        "type": "PROPOSAL",
+        "word": "ASSIGNMENT",
+        "roles": {
+          "ASSOC-WITH": "#V2472628",
+          "LEX": "ASSIGNMENT"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472628": {
+        "id": "V2472628",
+        "indicator": "KIND",
+        "type": "RESEARCH-FACILITY",
+        "word": "LAB",
+        "roles": {
+          "LEX": "LAB",
+          "WNSENSE": "lab%1:06:00::"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472634": {
+        "id": "V2472634",
+        "indicator": "F",
+        "type": "DURING",
+        "word": "DURING",
+        "roles": {
+          "GROUND": "#V2472641",
+          "FIGURE": "#V2472625",
+          "LEX": "DURING"
+        },
+        "start": 48,
+        "end": 68
+      },
+      "V2472641": {
+        "id": "V2472641",
+        "indicator": "INDEF-SET",
+        "type": "TIME-DEFINED-BY-DURATION",
+        "word": "HOUR",
+        "roles": {
+          "ASSOC-WITH": "#V2472637",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "HOURS",
+          "WNSENSE": "hour%1:28:01::"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472637": {
+        "id": "V2472637",
+        "indicator": "KIND",
+        "type": "BUSINESS-FACILITY",
+        "word": "OFFICE",
+        "roles": {
+          "LEX": "OFFICE",
+          "WNSENSE": "office_building%1:06:00"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472661": {
+        "id": "V2472661",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 75,
+        "end": 78
+      },
+      "V2472675": {
+        "id": "V2472675",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V2472667",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WAS"
+        },
+        "start": 78,
+        "end": 90
+      },
+      "V2472667": {
+        "id": "V2472667",
+        "indicator": "THE",
+        "type": "BODY-PART",
+        "word": "BODY",
+        "roles": {
+          "ASSOC-POSS": "#V2472664",
+          "LEX": "BODY",
+          "WNSENSE": "body%1:08:01::"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472664": {
+        "id": "V2472664",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "root": "#V2478302"
+    },
+    {
+      "V2473415": {
+        "id": "V2473415",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2472819",
+          "ACT1": "#V2473564",
+          "LEX": "APROPOS"
+        },
+        "start": 90,
+        "end": 104
+      },
+      "V2472819": {
+        "id": "V2472819",
+        "indicator": "SPEECHACT",
+        "type": "SA_EVALUATE",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472691",
+          "LEX": "GREAT"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472691": {
+        "id": "V2472691",
+        "indicator": "F",
+        "type": "GREAT-VAL",
+        "word": "GREAT",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V2472820",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "GREAT",
+          "WNSENSE": "great%5:00:01:extraordinary:00"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472820": {
+        "id": "V2472820",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 90,
+        "end": 96
+      },
+      "V2473564": {
+        "id": "V2473564",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472698",
+          "LEX": "APROPOS"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2472698": {
+        "id": "V2472698",
+        "indicator": "F",
+        "type": "APPROPRIATE-VAL",
+        "word": "APROPOS",
+        "roles": {
+          "FIGURE": "#V2473565",
+          "SCALE": "APPROPRIATE-SCALE",
+          "LEX": "APROPOS",
+          "WNSENSE": "apropos%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2473565": {
+        "id": "V2473565",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "CONTEXT-REL": "UTT-FRAG"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V2473415"
+    },
+    {
+      "V2473427": {
+        "id": "V2473427",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2472708",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 116
+      },
+      "V2472708": {
+        "id": "V2472708",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V2472879",
+          "FIGURE": "#V2473428",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 115
+      },
+      "V2473428": {
+        "id": "V2473428",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 104,
+        "end": 115
+      },
+      "V2472879": {
+        "id": "V2472879",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2472716"
+        },
+        "start": 107,
+        "end": 115
+      },
+      "V2472716": {
+        "id": "V2472716",
+        "indicator": "QUANTIFIER",
+        "type": "REFERENTIAL-SEM",
+        "word": "NOTHING",
+        "roles": {
+          "QUAN": "NOTHING",
+          "LEX": "NOTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 107,
+        "end": 115
+      },
+      "root": "#V2473427"
+    },
+    {
+      "V2478302": {
+        "id": "V2478302",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2473784",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2473784": {
+        "id": "V2473784",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V2472604",
+          "SEQUENCE1": "#V2472652",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472652": {
+        "id": "V2472652",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AGENT1": "#V2472661",
+          "FORMAL": "#V2472675",
+          "LEX": "TOLD",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472604": {
+        "id": "V2472604",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2472572",
+          "AFFECTED": "#V2472620",
+          "FORMAL": "#V2472625",
+          "LEX": "HAD",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V2472572": {
+        "id": "V2472572",
+        "indicator": "BARE",
+        "type": "PROFESSIONAL",
+        "word": "PROF",
+        "roles": {
+          "ASSOC-WITH": "#V2472567",
+          "LOCATION": "#V2472581",
+          "LEX": "PROF",
+          "WNSENSE": "prof%1:18:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472567": {
+        "id": "V2472567",
+        "indicator": "KIND",
+        "type": "DISCIPLINE",
+        "word": "SCIENCE",
+        "roles": {
+          "LEX": "SCIENCE",
+          "WNSENSE": "subject%1:09:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2472581": {
+        "id": "V2472581",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2472595",
+          "FIGURE": "#V2472572",
+          "LEX": "AT"
+        },
+        "start": 13,
+        "end": 19
+      },
+      "V2472595": {
+        "id": "V2472595",
+        "indicator": "BARE",
+        "type": "COPY",
+        "word": "CC",
+        "roles": {
+          "LEX": "CC"
+        },
+        "start": 16,
+        "end": 19
+      },
+      "V2472620": {
+        "id": "V2472620",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 26
+      },
+      "V2472625": {
+        "id": "V2472625",
+        "indicator": "F",
+        "type": "SUBMIT",
+        "word": "SUBMIT",
+        "roles": {
+          "AGENT": "#V2472620",
+          "AFFECTED": "#V2472631",
+          "TIME": "#V2472634",
+          "VFORM": "BASE",
+          "LEX": "SUBMIT",
+          "WNSENSE": "submit%2:32:01::"
+        },
+        "start": 26,
+        "end": 68
+      },
+      "V2472631": {
+        "id": "V2472631",
+        "indicator": "BARE",
+        "type": "PROPOSAL",
+        "word": "ASSIGNMENT",
+        "roles": {
+          "ASSOC-WITH": "#V2472628",
+          "LEX": "ASSIGNMENT"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472628": {
+        "id": "V2472628",
+        "indicator": "KIND",
+        "type": "RESEARCH-FACILITY",
+        "word": "LAB",
+        "roles": {
+          "LEX": "LAB",
+          "WNSENSE": "lab%1:06:00::"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V2472634": {
+        "id": "V2472634",
+        "indicator": "F",
+        "type": "DURING",
+        "word": "DURING",
+        "roles": {
+          "GROUND": "#V2472641",
+          "FIGURE": "#V2472625",
+          "LEX": "DURING"
+        },
+        "start": 48,
+        "end": 68
+      },
+      "V2472641": {
+        "id": "V2472641",
+        "indicator": "INDEF-SET",
+        "type": "TIME-DEFINED-BY-DURATION",
+        "word": "HOUR",
+        "roles": {
+          "ASSOC-WITH": "#V2472637",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "HOURS",
+          "WNSENSE": "hour%1:28:01::"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472637": {
+        "id": "V2472637",
+        "indicator": "KIND",
+        "type": "BUSINESS-FACILITY",
+        "word": "OFFICE",
+        "roles": {
+          "LEX": "OFFICE",
+          "WNSENSE": "office_building%1:06:00"
+        },
+        "start": 55,
+        "end": 68
+      },
+      "V2472661": {
+        "id": "V2472661",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 75,
+        "end": 78
+      },
+      "V2472675": {
+        "id": "V2472675",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V2472667",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WAS"
+        },
+        "start": 78,
+        "end": 90
+      },
+      "V2472667": {
+        "id": "V2472667",
+        "indicator": "THE",
+        "type": "BODY-PART",
+        "word": "BODY",
+        "roles": {
+          "ASSOC-POSS": "#V2472664",
+          "LEX": "BODY",
+          "WNSENSE": "body%1:08:01::"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "V2472664": {
+        "id": "V2472664",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 78,
+        "end": 86
+      },
+      "root": "#V2478302"
+    },
+    {
+      "V2473415": {
+        "id": "V2473415",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2472819",
+          "ACT1": "#V2473561",
+          "LEX": "APROPOS"
+        },
+        "start": 90,
+        "end": 104
+      },
+      "V2472819": {
+        "id": "V2472819",
+        "indicator": "SPEECHACT",
+        "type": "SA_EVALUATE",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472691",
+          "LEX": "GREAT"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472691": {
+        "id": "V2472691",
+        "indicator": "F",
+        "type": "GREAT-VAL",
+        "word": "GREAT",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V2472820",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "GREAT",
+          "WNSENSE": "great%5:00:01:extraordinary:00"
+        },
+        "start": 90,
+        "end": 96
+      },
+      "V2472820": {
+        "id": "V2472820",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 90,
+        "end": 96
+      },
+      "V2473561": {
+        "id": "V2473561",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2472700",
+          "LEX": "APROPOS"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2472700": {
+        "id": "V2472700",
+        "indicator": "F",
+        "type": "APPROPRIATE-VAL",
+        "word": "APROPOS",
+        "roles": {
+          "FIGURE": "#V2473562",
+          "SCALE": "APPROPRIATE-SCALE",
+          "LEX": "APROPOS",
+          "WNSENSE": "apropos%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "V2473562": {
+        "id": "V2473562",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "CONTEXT-REL": "UTT-FRAG"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V2473415"
+    },
+    {
+      "V2473427": {
+        "id": "V2473427",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2472708",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 116
+      },
+      "V2472708": {
+        "id": "V2472708",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V2472879",
+          "FIGURE": "#V2473428",
+          "LEX": "OF"
+        },
+        "start": 104,
+        "end": 115
+      },
+      "V2473428": {
+        "id": "V2473428",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 104,
+        "end": 115
+      },
+      "V2472879": {
+        "id": "V2472879",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2472716"
+        },
+        "start": 107,
+        "end": 115
+      },
+      "V2472716": {
+        "id": "V2472716",
+        "indicator": "QUANTIFIER",
+        "type": "REFERENTIAL-SEM",
+        "word": "NOTHING",
+        "roles": {
+          "QUAN": "NOTHING",
+          "LEX": "NOTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 107,
+        "end": 115
+      },
+      "root": "#V2473427"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+476",
+    "*last-utt-id*=476  utt-id+476",
+    "*last-utt-id*=476  utt-id+476",
+    "*last-utt-id*=476  utt-id+476",
+    "*last-utt-id*=476  utt-id+NIL"
+  ]
+}

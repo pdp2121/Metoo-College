@@ -1,0 +1,187 @@
+{
+  "parse": [
+    {
+      "V486284": {
+        "id": "V486284",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V485491",
+          "LEX": "IGNORE"
+        },
+        "start": 0,
+        "end": 72
+      },
+      "V485491": {
+        "id": "V485491",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V485831",
+          "AFFECTED": "#V485496",
+          "TIME": "#V485450",
+          "TENSE": "PRES",
+          "LEX": "IGNORE"
+        },
+        "start": 0,
+        "end": 72
+      },
+      "V485450": {
+        "id": "V485450",
+        "indicator": "F",
+        "type": "IN-PAST",
+        "word": "ONCE",
+        "roles": {
+          "FIGURE": "#V485491",
+          "LEX": "ONCE",
+          "WNSENSE": "once%4:02:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V485831": {
+        "id": "V485831",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V485830",
+          "LEX": "MORE"
+        },
+        "start": 5,
+        "end": 10
+      },
+      "V485830": {
+        "id": "V485830",
+        "indicator": "F",
+        "type": "MORE-VAL",
+        "word": "MORE",
+        "roles": {
+          "FIGURE": "#V485831",
+          "GROUND": "#V485832"
+        },
+        "start": 5,
+        "end": 10
+      },
+      "V485832": {
+        "id": "V485832",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "COREF": "#V485595"
+        },
+        "start": 5,
+        "end": 10
+      },
+      "V485496": {
+        "id": "V485496",
+        "indicator": "INDEF-SET",
+        "type": "PERSON",
+        "word": "IMBECILES",
+        "roles": {
+          "MOD": [
+            "#V485547",
+            "#V485515"
+          ],
+          "LEX": "IMBECILES",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 17,
+        "end": 72
+      },
+      "V485515": {
+        "id": "V485515",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V485496",
+          "FORMAL": "#V485707",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 27,
+        "end": 58
+      },
+      "V485707": {
+        "id": "V485707",
+        "indicator": "F",
+        "type": "PROPERTY-VAL",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V485529",
+          "SEQUENCE1": "#V485543",
+          "OPERATOR": "AND",
+          "LEX": "-"
+        },
+        "start": 36,
+        "end": 58
+      },
+      "V485529": {
+        "id": "V485529",
+        "indicator": "F",
+        "type": "LACK-KNOWLEDGE-VAL",
+        "word": "IGNORANT",
+        "roles": {
+          "FIGURE": "#V485496",
+          "SCALE": "BEHAVIORAL-SCALE",
+          "LEX": "IGNORANT",
+          "WNSENSE": "ignorant%5:00:02:uneducated:00"
+        },
+        "start": 36,
+        "end": 45
+      },
+      "V485543": {
+        "id": "V485543",
+        "indicator": "F",
+        "type": "NOT-WORTHY-VAL",
+        "word": "UNWORTHY",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V485496",
+          "SCALE": "WORTHINESS-SCALE",
+          "LEX": "UNWORTHY",
+          "WNSENSE": "unworthy%3:00:00::"
+        },
+        "start": 49,
+        "end": 58
+      },
+      "V485547": {
+        "id": "V485547",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V485595",
+          "FIGURE": "#V485496",
+          "LEX": "OF"
+        },
+        "start": 58,
+        "end": 72
+      },
+      "V485595": {
+        "id": "V485595",
+        "indicator": "A",
+        "type": "OUTCOME",
+        "word": "RESPONSE",
+        "roles": {
+          "LEX": "RESPONSE",
+          "WNSENSE": "response%1:19:00::"
+        },
+        "start": 61,
+        "end": 72
+      },
+      "root": "#V486284"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+83",
+    "*last-utt-id*=83  utt-id+NIL"
+  ]
+}

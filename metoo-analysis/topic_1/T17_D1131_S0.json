@@ -1,0 +1,196 @@
+{
+  "parse": [
+    {
+      "V1793461": {
+        "id": "V1793461",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1789267",
+          "LEX": "CAT"
+        },
+        "start": 0,
+        "end": 72
+      },
+      "V1789267": {
+        "id": "V1789267",
+        "indicator": "BARE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "CAT",
+        "roles": {
+          "ASSOC-WITH": "#V1790507",
+          "MOD": "#V1789277",
+          "LEX": "CAT",
+          "WNSENSE": "cat%1:05:00::"
+        },
+        "start": 0,
+        "end": 72
+      },
+      "V1790507": {
+        "id": "V1790507",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V1789588",
+          "LEX": "2003"
+        },
+        "start": 0,
+        "end": 14
+      },
+      "V1789588": {
+        "id": "V1789588",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(2003 2007)",
+          "VAL": "(2003 2007)",
+          "LEX": "2003"
+        },
+        "start": 0,
+        "end": 14
+      },
+      "V1789277": {
+        "id": "V1789277",
+        "indicator": "F",
+        "type": "ESTABLISH-COMMUNICATION",
+        "word": "CALL",
+        "roles": {
+          "LOCATION": "#V1789297",
+          "AGENT1": "#V1789267",
+          "FREQUENCY": "#V1789286",
+          "VFORM": "PASSIVE",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:01::"
+        },
+        "start": 20,
+        "end": 72
+      },
+      "V1789286": {
+        "id": "V1789286",
+        "indicator": "F",
+        "type": "FREQUENCY",
+        "word": "DAILY",
+        "roles": {
+          "FIGURE": "#V1789277",
+          "LEX": "DAILY",
+          "WNSENSE": "daily%4:02:00::"
+        },
+        "start": 27,
+        "end": 33
+      },
+      "V1789297": {
+        "id": "V1789297",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V1793369",
+          "FIGURE": "#V1789277",
+          "LEX": "ON"
+        },
+        "start": 33,
+        "end": 72
+      },
+      "V1793369": {
+        "id": "V1793369",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1789330"
+        },
+        "start": 36,
+        "end": 72
+      },
+      "V1789330": {
+        "id": "V1789330",
+        "indicator": "THE",
+        "type": "PART",
+        "word": "STRIP",
+        "roles": {
+          "MOD": "#V1789360",
+          "LOCATION": "#V1789341",
+          "LEX": "STRIP",
+          "WNSENSE": "strip%1:17:00::"
+        },
+        "start": 36,
+        "end": 72
+      },
+      "V1789341": {
+        "id": "V1789341",
+        "indicator": "F",
+        "type": "CONTAIN-RELN",
+        "word": "OF",
+        "roles": {
+          "FIGURE": "#V1789330",
+          "LEX": "OF"
+        },
+        "start": 46,
+        "end": 49
+      },
+      "V1789360": {
+        "id": "V1789360",
+        "indicator": "F",
+        "type": "ORIGINATOR",
+        "word": "BY",
+        "roles": {
+          "GROUND": "#V1789381",
+          "FIGURE": "#V1789330",
+          "LEX": "BY",
+          "WNSENSE": "by%4:02:00::"
+        },
+        "start": 49,
+        "end": 72
+      },
+      "V1789381": {
+        "id": "V1789381",
+        "indicator": "INDEF-SET",
+        "type": "PHYS-OBJECT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V1789375",
+          "SEQUENCE1": "#V1789391",
+          "LEX": "AND"
+        },
+        "start": 52,
+        "end": 72
+      },
+      "V1789391": {
+        "id": "V1789391",
+        "indicator": "INDEF-SET",
+        "type": "VEHICLE",
+        "word": "LOCALS",
+        "roles": {
+          "LEX": "LOCALS",
+          "WNSENSE": "transport%1:06:00"
+        },
+        "start": 52,
+        "end": 72
+      },
+      "V1789375": {
+        "id": "V1789375",
+        "indicator": "INDEF-SET",
+        "type": "PROFESSIONAL",
+        "word": "STUDENT",
+        "roles": {
+          "LEX": "STUDENTS",
+          "WNSENSE": "professional%1:18:00"
+        },
+        "start": 52,
+        "end": 72
+      },
+      "root": "#V1793461"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+314",
+    "*last-utt-id*=314  utt-id+NIL"
+  ]
+}

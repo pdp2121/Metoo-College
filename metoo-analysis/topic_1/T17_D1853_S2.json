@@ -1,0 +1,66 @@
+{
+  "parse": [
+    {
+      "V1260204": {
+        "id": "V1260204",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1260040",
+          "LEX": "NEEDS"
+        },
+        "start": 0,
+        "end": 17
+      },
+      "V1260040": {
+        "id": "V1260040",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "NEED",
+        "roles": {
+          "NEUTRAL": "#V1260032",
+          "FORMAL": "#V1260090",
+          "TENSE": "PRES",
+          "LEX": "NEEDS",
+          "WNSENSE": "need%2:42:00::"
+        },
+        "start": 0,
+        "end": 17
+      },
+      "V1260032": {
+        "id": "V1260032",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "THIS",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "THIS",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V1260090": {
+        "id": "V1260090",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "STOP",
+        "roles": {
+          "AFFECTED": "#V1260032",
+          "VFORM": "BASE",
+          "LEX": "STOP",
+          "WNSENSE": "stop%2:38:00::"
+        },
+        "start": 11,
+        "end": 17
+      },
+      "root": "#V1260204"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+225",
+    "*last-utt-id*=225  utt-id+NIL"
+  ]
+}

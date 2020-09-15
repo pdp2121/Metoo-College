@@ -1,0 +1,229 @@
+{
+  "parse": [
+    {
+      "V600759": {
+        "id": "V600759",
+        "indicator": "SPEECHACT",
+        "type": "SA_REQUEST",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V594881",
+          "LEX": "WORK"
+        },
+        "start": 0,
+        "end": 86
+      },
+      "V594881": {
+        "id": "V594881",
+        "indicator": "F",
+        "type": "WORKING-OUT",
+        "word": "WORK",
+        "roles": {
+          "AGENT": "#V600751",
+          "AFFECTED": "#V597817",
+          "FREQUENCY": "#V595480",
+          "TENSE": "PRES",
+          "VFORM": "BASE",
+          "LEX": "WORK",
+          "WNSENSE": "work%2:29:00::"
+        },
+        "start": 0,
+        "end": 86
+      },
+      "V600751": {
+        "id": "V600751",
+        "indicator": "IMPRO",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "PROFORM": "*YOU*",
+          "COREF": "SYS"
+        },
+        "start": 0,
+        "end": 86
+      },
+      "V597817": {
+        "id": "V597817",
+        "indicator": "THE",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V594908",
+          "SEQUENCE1": "#V594964",
+          "LEX": "COLLEAGUES"
+        },
+        "start": 5,
+        "end": 69
+      },
+      "V594908": {
+        "id": "V594908",
+        "indicator": "INDEF-SET",
+        "type": "PROFESSIONAL",
+        "word": "COLLEAGUE",
+        "roles": {
+          "LEX": "COLLEAGUES",
+          "WNSENSE": "colleague%1:18:00::"
+        },
+        "start": 5,
+        "end": 17
+      },
+      "V594964": {
+        "id": "V594964",
+        "indicator": "INDEF-SET",
+        "type": "MEMBER-RELN",
+        "word": "STRANGER",
+        "roles": {
+          "ASSOC-WITH": "#V596202",
+          "LEX": "STRANGERS",
+          "WNSENSE": "stranger%1:18:01::"
+        },
+        "start": 19,
+        "end": 69
+      },
+      "V596202": {
+        "id": "V596202",
+        "indicator": "THE-SET",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V596194",
+          "LEX": "DATES"
+        },
+        "start": 19,
+        "end": 58
+      },
+      "V596194": {
+        "id": "V596194",
+        "indicator": "THE",
+        "type": "TIME-OBJECT",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V594936",
+          "SEQUENCE1": "#V594951",
+          "LEX": "DATES"
+        },
+        "start": 19,
+        "end": 58
+      },
+      "V594936": {
+        "id": "V594936",
+        "indicator": "INDEF-SET",
+        "type": "TIME-POINT",
+        "word": "DATE",
+        "roles": {
+          "ASSOC-WITH": "#V594921",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "DATES",
+          "WNSENSE": "date%1:28:04::"
+        },
+        "start": 19,
+        "end": 41
+      },
+      "V594921": {
+        "id": "V594921",
+        "indicator": "KIND",
+        "type": "MULTIPLE",
+        "word": "TIME",
+        "roles": {
+          "MOD": "#V594914",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 19,
+        "end": 41
+      },
+      "V594914": {
+        "id": "V594914",
+        "indicator": "F",
+        "type": "N-TUPLE-VAL",
+        "word": "MULTIPLE",
+        "roles": {
+          "FIGURE": "#V594921",
+          "SCALE": "DOMAIN",
+          "LEX": "MULTIPLE",
+          "WNSENSE": "multiple%3:00:00::"
+        },
+        "start": 19,
+        "end": 28
+      },
+      "V594951": {
+        "id": "V594951",
+        "indicator": "INDEF-SET",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V594943",
+          "LEX": "TIMES"
+        },
+        "start": 43,
+        "end": 58
+      },
+      "V594943": {
+        "id": "V594943",
+        "indicator": "F",
+        "type": "N-TUPLE-VAL",
+        "word": "MULTIPLE",
+        "roles": {
+          "FIGURE": "#V594951",
+          "SCALE": "DOMAIN",
+          "LEX": "MULTIPLE",
+          "WNSENSE": "multiple%3:00:00::"
+        },
+        "start": 43,
+        "end": 52
+      },
+      "V595480": {
+        "id": "V595480",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V594881",
+          "GROUND": "#V594977",
+          "LEX": "TIMES"
+        },
+        "start": 71,
+        "end": 86
+      },
+      "V594977": {
+        "id": "V594977",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "AMOUNT": "PLURAL",
+          "MOD": "#V594970",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 71,
+        "end": 86
+      },
+      "V594970": {
+        "id": "V594970",
+        "indicator": "F",
+        "type": "N-TUPLE-VAL",
+        "word": "MULTIPLE",
+        "roles": {
+          "FIGURE": "#V594977",
+          "SCALE": "DOMAIN",
+          "LEX": "MULTIPLE",
+          "WNSENSE": "multiple%3:00:00::"
+        },
+        "start": 71,
+        "end": 80
+      },
+      "root": "#V600759"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to sequences not reimplemented yetReference resolution to times not implemented yetReference resolution to sequences not reimplemented yet",
+    "*last-utt-id*=NIL  utt-id+107",
+    "*last-utt-id*=107  utt-id+NIL"
+  ]
+}

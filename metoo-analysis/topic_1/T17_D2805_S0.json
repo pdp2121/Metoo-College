@@ -1,0 +1,103 @@
+{
+  "parse": [
+    {
+      "V850416": {
+        "id": "V850416",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V848854",
+          "MOD": "#V848831",
+          "LEX": "TIME"
+        },
+        "start": 0,
+        "end": 24
+      },
+      "V848831": {
+        "id": "V848831",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V850416",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V848854": {
+        "id": "V848854",
+        "indicator": "BARE",
+        "type": "DURATION-SCALE",
+        "word": "TIME",
+        "roles": {
+          "SIZE": "#V848844",
+          "LOCATION": "#V848887",
+          "MOD": "#V848870",
+          "LEX": "TIME",
+          "WNSENSE": "time%1:03:00::"
+        },
+        "start": 4,
+        "end": 24
+      },
+      "V848844": {
+        "id": "V848844",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 4,
+        "end": 8
+      },
+      "V848870": {
+        "id": "V848870",
+        "indicator": "F",
+        "type": "RIGHT",
+        "word": "RIGHT",
+        "roles": {
+          "FIGURE": "#V848854",
+          "SCALE": "SPATIAL-SCALE",
+          "LEX": "RIGHT",
+          "WNSENSE": "right%3:00:00::"
+        },
+        "start": 13,
+        "end": 19
+      },
+      "V848887": {
+        "id": "V848887",
+        "indicator": "F",
+        "type": "POS-WRT-SPEAKER-RELN",
+        "word": "HERE",
+        "roles": {
+          "GROUND": "#V848918",
+          "FIGURE": "#V848854",
+          "LEX": "HERE"
+        },
+        "start": 19,
+        "end": 24
+      },
+      "V848918": {
+        "id": "V848918",
+        "indicator": "IMPRO",
+        "type": "LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HERE"
+        },
+        "start": 19,
+        "end": 24
+      },
+      "root": "#V850416"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+169",
+    "*last-utt-id*=169  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "parse": [
+    {
+      "V603416": {
+        "id": "V603416",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V602270",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V602270": {
+        "id": "V602270",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V602254",
+          "FORMAL": "#V603409",
+          "TENSE": "PAST",
+          "LEX": "WAS",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V602254": {
+        "id": "V602254",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V603409": {
+        "id": "V603409",
+        "indicator": "F",
+        "type": "MEMBERSHIP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V602254",
+          "GROUND": "#V602369",
+          "LEX": "COLLEGE"
+        },
+        "start": 6,
+        "end": 30
+      },
+      "V602369": {
+        "id": "V602369",
+        "indicator": "THE-SET",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "COLLEGE",
+        "roles": {
+          "MOD": "#V603012"
+        },
+        "start": 6,
+        "end": 30
+      },
+      "V603012": {
+        "id": "V603012",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V602369",
+          "GROUND": "#V602296",
+          "LEX": "RAPED"
+        },
+        "start": 6,
+        "end": 22
+      },
+      "V602296": {
+        "id": "V602296",
+        "indicator": "F",
+        "type": "TOUCH",
+        "word": "RAPED",
+        "roles": {
+          "RESULT": "#V602312",
+          "AFFECTED": "#V602369",
+          "QUALIFICATION": "#V602285",
+          "WNSENSE": "touch%2:35:00"
+        },
+        "start": 6,
+        "end": 22
+      },
+      "V602285": {
+        "id": "V602285",
+        "indicator": "F",
+        "type": "QUALIFICATION",
+        "word": "ALMOST",
+        "roles": {
+          "FIGURE": "#V602296",
+          "LEX": "ALMOST"
+        },
+        "start": 6,
+        "end": 13
+      },
+      "V602312": {
+        "id": "V602312",
+        "indicator": "F",
+        "type": "DIRECTION-IN",
+        "word": "IN",
+        "roles": {
+          "FIGURE": "#V602369",
+          "LEX": "IN",
+          "WNSENSE": "in%4:02:01::"
+        },
+        "start": 19,
+        "end": 22
+      },
+      "root": "#V603416"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+106",
+    "*last-utt-id*=106  utt-id+NIL"
+  ]
+}

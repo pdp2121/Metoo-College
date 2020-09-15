@@ -1,0 +1,123 @@
+{
+  "parse": [
+    {
+      "V1411298": {
+        "id": "V1411298",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1411100",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 38
+      },
+      "V1411100": {
+        "id": "V1411100",
+        "indicator": "F",
+        "type": "EVENT-OF-STATE",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V1410790",
+          "SEQUENCE1": "#V1410823",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 38
+      },
+      "V1410823": {
+        "id": "V1410823",
+        "indicator": "F",
+        "type": "ENCODES-MESSAGE",
+        "word": "SAY",
+        "roles": {
+          "NEUTRAL": "#V1410768",
+          "NEUTRAL1": "#V1410978",
+          "LEX": "SAY",
+          "WNSENSE": "say%2:42:00::"
+        },
+        "start": 0,
+        "end": 38
+      },
+      "V1410790": {
+        "id": "V1410790",
+        "indicator": "F",
+        "type": "BE-AT-LOC",
+        "word": "STAND",
+        "roles": {
+          "NEUTRAL": "#V1410768",
+          "MOD": "#V1410799",
+          "LEX": "STAND",
+          "WNSENSE": "sit%2:35:00"
+        },
+        "start": 0,
+        "end": 38
+      },
+      "V1410768": {
+        "id": "V1410768",
+        "indicator": "PRO-SET",
+        "type": "PERSON",
+        "word": "WE",
+        "roles": {
+          "PROFORM": "WE",
+          "LEX": "WE",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "US"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V1410799": {
+        "id": "V1410799",
+        "indicator": "F",
+        "type": "INCLUSIVE",
+        "word": "TOGETHER",
+        "roles": {
+          "FIGURE": "#V1410790",
+          "SCALE": "DOMAIN",
+          "LEX": "TOGETHER"
+        },
+        "start": 13,
+        "end": 22
+      },
+      "V1410978": {
+        "id": "V1410978",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUAN": "NONE",
+          "MOD": "#V1410857",
+          "LEX": "NO"
+        },
+        "start": 30,
+        "end": 38
+      },
+      "V1410857": {
+        "id": "V1410857",
+        "indicator": "F",
+        "type": "ADDITIONAL-VAL",
+        "word": "MORE",
+        "roles": {
+          "FIGURE": "#V1410978",
+          "SCALE": "DOMAIN",
+          "LEX": "MORE",
+          "WNSENSE": "more%3:00:01::"
+        },
+        "start": 33,
+        "end": 38
+      },
+      "root": "#V1411298"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+240",
+    "*last-utt-id*=240  utt-id+NIL"
+  ]
+}

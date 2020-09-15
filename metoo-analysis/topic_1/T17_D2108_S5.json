@@ -1,0 +1,81 @@
+{
+  "parse": [
+    {
+      "V1304417": {
+        "id": "V1304417",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1303261",
+          "LEX": "LYING"
+        },
+        "start": 0,
+        "end": 35
+      },
+      "V1303261": {
+        "id": "V1303261",
+        "indicator": "F",
+        "type": "BE-AT-LOC",
+        "word": "LIE",
+        "roles": {
+          "NEUTRAL": "#V1303205",
+          "MOD": "#V1303232",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "LYING",
+          "WNSENSE": "lie%2:42:00::"
+        },
+        "start": 0,
+        "end": 35
+      },
+      "V1303205": {
+        "id": "V1303205",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ANYONE",
+        "roles": {
+          "PROFORM": "ANYONE",
+          "MOD": "#V1303211",
+          "LEX": "ANYONE",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 14
+      },
+      "V1303211": {
+        "id": "V1303211",
+        "indicator": "F",
+        "type": "SAY",
+        "word": "SAY",
+        "roles": {
+          "AGENT": "#V1303205",
+          "LEX": "SAYING",
+          "WNSENSE": "say%2:32:01::"
+        },
+        "start": 7,
+        "end": 14
+      },
+      "V1303232": {
+        "id": "V1303232",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "DIFFERENTLY",
+        "roles": {
+          "FIGURE": "#V1303261",
+          "LEX": "DIFFERENTLY",
+          "WNSENSE": "differently%4:02:00::"
+        },
+        "start": 14,
+        "end": 26
+      },
+      "root": "#V1304417"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+256",
+    "*last-utt-id*=256  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "parse": [
+    {
+      "V1125668": {
+        "id": "V1125668",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V1125412",
+          "LEX": "CAN"
+        },
+        "start": 1,
+        "end": 16
+      },
+      "V1125412": {
+        "id": "V1125412",
+        "indicator": "F",
+        "type": "TERMINATE",
+        "word": "CAN",
+        "roles": {
+          "AGENT": "#V1125669",
+          "AFFECTED": "#V1125429",
+          "MOD": "#V1125446",
+          "TENSE": "PRES",
+          "LEX": "CAN",
+          "WNSENSE": "can%2:41:00::"
+        },
+        "start": 1,
+        "end": 16
+      },
+      "V1125669": {
+        "id": "V1125669",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 1,
+        "end": 16
+      },
+      "V1125429": {
+        "id": "V1125429",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 5,
+        "end": 9
+      },
+      "V1125446": {
+        "id": "V1125446",
+        "indicator": "F",
+        "type": "ATTRIBUTED-TO",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1125462",
+          "FIGURE": "#V1125412",
+          "LEX": "TO"
+        },
+        "start": 9,
+        "end": 16
+      },
+      "V1125462": {
+        "id": "V1125462",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 12,
+        "end": 16
+      },
+      "root": "#V1125668"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=206  utt-id+207",
+    "*last-utt-id*=207  utt-id+NIL"
+  ]
+}

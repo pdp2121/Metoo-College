@@ -1,0 +1,308 @@
+{
+  "parse": [
+    {
+      "V1279837": {
+        "id": "V1279837",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1275232",
+          "LEX": "ASSAULTED"
+        },
+        "start": 0,
+        "end": 95
+      },
+      "V1275232": {
+        "id": "V1275232",
+        "indicator": "F",
+        "type": "ATTACK",
+        "word": "ASSAULT",
+        "roles": {
+          "TIME": [
+            "#V1276085",
+            "#V1275236"
+          ],
+          "RESULT": "#V1275315",
+          "AFFECTED": "#V1275200",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "ASSAULTED"
+        },
+        "start": 0,
+        "end": 95
+      },
+      "V1276085": {
+        "id": "V1276085",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1275232",
+          "GROUND": "#V1276114"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V1276114": {
+        "id": "V1276114",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V1275065",
+          "LEX": "ONE"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V1275065": {
+        "id": "V1275065",
+        "indicator": "A",
+        "type": "ORDERING",
+        "word": null,
+        "roles": {
+          "VALUE": "1",
+          "LEX": "ONE"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V1275200": {
+        "id": "V1275200",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V1275236": {
+        "id": "V1275236",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V1275278",
+          "FIGURE": "#V1275232",
+          "LEX": "WHEN"
+        },
+        "start": 21,
+        "end": 46
+      },
+      "V1275278": {
+        "id": "V1275278",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1275262",
+          "FORMAL": "#V1275725",
+          "TENSE": "PAST",
+          "LEX": "WAS",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 26,
+        "end": 46
+      },
+      "V1275262": {
+        "id": "V1275262",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 26,
+        "end": 28
+      },
+      "V1275725": {
+        "id": "V1275725",
+        "indicator": "F",
+        "type": "AT-SCALE-VALUE",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1275262",
+          "GROUND": "#V1275292",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD"
+        },
+        "start": 33,
+        "end": 46
+      },
+      "V1275292": {
+        "id": "V1275292",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "23"
+        },
+        "start": 33,
+        "end": 46
+      },
+      "V1275315": {
+        "id": "V1275315",
+        "indicator": "F",
+        "type": "OBJ-IN-PATH",
+        "word": "BY",
+        "roles": {
+          "GROUND": "#V1275373",
+          "FIGURE": "#V1275200",
+          "LEX": "BY",
+          "WNSENSE": "by%4:02:00::"
+        },
+        "start": 46,
+        "end": 95
+      },
+      "V1275373": {
+        "id": "V1275373",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": "#V1275403",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 49,
+        "end": 95
+      },
+      "V1275403": {
+        "id": "V1275403",
+        "indicator": "F",
+        "type": "MEET",
+        "word": "MEET",
+        "roles": {
+          "AGENT": "#V1275389",
+          "AGENT1": "#V1275373",
+          "TIME": "#V1275423",
+          "TENSE": "PAST",
+          "LEX": "MET",
+          "WNSENSE": "meet%2:38:01::"
+        },
+        "start": 55,
+        "end": 95
+      },
+      "V1275389": {
+        "id": "V1275389",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 55,
+        "end": 57
+      },
+      "V1275423": {
+        "id": "V1275423",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1275494",
+          "FIGURE": "#V1275403",
+          "LEX": "AT"
+        },
+        "start": 61,
+        "end": 95
+      },
+      "V1275494": {
+        "id": "V1275494",
+        "indicator": "A",
+        "type": "TIME-INTERVAL",
+        "word": "HAPPY-HOUR",
+        "roles": {
+          "IDENTIFIED-AS": "#V1275795",
+          "LEX": "HAPPY-HOUR",
+          "WNSENSE": "happy_hour%1:28:00"
+        },
+        "start": 64,
+        "end": 95
+      },
+      "V1275795": {
+        "id": "V1275795",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MOD": "#V1275507",
+          "WNSENSE": "happy_hour%1:28:00"
+        },
+        "start": 77,
+        "end": 95
+      },
+      "V1275507": {
+        "id": "V1275507",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "BEFORE",
+        "roles": {
+          "EXTENT": "#V1275500",
+          "GROUND": "#V1276066",
+          "FIGURE": "#V1275795"
+        },
+        "start": 77,
+        "end": 95
+      },
+      "V1276066": {
+        "id": "V1276066",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "COREF": "#V1276114"
+        },
+        "start": 77,
+        "end": 95
+      },
+      "V1275500": {
+        "id": "V1275500",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "AMOUNT": "#V1275498",
+          "LEX": "DAYS",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 77,
+        "end": 88
+      },
+      "V1275498": {
+        "id": "V1275498",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "3"
+        },
+        "start": 77,
+        "end": 88
+      },
+      "root": "#V1279837"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yetReference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+255",
+    "*last-utt-id*=255  utt-id+NIL"
+  ]
+}

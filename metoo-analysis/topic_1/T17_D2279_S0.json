@@ -1,0 +1,116 @@
+{
+  "parse": [
+    {
+      "V446784": {
+        "id": "V446784",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V446781",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V446781": {
+        "id": "V446781",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V444425"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V444425": {
+        "id": "V444425",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": "|...|",
+        "roles": {
+          "PROFORM": "THIS",
+          "ASSOC-WITH": "#V444294",
+          "LEX": "|...|",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V444294": {
+        "id": "V444294",
+        "indicator": "KIND",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "MOD": "#V444378",
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V444378": {
+        "id": "V444378",
+        "indicator": "F",
+        "type": "ACQUIRE",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V444294",
+          "AFFECTED": "#V444406",
+          "VFORM": "ING",
+          "MODALITY": "(:* GOING-TO GOING-TO)",
+          "LEX": "GET",
+          "WNSENSE": "get%2:40:00::"
+        },
+        "start": 9,
+        "end": 39
+      },
+      "V444406": {
+        "id": "V444406",
+        "indicator": "INDEF-SET",
+        "type": "PHYS-OBJECT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V444400",
+          "SEQUENCE1": "#V444418",
+          "LEX": "AND"
+        },
+        "start": 24,
+        "end": 39
+      },
+      "V444418": {
+        "id": "V444418",
+        "indicator": "INDEF-SET",
+        "type": "TEXT-REPRESENTATION",
+        "word": "TWEET",
+        "roles": {
+          "LEX": "TWEET",
+          "WNSENSE": "hypertext%1:10:00"
+        },
+        "start": 24,
+        "end": 39
+      },
+      "V444400": {
+        "id": "V444400",
+        "indicator": "INDEF-SET",
+        "type": "RELATIVE-LOCATION",
+        "word": "HOME",
+        "roles": {
+          "LEX": "HOME",
+          "WNSENSE": "home%1:15:02::"
+        },
+        "start": 24,
+        "end": 39
+      },
+      "root": "#V446784"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+81",
+    "*last-utt-id*=81  utt-id+NIL"
+  ]
+}

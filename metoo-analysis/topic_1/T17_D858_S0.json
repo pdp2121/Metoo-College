@@ -1,0 +1,241 @@
+{
+  "parse": [
+    {
+      "V1163062": {
+        "id": "V1163062",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1159024",
+          "LEX": "CALLED"
+        },
+        "start": 0,
+        "end": 78
+      },
+      "V1159024": {
+        "id": "V1159024",
+        "indicator": "F",
+        "type": "ESTABLISH-COMMUNICATION",
+        "word": "CALL",
+        "roles": {
+          "TIME": "#V1158961",
+          "AGENT": "#V1159011",
+          "AGENT1": "#V1159033",
+          "QUALIFICATION": "#V1159038",
+          "TENSE": "PAST",
+          "LEX": "CALLED"
+        },
+        "start": 0,
+        "end": 78
+      },
+      "V1158961": {
+        "id": "V1158961",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V1159003",
+          "FIGURE": "#V1159024",
+          "LEX": "AS",
+          "WNSENSE": "as%4:02:00::"
+        },
+        "start": 0,
+        "end": 16
+      },
+      "V1159003": {
+        "id": "V1159003",
+        "indicator": "F",
+        "type": "AUTHOR-WRITE-BURN-PRINT_REPRINT_TYPE_RETYPE_MISTYPE",
+        "word": "TYPE",
+        "roles": {
+          "AGENT": "#V1158989",
+          "AFFECTED": "#V1159007",
+          "TENSE": "PAST",
+          "LEX": "TYPED",
+          "WNSENSE": "type%2:32:00::"
+        },
+        "start": 3,
+        "end": 16
+      },
+      "V1158989": {
+        "id": "V1158989",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "V1159007": {
+        "id": "V1159007",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "THIS",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "THIS",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 11,
+        "end": 16
+      },
+      "V1159011": {
+        "id": "V1159011",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "SOMEONE",
+        "roles": {
+          "PROFORM": "SOMEONE",
+          "MOD": "#V1159426",
+          "LEX": "SOMEONE",
+          "WNSENSE": "someone%1:03:00::"
+        },
+        "start": 16,
+        "end": 28
+      },
+      "V1159426": {
+        "id": "V1159426",
+        "indicator": "F",
+        "type": "MEMBERSHIP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1159011",
+          "GROUND": "#V1159014",
+          "LEX": "CAT"
+        },
+        "start": 24,
+        "end": 28
+      },
+      "V1159014": {
+        "id": "V1159014",
+        "indicator": "THE-SET",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "CAT",
+        "roles": {},
+        "start": 24,
+        "end": 28
+      },
+      "V1159033": {
+        "id": "V1159033",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 35,
+        "end": 38
+      },
+      "V1159038": {
+        "id": "V1159038",
+        "indicator": "F",
+        "type": "QUALIFICATION",
+        "word": "WHILE",
+        "roles": {
+          "GROUND": "#V1159088",
+          "FIGURE": "#V1159024",
+          "LEX": "WHILE"
+        },
+        "start": 38,
+        "end": 78
+      },
+      "V1159088": {
+        "id": "V1159088",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V1159095",
+          "AGENT": "#V1159058",
+          "METHOD": "#V1159106",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 44,
+        "end": 78
+      },
+      "V1159058": {
+        "id": "V1159058",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 44,
+        "end": 46
+      },
+      "V1159095": {
+        "id": "V1159095",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V1159283",
+          "FIGURE": "#V1159058",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 58,
+        "end": 63
+      },
+      "V1159283": {
+        "id": "V1159283",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 58,
+        "end": 63
+      },
+      "V1159106": {
+        "id": "V1159106",
+        "indicator": "F",
+        "type": "WITH-INSTRUMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V1159115",
+          "FIGURE": "#V1159088",
+          "LEX": "WITH"
+        },
+        "start": 63,
+        "end": 78
+      },
+      "V1159115": {
+        "id": "V1159115",
+        "indicator": "INDEF-SET",
+        "type": "FUNCTIONAL-PHYS-OBJECT",
+        "word": "GROCERY",
+        "roles": {
+          "LEX": "GROCERIES",
+          "WNSENSE": "instrumentality%1:06:00"
+        },
+        "start": 68,
+        "end": 78
+      },
+      "root": "#V1163062"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+233",
+    "*last-utt-id*=233  utt-id+NIL"
+  ]
+}

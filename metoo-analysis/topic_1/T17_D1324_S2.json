@@ -1,0 +1,64 @@
+{
+  "parse": [
+    {
+      "V1051611": {
+        "id": "V1051611",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1051088",
+          "LEX": "THERAPY"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V1051088": {
+        "id": "V1051088",
+        "indicator": "BARE",
+        "type": "MEDICAL-EVENT",
+        "word": "THERAPY",
+        "roles": {
+          "LOCATION": "#V1051097",
+          "LEX": "THERAPY",
+          "WNSENSE": "therapy%1:04:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V1051097": {
+        "id": "V1051097",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1051112",
+          "FIGURE": "#V1051088",
+          "LEX": "AT"
+        },
+        "start": 8,
+        "end": 19
+      },
+      "V1051112": {
+        "id": "V1051112",
+        "indicator": "THE",
+        "type": "AGE-SCALE",
+        "word": "AGE",
+        "roles": {
+          "NAME-OF": "(AGE 23)",
+          "LEX": "(AGE 23)",
+          "WNSENSE": "age%1:07:00::"
+        },
+        "start": 11,
+        "end": 19
+      },
+      "root": "#V1051611"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+181",
+    "*last-utt-id*=181  utt-id+NIL"
+  ]
+}

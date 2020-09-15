@@ -1,0 +1,4563 @@
+{
+  "parse": [
+    {
+      "V282761": {
+        "id": "V282761",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282237",
+          "LEX": "TIME"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282237": {
+        "id": "V282237",
+        "indicator": "BARE",
+        "type": "TIME-LOC",
+        "word": "TIME",
+        "roles": {
+          "LEX": "TIME",
+          "WNSENSE": "date%1:28:03"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V282761"
+    },
+    {
+      "V282257": {
+        "id": "V282257",
+        "indicator": "F",
+        "type": "ATTRIBUTED-TO",
+        "word": "TO",
+        "roles": {
+          "LEX": "TO"
+        },
+        "start": 5,
+        "end": 8
+      },
+      "root": "#V282257"
+    },
+    {
+      "V282294": {
+        "id": "V282294",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "PUT",
+        "roles": {
+          "VFORM": "PASSIVE",
+          "LEX": "PUT",
+          "WNSENSE": "put%2:35:00::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V282294"
+    },
+    {
+      "V282757": {
+        "id": "V282757",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282325",
+          "LEX": "END"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "V282325": {
+        "id": "V282325",
+        "indicator": "A",
+        "type": "ENDPOINT",
+        "word": "END",
+        "roles": {
+          "LEX": "END",
+          "WNSENSE": "end%1:15:00::"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "root": "#V282757"
+    },
+    {
+      "V283818": {
+        "id": "V283818",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V282421",
+          "MOD": "#V282414",
+          "LEX": "TO"
+        },
+        "start": 19,
+        "end": 93
+      },
+      "V282414": {
+        "id": "V282414",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "ONCE-AND-FOR-ALL",
+        "roles": {
+          "FIGURE": "#V283818",
+          "LEX": "ONCE-AND-FOR-ALL",
+          "WNSENSE": "once_and_for_all%4:02:00"
+        },
+        "start": 19,
+        "end": 36
+      },
+      "V282421": {
+        "id": "V282421",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V282465",
+          "FIGURE": "#V283819",
+          "LEX": "TO"
+        },
+        "start": 36,
+        "end": 93
+      },
+      "V283819": {
+        "id": "V283819",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "COREF": "#V282325"
+        },
+        "start": 36,
+        "end": 93
+      },
+      "V282465": {
+        "id": "V282465",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V282682",
+          "SEQUENCE1": "#V282968",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 93
+      },
+      "V282682": {
+        "id": "V282682",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282460"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282460": {
+        "id": "V282460",
+        "indicator": "BARE",
+        "type": "CRIMINAL-ACTIVITY",
+        "word": "SEXUAL-ASSAULT",
+        "roles": {
+          "LEX": "SEXUAL-ASSAULT",
+          "WNSENSE": "sexual_assault%1:04:00"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282968": {
+        "id": "V282968",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282489"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282489": {
+        "id": "V282489",
+        "indicator": "BARE",
+        "type": "ACTIVITY",
+        "word": "SEXUAL-HARASSMENT",
+        "roles": {
+          "REASON": "#V282495",
+          "LEX": "SEXUAL-HARASSMENT",
+          "WNSENSE": "sexual_harassment%1:04:00"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282495": {
+        "id": "V282495",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V282526",
+          "FIGURE": "#V282489",
+          "LEX": "FOR"
+        },
+        "start": 76,
+        "end": 93
+      },
+      "V282526": {
+        "id": "V282526",
+        "indicator": "THE-SET",
+        "type": "GENDER-SCALE",
+        "word": "GENDER",
+        "roles": {
+          "SIZE": "BOTH",
+          "LEX": "GENDERS",
+          "WNSENSE": "sex%1:14:00"
+        },
+        "start": 80,
+        "end": 93
+      },
+      "root": "#V283818"
+    },
+    {
+      "V282761": {
+        "id": "V282761",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282237",
+          "LEX": "TIME"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282237": {
+        "id": "V282237",
+        "indicator": "BARE",
+        "type": "TIME-LOC",
+        "word": "TIME",
+        "roles": {
+          "LEX": "TIME",
+          "WNSENSE": "date%1:28:03"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V282761"
+    },
+    {
+      "V282257": {
+        "id": "V282257",
+        "indicator": "F",
+        "type": "ATTRIBUTED-TO",
+        "word": "TO",
+        "roles": {
+          "LEX": "TO"
+        },
+        "start": 5,
+        "end": 8
+      },
+      "root": "#V282257"
+    },
+    {
+      "V282293": {
+        "id": "V282293",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "PUT",
+        "roles": {
+          "VFORM": "PASSIVE",
+          "LEX": "PUT",
+          "WNSENSE": "put%2:35:00::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V282293"
+    },
+    {
+      "V282757": {
+        "id": "V282757",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282325",
+          "LEX": "END"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "V282325": {
+        "id": "V282325",
+        "indicator": "A",
+        "type": "ENDPOINT",
+        "word": "END",
+        "roles": {
+          "LEX": "END",
+          "WNSENSE": "end%1:15:00::"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "root": "#V282757"
+    },
+    {
+      "V283818": {
+        "id": "V283818",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V282421",
+          "MOD": "#V282414",
+          "LEX": "TO"
+        },
+        "start": 19,
+        "end": 94
+      },
+      "V282414": {
+        "id": "V282414",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "ONCE-AND-FOR-ALL",
+        "roles": {
+          "FIGURE": "#V283818",
+          "LEX": "ONCE-AND-FOR-ALL",
+          "WNSENSE": "once_and_for_all%4:02:00"
+        },
+        "start": 19,
+        "end": 36
+      },
+      "V282421": {
+        "id": "V282421",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V282465",
+          "FIGURE": "#V283819",
+          "LEX": "TO"
+        },
+        "start": 36,
+        "end": 93
+      },
+      "V283819": {
+        "id": "V283819",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 36,
+        "end": 93
+      },
+      "V282465": {
+        "id": "V282465",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V282682",
+          "SEQUENCE1": "#V282968",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 93
+      },
+      "V282682": {
+        "id": "V282682",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282460"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282460": {
+        "id": "V282460",
+        "indicator": "BARE",
+        "type": "CRIMINAL-ACTIVITY",
+        "word": "SEXUAL-ASSAULT",
+        "roles": {
+          "LEX": "SEXUAL-ASSAULT",
+          "WNSENSE": "sexual_assault%1:04:00"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282968": {
+        "id": "V282968",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282489"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282489": {
+        "id": "V282489",
+        "indicator": "BARE",
+        "type": "ACTIVITY",
+        "word": "SEXUAL-HARASSMENT",
+        "roles": {
+          "REASON": "#V282495",
+          "LEX": "SEXUAL-HARASSMENT",
+          "WNSENSE": "sexual_harassment%1:04:00"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282495": {
+        "id": "V282495",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V282526",
+          "FIGURE": "#V282489",
+          "LEX": "FOR"
+        },
+        "start": 76,
+        "end": 93
+      },
+      "V282526": {
+        "id": "V282526",
+        "indicator": "THE-SET",
+        "type": "GENDER-SCALE",
+        "word": "GENDER",
+        "roles": {
+          "SIZE": "BOTH",
+          "LEX": "GENDERS",
+          "WNSENSE": "sex%1:14:00"
+        },
+        "start": 80,
+        "end": 93
+      },
+      "root": "#V283818"
+    },
+    {
+      "V282761": {
+        "id": "V282761",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282237",
+          "LEX": "TIME"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282237": {
+        "id": "V282237",
+        "indicator": "BARE",
+        "type": "TIME-LOC",
+        "word": "TIME",
+        "roles": {
+          "LEX": "TIME",
+          "WNSENSE": "date%1:28:03"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V282761"
+    },
+    {
+      "V282252": {
+        "id": "V282252",
+        "indicator": "F",
+        "type": "RESULTING-OBJECT",
+        "word": "TO",
+        "roles": {
+          "LEX": "TO"
+        },
+        "start": 5,
+        "end": 8
+      },
+      "root": "#V282252"
+    },
+    {
+      "V282294": {
+        "id": "V282294",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "PUT",
+        "roles": {
+          "VFORM": "PASSIVE",
+          "LEX": "PUT",
+          "WNSENSE": "put%2:35:00::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V282294"
+    },
+    {
+      "V282757": {
+        "id": "V282757",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282325",
+          "LEX": "END"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "V282325": {
+        "id": "V282325",
+        "indicator": "A",
+        "type": "ENDPOINT",
+        "word": "END",
+        "roles": {
+          "LEX": "END",
+          "WNSENSE": "end%1:15:00::"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "root": "#V282757"
+    },
+    {
+      "V283818": {
+        "id": "V283818",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V282421",
+          "MOD": "#V282414",
+          "LEX": "TO"
+        },
+        "start": 19,
+        "end": 94
+      },
+      "V282414": {
+        "id": "V282414",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "ONCE-AND-FOR-ALL",
+        "roles": {
+          "FIGURE": "#V283818",
+          "LEX": "ONCE-AND-FOR-ALL",
+          "WNSENSE": "once_and_for_all%4:02:00"
+        },
+        "start": 19,
+        "end": 36
+      },
+      "V282421": {
+        "id": "V282421",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V282465",
+          "FIGURE": "#V283819",
+          "LEX": "TO"
+        },
+        "start": 36,
+        "end": 93
+      },
+      "V283819": {
+        "id": "V283819",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 36,
+        "end": 93
+      },
+      "V282465": {
+        "id": "V282465",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V282682",
+          "SEQUENCE1": "#V282968",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 93
+      },
+      "V282682": {
+        "id": "V282682",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282460"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282460": {
+        "id": "V282460",
+        "indicator": "BARE",
+        "type": "CRIMINAL-ACTIVITY",
+        "word": "SEXUAL-ASSAULT",
+        "roles": {
+          "LEX": "SEXUAL-ASSAULT",
+          "WNSENSE": "sexual_assault%1:04:00"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282968": {
+        "id": "V282968",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282489"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282489": {
+        "id": "V282489",
+        "indicator": "BARE",
+        "type": "ACTIVITY",
+        "word": "SEXUAL-HARASSMENT",
+        "roles": {
+          "REASON": "#V282495",
+          "LEX": "SEXUAL-HARASSMENT",
+          "WNSENSE": "sexual_harassment%1:04:00"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282495": {
+        "id": "V282495",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V282526",
+          "FIGURE": "#V282489",
+          "LEX": "FOR"
+        },
+        "start": 76,
+        "end": 93
+      },
+      "V282526": {
+        "id": "V282526",
+        "indicator": "THE-SET",
+        "type": "GENDER-SCALE",
+        "word": "GENDER",
+        "roles": {
+          "SIZE": "BOTH",
+          "LEX": "GENDERS",
+          "WNSENSE": "sex%1:14:00"
+        },
+        "start": 80,
+        "end": 93
+      },
+      "root": "#V283818"
+    },
+    {
+      "V282761": {
+        "id": "V282761",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282237",
+          "LEX": "TIME"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282237": {
+        "id": "V282237",
+        "indicator": "BARE",
+        "type": "TIME-LOC",
+        "word": "TIME",
+        "roles": {
+          "LEX": "TIME",
+          "WNSENSE": "date%1:28:03"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V282761"
+    },
+    {
+      "V282252": {
+        "id": "V282252",
+        "indicator": "F",
+        "type": "RESULTING-OBJECT",
+        "word": "TO",
+        "roles": {
+          "LEX": "TO"
+        },
+        "start": 5,
+        "end": 8
+      },
+      "root": "#V282252"
+    },
+    {
+      "V282293": {
+        "id": "V282293",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "PUT",
+        "roles": {
+          "VFORM": "PASSIVE",
+          "LEX": "PUT",
+          "WNSENSE": "put%2:35:00::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V282293"
+    },
+    {
+      "V282757": {
+        "id": "V282757",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282325",
+          "LEX": "END"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "V282325": {
+        "id": "V282325",
+        "indicator": "A",
+        "type": "ENDPOINT",
+        "word": "END",
+        "roles": {
+          "LEX": "END",
+          "WNSENSE": "end%1:15:00::"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "root": "#V282757"
+    },
+    {
+      "V283818": {
+        "id": "V283818",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V282421",
+          "MOD": "#V282414",
+          "LEX": "TO"
+        },
+        "start": 19,
+        "end": 94
+      },
+      "V282414": {
+        "id": "V282414",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "ONCE-AND-FOR-ALL",
+        "roles": {
+          "FIGURE": "#V283818",
+          "LEX": "ONCE-AND-FOR-ALL",
+          "WNSENSE": "once_and_for_all%4:02:00"
+        },
+        "start": 19,
+        "end": 36
+      },
+      "V282421": {
+        "id": "V282421",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V282465",
+          "FIGURE": "#V283819",
+          "LEX": "TO"
+        },
+        "start": 36,
+        "end": 93
+      },
+      "V283819": {
+        "id": "V283819",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 36,
+        "end": 93
+      },
+      "V282465": {
+        "id": "V282465",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V282682",
+          "SEQUENCE1": "#V282968",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 93
+      },
+      "V282682": {
+        "id": "V282682",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282460"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282460": {
+        "id": "V282460",
+        "indicator": "BARE",
+        "type": "CRIMINAL-ACTIVITY",
+        "word": "SEXUAL-ASSAULT",
+        "roles": {
+          "LEX": "SEXUAL-ASSAULT",
+          "WNSENSE": "sexual_assault%1:04:00"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282968": {
+        "id": "V282968",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282489"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282489": {
+        "id": "V282489",
+        "indicator": "BARE",
+        "type": "ACTIVITY",
+        "word": "SEXUAL-HARASSMENT",
+        "roles": {
+          "REASON": "#V282495",
+          "LEX": "SEXUAL-HARASSMENT",
+          "WNSENSE": "sexual_harassment%1:04:00"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282495": {
+        "id": "V282495",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V282526",
+          "FIGURE": "#V282489",
+          "LEX": "FOR"
+        },
+        "start": 76,
+        "end": 93
+      },
+      "V282526": {
+        "id": "V282526",
+        "indicator": "THE-SET",
+        "type": "GENDER-SCALE",
+        "word": "GENDER",
+        "roles": {
+          "SIZE": "BOTH",
+          "LEX": "GENDERS",
+          "WNSENSE": "sex%1:14:00"
+        },
+        "start": 80,
+        "end": 93
+      },
+      "root": "#V283818"
+    },
+    {
+      "V282761": {
+        "id": "V282761",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282237",
+          "LEX": "TIME"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282237": {
+        "id": "V282237",
+        "indicator": "BARE",
+        "type": "TIME-LOC",
+        "word": "TIME",
+        "roles": {
+          "LEX": "TIME",
+          "WNSENSE": "date%1:28:03"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V282761"
+    },
+    {
+      "V282251": {
+        "id": "V282251",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "LEX": "TO"
+        },
+        "start": 5,
+        "end": 8
+      },
+      "root": "#V282251"
+    },
+    {
+      "V282294": {
+        "id": "V282294",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "PUT",
+        "roles": {
+          "VFORM": "PASSIVE",
+          "LEX": "PUT",
+          "WNSENSE": "put%2:35:00::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V282294"
+    },
+    {
+      "V282757": {
+        "id": "V282757",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282325",
+          "LEX": "END"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "V282325": {
+        "id": "V282325",
+        "indicator": "A",
+        "type": "ENDPOINT",
+        "word": "END",
+        "roles": {
+          "LEX": "END",
+          "WNSENSE": "end%1:15:00::"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "root": "#V282757"
+    },
+    {
+      "V283818": {
+        "id": "V283818",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V282421",
+          "MOD": "#V282414",
+          "LEX": "TO"
+        },
+        "start": 19,
+        "end": 94
+      },
+      "V282414": {
+        "id": "V282414",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "ONCE-AND-FOR-ALL",
+        "roles": {
+          "FIGURE": "#V283818",
+          "LEX": "ONCE-AND-FOR-ALL",
+          "WNSENSE": "once_and_for_all%4:02:00"
+        },
+        "start": 19,
+        "end": 36
+      },
+      "V282421": {
+        "id": "V282421",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V282465",
+          "FIGURE": "#V283819",
+          "LEX": "TO"
+        },
+        "start": 36,
+        "end": 93
+      },
+      "V283819": {
+        "id": "V283819",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 36,
+        "end": 93
+      },
+      "V282465": {
+        "id": "V282465",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V282682",
+          "SEQUENCE1": "#V282968",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 93
+      },
+      "V282682": {
+        "id": "V282682",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282460"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282460": {
+        "id": "V282460",
+        "indicator": "BARE",
+        "type": "CRIMINAL-ACTIVITY",
+        "word": "SEXUAL-ASSAULT",
+        "roles": {
+          "LEX": "SEXUAL-ASSAULT",
+          "WNSENSE": "sexual_assault%1:04:00"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282968": {
+        "id": "V282968",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282489"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282489": {
+        "id": "V282489",
+        "indicator": "BARE",
+        "type": "ACTIVITY",
+        "word": "SEXUAL-HARASSMENT",
+        "roles": {
+          "REASON": "#V282495",
+          "LEX": "SEXUAL-HARASSMENT",
+          "WNSENSE": "sexual_harassment%1:04:00"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282495": {
+        "id": "V282495",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V282526",
+          "FIGURE": "#V282489",
+          "LEX": "FOR"
+        },
+        "start": 76,
+        "end": 93
+      },
+      "V282526": {
+        "id": "V282526",
+        "indicator": "THE-SET",
+        "type": "GENDER-SCALE",
+        "word": "GENDER",
+        "roles": {
+          "SIZE": "BOTH",
+          "LEX": "GENDERS",
+          "WNSENSE": "sex%1:14:00"
+        },
+        "start": 80,
+        "end": 93
+      },
+      "root": "#V283818"
+    },
+    {
+      "V282761": {
+        "id": "V282761",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282237",
+          "LEX": "TIME"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282237": {
+        "id": "V282237",
+        "indicator": "BARE",
+        "type": "TIME-LOC",
+        "word": "TIME",
+        "roles": {
+          "LEX": "TIME",
+          "WNSENSE": "date%1:28:03"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V282761"
+    },
+    {
+      "V282251": {
+        "id": "V282251",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "LEX": "TO"
+        },
+        "start": 5,
+        "end": 8
+      },
+      "root": "#V282251"
+    },
+    {
+      "V282293": {
+        "id": "V282293",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "PUT",
+        "roles": {
+          "VFORM": "PASSIVE",
+          "LEX": "PUT",
+          "WNSENSE": "put%2:35:00::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V282293"
+    },
+    {
+      "V282757": {
+        "id": "V282757",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282325",
+          "LEX": "END"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "V282325": {
+        "id": "V282325",
+        "indicator": "A",
+        "type": "ENDPOINT",
+        "word": "END",
+        "roles": {
+          "LEX": "END",
+          "WNSENSE": "end%1:15:00::"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "root": "#V282757"
+    },
+    {
+      "V283818": {
+        "id": "V283818",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V282421",
+          "MOD": "#V282414",
+          "LEX": "TO"
+        },
+        "start": 19,
+        "end": 94
+      },
+      "V282414": {
+        "id": "V282414",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "ONCE-AND-FOR-ALL",
+        "roles": {
+          "FIGURE": "#V283818",
+          "LEX": "ONCE-AND-FOR-ALL",
+          "WNSENSE": "once_and_for_all%4:02:00"
+        },
+        "start": 19,
+        "end": 36
+      },
+      "V282421": {
+        "id": "V282421",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V282465",
+          "FIGURE": "#V283819",
+          "LEX": "TO"
+        },
+        "start": 36,
+        "end": 93
+      },
+      "V283819": {
+        "id": "V283819",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 36,
+        "end": 93
+      },
+      "V282465": {
+        "id": "V282465",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V282682",
+          "SEQUENCE1": "#V282968",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 93
+      },
+      "V282682": {
+        "id": "V282682",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282460"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282460": {
+        "id": "V282460",
+        "indicator": "BARE",
+        "type": "CRIMINAL-ACTIVITY",
+        "word": "SEXUAL-ASSAULT",
+        "roles": {
+          "LEX": "SEXUAL-ASSAULT",
+          "WNSENSE": "sexual_assault%1:04:00"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282968": {
+        "id": "V282968",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282489"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282489": {
+        "id": "V282489",
+        "indicator": "BARE",
+        "type": "ACTIVITY",
+        "word": "SEXUAL-HARASSMENT",
+        "roles": {
+          "REASON": "#V282495",
+          "LEX": "SEXUAL-HARASSMENT",
+          "WNSENSE": "sexual_harassment%1:04:00"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282495": {
+        "id": "V282495",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V282526",
+          "FIGURE": "#V282489",
+          "LEX": "FOR"
+        },
+        "start": 76,
+        "end": 93
+      },
+      "V282526": {
+        "id": "V282526",
+        "indicator": "THE-SET",
+        "type": "GENDER-SCALE",
+        "word": "GENDER",
+        "roles": {
+          "SIZE": "BOTH",
+          "LEX": "GENDERS",
+          "WNSENSE": "sex%1:14:00"
+        },
+        "start": 80,
+        "end": 93
+      },
+      "root": "#V283818"
+    },
+    {
+      "V282759": {
+        "id": "V282759",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282236",
+          "LEX": "TIME"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282236": {
+        "id": "V282236",
+        "indicator": "BARE",
+        "type": "DURATION-SCALE",
+        "word": "TIME",
+        "roles": {
+          "LEX": "TIME",
+          "WNSENSE": "time%1:03:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V282759"
+    },
+    {
+      "V282257": {
+        "id": "V282257",
+        "indicator": "F",
+        "type": "ATTRIBUTED-TO",
+        "word": "TO",
+        "roles": {
+          "LEX": "TO"
+        },
+        "start": 5,
+        "end": 8
+      },
+      "root": "#V282257"
+    },
+    {
+      "V282294": {
+        "id": "V282294",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "PUT",
+        "roles": {
+          "VFORM": "PASSIVE",
+          "LEX": "PUT",
+          "WNSENSE": "put%2:35:00::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V282294"
+    },
+    {
+      "V282757": {
+        "id": "V282757",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282325",
+          "LEX": "END"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "V282325": {
+        "id": "V282325",
+        "indicator": "A",
+        "type": "ENDPOINT",
+        "word": "END",
+        "roles": {
+          "LEX": "END",
+          "WNSENSE": "end%1:15:00::"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "root": "#V282757"
+    },
+    {
+      "V283818": {
+        "id": "V283818",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V282421",
+          "MOD": "#V282414",
+          "LEX": "TO"
+        },
+        "start": 19,
+        "end": 94
+      },
+      "V282414": {
+        "id": "V282414",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "ONCE-AND-FOR-ALL",
+        "roles": {
+          "FIGURE": "#V283818",
+          "LEX": "ONCE-AND-FOR-ALL",
+          "WNSENSE": "once_and_for_all%4:02:00"
+        },
+        "start": 19,
+        "end": 36
+      },
+      "V282421": {
+        "id": "V282421",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V282465",
+          "FIGURE": "#V283819",
+          "LEX": "TO"
+        },
+        "start": 36,
+        "end": 93
+      },
+      "V283819": {
+        "id": "V283819",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 36,
+        "end": 93
+      },
+      "V282465": {
+        "id": "V282465",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V282682",
+          "SEQUENCE1": "#V282968",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 93
+      },
+      "V282682": {
+        "id": "V282682",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282460"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282460": {
+        "id": "V282460",
+        "indicator": "BARE",
+        "type": "CRIMINAL-ACTIVITY",
+        "word": "SEXUAL-ASSAULT",
+        "roles": {
+          "LEX": "SEXUAL-ASSAULT",
+          "WNSENSE": "sexual_assault%1:04:00"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282968": {
+        "id": "V282968",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282489"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282489": {
+        "id": "V282489",
+        "indicator": "BARE",
+        "type": "ACTIVITY",
+        "word": "SEXUAL-HARASSMENT",
+        "roles": {
+          "REASON": "#V282495",
+          "LEX": "SEXUAL-HARASSMENT",
+          "WNSENSE": "sexual_harassment%1:04:00"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282495": {
+        "id": "V282495",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V282526",
+          "FIGURE": "#V282489",
+          "LEX": "FOR"
+        },
+        "start": 76,
+        "end": 93
+      },
+      "V282526": {
+        "id": "V282526",
+        "indicator": "THE-SET",
+        "type": "GENDER-SCALE",
+        "word": "GENDER",
+        "roles": {
+          "SIZE": "BOTH",
+          "LEX": "GENDERS",
+          "WNSENSE": "sex%1:14:00"
+        },
+        "start": 80,
+        "end": 93
+      },
+      "root": "#V283818"
+    },
+    {
+      "V282759": {
+        "id": "V282759",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282236",
+          "LEX": "TIME"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282236": {
+        "id": "V282236",
+        "indicator": "BARE",
+        "type": "DURATION-SCALE",
+        "word": "TIME",
+        "roles": {
+          "LEX": "TIME",
+          "WNSENSE": "time%1:03:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V282759"
+    },
+    {
+      "V282257": {
+        "id": "V282257",
+        "indicator": "F",
+        "type": "ATTRIBUTED-TO",
+        "word": "TO",
+        "roles": {
+          "LEX": "TO"
+        },
+        "start": 5,
+        "end": 8
+      },
+      "root": "#V282257"
+    },
+    {
+      "V282293": {
+        "id": "V282293",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "PUT",
+        "roles": {
+          "VFORM": "PASSIVE",
+          "LEX": "PUT",
+          "WNSENSE": "put%2:35:00::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V282293"
+    },
+    {
+      "V282757": {
+        "id": "V282757",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282325",
+          "LEX": "END"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "V282325": {
+        "id": "V282325",
+        "indicator": "A",
+        "type": "ENDPOINT",
+        "word": "END",
+        "roles": {
+          "LEX": "END",
+          "WNSENSE": "end%1:15:00::"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "root": "#V282757"
+    },
+    {
+      "V283818": {
+        "id": "V283818",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V282421",
+          "MOD": "#V282414",
+          "LEX": "TO"
+        },
+        "start": 19,
+        "end": 94
+      },
+      "V282414": {
+        "id": "V282414",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "ONCE-AND-FOR-ALL",
+        "roles": {
+          "FIGURE": "#V283818",
+          "LEX": "ONCE-AND-FOR-ALL",
+          "WNSENSE": "once_and_for_all%4:02:00"
+        },
+        "start": 19,
+        "end": 36
+      },
+      "V282421": {
+        "id": "V282421",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V282465",
+          "FIGURE": "#V283819",
+          "LEX": "TO"
+        },
+        "start": 36,
+        "end": 93
+      },
+      "V283819": {
+        "id": "V283819",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 36,
+        "end": 93
+      },
+      "V282465": {
+        "id": "V282465",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V282682",
+          "SEQUENCE1": "#V282968",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 93
+      },
+      "V282682": {
+        "id": "V282682",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282460"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282460": {
+        "id": "V282460",
+        "indicator": "BARE",
+        "type": "CRIMINAL-ACTIVITY",
+        "word": "SEXUAL-ASSAULT",
+        "roles": {
+          "LEX": "SEXUAL-ASSAULT",
+          "WNSENSE": "sexual_assault%1:04:00"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282968": {
+        "id": "V282968",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282489"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282489": {
+        "id": "V282489",
+        "indicator": "BARE",
+        "type": "ACTIVITY",
+        "word": "SEXUAL-HARASSMENT",
+        "roles": {
+          "REASON": "#V282495",
+          "LEX": "SEXUAL-HARASSMENT",
+          "WNSENSE": "sexual_harassment%1:04:00"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282495": {
+        "id": "V282495",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V282526",
+          "FIGURE": "#V282489",
+          "LEX": "FOR"
+        },
+        "start": 76,
+        "end": 93
+      },
+      "V282526": {
+        "id": "V282526",
+        "indicator": "THE-SET",
+        "type": "GENDER-SCALE",
+        "word": "GENDER",
+        "roles": {
+          "SIZE": "BOTH",
+          "LEX": "GENDERS",
+          "WNSENSE": "sex%1:14:00"
+        },
+        "start": 80,
+        "end": 93
+      },
+      "root": "#V283818"
+    },
+    {
+      "V282759": {
+        "id": "V282759",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282236",
+          "LEX": "TIME"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282236": {
+        "id": "V282236",
+        "indicator": "BARE",
+        "type": "DURATION-SCALE",
+        "word": "TIME",
+        "roles": {
+          "LEX": "TIME",
+          "WNSENSE": "time%1:03:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V282759"
+    },
+    {
+      "V282252": {
+        "id": "V282252",
+        "indicator": "F",
+        "type": "RESULTING-OBJECT",
+        "word": "TO",
+        "roles": {
+          "LEX": "TO"
+        },
+        "start": 5,
+        "end": 8
+      },
+      "root": "#V282252"
+    },
+    {
+      "V282294": {
+        "id": "V282294",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "PUT",
+        "roles": {
+          "VFORM": "PASSIVE",
+          "LEX": "PUT",
+          "WNSENSE": "put%2:35:00::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V282294"
+    },
+    {
+      "V282757": {
+        "id": "V282757",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282325",
+          "LEX": "END"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "V282325": {
+        "id": "V282325",
+        "indicator": "A",
+        "type": "ENDPOINT",
+        "word": "END",
+        "roles": {
+          "LEX": "END",
+          "WNSENSE": "end%1:15:00::"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "root": "#V282757"
+    },
+    {
+      "V283818": {
+        "id": "V283818",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V282421",
+          "MOD": "#V282414",
+          "LEX": "TO"
+        },
+        "start": 19,
+        "end": 94
+      },
+      "V282414": {
+        "id": "V282414",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "ONCE-AND-FOR-ALL",
+        "roles": {
+          "FIGURE": "#V283818",
+          "LEX": "ONCE-AND-FOR-ALL",
+          "WNSENSE": "once_and_for_all%4:02:00"
+        },
+        "start": 19,
+        "end": 36
+      },
+      "V282421": {
+        "id": "V282421",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V282465",
+          "FIGURE": "#V283819",
+          "LEX": "TO"
+        },
+        "start": 36,
+        "end": 93
+      },
+      "V283819": {
+        "id": "V283819",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 36,
+        "end": 93
+      },
+      "V282465": {
+        "id": "V282465",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V282682",
+          "SEQUENCE1": "#V282968",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 93
+      },
+      "V282682": {
+        "id": "V282682",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282460"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282460": {
+        "id": "V282460",
+        "indicator": "BARE",
+        "type": "CRIMINAL-ACTIVITY",
+        "word": "SEXUAL-ASSAULT",
+        "roles": {
+          "LEX": "SEXUAL-ASSAULT",
+          "WNSENSE": "sexual_assault%1:04:00"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282968": {
+        "id": "V282968",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282489"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282489": {
+        "id": "V282489",
+        "indicator": "BARE",
+        "type": "ACTIVITY",
+        "word": "SEXUAL-HARASSMENT",
+        "roles": {
+          "REASON": "#V282495",
+          "LEX": "SEXUAL-HARASSMENT",
+          "WNSENSE": "sexual_harassment%1:04:00"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282495": {
+        "id": "V282495",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V282526",
+          "FIGURE": "#V282489",
+          "LEX": "FOR"
+        },
+        "start": 76,
+        "end": 93
+      },
+      "V282526": {
+        "id": "V282526",
+        "indicator": "THE-SET",
+        "type": "GENDER-SCALE",
+        "word": "GENDER",
+        "roles": {
+          "SIZE": "BOTH",
+          "LEX": "GENDERS",
+          "WNSENSE": "sex%1:14:00"
+        },
+        "start": 80,
+        "end": 93
+      },
+      "root": "#V283818"
+    },
+    {
+      "V282759": {
+        "id": "V282759",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282236",
+          "LEX": "TIME"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282236": {
+        "id": "V282236",
+        "indicator": "BARE",
+        "type": "DURATION-SCALE",
+        "word": "TIME",
+        "roles": {
+          "LEX": "TIME",
+          "WNSENSE": "time%1:03:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V282759"
+    },
+    {
+      "V282252": {
+        "id": "V282252",
+        "indicator": "F",
+        "type": "RESULTING-OBJECT",
+        "word": "TO",
+        "roles": {
+          "LEX": "TO"
+        },
+        "start": 5,
+        "end": 8
+      },
+      "root": "#V282252"
+    },
+    {
+      "V282293": {
+        "id": "V282293",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "PUT",
+        "roles": {
+          "VFORM": "PASSIVE",
+          "LEX": "PUT",
+          "WNSENSE": "put%2:35:00::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V282293"
+    },
+    {
+      "V282757": {
+        "id": "V282757",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282325",
+          "LEX": "END"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "V282325": {
+        "id": "V282325",
+        "indicator": "A",
+        "type": "ENDPOINT",
+        "word": "END",
+        "roles": {
+          "LEX": "END",
+          "WNSENSE": "end%1:15:00::"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "root": "#V282757"
+    },
+    {
+      "V283818": {
+        "id": "V283818",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V282421",
+          "MOD": "#V282414",
+          "LEX": "TO"
+        },
+        "start": 19,
+        "end": 94
+      },
+      "V282414": {
+        "id": "V282414",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "ONCE-AND-FOR-ALL",
+        "roles": {
+          "FIGURE": "#V283818",
+          "LEX": "ONCE-AND-FOR-ALL",
+          "WNSENSE": "once_and_for_all%4:02:00"
+        },
+        "start": 19,
+        "end": 36
+      },
+      "V282421": {
+        "id": "V282421",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V282465",
+          "FIGURE": "#V283819",
+          "LEX": "TO"
+        },
+        "start": 36,
+        "end": 93
+      },
+      "V283819": {
+        "id": "V283819",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 36,
+        "end": 93
+      },
+      "V282465": {
+        "id": "V282465",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V282682",
+          "SEQUENCE1": "#V282968",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 93
+      },
+      "V282682": {
+        "id": "V282682",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282460"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282460": {
+        "id": "V282460",
+        "indicator": "BARE",
+        "type": "CRIMINAL-ACTIVITY",
+        "word": "SEXUAL-ASSAULT",
+        "roles": {
+          "LEX": "SEXUAL-ASSAULT",
+          "WNSENSE": "sexual_assault%1:04:00"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282968": {
+        "id": "V282968",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282489"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282489": {
+        "id": "V282489",
+        "indicator": "BARE",
+        "type": "ACTIVITY",
+        "word": "SEXUAL-HARASSMENT",
+        "roles": {
+          "REASON": "#V282495",
+          "LEX": "SEXUAL-HARASSMENT",
+          "WNSENSE": "sexual_harassment%1:04:00"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282495": {
+        "id": "V282495",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V282526",
+          "FIGURE": "#V282489",
+          "LEX": "FOR"
+        },
+        "start": 76,
+        "end": 93
+      },
+      "V282526": {
+        "id": "V282526",
+        "indicator": "THE-SET",
+        "type": "GENDER-SCALE",
+        "word": "GENDER",
+        "roles": {
+          "SIZE": "BOTH",
+          "LEX": "GENDERS",
+          "WNSENSE": "sex%1:14:00"
+        },
+        "start": 80,
+        "end": 93
+      },
+      "root": "#V283818"
+    },
+    {
+      "V282759": {
+        "id": "V282759",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282236",
+          "LEX": "TIME"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282236": {
+        "id": "V282236",
+        "indicator": "BARE",
+        "type": "DURATION-SCALE",
+        "word": "TIME",
+        "roles": {
+          "LEX": "TIME",
+          "WNSENSE": "time%1:03:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V282759"
+    },
+    {
+      "V282251": {
+        "id": "V282251",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "LEX": "TO"
+        },
+        "start": 5,
+        "end": 8
+      },
+      "root": "#V282251"
+    },
+    {
+      "V282294": {
+        "id": "V282294",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "PUT",
+        "roles": {
+          "VFORM": "PASSIVE",
+          "LEX": "PUT",
+          "WNSENSE": "put%2:35:00::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V282294"
+    },
+    {
+      "V282757": {
+        "id": "V282757",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282325",
+          "LEX": "END"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "V282325": {
+        "id": "V282325",
+        "indicator": "A",
+        "type": "ENDPOINT",
+        "word": "END",
+        "roles": {
+          "LEX": "END",
+          "WNSENSE": "end%1:15:00::"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "root": "#V282757"
+    },
+    {
+      "V283818": {
+        "id": "V283818",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V282421",
+          "MOD": "#V282414",
+          "LEX": "TO"
+        },
+        "start": 19,
+        "end": 94
+      },
+      "V282414": {
+        "id": "V282414",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "ONCE-AND-FOR-ALL",
+        "roles": {
+          "FIGURE": "#V283818",
+          "LEX": "ONCE-AND-FOR-ALL",
+          "WNSENSE": "once_and_for_all%4:02:00"
+        },
+        "start": 19,
+        "end": 36
+      },
+      "V282421": {
+        "id": "V282421",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V282465",
+          "FIGURE": "#V283819",
+          "LEX": "TO"
+        },
+        "start": 36,
+        "end": 93
+      },
+      "V283819": {
+        "id": "V283819",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 36,
+        "end": 93
+      },
+      "V282465": {
+        "id": "V282465",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V282682",
+          "SEQUENCE1": "#V282968",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 93
+      },
+      "V282682": {
+        "id": "V282682",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282460"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282460": {
+        "id": "V282460",
+        "indicator": "BARE",
+        "type": "CRIMINAL-ACTIVITY",
+        "word": "SEXUAL-ASSAULT",
+        "roles": {
+          "LEX": "SEXUAL-ASSAULT",
+          "WNSENSE": "sexual_assault%1:04:00"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282968": {
+        "id": "V282968",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282489"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282489": {
+        "id": "V282489",
+        "indicator": "BARE",
+        "type": "ACTIVITY",
+        "word": "SEXUAL-HARASSMENT",
+        "roles": {
+          "REASON": "#V282495",
+          "LEX": "SEXUAL-HARASSMENT",
+          "WNSENSE": "sexual_harassment%1:04:00"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282495": {
+        "id": "V282495",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V282526",
+          "FIGURE": "#V282489",
+          "LEX": "FOR"
+        },
+        "start": 76,
+        "end": 93
+      },
+      "V282526": {
+        "id": "V282526",
+        "indicator": "THE-SET",
+        "type": "GENDER-SCALE",
+        "word": "GENDER",
+        "roles": {
+          "SIZE": "BOTH",
+          "LEX": "GENDERS",
+          "WNSENSE": "sex%1:14:00"
+        },
+        "start": 80,
+        "end": 93
+      },
+      "root": "#V283818"
+    },
+    {
+      "V282759": {
+        "id": "V282759",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282236",
+          "LEX": "TIME"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282236": {
+        "id": "V282236",
+        "indicator": "BARE",
+        "type": "DURATION-SCALE",
+        "word": "TIME",
+        "roles": {
+          "LEX": "TIME",
+          "WNSENSE": "time%1:03:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V282759"
+    },
+    {
+      "V282251": {
+        "id": "V282251",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "LEX": "TO"
+        },
+        "start": 5,
+        "end": 8
+      },
+      "root": "#V282251"
+    },
+    {
+      "V282293": {
+        "id": "V282293",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "PUT",
+        "roles": {
+          "VFORM": "PASSIVE",
+          "LEX": "PUT",
+          "WNSENSE": "put%2:35:00::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V282293"
+    },
+    {
+      "V282757": {
+        "id": "V282757",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282325",
+          "LEX": "END"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "V282325": {
+        "id": "V282325",
+        "indicator": "A",
+        "type": "ENDPOINT",
+        "word": "END",
+        "roles": {
+          "LEX": "END",
+          "WNSENSE": "end%1:15:00::"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "root": "#V282757"
+    },
+    {
+      "V283818": {
+        "id": "V283818",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V282421",
+          "MOD": "#V282414",
+          "LEX": "TO"
+        },
+        "start": 19,
+        "end": 94
+      },
+      "V282414": {
+        "id": "V282414",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "ONCE-AND-FOR-ALL",
+        "roles": {
+          "FIGURE": "#V283818",
+          "LEX": "ONCE-AND-FOR-ALL",
+          "WNSENSE": "once_and_for_all%4:02:00"
+        },
+        "start": 19,
+        "end": 36
+      },
+      "V282421": {
+        "id": "V282421",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V282465",
+          "FIGURE": "#V283819",
+          "LEX": "TO"
+        },
+        "start": 36,
+        "end": 93
+      },
+      "V283819": {
+        "id": "V283819",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 36,
+        "end": 93
+      },
+      "V282465": {
+        "id": "V282465",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V282682",
+          "SEQUENCE1": "#V282968",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 93
+      },
+      "V282682": {
+        "id": "V282682",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282460"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282460": {
+        "id": "V282460",
+        "indicator": "BARE",
+        "type": "CRIMINAL-ACTIVITY",
+        "word": "SEXUAL-ASSAULT",
+        "roles": {
+          "LEX": "SEXUAL-ASSAULT",
+          "WNSENSE": "sexual_assault%1:04:00"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282968": {
+        "id": "V282968",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282489"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282489": {
+        "id": "V282489",
+        "indicator": "BARE",
+        "type": "ACTIVITY",
+        "word": "SEXUAL-HARASSMENT",
+        "roles": {
+          "REASON": "#V282495",
+          "LEX": "SEXUAL-HARASSMENT",
+          "WNSENSE": "sexual_harassment%1:04:00"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282495": {
+        "id": "V282495",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V282526",
+          "FIGURE": "#V282489",
+          "LEX": "FOR"
+        },
+        "start": 76,
+        "end": 93
+      },
+      "V282526": {
+        "id": "V282526",
+        "indicator": "THE-SET",
+        "type": "GENDER-SCALE",
+        "word": "GENDER",
+        "roles": {
+          "SIZE": "BOTH",
+          "LEX": "GENDERS",
+          "WNSENSE": "sex%1:14:00"
+        },
+        "start": 80,
+        "end": 93
+      },
+      "root": "#V283818"
+    },
+    {
+      "V282789": {
+        "id": "V282789",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282645",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282645": {
+        "id": "V282645",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282237"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282237": {
+        "id": "V282237",
+        "indicator": "BARE",
+        "type": "TIME-LOC",
+        "word": "TIME",
+        "roles": {
+          "LEX": "TIME",
+          "WNSENSE": "date%1:28:03"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V282789"
+    },
+    {
+      "V282257": {
+        "id": "V282257",
+        "indicator": "F",
+        "type": "ATTRIBUTED-TO",
+        "word": "TO",
+        "roles": {
+          "LEX": "TO"
+        },
+        "start": 5,
+        "end": 8
+      },
+      "root": "#V282257"
+    },
+    {
+      "V282294": {
+        "id": "V282294",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "PUT",
+        "roles": {
+          "VFORM": "PASSIVE",
+          "LEX": "PUT",
+          "WNSENSE": "put%2:35:00::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V282294"
+    },
+    {
+      "V282757": {
+        "id": "V282757",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282325",
+          "LEX": "END"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "V282325": {
+        "id": "V282325",
+        "indicator": "A",
+        "type": "ENDPOINT",
+        "word": "END",
+        "roles": {
+          "LEX": "END",
+          "WNSENSE": "end%1:15:00::"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "root": "#V282757"
+    },
+    {
+      "V283818": {
+        "id": "V283818",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V282421",
+          "MOD": "#V282414",
+          "LEX": "TO"
+        },
+        "start": 19,
+        "end": 94
+      },
+      "V282414": {
+        "id": "V282414",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "ONCE-AND-FOR-ALL",
+        "roles": {
+          "FIGURE": "#V283818",
+          "LEX": "ONCE-AND-FOR-ALL",
+          "WNSENSE": "once_and_for_all%4:02:00"
+        },
+        "start": 19,
+        "end": 36
+      },
+      "V282421": {
+        "id": "V282421",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V282465",
+          "FIGURE": "#V283819",
+          "LEX": "TO"
+        },
+        "start": 36,
+        "end": 93
+      },
+      "V283819": {
+        "id": "V283819",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 36,
+        "end": 93
+      },
+      "V282465": {
+        "id": "V282465",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V282682",
+          "SEQUENCE1": "#V282968",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 93
+      },
+      "V282682": {
+        "id": "V282682",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282460"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282460": {
+        "id": "V282460",
+        "indicator": "BARE",
+        "type": "CRIMINAL-ACTIVITY",
+        "word": "SEXUAL-ASSAULT",
+        "roles": {
+          "LEX": "SEXUAL-ASSAULT",
+          "WNSENSE": "sexual_assault%1:04:00"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282968": {
+        "id": "V282968",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282489"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282489": {
+        "id": "V282489",
+        "indicator": "BARE",
+        "type": "ACTIVITY",
+        "word": "SEXUAL-HARASSMENT",
+        "roles": {
+          "REASON": "#V282495",
+          "LEX": "SEXUAL-HARASSMENT",
+          "WNSENSE": "sexual_harassment%1:04:00"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282495": {
+        "id": "V282495",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V282526",
+          "FIGURE": "#V282489",
+          "LEX": "FOR"
+        },
+        "start": 76,
+        "end": 93
+      },
+      "V282526": {
+        "id": "V282526",
+        "indicator": "THE-SET",
+        "type": "GENDER-SCALE",
+        "word": "GENDER",
+        "roles": {
+          "SIZE": "BOTH",
+          "LEX": "GENDERS",
+          "WNSENSE": "sex%1:14:00"
+        },
+        "start": 80,
+        "end": 93
+      },
+      "root": "#V283818"
+    },
+    {
+      "V282789": {
+        "id": "V282789",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282645",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282645": {
+        "id": "V282645",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282237"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282237": {
+        "id": "V282237",
+        "indicator": "BARE",
+        "type": "TIME-LOC",
+        "word": "TIME",
+        "roles": {
+          "LEX": "TIME",
+          "WNSENSE": "date%1:28:03"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V282789"
+    },
+    {
+      "V282257": {
+        "id": "V282257",
+        "indicator": "F",
+        "type": "ATTRIBUTED-TO",
+        "word": "TO",
+        "roles": {
+          "LEX": "TO"
+        },
+        "start": 5,
+        "end": 8
+      },
+      "root": "#V282257"
+    },
+    {
+      "V282293": {
+        "id": "V282293",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "PUT",
+        "roles": {
+          "VFORM": "PASSIVE",
+          "LEX": "PUT",
+          "WNSENSE": "put%2:35:00::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V282293"
+    },
+    {
+      "V282757": {
+        "id": "V282757",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282325",
+          "LEX": "END"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "V282325": {
+        "id": "V282325",
+        "indicator": "A",
+        "type": "ENDPOINT",
+        "word": "END",
+        "roles": {
+          "LEX": "END",
+          "WNSENSE": "end%1:15:00::"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "root": "#V282757"
+    },
+    {
+      "V283818": {
+        "id": "V283818",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V282421",
+          "MOD": "#V282414",
+          "LEX": "TO"
+        },
+        "start": 19,
+        "end": 94
+      },
+      "V282414": {
+        "id": "V282414",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "ONCE-AND-FOR-ALL",
+        "roles": {
+          "FIGURE": "#V283818",
+          "LEX": "ONCE-AND-FOR-ALL",
+          "WNSENSE": "once_and_for_all%4:02:00"
+        },
+        "start": 19,
+        "end": 36
+      },
+      "V282421": {
+        "id": "V282421",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V282465",
+          "FIGURE": "#V283819",
+          "LEX": "TO"
+        },
+        "start": 36,
+        "end": 93
+      },
+      "V283819": {
+        "id": "V283819",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 36,
+        "end": 93
+      },
+      "V282465": {
+        "id": "V282465",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V282682",
+          "SEQUENCE1": "#V282968",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 93
+      },
+      "V282682": {
+        "id": "V282682",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282460"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282460": {
+        "id": "V282460",
+        "indicator": "BARE",
+        "type": "CRIMINAL-ACTIVITY",
+        "word": "SEXUAL-ASSAULT",
+        "roles": {
+          "LEX": "SEXUAL-ASSAULT",
+          "WNSENSE": "sexual_assault%1:04:00"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282968": {
+        "id": "V282968",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282489"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282489": {
+        "id": "V282489",
+        "indicator": "BARE",
+        "type": "ACTIVITY",
+        "word": "SEXUAL-HARASSMENT",
+        "roles": {
+          "REASON": "#V282495",
+          "LEX": "SEXUAL-HARASSMENT",
+          "WNSENSE": "sexual_harassment%1:04:00"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282495": {
+        "id": "V282495",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V282526",
+          "FIGURE": "#V282489",
+          "LEX": "FOR"
+        },
+        "start": 76,
+        "end": 93
+      },
+      "V282526": {
+        "id": "V282526",
+        "indicator": "THE-SET",
+        "type": "GENDER-SCALE",
+        "word": "GENDER",
+        "roles": {
+          "SIZE": "BOTH",
+          "LEX": "GENDERS",
+          "WNSENSE": "sex%1:14:00"
+        },
+        "start": 80,
+        "end": 93
+      },
+      "root": "#V283818"
+    },
+    {
+      "V282789": {
+        "id": "V282789",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282645",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282645": {
+        "id": "V282645",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282237"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282237": {
+        "id": "V282237",
+        "indicator": "BARE",
+        "type": "TIME-LOC",
+        "word": "TIME",
+        "roles": {
+          "LEX": "TIME",
+          "WNSENSE": "date%1:28:03"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V282789"
+    },
+    {
+      "V282252": {
+        "id": "V282252",
+        "indicator": "F",
+        "type": "RESULTING-OBJECT",
+        "word": "TO",
+        "roles": {
+          "LEX": "TO"
+        },
+        "start": 5,
+        "end": 8
+      },
+      "root": "#V282252"
+    },
+    {
+      "V282294": {
+        "id": "V282294",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "PUT",
+        "roles": {
+          "VFORM": "PASSIVE",
+          "LEX": "PUT",
+          "WNSENSE": "put%2:35:00::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V282294"
+    },
+    {
+      "V282757": {
+        "id": "V282757",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282325",
+          "LEX": "END"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "V282325": {
+        "id": "V282325",
+        "indicator": "A",
+        "type": "ENDPOINT",
+        "word": "END",
+        "roles": {
+          "LEX": "END",
+          "WNSENSE": "end%1:15:00::"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "root": "#V282757"
+    },
+    {
+      "V283818": {
+        "id": "V283818",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V282421",
+          "MOD": "#V282414",
+          "LEX": "TO"
+        },
+        "start": 19,
+        "end": 94
+      },
+      "V282414": {
+        "id": "V282414",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "ONCE-AND-FOR-ALL",
+        "roles": {
+          "FIGURE": "#V283818",
+          "LEX": "ONCE-AND-FOR-ALL",
+          "WNSENSE": "once_and_for_all%4:02:00"
+        },
+        "start": 19,
+        "end": 36
+      },
+      "V282421": {
+        "id": "V282421",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V282465",
+          "FIGURE": "#V283819",
+          "LEX": "TO"
+        },
+        "start": 36,
+        "end": 93
+      },
+      "V283819": {
+        "id": "V283819",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 36,
+        "end": 93
+      },
+      "V282465": {
+        "id": "V282465",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V282682",
+          "SEQUENCE1": "#V282968",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 93
+      },
+      "V282682": {
+        "id": "V282682",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282460"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282460": {
+        "id": "V282460",
+        "indicator": "BARE",
+        "type": "CRIMINAL-ACTIVITY",
+        "word": "SEXUAL-ASSAULT",
+        "roles": {
+          "LEX": "SEXUAL-ASSAULT",
+          "WNSENSE": "sexual_assault%1:04:00"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282968": {
+        "id": "V282968",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282489"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282489": {
+        "id": "V282489",
+        "indicator": "BARE",
+        "type": "ACTIVITY",
+        "word": "SEXUAL-HARASSMENT",
+        "roles": {
+          "REASON": "#V282495",
+          "LEX": "SEXUAL-HARASSMENT",
+          "WNSENSE": "sexual_harassment%1:04:00"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282495": {
+        "id": "V282495",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V282526",
+          "FIGURE": "#V282489",
+          "LEX": "FOR"
+        },
+        "start": 76,
+        "end": 93
+      },
+      "V282526": {
+        "id": "V282526",
+        "indicator": "THE-SET",
+        "type": "GENDER-SCALE",
+        "word": "GENDER",
+        "roles": {
+          "SIZE": "BOTH",
+          "LEX": "GENDERS",
+          "WNSENSE": "sex%1:14:00"
+        },
+        "start": 80,
+        "end": 93
+      },
+      "root": "#V283818"
+    },
+    {
+      "V282789": {
+        "id": "V282789",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282645",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282645": {
+        "id": "V282645",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282237"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282237": {
+        "id": "V282237",
+        "indicator": "BARE",
+        "type": "TIME-LOC",
+        "word": "TIME",
+        "roles": {
+          "LEX": "TIME",
+          "WNSENSE": "date%1:28:03"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V282789"
+    },
+    {
+      "V282252": {
+        "id": "V282252",
+        "indicator": "F",
+        "type": "RESULTING-OBJECT",
+        "word": "TO",
+        "roles": {
+          "LEX": "TO"
+        },
+        "start": 5,
+        "end": 8
+      },
+      "root": "#V282252"
+    },
+    {
+      "V282293": {
+        "id": "V282293",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "PUT",
+        "roles": {
+          "VFORM": "PASSIVE",
+          "LEX": "PUT",
+          "WNSENSE": "put%2:35:00::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V282293"
+    },
+    {
+      "V282757": {
+        "id": "V282757",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282325",
+          "LEX": "END"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "V282325": {
+        "id": "V282325",
+        "indicator": "A",
+        "type": "ENDPOINT",
+        "word": "END",
+        "roles": {
+          "LEX": "END",
+          "WNSENSE": "end%1:15:00::"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "root": "#V282757"
+    },
+    {
+      "V283818": {
+        "id": "V283818",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V282421",
+          "MOD": "#V282414",
+          "LEX": "TO"
+        },
+        "start": 19,
+        "end": 94
+      },
+      "V282414": {
+        "id": "V282414",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "ONCE-AND-FOR-ALL",
+        "roles": {
+          "FIGURE": "#V283818",
+          "LEX": "ONCE-AND-FOR-ALL",
+          "WNSENSE": "once_and_for_all%4:02:00"
+        },
+        "start": 19,
+        "end": 36
+      },
+      "V282421": {
+        "id": "V282421",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V282465",
+          "FIGURE": "#V283819",
+          "LEX": "TO"
+        },
+        "start": 36,
+        "end": 93
+      },
+      "V283819": {
+        "id": "V283819",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 36,
+        "end": 93
+      },
+      "V282465": {
+        "id": "V282465",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V282682",
+          "SEQUENCE1": "#V282968",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 93
+      },
+      "V282682": {
+        "id": "V282682",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282460"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282460": {
+        "id": "V282460",
+        "indicator": "BARE",
+        "type": "CRIMINAL-ACTIVITY",
+        "word": "SEXUAL-ASSAULT",
+        "roles": {
+          "LEX": "SEXUAL-ASSAULT",
+          "WNSENSE": "sexual_assault%1:04:00"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282968": {
+        "id": "V282968",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282489"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282489": {
+        "id": "V282489",
+        "indicator": "BARE",
+        "type": "ACTIVITY",
+        "word": "SEXUAL-HARASSMENT",
+        "roles": {
+          "REASON": "#V282495",
+          "LEX": "SEXUAL-HARASSMENT",
+          "WNSENSE": "sexual_harassment%1:04:00"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282495": {
+        "id": "V282495",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V282526",
+          "FIGURE": "#V282489",
+          "LEX": "FOR"
+        },
+        "start": 76,
+        "end": 93
+      },
+      "V282526": {
+        "id": "V282526",
+        "indicator": "THE-SET",
+        "type": "GENDER-SCALE",
+        "word": "GENDER",
+        "roles": {
+          "SIZE": "BOTH",
+          "LEX": "GENDERS",
+          "WNSENSE": "sex%1:14:00"
+        },
+        "start": 80,
+        "end": 93
+      },
+      "root": "#V283818"
+    },
+    {
+      "V282789": {
+        "id": "V282789",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282645",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282645": {
+        "id": "V282645",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282237"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282237": {
+        "id": "V282237",
+        "indicator": "BARE",
+        "type": "TIME-LOC",
+        "word": "TIME",
+        "roles": {
+          "LEX": "TIME",
+          "WNSENSE": "date%1:28:03"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V282789"
+    },
+    {
+      "V282251": {
+        "id": "V282251",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "LEX": "TO"
+        },
+        "start": 5,
+        "end": 8
+      },
+      "root": "#V282251"
+    },
+    {
+      "V282294": {
+        "id": "V282294",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "PUT",
+        "roles": {
+          "VFORM": "PASSIVE",
+          "LEX": "PUT",
+          "WNSENSE": "put%2:35:00::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V282294"
+    },
+    {
+      "V282757": {
+        "id": "V282757",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282325",
+          "LEX": "END"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "V282325": {
+        "id": "V282325",
+        "indicator": "A",
+        "type": "ENDPOINT",
+        "word": "END",
+        "roles": {
+          "LEX": "END",
+          "WNSENSE": "end%1:15:00::"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "root": "#V282757"
+    },
+    {
+      "V283818": {
+        "id": "V283818",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V282421",
+          "MOD": "#V282414",
+          "LEX": "TO"
+        },
+        "start": 19,
+        "end": 94
+      },
+      "V282414": {
+        "id": "V282414",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "ONCE-AND-FOR-ALL",
+        "roles": {
+          "FIGURE": "#V283818",
+          "LEX": "ONCE-AND-FOR-ALL",
+          "WNSENSE": "once_and_for_all%4:02:00"
+        },
+        "start": 19,
+        "end": 36
+      },
+      "V282421": {
+        "id": "V282421",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V282465",
+          "FIGURE": "#V283819",
+          "LEX": "TO"
+        },
+        "start": 36,
+        "end": 93
+      },
+      "V283819": {
+        "id": "V283819",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 36,
+        "end": 93
+      },
+      "V282465": {
+        "id": "V282465",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V282682",
+          "SEQUENCE1": "#V282968",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 93
+      },
+      "V282682": {
+        "id": "V282682",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282460"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282460": {
+        "id": "V282460",
+        "indicator": "BARE",
+        "type": "CRIMINAL-ACTIVITY",
+        "word": "SEXUAL-ASSAULT",
+        "roles": {
+          "LEX": "SEXUAL-ASSAULT",
+          "WNSENSE": "sexual_assault%1:04:00"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282968": {
+        "id": "V282968",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282489"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282489": {
+        "id": "V282489",
+        "indicator": "BARE",
+        "type": "ACTIVITY",
+        "word": "SEXUAL-HARASSMENT",
+        "roles": {
+          "REASON": "#V282495",
+          "LEX": "SEXUAL-HARASSMENT",
+          "WNSENSE": "sexual_harassment%1:04:00"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282495": {
+        "id": "V282495",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V282526",
+          "FIGURE": "#V282489",
+          "LEX": "FOR"
+        },
+        "start": 76,
+        "end": 93
+      },
+      "V282526": {
+        "id": "V282526",
+        "indicator": "THE-SET",
+        "type": "GENDER-SCALE",
+        "word": "GENDER",
+        "roles": {
+          "SIZE": "BOTH",
+          "LEX": "GENDERS",
+          "WNSENSE": "sex%1:14:00"
+        },
+        "start": 80,
+        "end": 93
+      },
+      "root": "#V283818"
+    },
+    {
+      "V282789": {
+        "id": "V282789",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282645",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282645": {
+        "id": "V282645",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282237"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282237": {
+        "id": "V282237",
+        "indicator": "BARE",
+        "type": "TIME-LOC",
+        "word": "TIME",
+        "roles": {
+          "LEX": "TIME",
+          "WNSENSE": "date%1:28:03"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V282789"
+    },
+    {
+      "V282251": {
+        "id": "V282251",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "LEX": "TO"
+        },
+        "start": 5,
+        "end": 8
+      },
+      "root": "#V282251"
+    },
+    {
+      "V282293": {
+        "id": "V282293",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "PUT",
+        "roles": {
+          "VFORM": "PASSIVE",
+          "LEX": "PUT",
+          "WNSENSE": "put%2:35:00::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V282293"
+    },
+    {
+      "V282757": {
+        "id": "V282757",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282325",
+          "LEX": "END"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "V282325": {
+        "id": "V282325",
+        "indicator": "A",
+        "type": "ENDPOINT",
+        "word": "END",
+        "roles": {
+          "LEX": "END",
+          "WNSENSE": "end%1:15:00::"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "root": "#V282757"
+    },
+    {
+      "V283818": {
+        "id": "V283818",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V282421",
+          "MOD": "#V282414",
+          "LEX": "TO"
+        },
+        "start": 19,
+        "end": 94
+      },
+      "V282414": {
+        "id": "V282414",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "ONCE-AND-FOR-ALL",
+        "roles": {
+          "FIGURE": "#V283818",
+          "LEX": "ONCE-AND-FOR-ALL",
+          "WNSENSE": "once_and_for_all%4:02:00"
+        },
+        "start": 19,
+        "end": 36
+      },
+      "V282421": {
+        "id": "V282421",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V282465",
+          "FIGURE": "#V283819",
+          "LEX": "TO"
+        },
+        "start": 36,
+        "end": 93
+      },
+      "V283819": {
+        "id": "V283819",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 36,
+        "end": 93
+      },
+      "V282465": {
+        "id": "V282465",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V282682",
+          "SEQUENCE1": "#V282968",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 93
+      },
+      "V282682": {
+        "id": "V282682",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282460"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282460": {
+        "id": "V282460",
+        "indicator": "BARE",
+        "type": "CRIMINAL-ACTIVITY",
+        "word": "SEXUAL-ASSAULT",
+        "roles": {
+          "LEX": "SEXUAL-ASSAULT",
+          "WNSENSE": "sexual_assault%1:04:00"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282968": {
+        "id": "V282968",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282489"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282489": {
+        "id": "V282489",
+        "indicator": "BARE",
+        "type": "ACTIVITY",
+        "word": "SEXUAL-HARASSMENT",
+        "roles": {
+          "REASON": "#V282495",
+          "LEX": "SEXUAL-HARASSMENT",
+          "WNSENSE": "sexual_harassment%1:04:00"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282495": {
+        "id": "V282495",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V282526",
+          "FIGURE": "#V282489",
+          "LEX": "FOR"
+        },
+        "start": 76,
+        "end": 93
+      },
+      "V282526": {
+        "id": "V282526",
+        "indicator": "THE-SET",
+        "type": "GENDER-SCALE",
+        "word": "GENDER",
+        "roles": {
+          "SIZE": "BOTH",
+          "LEX": "GENDERS",
+          "WNSENSE": "sex%1:14:00"
+        },
+        "start": 80,
+        "end": 93
+      },
+      "root": "#V283818"
+    },
+    {
+      "V282787": {
+        "id": "V282787",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282642",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282642": {
+        "id": "V282642",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282236"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282236": {
+        "id": "V282236",
+        "indicator": "BARE",
+        "type": "DURATION-SCALE",
+        "word": "TIME",
+        "roles": {
+          "LEX": "TIME",
+          "WNSENSE": "time%1:03:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V282787"
+    },
+    {
+      "V282257": {
+        "id": "V282257",
+        "indicator": "F",
+        "type": "ATTRIBUTED-TO",
+        "word": "TO",
+        "roles": {
+          "LEX": "TO"
+        },
+        "start": 5,
+        "end": 8
+      },
+      "root": "#V282257"
+    },
+    {
+      "V282294": {
+        "id": "V282294",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "PUT",
+        "roles": {
+          "VFORM": "PASSIVE",
+          "LEX": "PUT",
+          "WNSENSE": "put%2:35:00::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V282294"
+    },
+    {
+      "V282757": {
+        "id": "V282757",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282325",
+          "LEX": "END"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "V282325": {
+        "id": "V282325",
+        "indicator": "A",
+        "type": "ENDPOINT",
+        "word": "END",
+        "roles": {
+          "LEX": "END",
+          "WNSENSE": "end%1:15:00::"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "root": "#V282757"
+    },
+    {
+      "V283818": {
+        "id": "V283818",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V282421",
+          "MOD": "#V282414",
+          "LEX": "TO"
+        },
+        "start": 19,
+        "end": 94
+      },
+      "V282414": {
+        "id": "V282414",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "ONCE-AND-FOR-ALL",
+        "roles": {
+          "FIGURE": "#V283818",
+          "LEX": "ONCE-AND-FOR-ALL",
+          "WNSENSE": "once_and_for_all%4:02:00"
+        },
+        "start": 19,
+        "end": 36
+      },
+      "V282421": {
+        "id": "V282421",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V282465",
+          "FIGURE": "#V283819",
+          "LEX": "TO"
+        },
+        "start": 36,
+        "end": 93
+      },
+      "V283819": {
+        "id": "V283819",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 36,
+        "end": 93
+      },
+      "V282465": {
+        "id": "V282465",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V282682",
+          "SEQUENCE1": "#V282968",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 93
+      },
+      "V282682": {
+        "id": "V282682",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282460"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282460": {
+        "id": "V282460",
+        "indicator": "BARE",
+        "type": "CRIMINAL-ACTIVITY",
+        "word": "SEXUAL-ASSAULT",
+        "roles": {
+          "LEX": "SEXUAL-ASSAULT",
+          "WNSENSE": "sexual_assault%1:04:00"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282968": {
+        "id": "V282968",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282489"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282489": {
+        "id": "V282489",
+        "indicator": "BARE",
+        "type": "ACTIVITY",
+        "word": "SEXUAL-HARASSMENT",
+        "roles": {
+          "REASON": "#V282495",
+          "LEX": "SEXUAL-HARASSMENT",
+          "WNSENSE": "sexual_harassment%1:04:00"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282495": {
+        "id": "V282495",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V282526",
+          "FIGURE": "#V282489",
+          "LEX": "FOR"
+        },
+        "start": 76,
+        "end": 93
+      },
+      "V282526": {
+        "id": "V282526",
+        "indicator": "THE-SET",
+        "type": "GENDER-SCALE",
+        "word": "GENDER",
+        "roles": {
+          "SIZE": "BOTH",
+          "LEX": "GENDERS",
+          "WNSENSE": "sex%1:14:00"
+        },
+        "start": 80,
+        "end": 93
+      },
+      "root": "#V283818"
+    },
+    {
+      "V282787": {
+        "id": "V282787",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282642",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282642": {
+        "id": "V282642",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282236"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V282236": {
+        "id": "V282236",
+        "indicator": "BARE",
+        "type": "DURATION-SCALE",
+        "word": "TIME",
+        "roles": {
+          "LEX": "TIME",
+          "WNSENSE": "time%1:03:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V282787"
+    },
+    {
+      "V282257": {
+        "id": "V282257",
+        "indicator": "F",
+        "type": "ATTRIBUTED-TO",
+        "word": "TO",
+        "roles": {
+          "LEX": "TO"
+        },
+        "start": 5,
+        "end": 8
+      },
+      "root": "#V282257"
+    },
+    {
+      "V282293": {
+        "id": "V282293",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "PUT",
+        "roles": {
+          "VFORM": "PASSIVE",
+          "LEX": "PUT",
+          "WNSENSE": "put%2:35:00::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V282293"
+    },
+    {
+      "V282757": {
+        "id": "V282757",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V282325",
+          "LEX": "END"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "V282325": {
+        "id": "V282325",
+        "indicator": "A",
+        "type": "ENDPOINT",
+        "word": "END",
+        "roles": {
+          "LEX": "END",
+          "WNSENSE": "end%1:15:00::"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "root": "#V282757"
+    },
+    {
+      "V283818": {
+        "id": "V283818",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V282421",
+          "MOD": "#V282414",
+          "LEX": "TO"
+        },
+        "start": 19,
+        "end": 94
+      },
+      "V282414": {
+        "id": "V282414",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "ONCE-AND-FOR-ALL",
+        "roles": {
+          "FIGURE": "#V283818",
+          "LEX": "ONCE-AND-FOR-ALL",
+          "WNSENSE": "once_and_for_all%4:02:00"
+        },
+        "start": 19,
+        "end": 36
+      },
+      "V282421": {
+        "id": "V282421",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V282465",
+          "FIGURE": "#V283819",
+          "LEX": "TO"
+        },
+        "start": 36,
+        "end": 93
+      },
+      "V283819": {
+        "id": "V283819",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 36,
+        "end": 93
+      },
+      "V282465": {
+        "id": "V282465",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V282682",
+          "SEQUENCE1": "#V282968",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 93
+      },
+      "V282682": {
+        "id": "V282682",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282460"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282460": {
+        "id": "V282460",
+        "indicator": "BARE",
+        "type": "CRIMINAL-ACTIVITY",
+        "word": "SEXUAL-ASSAULT",
+        "roles": {
+          "LEX": "SEXUAL-ASSAULT",
+          "WNSENSE": "sexual_assault%1:04:00"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V282968": {
+        "id": "V282968",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V282489"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282489": {
+        "id": "V282489",
+        "indicator": "BARE",
+        "type": "ACTIVITY",
+        "word": "SEXUAL-HARASSMENT",
+        "roles": {
+          "REASON": "#V282495",
+          "LEX": "SEXUAL-HARASSMENT",
+          "WNSENSE": "sexual_harassment%1:04:00"
+        },
+        "start": 58,
+        "end": 93
+      },
+      "V282495": {
+        "id": "V282495",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V282526",
+          "FIGURE": "#V282489",
+          "LEX": "FOR"
+        },
+        "start": 76,
+        "end": 93
+      },
+      "V282526": {
+        "id": "V282526",
+        "indicator": "THE-SET",
+        "type": "GENDER-SCALE",
+        "word": "GENDER",
+        "roles": {
+          "SIZE": "BOTH",
+          "LEX": "GENDERS",
+          "WNSENSE": "sex%1:14:00"
+        },
+        "start": 80,
+        "end": 93
+      },
+      "root": "#V283818"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+41",
+    "*last-utt-id*=41  utt-id+41",
+    "*last-utt-id*=41  utt-id+41",
+    "*last-utt-id*=41  utt-id+41Reference resolution to sequences not reimplemented yet",
+    "*last-utt-id*=41  utt-id+41",
+    "*last-utt-id*=41  utt-id+NIL"
+  ]
+}

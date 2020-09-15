@@ -1,0 +1,89 @@
+{
+  "parse": [
+    {
+      "V165414": {
+        "id": "V165414",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V165130",
+          "LEX": "TIMES"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V165130": {
+        "id": "V165130",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "AMOUNT": "#V165121",
+          "MOD": "#V165123",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V165121": {
+        "id": "V165121",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V165092"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V165092": {
+        "id": "V165092",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "MIN",
+        "roles": {
+          "FIGURE": "#V165121",
+          "GROUND": "#V165182"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V165182": {
+        "id": "V165182",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "6"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V165123": {
+        "id": "V165123",
+        "indicator": "F",
+        "type": "DIFFERENT",
+        "word": "DIFFERENT",
+        "roles": {
+          "FIGURE": "#V165130",
+          "SCALE": "DIFFERENT-SCALE",
+          "LEX": "DIFFERENT",
+          "WNSENSE": "different%3:00:00::"
+        },
+        "start": 12,
+        "end": 22
+      },
+      "root": "#V165414"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+26",
+    "*last-utt-id*=26  utt-id+NIL"
+  ]
+}

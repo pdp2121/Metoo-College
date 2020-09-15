@@ -1,0 +1,67 @@
+{
+  "parse": [
+    {
+      "V548201": {
+        "id": "V548201",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V548127",
+          "LEX": "EXPOSED"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V548127": {
+        "id": "V548127",
+        "indicator": "F",
+        "type": "EXPOSE",
+        "word": "EXPOSE",
+        "roles": {
+          "AGENT": "#V548122",
+          "AFFECTED": "#V548130",
+          "TENSE": "PAST",
+          "LEX": "EXPOSED",
+          "WNSENSE": "expose%2:35:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V548122": {
+        "id": "V548122",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V548130": {
+        "id": "V548130",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "HIMSELF",
+        "roles": {
+          "PROFORM": "HIMSELF",
+          "LEX": "HIMSELF",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "#V548122"
+        },
+        "start": 11,
+        "end": 19
+      },
+      "root": "#V548201"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+104",
+    "*last-utt-id*=104  utt-id+NIL"
+  ]
+}

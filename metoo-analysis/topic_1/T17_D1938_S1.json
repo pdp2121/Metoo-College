@@ -1,0 +1,91 @@
+{
+  "parse": [
+    {
+      "V2245591": {
+        "id": "V2245591",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2245000",
+          "LEX": "OFFERED"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V2245000": {
+        "id": "V2245000",
+        "indicator": "F",
+        "type": "OFFER",
+        "word": "OFFER",
+        "roles": {
+          "AGENT": "#V2244980",
+          "AFFECTED": "#V2245052",
+          "TENSE": "PAST",
+          "LEX": "OFFERED",
+          "WNSENSE": "offer%2:41:00::"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V2244980": {
+        "id": "V2244980",
+        "indicator": "BARE",
+        "type": "COUNTRY",
+        "word": "CAR",
+        "roles": {
+          "NAME-OF": "CAR",
+          "MOD": "#V2244986",
+          "LEX": "CAR"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2244986": {
+        "id": "V2244986",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V2244994",
+          "FIGURE": "#V2244980",
+          "LEX": "OF"
+        },
+        "start": 7,
+        "end": 15
+      },
+      "V2244994": {
+        "id": "V2244994",
+        "indicator": "INDEF-SET",
+        "type": "MALE-CHILD",
+        "word": "BOY",
+        "roles": {
+          "LEX": "BOYS",
+          "WNSENSE": "boy%1:18:00::"
+        },
+        "start": 10,
+        "end": 15
+      },
+      "V2245052": {
+        "id": "V2245052",
+        "indicator": "A",
+        "type": "DEVICE",
+        "word": "LIFT",
+        "roles": {
+          "LEX": "LIFT",
+          "WNSENSE": "lift%1:06:03::"
+        },
+        "start": 23,
+        "end": 30
+      },
+      "root": "#V2245591"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "ERROR: bad argument to BOOST-BY-PERCENT: NIL",
+    "*last-utt-id*=NIL  utt-id+405",
+    "*last-utt-id*=405  utt-id+NIL"
+  ]
+}

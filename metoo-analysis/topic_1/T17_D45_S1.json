@@ -1,0 +1,49 @@
+{
+  "parse": [
+    {
+      "V570256": {
+        "id": "V570256",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V570219",
+          "LEX": "STORIES"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V570219": {
+        "id": "V570219",
+        "indicator": "INDEF-SET",
+        "type": "COMPOSITION",
+        "word": "STORY",
+        "roles": {
+          "MOD": "#V570222",
+          "LEX": "STORIES",
+          "WNSENSE": "composition%1:07:01"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V570222": {
+        "id": "V570222",
+        "indicator": "F",
+        "type": "OBJ-IN-PATH",
+        "word": "VIA",
+        "roles": {
+          "FIGURE": "#V570219",
+          "LEX": "VIA"
+        },
+        "start": 8,
+        "end": 10
+      },
+      "root": "#V570256"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+92",
+    "*last-utt-id*=92  utt-id+NIL"
+  ]
+}

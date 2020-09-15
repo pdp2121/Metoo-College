@@ -1,0 +1,90 @@
+{
+  "parse": [
+    {
+      "V2324175": {
+        "id": "V2324175",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2323560",
+          "LEX": "MEN"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V2323560": {
+        "id": "V2323560",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "ASSOC-WITH": "#V2323648",
+          "LEX": "MEN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V2323648": {
+        "id": "V2323648",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MOD": "#V2323541"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2323541": {
+        "id": "V2323541",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "BY",
+        "roles": {
+          "EXTENT": "#V2323517",
+          "GROUND": "#V2323576",
+          "FIGURE": "#V2323648"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2323517": {
+        "id": "V2323517",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "AMOUNT": "MANY",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V2323576": {
+        "id": "V2323576",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "MANY",
+          "LEX": "MANY"
+        },
+        "start": 14,
+        "end": 19
+      },
+      "root": "#V2324175"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+422",
+    "*last-utt-id*=422  utt-id+NIL"
+  ]
+}

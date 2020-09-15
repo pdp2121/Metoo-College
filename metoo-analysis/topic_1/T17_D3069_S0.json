@@ -1,0 +1,7940 @@
+{
+  "parse": [
+    {
+      "V1018831": {
+        "id": "V1018831",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018118",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018118": {
+        "id": "V1018118",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "PROFORM": "LAST",
+          "EXTENT": "(:* YEAR YEAR)",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018104": {
+        "id": "V1018104",
+        "indicator": "F",
+        "type": "LAST-VAL",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V1018118",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "LAST",
+          "WNSENSE": "last%3:00:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V1018831"
+    },
+    {
+      "V1027620": {
+        "id": "V1027620",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018150",
+          "LEX": "REJECTED"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018150": {
+        "id": "V1018150",
+        "indicator": "F",
+        "type": "REJECT",
+        "word": "REJECT",
+        "roles": {
+          "AGENT": "#V1018136",
+          "FORMAL": "#V1027598",
+          "TENSE": "PAST",
+          "LEX": "REJECTED",
+          "WNSENSE": "reject%2:40:00::"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018136": {
+        "id": "V1018136",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 10,
+        "end": 12
+      },
+      "V1027598": {
+        "id": "V1027598",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018260"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018260": {
+        "id": "V1018260",
+        "indicator": "SM",
+        "type": "SUGGEST",
+        "word": "ADVANCES",
+        "roles": {
+          "QUANTITY": "#V1018238",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LOCATION": "#V1018275",
+          "LEX": "ADVANCES",
+          "WNSENSE": "advise%2:32:02"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018169": {
+        "id": "V1018169",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018238": {
+        "id": "V1018238",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 21,
+        "end": 42
+      },
+      "V1018611": {
+        "id": "V1018611",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018238",
+          "GROUND": "#V1018198",
+          "LEX": "OLD-MAN"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018198": {
+        "id": "V1018198",
+        "indicator": "KIND",
+        "type": "MALE-PERSON",
+        "word": "OLD-MAN",
+        "roles": {
+          "AMOUNT": "40",
+          "ASSOC-WITH": "#V1018202"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018202": {
+        "id": "V1018202",
+        "indicator": "KIND",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018275": {
+        "id": "V1018275",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V1018342",
+          "FIGURE": "#V1018260",
+          "LEX": "IN"
+        },
+        "start": 51,
+        "end": 63
+      },
+      "V1018342": {
+        "id": "V1018342",
+        "indicator": "THE",
+        "type": "REGION-FOR-ACTIVITY",
+        "word": "PARK",
+        "roles": {
+          "LEX": "PARK",
+          "WNSENSE": "park%1:15:00::"
+        },
+        "start": 54,
+        "end": 63
+      },
+      "root": "#V1027620"
+    },
+    {
+      "V1018795": {
+        "id": "V1018795",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018366",
+          "MOD": "#V1018355",
+          "LEX": "HE"
+        },
+        "start": 63,
+        "end": 69
+      },
+      "V1018355": {
+        "id": "V1018355",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "SO",
+        "roles": {
+          "FIGURE": "#V1018795",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:02::"
+        },
+        "start": 63,
+        "end": 66
+      },
+      "V1018366": {
+        "id": "V1018366",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 66,
+        "end": 69
+      },
+      "root": "#V1018795"
+    },
+    {
+      "V1020319": {
+        "id": "V1020319",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018371",
+          "LEX": "SPIT"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018371": {
+        "id": "V1018371",
+        "indicator": "F",
+        "type": "EXPECTORATE",
+        "word": "SPIT",
+        "roles": {
+          "RESULT": "#V1018380",
+          "AFFECTED": "#V1020320",
+          "TENSE": "PRES",
+          "LEX": "SPIT",
+          "WNSENSE": "spit%2:29:00::"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1020320": {
+        "id": "V1020320",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ",
+          "COREF": "#V1018366"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018380": {
+        "id": "V1018380",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1018391",
+          "FIGURE": "#V1020320",
+          "LEX": "AT"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1018391": {
+        "id": "V1018391",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 77,
+        "end": 80
+      },
+      "root": "#V1020319"
+    },
+    {
+      "V1018397": {
+        "id": "V1018397",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "LEX": "AND"
+        },
+        "start": 80,
+        "end": 84
+      },
+      "root": "#V1018397"
+    },
+    {
+      "V1018411": {
+        "id": "V1018411",
+        "indicator": "F",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V1018419",
+          "FORMAL": "#V1019189",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 84,
+        "end": 111
+      },
+      "V1018419": {
+        "id": "V1018419",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 91,
+        "end": 94
+      },
+      "V1019189": {
+        "id": "V1019189",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018466",
+          "COREF": "#V1027598"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018466": {
+        "id": "V1018466",
+        "indicator": "A",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "VAGINA",
+        "roles": {
+          "MOD": "#V1018463",
+          "LEX": "VAGINA",
+          "WNSENSE": "external_body_part%1:08:00"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018463": {
+        "id": "V1018463",
+        "indicator": "F",
+        "type": "SELFISH-VAL",
+        "word": "SELFISH",
+        "roles": {
+          "FIGURE": "#V1018466",
+          "SCALE": "BEHAVIORAL-SCALE",
+          "LEX": "SELFISH",
+          "WNSENSE": "selfish%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V1018411"
+    },
+    {
+      "V1018831": {
+        "id": "V1018831",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018118",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018118": {
+        "id": "V1018118",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "PROFORM": "LAST",
+          "EXTENT": "(:* YEAR YEAR)",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018104": {
+        "id": "V1018104",
+        "indicator": "F",
+        "type": "LAST-VAL",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V1018118",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "LAST",
+          "WNSENSE": "last%3:00:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V1018831"
+    },
+    {
+      "V1027620": {
+        "id": "V1027620",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018150",
+          "LEX": "REJECTED"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018150": {
+        "id": "V1018150",
+        "indicator": "F",
+        "type": "REJECT",
+        "word": "REJECT",
+        "roles": {
+          "AGENT": "#V1018136",
+          "FORMAL": "#V1027598",
+          "TENSE": "PAST",
+          "LEX": "REJECTED",
+          "WNSENSE": "reject%2:40:00::"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018136": {
+        "id": "V1018136",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 10,
+        "end": 12
+      },
+      "V1027598": {
+        "id": "V1027598",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018260"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018260": {
+        "id": "V1018260",
+        "indicator": "SM",
+        "type": "SUGGEST",
+        "word": "ADVANCES",
+        "roles": {
+          "QUANTITY": "#V1018238",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LOCATION": "#V1018275",
+          "LEX": "ADVANCES",
+          "WNSENSE": "advise%2:32:02"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018169": {
+        "id": "V1018169",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018238": {
+        "id": "V1018238",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 21,
+        "end": 42
+      },
+      "V1018611": {
+        "id": "V1018611",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018238",
+          "GROUND": "#V1018198",
+          "LEX": "OLD-MAN"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018198": {
+        "id": "V1018198",
+        "indicator": "KIND",
+        "type": "MALE-PERSON",
+        "word": "OLD-MAN",
+        "roles": {
+          "AMOUNT": "40",
+          "ASSOC-WITH": "#V1018202"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018202": {
+        "id": "V1018202",
+        "indicator": "KIND",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018275": {
+        "id": "V1018275",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V1018342",
+          "FIGURE": "#V1018260",
+          "LEX": "IN"
+        },
+        "start": 51,
+        "end": 63
+      },
+      "V1018342": {
+        "id": "V1018342",
+        "indicator": "THE",
+        "type": "REGION-FOR-ACTIVITY",
+        "word": "PARK",
+        "roles": {
+          "LEX": "PARK",
+          "WNSENSE": "park%1:15:00::"
+        },
+        "start": 54,
+        "end": 63
+      },
+      "root": "#V1027620"
+    },
+    {
+      "V1018795": {
+        "id": "V1018795",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018366",
+          "MOD": "#V1018355",
+          "LEX": "HE"
+        },
+        "start": 63,
+        "end": 69
+      },
+      "V1018355": {
+        "id": "V1018355",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "SO",
+        "roles": {
+          "FIGURE": "#V1018795",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:02::"
+        },
+        "start": 63,
+        "end": 66
+      },
+      "V1018366": {
+        "id": "V1018366",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 66,
+        "end": 69
+      },
+      "root": "#V1018795"
+    },
+    {
+      "V1020319": {
+        "id": "V1020319",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018371",
+          "LEX": "SPIT"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018371": {
+        "id": "V1018371",
+        "indicator": "F",
+        "type": "EXPECTORATE",
+        "word": "SPIT",
+        "roles": {
+          "RESULT": "#V1018380",
+          "AFFECTED": "#V1020320",
+          "TENSE": "PRES",
+          "LEX": "SPIT",
+          "WNSENSE": "spit%2:29:00::"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1020320": {
+        "id": "V1020320",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018380": {
+        "id": "V1018380",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1018391",
+          "FIGURE": "#V1020320",
+          "LEX": "AT"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1018391": {
+        "id": "V1018391",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 77,
+        "end": 80
+      },
+      "root": "#V1020319"
+    },
+    {
+      "V1018397": {
+        "id": "V1018397",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "LEX": "AND"
+        },
+        "start": 80,
+        "end": 84
+      },
+      "root": "#V1018397"
+    },
+    {
+      "V1018411": {
+        "id": "V1018411",
+        "indicator": "F",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V1018419",
+          "FORMAL": "#V1019189",
+          "VFORM": "PASTPART",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 84,
+        "end": 111
+      },
+      "V1018419": {
+        "id": "V1018419",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 91,
+        "end": 94
+      },
+      "V1019189": {
+        "id": "V1019189",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018466"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018466": {
+        "id": "V1018466",
+        "indicator": "A",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "VAGINA",
+        "roles": {
+          "MOD": "#V1018463",
+          "LEX": "VAGINA",
+          "WNSENSE": "external_body_part%1:08:00"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018463": {
+        "id": "V1018463",
+        "indicator": "F",
+        "type": "SELFISH-VAL",
+        "word": "SELFISH",
+        "roles": {
+          "FIGURE": "#V1018466",
+          "SCALE": "BEHAVIORAL-SCALE",
+          "LEX": "SELFISH",
+          "WNSENSE": "selfish%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V1018411"
+    },
+    {
+      "V1018831": {
+        "id": "V1018831",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018118",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018118": {
+        "id": "V1018118",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "PROFORM": "LAST",
+          "EXTENT": "(:* YEAR YEAR)",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018104": {
+        "id": "V1018104",
+        "indicator": "F",
+        "type": "LAST-VAL",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V1018118",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "LAST",
+          "WNSENSE": "last%3:00:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V1018831"
+    },
+    {
+      "V1027617": {
+        "id": "V1027617",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018152",
+          "LEX": "REJECTED"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018152": {
+        "id": "V1018152",
+        "indicator": "F",
+        "type": "REFUTE",
+        "word": "REJECT",
+        "roles": {
+          "NEUTRAL": "#V1018136",
+          "NEUTRAL1": "#V1027598",
+          "TENSE": "PAST",
+          "LEX": "REJECTED",
+          "WNSENSE": "refute%2:32:00::"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018136": {
+        "id": "V1018136",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 10,
+        "end": 12
+      },
+      "V1027598": {
+        "id": "V1027598",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018260"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018260": {
+        "id": "V1018260",
+        "indicator": "SM",
+        "type": "SUGGEST",
+        "word": "ADVANCES",
+        "roles": {
+          "QUANTITY": "#V1018238",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LOCATION": "#V1018275",
+          "LEX": "ADVANCES",
+          "WNSENSE": "advise%2:32:02"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018169": {
+        "id": "V1018169",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018238": {
+        "id": "V1018238",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 21,
+        "end": 42
+      },
+      "V1018611": {
+        "id": "V1018611",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018238",
+          "GROUND": "#V1018198",
+          "LEX": "OLD-MAN"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018198": {
+        "id": "V1018198",
+        "indicator": "KIND",
+        "type": "MALE-PERSON",
+        "word": "OLD-MAN",
+        "roles": {
+          "AMOUNT": "40",
+          "ASSOC-WITH": "#V1018202"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018202": {
+        "id": "V1018202",
+        "indicator": "KIND",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018275": {
+        "id": "V1018275",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V1018342",
+          "FIGURE": "#V1018260",
+          "LEX": "IN"
+        },
+        "start": 51,
+        "end": 63
+      },
+      "V1018342": {
+        "id": "V1018342",
+        "indicator": "THE",
+        "type": "REGION-FOR-ACTIVITY",
+        "word": "PARK",
+        "roles": {
+          "LEX": "PARK",
+          "WNSENSE": "park%1:15:00::"
+        },
+        "start": 54,
+        "end": 63
+      },
+      "root": "#V1027617"
+    },
+    {
+      "V1018795": {
+        "id": "V1018795",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018366",
+          "MOD": "#V1018355",
+          "LEX": "HE"
+        },
+        "start": 63,
+        "end": 69
+      },
+      "V1018355": {
+        "id": "V1018355",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "SO",
+        "roles": {
+          "FIGURE": "#V1018795",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:02::"
+        },
+        "start": 63,
+        "end": 66
+      },
+      "V1018366": {
+        "id": "V1018366",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 66,
+        "end": 69
+      },
+      "root": "#V1018795"
+    },
+    {
+      "V1020319": {
+        "id": "V1020319",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018371",
+          "LEX": "SPIT"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018371": {
+        "id": "V1018371",
+        "indicator": "F",
+        "type": "EXPECTORATE",
+        "word": "SPIT",
+        "roles": {
+          "RESULT": "#V1018380",
+          "AFFECTED": "#V1020320",
+          "TENSE": "PRES",
+          "LEX": "SPIT",
+          "WNSENSE": "spit%2:29:00::"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1020320": {
+        "id": "V1020320",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018380": {
+        "id": "V1018380",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1018391",
+          "FIGURE": "#V1020320",
+          "LEX": "AT"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1018391": {
+        "id": "V1018391",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 77,
+        "end": 80
+      },
+      "root": "#V1020319"
+    },
+    {
+      "V1018397": {
+        "id": "V1018397",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "LEX": "AND"
+        },
+        "start": 80,
+        "end": 84
+      },
+      "root": "#V1018397"
+    },
+    {
+      "V1018411": {
+        "id": "V1018411",
+        "indicator": "F",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V1018419",
+          "FORMAL": "#V1019189",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 84,
+        "end": 111
+      },
+      "V1018419": {
+        "id": "V1018419",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 91,
+        "end": 94
+      },
+      "V1019189": {
+        "id": "V1019189",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018466"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018466": {
+        "id": "V1018466",
+        "indicator": "A",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "VAGINA",
+        "roles": {
+          "MOD": "#V1018463",
+          "LEX": "VAGINA",
+          "WNSENSE": "external_body_part%1:08:00"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018463": {
+        "id": "V1018463",
+        "indicator": "F",
+        "type": "SELFISH-VAL",
+        "word": "SELFISH",
+        "roles": {
+          "FIGURE": "#V1018466",
+          "SCALE": "BEHAVIORAL-SCALE",
+          "LEX": "SELFISH",
+          "WNSENSE": "selfish%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V1018411"
+    },
+    {
+      "V1018831": {
+        "id": "V1018831",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018118",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018118": {
+        "id": "V1018118",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "PROFORM": "LAST",
+          "EXTENT": "(:* YEAR YEAR)",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018104": {
+        "id": "V1018104",
+        "indicator": "F",
+        "type": "LAST-VAL",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V1018118",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "LAST",
+          "WNSENSE": "last%3:00:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V1018831"
+    },
+    {
+      "V1027617": {
+        "id": "V1027617",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018152",
+          "LEX": "REJECTED"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018152": {
+        "id": "V1018152",
+        "indicator": "F",
+        "type": "REFUTE",
+        "word": "REJECT",
+        "roles": {
+          "NEUTRAL": "#V1018136",
+          "NEUTRAL1": "#V1027598",
+          "TENSE": "PAST",
+          "LEX": "REJECTED",
+          "WNSENSE": "refute%2:32:00::"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018136": {
+        "id": "V1018136",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 10,
+        "end": 12
+      },
+      "V1027598": {
+        "id": "V1027598",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018260"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018260": {
+        "id": "V1018260",
+        "indicator": "SM",
+        "type": "SUGGEST",
+        "word": "ADVANCES",
+        "roles": {
+          "QUANTITY": "#V1018238",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LOCATION": "#V1018275",
+          "LEX": "ADVANCES",
+          "WNSENSE": "advise%2:32:02"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018169": {
+        "id": "V1018169",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018238": {
+        "id": "V1018238",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 21,
+        "end": 42
+      },
+      "V1018611": {
+        "id": "V1018611",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018238",
+          "GROUND": "#V1018198",
+          "LEX": "OLD-MAN"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018198": {
+        "id": "V1018198",
+        "indicator": "KIND",
+        "type": "MALE-PERSON",
+        "word": "OLD-MAN",
+        "roles": {
+          "AMOUNT": "40",
+          "ASSOC-WITH": "#V1018202"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018202": {
+        "id": "V1018202",
+        "indicator": "KIND",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018275": {
+        "id": "V1018275",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V1018342",
+          "FIGURE": "#V1018260",
+          "LEX": "IN"
+        },
+        "start": 51,
+        "end": 63
+      },
+      "V1018342": {
+        "id": "V1018342",
+        "indicator": "THE",
+        "type": "REGION-FOR-ACTIVITY",
+        "word": "PARK",
+        "roles": {
+          "LEX": "PARK",
+          "WNSENSE": "park%1:15:00::"
+        },
+        "start": 54,
+        "end": 63
+      },
+      "root": "#V1027617"
+    },
+    {
+      "V1018795": {
+        "id": "V1018795",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018366",
+          "MOD": "#V1018355",
+          "LEX": "HE"
+        },
+        "start": 63,
+        "end": 69
+      },
+      "V1018355": {
+        "id": "V1018355",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "SO",
+        "roles": {
+          "FIGURE": "#V1018795",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:02::"
+        },
+        "start": 63,
+        "end": 66
+      },
+      "V1018366": {
+        "id": "V1018366",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 66,
+        "end": 69
+      },
+      "root": "#V1018795"
+    },
+    {
+      "V1020319": {
+        "id": "V1020319",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018371",
+          "LEX": "SPIT"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018371": {
+        "id": "V1018371",
+        "indicator": "F",
+        "type": "EXPECTORATE",
+        "word": "SPIT",
+        "roles": {
+          "RESULT": "#V1018380",
+          "AFFECTED": "#V1020320",
+          "TENSE": "PRES",
+          "LEX": "SPIT",
+          "WNSENSE": "spit%2:29:00::"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1020320": {
+        "id": "V1020320",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018380": {
+        "id": "V1018380",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1018391",
+          "FIGURE": "#V1020320",
+          "LEX": "AT"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1018391": {
+        "id": "V1018391",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 77,
+        "end": 80
+      },
+      "root": "#V1020319"
+    },
+    {
+      "V1018397": {
+        "id": "V1018397",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "LEX": "AND"
+        },
+        "start": 80,
+        "end": 84
+      },
+      "root": "#V1018397"
+    },
+    {
+      "V1018411": {
+        "id": "V1018411",
+        "indicator": "F",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V1018419",
+          "FORMAL": "#V1019189",
+          "VFORM": "PASTPART",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 84,
+        "end": 111
+      },
+      "V1018419": {
+        "id": "V1018419",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 91,
+        "end": 94
+      },
+      "V1019189": {
+        "id": "V1019189",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018466"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018466": {
+        "id": "V1018466",
+        "indicator": "A",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "VAGINA",
+        "roles": {
+          "MOD": "#V1018463",
+          "LEX": "VAGINA",
+          "WNSENSE": "external_body_part%1:08:00"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018463": {
+        "id": "V1018463",
+        "indicator": "F",
+        "type": "SELFISH-VAL",
+        "word": "SELFISH",
+        "roles": {
+          "FIGURE": "#V1018466",
+          "SCALE": "BEHAVIORAL-SCALE",
+          "LEX": "SELFISH",
+          "WNSENSE": "selfish%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V1018411"
+    },
+    {
+      "V1018831": {
+        "id": "V1018831",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018118",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018118": {
+        "id": "V1018118",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "PROFORM": "LAST",
+          "EXTENT": "(:* YEAR YEAR)",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018104": {
+        "id": "V1018104",
+        "indicator": "F",
+        "type": "LAST-VAL",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V1018118",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "LAST",
+          "WNSENSE": "last%3:00:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V1018831"
+    },
+    {
+      "V1027553": {
+        "id": "V1027553",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018150",
+          "LEX": "REJECTED"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018150": {
+        "id": "V1018150",
+        "indicator": "F",
+        "type": "REJECT",
+        "word": "REJECT",
+        "roles": {
+          "AGENT": "#V1018136",
+          "FORMAL": "#V1027531",
+          "TENSE": "PAST",
+          "LEX": "REJECTED",
+          "WNSENSE": "reject%2:40:00::"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018136": {
+        "id": "V1018136",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 10,
+        "end": 12
+      },
+      "V1027531": {
+        "id": "V1027531",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018259"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018259": {
+        "id": "V1018259",
+        "indicator": "SM",
+        "type": "IMPROVE",
+        "word": "ADVANCES",
+        "roles": {
+          "QUANTITY": "#V1018238",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LOCATION": "#V1018275",
+          "LEX": "ADVANCES",
+          "WNSENSE": "enhancement%1:04:00"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018169": {
+        "id": "V1018169",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018238": {
+        "id": "V1018238",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 21,
+        "end": 42
+      },
+      "V1018611": {
+        "id": "V1018611",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018238",
+          "GROUND": "#V1018198",
+          "LEX": "OLD-MAN"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018198": {
+        "id": "V1018198",
+        "indicator": "KIND",
+        "type": "MALE-PERSON",
+        "word": "OLD-MAN",
+        "roles": {
+          "AMOUNT": "40",
+          "ASSOC-WITH": "#V1018202"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018202": {
+        "id": "V1018202",
+        "indicator": "KIND",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018275": {
+        "id": "V1018275",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V1018342",
+          "FIGURE": "#V1018259",
+          "LEX": "IN"
+        },
+        "start": 51,
+        "end": 63
+      },
+      "V1018342": {
+        "id": "V1018342",
+        "indicator": "THE",
+        "type": "REGION-FOR-ACTIVITY",
+        "word": "PARK",
+        "roles": {
+          "LEX": "PARK",
+          "WNSENSE": "park%1:15:00::"
+        },
+        "start": 54,
+        "end": 63
+      },
+      "root": "#V1027553"
+    },
+    {
+      "V1018795": {
+        "id": "V1018795",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018366",
+          "MOD": "#V1018355",
+          "LEX": "HE"
+        },
+        "start": 63,
+        "end": 69
+      },
+      "V1018355": {
+        "id": "V1018355",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "SO",
+        "roles": {
+          "FIGURE": "#V1018795",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:02::"
+        },
+        "start": 63,
+        "end": 66
+      },
+      "V1018366": {
+        "id": "V1018366",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 66,
+        "end": 69
+      },
+      "root": "#V1018795"
+    },
+    {
+      "V1020319": {
+        "id": "V1020319",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018371",
+          "LEX": "SPIT"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018371": {
+        "id": "V1018371",
+        "indicator": "F",
+        "type": "EXPECTORATE",
+        "word": "SPIT",
+        "roles": {
+          "RESULT": "#V1018380",
+          "AFFECTED": "#V1020320",
+          "TENSE": "PRES",
+          "LEX": "SPIT",
+          "WNSENSE": "spit%2:29:00::"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1020320": {
+        "id": "V1020320",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018380": {
+        "id": "V1018380",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1018391",
+          "FIGURE": "#V1020320",
+          "LEX": "AT"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1018391": {
+        "id": "V1018391",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 77,
+        "end": 80
+      },
+      "root": "#V1020319"
+    },
+    {
+      "V1018397": {
+        "id": "V1018397",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "LEX": "AND"
+        },
+        "start": 80,
+        "end": 84
+      },
+      "root": "#V1018397"
+    },
+    {
+      "V1018411": {
+        "id": "V1018411",
+        "indicator": "F",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V1018419",
+          "FORMAL": "#V1019189",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 84,
+        "end": 111
+      },
+      "V1018419": {
+        "id": "V1018419",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 91,
+        "end": 94
+      },
+      "V1019189": {
+        "id": "V1019189",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018466"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018466": {
+        "id": "V1018466",
+        "indicator": "A",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "VAGINA",
+        "roles": {
+          "MOD": "#V1018463",
+          "LEX": "VAGINA",
+          "WNSENSE": "external_body_part%1:08:00"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018463": {
+        "id": "V1018463",
+        "indicator": "F",
+        "type": "SELFISH-VAL",
+        "word": "SELFISH",
+        "roles": {
+          "FIGURE": "#V1018466",
+          "SCALE": "BEHAVIORAL-SCALE",
+          "LEX": "SELFISH",
+          "WNSENSE": "selfish%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V1018411"
+    },
+    {
+      "V1018831": {
+        "id": "V1018831",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018118",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018118": {
+        "id": "V1018118",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "PROFORM": "LAST",
+          "EXTENT": "(:* YEAR YEAR)",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018104": {
+        "id": "V1018104",
+        "indicator": "F",
+        "type": "LAST-VAL",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V1018118",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "LAST",
+          "WNSENSE": "last%3:00:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V1018831"
+    },
+    {
+      "V1027553": {
+        "id": "V1027553",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018150",
+          "LEX": "REJECTED"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018150": {
+        "id": "V1018150",
+        "indicator": "F",
+        "type": "REJECT",
+        "word": "REJECT",
+        "roles": {
+          "AGENT": "#V1018136",
+          "FORMAL": "#V1027531",
+          "TENSE": "PAST",
+          "LEX": "REJECTED",
+          "WNSENSE": "reject%2:40:00::"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018136": {
+        "id": "V1018136",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 10,
+        "end": 12
+      },
+      "V1027531": {
+        "id": "V1027531",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018259"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018259": {
+        "id": "V1018259",
+        "indicator": "SM",
+        "type": "IMPROVE",
+        "word": "ADVANCES",
+        "roles": {
+          "QUANTITY": "#V1018238",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LOCATION": "#V1018275",
+          "LEX": "ADVANCES",
+          "WNSENSE": "enhancement%1:04:00"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018169": {
+        "id": "V1018169",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018238": {
+        "id": "V1018238",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 21,
+        "end": 42
+      },
+      "V1018611": {
+        "id": "V1018611",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018238",
+          "GROUND": "#V1018198",
+          "LEX": "OLD-MAN"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018198": {
+        "id": "V1018198",
+        "indicator": "KIND",
+        "type": "MALE-PERSON",
+        "word": "OLD-MAN",
+        "roles": {
+          "AMOUNT": "40",
+          "ASSOC-WITH": "#V1018202"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018202": {
+        "id": "V1018202",
+        "indicator": "KIND",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018275": {
+        "id": "V1018275",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V1018342",
+          "FIGURE": "#V1018259",
+          "LEX": "IN"
+        },
+        "start": 51,
+        "end": 63
+      },
+      "V1018342": {
+        "id": "V1018342",
+        "indicator": "THE",
+        "type": "REGION-FOR-ACTIVITY",
+        "word": "PARK",
+        "roles": {
+          "LEX": "PARK",
+          "WNSENSE": "park%1:15:00::"
+        },
+        "start": 54,
+        "end": 63
+      },
+      "root": "#V1027553"
+    },
+    {
+      "V1018795": {
+        "id": "V1018795",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018366",
+          "MOD": "#V1018355",
+          "LEX": "HE"
+        },
+        "start": 63,
+        "end": 69
+      },
+      "V1018355": {
+        "id": "V1018355",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "SO",
+        "roles": {
+          "FIGURE": "#V1018795",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:02::"
+        },
+        "start": 63,
+        "end": 66
+      },
+      "V1018366": {
+        "id": "V1018366",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 66,
+        "end": 69
+      },
+      "root": "#V1018795"
+    },
+    {
+      "V1020319": {
+        "id": "V1020319",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018371",
+          "LEX": "SPIT"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018371": {
+        "id": "V1018371",
+        "indicator": "F",
+        "type": "EXPECTORATE",
+        "word": "SPIT",
+        "roles": {
+          "RESULT": "#V1018380",
+          "AFFECTED": "#V1020320",
+          "TENSE": "PRES",
+          "LEX": "SPIT",
+          "WNSENSE": "spit%2:29:00::"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1020320": {
+        "id": "V1020320",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018380": {
+        "id": "V1018380",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1018391",
+          "FIGURE": "#V1020320",
+          "LEX": "AT"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1018391": {
+        "id": "V1018391",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 77,
+        "end": 80
+      },
+      "root": "#V1020319"
+    },
+    {
+      "V1018397": {
+        "id": "V1018397",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "LEX": "AND"
+        },
+        "start": 80,
+        "end": 84
+      },
+      "root": "#V1018397"
+    },
+    {
+      "V1018411": {
+        "id": "V1018411",
+        "indicator": "F",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V1018419",
+          "FORMAL": "#V1019189",
+          "VFORM": "PASTPART",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 84,
+        "end": 111
+      },
+      "V1018419": {
+        "id": "V1018419",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 91,
+        "end": 94
+      },
+      "V1019189": {
+        "id": "V1019189",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018466"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018466": {
+        "id": "V1018466",
+        "indicator": "A",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "VAGINA",
+        "roles": {
+          "MOD": "#V1018463",
+          "LEX": "VAGINA",
+          "WNSENSE": "external_body_part%1:08:00"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018463": {
+        "id": "V1018463",
+        "indicator": "F",
+        "type": "SELFISH-VAL",
+        "word": "SELFISH",
+        "roles": {
+          "FIGURE": "#V1018466",
+          "SCALE": "BEHAVIORAL-SCALE",
+          "LEX": "SELFISH",
+          "WNSENSE": "selfish%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V1018411"
+    },
+    {
+      "V1018831": {
+        "id": "V1018831",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018118",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018118": {
+        "id": "V1018118",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "PROFORM": "LAST",
+          "EXTENT": "(:* YEAR YEAR)",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018104": {
+        "id": "V1018104",
+        "indicator": "F",
+        "type": "LAST-VAL",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V1018118",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "LAST",
+          "WNSENSE": "last%3:00:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V1018831"
+    },
+    {
+      "V1027550": {
+        "id": "V1027550",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018152",
+          "LEX": "REJECTED"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018152": {
+        "id": "V1018152",
+        "indicator": "F",
+        "type": "REFUTE",
+        "word": "REJECT",
+        "roles": {
+          "NEUTRAL": "#V1018136",
+          "NEUTRAL1": "#V1027531",
+          "TENSE": "PAST",
+          "LEX": "REJECTED",
+          "WNSENSE": "refute%2:32:00::"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018136": {
+        "id": "V1018136",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 10,
+        "end": 12
+      },
+      "V1027531": {
+        "id": "V1027531",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018259"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018259": {
+        "id": "V1018259",
+        "indicator": "SM",
+        "type": "IMPROVE",
+        "word": "ADVANCES",
+        "roles": {
+          "QUANTITY": "#V1018238",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LOCATION": "#V1018275",
+          "LEX": "ADVANCES",
+          "WNSENSE": "enhancement%1:04:00"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018169": {
+        "id": "V1018169",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018238": {
+        "id": "V1018238",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 21,
+        "end": 42
+      },
+      "V1018611": {
+        "id": "V1018611",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018238",
+          "GROUND": "#V1018198",
+          "LEX": "OLD-MAN"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018198": {
+        "id": "V1018198",
+        "indicator": "KIND",
+        "type": "MALE-PERSON",
+        "word": "OLD-MAN",
+        "roles": {
+          "AMOUNT": "40",
+          "ASSOC-WITH": "#V1018202"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018202": {
+        "id": "V1018202",
+        "indicator": "KIND",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018275": {
+        "id": "V1018275",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V1018342",
+          "FIGURE": "#V1018259",
+          "LEX": "IN"
+        },
+        "start": 51,
+        "end": 63
+      },
+      "V1018342": {
+        "id": "V1018342",
+        "indicator": "THE",
+        "type": "REGION-FOR-ACTIVITY",
+        "word": "PARK",
+        "roles": {
+          "LEX": "PARK",
+          "WNSENSE": "park%1:15:00::"
+        },
+        "start": 54,
+        "end": 63
+      },
+      "root": "#V1027550"
+    },
+    {
+      "V1018795": {
+        "id": "V1018795",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018366",
+          "MOD": "#V1018355",
+          "LEX": "HE"
+        },
+        "start": 63,
+        "end": 69
+      },
+      "V1018355": {
+        "id": "V1018355",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "SO",
+        "roles": {
+          "FIGURE": "#V1018795",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:02::"
+        },
+        "start": 63,
+        "end": 66
+      },
+      "V1018366": {
+        "id": "V1018366",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 66,
+        "end": 69
+      },
+      "root": "#V1018795"
+    },
+    {
+      "V1020319": {
+        "id": "V1020319",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018371",
+          "LEX": "SPIT"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018371": {
+        "id": "V1018371",
+        "indicator": "F",
+        "type": "EXPECTORATE",
+        "word": "SPIT",
+        "roles": {
+          "RESULT": "#V1018380",
+          "AFFECTED": "#V1020320",
+          "TENSE": "PRES",
+          "LEX": "SPIT",
+          "WNSENSE": "spit%2:29:00::"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1020320": {
+        "id": "V1020320",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018380": {
+        "id": "V1018380",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1018391",
+          "FIGURE": "#V1020320",
+          "LEX": "AT"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1018391": {
+        "id": "V1018391",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 77,
+        "end": 80
+      },
+      "root": "#V1020319"
+    },
+    {
+      "V1018397": {
+        "id": "V1018397",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "LEX": "AND"
+        },
+        "start": 80,
+        "end": 84
+      },
+      "root": "#V1018397"
+    },
+    {
+      "V1018411": {
+        "id": "V1018411",
+        "indicator": "F",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V1018419",
+          "FORMAL": "#V1019189",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 84,
+        "end": 111
+      },
+      "V1018419": {
+        "id": "V1018419",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 91,
+        "end": 94
+      },
+      "V1019189": {
+        "id": "V1019189",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018466"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018466": {
+        "id": "V1018466",
+        "indicator": "A",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "VAGINA",
+        "roles": {
+          "MOD": "#V1018463",
+          "LEX": "VAGINA",
+          "WNSENSE": "external_body_part%1:08:00"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018463": {
+        "id": "V1018463",
+        "indicator": "F",
+        "type": "SELFISH-VAL",
+        "word": "SELFISH",
+        "roles": {
+          "FIGURE": "#V1018466",
+          "SCALE": "BEHAVIORAL-SCALE",
+          "LEX": "SELFISH",
+          "WNSENSE": "selfish%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V1018411"
+    },
+    {
+      "V1018831": {
+        "id": "V1018831",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018118",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018118": {
+        "id": "V1018118",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "PROFORM": "LAST",
+          "EXTENT": "(:* YEAR YEAR)",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018104": {
+        "id": "V1018104",
+        "indicator": "F",
+        "type": "LAST-VAL",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V1018118",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "LAST",
+          "WNSENSE": "last%3:00:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V1018831"
+    },
+    {
+      "V1027550": {
+        "id": "V1027550",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018152",
+          "LEX": "REJECTED"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018152": {
+        "id": "V1018152",
+        "indicator": "F",
+        "type": "REFUTE",
+        "word": "REJECT",
+        "roles": {
+          "NEUTRAL": "#V1018136",
+          "NEUTRAL1": "#V1027531",
+          "TENSE": "PAST",
+          "LEX": "REJECTED",
+          "WNSENSE": "refute%2:32:00::"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018136": {
+        "id": "V1018136",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 10,
+        "end": 12
+      },
+      "V1027531": {
+        "id": "V1027531",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018259"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018259": {
+        "id": "V1018259",
+        "indicator": "SM",
+        "type": "IMPROVE",
+        "word": "ADVANCES",
+        "roles": {
+          "QUANTITY": "#V1018238",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LOCATION": "#V1018275",
+          "LEX": "ADVANCES",
+          "WNSENSE": "enhancement%1:04:00"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018169": {
+        "id": "V1018169",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018238": {
+        "id": "V1018238",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 21,
+        "end": 42
+      },
+      "V1018611": {
+        "id": "V1018611",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018238",
+          "GROUND": "#V1018198",
+          "LEX": "OLD-MAN"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018198": {
+        "id": "V1018198",
+        "indicator": "KIND",
+        "type": "MALE-PERSON",
+        "word": "OLD-MAN",
+        "roles": {
+          "AMOUNT": "40",
+          "ASSOC-WITH": "#V1018202"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018202": {
+        "id": "V1018202",
+        "indicator": "KIND",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018275": {
+        "id": "V1018275",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V1018342",
+          "FIGURE": "#V1018259",
+          "LEX": "IN"
+        },
+        "start": 51,
+        "end": 63
+      },
+      "V1018342": {
+        "id": "V1018342",
+        "indicator": "THE",
+        "type": "REGION-FOR-ACTIVITY",
+        "word": "PARK",
+        "roles": {
+          "LEX": "PARK",
+          "WNSENSE": "park%1:15:00::"
+        },
+        "start": 54,
+        "end": 63
+      },
+      "root": "#V1027550"
+    },
+    {
+      "V1018795": {
+        "id": "V1018795",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018366",
+          "MOD": "#V1018355",
+          "LEX": "HE"
+        },
+        "start": 63,
+        "end": 69
+      },
+      "V1018355": {
+        "id": "V1018355",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "SO",
+        "roles": {
+          "FIGURE": "#V1018795",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:02::"
+        },
+        "start": 63,
+        "end": 66
+      },
+      "V1018366": {
+        "id": "V1018366",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 66,
+        "end": 69
+      },
+      "root": "#V1018795"
+    },
+    {
+      "V1020319": {
+        "id": "V1020319",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018371",
+          "LEX": "SPIT"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018371": {
+        "id": "V1018371",
+        "indicator": "F",
+        "type": "EXPECTORATE",
+        "word": "SPIT",
+        "roles": {
+          "RESULT": "#V1018380",
+          "AFFECTED": "#V1020320",
+          "TENSE": "PRES",
+          "LEX": "SPIT",
+          "WNSENSE": "spit%2:29:00::"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1020320": {
+        "id": "V1020320",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018380": {
+        "id": "V1018380",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1018391",
+          "FIGURE": "#V1020320",
+          "LEX": "AT"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1018391": {
+        "id": "V1018391",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 77,
+        "end": 80
+      },
+      "root": "#V1020319"
+    },
+    {
+      "V1018397": {
+        "id": "V1018397",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "LEX": "AND"
+        },
+        "start": 80,
+        "end": 84
+      },
+      "root": "#V1018397"
+    },
+    {
+      "V1018411": {
+        "id": "V1018411",
+        "indicator": "F",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V1018419",
+          "FORMAL": "#V1019189",
+          "VFORM": "PASTPART",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 84,
+        "end": 111
+      },
+      "V1018419": {
+        "id": "V1018419",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 91,
+        "end": 94
+      },
+      "V1019189": {
+        "id": "V1019189",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018466"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018466": {
+        "id": "V1018466",
+        "indicator": "A",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "VAGINA",
+        "roles": {
+          "MOD": "#V1018463",
+          "LEX": "VAGINA",
+          "WNSENSE": "external_body_part%1:08:00"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018463": {
+        "id": "V1018463",
+        "indicator": "F",
+        "type": "SELFISH-VAL",
+        "word": "SELFISH",
+        "roles": {
+          "FIGURE": "#V1018466",
+          "SCALE": "BEHAVIORAL-SCALE",
+          "LEX": "SELFISH",
+          "WNSENSE": "selfish%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V1018411"
+    },
+    {
+      "V1018831": {
+        "id": "V1018831",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018118",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018118": {
+        "id": "V1018118",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "PROFORM": "LAST",
+          "EXTENT": "(:* YEAR YEAR)",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018104": {
+        "id": "V1018104",
+        "indicator": "F",
+        "type": "LAST-VAL",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V1018118",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "LAST",
+          "WNSENSE": "last%3:00:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V1018831"
+    },
+    {
+      "V1027486": {
+        "id": "V1027486",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018150",
+          "LEX": "REJECTED"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018150": {
+        "id": "V1018150",
+        "indicator": "F",
+        "type": "REJECT",
+        "word": "REJECT",
+        "roles": {
+          "AGENT": "#V1018136",
+          "FORMAL": "#V1027464",
+          "TENSE": "PAST",
+          "LEX": "REJECTED",
+          "WNSENSE": "reject%2:40:00::"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018136": {
+        "id": "V1018136",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 10,
+        "end": 12
+      },
+      "V1027464": {
+        "id": "V1027464",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018258"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018258": {
+        "id": "V1018258",
+        "indicator": "SM",
+        "type": "LEND",
+        "word": "ADVANCES",
+        "roles": {
+          "QUANTITY": "#V1018238",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LOCATION": "#V1018275",
+          "LEX": "ADVANCES",
+          "WNSENSE": "hock%2:40:00"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018169": {
+        "id": "V1018169",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018238": {
+        "id": "V1018238",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 21,
+        "end": 42
+      },
+      "V1018611": {
+        "id": "V1018611",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018238",
+          "GROUND": "#V1018198",
+          "LEX": "OLD-MAN"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018198": {
+        "id": "V1018198",
+        "indicator": "KIND",
+        "type": "MALE-PERSON",
+        "word": "OLD-MAN",
+        "roles": {
+          "AMOUNT": "40",
+          "ASSOC-WITH": "#V1018202"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018202": {
+        "id": "V1018202",
+        "indicator": "KIND",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018275": {
+        "id": "V1018275",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V1018342",
+          "FIGURE": "#V1018258",
+          "LEX": "IN"
+        },
+        "start": 51,
+        "end": 63
+      },
+      "V1018342": {
+        "id": "V1018342",
+        "indicator": "THE",
+        "type": "REGION-FOR-ACTIVITY",
+        "word": "PARK",
+        "roles": {
+          "LEX": "PARK",
+          "WNSENSE": "park%1:15:00::"
+        },
+        "start": 54,
+        "end": 63
+      },
+      "root": "#V1027486"
+    },
+    {
+      "V1018795": {
+        "id": "V1018795",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018366",
+          "MOD": "#V1018355",
+          "LEX": "HE"
+        },
+        "start": 63,
+        "end": 69
+      },
+      "V1018355": {
+        "id": "V1018355",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "SO",
+        "roles": {
+          "FIGURE": "#V1018795",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:02::"
+        },
+        "start": 63,
+        "end": 66
+      },
+      "V1018366": {
+        "id": "V1018366",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 66,
+        "end": 69
+      },
+      "root": "#V1018795"
+    },
+    {
+      "V1020319": {
+        "id": "V1020319",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018371",
+          "LEX": "SPIT"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018371": {
+        "id": "V1018371",
+        "indicator": "F",
+        "type": "EXPECTORATE",
+        "word": "SPIT",
+        "roles": {
+          "RESULT": "#V1018380",
+          "AFFECTED": "#V1020320",
+          "TENSE": "PRES",
+          "LEX": "SPIT",
+          "WNSENSE": "spit%2:29:00::"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1020320": {
+        "id": "V1020320",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018380": {
+        "id": "V1018380",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1018391",
+          "FIGURE": "#V1020320",
+          "LEX": "AT"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1018391": {
+        "id": "V1018391",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 77,
+        "end": 80
+      },
+      "root": "#V1020319"
+    },
+    {
+      "V1018397": {
+        "id": "V1018397",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "LEX": "AND"
+        },
+        "start": 80,
+        "end": 84
+      },
+      "root": "#V1018397"
+    },
+    {
+      "V1018411": {
+        "id": "V1018411",
+        "indicator": "F",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V1018419",
+          "FORMAL": "#V1019189",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 84,
+        "end": 111
+      },
+      "V1018419": {
+        "id": "V1018419",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 91,
+        "end": 94
+      },
+      "V1019189": {
+        "id": "V1019189",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018466"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018466": {
+        "id": "V1018466",
+        "indicator": "A",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "VAGINA",
+        "roles": {
+          "MOD": "#V1018463",
+          "LEX": "VAGINA",
+          "WNSENSE": "external_body_part%1:08:00"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018463": {
+        "id": "V1018463",
+        "indicator": "F",
+        "type": "SELFISH-VAL",
+        "word": "SELFISH",
+        "roles": {
+          "FIGURE": "#V1018466",
+          "SCALE": "BEHAVIORAL-SCALE",
+          "LEX": "SELFISH",
+          "WNSENSE": "selfish%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V1018411"
+    },
+    {
+      "V1018831": {
+        "id": "V1018831",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018118",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018118": {
+        "id": "V1018118",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "PROFORM": "LAST",
+          "EXTENT": "(:* YEAR YEAR)",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018104": {
+        "id": "V1018104",
+        "indicator": "F",
+        "type": "LAST-VAL",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V1018118",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "LAST",
+          "WNSENSE": "last%3:00:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V1018831"
+    },
+    {
+      "V1027486": {
+        "id": "V1027486",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018150",
+          "LEX": "REJECTED"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018150": {
+        "id": "V1018150",
+        "indicator": "F",
+        "type": "REJECT",
+        "word": "REJECT",
+        "roles": {
+          "AGENT": "#V1018136",
+          "FORMAL": "#V1027464",
+          "TENSE": "PAST",
+          "LEX": "REJECTED",
+          "WNSENSE": "reject%2:40:00::"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018136": {
+        "id": "V1018136",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 10,
+        "end": 12
+      },
+      "V1027464": {
+        "id": "V1027464",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018258"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018258": {
+        "id": "V1018258",
+        "indicator": "SM",
+        "type": "LEND",
+        "word": "ADVANCES",
+        "roles": {
+          "QUANTITY": "#V1018238",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LOCATION": "#V1018275",
+          "LEX": "ADVANCES",
+          "WNSENSE": "hock%2:40:00"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018169": {
+        "id": "V1018169",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018238": {
+        "id": "V1018238",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 21,
+        "end": 42
+      },
+      "V1018611": {
+        "id": "V1018611",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018238",
+          "GROUND": "#V1018198",
+          "LEX": "OLD-MAN"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018198": {
+        "id": "V1018198",
+        "indicator": "KIND",
+        "type": "MALE-PERSON",
+        "word": "OLD-MAN",
+        "roles": {
+          "AMOUNT": "40",
+          "ASSOC-WITH": "#V1018202"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018202": {
+        "id": "V1018202",
+        "indicator": "KIND",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018275": {
+        "id": "V1018275",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V1018342",
+          "FIGURE": "#V1018258",
+          "LEX": "IN"
+        },
+        "start": 51,
+        "end": 63
+      },
+      "V1018342": {
+        "id": "V1018342",
+        "indicator": "THE",
+        "type": "REGION-FOR-ACTIVITY",
+        "word": "PARK",
+        "roles": {
+          "LEX": "PARK",
+          "WNSENSE": "park%1:15:00::"
+        },
+        "start": 54,
+        "end": 63
+      },
+      "root": "#V1027486"
+    },
+    {
+      "V1018795": {
+        "id": "V1018795",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018366",
+          "MOD": "#V1018355",
+          "LEX": "HE"
+        },
+        "start": 63,
+        "end": 69
+      },
+      "V1018355": {
+        "id": "V1018355",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "SO",
+        "roles": {
+          "FIGURE": "#V1018795",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:02::"
+        },
+        "start": 63,
+        "end": 66
+      },
+      "V1018366": {
+        "id": "V1018366",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 66,
+        "end": 69
+      },
+      "root": "#V1018795"
+    },
+    {
+      "V1020319": {
+        "id": "V1020319",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018371",
+          "LEX": "SPIT"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018371": {
+        "id": "V1018371",
+        "indicator": "F",
+        "type": "EXPECTORATE",
+        "word": "SPIT",
+        "roles": {
+          "RESULT": "#V1018380",
+          "AFFECTED": "#V1020320",
+          "TENSE": "PRES",
+          "LEX": "SPIT",
+          "WNSENSE": "spit%2:29:00::"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1020320": {
+        "id": "V1020320",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018380": {
+        "id": "V1018380",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1018391",
+          "FIGURE": "#V1020320",
+          "LEX": "AT"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1018391": {
+        "id": "V1018391",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 77,
+        "end": 80
+      },
+      "root": "#V1020319"
+    },
+    {
+      "V1018397": {
+        "id": "V1018397",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "LEX": "AND"
+        },
+        "start": 80,
+        "end": 84
+      },
+      "root": "#V1018397"
+    },
+    {
+      "V1018411": {
+        "id": "V1018411",
+        "indicator": "F",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V1018419",
+          "FORMAL": "#V1019189",
+          "VFORM": "PASTPART",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 84,
+        "end": 111
+      },
+      "V1018419": {
+        "id": "V1018419",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 91,
+        "end": 94
+      },
+      "V1019189": {
+        "id": "V1019189",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018466"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018466": {
+        "id": "V1018466",
+        "indicator": "A",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "VAGINA",
+        "roles": {
+          "MOD": "#V1018463",
+          "LEX": "VAGINA",
+          "WNSENSE": "external_body_part%1:08:00"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018463": {
+        "id": "V1018463",
+        "indicator": "F",
+        "type": "SELFISH-VAL",
+        "word": "SELFISH",
+        "roles": {
+          "FIGURE": "#V1018466",
+          "SCALE": "BEHAVIORAL-SCALE",
+          "LEX": "SELFISH",
+          "WNSENSE": "selfish%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V1018411"
+    },
+    {
+      "V1018831": {
+        "id": "V1018831",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018118",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018118": {
+        "id": "V1018118",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "PROFORM": "LAST",
+          "EXTENT": "(:* YEAR YEAR)",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018104": {
+        "id": "V1018104",
+        "indicator": "F",
+        "type": "LAST-VAL",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V1018118",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "LAST",
+          "WNSENSE": "last%3:00:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V1018831"
+    },
+    {
+      "V1027483": {
+        "id": "V1027483",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018152",
+          "LEX": "REJECTED"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018152": {
+        "id": "V1018152",
+        "indicator": "F",
+        "type": "REFUTE",
+        "word": "REJECT",
+        "roles": {
+          "NEUTRAL": "#V1018136",
+          "NEUTRAL1": "#V1027464",
+          "TENSE": "PAST",
+          "LEX": "REJECTED",
+          "WNSENSE": "refute%2:32:00::"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018136": {
+        "id": "V1018136",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 10,
+        "end": 12
+      },
+      "V1027464": {
+        "id": "V1027464",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018258"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018258": {
+        "id": "V1018258",
+        "indicator": "SM",
+        "type": "LEND",
+        "word": "ADVANCES",
+        "roles": {
+          "QUANTITY": "#V1018238",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LOCATION": "#V1018275",
+          "LEX": "ADVANCES",
+          "WNSENSE": "hock%2:40:00"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018169": {
+        "id": "V1018169",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018238": {
+        "id": "V1018238",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 21,
+        "end": 42
+      },
+      "V1018611": {
+        "id": "V1018611",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018238",
+          "GROUND": "#V1018198",
+          "LEX": "OLD-MAN"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018198": {
+        "id": "V1018198",
+        "indicator": "KIND",
+        "type": "MALE-PERSON",
+        "word": "OLD-MAN",
+        "roles": {
+          "AMOUNT": "40",
+          "ASSOC-WITH": "#V1018202"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018202": {
+        "id": "V1018202",
+        "indicator": "KIND",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018275": {
+        "id": "V1018275",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V1018342",
+          "FIGURE": "#V1018258",
+          "LEX": "IN"
+        },
+        "start": 51,
+        "end": 63
+      },
+      "V1018342": {
+        "id": "V1018342",
+        "indicator": "THE",
+        "type": "REGION-FOR-ACTIVITY",
+        "word": "PARK",
+        "roles": {
+          "LEX": "PARK",
+          "WNSENSE": "park%1:15:00::"
+        },
+        "start": 54,
+        "end": 63
+      },
+      "root": "#V1027483"
+    },
+    {
+      "V1018795": {
+        "id": "V1018795",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018366",
+          "MOD": "#V1018355",
+          "LEX": "HE"
+        },
+        "start": 63,
+        "end": 69
+      },
+      "V1018355": {
+        "id": "V1018355",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "SO",
+        "roles": {
+          "FIGURE": "#V1018795",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:02::"
+        },
+        "start": 63,
+        "end": 66
+      },
+      "V1018366": {
+        "id": "V1018366",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 66,
+        "end": 69
+      },
+      "root": "#V1018795"
+    },
+    {
+      "V1020319": {
+        "id": "V1020319",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018371",
+          "LEX": "SPIT"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018371": {
+        "id": "V1018371",
+        "indicator": "F",
+        "type": "EXPECTORATE",
+        "word": "SPIT",
+        "roles": {
+          "RESULT": "#V1018380",
+          "AFFECTED": "#V1020320",
+          "TENSE": "PRES",
+          "LEX": "SPIT",
+          "WNSENSE": "spit%2:29:00::"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1020320": {
+        "id": "V1020320",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018380": {
+        "id": "V1018380",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1018391",
+          "FIGURE": "#V1020320",
+          "LEX": "AT"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1018391": {
+        "id": "V1018391",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 77,
+        "end": 80
+      },
+      "root": "#V1020319"
+    },
+    {
+      "V1018397": {
+        "id": "V1018397",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "LEX": "AND"
+        },
+        "start": 80,
+        "end": 84
+      },
+      "root": "#V1018397"
+    },
+    {
+      "V1018411": {
+        "id": "V1018411",
+        "indicator": "F",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V1018419",
+          "FORMAL": "#V1019189",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 84,
+        "end": 111
+      },
+      "V1018419": {
+        "id": "V1018419",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 91,
+        "end": 94
+      },
+      "V1019189": {
+        "id": "V1019189",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018466"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018466": {
+        "id": "V1018466",
+        "indicator": "A",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "VAGINA",
+        "roles": {
+          "MOD": "#V1018463",
+          "LEX": "VAGINA",
+          "WNSENSE": "external_body_part%1:08:00"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018463": {
+        "id": "V1018463",
+        "indicator": "F",
+        "type": "SELFISH-VAL",
+        "word": "SELFISH",
+        "roles": {
+          "FIGURE": "#V1018466",
+          "SCALE": "BEHAVIORAL-SCALE",
+          "LEX": "SELFISH",
+          "WNSENSE": "selfish%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V1018411"
+    },
+    {
+      "V1018831": {
+        "id": "V1018831",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018118",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018118": {
+        "id": "V1018118",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "PROFORM": "LAST",
+          "EXTENT": "(:* YEAR YEAR)",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018104": {
+        "id": "V1018104",
+        "indicator": "F",
+        "type": "LAST-VAL",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V1018118",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "LAST",
+          "WNSENSE": "last%3:00:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V1018831"
+    },
+    {
+      "V1027483": {
+        "id": "V1027483",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018152",
+          "LEX": "REJECTED"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018152": {
+        "id": "V1018152",
+        "indicator": "F",
+        "type": "REFUTE",
+        "word": "REJECT",
+        "roles": {
+          "NEUTRAL": "#V1018136",
+          "NEUTRAL1": "#V1027464",
+          "TENSE": "PAST",
+          "LEX": "REJECTED",
+          "WNSENSE": "refute%2:32:00::"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018136": {
+        "id": "V1018136",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 10,
+        "end": 12
+      },
+      "V1027464": {
+        "id": "V1027464",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018258"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018258": {
+        "id": "V1018258",
+        "indicator": "SM",
+        "type": "LEND",
+        "word": "ADVANCES",
+        "roles": {
+          "QUANTITY": "#V1018238",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LOCATION": "#V1018275",
+          "LEX": "ADVANCES",
+          "WNSENSE": "hock%2:40:00"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018169": {
+        "id": "V1018169",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018238": {
+        "id": "V1018238",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 21,
+        "end": 42
+      },
+      "V1018611": {
+        "id": "V1018611",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018238",
+          "GROUND": "#V1018198",
+          "LEX": "OLD-MAN"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018198": {
+        "id": "V1018198",
+        "indicator": "KIND",
+        "type": "MALE-PERSON",
+        "word": "OLD-MAN",
+        "roles": {
+          "AMOUNT": "40",
+          "ASSOC-WITH": "#V1018202"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018202": {
+        "id": "V1018202",
+        "indicator": "KIND",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018275": {
+        "id": "V1018275",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V1018342",
+          "FIGURE": "#V1018258",
+          "LEX": "IN"
+        },
+        "start": 51,
+        "end": 63
+      },
+      "V1018342": {
+        "id": "V1018342",
+        "indicator": "THE",
+        "type": "REGION-FOR-ACTIVITY",
+        "word": "PARK",
+        "roles": {
+          "LEX": "PARK",
+          "WNSENSE": "park%1:15:00::"
+        },
+        "start": 54,
+        "end": 63
+      },
+      "root": "#V1027483"
+    },
+    {
+      "V1018795": {
+        "id": "V1018795",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018366",
+          "MOD": "#V1018355",
+          "LEX": "HE"
+        },
+        "start": 63,
+        "end": 69
+      },
+      "V1018355": {
+        "id": "V1018355",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "SO",
+        "roles": {
+          "FIGURE": "#V1018795",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:02::"
+        },
+        "start": 63,
+        "end": 66
+      },
+      "V1018366": {
+        "id": "V1018366",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 66,
+        "end": 69
+      },
+      "root": "#V1018795"
+    },
+    {
+      "V1020319": {
+        "id": "V1020319",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018371",
+          "LEX": "SPIT"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018371": {
+        "id": "V1018371",
+        "indicator": "F",
+        "type": "EXPECTORATE",
+        "word": "SPIT",
+        "roles": {
+          "RESULT": "#V1018380",
+          "AFFECTED": "#V1020320",
+          "TENSE": "PRES",
+          "LEX": "SPIT",
+          "WNSENSE": "spit%2:29:00::"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1020320": {
+        "id": "V1020320",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018380": {
+        "id": "V1018380",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1018391",
+          "FIGURE": "#V1020320",
+          "LEX": "AT"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1018391": {
+        "id": "V1018391",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 77,
+        "end": 80
+      },
+      "root": "#V1020319"
+    },
+    {
+      "V1018397": {
+        "id": "V1018397",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "LEX": "AND"
+        },
+        "start": 80,
+        "end": 84
+      },
+      "root": "#V1018397"
+    },
+    {
+      "V1018411": {
+        "id": "V1018411",
+        "indicator": "F",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V1018419",
+          "FORMAL": "#V1019189",
+          "VFORM": "PASTPART",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 84,
+        "end": 111
+      },
+      "V1018419": {
+        "id": "V1018419",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 91,
+        "end": 94
+      },
+      "V1019189": {
+        "id": "V1019189",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018466"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018466": {
+        "id": "V1018466",
+        "indicator": "A",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "VAGINA",
+        "roles": {
+          "MOD": "#V1018463",
+          "LEX": "VAGINA",
+          "WNSENSE": "external_body_part%1:08:00"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018463": {
+        "id": "V1018463",
+        "indicator": "F",
+        "type": "SELFISH-VAL",
+        "word": "SELFISH",
+        "roles": {
+          "FIGURE": "#V1018466",
+          "SCALE": "BEHAVIORAL-SCALE",
+          "LEX": "SELFISH",
+          "WNSENSE": "selfish%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V1018411"
+    },
+    {
+      "V1018831": {
+        "id": "V1018831",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018118",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018118": {
+        "id": "V1018118",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "PROFORM": "LAST",
+          "EXTENT": "(:* YEAR YEAR)",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018104": {
+        "id": "V1018104",
+        "indicator": "F",
+        "type": "LAST-VAL",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V1018118",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "LAST",
+          "WNSENSE": "last%3:00:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V1018831"
+    },
+    {
+      "V1027419": {
+        "id": "V1027419",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018150",
+          "LEX": "REJECTED"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018150": {
+        "id": "V1018150",
+        "indicator": "F",
+        "type": "REJECT",
+        "word": "REJECT",
+        "roles": {
+          "AGENT": "#V1018136",
+          "FORMAL": "#V1027397",
+          "TENSE": "PAST",
+          "LEX": "REJECTED",
+          "WNSENSE": "reject%2:40:00::"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018136": {
+        "id": "V1018136",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 10,
+        "end": 12
+      },
+      "V1027397": {
+        "id": "V1027397",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018257"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018257": {
+        "id": "V1018257",
+        "indicator": "SM",
+        "type": "MOVE-FORWARD",
+        "word": "ADVANCES",
+        "roles": {
+          "QUANTITY": "#V1018238",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "RESULT": "#V1018275",
+          "LEX": "ADVANCES",
+          "WNSENSE": "progress%2:38:00"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018169": {
+        "id": "V1018169",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018238": {
+        "id": "V1018238",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 21,
+        "end": 42
+      },
+      "V1018611": {
+        "id": "V1018611",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018238",
+          "GROUND": "#V1018198",
+          "LEX": "OLD-MAN"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018198": {
+        "id": "V1018198",
+        "indicator": "KIND",
+        "type": "MALE-PERSON",
+        "word": "OLD-MAN",
+        "roles": {
+          "AMOUNT": "40",
+          "ASSOC-WITH": "#V1018202"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018202": {
+        "id": "V1018202",
+        "indicator": "KIND",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018275": {
+        "id": "V1018275",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V1018342",
+          "FIGURE": "#V1018257",
+          "LEX": "IN"
+        },
+        "start": 51,
+        "end": 63
+      },
+      "V1018342": {
+        "id": "V1018342",
+        "indicator": "THE",
+        "type": "REGION-FOR-ACTIVITY",
+        "word": "PARK",
+        "roles": {
+          "LEX": "PARK",
+          "WNSENSE": "park%1:15:00::"
+        },
+        "start": 54,
+        "end": 63
+      },
+      "root": "#V1027419"
+    },
+    {
+      "V1018795": {
+        "id": "V1018795",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018366",
+          "MOD": "#V1018355",
+          "LEX": "HE"
+        },
+        "start": 63,
+        "end": 69
+      },
+      "V1018355": {
+        "id": "V1018355",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "SO",
+        "roles": {
+          "FIGURE": "#V1018795",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:02::"
+        },
+        "start": 63,
+        "end": 66
+      },
+      "V1018366": {
+        "id": "V1018366",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 66,
+        "end": 69
+      },
+      "root": "#V1018795"
+    },
+    {
+      "V1020319": {
+        "id": "V1020319",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018371",
+          "LEX": "SPIT"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018371": {
+        "id": "V1018371",
+        "indicator": "F",
+        "type": "EXPECTORATE",
+        "word": "SPIT",
+        "roles": {
+          "RESULT": "#V1018380",
+          "AFFECTED": "#V1020320",
+          "TENSE": "PRES",
+          "LEX": "SPIT",
+          "WNSENSE": "spit%2:29:00::"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1020320": {
+        "id": "V1020320",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018380": {
+        "id": "V1018380",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1018391",
+          "FIGURE": "#V1020320",
+          "LEX": "AT"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1018391": {
+        "id": "V1018391",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 77,
+        "end": 80
+      },
+      "root": "#V1020319"
+    },
+    {
+      "V1018397": {
+        "id": "V1018397",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "LEX": "AND"
+        },
+        "start": 80,
+        "end": 84
+      },
+      "root": "#V1018397"
+    },
+    {
+      "V1018411": {
+        "id": "V1018411",
+        "indicator": "F",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V1018419",
+          "FORMAL": "#V1019189",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 84,
+        "end": 111
+      },
+      "V1018419": {
+        "id": "V1018419",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 91,
+        "end": 94
+      },
+      "V1019189": {
+        "id": "V1019189",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018466"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018466": {
+        "id": "V1018466",
+        "indicator": "A",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "VAGINA",
+        "roles": {
+          "MOD": "#V1018463",
+          "LEX": "VAGINA",
+          "WNSENSE": "external_body_part%1:08:00"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018463": {
+        "id": "V1018463",
+        "indicator": "F",
+        "type": "SELFISH-VAL",
+        "word": "SELFISH",
+        "roles": {
+          "FIGURE": "#V1018466",
+          "SCALE": "BEHAVIORAL-SCALE",
+          "LEX": "SELFISH",
+          "WNSENSE": "selfish%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V1018411"
+    },
+    {
+      "V1018831": {
+        "id": "V1018831",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018118",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018118": {
+        "id": "V1018118",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "PROFORM": "LAST",
+          "EXTENT": "(:* YEAR YEAR)",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018104": {
+        "id": "V1018104",
+        "indicator": "F",
+        "type": "LAST-VAL",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V1018118",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "LAST",
+          "WNSENSE": "last%3:00:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V1018831"
+    },
+    {
+      "V1027419": {
+        "id": "V1027419",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018150",
+          "LEX": "REJECTED"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018150": {
+        "id": "V1018150",
+        "indicator": "F",
+        "type": "REJECT",
+        "word": "REJECT",
+        "roles": {
+          "AGENT": "#V1018136",
+          "FORMAL": "#V1027397",
+          "TENSE": "PAST",
+          "LEX": "REJECTED",
+          "WNSENSE": "reject%2:40:00::"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018136": {
+        "id": "V1018136",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 10,
+        "end": 12
+      },
+      "V1027397": {
+        "id": "V1027397",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018257"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018257": {
+        "id": "V1018257",
+        "indicator": "SM",
+        "type": "MOVE-FORWARD",
+        "word": "ADVANCES",
+        "roles": {
+          "QUANTITY": "#V1018238",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "RESULT": "#V1018275",
+          "LEX": "ADVANCES",
+          "WNSENSE": "progress%2:38:00"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018169": {
+        "id": "V1018169",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018238": {
+        "id": "V1018238",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 21,
+        "end": 42
+      },
+      "V1018611": {
+        "id": "V1018611",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018238",
+          "GROUND": "#V1018198",
+          "LEX": "OLD-MAN"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018198": {
+        "id": "V1018198",
+        "indicator": "KIND",
+        "type": "MALE-PERSON",
+        "word": "OLD-MAN",
+        "roles": {
+          "AMOUNT": "40",
+          "ASSOC-WITH": "#V1018202"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018202": {
+        "id": "V1018202",
+        "indicator": "KIND",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018275": {
+        "id": "V1018275",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V1018342",
+          "FIGURE": "#V1018257",
+          "LEX": "IN"
+        },
+        "start": 51,
+        "end": 63
+      },
+      "V1018342": {
+        "id": "V1018342",
+        "indicator": "THE",
+        "type": "REGION-FOR-ACTIVITY",
+        "word": "PARK",
+        "roles": {
+          "LEX": "PARK",
+          "WNSENSE": "park%1:15:00::"
+        },
+        "start": 54,
+        "end": 63
+      },
+      "root": "#V1027419"
+    },
+    {
+      "V1018795": {
+        "id": "V1018795",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018366",
+          "MOD": "#V1018355",
+          "LEX": "HE"
+        },
+        "start": 63,
+        "end": 69
+      },
+      "V1018355": {
+        "id": "V1018355",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "SO",
+        "roles": {
+          "FIGURE": "#V1018795",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:02::"
+        },
+        "start": 63,
+        "end": 66
+      },
+      "V1018366": {
+        "id": "V1018366",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 66,
+        "end": 69
+      },
+      "root": "#V1018795"
+    },
+    {
+      "V1020319": {
+        "id": "V1020319",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018371",
+          "LEX": "SPIT"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018371": {
+        "id": "V1018371",
+        "indicator": "F",
+        "type": "EXPECTORATE",
+        "word": "SPIT",
+        "roles": {
+          "RESULT": "#V1018380",
+          "AFFECTED": "#V1020320",
+          "TENSE": "PRES",
+          "LEX": "SPIT",
+          "WNSENSE": "spit%2:29:00::"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1020320": {
+        "id": "V1020320",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018380": {
+        "id": "V1018380",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1018391",
+          "FIGURE": "#V1020320",
+          "LEX": "AT"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1018391": {
+        "id": "V1018391",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 77,
+        "end": 80
+      },
+      "root": "#V1020319"
+    },
+    {
+      "V1018397": {
+        "id": "V1018397",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "LEX": "AND"
+        },
+        "start": 80,
+        "end": 84
+      },
+      "root": "#V1018397"
+    },
+    {
+      "V1018411": {
+        "id": "V1018411",
+        "indicator": "F",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V1018419",
+          "FORMAL": "#V1019189",
+          "VFORM": "PASTPART",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 84,
+        "end": 111
+      },
+      "V1018419": {
+        "id": "V1018419",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 91,
+        "end": 94
+      },
+      "V1019189": {
+        "id": "V1019189",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018466"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018466": {
+        "id": "V1018466",
+        "indicator": "A",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "VAGINA",
+        "roles": {
+          "MOD": "#V1018463",
+          "LEX": "VAGINA",
+          "WNSENSE": "external_body_part%1:08:00"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018463": {
+        "id": "V1018463",
+        "indicator": "F",
+        "type": "SELFISH-VAL",
+        "word": "SELFISH",
+        "roles": {
+          "FIGURE": "#V1018466",
+          "SCALE": "BEHAVIORAL-SCALE",
+          "LEX": "SELFISH",
+          "WNSENSE": "selfish%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V1018411"
+    },
+    {
+      "V1018831": {
+        "id": "V1018831",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018118",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018118": {
+        "id": "V1018118",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "PROFORM": "LAST",
+          "EXTENT": "(:* YEAR YEAR)",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018104": {
+        "id": "V1018104",
+        "indicator": "F",
+        "type": "LAST-VAL",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V1018118",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "LAST",
+          "WNSENSE": "last%3:00:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V1018831"
+    },
+    {
+      "V1027416": {
+        "id": "V1027416",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018152",
+          "LEX": "REJECTED"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018152": {
+        "id": "V1018152",
+        "indicator": "F",
+        "type": "REFUTE",
+        "word": "REJECT",
+        "roles": {
+          "NEUTRAL": "#V1018136",
+          "NEUTRAL1": "#V1027397",
+          "TENSE": "PAST",
+          "LEX": "REJECTED",
+          "WNSENSE": "refute%2:32:00::"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018136": {
+        "id": "V1018136",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 10,
+        "end": 12
+      },
+      "V1027397": {
+        "id": "V1027397",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018257"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018257": {
+        "id": "V1018257",
+        "indicator": "SM",
+        "type": "MOVE-FORWARD",
+        "word": "ADVANCES",
+        "roles": {
+          "QUANTITY": "#V1018238",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "RESULT": "#V1018275",
+          "LEX": "ADVANCES",
+          "WNSENSE": "progress%2:38:00"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018169": {
+        "id": "V1018169",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018238": {
+        "id": "V1018238",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 21,
+        "end": 42
+      },
+      "V1018611": {
+        "id": "V1018611",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018238",
+          "GROUND": "#V1018198",
+          "LEX": "OLD-MAN"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018198": {
+        "id": "V1018198",
+        "indicator": "KIND",
+        "type": "MALE-PERSON",
+        "word": "OLD-MAN",
+        "roles": {
+          "AMOUNT": "40",
+          "ASSOC-WITH": "#V1018202"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018202": {
+        "id": "V1018202",
+        "indicator": "KIND",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018275": {
+        "id": "V1018275",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V1018342",
+          "FIGURE": "#V1018257",
+          "LEX": "IN"
+        },
+        "start": 51,
+        "end": 63
+      },
+      "V1018342": {
+        "id": "V1018342",
+        "indicator": "THE",
+        "type": "REGION-FOR-ACTIVITY",
+        "word": "PARK",
+        "roles": {
+          "LEX": "PARK",
+          "WNSENSE": "park%1:15:00::"
+        },
+        "start": 54,
+        "end": 63
+      },
+      "root": "#V1027416"
+    },
+    {
+      "V1018795": {
+        "id": "V1018795",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018366",
+          "MOD": "#V1018355",
+          "LEX": "HE"
+        },
+        "start": 63,
+        "end": 69
+      },
+      "V1018355": {
+        "id": "V1018355",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "SO",
+        "roles": {
+          "FIGURE": "#V1018795",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:02::"
+        },
+        "start": 63,
+        "end": 66
+      },
+      "V1018366": {
+        "id": "V1018366",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 66,
+        "end": 69
+      },
+      "root": "#V1018795"
+    },
+    {
+      "V1020319": {
+        "id": "V1020319",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018371",
+          "LEX": "SPIT"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018371": {
+        "id": "V1018371",
+        "indicator": "F",
+        "type": "EXPECTORATE",
+        "word": "SPIT",
+        "roles": {
+          "RESULT": "#V1018380",
+          "AFFECTED": "#V1020320",
+          "TENSE": "PRES",
+          "LEX": "SPIT",
+          "WNSENSE": "spit%2:29:00::"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1020320": {
+        "id": "V1020320",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018380": {
+        "id": "V1018380",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1018391",
+          "FIGURE": "#V1020320",
+          "LEX": "AT"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1018391": {
+        "id": "V1018391",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 77,
+        "end": 80
+      },
+      "root": "#V1020319"
+    },
+    {
+      "V1018397": {
+        "id": "V1018397",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "LEX": "AND"
+        },
+        "start": 80,
+        "end": 84
+      },
+      "root": "#V1018397"
+    },
+    {
+      "V1018411": {
+        "id": "V1018411",
+        "indicator": "F",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V1018419",
+          "FORMAL": "#V1019189",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 84,
+        "end": 111
+      },
+      "V1018419": {
+        "id": "V1018419",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 91,
+        "end": 94
+      },
+      "V1019189": {
+        "id": "V1019189",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018466"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018466": {
+        "id": "V1018466",
+        "indicator": "A",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "VAGINA",
+        "roles": {
+          "MOD": "#V1018463",
+          "LEX": "VAGINA",
+          "WNSENSE": "external_body_part%1:08:00"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018463": {
+        "id": "V1018463",
+        "indicator": "F",
+        "type": "SELFISH-VAL",
+        "word": "SELFISH",
+        "roles": {
+          "FIGURE": "#V1018466",
+          "SCALE": "BEHAVIORAL-SCALE",
+          "LEX": "SELFISH",
+          "WNSENSE": "selfish%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V1018411"
+    },
+    {
+      "V1018831": {
+        "id": "V1018831",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018118",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018118": {
+        "id": "V1018118",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "PROFORM": "LAST",
+          "EXTENT": "(:* YEAR YEAR)",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018104": {
+        "id": "V1018104",
+        "indicator": "F",
+        "type": "LAST-VAL",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V1018118",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "LAST",
+          "WNSENSE": "last%3:00:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V1018831"
+    },
+    {
+      "V1027416": {
+        "id": "V1027416",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018152",
+          "LEX": "REJECTED"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018152": {
+        "id": "V1018152",
+        "indicator": "F",
+        "type": "REFUTE",
+        "word": "REJECT",
+        "roles": {
+          "NEUTRAL": "#V1018136",
+          "NEUTRAL1": "#V1027397",
+          "TENSE": "PAST",
+          "LEX": "REJECTED",
+          "WNSENSE": "refute%2:32:00::"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018136": {
+        "id": "V1018136",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 10,
+        "end": 12
+      },
+      "V1027397": {
+        "id": "V1027397",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018257"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018257": {
+        "id": "V1018257",
+        "indicator": "SM",
+        "type": "MOVE-FORWARD",
+        "word": "ADVANCES",
+        "roles": {
+          "QUANTITY": "#V1018238",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "RESULT": "#V1018275",
+          "LEX": "ADVANCES",
+          "WNSENSE": "progress%2:38:00"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018169": {
+        "id": "V1018169",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018238": {
+        "id": "V1018238",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 21,
+        "end": 42
+      },
+      "V1018611": {
+        "id": "V1018611",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018238",
+          "GROUND": "#V1018198",
+          "LEX": "OLD-MAN"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018198": {
+        "id": "V1018198",
+        "indicator": "KIND",
+        "type": "MALE-PERSON",
+        "word": "OLD-MAN",
+        "roles": {
+          "AMOUNT": "40",
+          "ASSOC-WITH": "#V1018202"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018202": {
+        "id": "V1018202",
+        "indicator": "KIND",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018275": {
+        "id": "V1018275",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V1018342",
+          "FIGURE": "#V1018257",
+          "LEX": "IN"
+        },
+        "start": 51,
+        "end": 63
+      },
+      "V1018342": {
+        "id": "V1018342",
+        "indicator": "THE",
+        "type": "REGION-FOR-ACTIVITY",
+        "word": "PARK",
+        "roles": {
+          "LEX": "PARK",
+          "WNSENSE": "park%1:15:00::"
+        },
+        "start": 54,
+        "end": 63
+      },
+      "root": "#V1027416"
+    },
+    {
+      "V1018795": {
+        "id": "V1018795",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018366",
+          "MOD": "#V1018355",
+          "LEX": "HE"
+        },
+        "start": 63,
+        "end": 69
+      },
+      "V1018355": {
+        "id": "V1018355",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "SO",
+        "roles": {
+          "FIGURE": "#V1018795",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:02::"
+        },
+        "start": 63,
+        "end": 66
+      },
+      "V1018366": {
+        "id": "V1018366",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 66,
+        "end": 69
+      },
+      "root": "#V1018795"
+    },
+    {
+      "V1020319": {
+        "id": "V1020319",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018371",
+          "LEX": "SPIT"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018371": {
+        "id": "V1018371",
+        "indicator": "F",
+        "type": "EXPECTORATE",
+        "word": "SPIT",
+        "roles": {
+          "RESULT": "#V1018380",
+          "AFFECTED": "#V1020320",
+          "TENSE": "PRES",
+          "LEX": "SPIT",
+          "WNSENSE": "spit%2:29:00::"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1020320": {
+        "id": "V1020320",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018380": {
+        "id": "V1018380",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1018391",
+          "FIGURE": "#V1020320",
+          "LEX": "AT"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1018391": {
+        "id": "V1018391",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 77,
+        "end": 80
+      },
+      "root": "#V1020319"
+    },
+    {
+      "V1018397": {
+        "id": "V1018397",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "LEX": "AND"
+        },
+        "start": 80,
+        "end": 84
+      },
+      "root": "#V1018397"
+    },
+    {
+      "V1018411": {
+        "id": "V1018411",
+        "indicator": "F",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V1018419",
+          "FORMAL": "#V1019189",
+          "VFORM": "PASTPART",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 84,
+        "end": 111
+      },
+      "V1018419": {
+        "id": "V1018419",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 91,
+        "end": 94
+      },
+      "V1019189": {
+        "id": "V1019189",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018466"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018466": {
+        "id": "V1018466",
+        "indicator": "A",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "VAGINA",
+        "roles": {
+          "MOD": "#V1018463",
+          "LEX": "VAGINA",
+          "WNSENSE": "external_body_part%1:08:00"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018463": {
+        "id": "V1018463",
+        "indicator": "F",
+        "type": "SELFISH-VAL",
+        "word": "SELFISH",
+        "roles": {
+          "FIGURE": "#V1018466",
+          "SCALE": "BEHAVIORAL-SCALE",
+          "LEX": "SELFISH",
+          "WNSENSE": "selfish%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V1018411"
+    },
+    {
+      "V1018831": {
+        "id": "V1018831",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018118",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018118": {
+        "id": "V1018118",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "PROFORM": "LAST",
+          "EXTENT": "(:* YEAR YEAR)",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018104": {
+        "id": "V1018104",
+        "indicator": "F",
+        "type": "LAST-VAL",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V1018118",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "LAST",
+          "WNSENSE": "last%3:00:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V1018831"
+    },
+    {
+      "V1026732": {
+        "id": "V1026732",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018150",
+          "LEX": "REJECTED"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018150": {
+        "id": "V1018150",
+        "indicator": "F",
+        "type": "REJECT",
+        "word": "REJECT",
+        "roles": {
+          "AGENT": "#V1018136",
+          "FORMAL": "#V1026710",
+          "TENSE": "PAST",
+          "LEX": "REJECTED",
+          "WNSENSE": "reject%2:40:00::"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018136": {
+        "id": "V1018136",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 10,
+        "end": 12
+      },
+      "V1026710": {
+        "id": "V1026710",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018260"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018260": {
+        "id": "V1018260",
+        "indicator": "SM",
+        "type": "SUGGEST",
+        "word": "ADVANCES",
+        "roles": {
+          "QUANTITY": "#V1018239",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LOCATION": "#V1018275",
+          "LEX": "ADVANCES",
+          "WNSENSE": "advise%2:32:02"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018169": {
+        "id": "V1018169",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018239": {
+        "id": "V1018239",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 21,
+        "end": 42
+      },
+      "V1018611": {
+        "id": "V1018611",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018239",
+          "GROUND": "#V1018198",
+          "LEX": "OLD-MAN"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018198": {
+        "id": "V1018198",
+        "indicator": "KIND",
+        "type": "MALE-PERSON",
+        "word": "OLD-MAN",
+        "roles": {
+          "AMOUNT": "40",
+          "ASSOC-WITH": "#V1018202"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018202": {
+        "id": "V1018202",
+        "indicator": "KIND",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018275": {
+        "id": "V1018275",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V1018342",
+          "FIGURE": "#V1018260",
+          "LEX": "IN"
+        },
+        "start": 51,
+        "end": 63
+      },
+      "V1018342": {
+        "id": "V1018342",
+        "indicator": "THE",
+        "type": "REGION-FOR-ACTIVITY",
+        "word": "PARK",
+        "roles": {
+          "LEX": "PARK",
+          "WNSENSE": "park%1:15:00::"
+        },
+        "start": 54,
+        "end": 63
+      },
+      "root": "#V1026732"
+    },
+    {
+      "V1018795": {
+        "id": "V1018795",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018366",
+          "MOD": "#V1018355",
+          "LEX": "HE"
+        },
+        "start": 63,
+        "end": 69
+      },
+      "V1018355": {
+        "id": "V1018355",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "SO",
+        "roles": {
+          "FIGURE": "#V1018795",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:02::"
+        },
+        "start": 63,
+        "end": 66
+      },
+      "V1018366": {
+        "id": "V1018366",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 66,
+        "end": 69
+      },
+      "root": "#V1018795"
+    },
+    {
+      "V1020319": {
+        "id": "V1020319",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018371",
+          "LEX": "SPIT"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018371": {
+        "id": "V1018371",
+        "indicator": "F",
+        "type": "EXPECTORATE",
+        "word": "SPIT",
+        "roles": {
+          "RESULT": "#V1018380",
+          "AFFECTED": "#V1020320",
+          "TENSE": "PRES",
+          "LEX": "SPIT",
+          "WNSENSE": "spit%2:29:00::"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1020320": {
+        "id": "V1020320",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018380": {
+        "id": "V1018380",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1018391",
+          "FIGURE": "#V1020320",
+          "LEX": "AT"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1018391": {
+        "id": "V1018391",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 77,
+        "end": 80
+      },
+      "root": "#V1020319"
+    },
+    {
+      "V1018397": {
+        "id": "V1018397",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "LEX": "AND"
+        },
+        "start": 80,
+        "end": 84
+      },
+      "root": "#V1018397"
+    },
+    {
+      "V1018411": {
+        "id": "V1018411",
+        "indicator": "F",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V1018419",
+          "FORMAL": "#V1019189",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 84,
+        "end": 111
+      },
+      "V1018419": {
+        "id": "V1018419",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 91,
+        "end": 94
+      },
+      "V1019189": {
+        "id": "V1019189",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018466"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018466": {
+        "id": "V1018466",
+        "indicator": "A",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "VAGINA",
+        "roles": {
+          "MOD": "#V1018463",
+          "LEX": "VAGINA",
+          "WNSENSE": "external_body_part%1:08:00"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018463": {
+        "id": "V1018463",
+        "indicator": "F",
+        "type": "SELFISH-VAL",
+        "word": "SELFISH",
+        "roles": {
+          "FIGURE": "#V1018466",
+          "SCALE": "BEHAVIORAL-SCALE",
+          "LEX": "SELFISH",
+          "WNSENSE": "selfish%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V1018411"
+    },
+    {
+      "V1018831": {
+        "id": "V1018831",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018118",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018118": {
+        "id": "V1018118",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "PROFORM": "LAST",
+          "EXTENT": "(:* YEAR YEAR)",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018104": {
+        "id": "V1018104",
+        "indicator": "F",
+        "type": "LAST-VAL",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V1018118",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "LAST",
+          "WNSENSE": "last%3:00:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V1018831"
+    },
+    {
+      "V1026732": {
+        "id": "V1026732",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018150",
+          "LEX": "REJECTED"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018150": {
+        "id": "V1018150",
+        "indicator": "F",
+        "type": "REJECT",
+        "word": "REJECT",
+        "roles": {
+          "AGENT": "#V1018136",
+          "FORMAL": "#V1026710",
+          "TENSE": "PAST",
+          "LEX": "REJECTED",
+          "WNSENSE": "reject%2:40:00::"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018136": {
+        "id": "V1018136",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 10,
+        "end": 12
+      },
+      "V1026710": {
+        "id": "V1026710",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018260"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018260": {
+        "id": "V1018260",
+        "indicator": "SM",
+        "type": "SUGGEST",
+        "word": "ADVANCES",
+        "roles": {
+          "QUANTITY": "#V1018239",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LOCATION": "#V1018275",
+          "LEX": "ADVANCES",
+          "WNSENSE": "advise%2:32:02"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018169": {
+        "id": "V1018169",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018239": {
+        "id": "V1018239",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 21,
+        "end": 42
+      },
+      "V1018611": {
+        "id": "V1018611",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018239",
+          "GROUND": "#V1018198",
+          "LEX": "OLD-MAN"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018198": {
+        "id": "V1018198",
+        "indicator": "KIND",
+        "type": "MALE-PERSON",
+        "word": "OLD-MAN",
+        "roles": {
+          "AMOUNT": "40",
+          "ASSOC-WITH": "#V1018202"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018202": {
+        "id": "V1018202",
+        "indicator": "KIND",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018275": {
+        "id": "V1018275",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V1018342",
+          "FIGURE": "#V1018260",
+          "LEX": "IN"
+        },
+        "start": 51,
+        "end": 63
+      },
+      "V1018342": {
+        "id": "V1018342",
+        "indicator": "THE",
+        "type": "REGION-FOR-ACTIVITY",
+        "word": "PARK",
+        "roles": {
+          "LEX": "PARK",
+          "WNSENSE": "park%1:15:00::"
+        },
+        "start": 54,
+        "end": 63
+      },
+      "root": "#V1026732"
+    },
+    {
+      "V1018795": {
+        "id": "V1018795",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018366",
+          "MOD": "#V1018355",
+          "LEX": "HE"
+        },
+        "start": 63,
+        "end": 69
+      },
+      "V1018355": {
+        "id": "V1018355",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "SO",
+        "roles": {
+          "FIGURE": "#V1018795",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:02::"
+        },
+        "start": 63,
+        "end": 66
+      },
+      "V1018366": {
+        "id": "V1018366",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 66,
+        "end": 69
+      },
+      "root": "#V1018795"
+    },
+    {
+      "V1020319": {
+        "id": "V1020319",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018371",
+          "LEX": "SPIT"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018371": {
+        "id": "V1018371",
+        "indicator": "F",
+        "type": "EXPECTORATE",
+        "word": "SPIT",
+        "roles": {
+          "RESULT": "#V1018380",
+          "AFFECTED": "#V1020320",
+          "TENSE": "PRES",
+          "LEX": "SPIT",
+          "WNSENSE": "spit%2:29:00::"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1020320": {
+        "id": "V1020320",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018380": {
+        "id": "V1018380",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1018391",
+          "FIGURE": "#V1020320",
+          "LEX": "AT"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1018391": {
+        "id": "V1018391",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 77,
+        "end": 80
+      },
+      "root": "#V1020319"
+    },
+    {
+      "V1018397": {
+        "id": "V1018397",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "LEX": "AND"
+        },
+        "start": 80,
+        "end": 84
+      },
+      "root": "#V1018397"
+    },
+    {
+      "V1018411": {
+        "id": "V1018411",
+        "indicator": "F",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V1018419",
+          "FORMAL": "#V1019189",
+          "VFORM": "PASTPART",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 84,
+        "end": 111
+      },
+      "V1018419": {
+        "id": "V1018419",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 91,
+        "end": 94
+      },
+      "V1019189": {
+        "id": "V1019189",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018466"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018466": {
+        "id": "V1018466",
+        "indicator": "A",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "VAGINA",
+        "roles": {
+          "MOD": "#V1018463",
+          "LEX": "VAGINA",
+          "WNSENSE": "external_body_part%1:08:00"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018463": {
+        "id": "V1018463",
+        "indicator": "F",
+        "type": "SELFISH-VAL",
+        "word": "SELFISH",
+        "roles": {
+          "FIGURE": "#V1018466",
+          "SCALE": "BEHAVIORAL-SCALE",
+          "LEX": "SELFISH",
+          "WNSENSE": "selfish%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V1018411"
+    },
+    {
+      "V1018831": {
+        "id": "V1018831",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018118",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018118": {
+        "id": "V1018118",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "PROFORM": "LAST",
+          "EXTENT": "(:* YEAR YEAR)",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018104": {
+        "id": "V1018104",
+        "indicator": "F",
+        "type": "LAST-VAL",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V1018118",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "LAST",
+          "WNSENSE": "last%3:00:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V1018831"
+    },
+    {
+      "V1026729": {
+        "id": "V1026729",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018152",
+          "LEX": "REJECTED"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018152": {
+        "id": "V1018152",
+        "indicator": "F",
+        "type": "REFUTE",
+        "word": "REJECT",
+        "roles": {
+          "NEUTRAL": "#V1018136",
+          "NEUTRAL1": "#V1026710",
+          "TENSE": "PAST",
+          "LEX": "REJECTED",
+          "WNSENSE": "refute%2:32:00::"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018136": {
+        "id": "V1018136",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 10,
+        "end": 12
+      },
+      "V1026710": {
+        "id": "V1026710",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018260"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018260": {
+        "id": "V1018260",
+        "indicator": "SM",
+        "type": "SUGGEST",
+        "word": "ADVANCES",
+        "roles": {
+          "QUANTITY": "#V1018239",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LOCATION": "#V1018275",
+          "LEX": "ADVANCES",
+          "WNSENSE": "advise%2:32:02"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018169": {
+        "id": "V1018169",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018239": {
+        "id": "V1018239",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 21,
+        "end": 42
+      },
+      "V1018611": {
+        "id": "V1018611",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018239",
+          "GROUND": "#V1018198",
+          "LEX": "OLD-MAN"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018198": {
+        "id": "V1018198",
+        "indicator": "KIND",
+        "type": "MALE-PERSON",
+        "word": "OLD-MAN",
+        "roles": {
+          "AMOUNT": "40",
+          "ASSOC-WITH": "#V1018202"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018202": {
+        "id": "V1018202",
+        "indicator": "KIND",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018275": {
+        "id": "V1018275",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V1018342",
+          "FIGURE": "#V1018260",
+          "LEX": "IN"
+        },
+        "start": 51,
+        "end": 63
+      },
+      "V1018342": {
+        "id": "V1018342",
+        "indicator": "THE",
+        "type": "REGION-FOR-ACTIVITY",
+        "word": "PARK",
+        "roles": {
+          "LEX": "PARK",
+          "WNSENSE": "park%1:15:00::"
+        },
+        "start": 54,
+        "end": 63
+      },
+      "root": "#V1026729"
+    },
+    {
+      "V1018795": {
+        "id": "V1018795",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018366",
+          "MOD": "#V1018355",
+          "LEX": "HE"
+        },
+        "start": 63,
+        "end": 69
+      },
+      "V1018355": {
+        "id": "V1018355",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "SO",
+        "roles": {
+          "FIGURE": "#V1018795",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:02::"
+        },
+        "start": 63,
+        "end": 66
+      },
+      "V1018366": {
+        "id": "V1018366",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 66,
+        "end": 69
+      },
+      "root": "#V1018795"
+    },
+    {
+      "V1020319": {
+        "id": "V1020319",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018371",
+          "LEX": "SPIT"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018371": {
+        "id": "V1018371",
+        "indicator": "F",
+        "type": "EXPECTORATE",
+        "word": "SPIT",
+        "roles": {
+          "RESULT": "#V1018380",
+          "AFFECTED": "#V1020320",
+          "TENSE": "PRES",
+          "LEX": "SPIT",
+          "WNSENSE": "spit%2:29:00::"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1020320": {
+        "id": "V1020320",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018380": {
+        "id": "V1018380",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1018391",
+          "FIGURE": "#V1020320",
+          "LEX": "AT"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1018391": {
+        "id": "V1018391",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 77,
+        "end": 80
+      },
+      "root": "#V1020319"
+    },
+    {
+      "V1018397": {
+        "id": "V1018397",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "LEX": "AND"
+        },
+        "start": 80,
+        "end": 84
+      },
+      "root": "#V1018397"
+    },
+    {
+      "V1018411": {
+        "id": "V1018411",
+        "indicator": "F",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V1018419",
+          "FORMAL": "#V1019189",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 84,
+        "end": 111
+      },
+      "V1018419": {
+        "id": "V1018419",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 91,
+        "end": 94
+      },
+      "V1019189": {
+        "id": "V1019189",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018466"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018466": {
+        "id": "V1018466",
+        "indicator": "A",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "VAGINA",
+        "roles": {
+          "MOD": "#V1018463",
+          "LEX": "VAGINA",
+          "WNSENSE": "external_body_part%1:08:00"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018463": {
+        "id": "V1018463",
+        "indicator": "F",
+        "type": "SELFISH-VAL",
+        "word": "SELFISH",
+        "roles": {
+          "FIGURE": "#V1018466",
+          "SCALE": "BEHAVIORAL-SCALE",
+          "LEX": "SELFISH",
+          "WNSENSE": "selfish%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V1018411"
+    },
+    {
+      "V1018831": {
+        "id": "V1018831",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018118",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018118": {
+        "id": "V1018118",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "PROFORM": "LAST",
+          "EXTENT": "(:* YEAR YEAR)",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1018104": {
+        "id": "V1018104",
+        "indicator": "F",
+        "type": "LAST-VAL",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V1018118",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "LAST",
+          "WNSENSE": "last%3:00:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V1018831"
+    },
+    {
+      "V1026729": {
+        "id": "V1026729",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018152",
+          "LEX": "REJECTED"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018152": {
+        "id": "V1018152",
+        "indicator": "F",
+        "type": "REFUTE",
+        "word": "REJECT",
+        "roles": {
+          "NEUTRAL": "#V1018136",
+          "NEUTRAL1": "#V1026710",
+          "TENSE": "PAST",
+          "LEX": "REJECTED",
+          "WNSENSE": "refute%2:32:00::"
+        },
+        "start": 10,
+        "end": 63
+      },
+      "V1018136": {
+        "id": "V1018136",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 10,
+        "end": 12
+      },
+      "V1026710": {
+        "id": "V1026710",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018260"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018260": {
+        "id": "V1018260",
+        "indicator": "SM",
+        "type": "SUGGEST",
+        "word": "ADVANCES",
+        "roles": {
+          "QUANTITY": "#V1018239",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LOCATION": "#V1018275",
+          "LEX": "ADVANCES",
+          "WNSENSE": "advise%2:32:02"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018169": {
+        "id": "V1018169",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 21,
+        "end": 63
+      },
+      "V1018239": {
+        "id": "V1018239",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "#V1018169",
+          "MOD": "#V1018611",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 21,
+        "end": 42
+      },
+      "V1018611": {
+        "id": "V1018611",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018239",
+          "GROUND": "#V1018198",
+          "LEX": "OLD-MAN"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018198": {
+        "id": "V1018198",
+        "indicator": "KIND",
+        "type": "MALE-PERSON",
+        "word": "OLD-MAN",
+        "roles": {
+          "AMOUNT": "40",
+          "ASSOC-WITH": "#V1018202"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018202": {
+        "id": "V1018202",
+        "indicator": "KIND",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V1018275": {
+        "id": "V1018275",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V1018342",
+          "FIGURE": "#V1018260",
+          "LEX": "IN"
+        },
+        "start": 51,
+        "end": 63
+      },
+      "V1018342": {
+        "id": "V1018342",
+        "indicator": "THE",
+        "type": "REGION-FOR-ACTIVITY",
+        "word": "PARK",
+        "roles": {
+          "LEX": "PARK",
+          "WNSENSE": "park%1:15:00::"
+        },
+        "start": 54,
+        "end": 63
+      },
+      "root": "#V1026729"
+    },
+    {
+      "V1018795": {
+        "id": "V1018795",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018366",
+          "MOD": "#V1018355",
+          "LEX": "HE"
+        },
+        "start": 63,
+        "end": 69
+      },
+      "V1018355": {
+        "id": "V1018355",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "SO",
+        "roles": {
+          "FIGURE": "#V1018795",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:02::"
+        },
+        "start": 63,
+        "end": 66
+      },
+      "V1018366": {
+        "id": "V1018366",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 66,
+        "end": 69
+      },
+      "root": "#V1018795"
+    },
+    {
+      "V1020319": {
+        "id": "V1020319",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1018371",
+          "LEX": "SPIT"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018371": {
+        "id": "V1018371",
+        "indicator": "F",
+        "type": "EXPECTORATE",
+        "word": "SPIT",
+        "roles": {
+          "RESULT": "#V1018380",
+          "AFFECTED": "#V1020320",
+          "TENSE": "PRES",
+          "LEX": "SPIT",
+          "WNSENSE": "spit%2:29:00::"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1020320": {
+        "id": "V1020320",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 69,
+        "end": 80
+      },
+      "V1018380": {
+        "id": "V1018380",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1018391",
+          "FIGURE": "#V1020320",
+          "LEX": "AT"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1018391": {
+        "id": "V1018391",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 77,
+        "end": 80
+      },
+      "root": "#V1020319"
+    },
+    {
+      "V1018397": {
+        "id": "V1018397",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "LEX": "AND"
+        },
+        "start": 80,
+        "end": 84
+      },
+      "root": "#V1018397"
+    },
+    {
+      "V1018411": {
+        "id": "V1018411",
+        "indicator": "F",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V1018419",
+          "FORMAL": "#V1019189",
+          "VFORM": "PASTPART",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 84,
+        "end": 111
+      },
+      "V1018419": {
+        "id": "V1018419",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 91,
+        "end": 94
+      },
+      "V1019189": {
+        "id": "V1019189",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1018466"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018466": {
+        "id": "V1018466",
+        "indicator": "A",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "VAGINA",
+        "roles": {
+          "MOD": "#V1018463",
+          "LEX": "VAGINA",
+          "WNSENSE": "external_body_part%1:08:00"
+        },
+        "start": 94,
+        "end": 111
+      },
+      "V1018463": {
+        "id": "V1018463",
+        "indicator": "F",
+        "type": "SELFISH-VAL",
+        "word": "SELFISH",
+        "roles": {
+          "FIGURE": "#V1018466",
+          "SCALE": "BEHAVIORAL-SCALE",
+          "LEX": "SELFISH",
+          "WNSENSE": "selfish%3:00:00::"
+        },
+        "start": 96,
+        "end": 104
+      },
+      "root": "#V1018411"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+173",
+    "*last-utt-id*=173  utt-id+173",
+    "*last-utt-id*=173  utt-id+173",
+    "*last-utt-id*=173  utt-id+173",
+    "*last-utt-id*=173  utt-id+173",
+    "*last-utt-id*=173  utt-id+173",
+    "*last-utt-id*=173  utt-id+NIL"
+  ]
+}

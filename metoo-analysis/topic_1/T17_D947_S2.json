@@ -1,0 +1,92 @@
+{
+  "parse": [
+    {
+      "V2185024": {
+        "id": "V2185024",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2184570",
+          "LEX": "ENDED-UP"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V2184570": {
+        "id": "V2184570",
+        "indicator": "F",
+        "type": "ACTIVITY-EVENT",
+        "word": "ENDED-UP",
+        "roles": {
+          "MOD": "#V2184495",
+          "AGENT": "#V2184477",
+          "LOCATION": "#V2184586",
+          "TENSE": "PAST",
+          "LEX": "ENDED-UP",
+          "WNSENSE": "end_up%2:30:01"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V2184477": {
+        "id": "V2184477",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2184495": {
+        "id": "V2184495",
+        "indicator": "F",
+        "type": "EVAL-WRT-EXPECTATION",
+        "word": "JUST",
+        "roles": {
+          "FIGURE": "#V2184570",
+          "LEX": "JUST",
+          "WNSENSE": "just%4:02:00::"
+        },
+        "start": 2,
+        "end": 7
+      },
+      "V2184586": {
+        "id": "V2184586",
+        "indicator": "F",
+        "type": "POS-WRT-SPEAKER-RELN",
+        "word": "THERE",
+        "roles": {
+          "GROUND": "#V2184616",
+          "FIGURE": "#V2184570",
+          "LEX": "THERE"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V2184616": {
+        "id": "V2184616",
+        "indicator": "IMPRO",
+        "type": "LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "THERE"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "root": "#V2185024"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+432",
+    "*last-utt-id*=432  utt-id+NIL"
+  ]
+}

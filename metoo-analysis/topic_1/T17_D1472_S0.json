@@ -1,0 +1,105 @@
+{
+  "parse": [
+    {
+      "V2721389": {
+        "id": "V2721389",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2720929",
+          "LEX": "INTERN"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V2720929": {
+        "id": "V2720929",
+        "indicator": "BARE",
+        "type": "HEALTH-PROFESSIONAL",
+        "word": "INTERN",
+        "roles": {
+          "LOCATION": [
+            "#V2720938",
+            "#V2721036"
+          ],
+          "LEX": "INTERN",
+          "WNSENSE": "intern%1:18:00::"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V2721036": {
+        "id": "V2721036",
+        "indicator": "F",
+        "type": "AT-SCALE-VALUE",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2720929",
+          "GROUND": "#V2720914",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2720914": {
+        "id": "V2720914",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "23"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2720938": {
+        "id": "V2720938",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2720995",
+          "FIGURE": "#V2720929",
+          "LEX": "AT"
+        },
+        "start": 19,
+        "end": 39
+      },
+      "V2720995": {
+        "id": "V2720995",
+        "indicator": "A",
+        "type": "COMPANY",
+        "word": "COMPANY",
+        "roles": {
+          "ASSOC-WITH": "#V2720991",
+          "LEX": "COMPANY",
+          "WNSENSE": "company%1:14:01::"
+        },
+        "start": 22,
+        "end": 39
+      },
+      "V2720991": {
+        "id": "V2720991",
+        "indicator": "KIND",
+        "type": "ORGANIZATION",
+        "word": "PHARMA",
+        "roles": {
+          "LEX": "PHARMA",
+          "WNSENSE": "pharma%1:14:00::"
+        },
+        "start": 22,
+        "end": 39
+      },
+      "root": "#V2721389"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+480",
+    "*last-utt-id*=480  utt-id+NIL"
+  ]
+}

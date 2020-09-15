@@ -1,0 +1,175 @@
+{
+  "parse": [
+    {
+      "V2170006": {
+        "id": "V2170006",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2164218",
+          "LEX": "GOT"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2164218": {
+        "id": "V2164218",
+        "indicator": "F",
+        "type": "ACQUIRE",
+        "word": "GET",
+        "roles": {
+          "RESULT": "#V2164434",
+          "AGENT": "#V2164179",
+          "AFFECTED": "#V2164242",
+          "TIME": "#V2165166",
+          "TENSE": "PAST",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:40:00::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2164179": {
+        "id": "V2164179",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2164242": {
+        "id": "V2164242",
+        "indicator": "WH-TERM",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V2164284",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 6,
+        "end": 22
+      },
+      "V2164284": {
+        "id": "V2164284",
+        "indicator": "F",
+        "type": "COME",
+        "word": "COME",
+        "roles": {
+          "AFFECTED": "#V2164262",
+          "MOD": "#V2164301",
+          "TENSE": "PAST",
+          "LEX": "CAME",
+          "WNSENSE": "come%2:42:15::"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "V2164262": {
+        "id": "V2164262",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 11,
+        "end": 13
+      },
+      "V2164301": {
+        "id": "V2164301",
+        "indicator": "F",
+        "type": "PURCHASE-COST",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V2164242",
+          "FIGURE": "#V2164284",
+          "LEX": "FOR"
+        },
+        "start": 18,
+        "end": 22
+      },
+      "V2165166": {
+        "id": "V2165166",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2164218",
+          "GROUND": "#V2165181"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "V2165181": {
+        "id": "V2165181",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V2165041",
+          "LEX": "I"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "V2165041": {
+        "id": "V2165041",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(I)",
+          "VAL": "(I)",
+          "LEX": "I"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "V2164434": {
+        "id": "V2164434",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2164242",
+          "GROUND": "#V2164351",
+          "LEX": "SAID"
+        },
+        "start": 24,
+        "end": 29
+      },
+      "V2164351": {
+        "id": "V2164351",
+        "indicator": "F",
+        "type": "ENCODES-MESSAGE",
+        "word": "SAY",
+        "roles": {
+          "NEUTRAL1": "#V2164242",
+          "WNSENSE": "say%2:42:00::"
+        },
+        "start": 24,
+        "end": 29
+      },
+      "root": "#V2170006"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+427",
+    "*last-utt-id*=427  utt-id+NIL"
+  ]
+}

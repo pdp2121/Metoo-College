@@ -1,0 +1,136 @@
+{
+  "parse": [
+    {
+      "V181061": {
+        "id": "V181061",
+        "indicator": "SPEECHACT",
+        "type": "SA_REQUEST",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V179782",
+          "LEX": "LEAVE"
+        },
+        "start": 0,
+        "end": 45
+      },
+      "V179782": {
+        "id": "V179782",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "LEAVE",
+        "roles": {
+          "FREQUENCY": "#V179770",
+          "AGENT1": "#V179808",
+          "AGENT": "#V181051",
+          "NEUTRAL": "#V179797",
+          "MOD": "#V179800",
+          "TENSE": "PRES",
+          "VFORM": "BASE",
+          "LEX": "LEAVE",
+          "WNSENSE": "leave%2:38:01::"
+        },
+        "start": 0,
+        "end": 45
+      },
+      "V181051": {
+        "id": "V181051",
+        "indicator": "IMPRO",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "PROFORM": "*YOU*",
+          "COREF": "SYS"
+        },
+        "start": 0,
+        "end": 45
+      },
+      "V179770": {
+        "id": "V179770",
+        "indicator": "F",
+        "type": "NEVER",
+        "word": "NEVER",
+        "roles": {
+          "FIGURE": "#V179782",
+          "LEX": "NEVER",
+          "WNSENSE": "never%4:02:00::"
+        },
+        "start": 0,
+        "end": 6
+      },
+      "V179797": {
+        "id": "V179797",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEM",
+        "roles": {
+          "PROFORM": "THEM",
+          "LEX": "THEM",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 12,
+        "end": 17
+      },
+      "V179800": {
+        "id": "V179800",
+        "indicator": "F",
+        "type": "SINGULARITY-VAL",
+        "word": "ALONE",
+        "roles": {
+          "FIGURE": "#V179782",
+          "SCALE": "DOMAIN",
+          "LEX": "ALONE",
+          "WNSENSE": "alone%5:00:00:incomparable:00"
+        },
+        "start": 17,
+        "end": 23
+      },
+      "V179808": {
+        "id": "V179808",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V179854",
+          "FIGURE": "#V179782",
+          "LEX": "WITH"
+        },
+        "start": 23,
+        "end": 45
+      },
+      "V179854": {
+        "id": "V179854",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "WHITE-MAN",
+        "roles": {
+          "MOD": "#V179822",
+          "LEX": "WHITE-MAN",
+          "WNSENSE": "white_man%1:18:00"
+        },
+        "start": 28,
+        "end": 45
+      },
+      "V179822": {
+        "id": "V179822",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V179854",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 31,
+        "end": 35
+      },
+      "root": "#V181061"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+30",
+    "*last-utt-id*=30  utt-id+NIL"
+  ]
+}

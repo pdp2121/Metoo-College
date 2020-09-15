@@ -1,0 +1,102 @@
+{
+  "parse": [
+    {
+      "V1355708": {
+        "id": "V1355708",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1355230",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V1355230": {
+        "id": "V1355230",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1355709",
+          "FORMAL": "#V1355303",
+          "TIME": "#V1355257",
+          "TENSE": "PAST",
+          "LEX": "WAS",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V1355709": {
+        "id": "V1355709",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V1355303": {
+        "id": "V1355303",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1355709",
+          "GROUND": "#V1355252",
+          "DEGREE": "#V1355245",
+          "LEX": "SHOCKED"
+        },
+        "start": 4,
+        "end": 16
+      },
+      "V1355252": {
+        "id": "V1355252",
+        "indicator": "F",
+        "type": "EVOKE-SURPRISE",
+        "word": "SHOCK",
+        "roles": {
+          "AFFECTED": "#V1355709",
+          "WNSENSE": "shock%1:11:01::"
+        },
+        "start": 4,
+        "end": 16
+      },
+      "V1355245": {
+        "id": "V1355245",
+        "indicator": "F",
+        "type": "DEGREE-MODIFIER-HIGH",
+        "word": "TOO",
+        "roles": {
+          "FIGURE": "#V1355303",
+          "LEX": "TOO",
+          "WNSENSE": "too%4:02:00::"
+        },
+        "start": 4,
+        "end": 8
+      },
+      "V1355257": {
+        "id": "V1355257",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "AT-THE-MOMENT",
+        "roles": {
+          "FIGURE": "#V1355230",
+          "LEX": "AT-THE-MOMENT"
+        },
+        "start": 16,
+        "end": 29
+      },
+      "root": "#V1355708"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+248",
+    "*last-utt-id*=248  utt-id+NIL"
+  ]
+}

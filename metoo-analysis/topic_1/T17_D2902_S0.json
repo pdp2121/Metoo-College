@@ -1,0 +1,5802 @@
+{
+  "parse": [
+    {
+      "V2020621": {
+        "id": "V2020621",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020005",
+          "LEX": "YOU"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2020005": {
+        "id": "V2020005",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "root": "#V2020621"
+    },
+    {
+      "V2023160": {
+        "id": "V2023160",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020018",
+          "LEX": "WERE"
+        },
+        "start": 4,
+        "end": 98
+      },
+      "V2020018": {
+        "id": "V2020018",
+        "indicator": "F",
+        "type": "PROPOSITION-EQUAL",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2023161",
+          "NEUTRAL1": "#V2020192",
+          "TENSE": "PAST",
+          "LEX": "WERE",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 4,
+        "end": 98
+      },
+      "V2023161": {
+        "id": "V2023161",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ",
+          "COREF": "#V2020109"
+        },
+        "start": 4,
+        "end": 98
+      },
+      "V2020192": {
+        "id": "V2020192",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "LOCATION": "#V2020034",
+          "TIME": "#V2020118",
+          "NEUTRAL": "#V2020176",
+          "FORMAL": "#V2020210",
+          "MANNER": "#V2020327",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 9,
+        "end": 98
+      },
+      "V2020034": {
+        "id": "V2020034",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020109",
+          "FIGURE": "#V2020192",
+          "LEX": "IN"
+        },
+        "start": 9,
+        "end": 28
+      },
+      "V2020109": {
+        "id": "V2020109",
+        "indicator": "THE",
+        "type": "PLACE",
+        "word": "PLACE",
+        "roles": {
+          "MOD": "#V2020099",
+          "LEX": "PLACE",
+          "WNSENSE": "place%1:15:00::"
+        },
+        "start": 12,
+        "end": 28
+      },
+      "V2020099": {
+        "id": "V2020099",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020109",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V2020118": {
+        "id": "V2020118",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2020150",
+          "FIGURE": "#V2020192",
+          "LEX": "AT"
+        },
+        "start": 28,
+        "end": 46
+      },
+      "V2020150": {
+        "id": "V2020150",
+        "indicator": "THE",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V2020138",
+          "LEX": "TIME"
+        },
+        "start": 31,
+        "end": 46
+      },
+      "V2020138": {
+        "id": "V2020138",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020150",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 35,
+        "end": 41
+      },
+      "V2020176": {
+        "id": "V2020176",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 46,
+        "end": 48
+      },
+      "V2020210": {
+        "id": "V2020210",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020322",
+          "FIGURE": "#V2020176",
+          "LEX": "IN"
+        },
+        "start": 52,
+        "end": 67
+      },
+      "V2020322": {
+        "id": "V2020322",
+        "indicator": "A",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "DORM-ROOM",
+        "roles": {
+          "LEX": "DORM-ROOM",
+          "WNSENSE": "dorm_room%1:06:00"
+        },
+        "start": 55,
+        "end": 67
+      },
+      "V2020327": {
+        "id": "V2020327",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2021280",
+          "FIGURE": "#V2020192",
+          "LEX": "WITH"
+        },
+        "start": 67,
+        "end": 98
+      },
+      "V2021280": {
+        "id": "V2021280",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020341"
+        },
+        "start": 72,
+        "end": 98
+      },
+      "V2020341": {
+        "id": "V2020341",
+        "indicator": "THE-SET",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "ASSOC-POSS": "#V2020338",
+          "MOD": "#V2020349",
+          "LEX": "FRIENDS",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 72,
+        "end": 98
+      },
+      "V2020338": {
+        "id": "V2020338",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 72,
+        "end": 98
+      },
+      "V2020349": {
+        "id": "V2020349",
+        "indicator": "F",
+        "type": "PAY-ATTENTION",
+        "word": "WATCH",
+        "roles": {
+          "AGENT": "#V2020341",
+          "NEUTRAL": "#V2020397",
+          "VFORM": "ING",
+          "LEX": "WATCHING",
+          "WNSENSE": "attend%2:39:00"
+        },
+        "start": 83,
+        "end": 98
+      },
+      "V2020397": {
+        "id": "V2020397",
+        "indicator": "A",
+        "type": "COMPOSITION",
+        "word": "MOVIE",
+        "roles": {
+          "LEX": "MOVIE",
+          "WNSENSE": "composition%1:07:01"
+        },
+        "start": 92,
+        "end": 98
+      },
+      "root": "#V2023160"
+    },
+    {
+      "V2020621": {
+        "id": "V2020621",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020005",
+          "LEX": "YOU"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2020005": {
+        "id": "V2020005",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "root": "#V2020621"
+    },
+    {
+      "V2023157": {
+        "id": "V2023157",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020018",
+          "LEX": "WERE"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020018": {
+        "id": "V2020018",
+        "indicator": "F",
+        "type": "PROPOSITION-EQUAL",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2023158",
+          "NEUTRAL1": "#V2020192",
+          "TENSE": "PAST",
+          "LEX": "WERE",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2023158": {
+        "id": "V2023158",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020192": {
+        "id": "V2020192",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "LOCATION": "#V2020034",
+          "TIME": "#V2020118",
+          "NEUTRAL": "#V2020176",
+          "FORMAL": "#V2020210",
+          "MANNER": "#V2020327",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 9,
+        "end": 99
+      },
+      "V2020034": {
+        "id": "V2020034",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020109",
+          "FIGURE": "#V2020192",
+          "LEX": "IN"
+        },
+        "start": 9,
+        "end": 28
+      },
+      "V2020109": {
+        "id": "V2020109",
+        "indicator": "THE",
+        "type": "PLACE",
+        "word": "PLACE",
+        "roles": {
+          "MOD": "#V2020100",
+          "LEX": "PLACE",
+          "WNSENSE": "place%1:15:00::"
+        },
+        "start": 12,
+        "end": 28
+      },
+      "V2020100": {
+        "id": "V2020100",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020109",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V2020118": {
+        "id": "V2020118",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2020150",
+          "FIGURE": "#V2020192",
+          "LEX": "AT"
+        },
+        "start": 28,
+        "end": 46
+      },
+      "V2020150": {
+        "id": "V2020150",
+        "indicator": "THE",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V2020138",
+          "LEX": "TIME"
+        },
+        "start": 31,
+        "end": 46
+      },
+      "V2020138": {
+        "id": "V2020138",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020150",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 35,
+        "end": 41
+      },
+      "V2020176": {
+        "id": "V2020176",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 46,
+        "end": 48
+      },
+      "V2020210": {
+        "id": "V2020210",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020322",
+          "FIGURE": "#V2020176",
+          "LEX": "IN"
+        },
+        "start": 52,
+        "end": 67
+      },
+      "V2020322": {
+        "id": "V2020322",
+        "indicator": "A",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "DORM-ROOM",
+        "roles": {
+          "LEX": "DORM-ROOM",
+          "WNSENSE": "dorm_room%1:06:00"
+        },
+        "start": 55,
+        "end": 67
+      },
+      "V2020327": {
+        "id": "V2020327",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2021280",
+          "FIGURE": "#V2020192",
+          "LEX": "WITH"
+        },
+        "start": 67,
+        "end": 99
+      },
+      "V2021280": {
+        "id": "V2021280",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020341"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020341": {
+        "id": "V2020341",
+        "indicator": "THE-SET",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "ASSOC-POSS": "#V2020338",
+          "MOD": "#V2020349",
+          "LEX": "FRIENDS",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020338": {
+        "id": "V2020338",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020349": {
+        "id": "V2020349",
+        "indicator": "F",
+        "type": "PAY-ATTENTION",
+        "word": "WATCH",
+        "roles": {
+          "AGENT": "#V2020341",
+          "NEUTRAL": "#V2020397",
+          "VFORM": "ING",
+          "LEX": "WATCHING",
+          "WNSENSE": "attend%2:39:00"
+        },
+        "start": 83,
+        "end": 99
+      },
+      "V2020397": {
+        "id": "V2020397",
+        "indicator": "A",
+        "type": "COMPOSITION",
+        "word": "MOVIE",
+        "roles": {
+          "LEX": "MOVIE",
+          "WNSENSE": "composition%1:07:01"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "root": "#V2023157"
+    },
+    {
+      "V2020621": {
+        "id": "V2020621",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020005",
+          "LEX": "YOU"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2020005": {
+        "id": "V2020005",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "root": "#V2020621"
+    },
+    {
+      "V2023154": {
+        "id": "V2023154",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020018",
+          "LEX": "WERE"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020018": {
+        "id": "V2020018",
+        "indicator": "F",
+        "type": "PROPOSITION-EQUAL",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2023155",
+          "NEUTRAL1": "#V2020192",
+          "TENSE": "PAST",
+          "LEX": "WERE",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2023155": {
+        "id": "V2023155",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020192": {
+        "id": "V2020192",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "LOCATION": "#V2020034",
+          "TIME": "#V2020118",
+          "NEUTRAL": "#V2020176",
+          "FORMAL": "#V2020210",
+          "MANNER": "#V2020327",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 9,
+        "end": 99
+      },
+      "V2020034": {
+        "id": "V2020034",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020109",
+          "FIGURE": "#V2020192",
+          "LEX": "IN"
+        },
+        "start": 9,
+        "end": 28
+      },
+      "V2020109": {
+        "id": "V2020109",
+        "indicator": "THE",
+        "type": "PLACE",
+        "word": "PLACE",
+        "roles": {
+          "MOD": "#V2020099",
+          "LEX": "PLACE",
+          "WNSENSE": "place%1:15:00::"
+        },
+        "start": 12,
+        "end": 28
+      },
+      "V2020099": {
+        "id": "V2020099",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020109",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V2020118": {
+        "id": "V2020118",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2020150",
+          "FIGURE": "#V2020192",
+          "LEX": "AT"
+        },
+        "start": 28,
+        "end": 46
+      },
+      "V2020150": {
+        "id": "V2020150",
+        "indicator": "THE",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V2020139",
+          "LEX": "TIME"
+        },
+        "start": 31,
+        "end": 46
+      },
+      "V2020139": {
+        "id": "V2020139",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020150",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 35,
+        "end": 41
+      },
+      "V2020176": {
+        "id": "V2020176",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 46,
+        "end": 48
+      },
+      "V2020210": {
+        "id": "V2020210",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020322",
+          "FIGURE": "#V2020176",
+          "LEX": "IN"
+        },
+        "start": 52,
+        "end": 67
+      },
+      "V2020322": {
+        "id": "V2020322",
+        "indicator": "A",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "DORM-ROOM",
+        "roles": {
+          "LEX": "DORM-ROOM",
+          "WNSENSE": "dorm_room%1:06:00"
+        },
+        "start": 55,
+        "end": 67
+      },
+      "V2020327": {
+        "id": "V2020327",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2021280",
+          "FIGURE": "#V2020192",
+          "LEX": "WITH"
+        },
+        "start": 67,
+        "end": 99
+      },
+      "V2021280": {
+        "id": "V2021280",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020341"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020341": {
+        "id": "V2020341",
+        "indicator": "THE-SET",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "ASSOC-POSS": "#V2020338",
+          "MOD": "#V2020349",
+          "LEX": "FRIENDS",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020338": {
+        "id": "V2020338",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020349": {
+        "id": "V2020349",
+        "indicator": "F",
+        "type": "PAY-ATTENTION",
+        "word": "WATCH",
+        "roles": {
+          "AGENT": "#V2020341",
+          "NEUTRAL": "#V2020397",
+          "VFORM": "ING",
+          "LEX": "WATCHING",
+          "WNSENSE": "attend%2:39:00"
+        },
+        "start": 83,
+        "end": 99
+      },
+      "V2020397": {
+        "id": "V2020397",
+        "indicator": "A",
+        "type": "COMPOSITION",
+        "word": "MOVIE",
+        "roles": {
+          "LEX": "MOVIE",
+          "WNSENSE": "composition%1:07:01"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "root": "#V2023154"
+    },
+    {
+      "V2020621": {
+        "id": "V2020621",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020005",
+          "LEX": "YOU"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2020005": {
+        "id": "V2020005",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "root": "#V2020621"
+    },
+    {
+      "V2023151": {
+        "id": "V2023151",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020018",
+          "LEX": "WERE"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020018": {
+        "id": "V2020018",
+        "indicator": "F",
+        "type": "PROPOSITION-EQUAL",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2023152",
+          "NEUTRAL1": "#V2020192",
+          "TENSE": "PAST",
+          "LEX": "WERE",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2023152": {
+        "id": "V2023152",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020192": {
+        "id": "V2020192",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "LOCATION": "#V2020034",
+          "TIME": "#V2020118",
+          "NEUTRAL": "#V2020176",
+          "FORMAL": "#V2020210",
+          "MANNER": "#V2020327",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 9,
+        "end": 99
+      },
+      "V2020034": {
+        "id": "V2020034",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020109",
+          "FIGURE": "#V2020192",
+          "LEX": "IN"
+        },
+        "start": 9,
+        "end": 28
+      },
+      "V2020109": {
+        "id": "V2020109",
+        "indicator": "THE",
+        "type": "PLACE",
+        "word": "PLACE",
+        "roles": {
+          "MOD": "#V2020100",
+          "LEX": "PLACE",
+          "WNSENSE": "place%1:15:00::"
+        },
+        "start": 12,
+        "end": 28
+      },
+      "V2020100": {
+        "id": "V2020100",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020109",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V2020118": {
+        "id": "V2020118",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2020150",
+          "FIGURE": "#V2020192",
+          "LEX": "AT"
+        },
+        "start": 28,
+        "end": 46
+      },
+      "V2020150": {
+        "id": "V2020150",
+        "indicator": "THE",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V2020139",
+          "LEX": "TIME"
+        },
+        "start": 31,
+        "end": 46
+      },
+      "V2020139": {
+        "id": "V2020139",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020150",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 35,
+        "end": 41
+      },
+      "V2020176": {
+        "id": "V2020176",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 46,
+        "end": 48
+      },
+      "V2020210": {
+        "id": "V2020210",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020322",
+          "FIGURE": "#V2020176",
+          "LEX": "IN"
+        },
+        "start": 52,
+        "end": 67
+      },
+      "V2020322": {
+        "id": "V2020322",
+        "indicator": "A",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "DORM-ROOM",
+        "roles": {
+          "LEX": "DORM-ROOM",
+          "WNSENSE": "dorm_room%1:06:00"
+        },
+        "start": 55,
+        "end": 67
+      },
+      "V2020327": {
+        "id": "V2020327",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2021280",
+          "FIGURE": "#V2020192",
+          "LEX": "WITH"
+        },
+        "start": 67,
+        "end": 99
+      },
+      "V2021280": {
+        "id": "V2021280",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020341"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020341": {
+        "id": "V2020341",
+        "indicator": "THE-SET",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "ASSOC-POSS": "#V2020338",
+          "MOD": "#V2020349",
+          "LEX": "FRIENDS",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020338": {
+        "id": "V2020338",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020349": {
+        "id": "V2020349",
+        "indicator": "F",
+        "type": "PAY-ATTENTION",
+        "word": "WATCH",
+        "roles": {
+          "AGENT": "#V2020341",
+          "NEUTRAL": "#V2020397",
+          "VFORM": "ING",
+          "LEX": "WATCHING",
+          "WNSENSE": "attend%2:39:00"
+        },
+        "start": 83,
+        "end": 99
+      },
+      "V2020397": {
+        "id": "V2020397",
+        "indicator": "A",
+        "type": "COMPOSITION",
+        "word": "MOVIE",
+        "roles": {
+          "LEX": "MOVIE",
+          "WNSENSE": "composition%1:07:01"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "root": "#V2023151"
+    },
+    {
+      "V2020621": {
+        "id": "V2020621",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020005",
+          "LEX": "YOU"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2020005": {
+        "id": "V2020005",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "root": "#V2020621"
+    },
+    {
+      "V2022470": {
+        "id": "V2022470",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020018",
+          "LEX": "WERE"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020018": {
+        "id": "V2020018",
+        "indicator": "F",
+        "type": "PROPOSITION-EQUAL",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2022471",
+          "NEUTRAL1": "#V2020192",
+          "TENSE": "PAST",
+          "LEX": "WERE",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2022471": {
+        "id": "V2022471",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020192": {
+        "id": "V2020192",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "LOCATION": "#V2020034",
+          "TIME": "#V2020118",
+          "NEUTRAL": "#V2020176",
+          "FORMAL": "#V2020210",
+          "MANNER": "#V2020327",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 9,
+        "end": 99
+      },
+      "V2020034": {
+        "id": "V2020034",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020109",
+          "FIGURE": "#V2020192",
+          "LEX": "IN"
+        },
+        "start": 9,
+        "end": 28
+      },
+      "V2020109": {
+        "id": "V2020109",
+        "indicator": "THE",
+        "type": "PLACE",
+        "word": "PLACE",
+        "roles": {
+          "MOD": "#V2020099",
+          "LEX": "PLACE",
+          "WNSENSE": "place%1:15:00::"
+        },
+        "start": 12,
+        "end": 28
+      },
+      "V2020099": {
+        "id": "V2020099",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020109",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V2020118": {
+        "id": "V2020118",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2020150",
+          "FIGURE": "#V2020192",
+          "LEX": "AT"
+        },
+        "start": 28,
+        "end": 46
+      },
+      "V2020150": {
+        "id": "V2020150",
+        "indicator": "THE",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V2020138",
+          "LEX": "TIME"
+        },
+        "start": 31,
+        "end": 46
+      },
+      "V2020138": {
+        "id": "V2020138",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020150",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 35,
+        "end": 41
+      },
+      "V2020176": {
+        "id": "V2020176",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 46,
+        "end": 48
+      },
+      "V2020210": {
+        "id": "V2020210",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020322",
+          "FIGURE": "#V2020176",
+          "LEX": "IN"
+        },
+        "start": 52,
+        "end": 67
+      },
+      "V2020322": {
+        "id": "V2020322",
+        "indicator": "A",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "DORM-ROOM",
+        "roles": {
+          "LEX": "DORM-ROOM",
+          "WNSENSE": "dorm_room%1:06:00"
+        },
+        "start": 55,
+        "end": 67
+      },
+      "V2020327": {
+        "id": "V2020327",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2021305",
+          "FIGURE": "#V2020192",
+          "LEX": "WITH"
+        },
+        "start": 67,
+        "end": 99
+      },
+      "V2021305": {
+        "id": "V2021305",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020341"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020341": {
+        "id": "V2020341",
+        "indicator": "THE-SET",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "ASSOC-POSS": "#V2020338",
+          "MOD": "#V2020348",
+          "LEX": "FRIENDS",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020338": {
+        "id": "V2020338",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020348": {
+        "id": "V2020348",
+        "indicator": "F",
+        "type": "SCRUTINY",
+        "word": "WATCH",
+        "roles": {
+          "AGENT": "#V2020341",
+          "NEUTRAL": "#V2020397",
+          "VFORM": "ING",
+          "LEX": "WATCHING",
+          "WNSENSE": "watch%1:04:00::"
+        },
+        "start": 83,
+        "end": 99
+      },
+      "V2020397": {
+        "id": "V2020397",
+        "indicator": "A",
+        "type": "COMPOSITION",
+        "word": "MOVIE",
+        "roles": {
+          "LEX": "MOVIE",
+          "WNSENSE": "composition%1:07:01"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "root": "#V2022470"
+    },
+    {
+      "V2020621": {
+        "id": "V2020621",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020005",
+          "LEX": "YOU"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2020005": {
+        "id": "V2020005",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "root": "#V2020621"
+    },
+    {
+      "V2022467": {
+        "id": "V2022467",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020018",
+          "LEX": "WERE"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020018": {
+        "id": "V2020018",
+        "indicator": "F",
+        "type": "PROPOSITION-EQUAL",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2022468",
+          "NEUTRAL1": "#V2020192",
+          "TENSE": "PAST",
+          "LEX": "WERE",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2022468": {
+        "id": "V2022468",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020192": {
+        "id": "V2020192",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "LOCATION": "#V2020034",
+          "TIME": "#V2020118",
+          "NEUTRAL": "#V2020176",
+          "FORMAL": "#V2020210",
+          "MANNER": "#V2020327",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 9,
+        "end": 99
+      },
+      "V2020034": {
+        "id": "V2020034",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020109",
+          "FIGURE": "#V2020192",
+          "LEX": "IN"
+        },
+        "start": 9,
+        "end": 28
+      },
+      "V2020109": {
+        "id": "V2020109",
+        "indicator": "THE",
+        "type": "PLACE",
+        "word": "PLACE",
+        "roles": {
+          "MOD": "#V2020100",
+          "LEX": "PLACE",
+          "WNSENSE": "place%1:15:00::"
+        },
+        "start": 12,
+        "end": 28
+      },
+      "V2020100": {
+        "id": "V2020100",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020109",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V2020118": {
+        "id": "V2020118",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2020150",
+          "FIGURE": "#V2020192",
+          "LEX": "AT"
+        },
+        "start": 28,
+        "end": 46
+      },
+      "V2020150": {
+        "id": "V2020150",
+        "indicator": "THE",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V2020138",
+          "LEX": "TIME"
+        },
+        "start": 31,
+        "end": 46
+      },
+      "V2020138": {
+        "id": "V2020138",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020150",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 35,
+        "end": 41
+      },
+      "V2020176": {
+        "id": "V2020176",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 46,
+        "end": 48
+      },
+      "V2020210": {
+        "id": "V2020210",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020322",
+          "FIGURE": "#V2020176",
+          "LEX": "IN"
+        },
+        "start": 52,
+        "end": 67
+      },
+      "V2020322": {
+        "id": "V2020322",
+        "indicator": "A",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "DORM-ROOM",
+        "roles": {
+          "LEX": "DORM-ROOM",
+          "WNSENSE": "dorm_room%1:06:00"
+        },
+        "start": 55,
+        "end": 67
+      },
+      "V2020327": {
+        "id": "V2020327",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2021305",
+          "FIGURE": "#V2020192",
+          "LEX": "WITH"
+        },
+        "start": 67,
+        "end": 99
+      },
+      "V2021305": {
+        "id": "V2021305",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020341"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020341": {
+        "id": "V2020341",
+        "indicator": "THE-SET",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "ASSOC-POSS": "#V2020338",
+          "MOD": "#V2020348",
+          "LEX": "FRIENDS",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020338": {
+        "id": "V2020338",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020348": {
+        "id": "V2020348",
+        "indicator": "F",
+        "type": "SCRUTINY",
+        "word": "WATCH",
+        "roles": {
+          "AGENT": "#V2020341",
+          "NEUTRAL": "#V2020397",
+          "VFORM": "ING",
+          "LEX": "WATCHING",
+          "WNSENSE": "watch%1:04:00::"
+        },
+        "start": 83,
+        "end": 99
+      },
+      "V2020397": {
+        "id": "V2020397",
+        "indicator": "A",
+        "type": "COMPOSITION",
+        "word": "MOVIE",
+        "roles": {
+          "LEX": "MOVIE",
+          "WNSENSE": "composition%1:07:01"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "root": "#V2022467"
+    },
+    {
+      "V2020621": {
+        "id": "V2020621",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020005",
+          "LEX": "YOU"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2020005": {
+        "id": "V2020005",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "root": "#V2020621"
+    },
+    {
+      "V2022464": {
+        "id": "V2022464",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020018",
+          "LEX": "WERE"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020018": {
+        "id": "V2020018",
+        "indicator": "F",
+        "type": "PROPOSITION-EQUAL",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2022465",
+          "NEUTRAL1": "#V2020192",
+          "TENSE": "PAST",
+          "LEX": "WERE",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2022465": {
+        "id": "V2022465",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020192": {
+        "id": "V2020192",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "LOCATION": "#V2020034",
+          "TIME": "#V2020118",
+          "NEUTRAL": "#V2020176",
+          "FORMAL": "#V2020210",
+          "MANNER": "#V2020327",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 9,
+        "end": 99
+      },
+      "V2020034": {
+        "id": "V2020034",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020109",
+          "FIGURE": "#V2020192",
+          "LEX": "IN"
+        },
+        "start": 9,
+        "end": 28
+      },
+      "V2020109": {
+        "id": "V2020109",
+        "indicator": "THE",
+        "type": "PLACE",
+        "word": "PLACE",
+        "roles": {
+          "MOD": "#V2020099",
+          "LEX": "PLACE",
+          "WNSENSE": "place%1:15:00::"
+        },
+        "start": 12,
+        "end": 28
+      },
+      "V2020099": {
+        "id": "V2020099",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020109",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V2020118": {
+        "id": "V2020118",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2020150",
+          "FIGURE": "#V2020192",
+          "LEX": "AT"
+        },
+        "start": 28,
+        "end": 46
+      },
+      "V2020150": {
+        "id": "V2020150",
+        "indicator": "THE",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V2020139",
+          "LEX": "TIME"
+        },
+        "start": 31,
+        "end": 46
+      },
+      "V2020139": {
+        "id": "V2020139",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020150",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 35,
+        "end": 41
+      },
+      "V2020176": {
+        "id": "V2020176",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 46,
+        "end": 48
+      },
+      "V2020210": {
+        "id": "V2020210",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020322",
+          "FIGURE": "#V2020176",
+          "LEX": "IN"
+        },
+        "start": 52,
+        "end": 67
+      },
+      "V2020322": {
+        "id": "V2020322",
+        "indicator": "A",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "DORM-ROOM",
+        "roles": {
+          "LEX": "DORM-ROOM",
+          "WNSENSE": "dorm_room%1:06:00"
+        },
+        "start": 55,
+        "end": 67
+      },
+      "V2020327": {
+        "id": "V2020327",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2021305",
+          "FIGURE": "#V2020192",
+          "LEX": "WITH"
+        },
+        "start": 67,
+        "end": 99
+      },
+      "V2021305": {
+        "id": "V2021305",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020341"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020341": {
+        "id": "V2020341",
+        "indicator": "THE-SET",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "ASSOC-POSS": "#V2020338",
+          "MOD": "#V2020348",
+          "LEX": "FRIENDS",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020338": {
+        "id": "V2020338",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020348": {
+        "id": "V2020348",
+        "indicator": "F",
+        "type": "SCRUTINY",
+        "word": "WATCH",
+        "roles": {
+          "AGENT": "#V2020341",
+          "NEUTRAL": "#V2020397",
+          "VFORM": "ING",
+          "LEX": "WATCHING",
+          "WNSENSE": "watch%1:04:00::"
+        },
+        "start": 83,
+        "end": 99
+      },
+      "V2020397": {
+        "id": "V2020397",
+        "indicator": "A",
+        "type": "COMPOSITION",
+        "word": "MOVIE",
+        "roles": {
+          "LEX": "MOVIE",
+          "WNSENSE": "composition%1:07:01"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "root": "#V2022464"
+    },
+    {
+      "V2020621": {
+        "id": "V2020621",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020005",
+          "LEX": "YOU"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2020005": {
+        "id": "V2020005",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "root": "#V2020621"
+    },
+    {
+      "V2022461": {
+        "id": "V2022461",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020018",
+          "LEX": "WERE"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020018": {
+        "id": "V2020018",
+        "indicator": "F",
+        "type": "PROPOSITION-EQUAL",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2022462",
+          "NEUTRAL1": "#V2020192",
+          "TENSE": "PAST",
+          "LEX": "WERE",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2022462": {
+        "id": "V2022462",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020192": {
+        "id": "V2020192",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "LOCATION": "#V2020034",
+          "TIME": "#V2020118",
+          "NEUTRAL": "#V2020176",
+          "FORMAL": "#V2020210",
+          "MANNER": "#V2020327",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 9,
+        "end": 99
+      },
+      "V2020034": {
+        "id": "V2020034",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020109",
+          "FIGURE": "#V2020192",
+          "LEX": "IN"
+        },
+        "start": 9,
+        "end": 28
+      },
+      "V2020109": {
+        "id": "V2020109",
+        "indicator": "THE",
+        "type": "PLACE",
+        "word": "PLACE",
+        "roles": {
+          "MOD": "#V2020100",
+          "LEX": "PLACE",
+          "WNSENSE": "place%1:15:00::"
+        },
+        "start": 12,
+        "end": 28
+      },
+      "V2020100": {
+        "id": "V2020100",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020109",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V2020118": {
+        "id": "V2020118",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2020150",
+          "FIGURE": "#V2020192",
+          "LEX": "AT"
+        },
+        "start": 28,
+        "end": 46
+      },
+      "V2020150": {
+        "id": "V2020150",
+        "indicator": "THE",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V2020139",
+          "LEX": "TIME"
+        },
+        "start": 31,
+        "end": 46
+      },
+      "V2020139": {
+        "id": "V2020139",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020150",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 35,
+        "end": 41
+      },
+      "V2020176": {
+        "id": "V2020176",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 46,
+        "end": 48
+      },
+      "V2020210": {
+        "id": "V2020210",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020322",
+          "FIGURE": "#V2020176",
+          "LEX": "IN"
+        },
+        "start": 52,
+        "end": 67
+      },
+      "V2020322": {
+        "id": "V2020322",
+        "indicator": "A",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "DORM-ROOM",
+        "roles": {
+          "LEX": "DORM-ROOM",
+          "WNSENSE": "dorm_room%1:06:00"
+        },
+        "start": 55,
+        "end": 67
+      },
+      "V2020327": {
+        "id": "V2020327",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2021305",
+          "FIGURE": "#V2020192",
+          "LEX": "WITH"
+        },
+        "start": 67,
+        "end": 99
+      },
+      "V2021305": {
+        "id": "V2021305",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020341"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020341": {
+        "id": "V2020341",
+        "indicator": "THE-SET",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "ASSOC-POSS": "#V2020338",
+          "MOD": "#V2020348",
+          "LEX": "FRIENDS",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020338": {
+        "id": "V2020338",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020348": {
+        "id": "V2020348",
+        "indicator": "F",
+        "type": "SCRUTINY",
+        "word": "WATCH",
+        "roles": {
+          "AGENT": "#V2020341",
+          "NEUTRAL": "#V2020397",
+          "VFORM": "ING",
+          "LEX": "WATCHING",
+          "WNSENSE": "watch%1:04:00::"
+        },
+        "start": 83,
+        "end": 99
+      },
+      "V2020397": {
+        "id": "V2020397",
+        "indicator": "A",
+        "type": "COMPOSITION",
+        "word": "MOVIE",
+        "roles": {
+          "LEX": "MOVIE",
+          "WNSENSE": "composition%1:07:01"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "root": "#V2022461"
+    },
+    {
+      "V2020621": {
+        "id": "V2020621",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020005",
+          "LEX": "YOU"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2020005": {
+        "id": "V2020005",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "root": "#V2020621"
+    },
+    {
+      "V2024278": {
+        "id": "V2024278",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020018",
+          "LEX": "WERE"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020018": {
+        "id": "V2020018",
+        "indicator": "F",
+        "type": "PROPOSITION-EQUAL",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2024279",
+          "NEUTRAL1": "#V2020192",
+          "TENSE": "PAST",
+          "LEX": "WERE",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2024279": {
+        "id": "V2024279",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020192": {
+        "id": "V2020192",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "LOCATION": "#V2020034",
+          "TIME": "#V2020118",
+          "NEUTRAL": "#V2020176",
+          "FORMAL": "#V2020210",
+          "MANNER": "#V2020327",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 9,
+        "end": 99
+      },
+      "V2020034": {
+        "id": "V2020034",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020109",
+          "FIGURE": "#V2020192",
+          "LEX": "IN"
+        },
+        "start": 9,
+        "end": 28
+      },
+      "V2020109": {
+        "id": "V2020109",
+        "indicator": "THE",
+        "type": "PLACE",
+        "word": "PLACE",
+        "roles": {
+          "MOD": "#V2020099",
+          "LEX": "PLACE",
+          "WNSENSE": "place%1:15:00::"
+        },
+        "start": 12,
+        "end": 28
+      },
+      "V2020099": {
+        "id": "V2020099",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020109",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V2020118": {
+        "id": "V2020118",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2020150",
+          "FIGURE": "#V2020192",
+          "LEX": "AT"
+        },
+        "start": 28,
+        "end": 46
+      },
+      "V2020150": {
+        "id": "V2020150",
+        "indicator": "THE",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V2020138",
+          "LEX": "TIME"
+        },
+        "start": 31,
+        "end": 46
+      },
+      "V2020138": {
+        "id": "V2020138",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020150",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 35,
+        "end": 41
+      },
+      "V2020176": {
+        "id": "V2020176",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 46,
+        "end": 48
+      },
+      "V2020210": {
+        "id": "V2020210",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020322",
+          "FIGURE": "#V2020176",
+          "LEX": "IN"
+        },
+        "start": 52,
+        "end": 67
+      },
+      "V2020322": {
+        "id": "V2020322",
+        "indicator": "A",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "DORM-ROOM",
+        "roles": {
+          "LEX": "DORM-ROOM",
+          "WNSENSE": "dorm_room%1:06:00"
+        },
+        "start": 55,
+        "end": 67
+      },
+      "V2020327": {
+        "id": "V2020327",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2021348",
+          "FIGURE": "#V2020192",
+          "LEX": "WITH"
+        },
+        "start": 67,
+        "end": 99
+      },
+      "V2021348": {
+        "id": "V2021348",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020341"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020341": {
+        "id": "V2020341",
+        "indicator": "THE-SET",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "ASSOC-POSS": "#V2020338",
+          "MOD": "#V2020349",
+          "LEX": "FRIENDS",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020338": {
+        "id": "V2020338",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020349": {
+        "id": "V2020349",
+        "indicator": "F",
+        "type": "PAY-ATTENTION",
+        "word": "WATCH",
+        "roles": {
+          "AGENT": "#V2020341",
+          "NEUTRAL": "#V2020603",
+          "VFORM": "ING",
+          "LEX": "WATCHING",
+          "WNSENSE": "attend%2:39:00"
+        },
+        "start": 83,
+        "end": 99
+      },
+      "V2020603": {
+        "id": "V2020603",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020397"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "V2020397": {
+        "id": "V2020397",
+        "indicator": "A",
+        "type": "COMPOSITION",
+        "word": "MOVIE",
+        "roles": {
+          "LEX": "MOVIE",
+          "WNSENSE": "composition%1:07:01"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "root": "#V2024278"
+    },
+    {
+      "V2020621": {
+        "id": "V2020621",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020005",
+          "LEX": "YOU"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2020005": {
+        "id": "V2020005",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "root": "#V2020621"
+    },
+    {
+      "V2024275": {
+        "id": "V2024275",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020018",
+          "LEX": "WERE"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020018": {
+        "id": "V2020018",
+        "indicator": "F",
+        "type": "PROPOSITION-EQUAL",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2024276",
+          "NEUTRAL1": "#V2020192",
+          "TENSE": "PAST",
+          "LEX": "WERE",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2024276": {
+        "id": "V2024276",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020192": {
+        "id": "V2020192",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "LOCATION": "#V2020034",
+          "TIME": "#V2020118",
+          "NEUTRAL": "#V2020176",
+          "FORMAL": "#V2020210",
+          "MANNER": "#V2020327",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 9,
+        "end": 99
+      },
+      "V2020034": {
+        "id": "V2020034",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020109",
+          "FIGURE": "#V2020192",
+          "LEX": "IN"
+        },
+        "start": 9,
+        "end": 28
+      },
+      "V2020109": {
+        "id": "V2020109",
+        "indicator": "THE",
+        "type": "PLACE",
+        "word": "PLACE",
+        "roles": {
+          "MOD": "#V2020100",
+          "LEX": "PLACE",
+          "WNSENSE": "place%1:15:00::"
+        },
+        "start": 12,
+        "end": 28
+      },
+      "V2020100": {
+        "id": "V2020100",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020109",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V2020118": {
+        "id": "V2020118",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2020150",
+          "FIGURE": "#V2020192",
+          "LEX": "AT"
+        },
+        "start": 28,
+        "end": 46
+      },
+      "V2020150": {
+        "id": "V2020150",
+        "indicator": "THE",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V2020138",
+          "LEX": "TIME"
+        },
+        "start": 31,
+        "end": 46
+      },
+      "V2020138": {
+        "id": "V2020138",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020150",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 35,
+        "end": 41
+      },
+      "V2020176": {
+        "id": "V2020176",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 46,
+        "end": 48
+      },
+      "V2020210": {
+        "id": "V2020210",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020322",
+          "FIGURE": "#V2020176",
+          "LEX": "IN"
+        },
+        "start": 52,
+        "end": 67
+      },
+      "V2020322": {
+        "id": "V2020322",
+        "indicator": "A",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "DORM-ROOM",
+        "roles": {
+          "LEX": "DORM-ROOM",
+          "WNSENSE": "dorm_room%1:06:00"
+        },
+        "start": 55,
+        "end": 67
+      },
+      "V2020327": {
+        "id": "V2020327",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2021348",
+          "FIGURE": "#V2020192",
+          "LEX": "WITH"
+        },
+        "start": 67,
+        "end": 99
+      },
+      "V2021348": {
+        "id": "V2021348",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020341"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020341": {
+        "id": "V2020341",
+        "indicator": "THE-SET",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "ASSOC-POSS": "#V2020338",
+          "MOD": "#V2020349",
+          "LEX": "FRIENDS",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020338": {
+        "id": "V2020338",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020349": {
+        "id": "V2020349",
+        "indicator": "F",
+        "type": "PAY-ATTENTION",
+        "word": "WATCH",
+        "roles": {
+          "AGENT": "#V2020341",
+          "NEUTRAL": "#V2020603",
+          "VFORM": "ING",
+          "LEX": "WATCHING",
+          "WNSENSE": "attend%2:39:00"
+        },
+        "start": 83,
+        "end": 99
+      },
+      "V2020603": {
+        "id": "V2020603",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020397"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "V2020397": {
+        "id": "V2020397",
+        "indicator": "A",
+        "type": "COMPOSITION",
+        "word": "MOVIE",
+        "roles": {
+          "LEX": "MOVIE",
+          "WNSENSE": "composition%1:07:01"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "root": "#V2024275"
+    },
+    {
+      "V2020621": {
+        "id": "V2020621",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020005",
+          "LEX": "YOU"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2020005": {
+        "id": "V2020005",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "root": "#V2020621"
+    },
+    {
+      "V2024272": {
+        "id": "V2024272",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020018",
+          "LEX": "WERE"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020018": {
+        "id": "V2020018",
+        "indicator": "F",
+        "type": "PROPOSITION-EQUAL",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2024273",
+          "NEUTRAL1": "#V2020192",
+          "TENSE": "PAST",
+          "LEX": "WERE",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2024273": {
+        "id": "V2024273",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020192": {
+        "id": "V2020192",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "LOCATION": "#V2020034",
+          "TIME": "#V2020118",
+          "NEUTRAL": "#V2020176",
+          "FORMAL": "#V2020210",
+          "MANNER": "#V2020327",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 9,
+        "end": 99
+      },
+      "V2020034": {
+        "id": "V2020034",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020109",
+          "FIGURE": "#V2020192",
+          "LEX": "IN"
+        },
+        "start": 9,
+        "end": 28
+      },
+      "V2020109": {
+        "id": "V2020109",
+        "indicator": "THE",
+        "type": "PLACE",
+        "word": "PLACE",
+        "roles": {
+          "MOD": "#V2020099",
+          "LEX": "PLACE",
+          "WNSENSE": "place%1:15:00::"
+        },
+        "start": 12,
+        "end": 28
+      },
+      "V2020099": {
+        "id": "V2020099",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020109",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V2020118": {
+        "id": "V2020118",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2020150",
+          "FIGURE": "#V2020192",
+          "LEX": "AT"
+        },
+        "start": 28,
+        "end": 46
+      },
+      "V2020150": {
+        "id": "V2020150",
+        "indicator": "THE",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V2020139",
+          "LEX": "TIME"
+        },
+        "start": 31,
+        "end": 46
+      },
+      "V2020139": {
+        "id": "V2020139",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020150",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 35,
+        "end": 41
+      },
+      "V2020176": {
+        "id": "V2020176",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 46,
+        "end": 48
+      },
+      "V2020210": {
+        "id": "V2020210",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020322",
+          "FIGURE": "#V2020176",
+          "LEX": "IN"
+        },
+        "start": 52,
+        "end": 67
+      },
+      "V2020322": {
+        "id": "V2020322",
+        "indicator": "A",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "DORM-ROOM",
+        "roles": {
+          "LEX": "DORM-ROOM",
+          "WNSENSE": "dorm_room%1:06:00"
+        },
+        "start": 55,
+        "end": 67
+      },
+      "V2020327": {
+        "id": "V2020327",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2021348",
+          "FIGURE": "#V2020192",
+          "LEX": "WITH"
+        },
+        "start": 67,
+        "end": 99
+      },
+      "V2021348": {
+        "id": "V2021348",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020341"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020341": {
+        "id": "V2020341",
+        "indicator": "THE-SET",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "ASSOC-POSS": "#V2020338",
+          "MOD": "#V2020349",
+          "LEX": "FRIENDS",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020338": {
+        "id": "V2020338",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020349": {
+        "id": "V2020349",
+        "indicator": "F",
+        "type": "PAY-ATTENTION",
+        "word": "WATCH",
+        "roles": {
+          "AGENT": "#V2020341",
+          "NEUTRAL": "#V2020603",
+          "VFORM": "ING",
+          "LEX": "WATCHING",
+          "WNSENSE": "attend%2:39:00"
+        },
+        "start": 83,
+        "end": 99
+      },
+      "V2020603": {
+        "id": "V2020603",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020397"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "V2020397": {
+        "id": "V2020397",
+        "indicator": "A",
+        "type": "COMPOSITION",
+        "word": "MOVIE",
+        "roles": {
+          "LEX": "MOVIE",
+          "WNSENSE": "composition%1:07:01"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "root": "#V2024272"
+    },
+    {
+      "V2020621": {
+        "id": "V2020621",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020005",
+          "LEX": "YOU"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2020005": {
+        "id": "V2020005",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "root": "#V2020621"
+    },
+    {
+      "V2024269": {
+        "id": "V2024269",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020018",
+          "LEX": "WERE"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020018": {
+        "id": "V2020018",
+        "indicator": "F",
+        "type": "PROPOSITION-EQUAL",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2024270",
+          "NEUTRAL1": "#V2020192",
+          "TENSE": "PAST",
+          "LEX": "WERE",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2024270": {
+        "id": "V2024270",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020192": {
+        "id": "V2020192",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "LOCATION": "#V2020034",
+          "TIME": "#V2020118",
+          "NEUTRAL": "#V2020176",
+          "FORMAL": "#V2020210",
+          "MANNER": "#V2020327",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 9,
+        "end": 99
+      },
+      "V2020034": {
+        "id": "V2020034",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020109",
+          "FIGURE": "#V2020192",
+          "LEX": "IN"
+        },
+        "start": 9,
+        "end": 28
+      },
+      "V2020109": {
+        "id": "V2020109",
+        "indicator": "THE",
+        "type": "PLACE",
+        "word": "PLACE",
+        "roles": {
+          "MOD": "#V2020100",
+          "LEX": "PLACE",
+          "WNSENSE": "place%1:15:00::"
+        },
+        "start": 12,
+        "end": 28
+      },
+      "V2020100": {
+        "id": "V2020100",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020109",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V2020118": {
+        "id": "V2020118",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2020150",
+          "FIGURE": "#V2020192",
+          "LEX": "AT"
+        },
+        "start": 28,
+        "end": 46
+      },
+      "V2020150": {
+        "id": "V2020150",
+        "indicator": "THE",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V2020139",
+          "LEX": "TIME"
+        },
+        "start": 31,
+        "end": 46
+      },
+      "V2020139": {
+        "id": "V2020139",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020150",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 35,
+        "end": 41
+      },
+      "V2020176": {
+        "id": "V2020176",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 46,
+        "end": 48
+      },
+      "V2020210": {
+        "id": "V2020210",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020322",
+          "FIGURE": "#V2020176",
+          "LEX": "IN"
+        },
+        "start": 52,
+        "end": 67
+      },
+      "V2020322": {
+        "id": "V2020322",
+        "indicator": "A",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "DORM-ROOM",
+        "roles": {
+          "LEX": "DORM-ROOM",
+          "WNSENSE": "dorm_room%1:06:00"
+        },
+        "start": 55,
+        "end": 67
+      },
+      "V2020327": {
+        "id": "V2020327",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2021348",
+          "FIGURE": "#V2020192",
+          "LEX": "WITH"
+        },
+        "start": 67,
+        "end": 99
+      },
+      "V2021348": {
+        "id": "V2021348",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020341"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020341": {
+        "id": "V2020341",
+        "indicator": "THE-SET",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "ASSOC-POSS": "#V2020338",
+          "MOD": "#V2020349",
+          "LEX": "FRIENDS",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020338": {
+        "id": "V2020338",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020349": {
+        "id": "V2020349",
+        "indicator": "F",
+        "type": "PAY-ATTENTION",
+        "word": "WATCH",
+        "roles": {
+          "AGENT": "#V2020341",
+          "NEUTRAL": "#V2020603",
+          "VFORM": "ING",
+          "LEX": "WATCHING",
+          "WNSENSE": "attend%2:39:00"
+        },
+        "start": 83,
+        "end": 99
+      },
+      "V2020603": {
+        "id": "V2020603",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020397"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "V2020397": {
+        "id": "V2020397",
+        "indicator": "A",
+        "type": "COMPOSITION",
+        "word": "MOVIE",
+        "roles": {
+          "LEX": "MOVIE",
+          "WNSENSE": "composition%1:07:01"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "root": "#V2024269"
+    },
+    {
+      "V2020621": {
+        "id": "V2020621",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020005",
+          "LEX": "YOU"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2020005": {
+        "id": "V2020005",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "root": "#V2020621"
+    },
+    {
+      "V2023588": {
+        "id": "V2023588",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020018",
+          "LEX": "WERE"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020018": {
+        "id": "V2020018",
+        "indicator": "F",
+        "type": "PROPOSITION-EQUAL",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2023589",
+          "NEUTRAL1": "#V2020192",
+          "TENSE": "PAST",
+          "LEX": "WERE",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2023589": {
+        "id": "V2023589",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020192": {
+        "id": "V2020192",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "LOCATION": "#V2020034",
+          "TIME": "#V2020118",
+          "NEUTRAL": "#V2020176",
+          "FORMAL": "#V2020210",
+          "MANNER": "#V2020327",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 9,
+        "end": 99
+      },
+      "V2020034": {
+        "id": "V2020034",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020109",
+          "FIGURE": "#V2020192",
+          "LEX": "IN"
+        },
+        "start": 9,
+        "end": 28
+      },
+      "V2020109": {
+        "id": "V2020109",
+        "indicator": "THE",
+        "type": "PLACE",
+        "word": "PLACE",
+        "roles": {
+          "MOD": "#V2020099",
+          "LEX": "PLACE",
+          "WNSENSE": "place%1:15:00::"
+        },
+        "start": 12,
+        "end": 28
+      },
+      "V2020099": {
+        "id": "V2020099",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020109",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V2020118": {
+        "id": "V2020118",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2020150",
+          "FIGURE": "#V2020192",
+          "LEX": "AT"
+        },
+        "start": 28,
+        "end": 46
+      },
+      "V2020150": {
+        "id": "V2020150",
+        "indicator": "THE",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V2020138",
+          "LEX": "TIME"
+        },
+        "start": 31,
+        "end": 46
+      },
+      "V2020138": {
+        "id": "V2020138",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020150",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 35,
+        "end": 41
+      },
+      "V2020176": {
+        "id": "V2020176",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 46,
+        "end": 48
+      },
+      "V2020210": {
+        "id": "V2020210",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020322",
+          "FIGURE": "#V2020176",
+          "LEX": "IN"
+        },
+        "start": 52,
+        "end": 67
+      },
+      "V2020322": {
+        "id": "V2020322",
+        "indicator": "A",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "DORM-ROOM",
+        "roles": {
+          "LEX": "DORM-ROOM",
+          "WNSENSE": "dorm_room%1:06:00"
+        },
+        "start": 55,
+        "end": 67
+      },
+      "V2020327": {
+        "id": "V2020327",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2021373",
+          "FIGURE": "#V2020192",
+          "LEX": "WITH"
+        },
+        "start": 67,
+        "end": 99
+      },
+      "V2021373": {
+        "id": "V2021373",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020341"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020341": {
+        "id": "V2020341",
+        "indicator": "THE-SET",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "ASSOC-POSS": "#V2020338",
+          "MOD": "#V2020348",
+          "LEX": "FRIENDS",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020338": {
+        "id": "V2020338",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020348": {
+        "id": "V2020348",
+        "indicator": "F",
+        "type": "SCRUTINY",
+        "word": "WATCH",
+        "roles": {
+          "AGENT": "#V2020341",
+          "NEUTRAL": "#V2020603",
+          "VFORM": "ING",
+          "LEX": "WATCHING",
+          "WNSENSE": "watch%1:04:00::"
+        },
+        "start": 83,
+        "end": 99
+      },
+      "V2020603": {
+        "id": "V2020603",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020397"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "V2020397": {
+        "id": "V2020397",
+        "indicator": "A",
+        "type": "COMPOSITION",
+        "word": "MOVIE",
+        "roles": {
+          "LEX": "MOVIE",
+          "WNSENSE": "composition%1:07:01"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "root": "#V2023588"
+    },
+    {
+      "V2020621": {
+        "id": "V2020621",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020005",
+          "LEX": "YOU"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2020005": {
+        "id": "V2020005",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "root": "#V2020621"
+    },
+    {
+      "V2023585": {
+        "id": "V2023585",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020018",
+          "LEX": "WERE"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020018": {
+        "id": "V2020018",
+        "indicator": "F",
+        "type": "PROPOSITION-EQUAL",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2023586",
+          "NEUTRAL1": "#V2020192",
+          "TENSE": "PAST",
+          "LEX": "WERE",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2023586": {
+        "id": "V2023586",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020192": {
+        "id": "V2020192",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "LOCATION": "#V2020034",
+          "TIME": "#V2020118",
+          "NEUTRAL": "#V2020176",
+          "FORMAL": "#V2020210",
+          "MANNER": "#V2020327",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 9,
+        "end": 99
+      },
+      "V2020034": {
+        "id": "V2020034",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020109",
+          "FIGURE": "#V2020192",
+          "LEX": "IN"
+        },
+        "start": 9,
+        "end": 28
+      },
+      "V2020109": {
+        "id": "V2020109",
+        "indicator": "THE",
+        "type": "PLACE",
+        "word": "PLACE",
+        "roles": {
+          "MOD": "#V2020100",
+          "LEX": "PLACE",
+          "WNSENSE": "place%1:15:00::"
+        },
+        "start": 12,
+        "end": 28
+      },
+      "V2020100": {
+        "id": "V2020100",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020109",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V2020118": {
+        "id": "V2020118",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2020150",
+          "FIGURE": "#V2020192",
+          "LEX": "AT"
+        },
+        "start": 28,
+        "end": 46
+      },
+      "V2020150": {
+        "id": "V2020150",
+        "indicator": "THE",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V2020138",
+          "LEX": "TIME"
+        },
+        "start": 31,
+        "end": 46
+      },
+      "V2020138": {
+        "id": "V2020138",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020150",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 35,
+        "end": 41
+      },
+      "V2020176": {
+        "id": "V2020176",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 46,
+        "end": 48
+      },
+      "V2020210": {
+        "id": "V2020210",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020322",
+          "FIGURE": "#V2020176",
+          "LEX": "IN"
+        },
+        "start": 52,
+        "end": 67
+      },
+      "V2020322": {
+        "id": "V2020322",
+        "indicator": "A",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "DORM-ROOM",
+        "roles": {
+          "LEX": "DORM-ROOM",
+          "WNSENSE": "dorm_room%1:06:00"
+        },
+        "start": 55,
+        "end": 67
+      },
+      "V2020327": {
+        "id": "V2020327",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2021373",
+          "FIGURE": "#V2020192",
+          "LEX": "WITH"
+        },
+        "start": 67,
+        "end": 99
+      },
+      "V2021373": {
+        "id": "V2021373",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020341"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020341": {
+        "id": "V2020341",
+        "indicator": "THE-SET",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "ASSOC-POSS": "#V2020338",
+          "MOD": "#V2020348",
+          "LEX": "FRIENDS",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020338": {
+        "id": "V2020338",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020348": {
+        "id": "V2020348",
+        "indicator": "F",
+        "type": "SCRUTINY",
+        "word": "WATCH",
+        "roles": {
+          "AGENT": "#V2020341",
+          "NEUTRAL": "#V2020603",
+          "VFORM": "ING",
+          "LEX": "WATCHING",
+          "WNSENSE": "watch%1:04:00::"
+        },
+        "start": 83,
+        "end": 99
+      },
+      "V2020603": {
+        "id": "V2020603",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020397"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "V2020397": {
+        "id": "V2020397",
+        "indicator": "A",
+        "type": "COMPOSITION",
+        "word": "MOVIE",
+        "roles": {
+          "LEX": "MOVIE",
+          "WNSENSE": "composition%1:07:01"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "root": "#V2023585"
+    },
+    {
+      "V2020621": {
+        "id": "V2020621",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020005",
+          "LEX": "YOU"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2020005": {
+        "id": "V2020005",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "root": "#V2020621"
+    },
+    {
+      "V2023582": {
+        "id": "V2023582",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020018",
+          "LEX": "WERE"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020018": {
+        "id": "V2020018",
+        "indicator": "F",
+        "type": "PROPOSITION-EQUAL",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2023583",
+          "NEUTRAL1": "#V2020192",
+          "TENSE": "PAST",
+          "LEX": "WERE",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2023583": {
+        "id": "V2023583",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020192": {
+        "id": "V2020192",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "LOCATION": "#V2020034",
+          "TIME": "#V2020118",
+          "NEUTRAL": "#V2020176",
+          "FORMAL": "#V2020210",
+          "MANNER": "#V2020327",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 9,
+        "end": 99
+      },
+      "V2020034": {
+        "id": "V2020034",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020109",
+          "FIGURE": "#V2020192",
+          "LEX": "IN"
+        },
+        "start": 9,
+        "end": 28
+      },
+      "V2020109": {
+        "id": "V2020109",
+        "indicator": "THE",
+        "type": "PLACE",
+        "word": "PLACE",
+        "roles": {
+          "MOD": "#V2020099",
+          "LEX": "PLACE",
+          "WNSENSE": "place%1:15:00::"
+        },
+        "start": 12,
+        "end": 28
+      },
+      "V2020099": {
+        "id": "V2020099",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020109",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V2020118": {
+        "id": "V2020118",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2020150",
+          "FIGURE": "#V2020192",
+          "LEX": "AT"
+        },
+        "start": 28,
+        "end": 46
+      },
+      "V2020150": {
+        "id": "V2020150",
+        "indicator": "THE",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V2020139",
+          "LEX": "TIME"
+        },
+        "start": 31,
+        "end": 46
+      },
+      "V2020139": {
+        "id": "V2020139",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020150",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 35,
+        "end": 41
+      },
+      "V2020176": {
+        "id": "V2020176",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 46,
+        "end": 48
+      },
+      "V2020210": {
+        "id": "V2020210",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020322",
+          "FIGURE": "#V2020176",
+          "LEX": "IN"
+        },
+        "start": 52,
+        "end": 67
+      },
+      "V2020322": {
+        "id": "V2020322",
+        "indicator": "A",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "DORM-ROOM",
+        "roles": {
+          "LEX": "DORM-ROOM",
+          "WNSENSE": "dorm_room%1:06:00"
+        },
+        "start": 55,
+        "end": 67
+      },
+      "V2020327": {
+        "id": "V2020327",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2021373",
+          "FIGURE": "#V2020192",
+          "LEX": "WITH"
+        },
+        "start": 67,
+        "end": 99
+      },
+      "V2021373": {
+        "id": "V2021373",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020341"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020341": {
+        "id": "V2020341",
+        "indicator": "THE-SET",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "ASSOC-POSS": "#V2020338",
+          "MOD": "#V2020348",
+          "LEX": "FRIENDS",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020338": {
+        "id": "V2020338",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020348": {
+        "id": "V2020348",
+        "indicator": "F",
+        "type": "SCRUTINY",
+        "word": "WATCH",
+        "roles": {
+          "AGENT": "#V2020341",
+          "NEUTRAL": "#V2020603",
+          "VFORM": "ING",
+          "LEX": "WATCHING",
+          "WNSENSE": "watch%1:04:00::"
+        },
+        "start": 83,
+        "end": 99
+      },
+      "V2020603": {
+        "id": "V2020603",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020397"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "V2020397": {
+        "id": "V2020397",
+        "indicator": "A",
+        "type": "COMPOSITION",
+        "word": "MOVIE",
+        "roles": {
+          "LEX": "MOVIE",
+          "WNSENSE": "composition%1:07:01"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "root": "#V2023582"
+    },
+    {
+      "V2020621": {
+        "id": "V2020621",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020005",
+          "LEX": "YOU"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2020005": {
+        "id": "V2020005",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "root": "#V2020621"
+    },
+    {
+      "V2023579": {
+        "id": "V2023579",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020018",
+          "LEX": "WERE"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020018": {
+        "id": "V2020018",
+        "indicator": "F",
+        "type": "PROPOSITION-EQUAL",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2023580",
+          "NEUTRAL1": "#V2020192",
+          "TENSE": "PAST",
+          "LEX": "WERE",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2023580": {
+        "id": "V2023580",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020192": {
+        "id": "V2020192",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "LOCATION": "#V2020034",
+          "TIME": "#V2020118",
+          "NEUTRAL": "#V2020176",
+          "FORMAL": "#V2020210",
+          "MANNER": "#V2020327",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 9,
+        "end": 99
+      },
+      "V2020034": {
+        "id": "V2020034",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020109",
+          "FIGURE": "#V2020192",
+          "LEX": "IN"
+        },
+        "start": 9,
+        "end": 28
+      },
+      "V2020109": {
+        "id": "V2020109",
+        "indicator": "THE",
+        "type": "PLACE",
+        "word": "PLACE",
+        "roles": {
+          "MOD": "#V2020100",
+          "LEX": "PLACE",
+          "WNSENSE": "place%1:15:00::"
+        },
+        "start": 12,
+        "end": 28
+      },
+      "V2020100": {
+        "id": "V2020100",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020109",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V2020118": {
+        "id": "V2020118",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2020150",
+          "FIGURE": "#V2020192",
+          "LEX": "AT"
+        },
+        "start": 28,
+        "end": 46
+      },
+      "V2020150": {
+        "id": "V2020150",
+        "indicator": "THE",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V2020139",
+          "LEX": "TIME"
+        },
+        "start": 31,
+        "end": 46
+      },
+      "V2020139": {
+        "id": "V2020139",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020150",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 35,
+        "end": 41
+      },
+      "V2020176": {
+        "id": "V2020176",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 46,
+        "end": 48
+      },
+      "V2020210": {
+        "id": "V2020210",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020322",
+          "FIGURE": "#V2020176",
+          "LEX": "IN"
+        },
+        "start": 52,
+        "end": 67
+      },
+      "V2020322": {
+        "id": "V2020322",
+        "indicator": "A",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "DORM-ROOM",
+        "roles": {
+          "LEX": "DORM-ROOM",
+          "WNSENSE": "dorm_room%1:06:00"
+        },
+        "start": 55,
+        "end": 67
+      },
+      "V2020327": {
+        "id": "V2020327",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2021373",
+          "FIGURE": "#V2020192",
+          "LEX": "WITH"
+        },
+        "start": 67,
+        "end": 99
+      },
+      "V2021373": {
+        "id": "V2021373",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020341"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020341": {
+        "id": "V2020341",
+        "indicator": "THE-SET",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "ASSOC-POSS": "#V2020338",
+          "MOD": "#V2020348",
+          "LEX": "FRIENDS",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020338": {
+        "id": "V2020338",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020348": {
+        "id": "V2020348",
+        "indicator": "F",
+        "type": "SCRUTINY",
+        "word": "WATCH",
+        "roles": {
+          "AGENT": "#V2020341",
+          "NEUTRAL": "#V2020603",
+          "VFORM": "ING",
+          "LEX": "WATCHING",
+          "WNSENSE": "watch%1:04:00::"
+        },
+        "start": 83,
+        "end": 99
+      },
+      "V2020603": {
+        "id": "V2020603",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020397"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "V2020397": {
+        "id": "V2020397",
+        "indicator": "A",
+        "type": "COMPOSITION",
+        "word": "MOVIE",
+        "roles": {
+          "LEX": "MOVIE",
+          "WNSENSE": "composition%1:07:01"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "root": "#V2023579"
+    },
+    {
+      "V2020621": {
+        "id": "V2020621",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020005",
+          "LEX": "YOU"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2020005": {
+        "id": "V2020005",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "root": "#V2020621"
+    },
+    {
+      "V2025660": {
+        "id": "V2025660",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020018",
+          "LEX": "WERE"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020018": {
+        "id": "V2020018",
+        "indicator": "F",
+        "type": "PROPOSITION-EQUAL",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2025661",
+          "NEUTRAL1": "#V2020192",
+          "TENSE": "PAST",
+          "LEX": "WERE",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2025661": {
+        "id": "V2025661",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020192": {
+        "id": "V2020192",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "LOCATION": "#V2020034",
+          "TIME": "#V2020118",
+          "NEUTRAL": "#V2020176",
+          "FORMAL": "#V2020210",
+          "MANNER": "#V2020327",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 9,
+        "end": 99
+      },
+      "V2020034": {
+        "id": "V2020034",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020109",
+          "FIGURE": "#V2020192",
+          "LEX": "IN"
+        },
+        "start": 9,
+        "end": 28
+      },
+      "V2020109": {
+        "id": "V2020109",
+        "indicator": "THE",
+        "type": "PLACE",
+        "word": "PLACE",
+        "roles": {
+          "MOD": "#V2020099",
+          "LEX": "PLACE",
+          "WNSENSE": "place%1:15:00::"
+        },
+        "start": 12,
+        "end": 28
+      },
+      "V2020099": {
+        "id": "V2020099",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020109",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V2020118": {
+        "id": "V2020118",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2020150",
+          "FIGURE": "#V2020192",
+          "LEX": "AT"
+        },
+        "start": 28,
+        "end": 46
+      },
+      "V2020150": {
+        "id": "V2020150",
+        "indicator": "THE",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V2020138",
+          "LEX": "TIME"
+        },
+        "start": 31,
+        "end": 46
+      },
+      "V2020138": {
+        "id": "V2020138",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020150",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 35,
+        "end": 41
+      },
+      "V2020176": {
+        "id": "V2020176",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 46,
+        "end": 48
+      },
+      "V2020210": {
+        "id": "V2020210",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020322",
+          "FIGURE": "#V2020176",
+          "LEX": "IN"
+        },
+        "start": 52,
+        "end": 67
+      },
+      "V2020322": {
+        "id": "V2020322",
+        "indicator": "A",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "DORM-ROOM",
+        "roles": {
+          "LEX": "DORM-ROOM",
+          "WNSENSE": "dorm_room%1:06:00"
+        },
+        "start": 55,
+        "end": 67
+      },
+      "V2020327": {
+        "id": "V2020327",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2021425",
+          "FIGURE": "#V2020192",
+          "LEX": "WITH"
+        },
+        "start": 67,
+        "end": 99
+      },
+      "V2021425": {
+        "id": "V2021425",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020341"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020341": {
+        "id": "V2020341",
+        "indicator": "THE-SET",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "ASSOC-POSS": "#V2020338",
+          "MOD": "#V2020349",
+          "LEX": "FRIENDS",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020338": {
+        "id": "V2020338",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020349": {
+        "id": "V2020349",
+        "indicator": "F",
+        "type": "PAY-ATTENTION",
+        "word": "WATCH",
+        "roles": {
+          "AGENT": "#V2020341",
+          "NEUTRAL": "#V2020401",
+          "VFORM": "ING",
+          "LEX": "WATCHING",
+          "WNSENSE": "attend%2:39:00"
+        },
+        "start": 83,
+        "end": 99
+      },
+      "V2020401": {
+        "id": "V2020401",
+        "indicator": "A",
+        "type": "MATERIAL",
+        "word": "FILM",
+        "roles": {
+          "LEX": "FILM",
+          "WNSENSE": "film%1:06:00::"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "root": "#V2025660"
+    },
+    {
+      "V2020621": {
+        "id": "V2020621",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020005",
+          "LEX": "YOU"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2020005": {
+        "id": "V2020005",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "root": "#V2020621"
+    },
+    {
+      "V2025657": {
+        "id": "V2025657",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020018",
+          "LEX": "WERE"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020018": {
+        "id": "V2020018",
+        "indicator": "F",
+        "type": "PROPOSITION-EQUAL",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2025658",
+          "NEUTRAL1": "#V2020192",
+          "TENSE": "PAST",
+          "LEX": "WERE",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2025658": {
+        "id": "V2025658",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020192": {
+        "id": "V2020192",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "LOCATION": "#V2020034",
+          "TIME": "#V2020118",
+          "NEUTRAL": "#V2020176",
+          "FORMAL": "#V2020210",
+          "MANNER": "#V2020327",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 9,
+        "end": 99
+      },
+      "V2020034": {
+        "id": "V2020034",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020109",
+          "FIGURE": "#V2020192",
+          "LEX": "IN"
+        },
+        "start": 9,
+        "end": 28
+      },
+      "V2020109": {
+        "id": "V2020109",
+        "indicator": "THE",
+        "type": "PLACE",
+        "word": "PLACE",
+        "roles": {
+          "MOD": "#V2020100",
+          "LEX": "PLACE",
+          "WNSENSE": "place%1:15:00::"
+        },
+        "start": 12,
+        "end": 28
+      },
+      "V2020100": {
+        "id": "V2020100",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020109",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V2020118": {
+        "id": "V2020118",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2020150",
+          "FIGURE": "#V2020192",
+          "LEX": "AT"
+        },
+        "start": 28,
+        "end": 46
+      },
+      "V2020150": {
+        "id": "V2020150",
+        "indicator": "THE",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V2020138",
+          "LEX": "TIME"
+        },
+        "start": 31,
+        "end": 46
+      },
+      "V2020138": {
+        "id": "V2020138",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020150",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 35,
+        "end": 41
+      },
+      "V2020176": {
+        "id": "V2020176",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 46,
+        "end": 48
+      },
+      "V2020210": {
+        "id": "V2020210",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020322",
+          "FIGURE": "#V2020176",
+          "LEX": "IN"
+        },
+        "start": 52,
+        "end": 67
+      },
+      "V2020322": {
+        "id": "V2020322",
+        "indicator": "A",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "DORM-ROOM",
+        "roles": {
+          "LEX": "DORM-ROOM",
+          "WNSENSE": "dorm_room%1:06:00"
+        },
+        "start": 55,
+        "end": 67
+      },
+      "V2020327": {
+        "id": "V2020327",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2021425",
+          "FIGURE": "#V2020192",
+          "LEX": "WITH"
+        },
+        "start": 67,
+        "end": 99
+      },
+      "V2021425": {
+        "id": "V2021425",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020341"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020341": {
+        "id": "V2020341",
+        "indicator": "THE-SET",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "ASSOC-POSS": "#V2020338",
+          "MOD": "#V2020349",
+          "LEX": "FRIENDS",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020338": {
+        "id": "V2020338",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020349": {
+        "id": "V2020349",
+        "indicator": "F",
+        "type": "PAY-ATTENTION",
+        "word": "WATCH",
+        "roles": {
+          "AGENT": "#V2020341",
+          "NEUTRAL": "#V2020401",
+          "VFORM": "ING",
+          "LEX": "WATCHING",
+          "WNSENSE": "attend%2:39:00"
+        },
+        "start": 83,
+        "end": 99
+      },
+      "V2020401": {
+        "id": "V2020401",
+        "indicator": "A",
+        "type": "MATERIAL",
+        "word": "FILM",
+        "roles": {
+          "LEX": "FILM",
+          "WNSENSE": "film%1:06:00::"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "root": "#V2025657"
+    },
+    {
+      "V2020621": {
+        "id": "V2020621",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020005",
+          "LEX": "YOU"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2020005": {
+        "id": "V2020005",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "root": "#V2020621"
+    },
+    {
+      "V2025654": {
+        "id": "V2025654",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020018",
+          "LEX": "WERE"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020018": {
+        "id": "V2020018",
+        "indicator": "F",
+        "type": "PROPOSITION-EQUAL",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2025655",
+          "NEUTRAL1": "#V2020192",
+          "TENSE": "PAST",
+          "LEX": "WERE",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2025655": {
+        "id": "V2025655",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020192": {
+        "id": "V2020192",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "LOCATION": "#V2020034",
+          "TIME": "#V2020118",
+          "NEUTRAL": "#V2020176",
+          "FORMAL": "#V2020210",
+          "MANNER": "#V2020327",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 9,
+        "end": 99
+      },
+      "V2020034": {
+        "id": "V2020034",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020109",
+          "FIGURE": "#V2020192",
+          "LEX": "IN"
+        },
+        "start": 9,
+        "end": 28
+      },
+      "V2020109": {
+        "id": "V2020109",
+        "indicator": "THE",
+        "type": "PLACE",
+        "word": "PLACE",
+        "roles": {
+          "MOD": "#V2020099",
+          "LEX": "PLACE",
+          "WNSENSE": "place%1:15:00::"
+        },
+        "start": 12,
+        "end": 28
+      },
+      "V2020099": {
+        "id": "V2020099",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020109",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V2020118": {
+        "id": "V2020118",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2020150",
+          "FIGURE": "#V2020192",
+          "LEX": "AT"
+        },
+        "start": 28,
+        "end": 46
+      },
+      "V2020150": {
+        "id": "V2020150",
+        "indicator": "THE",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V2020139",
+          "LEX": "TIME"
+        },
+        "start": 31,
+        "end": 46
+      },
+      "V2020139": {
+        "id": "V2020139",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020150",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 35,
+        "end": 41
+      },
+      "V2020176": {
+        "id": "V2020176",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 46,
+        "end": 48
+      },
+      "V2020210": {
+        "id": "V2020210",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020322",
+          "FIGURE": "#V2020176",
+          "LEX": "IN"
+        },
+        "start": 52,
+        "end": 67
+      },
+      "V2020322": {
+        "id": "V2020322",
+        "indicator": "A",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "DORM-ROOM",
+        "roles": {
+          "LEX": "DORM-ROOM",
+          "WNSENSE": "dorm_room%1:06:00"
+        },
+        "start": 55,
+        "end": 67
+      },
+      "V2020327": {
+        "id": "V2020327",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2021425",
+          "FIGURE": "#V2020192",
+          "LEX": "WITH"
+        },
+        "start": 67,
+        "end": 99
+      },
+      "V2021425": {
+        "id": "V2021425",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020341"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020341": {
+        "id": "V2020341",
+        "indicator": "THE-SET",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "ASSOC-POSS": "#V2020338",
+          "MOD": "#V2020349",
+          "LEX": "FRIENDS",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020338": {
+        "id": "V2020338",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020349": {
+        "id": "V2020349",
+        "indicator": "F",
+        "type": "PAY-ATTENTION",
+        "word": "WATCH",
+        "roles": {
+          "AGENT": "#V2020341",
+          "NEUTRAL": "#V2020401",
+          "VFORM": "ING",
+          "LEX": "WATCHING",
+          "WNSENSE": "attend%2:39:00"
+        },
+        "start": 83,
+        "end": 99
+      },
+      "V2020401": {
+        "id": "V2020401",
+        "indicator": "A",
+        "type": "MATERIAL",
+        "word": "FILM",
+        "roles": {
+          "LEX": "FILM",
+          "WNSENSE": "film%1:06:00::"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "root": "#V2025654"
+    },
+    {
+      "V2020621": {
+        "id": "V2020621",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020005",
+          "LEX": "YOU"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2020005": {
+        "id": "V2020005",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "root": "#V2020621"
+    },
+    {
+      "V2025651": {
+        "id": "V2025651",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2020018",
+          "LEX": "WERE"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020018": {
+        "id": "V2020018",
+        "indicator": "F",
+        "type": "PROPOSITION-EQUAL",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2025652",
+          "NEUTRAL1": "#V2020192",
+          "TENSE": "PAST",
+          "LEX": "WERE",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2025652": {
+        "id": "V2025652",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 4,
+        "end": 99
+      },
+      "V2020192": {
+        "id": "V2020192",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "LOCATION": "#V2020034",
+          "TIME": "#V2020118",
+          "NEUTRAL": "#V2020176",
+          "FORMAL": "#V2020210",
+          "MANNER": "#V2020327",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 9,
+        "end": 99
+      },
+      "V2020034": {
+        "id": "V2020034",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020109",
+          "FIGURE": "#V2020192",
+          "LEX": "IN"
+        },
+        "start": 9,
+        "end": 28
+      },
+      "V2020109": {
+        "id": "V2020109",
+        "indicator": "THE",
+        "type": "PLACE",
+        "word": "PLACE",
+        "roles": {
+          "MOD": "#V2020100",
+          "LEX": "PLACE",
+          "WNSENSE": "place%1:15:00::"
+        },
+        "start": 12,
+        "end": 28
+      },
+      "V2020100": {
+        "id": "V2020100",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020109",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V2020118": {
+        "id": "V2020118",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2020150",
+          "FIGURE": "#V2020192",
+          "LEX": "AT"
+        },
+        "start": 28,
+        "end": 46
+      },
+      "V2020150": {
+        "id": "V2020150",
+        "indicator": "THE",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V2020139",
+          "LEX": "TIME"
+        },
+        "start": 31,
+        "end": 46
+      },
+      "V2020139": {
+        "id": "V2020139",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2020150",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 35,
+        "end": 41
+      },
+      "V2020176": {
+        "id": "V2020176",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 46,
+        "end": 48
+      },
+      "V2020210": {
+        "id": "V2020210",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2020322",
+          "FIGURE": "#V2020176",
+          "LEX": "IN"
+        },
+        "start": 52,
+        "end": 67
+      },
+      "V2020322": {
+        "id": "V2020322",
+        "indicator": "A",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "DORM-ROOM",
+        "roles": {
+          "LEX": "DORM-ROOM",
+          "WNSENSE": "dorm_room%1:06:00"
+        },
+        "start": 55,
+        "end": 67
+      },
+      "V2020327": {
+        "id": "V2020327",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2021425",
+          "FIGURE": "#V2020192",
+          "LEX": "WITH"
+        },
+        "start": 67,
+        "end": 99
+      },
+      "V2021425": {
+        "id": "V2021425",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2020341"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020341": {
+        "id": "V2020341",
+        "indicator": "THE-SET",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "ASSOC-POSS": "#V2020338",
+          "MOD": "#V2020349",
+          "LEX": "FRIENDS",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020338": {
+        "id": "V2020338",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 72,
+        "end": 99
+      },
+      "V2020349": {
+        "id": "V2020349",
+        "indicator": "F",
+        "type": "PAY-ATTENTION",
+        "word": "WATCH",
+        "roles": {
+          "AGENT": "#V2020341",
+          "NEUTRAL": "#V2020401",
+          "VFORM": "ING",
+          "LEX": "WATCHING",
+          "WNSENSE": "attend%2:39:00"
+        },
+        "start": 83,
+        "end": 99
+      },
+      "V2020401": {
+        "id": "V2020401",
+        "indicator": "A",
+        "type": "MATERIAL",
+        "word": "FILM",
+        "roles": {
+          "LEX": "FILM",
+          "WNSENSE": "film%1:06:00::"
+        },
+        "start": 92,
+        "end": 99
+      },
+      "root": "#V2025651"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+371",
+    "*last-utt-id*=371  utt-id+371",
+    "*last-utt-id*=371  utt-id+NIL"
+  ]
+}

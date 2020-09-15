@@ -1,0 +1,150 @@
+{
+  "parse": [
+    {
+      "V60575": {
+        "id": "V60575",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V60422",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 70
+      },
+      "V60422": {
+        "id": "V60422",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V59773",
+          "SEQUENCE1": "#V59817",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 70
+      },
+      "V59817": {
+        "id": "V59817",
+        "indicator": "F",
+        "type": "TEACH-TRAIN",
+        "word": "MASTURBATE",
+        "roles": {
+          "AGENT": "#V59755",
+          "LEX": "MASTURBATE",
+          "WNSENSE": "masturbate%2:35:01::"
+        },
+        "start": 0,
+        "end": 70
+      },
+      "V59773": {
+        "id": "V59773",
+        "indicator": "F",
+        "type": "FOLLOW-SOMETHING",
+        "word": "FOLLOW",
+        "roles": {
+          "AGENT": "#V59755",
+          "NEUTRAL": "#V59780",
+          "LEX": "FOLLOW",
+          "WNSENSE": "follow%2:38:00::"
+        },
+        "start": 0,
+        "end": 70
+      },
+      "V59755": {
+        "id": "V59755",
+        "indicator": "THE",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "PROFORM": "THIS",
+          "MOD": [
+            "#V59727",
+            "#V59738"
+          ],
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V59727": {
+        "id": "V59727",
+        "indicator": "F",
+        "type": "REPUTABLE-VAL",
+        "word": "RESPECTABLE",
+        "roles": {
+          "FIGURE": "#V59755",
+          "SCALE": "DOMAIN",
+          "LEX": "RESPECTABLE",
+          "WNSENSE": "respectable%3:00:00::"
+        },
+        "start": 5,
+        "end": 17
+      },
+      "V59738": {
+        "id": "V59738",
+        "indicator": "F",
+        "type": "APPEARS-TO-HAVE-PROPERTY",
+        "word": "LOOK",
+        "roles": {
+          "NEUTRAL": "#V59755",
+          "LEX": "LOOKING",
+          "WNSENSE": "look%2:39:01::"
+        },
+        "start": 17,
+        "end": 25
+      },
+      "V59780": {
+        "id": "V59780",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "LOCATION": "#V59785",
+          "LEX": "WOMEN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V59785": {
+        "id": "V59785",
+        "indicator": "F",
+        "type": "AROUND",
+        "word": "AROUND",
+        "roles": {
+          "GROUND": "#V59976",
+          "FIGURE": "#V59780",
+          "LEX": "AROUND",
+          "WNSENSE": "around%4:02:05::"
+        },
+        "start": 48,
+        "end": 55
+      },
+      "V59976": {
+        "id": "V59976",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "COREF": "#V59755"
+        },
+        "start": 48,
+        "end": 55
+      },
+      "root": "#V60575"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+3",
+    "*last-utt-id*=3  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "parse": [
+    {
+      "V760531": {
+        "id": "V760531",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V760437",
+          "LEX": "TIMES"
+        },
+        "start": 0,
+        "end": 13
+      },
+      "V760437": {
+        "id": "V760437",
+        "indicator": "INDEF-SET",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V760429",
+          "LEX": "TIMES"
+        },
+        "start": 0,
+        "end": 13
+      },
+      "V760429": {
+        "id": "V760429",
+        "indicator": "F",
+        "type": "N-TUPLE-VAL",
+        "word": "MULTIPLE",
+        "roles": {
+          "FIGURE": "#V760437",
+          "SCALE": "DOMAIN",
+          "LEX": "MULTIPLE",
+          "WNSENSE": "multiple%3:00:00::"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "root": "#V760531"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+135",
+    "*last-utt-id*=135  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "parse": [
+    {
+      "V2910124": {
+        "id": "V2910124",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2909333",
+          "LEX": "LET"
+        },
+        "start": 1,
+        "end": 26
+      },
+      "V2909333": {
+        "id": "V2909333",
+        "indicator": "F",
+        "type": "ALLOW",
+        "word": "LET",
+        "roles": {
+          "AGENT": "#V2910125",
+          "AFFECTED": "#V2909362",
+          "FORMAL": "#V2909401",
+          "TENSE": "PRES",
+          "LEX": "LET",
+          "WNSENSE": "let%2:41:00::"
+        },
+        "start": 1,
+        "end": 26
+      },
+      "V2910125": {
+        "id": "V2910125",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ",
+          "COREF": "#V2909429"
+        },
+        "start": 1,
+        "end": 26
+      },
+      "V2909362": {
+        "id": "V2909362",
+        "indicator": "THE",
+        "type": "LETTER-SYMBOL",
+        "word": null,
+        "roles": {
+          "NAME-OF": "S",
+          "LEX": "S",
+          "WNSENSE": "s%1:10:00::"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V2909401": {
+        "id": "V2909401",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "PUT",
+        "roles": {
+          "AGENT": "#V2909362",
+          "AFFECTED": "#V2909429",
+          "RESULT": "#V2909438",
+          "VFORM": "BASE",
+          "LEX": "PUT",
+          "WNSENSE": "put%2:35:00::"
+        },
+        "start": 7,
+        "end": 26
+      },
+      "V2909429": {
+        "id": "V2909429",
+        "indicator": "A",
+        "type": "ENDPOINT",
+        "word": "END",
+        "roles": {
+          "LEX": "END",
+          "WNSENSE": "end%1:15:00::"
+        },
+        "start": 11,
+        "end": 18
+      },
+      "V2909438": {
+        "id": "V2909438",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2909461",
+          "FIGURE": "#V2909429",
+          "LEX": "TO"
+        },
+        "start": 18,
+        "end": 26
+      },
+      "V2909461": {
+        "id": "V2909461",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "THIS",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "THIS",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 21,
+        "end": 26
+      },
+      "root": "#V2910124"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+512",
+    "*last-utt-id*=512  utt-id+NIL"
+  ]
+}

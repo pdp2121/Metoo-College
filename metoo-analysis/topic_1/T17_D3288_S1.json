@@ -1,0 +1,205 @@
+{
+  "parse": [
+    {
+      "V640203": {
+        "id": "V640203",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V640200",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 46
+      },
+      "V640200": {
+        "id": "V640200",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V638448"
+        },
+        "start": 0,
+        "end": 46
+      },
+      "V638448": {
+        "id": "V638448",
+        "indicator": "INDEF-SET",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "MOD": "#V638481",
+          "LEX": "GUYS",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 46
+      },
+      "V638481": {
+        "id": "V638481",
+        "indicator": "F",
+        "type": "ACQUIRE",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V638451",
+          "AFFECTED": "#V638448",
+          "REASON": "#V638511",
+          "TENSE": "PAST",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:40:00::"
+        },
+        "start": 5,
+        "end": 46
+      },
+      "V638451": {
+        "id": "V638451",
+        "indicator": "PRO-SET",
+        "type": "PERSON",
+        "word": "WE",
+        "roles": {
+          "PROFORM": "WE",
+          "LEX": "WE",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "US"
+        },
+        "start": 5,
+        "end": 8
+      },
+      "V638511": {
+        "id": "V638511",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V638538",
+          "FIGURE": "#V638481",
+          "LEX": "TO"
+        },
+        "start": 14,
+        "end": 46
+      },
+      "V638538": {
+        "id": "V638538",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "MOD": "#V638559",
+          "NEUTRAL": "#V638448",
+          "EXTENT": "#V639443",
+          "VFORM": "BASE",
+          "LEX": "DO-",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 17,
+        "end": 46
+      },
+      "V639443": {
+        "id": "V639443",
+        "indicator": "F",
+        "type": "EXTENT-PREDICATE",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V638538",
+          "GROUND": "#V639444",
+          "LEX": "BETTER",
+          "WNSENSE": "better%3:00:00::"
+        },
+        "start": 20,
+        "end": 27
+      },
+      "V639444": {
+        "id": "V639444",
+        "indicator": "THE",
+        "type": "VALUE",
+        "word": null,
+        "roles": {
+          "MOD": "#V638544"
+        },
+        "start": 20,
+        "end": 27
+      },
+      "V638544": {
+        "id": "V638544",
+        "indicator": "F",
+        "type": "MORE-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "MED",
+          "FIGURE": "#V639444",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BETTER",
+          "WNSENSE": "better%3:00:00::"
+        },
+        "start": 20,
+        "end": 27
+      },
+      "V638559": {
+        "id": "V638559",
+        "indicator": "F",
+        "type": "THEREFORE",
+        "word": "SO",
+        "roles": {
+          "GROUND": "#V638600",
+          "FIGURE": "#V638538",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:10::"
+        },
+        "start": 27,
+        "end": 46
+      },
+      "V638600": {
+        "id": "V638600",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "HAVE",
+        "roles": {
+          "NEUTRAL": "#V638593",
+          "FORMAL": "#V638648",
+          "TENSE": "PRES",
+          "LEX": "HAS",
+          "WNSENSE": "need%2:34:01"
+        },
+        "start": 30,
+        "end": 46
+      },
+      "V638593": {
+        "id": "V638593",
+        "indicator": "QUANTIFIER",
+        "type": "REFERENTIAL-SEM",
+        "word": "ONE",
+        "roles": {
+          "QUAN": "NONE",
+          "LEX": "ONE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V638648": {
+        "id": "V638648",
+        "indicator": "F",
+        "type": "SAY",
+        "word": "SAY",
+        "roles": {
+          "AGENT": "#V638593",
+          "NEUTRAL": "#V638448",
+          "VFORM": "BASE",
+          "LEX": "SAY",
+          "WNSENSE": "say%2:32:01::"
+        },
+        "start": 41,
+        "end": 46
+      },
+      "root": "#V640203"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+113",
+    "*last-utt-id*=113  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,4645 @@
+{
+  "parse": [
+    {
+      "V77604": {
+        "id": "V77604",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77397",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77397": {
+        "id": "V77397",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V77604"
+    },
+    {
+      "V78658": {
+        "id": "V78658",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77404",
+          "LEX": "\u2019"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "V77404": {
+        "id": "V77404",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u2019",
+        "roles": {
+          "LEX": "\u2019",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "root": "#V78658"
+    },
+    {
+      "V78238": {
+        "id": "V78238",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77984",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77984": {
+        "id": "V77984",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V77408",
+          "MOD": "#V77422",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77408": {
+        "id": "V77408",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V77422": {
+        "id": "V77422",
+        "indicator": "F",
+        "type": "INSANE",
+        "word": "CRAZY",
+        "roles": {
+          "FIGURE": "#V77984",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "CRAZY",
+          "WNSENSE": "crazy%5:00:00:insane:00"
+        },
+        "start": 7,
+        "end": 13
+      },
+      "root": "#V78238"
+    },
+    {
+      "V77904": {
+        "id": "V77904",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V77754",
+          "LEX": "-"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77754": {
+        "id": "V77754",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77508",
+          "COREF": "#V77408"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77508": {
+        "id": "V77508",
+        "indicator": "THE",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77465": {
+        "id": "V77465",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "STOP",
+        "roles": {
+          "TIME": "#V77429",
+          "AGENT": "#V77451",
+          "FORMAL": "#V77477",
+          "WNSENSE": "stop%2:38:00::"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77429": {
+        "id": "V77429",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V77508",
+          "FIGURE": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 18
+      },
+      "V77451": {
+        "id": "V77451",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77477": {
+        "id": "V77477",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V77451",
+          "AFFECTED": "#V77481",
+          "VFORM": "ING",
+          "LEX": "IGNORING",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 28,
+        "end": 40
+      },
+      "V77481": {
+        "id": "V77481",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V77984"
+        },
+        "start": 37,
+        "end": 40
+      },
+      "root": "#V77904"
+    },
+    {
+      "V77604": {
+        "id": "V77604",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77397",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77397": {
+        "id": "V77397",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V77604"
+    },
+    {
+      "V78658": {
+        "id": "V78658",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77404",
+          "LEX": "\u2019"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "V77404": {
+        "id": "V77404",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u2019",
+        "roles": {
+          "LEX": "\u2019",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "root": "#V78658"
+    },
+    {
+      "V78236": {
+        "id": "V78236",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77983",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77983": {
+        "id": "V77983",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUANTITY": "#V77408",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "MOD": "#V77422",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77408": {
+        "id": "V77408",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V77422": {
+        "id": "V77422",
+        "indicator": "F",
+        "type": "INSANE",
+        "word": "CRAZY",
+        "roles": {
+          "FIGURE": "#V77983",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "CRAZY",
+          "WNSENSE": "crazy%5:00:00:insane:00"
+        },
+        "start": 7,
+        "end": 13
+      },
+      "root": "#V78236"
+    },
+    {
+      "V77904": {
+        "id": "V77904",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V77754",
+          "LEX": "-"
+        },
+        "start": 13,
+        "end": 41
+      },
+      "V77754": {
+        "id": "V77754",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77508"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77508": {
+        "id": "V77508",
+        "indicator": "THE",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77465": {
+        "id": "V77465",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "STOP",
+        "roles": {
+          "TIME": "#V77429",
+          "AGENT": "#V77451",
+          "FORMAL": "#V77477",
+          "WNSENSE": "stop%2:38:00::"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77429": {
+        "id": "V77429",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V77508",
+          "FIGURE": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 18
+      },
+      "V77451": {
+        "id": "V77451",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77477": {
+        "id": "V77477",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V77451",
+          "AFFECTED": "#V77481",
+          "VFORM": "ING",
+          "LEX": "IGNORING",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 28,
+        "end": 40
+      },
+      "V77481": {
+        "id": "V77481",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 37,
+        "end": 40
+      },
+      "root": "#V77904"
+    },
+    {
+      "V77604": {
+        "id": "V77604",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77397",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77397": {
+        "id": "V77397",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V77604"
+    },
+    {
+      "V78658": {
+        "id": "V78658",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77404",
+          "LEX": "\u2019"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "V77404": {
+        "id": "V77404",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u2019",
+        "roles": {
+          "LEX": "\u2019",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "root": "#V78658"
+    },
+    {
+      "V78234": {
+        "id": "V78234",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77982",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77982": {
+        "id": "V77982",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V77408",
+          "MOD": "#V77422",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77408": {
+        "id": "V77408",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V77422": {
+        "id": "V77422",
+        "indicator": "F",
+        "type": "INSANE",
+        "word": "CRAZY",
+        "roles": {
+          "FIGURE": "#V77982",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "CRAZY",
+          "WNSENSE": "crazy%5:00:00:insane:00"
+        },
+        "start": 7,
+        "end": 13
+      },
+      "root": "#V78234"
+    },
+    {
+      "V77904": {
+        "id": "V77904",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V77754",
+          "LEX": "-"
+        },
+        "start": 13,
+        "end": 41
+      },
+      "V77754": {
+        "id": "V77754",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77508"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77508": {
+        "id": "V77508",
+        "indicator": "THE",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77465": {
+        "id": "V77465",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "STOP",
+        "roles": {
+          "TIME": "#V77429",
+          "AGENT": "#V77451",
+          "FORMAL": "#V77477",
+          "WNSENSE": "stop%2:38:00::"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77429": {
+        "id": "V77429",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V77508",
+          "FIGURE": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 18
+      },
+      "V77451": {
+        "id": "V77451",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77477": {
+        "id": "V77477",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V77451",
+          "AFFECTED": "#V77481",
+          "VFORM": "ING",
+          "LEX": "IGNORING",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 28,
+        "end": 40
+      },
+      "V77481": {
+        "id": "V77481",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 37,
+        "end": 40
+      },
+      "root": "#V77904"
+    },
+    {
+      "V77604": {
+        "id": "V77604",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77397",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77397": {
+        "id": "V77397",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V77604"
+    },
+    {
+      "V78658": {
+        "id": "V78658",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77404",
+          "LEX": "\u2019"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "V77404": {
+        "id": "V77404",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u2019",
+        "roles": {
+          "LEX": "\u2019",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "root": "#V78658"
+    },
+    {
+      "V78232": {
+        "id": "V78232",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77981",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77981": {
+        "id": "V77981",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUANTITY": "#V77408",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "MOD": "#V77422",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77408": {
+        "id": "V77408",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V77422": {
+        "id": "V77422",
+        "indicator": "F",
+        "type": "INSANE",
+        "word": "CRAZY",
+        "roles": {
+          "FIGURE": "#V77981",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "CRAZY",
+          "WNSENSE": "crazy%5:00:00:insane:00"
+        },
+        "start": 7,
+        "end": 13
+      },
+      "root": "#V78232"
+    },
+    {
+      "V77904": {
+        "id": "V77904",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V77754",
+          "LEX": "-"
+        },
+        "start": 13,
+        "end": 41
+      },
+      "V77754": {
+        "id": "V77754",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77508"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77508": {
+        "id": "V77508",
+        "indicator": "THE",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77465": {
+        "id": "V77465",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "STOP",
+        "roles": {
+          "TIME": "#V77429",
+          "AGENT": "#V77451",
+          "FORMAL": "#V77477",
+          "WNSENSE": "stop%2:38:00::"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77429": {
+        "id": "V77429",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V77508",
+          "FIGURE": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 18
+      },
+      "V77451": {
+        "id": "V77451",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77477": {
+        "id": "V77477",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V77451",
+          "AFFECTED": "#V77481",
+          "VFORM": "ING",
+          "LEX": "IGNORING",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 28,
+        "end": 40
+      },
+      "V77481": {
+        "id": "V77481",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 37,
+        "end": 40
+      },
+      "root": "#V77904"
+    },
+    {
+      "V77604": {
+        "id": "V77604",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77397",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77397": {
+        "id": "V77397",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V77604"
+    },
+    {
+      "V78658": {
+        "id": "V78658",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77404",
+          "LEX": "\u2019"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "V77404": {
+        "id": "V77404",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u2019",
+        "roles": {
+          "LEX": "\u2019",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "root": "#V78658"
+    },
+    {
+      "V78238": {
+        "id": "V78238",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77984",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77984": {
+        "id": "V77984",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V77408",
+          "MOD": "#V77422",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77408": {
+        "id": "V77408",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V77422": {
+        "id": "V77422",
+        "indicator": "F",
+        "type": "INSANE",
+        "word": "CRAZY",
+        "roles": {
+          "FIGURE": "#V77984",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "CRAZY",
+          "WNSENSE": "crazy%5:00:00:insane:00"
+        },
+        "start": 7,
+        "end": 13
+      },
+      "root": "#V78238"
+    },
+    {
+      "V77939": {
+        "id": "V77939",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V77774",
+          "LEX": "-"
+        },
+        "start": 13,
+        "end": 41
+      },
+      "V77774": {
+        "id": "V77774",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77508"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77508": {
+        "id": "V77508",
+        "indicator": "THE",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77465": {
+        "id": "V77465",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "STOP",
+        "roles": {
+          "TIME": "#V77429",
+          "AGENT": "#V77552",
+          "FORMAL": "#V77477",
+          "WNSENSE": "stop%2:38:00::"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77429": {
+        "id": "V77429",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V77508",
+          "FIGURE": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 18
+      },
+      "V77552": {
+        "id": "V77552",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77451"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77451": {
+        "id": "V77451",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77477": {
+        "id": "V77477",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V77552",
+          "AFFECTED": "#V77481",
+          "VFORM": "ING",
+          "LEX": "IGNORING",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 28,
+        "end": 40
+      },
+      "V77481": {
+        "id": "V77481",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 37,
+        "end": 40
+      },
+      "root": "#V77939"
+    },
+    {
+      "V77604": {
+        "id": "V77604",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77397",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77397": {
+        "id": "V77397",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V77604"
+    },
+    {
+      "V78658": {
+        "id": "V78658",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77404",
+          "LEX": "\u2019"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "V77404": {
+        "id": "V77404",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u2019",
+        "roles": {
+          "LEX": "\u2019",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "root": "#V78658"
+    },
+    {
+      "V78236": {
+        "id": "V78236",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77983",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77983": {
+        "id": "V77983",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUANTITY": "#V77408",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "MOD": "#V77422",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77408": {
+        "id": "V77408",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V77422": {
+        "id": "V77422",
+        "indicator": "F",
+        "type": "INSANE",
+        "word": "CRAZY",
+        "roles": {
+          "FIGURE": "#V77983",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "CRAZY",
+          "WNSENSE": "crazy%5:00:00:insane:00"
+        },
+        "start": 7,
+        "end": 13
+      },
+      "root": "#V78236"
+    },
+    {
+      "V77939": {
+        "id": "V77939",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V77774",
+          "LEX": "-"
+        },
+        "start": 13,
+        "end": 41
+      },
+      "V77774": {
+        "id": "V77774",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77508"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77508": {
+        "id": "V77508",
+        "indicator": "THE",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77465": {
+        "id": "V77465",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "STOP",
+        "roles": {
+          "TIME": "#V77429",
+          "AGENT": "#V77552",
+          "FORMAL": "#V77477",
+          "WNSENSE": "stop%2:38:00::"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77429": {
+        "id": "V77429",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V77508",
+          "FIGURE": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 18
+      },
+      "V77552": {
+        "id": "V77552",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77451"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77451": {
+        "id": "V77451",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77477": {
+        "id": "V77477",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V77552",
+          "AFFECTED": "#V77481",
+          "VFORM": "ING",
+          "LEX": "IGNORING",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 28,
+        "end": 40
+      },
+      "V77481": {
+        "id": "V77481",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 37,
+        "end": 40
+      },
+      "root": "#V77939"
+    },
+    {
+      "V77604": {
+        "id": "V77604",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77397",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77397": {
+        "id": "V77397",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V77604"
+    },
+    {
+      "V78658": {
+        "id": "V78658",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77404",
+          "LEX": "\u2019"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "V77404": {
+        "id": "V77404",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u2019",
+        "roles": {
+          "LEX": "\u2019",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "root": "#V78658"
+    },
+    {
+      "V78234": {
+        "id": "V78234",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77982",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77982": {
+        "id": "V77982",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V77408",
+          "MOD": "#V77422",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77408": {
+        "id": "V77408",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V77422": {
+        "id": "V77422",
+        "indicator": "F",
+        "type": "INSANE",
+        "word": "CRAZY",
+        "roles": {
+          "FIGURE": "#V77982",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "CRAZY",
+          "WNSENSE": "crazy%5:00:00:insane:00"
+        },
+        "start": 7,
+        "end": 13
+      },
+      "root": "#V78234"
+    },
+    {
+      "V77939": {
+        "id": "V77939",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V77774",
+          "LEX": "-"
+        },
+        "start": 13,
+        "end": 41
+      },
+      "V77774": {
+        "id": "V77774",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77508"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77508": {
+        "id": "V77508",
+        "indicator": "THE",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77465": {
+        "id": "V77465",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "STOP",
+        "roles": {
+          "TIME": "#V77429",
+          "AGENT": "#V77552",
+          "FORMAL": "#V77477",
+          "WNSENSE": "stop%2:38:00::"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77429": {
+        "id": "V77429",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V77508",
+          "FIGURE": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 18
+      },
+      "V77552": {
+        "id": "V77552",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77451"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77451": {
+        "id": "V77451",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77477": {
+        "id": "V77477",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V77552",
+          "AFFECTED": "#V77481",
+          "VFORM": "ING",
+          "LEX": "IGNORING",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 28,
+        "end": 40
+      },
+      "V77481": {
+        "id": "V77481",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 37,
+        "end": 40
+      },
+      "root": "#V77939"
+    },
+    {
+      "V77604": {
+        "id": "V77604",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77397",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77397": {
+        "id": "V77397",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V77604"
+    },
+    {
+      "V78658": {
+        "id": "V78658",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77404",
+          "LEX": "\u2019"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "V77404": {
+        "id": "V77404",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u2019",
+        "roles": {
+          "LEX": "\u2019",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "root": "#V78658"
+    },
+    {
+      "V78232": {
+        "id": "V78232",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77981",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77981": {
+        "id": "V77981",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUANTITY": "#V77408",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "MOD": "#V77422",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77408": {
+        "id": "V77408",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V77422": {
+        "id": "V77422",
+        "indicator": "F",
+        "type": "INSANE",
+        "word": "CRAZY",
+        "roles": {
+          "FIGURE": "#V77981",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "CRAZY",
+          "WNSENSE": "crazy%5:00:00:insane:00"
+        },
+        "start": 7,
+        "end": 13
+      },
+      "root": "#V78232"
+    },
+    {
+      "V77939": {
+        "id": "V77939",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V77774",
+          "LEX": "-"
+        },
+        "start": 13,
+        "end": 41
+      },
+      "V77774": {
+        "id": "V77774",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77508"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77508": {
+        "id": "V77508",
+        "indicator": "THE",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77465": {
+        "id": "V77465",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "STOP",
+        "roles": {
+          "TIME": "#V77429",
+          "AGENT": "#V77552",
+          "FORMAL": "#V77477",
+          "WNSENSE": "stop%2:38:00::"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77429": {
+        "id": "V77429",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V77508",
+          "FIGURE": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 18
+      },
+      "V77552": {
+        "id": "V77552",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77451"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77451": {
+        "id": "V77451",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77477": {
+        "id": "V77477",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V77552",
+          "AFFECTED": "#V77481",
+          "VFORM": "ING",
+          "LEX": "IGNORING",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 28,
+        "end": 40
+      },
+      "V77481": {
+        "id": "V77481",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 37,
+        "end": 40
+      },
+      "root": "#V77939"
+    },
+    {
+      "V77644": {
+        "id": "V77644",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77549",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77549": {
+        "id": "V77549",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77397"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77397": {
+        "id": "V77397",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V77644"
+    },
+    {
+      "V78658": {
+        "id": "V78658",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77404",
+          "LEX": "\u2019"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "V77404": {
+        "id": "V77404",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u2019",
+        "roles": {
+          "LEX": "\u2019",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "root": "#V78658"
+    },
+    {
+      "V78238": {
+        "id": "V78238",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77984",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77984": {
+        "id": "V77984",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V77408",
+          "MOD": "#V77422",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77408": {
+        "id": "V77408",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V77422": {
+        "id": "V77422",
+        "indicator": "F",
+        "type": "INSANE",
+        "word": "CRAZY",
+        "roles": {
+          "FIGURE": "#V77984",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "CRAZY",
+          "WNSENSE": "crazy%5:00:00:insane:00"
+        },
+        "start": 7,
+        "end": 13
+      },
+      "root": "#V78238"
+    },
+    {
+      "V77904": {
+        "id": "V77904",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V77754",
+          "LEX": "-"
+        },
+        "start": 13,
+        "end": 41
+      },
+      "V77754": {
+        "id": "V77754",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77508"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77508": {
+        "id": "V77508",
+        "indicator": "THE",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77465": {
+        "id": "V77465",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "STOP",
+        "roles": {
+          "TIME": "#V77429",
+          "AGENT": "#V77451",
+          "FORMAL": "#V77477",
+          "WNSENSE": "stop%2:38:00::"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77429": {
+        "id": "V77429",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V77508",
+          "FIGURE": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 18
+      },
+      "V77451": {
+        "id": "V77451",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77477": {
+        "id": "V77477",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V77451",
+          "AFFECTED": "#V77481",
+          "VFORM": "ING",
+          "LEX": "IGNORING",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 28,
+        "end": 40
+      },
+      "V77481": {
+        "id": "V77481",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 37,
+        "end": 40
+      },
+      "root": "#V77904"
+    },
+    {
+      "V77644": {
+        "id": "V77644",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77549",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77549": {
+        "id": "V77549",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77397"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77397": {
+        "id": "V77397",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V77644"
+    },
+    {
+      "V78658": {
+        "id": "V78658",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77404",
+          "LEX": "\u2019"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "V77404": {
+        "id": "V77404",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u2019",
+        "roles": {
+          "LEX": "\u2019",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "root": "#V78658"
+    },
+    {
+      "V78236": {
+        "id": "V78236",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77983",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77983": {
+        "id": "V77983",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUANTITY": "#V77408",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "MOD": "#V77422",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77408": {
+        "id": "V77408",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V77422": {
+        "id": "V77422",
+        "indicator": "F",
+        "type": "INSANE",
+        "word": "CRAZY",
+        "roles": {
+          "FIGURE": "#V77983",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "CRAZY",
+          "WNSENSE": "crazy%5:00:00:insane:00"
+        },
+        "start": 7,
+        "end": 13
+      },
+      "root": "#V78236"
+    },
+    {
+      "V77904": {
+        "id": "V77904",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V77754",
+          "LEX": "-"
+        },
+        "start": 13,
+        "end": 41
+      },
+      "V77754": {
+        "id": "V77754",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77508"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77508": {
+        "id": "V77508",
+        "indicator": "THE",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77465": {
+        "id": "V77465",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "STOP",
+        "roles": {
+          "TIME": "#V77429",
+          "AGENT": "#V77451",
+          "FORMAL": "#V77477",
+          "WNSENSE": "stop%2:38:00::"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77429": {
+        "id": "V77429",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V77508",
+          "FIGURE": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 18
+      },
+      "V77451": {
+        "id": "V77451",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77477": {
+        "id": "V77477",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V77451",
+          "AFFECTED": "#V77481",
+          "VFORM": "ING",
+          "LEX": "IGNORING",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 28,
+        "end": 40
+      },
+      "V77481": {
+        "id": "V77481",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 37,
+        "end": 40
+      },
+      "root": "#V77904"
+    },
+    {
+      "V77644": {
+        "id": "V77644",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77549",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77549": {
+        "id": "V77549",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77397"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77397": {
+        "id": "V77397",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V77644"
+    },
+    {
+      "V78658": {
+        "id": "V78658",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77404",
+          "LEX": "\u2019"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "V77404": {
+        "id": "V77404",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u2019",
+        "roles": {
+          "LEX": "\u2019",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "root": "#V78658"
+    },
+    {
+      "V78234": {
+        "id": "V78234",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77982",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77982": {
+        "id": "V77982",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V77408",
+          "MOD": "#V77422",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77408": {
+        "id": "V77408",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V77422": {
+        "id": "V77422",
+        "indicator": "F",
+        "type": "INSANE",
+        "word": "CRAZY",
+        "roles": {
+          "FIGURE": "#V77982",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "CRAZY",
+          "WNSENSE": "crazy%5:00:00:insane:00"
+        },
+        "start": 7,
+        "end": 13
+      },
+      "root": "#V78234"
+    },
+    {
+      "V77904": {
+        "id": "V77904",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V77754",
+          "LEX": "-"
+        },
+        "start": 13,
+        "end": 41
+      },
+      "V77754": {
+        "id": "V77754",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77508"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77508": {
+        "id": "V77508",
+        "indicator": "THE",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77465": {
+        "id": "V77465",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "STOP",
+        "roles": {
+          "TIME": "#V77429",
+          "AGENT": "#V77451",
+          "FORMAL": "#V77477",
+          "WNSENSE": "stop%2:38:00::"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77429": {
+        "id": "V77429",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V77508",
+          "FIGURE": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 18
+      },
+      "V77451": {
+        "id": "V77451",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77477": {
+        "id": "V77477",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V77451",
+          "AFFECTED": "#V77481",
+          "VFORM": "ING",
+          "LEX": "IGNORING",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 28,
+        "end": 40
+      },
+      "V77481": {
+        "id": "V77481",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 37,
+        "end": 40
+      },
+      "root": "#V77904"
+    },
+    {
+      "V77644": {
+        "id": "V77644",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77549",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77549": {
+        "id": "V77549",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77397"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77397": {
+        "id": "V77397",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V77644"
+    },
+    {
+      "V78658": {
+        "id": "V78658",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77404",
+          "LEX": "\u2019"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "V77404": {
+        "id": "V77404",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u2019",
+        "roles": {
+          "LEX": "\u2019",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "root": "#V78658"
+    },
+    {
+      "V78232": {
+        "id": "V78232",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77981",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77981": {
+        "id": "V77981",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUANTITY": "#V77408",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "MOD": "#V77422",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77408": {
+        "id": "V77408",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V77422": {
+        "id": "V77422",
+        "indicator": "F",
+        "type": "INSANE",
+        "word": "CRAZY",
+        "roles": {
+          "FIGURE": "#V77981",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "CRAZY",
+          "WNSENSE": "crazy%5:00:00:insane:00"
+        },
+        "start": 7,
+        "end": 13
+      },
+      "root": "#V78232"
+    },
+    {
+      "V77904": {
+        "id": "V77904",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V77754",
+          "LEX": "-"
+        },
+        "start": 13,
+        "end": 41
+      },
+      "V77754": {
+        "id": "V77754",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77508"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77508": {
+        "id": "V77508",
+        "indicator": "THE",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77465": {
+        "id": "V77465",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "STOP",
+        "roles": {
+          "TIME": "#V77429",
+          "AGENT": "#V77451",
+          "FORMAL": "#V77477",
+          "WNSENSE": "stop%2:38:00::"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77429": {
+        "id": "V77429",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V77508",
+          "FIGURE": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 18
+      },
+      "V77451": {
+        "id": "V77451",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77477": {
+        "id": "V77477",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V77451",
+          "AFFECTED": "#V77481",
+          "VFORM": "ING",
+          "LEX": "IGNORING",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 28,
+        "end": 40
+      },
+      "V77481": {
+        "id": "V77481",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 37,
+        "end": 40
+      },
+      "root": "#V77904"
+    },
+    {
+      "V77644": {
+        "id": "V77644",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77549",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77549": {
+        "id": "V77549",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77397"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77397": {
+        "id": "V77397",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V77644"
+    },
+    {
+      "V78658": {
+        "id": "V78658",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77404",
+          "LEX": "\u2019"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "V77404": {
+        "id": "V77404",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u2019",
+        "roles": {
+          "LEX": "\u2019",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "root": "#V78658"
+    },
+    {
+      "V78238": {
+        "id": "V78238",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77984",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77984": {
+        "id": "V77984",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V77408",
+          "MOD": "#V77422",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77408": {
+        "id": "V77408",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V77422": {
+        "id": "V77422",
+        "indicator": "F",
+        "type": "INSANE",
+        "word": "CRAZY",
+        "roles": {
+          "FIGURE": "#V77984",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "CRAZY",
+          "WNSENSE": "crazy%5:00:00:insane:00"
+        },
+        "start": 7,
+        "end": 13
+      },
+      "root": "#V78238"
+    },
+    {
+      "V77939": {
+        "id": "V77939",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V77774",
+          "LEX": "-"
+        },
+        "start": 13,
+        "end": 41
+      },
+      "V77774": {
+        "id": "V77774",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77508"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77508": {
+        "id": "V77508",
+        "indicator": "THE",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77465": {
+        "id": "V77465",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "STOP",
+        "roles": {
+          "TIME": "#V77429",
+          "AGENT": "#V77552",
+          "FORMAL": "#V77477",
+          "WNSENSE": "stop%2:38:00::"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77429": {
+        "id": "V77429",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V77508",
+          "FIGURE": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 18
+      },
+      "V77552": {
+        "id": "V77552",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77451"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77451": {
+        "id": "V77451",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77477": {
+        "id": "V77477",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V77552",
+          "AFFECTED": "#V77481",
+          "VFORM": "ING",
+          "LEX": "IGNORING",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 28,
+        "end": 40
+      },
+      "V77481": {
+        "id": "V77481",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 37,
+        "end": 40
+      },
+      "root": "#V77939"
+    },
+    {
+      "V77644": {
+        "id": "V77644",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77549",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77549": {
+        "id": "V77549",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77397"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77397": {
+        "id": "V77397",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V77644"
+    },
+    {
+      "V78658": {
+        "id": "V78658",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77404",
+          "LEX": "\u2019"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "V77404": {
+        "id": "V77404",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u2019",
+        "roles": {
+          "LEX": "\u2019",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "root": "#V78658"
+    },
+    {
+      "V78236": {
+        "id": "V78236",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77983",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77983": {
+        "id": "V77983",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUANTITY": "#V77408",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "MOD": "#V77422",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77408": {
+        "id": "V77408",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V77422": {
+        "id": "V77422",
+        "indicator": "F",
+        "type": "INSANE",
+        "word": "CRAZY",
+        "roles": {
+          "FIGURE": "#V77983",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "CRAZY",
+          "WNSENSE": "crazy%5:00:00:insane:00"
+        },
+        "start": 7,
+        "end": 13
+      },
+      "root": "#V78236"
+    },
+    {
+      "V77939": {
+        "id": "V77939",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V77774",
+          "LEX": "-"
+        },
+        "start": 13,
+        "end": 41
+      },
+      "V77774": {
+        "id": "V77774",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77508"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77508": {
+        "id": "V77508",
+        "indicator": "THE",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77465": {
+        "id": "V77465",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "STOP",
+        "roles": {
+          "TIME": "#V77429",
+          "AGENT": "#V77552",
+          "FORMAL": "#V77477",
+          "WNSENSE": "stop%2:38:00::"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77429": {
+        "id": "V77429",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V77508",
+          "FIGURE": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 18
+      },
+      "V77552": {
+        "id": "V77552",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77451"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77451": {
+        "id": "V77451",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77477": {
+        "id": "V77477",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V77552",
+          "AFFECTED": "#V77481",
+          "VFORM": "ING",
+          "LEX": "IGNORING",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 28,
+        "end": 40
+      },
+      "V77481": {
+        "id": "V77481",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 37,
+        "end": 40
+      },
+      "root": "#V77939"
+    },
+    {
+      "V77644": {
+        "id": "V77644",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77549",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77549": {
+        "id": "V77549",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77397"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77397": {
+        "id": "V77397",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V77644"
+    },
+    {
+      "V78658": {
+        "id": "V78658",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77404",
+          "LEX": "\u2019"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "V77404": {
+        "id": "V77404",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u2019",
+        "roles": {
+          "LEX": "\u2019",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "root": "#V78658"
+    },
+    {
+      "V78234": {
+        "id": "V78234",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77982",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77982": {
+        "id": "V77982",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V77408",
+          "MOD": "#V77422",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77408": {
+        "id": "V77408",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V77422": {
+        "id": "V77422",
+        "indicator": "F",
+        "type": "INSANE",
+        "word": "CRAZY",
+        "roles": {
+          "FIGURE": "#V77982",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "CRAZY",
+          "WNSENSE": "crazy%5:00:00:insane:00"
+        },
+        "start": 7,
+        "end": 13
+      },
+      "root": "#V78234"
+    },
+    {
+      "V77939": {
+        "id": "V77939",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V77774",
+          "LEX": "-"
+        },
+        "start": 13,
+        "end": 41
+      },
+      "V77774": {
+        "id": "V77774",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77508"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77508": {
+        "id": "V77508",
+        "indicator": "THE",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77465": {
+        "id": "V77465",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "STOP",
+        "roles": {
+          "TIME": "#V77429",
+          "AGENT": "#V77552",
+          "FORMAL": "#V77477",
+          "WNSENSE": "stop%2:38:00::"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77429": {
+        "id": "V77429",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V77508",
+          "FIGURE": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 18
+      },
+      "V77552": {
+        "id": "V77552",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77451"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77451": {
+        "id": "V77451",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77477": {
+        "id": "V77477",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V77552",
+          "AFFECTED": "#V77481",
+          "VFORM": "ING",
+          "LEX": "IGNORING",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 28,
+        "end": 40
+      },
+      "V77481": {
+        "id": "V77481",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 37,
+        "end": 40
+      },
+      "root": "#V77939"
+    },
+    {
+      "V77644": {
+        "id": "V77644",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77549",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77549": {
+        "id": "V77549",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77397"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77397": {
+        "id": "V77397",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V77644"
+    },
+    {
+      "V78658": {
+        "id": "V78658",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77404",
+          "LEX": "\u2019"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "V77404": {
+        "id": "V77404",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u2019",
+        "roles": {
+          "LEX": "\u2019",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "root": "#V78658"
+    },
+    {
+      "V78232": {
+        "id": "V78232",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77981",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77981": {
+        "id": "V77981",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUANTITY": "#V77408",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "MOD": "#V77422",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77408": {
+        "id": "V77408",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V77422": {
+        "id": "V77422",
+        "indicator": "F",
+        "type": "INSANE",
+        "word": "CRAZY",
+        "roles": {
+          "FIGURE": "#V77981",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "CRAZY",
+          "WNSENSE": "crazy%5:00:00:insane:00"
+        },
+        "start": 7,
+        "end": 13
+      },
+      "root": "#V78232"
+    },
+    {
+      "V77939": {
+        "id": "V77939",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V77774",
+          "LEX": "-"
+        },
+        "start": 13,
+        "end": 41
+      },
+      "V77774": {
+        "id": "V77774",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77508"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77508": {
+        "id": "V77508",
+        "indicator": "THE",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77465": {
+        "id": "V77465",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "STOP",
+        "roles": {
+          "TIME": "#V77429",
+          "AGENT": "#V77552",
+          "FORMAL": "#V77477",
+          "WNSENSE": "stop%2:38:00::"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77429": {
+        "id": "V77429",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V77508",
+          "FIGURE": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 18
+      },
+      "V77552": {
+        "id": "V77552",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77451"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77451": {
+        "id": "V77451",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77477": {
+        "id": "V77477",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V77552",
+          "AFFECTED": "#V77481",
+          "VFORM": "ING",
+          "LEX": "IGNORING",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 28,
+        "end": 40
+      },
+      "V77481": {
+        "id": "V77481",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 37,
+        "end": 40
+      },
+      "root": "#V77939"
+    },
+    {
+      "V77604": {
+        "id": "V77604",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77397",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77397": {
+        "id": "V77397",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V77604"
+    },
+    {
+      "V78658": {
+        "id": "V78658",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77404",
+          "LEX": "\u2019"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "V77404": {
+        "id": "V77404",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u2019",
+        "roles": {
+          "LEX": "\u2019",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "root": "#V78658"
+    },
+    {
+      "V78316": {
+        "id": "V78316",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V78123",
+          "LEX": "-"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V78123": {
+        "id": "V78123",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77984"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77984": {
+        "id": "V77984",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V77408",
+          "MOD": "#V77422",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77408": {
+        "id": "V77408",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V77422": {
+        "id": "V77422",
+        "indicator": "F",
+        "type": "INSANE",
+        "word": "CRAZY",
+        "roles": {
+          "FIGURE": "#V77984",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "CRAZY",
+          "WNSENSE": "crazy%5:00:00:insane:00"
+        },
+        "start": 7,
+        "end": 13
+      },
+      "root": "#V78316"
+    },
+    {
+      "V77904": {
+        "id": "V77904",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V77754",
+          "LEX": "-"
+        },
+        "start": 13,
+        "end": 41
+      },
+      "V77754": {
+        "id": "V77754",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77508"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77508": {
+        "id": "V77508",
+        "indicator": "THE",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77465": {
+        "id": "V77465",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "STOP",
+        "roles": {
+          "TIME": "#V77429",
+          "AGENT": "#V77451",
+          "FORMAL": "#V77477",
+          "WNSENSE": "stop%2:38:00::"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77429": {
+        "id": "V77429",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V77508",
+          "FIGURE": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 18
+      },
+      "V77451": {
+        "id": "V77451",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77477": {
+        "id": "V77477",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V77451",
+          "AFFECTED": "#V77481",
+          "VFORM": "ING",
+          "LEX": "IGNORING",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 28,
+        "end": 40
+      },
+      "V77481": {
+        "id": "V77481",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 37,
+        "end": 40
+      },
+      "root": "#V77904"
+    },
+    {
+      "V77604": {
+        "id": "V77604",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77397",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77397": {
+        "id": "V77397",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V77604"
+    },
+    {
+      "V78658": {
+        "id": "V78658",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77404",
+          "LEX": "\u2019"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "V77404": {
+        "id": "V77404",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u2019",
+        "roles": {
+          "LEX": "\u2019",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "root": "#V78658"
+    },
+    {
+      "V78314": {
+        "id": "V78314",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V78120",
+          "LEX": "-"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V78120": {
+        "id": "V78120",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77983"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77983": {
+        "id": "V77983",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUANTITY": "#V77408",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "MOD": "#V77422",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77408": {
+        "id": "V77408",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V77422": {
+        "id": "V77422",
+        "indicator": "F",
+        "type": "INSANE",
+        "word": "CRAZY",
+        "roles": {
+          "FIGURE": "#V77983",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "CRAZY",
+          "WNSENSE": "crazy%5:00:00:insane:00"
+        },
+        "start": 7,
+        "end": 13
+      },
+      "root": "#V78314"
+    },
+    {
+      "V77904": {
+        "id": "V77904",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V77754",
+          "LEX": "-"
+        },
+        "start": 13,
+        "end": 41
+      },
+      "V77754": {
+        "id": "V77754",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77508"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77508": {
+        "id": "V77508",
+        "indicator": "THE",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77465": {
+        "id": "V77465",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "STOP",
+        "roles": {
+          "TIME": "#V77429",
+          "AGENT": "#V77451",
+          "FORMAL": "#V77477",
+          "WNSENSE": "stop%2:38:00::"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77429": {
+        "id": "V77429",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V77508",
+          "FIGURE": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 18
+      },
+      "V77451": {
+        "id": "V77451",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77477": {
+        "id": "V77477",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V77451",
+          "AFFECTED": "#V77481",
+          "VFORM": "ING",
+          "LEX": "IGNORING",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 28,
+        "end": 40
+      },
+      "V77481": {
+        "id": "V77481",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 37,
+        "end": 40
+      },
+      "root": "#V77904"
+    },
+    {
+      "V77604": {
+        "id": "V77604",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77397",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77397": {
+        "id": "V77397",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V77604"
+    },
+    {
+      "V78658": {
+        "id": "V78658",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77404",
+          "LEX": "\u2019"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "V77404": {
+        "id": "V77404",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u2019",
+        "roles": {
+          "LEX": "\u2019",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "root": "#V78658"
+    },
+    {
+      "V78312": {
+        "id": "V78312",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V78117",
+          "LEX": "-"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V78117": {
+        "id": "V78117",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77982"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77982": {
+        "id": "V77982",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V77408",
+          "MOD": "#V77422",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77408": {
+        "id": "V77408",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V77422": {
+        "id": "V77422",
+        "indicator": "F",
+        "type": "INSANE",
+        "word": "CRAZY",
+        "roles": {
+          "FIGURE": "#V77982",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "CRAZY",
+          "WNSENSE": "crazy%5:00:00:insane:00"
+        },
+        "start": 7,
+        "end": 13
+      },
+      "root": "#V78312"
+    },
+    {
+      "V77904": {
+        "id": "V77904",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V77754",
+          "LEX": "-"
+        },
+        "start": 13,
+        "end": 41
+      },
+      "V77754": {
+        "id": "V77754",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77508"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77508": {
+        "id": "V77508",
+        "indicator": "THE",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77465": {
+        "id": "V77465",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "STOP",
+        "roles": {
+          "TIME": "#V77429",
+          "AGENT": "#V77451",
+          "FORMAL": "#V77477",
+          "WNSENSE": "stop%2:38:00::"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77429": {
+        "id": "V77429",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V77508",
+          "FIGURE": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 18
+      },
+      "V77451": {
+        "id": "V77451",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77477": {
+        "id": "V77477",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V77451",
+          "AFFECTED": "#V77481",
+          "VFORM": "ING",
+          "LEX": "IGNORING",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 28,
+        "end": 40
+      },
+      "V77481": {
+        "id": "V77481",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 37,
+        "end": 40
+      },
+      "root": "#V77904"
+    },
+    {
+      "V77604": {
+        "id": "V77604",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77397",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77397": {
+        "id": "V77397",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V77604"
+    },
+    {
+      "V78658": {
+        "id": "V78658",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V77404",
+          "LEX": "\u2019"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "V77404": {
+        "id": "V77404",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u2019",
+        "roles": {
+          "LEX": "\u2019",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "root": "#V78658"
+    },
+    {
+      "V78310": {
+        "id": "V78310",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V78114",
+          "LEX": "-"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V78114": {
+        "id": "V78114",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77981"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77981": {
+        "id": "V77981",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUANTITY": "#V77408",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "MOD": "#V77422",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 13
+      },
+      "V77408": {
+        "id": "V77408",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V77422": {
+        "id": "V77422",
+        "indicator": "F",
+        "type": "INSANE",
+        "word": "CRAZY",
+        "roles": {
+          "FIGURE": "#V77981",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "CRAZY",
+          "WNSENSE": "crazy%5:00:00:insane:00"
+        },
+        "start": 7,
+        "end": 13
+      },
+      "root": "#V78310"
+    },
+    {
+      "V77904": {
+        "id": "V77904",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V77754",
+          "LEX": "-"
+        },
+        "start": 13,
+        "end": 41
+      },
+      "V77754": {
+        "id": "V77754",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V77508"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77508": {
+        "id": "V77508",
+        "indicator": "THE",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77465": {
+        "id": "V77465",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "STOP",
+        "roles": {
+          "TIME": "#V77429",
+          "AGENT": "#V77451",
+          "FORMAL": "#V77477",
+          "WNSENSE": "stop%2:38:00::"
+        },
+        "start": 13,
+        "end": 40
+      },
+      "V77429": {
+        "id": "V77429",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V77508",
+          "FIGURE": "#V77465",
+          "LEX": "WHEN"
+        },
+        "start": 13,
+        "end": 18
+      },
+      "V77451": {
+        "id": "V77451",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 18,
+        "end": 20
+      },
+      "V77477": {
+        "id": "V77477",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V77451",
+          "AFFECTED": "#V77481",
+          "VFORM": "ING",
+          "LEX": "IGNORING",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 28,
+        "end": 40
+      },
+      "V77481": {
+        "id": "V77481",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 37,
+        "end": 40
+      },
+      "root": "#V77904"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+7",
+    "*last-utt-id*=7  utt-id+7",
+    "*last-utt-id*=7  utt-id+7",
+    "*last-utt-id*=7  utt-id+7",
+    "*last-utt-id*=7  utt-id+NIL"
+  ]
+}

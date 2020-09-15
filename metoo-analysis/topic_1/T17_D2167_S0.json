@@ -1,0 +1,7724 @@
+{
+  "parse": [
+    {
+      "V1983316": {
+        "id": "V1983316",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1980905",
+          "LEX": "WORKING"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980905": {
+        "id": "V1980905",
+        "indicator": "SM",
+        "type": "FUNCTION",
+        "word": "WORK",
+        "roles": {
+          "QUANTITY": "#V1980891",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "MOD": "#V1980899",
+          "LEX": "WORKING",
+          "WNSENSE": "work%2:35:02::"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980889": {
+        "id": "V1980889",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "15"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980891": {
+        "id": "V1980891",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V1980899": {
+        "id": "V1980899",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V1980905",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 9,
+        "end": 13
+      },
+      "root": "#V1983316"
+    },
+    {
+      "V1981047": {
+        "id": "V1981047",
+        "indicator": "F",
+        "type": "CONTAINMENT",
+        "word": "HOUSE",
+        "roles": {
+          "LOCATION": "#V1980933",
+          "MANNER": "#V1981071",
+          "TENSE": "PRES",
+          "LEX": "HOUSE"
+        },
+        "start": 21,
+        "end": 131
+      },
+      "V1980933": {
+        "id": "V1980933",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1981642",
+          "FIGURE": "#V1981047",
+          "LEX": "AT"
+        },
+        "start": 21,
+        "end": 34
+      },
+      "V1981642": {
+        "id": "V1981642",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V1981410",
+          "LEX": "A"
+        },
+        "start": 24,
+        "end": 34
+      },
+      "V1981410": {
+        "id": "V1981410",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981642",
+          "GROUND": "#V1981042",
+          "LEX": "HAUNTED"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981042": {
+        "id": "V1981042",
+        "indicator": "F",
+        "type": "EVOKE-BOTHER",
+        "word": "HAUNT",
+        "roles": {
+          "AFFECTED": "#V1981642",
+          "WNSENSE": "bother%2:38:00"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981071": {
+        "id": "V1981071",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V1992698",
+          "FIGURE": "#V1981047",
+          "LEX": "AS",
+          "WNSENSE": "as%4:02:00::"
+        },
+        "start": 40,
+        "end": 131
+      },
+      "V1992698": {
+        "id": "V1992698",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981124",
+          "COREF": "#V1980891"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981124": {
+        "id": "V1981124",
+        "indicator": "A",
+        "type": "FAMILY-RELATION",
+        "word": "BRIDES",
+        "roles": {
+          "ASSOC-WITH1": "#V1981105",
+          "ASSOC-WITH": "#V1981109",
+          "SIZE": "#V1981311",
+          "MOD": "#V1981291",
+          "LEX": "BRIDES",
+          "WNSENSE": "relative%1:18:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981311": {
+        "id": "V1981311",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981109": {
+        "id": "V1981109",
+        "indicator": "KIND",
+        "type": "TIME-UNIT",
+        "word": "SECOND",
+        "roles": {
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981105": {
+        "id": "V1981105",
+        "indicator": "KIND",
+        "type": "NATURAL-GROUP",
+        "word": "DRACULA",
+        "roles": {
+          "LEX": "DRACULA",
+          "WNSENSE": "dracula%1:20:00::"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981291": {
+        "id": "V1981291",
+        "indicator": "F",
+        "type": "CRITICIZE",
+        "word": "ASSAULT",
+        "roles": {
+          "AGENT1": "#V1981124",
+          "MOD": "#V1984812",
+          "VFORM": "PASSIVE",
+          "LEX": "ASSAULTED",
+          "WNSENSE": "knock%2:32:02"
+        },
+        "start": 67,
+        "end": 131
+      },
+      "V1984812": {
+        "id": "V1984812",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V1981131",
+          "SEQUENCE1": "#V1981286",
+          "OPERATOR": "AND",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 67,
+        "end": 121
+      },
+      "V1981131": {
+        "id": "V1981131",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V1981213",
+          "FIGURE": "#V1981291",
+          "LEX": "WHEN"
+        },
+        "start": 67,
+        "end": 108
+      },
+      "V1981213": {
+        "id": "V1981213",
+        "indicator": "F",
+        "type": "PROPEL",
+        "word": "THROW",
+        "roles": {
+          "AGENT": "#V1981200",
+          "AFFECTED": "#V1981220",
+          "MOD": "#V1981225",
+          "TENSE": "PAST",
+          "LEX": "THREW",
+          "WNSENSE": "throw%1:04:00::"
+        },
+        "start": 72,
+        "end": 108
+      },
+      "V1981200": {
+        "id": "V1981200",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": "#V1981188",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 72,
+        "end": 84
+      },
+      "V1981188": {
+        "id": "V1981188",
+        "indicator": "F",
+        "type": "ALTERING-CONSCIOUSNESS-VAL",
+        "word": "DRUNK",
+        "roles": {
+          "FIGURE": "#V1981200",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "DRUNK",
+          "WNSENSE": "drunk%3:00:00::"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1981220": {
+        "id": "V1981220",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 90,
+        "end": 93
+      },
+      "V1981225": {
+        "id": "V1981225",
+        "indicator": "F",
+        "type": "CONTRA-FORCE",
+        "word": "AGAINST",
+        "roles": {
+          "GROUND": "#V1981270",
+          "FIGURE": "#V1981213",
+          "LEX": "AGAINST"
+        },
+        "start": 93,
+        "end": 108
+      },
+      "V1981270": {
+        "id": "V1981270",
+        "indicator": "A",
+        "type": "STRUCTURE-INTERNAL-COMPONENT",
+        "word": "WALL",
+        "roles": {
+          "LEX": "WALL",
+          "WNSENSE": "wall%1:06:00::"
+        },
+        "start": 101,
+        "end": 108
+      },
+      "V1981286": {
+        "id": "V1981286",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SEXUALLY",
+        "roles": {
+          "FIGURE": "#V1981291",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 112,
+        "end": 121
+      },
+      "root": "#V1981047"
+    },
+    {
+      "V1981619": {
+        "id": "V1981619",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1981296",
+          "LEX": "ME"
+        },
+        "start": 131,
+        "end": 132
+      },
+      "V1981296": {
+        "id": "V1981296",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 131,
+        "end": 132
+      },
+      "root": "#V1981619"
+    },
+    {
+      "V1983316": {
+        "id": "V1983316",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1980905",
+          "LEX": "WORKING"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980905": {
+        "id": "V1980905",
+        "indicator": "SM",
+        "type": "FUNCTION",
+        "word": "WORK",
+        "roles": {
+          "QUANTITY": "#V1980891",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "MOD": "#V1980899",
+          "LEX": "WORKING",
+          "WNSENSE": "work%2:35:02::"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980889": {
+        "id": "V1980889",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "15"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980891": {
+        "id": "V1980891",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V1980899": {
+        "id": "V1980899",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V1980905",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 9,
+        "end": 13
+      },
+      "root": "#V1983316"
+    },
+    {
+      "V1981047": {
+        "id": "V1981047",
+        "indicator": "F",
+        "type": "CONTAINMENT",
+        "word": "HOUSE",
+        "roles": {
+          "LOCATION": "#V1980933",
+          "MANNER": "#V1981071",
+          "VFORM": "BASE",
+          "LEX": "HOUSE"
+        },
+        "start": 21,
+        "end": 131
+      },
+      "V1980933": {
+        "id": "V1980933",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1981642",
+          "FIGURE": "#V1981047",
+          "LEX": "AT"
+        },
+        "start": 21,
+        "end": 34
+      },
+      "V1981642": {
+        "id": "V1981642",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V1981410",
+          "LEX": "A"
+        },
+        "start": 24,
+        "end": 34
+      },
+      "V1981410": {
+        "id": "V1981410",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981642",
+          "GROUND": "#V1981042",
+          "LEX": "HAUNTED"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981042": {
+        "id": "V1981042",
+        "indicator": "F",
+        "type": "EVOKE-BOTHER",
+        "word": "HAUNT",
+        "roles": {
+          "AFFECTED": "#V1981642",
+          "WNSENSE": "bother%2:38:00"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981071": {
+        "id": "V1981071",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V1992698",
+          "FIGURE": "#V1981047",
+          "LEX": "AS",
+          "WNSENSE": "as%4:02:00::"
+        },
+        "start": 40,
+        "end": 131
+      },
+      "V1992698": {
+        "id": "V1992698",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981124"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981124": {
+        "id": "V1981124",
+        "indicator": "A",
+        "type": "FAMILY-RELATION",
+        "word": "BRIDES",
+        "roles": {
+          "ASSOC-WITH1": "#V1981105",
+          "ASSOC-WITH": "#V1981109",
+          "SIZE": "#V1981311",
+          "MOD": "#V1981291",
+          "LEX": "BRIDES",
+          "WNSENSE": "relative%1:18:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981311": {
+        "id": "V1981311",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981109": {
+        "id": "V1981109",
+        "indicator": "KIND",
+        "type": "TIME-UNIT",
+        "word": "SECOND",
+        "roles": {
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981105": {
+        "id": "V1981105",
+        "indicator": "KIND",
+        "type": "NATURAL-GROUP",
+        "word": "DRACULA",
+        "roles": {
+          "LEX": "DRACULA",
+          "WNSENSE": "dracula%1:20:00::"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981291": {
+        "id": "V1981291",
+        "indicator": "F",
+        "type": "CRITICIZE",
+        "word": "ASSAULT",
+        "roles": {
+          "AGENT1": "#V1981124",
+          "MOD": "#V1984812",
+          "VFORM": "PASSIVE",
+          "LEX": "ASSAULTED",
+          "WNSENSE": "knock%2:32:02"
+        },
+        "start": 67,
+        "end": 131
+      },
+      "V1984812": {
+        "id": "V1984812",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V1981131",
+          "SEQUENCE1": "#V1981286",
+          "OPERATOR": "AND",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 67,
+        "end": 121
+      },
+      "V1981131": {
+        "id": "V1981131",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V1981213",
+          "FIGURE": "#V1981291",
+          "LEX": "WHEN"
+        },
+        "start": 67,
+        "end": 108
+      },
+      "V1981213": {
+        "id": "V1981213",
+        "indicator": "F",
+        "type": "PROPEL",
+        "word": "THROW",
+        "roles": {
+          "AGENT": "#V1981200",
+          "AFFECTED": "#V1981220",
+          "MOD": "#V1981225",
+          "TENSE": "PAST",
+          "LEX": "THREW",
+          "WNSENSE": "throw%1:04:00::"
+        },
+        "start": 72,
+        "end": 108
+      },
+      "V1981200": {
+        "id": "V1981200",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": "#V1981188",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 72,
+        "end": 84
+      },
+      "V1981188": {
+        "id": "V1981188",
+        "indicator": "F",
+        "type": "ALTERING-CONSCIOUSNESS-VAL",
+        "word": "DRUNK",
+        "roles": {
+          "FIGURE": "#V1981200",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "DRUNK",
+          "WNSENSE": "drunk%3:00:00::"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1981220": {
+        "id": "V1981220",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 90,
+        "end": 93
+      },
+      "V1981225": {
+        "id": "V1981225",
+        "indicator": "F",
+        "type": "CONTRA-FORCE",
+        "word": "AGAINST",
+        "roles": {
+          "GROUND": "#V1981270",
+          "FIGURE": "#V1981213",
+          "LEX": "AGAINST"
+        },
+        "start": 93,
+        "end": 108
+      },
+      "V1981270": {
+        "id": "V1981270",
+        "indicator": "A",
+        "type": "STRUCTURE-INTERNAL-COMPONENT",
+        "word": "WALL",
+        "roles": {
+          "LEX": "WALL",
+          "WNSENSE": "wall%1:06:00::"
+        },
+        "start": 101,
+        "end": 108
+      },
+      "V1981286": {
+        "id": "V1981286",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SEXUALLY",
+        "roles": {
+          "FIGURE": "#V1981291",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 112,
+        "end": 121
+      },
+      "root": "#V1981047"
+    },
+    {
+      "V1981619": {
+        "id": "V1981619",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1981296",
+          "LEX": "ME"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981296": {
+        "id": "V1981296",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "root": "#V1981619"
+    },
+    {
+      "V1983314": {
+        "id": "V1983314",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1980907",
+          "LEX": "WORKING"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980907": {
+        "id": "V1980907",
+        "indicator": "SM",
+        "type": "WORKING",
+        "word": "WORK",
+        "roles": {
+          "QUANTITY": "#V1980891",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "MOD": "#V1980899",
+          "LEX": "WORKING",
+          "WNSENSE": "work%2:41:02::"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980889": {
+        "id": "V1980889",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "15"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980891": {
+        "id": "V1980891",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V1980899": {
+        "id": "V1980899",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V1980907",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 9,
+        "end": 13
+      },
+      "root": "#V1983314"
+    },
+    {
+      "V1981047": {
+        "id": "V1981047",
+        "indicator": "F",
+        "type": "CONTAINMENT",
+        "word": "HOUSE",
+        "roles": {
+          "LOCATION": "#V1980933",
+          "MANNER": "#V1981071",
+          "TENSE": "PRES",
+          "LEX": "HOUSE"
+        },
+        "start": 21,
+        "end": 131
+      },
+      "V1980933": {
+        "id": "V1980933",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1981642",
+          "FIGURE": "#V1981047",
+          "LEX": "AT"
+        },
+        "start": 21,
+        "end": 34
+      },
+      "V1981642": {
+        "id": "V1981642",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V1981410",
+          "LEX": "A"
+        },
+        "start": 24,
+        "end": 34
+      },
+      "V1981410": {
+        "id": "V1981410",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981642",
+          "GROUND": "#V1981042",
+          "LEX": "HAUNTED"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981042": {
+        "id": "V1981042",
+        "indicator": "F",
+        "type": "EVOKE-BOTHER",
+        "word": "HAUNT",
+        "roles": {
+          "AFFECTED": "#V1981642",
+          "WNSENSE": "bother%2:38:00"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981071": {
+        "id": "V1981071",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V1992698",
+          "FIGURE": "#V1981047",
+          "LEX": "AS",
+          "WNSENSE": "as%4:02:00::"
+        },
+        "start": 40,
+        "end": 131
+      },
+      "V1992698": {
+        "id": "V1992698",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981124"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981124": {
+        "id": "V1981124",
+        "indicator": "A",
+        "type": "FAMILY-RELATION",
+        "word": "BRIDES",
+        "roles": {
+          "ASSOC-WITH1": "#V1981105",
+          "ASSOC-WITH": "#V1981109",
+          "SIZE": "#V1981311",
+          "MOD": "#V1981291",
+          "LEX": "BRIDES",
+          "WNSENSE": "relative%1:18:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981311": {
+        "id": "V1981311",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981109": {
+        "id": "V1981109",
+        "indicator": "KIND",
+        "type": "TIME-UNIT",
+        "word": "SECOND",
+        "roles": {
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981105": {
+        "id": "V1981105",
+        "indicator": "KIND",
+        "type": "NATURAL-GROUP",
+        "word": "DRACULA",
+        "roles": {
+          "LEX": "DRACULA",
+          "WNSENSE": "dracula%1:20:00::"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981291": {
+        "id": "V1981291",
+        "indicator": "F",
+        "type": "CRITICIZE",
+        "word": "ASSAULT",
+        "roles": {
+          "AGENT1": "#V1981124",
+          "MOD": "#V1984812",
+          "VFORM": "PASSIVE",
+          "LEX": "ASSAULTED",
+          "WNSENSE": "knock%2:32:02"
+        },
+        "start": 67,
+        "end": 131
+      },
+      "V1984812": {
+        "id": "V1984812",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V1981131",
+          "SEQUENCE1": "#V1981286",
+          "OPERATOR": "AND",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 67,
+        "end": 121
+      },
+      "V1981131": {
+        "id": "V1981131",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V1981213",
+          "FIGURE": "#V1981291",
+          "LEX": "WHEN"
+        },
+        "start": 67,
+        "end": 108
+      },
+      "V1981213": {
+        "id": "V1981213",
+        "indicator": "F",
+        "type": "PROPEL",
+        "word": "THROW",
+        "roles": {
+          "AGENT": "#V1981200",
+          "AFFECTED": "#V1981220",
+          "MOD": "#V1981225",
+          "TENSE": "PAST",
+          "LEX": "THREW",
+          "WNSENSE": "throw%1:04:00::"
+        },
+        "start": 72,
+        "end": 108
+      },
+      "V1981200": {
+        "id": "V1981200",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": "#V1981188",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 72,
+        "end": 84
+      },
+      "V1981188": {
+        "id": "V1981188",
+        "indicator": "F",
+        "type": "ALTERING-CONSCIOUSNESS-VAL",
+        "word": "DRUNK",
+        "roles": {
+          "FIGURE": "#V1981200",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "DRUNK",
+          "WNSENSE": "drunk%3:00:00::"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1981220": {
+        "id": "V1981220",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 90,
+        "end": 93
+      },
+      "V1981225": {
+        "id": "V1981225",
+        "indicator": "F",
+        "type": "CONTRA-FORCE",
+        "word": "AGAINST",
+        "roles": {
+          "GROUND": "#V1981270",
+          "FIGURE": "#V1981213",
+          "LEX": "AGAINST"
+        },
+        "start": 93,
+        "end": 108
+      },
+      "V1981270": {
+        "id": "V1981270",
+        "indicator": "A",
+        "type": "STRUCTURE-INTERNAL-COMPONENT",
+        "word": "WALL",
+        "roles": {
+          "LEX": "WALL",
+          "WNSENSE": "wall%1:06:00::"
+        },
+        "start": 101,
+        "end": 108
+      },
+      "V1981286": {
+        "id": "V1981286",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SEXUALLY",
+        "roles": {
+          "FIGURE": "#V1981291",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 112,
+        "end": 121
+      },
+      "root": "#V1981047"
+    },
+    {
+      "V1981619": {
+        "id": "V1981619",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1981296",
+          "LEX": "ME"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981296": {
+        "id": "V1981296",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "root": "#V1981619"
+    },
+    {
+      "V1983314": {
+        "id": "V1983314",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1980907",
+          "LEX": "WORKING"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980907": {
+        "id": "V1980907",
+        "indicator": "SM",
+        "type": "WORKING",
+        "word": "WORK",
+        "roles": {
+          "QUANTITY": "#V1980891",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "MOD": "#V1980899",
+          "LEX": "WORKING",
+          "WNSENSE": "work%2:41:02::"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980889": {
+        "id": "V1980889",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "15"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980891": {
+        "id": "V1980891",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V1980899": {
+        "id": "V1980899",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V1980907",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 9,
+        "end": 13
+      },
+      "root": "#V1983314"
+    },
+    {
+      "V1981047": {
+        "id": "V1981047",
+        "indicator": "F",
+        "type": "CONTAINMENT",
+        "word": "HOUSE",
+        "roles": {
+          "LOCATION": "#V1980933",
+          "MANNER": "#V1981071",
+          "VFORM": "BASE",
+          "LEX": "HOUSE"
+        },
+        "start": 21,
+        "end": 131
+      },
+      "V1980933": {
+        "id": "V1980933",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1981642",
+          "FIGURE": "#V1981047",
+          "LEX": "AT"
+        },
+        "start": 21,
+        "end": 34
+      },
+      "V1981642": {
+        "id": "V1981642",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V1981410",
+          "LEX": "A"
+        },
+        "start": 24,
+        "end": 34
+      },
+      "V1981410": {
+        "id": "V1981410",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981642",
+          "GROUND": "#V1981042",
+          "LEX": "HAUNTED"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981042": {
+        "id": "V1981042",
+        "indicator": "F",
+        "type": "EVOKE-BOTHER",
+        "word": "HAUNT",
+        "roles": {
+          "AFFECTED": "#V1981642",
+          "WNSENSE": "bother%2:38:00"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981071": {
+        "id": "V1981071",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V1992698",
+          "FIGURE": "#V1981047",
+          "LEX": "AS",
+          "WNSENSE": "as%4:02:00::"
+        },
+        "start": 40,
+        "end": 131
+      },
+      "V1992698": {
+        "id": "V1992698",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981124"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981124": {
+        "id": "V1981124",
+        "indicator": "A",
+        "type": "FAMILY-RELATION",
+        "word": "BRIDES",
+        "roles": {
+          "ASSOC-WITH1": "#V1981105",
+          "ASSOC-WITH": "#V1981109",
+          "SIZE": "#V1981311",
+          "MOD": "#V1981291",
+          "LEX": "BRIDES",
+          "WNSENSE": "relative%1:18:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981311": {
+        "id": "V1981311",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981109": {
+        "id": "V1981109",
+        "indicator": "KIND",
+        "type": "TIME-UNIT",
+        "word": "SECOND",
+        "roles": {
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981105": {
+        "id": "V1981105",
+        "indicator": "KIND",
+        "type": "NATURAL-GROUP",
+        "word": "DRACULA",
+        "roles": {
+          "LEX": "DRACULA",
+          "WNSENSE": "dracula%1:20:00::"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981291": {
+        "id": "V1981291",
+        "indicator": "F",
+        "type": "CRITICIZE",
+        "word": "ASSAULT",
+        "roles": {
+          "AGENT1": "#V1981124",
+          "MOD": "#V1984812",
+          "VFORM": "PASSIVE",
+          "LEX": "ASSAULTED",
+          "WNSENSE": "knock%2:32:02"
+        },
+        "start": 67,
+        "end": 131
+      },
+      "V1984812": {
+        "id": "V1984812",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V1981131",
+          "SEQUENCE1": "#V1981286",
+          "OPERATOR": "AND",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 67,
+        "end": 121
+      },
+      "V1981131": {
+        "id": "V1981131",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V1981213",
+          "FIGURE": "#V1981291",
+          "LEX": "WHEN"
+        },
+        "start": 67,
+        "end": 108
+      },
+      "V1981213": {
+        "id": "V1981213",
+        "indicator": "F",
+        "type": "PROPEL",
+        "word": "THROW",
+        "roles": {
+          "AGENT": "#V1981200",
+          "AFFECTED": "#V1981220",
+          "MOD": "#V1981225",
+          "TENSE": "PAST",
+          "LEX": "THREW",
+          "WNSENSE": "throw%1:04:00::"
+        },
+        "start": 72,
+        "end": 108
+      },
+      "V1981200": {
+        "id": "V1981200",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": "#V1981188",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 72,
+        "end": 84
+      },
+      "V1981188": {
+        "id": "V1981188",
+        "indicator": "F",
+        "type": "ALTERING-CONSCIOUSNESS-VAL",
+        "word": "DRUNK",
+        "roles": {
+          "FIGURE": "#V1981200",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "DRUNK",
+          "WNSENSE": "drunk%3:00:00::"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1981220": {
+        "id": "V1981220",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 90,
+        "end": 93
+      },
+      "V1981225": {
+        "id": "V1981225",
+        "indicator": "F",
+        "type": "CONTRA-FORCE",
+        "word": "AGAINST",
+        "roles": {
+          "GROUND": "#V1981270",
+          "FIGURE": "#V1981213",
+          "LEX": "AGAINST"
+        },
+        "start": 93,
+        "end": 108
+      },
+      "V1981270": {
+        "id": "V1981270",
+        "indicator": "A",
+        "type": "STRUCTURE-INTERNAL-COMPONENT",
+        "word": "WALL",
+        "roles": {
+          "LEX": "WALL",
+          "WNSENSE": "wall%1:06:00::"
+        },
+        "start": 101,
+        "end": 108
+      },
+      "V1981286": {
+        "id": "V1981286",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SEXUALLY",
+        "roles": {
+          "FIGURE": "#V1981291",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 112,
+        "end": 121
+      },
+      "root": "#V1981047"
+    },
+    {
+      "V1981619": {
+        "id": "V1981619",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1981296",
+          "LEX": "ME"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981296": {
+        "id": "V1981296",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "root": "#V1981619"
+    },
+    {
+      "V1983312": {
+        "id": "V1983312",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1980908",
+          "LEX": "WORKING"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980908": {
+        "id": "V1980908",
+        "indicator": "SM",
+        "type": "WORKING",
+        "word": "WORK",
+        "roles": {
+          "QUANTITY": "#V1980891",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "MOD": "#V1980899",
+          "LEX": "WORKING",
+          "WNSENSE": "work%2:41:02::"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980889": {
+        "id": "V1980889",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "15"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980891": {
+        "id": "V1980891",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V1980899": {
+        "id": "V1980899",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V1980908",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 9,
+        "end": 13
+      },
+      "root": "#V1983312"
+    },
+    {
+      "V1981047": {
+        "id": "V1981047",
+        "indicator": "F",
+        "type": "CONTAINMENT",
+        "word": "HOUSE",
+        "roles": {
+          "LOCATION": "#V1980933",
+          "MANNER": "#V1981071",
+          "TENSE": "PRES",
+          "LEX": "HOUSE"
+        },
+        "start": 21,
+        "end": 131
+      },
+      "V1980933": {
+        "id": "V1980933",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1981642",
+          "FIGURE": "#V1981047",
+          "LEX": "AT"
+        },
+        "start": 21,
+        "end": 34
+      },
+      "V1981642": {
+        "id": "V1981642",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V1981410",
+          "LEX": "A"
+        },
+        "start": 24,
+        "end": 34
+      },
+      "V1981410": {
+        "id": "V1981410",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981642",
+          "GROUND": "#V1981042",
+          "LEX": "HAUNTED"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981042": {
+        "id": "V1981042",
+        "indicator": "F",
+        "type": "EVOKE-BOTHER",
+        "word": "HAUNT",
+        "roles": {
+          "AFFECTED": "#V1981642",
+          "WNSENSE": "bother%2:38:00"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981071": {
+        "id": "V1981071",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V1992698",
+          "FIGURE": "#V1981047",
+          "LEX": "AS",
+          "WNSENSE": "as%4:02:00::"
+        },
+        "start": 40,
+        "end": 131
+      },
+      "V1992698": {
+        "id": "V1992698",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981124"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981124": {
+        "id": "V1981124",
+        "indicator": "A",
+        "type": "FAMILY-RELATION",
+        "word": "BRIDES",
+        "roles": {
+          "ASSOC-WITH1": "#V1981105",
+          "ASSOC-WITH": "#V1981109",
+          "SIZE": "#V1981311",
+          "MOD": "#V1981291",
+          "LEX": "BRIDES",
+          "WNSENSE": "relative%1:18:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981311": {
+        "id": "V1981311",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981109": {
+        "id": "V1981109",
+        "indicator": "KIND",
+        "type": "TIME-UNIT",
+        "word": "SECOND",
+        "roles": {
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981105": {
+        "id": "V1981105",
+        "indicator": "KIND",
+        "type": "NATURAL-GROUP",
+        "word": "DRACULA",
+        "roles": {
+          "LEX": "DRACULA",
+          "WNSENSE": "dracula%1:20:00::"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981291": {
+        "id": "V1981291",
+        "indicator": "F",
+        "type": "CRITICIZE",
+        "word": "ASSAULT",
+        "roles": {
+          "AGENT1": "#V1981124",
+          "MOD": "#V1984812",
+          "VFORM": "PASSIVE",
+          "LEX": "ASSAULTED",
+          "WNSENSE": "knock%2:32:02"
+        },
+        "start": 67,
+        "end": 131
+      },
+      "V1984812": {
+        "id": "V1984812",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V1981131",
+          "SEQUENCE1": "#V1981286",
+          "OPERATOR": "AND",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 67,
+        "end": 121
+      },
+      "V1981131": {
+        "id": "V1981131",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V1981213",
+          "FIGURE": "#V1981291",
+          "LEX": "WHEN"
+        },
+        "start": 67,
+        "end": 108
+      },
+      "V1981213": {
+        "id": "V1981213",
+        "indicator": "F",
+        "type": "PROPEL",
+        "word": "THROW",
+        "roles": {
+          "AGENT": "#V1981200",
+          "AFFECTED": "#V1981220",
+          "MOD": "#V1981225",
+          "TENSE": "PAST",
+          "LEX": "THREW",
+          "WNSENSE": "throw%1:04:00::"
+        },
+        "start": 72,
+        "end": 108
+      },
+      "V1981200": {
+        "id": "V1981200",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": "#V1981188",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 72,
+        "end": 84
+      },
+      "V1981188": {
+        "id": "V1981188",
+        "indicator": "F",
+        "type": "ALTERING-CONSCIOUSNESS-VAL",
+        "word": "DRUNK",
+        "roles": {
+          "FIGURE": "#V1981200",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "DRUNK",
+          "WNSENSE": "drunk%3:00:00::"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1981220": {
+        "id": "V1981220",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 90,
+        "end": 93
+      },
+      "V1981225": {
+        "id": "V1981225",
+        "indicator": "F",
+        "type": "CONTRA-FORCE",
+        "word": "AGAINST",
+        "roles": {
+          "GROUND": "#V1981270",
+          "FIGURE": "#V1981213",
+          "LEX": "AGAINST"
+        },
+        "start": 93,
+        "end": 108
+      },
+      "V1981270": {
+        "id": "V1981270",
+        "indicator": "A",
+        "type": "STRUCTURE-INTERNAL-COMPONENT",
+        "word": "WALL",
+        "roles": {
+          "LEX": "WALL",
+          "WNSENSE": "wall%1:06:00::"
+        },
+        "start": 101,
+        "end": 108
+      },
+      "V1981286": {
+        "id": "V1981286",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SEXUALLY",
+        "roles": {
+          "FIGURE": "#V1981291",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 112,
+        "end": 121
+      },
+      "root": "#V1981047"
+    },
+    {
+      "V1981619": {
+        "id": "V1981619",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1981296",
+          "LEX": "ME"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981296": {
+        "id": "V1981296",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "root": "#V1981619"
+    },
+    {
+      "V1983312": {
+        "id": "V1983312",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1980908",
+          "LEX": "WORKING"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980908": {
+        "id": "V1980908",
+        "indicator": "SM",
+        "type": "WORKING",
+        "word": "WORK",
+        "roles": {
+          "QUANTITY": "#V1980891",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "MOD": "#V1980899",
+          "LEX": "WORKING",
+          "WNSENSE": "work%2:41:02::"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980889": {
+        "id": "V1980889",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "15"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980891": {
+        "id": "V1980891",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V1980899": {
+        "id": "V1980899",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V1980908",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 9,
+        "end": 13
+      },
+      "root": "#V1983312"
+    },
+    {
+      "V1981047": {
+        "id": "V1981047",
+        "indicator": "F",
+        "type": "CONTAINMENT",
+        "word": "HOUSE",
+        "roles": {
+          "LOCATION": "#V1980933",
+          "MANNER": "#V1981071",
+          "VFORM": "BASE",
+          "LEX": "HOUSE"
+        },
+        "start": 21,
+        "end": 131
+      },
+      "V1980933": {
+        "id": "V1980933",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1981642",
+          "FIGURE": "#V1981047",
+          "LEX": "AT"
+        },
+        "start": 21,
+        "end": 34
+      },
+      "V1981642": {
+        "id": "V1981642",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V1981410",
+          "LEX": "A"
+        },
+        "start": 24,
+        "end": 34
+      },
+      "V1981410": {
+        "id": "V1981410",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981642",
+          "GROUND": "#V1981042",
+          "LEX": "HAUNTED"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981042": {
+        "id": "V1981042",
+        "indicator": "F",
+        "type": "EVOKE-BOTHER",
+        "word": "HAUNT",
+        "roles": {
+          "AFFECTED": "#V1981642",
+          "WNSENSE": "bother%2:38:00"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981071": {
+        "id": "V1981071",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V1992698",
+          "FIGURE": "#V1981047",
+          "LEX": "AS",
+          "WNSENSE": "as%4:02:00::"
+        },
+        "start": 40,
+        "end": 131
+      },
+      "V1992698": {
+        "id": "V1992698",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981124"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981124": {
+        "id": "V1981124",
+        "indicator": "A",
+        "type": "FAMILY-RELATION",
+        "word": "BRIDES",
+        "roles": {
+          "ASSOC-WITH1": "#V1981105",
+          "ASSOC-WITH": "#V1981109",
+          "SIZE": "#V1981311",
+          "MOD": "#V1981291",
+          "LEX": "BRIDES",
+          "WNSENSE": "relative%1:18:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981311": {
+        "id": "V1981311",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981109": {
+        "id": "V1981109",
+        "indicator": "KIND",
+        "type": "TIME-UNIT",
+        "word": "SECOND",
+        "roles": {
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981105": {
+        "id": "V1981105",
+        "indicator": "KIND",
+        "type": "NATURAL-GROUP",
+        "word": "DRACULA",
+        "roles": {
+          "LEX": "DRACULA",
+          "WNSENSE": "dracula%1:20:00::"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981291": {
+        "id": "V1981291",
+        "indicator": "F",
+        "type": "CRITICIZE",
+        "word": "ASSAULT",
+        "roles": {
+          "AGENT1": "#V1981124",
+          "MOD": "#V1984812",
+          "VFORM": "PASSIVE",
+          "LEX": "ASSAULTED",
+          "WNSENSE": "knock%2:32:02"
+        },
+        "start": 67,
+        "end": 131
+      },
+      "V1984812": {
+        "id": "V1984812",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V1981131",
+          "SEQUENCE1": "#V1981286",
+          "OPERATOR": "AND",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 67,
+        "end": 121
+      },
+      "V1981131": {
+        "id": "V1981131",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V1981213",
+          "FIGURE": "#V1981291",
+          "LEX": "WHEN"
+        },
+        "start": 67,
+        "end": 108
+      },
+      "V1981213": {
+        "id": "V1981213",
+        "indicator": "F",
+        "type": "PROPEL",
+        "word": "THROW",
+        "roles": {
+          "AGENT": "#V1981200",
+          "AFFECTED": "#V1981220",
+          "MOD": "#V1981225",
+          "TENSE": "PAST",
+          "LEX": "THREW",
+          "WNSENSE": "throw%1:04:00::"
+        },
+        "start": 72,
+        "end": 108
+      },
+      "V1981200": {
+        "id": "V1981200",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": "#V1981188",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 72,
+        "end": 84
+      },
+      "V1981188": {
+        "id": "V1981188",
+        "indicator": "F",
+        "type": "ALTERING-CONSCIOUSNESS-VAL",
+        "word": "DRUNK",
+        "roles": {
+          "FIGURE": "#V1981200",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "DRUNK",
+          "WNSENSE": "drunk%3:00:00::"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1981220": {
+        "id": "V1981220",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 90,
+        "end": 93
+      },
+      "V1981225": {
+        "id": "V1981225",
+        "indicator": "F",
+        "type": "CONTRA-FORCE",
+        "word": "AGAINST",
+        "roles": {
+          "GROUND": "#V1981270",
+          "FIGURE": "#V1981213",
+          "LEX": "AGAINST"
+        },
+        "start": 93,
+        "end": 108
+      },
+      "V1981270": {
+        "id": "V1981270",
+        "indicator": "A",
+        "type": "STRUCTURE-INTERNAL-COMPONENT",
+        "word": "WALL",
+        "roles": {
+          "LEX": "WALL",
+          "WNSENSE": "wall%1:06:00::"
+        },
+        "start": 101,
+        "end": 108
+      },
+      "V1981286": {
+        "id": "V1981286",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SEXUALLY",
+        "roles": {
+          "FIGURE": "#V1981291",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 112,
+        "end": 121
+      },
+      "root": "#V1981047"
+    },
+    {
+      "V1981619": {
+        "id": "V1981619",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1981296",
+          "LEX": "ME"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981296": {
+        "id": "V1981296",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "root": "#V1981619"
+    },
+    {
+      "V1983310": {
+        "id": "V1983310",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1980909",
+          "LEX": "WORKING"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980909": {
+        "id": "V1980909",
+        "indicator": "SM",
+        "type": "WORKING-OUT",
+        "word": "WORK",
+        "roles": {
+          "QUANTITY": "#V1980891",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "MOD": "#V1980899",
+          "LEX": "WORKING",
+          "WNSENSE": "work%2:29:00::"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980889": {
+        "id": "V1980889",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "15"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980891": {
+        "id": "V1980891",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V1980899": {
+        "id": "V1980899",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V1980909",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 9,
+        "end": 13
+      },
+      "root": "#V1983310"
+    },
+    {
+      "V1981047": {
+        "id": "V1981047",
+        "indicator": "F",
+        "type": "CONTAINMENT",
+        "word": "HOUSE",
+        "roles": {
+          "LOCATION": "#V1980933",
+          "MANNER": "#V1981071",
+          "TENSE": "PRES",
+          "LEX": "HOUSE"
+        },
+        "start": 21,
+        "end": 131
+      },
+      "V1980933": {
+        "id": "V1980933",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1981642",
+          "FIGURE": "#V1981047",
+          "LEX": "AT"
+        },
+        "start": 21,
+        "end": 34
+      },
+      "V1981642": {
+        "id": "V1981642",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V1981410",
+          "LEX": "A"
+        },
+        "start": 24,
+        "end": 34
+      },
+      "V1981410": {
+        "id": "V1981410",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981642",
+          "GROUND": "#V1981042",
+          "LEX": "HAUNTED"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981042": {
+        "id": "V1981042",
+        "indicator": "F",
+        "type": "EVOKE-BOTHER",
+        "word": "HAUNT",
+        "roles": {
+          "AFFECTED": "#V1981642",
+          "WNSENSE": "bother%2:38:00"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981071": {
+        "id": "V1981071",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V1992698",
+          "FIGURE": "#V1981047",
+          "LEX": "AS",
+          "WNSENSE": "as%4:02:00::"
+        },
+        "start": 40,
+        "end": 131
+      },
+      "V1992698": {
+        "id": "V1992698",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981124"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981124": {
+        "id": "V1981124",
+        "indicator": "A",
+        "type": "FAMILY-RELATION",
+        "word": "BRIDES",
+        "roles": {
+          "ASSOC-WITH1": "#V1981105",
+          "ASSOC-WITH": "#V1981109",
+          "SIZE": "#V1981311",
+          "MOD": "#V1981291",
+          "LEX": "BRIDES",
+          "WNSENSE": "relative%1:18:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981311": {
+        "id": "V1981311",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981109": {
+        "id": "V1981109",
+        "indicator": "KIND",
+        "type": "TIME-UNIT",
+        "word": "SECOND",
+        "roles": {
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981105": {
+        "id": "V1981105",
+        "indicator": "KIND",
+        "type": "NATURAL-GROUP",
+        "word": "DRACULA",
+        "roles": {
+          "LEX": "DRACULA",
+          "WNSENSE": "dracula%1:20:00::"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981291": {
+        "id": "V1981291",
+        "indicator": "F",
+        "type": "CRITICIZE",
+        "word": "ASSAULT",
+        "roles": {
+          "AGENT1": "#V1981124",
+          "MOD": "#V1984812",
+          "VFORM": "PASSIVE",
+          "LEX": "ASSAULTED",
+          "WNSENSE": "knock%2:32:02"
+        },
+        "start": 67,
+        "end": 131
+      },
+      "V1984812": {
+        "id": "V1984812",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V1981131",
+          "SEQUENCE1": "#V1981286",
+          "OPERATOR": "AND",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 67,
+        "end": 121
+      },
+      "V1981131": {
+        "id": "V1981131",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V1981213",
+          "FIGURE": "#V1981291",
+          "LEX": "WHEN"
+        },
+        "start": 67,
+        "end": 108
+      },
+      "V1981213": {
+        "id": "V1981213",
+        "indicator": "F",
+        "type": "PROPEL",
+        "word": "THROW",
+        "roles": {
+          "AGENT": "#V1981200",
+          "AFFECTED": "#V1981220",
+          "MOD": "#V1981225",
+          "TENSE": "PAST",
+          "LEX": "THREW",
+          "WNSENSE": "throw%1:04:00::"
+        },
+        "start": 72,
+        "end": 108
+      },
+      "V1981200": {
+        "id": "V1981200",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": "#V1981188",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 72,
+        "end": 84
+      },
+      "V1981188": {
+        "id": "V1981188",
+        "indicator": "F",
+        "type": "ALTERING-CONSCIOUSNESS-VAL",
+        "word": "DRUNK",
+        "roles": {
+          "FIGURE": "#V1981200",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "DRUNK",
+          "WNSENSE": "drunk%3:00:00::"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1981220": {
+        "id": "V1981220",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 90,
+        "end": 93
+      },
+      "V1981225": {
+        "id": "V1981225",
+        "indicator": "F",
+        "type": "CONTRA-FORCE",
+        "word": "AGAINST",
+        "roles": {
+          "GROUND": "#V1981270",
+          "FIGURE": "#V1981213",
+          "LEX": "AGAINST"
+        },
+        "start": 93,
+        "end": 108
+      },
+      "V1981270": {
+        "id": "V1981270",
+        "indicator": "A",
+        "type": "STRUCTURE-INTERNAL-COMPONENT",
+        "word": "WALL",
+        "roles": {
+          "LEX": "WALL",
+          "WNSENSE": "wall%1:06:00::"
+        },
+        "start": 101,
+        "end": 108
+      },
+      "V1981286": {
+        "id": "V1981286",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SEXUALLY",
+        "roles": {
+          "FIGURE": "#V1981291",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 112,
+        "end": 121
+      },
+      "root": "#V1981047"
+    },
+    {
+      "V1981619": {
+        "id": "V1981619",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1981296",
+          "LEX": "ME"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981296": {
+        "id": "V1981296",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "root": "#V1981619"
+    },
+    {
+      "V1983310": {
+        "id": "V1983310",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1980909",
+          "LEX": "WORKING"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980909": {
+        "id": "V1980909",
+        "indicator": "SM",
+        "type": "WORKING-OUT",
+        "word": "WORK",
+        "roles": {
+          "QUANTITY": "#V1980891",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "MOD": "#V1980899",
+          "LEX": "WORKING",
+          "WNSENSE": "work%2:29:00::"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980889": {
+        "id": "V1980889",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "15"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980891": {
+        "id": "V1980891",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V1980899": {
+        "id": "V1980899",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V1980909",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 9,
+        "end": 13
+      },
+      "root": "#V1983310"
+    },
+    {
+      "V1981047": {
+        "id": "V1981047",
+        "indicator": "F",
+        "type": "CONTAINMENT",
+        "word": "HOUSE",
+        "roles": {
+          "LOCATION": "#V1980933",
+          "MANNER": "#V1981071",
+          "VFORM": "BASE",
+          "LEX": "HOUSE"
+        },
+        "start": 21,
+        "end": 131
+      },
+      "V1980933": {
+        "id": "V1980933",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1981642",
+          "FIGURE": "#V1981047",
+          "LEX": "AT"
+        },
+        "start": 21,
+        "end": 34
+      },
+      "V1981642": {
+        "id": "V1981642",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V1981410",
+          "LEX": "A"
+        },
+        "start": 24,
+        "end": 34
+      },
+      "V1981410": {
+        "id": "V1981410",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981642",
+          "GROUND": "#V1981042",
+          "LEX": "HAUNTED"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981042": {
+        "id": "V1981042",
+        "indicator": "F",
+        "type": "EVOKE-BOTHER",
+        "word": "HAUNT",
+        "roles": {
+          "AFFECTED": "#V1981642",
+          "WNSENSE": "bother%2:38:00"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981071": {
+        "id": "V1981071",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V1992698",
+          "FIGURE": "#V1981047",
+          "LEX": "AS",
+          "WNSENSE": "as%4:02:00::"
+        },
+        "start": 40,
+        "end": 131
+      },
+      "V1992698": {
+        "id": "V1992698",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981124"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981124": {
+        "id": "V1981124",
+        "indicator": "A",
+        "type": "FAMILY-RELATION",
+        "word": "BRIDES",
+        "roles": {
+          "ASSOC-WITH1": "#V1981105",
+          "ASSOC-WITH": "#V1981109",
+          "SIZE": "#V1981311",
+          "MOD": "#V1981291",
+          "LEX": "BRIDES",
+          "WNSENSE": "relative%1:18:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981311": {
+        "id": "V1981311",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981109": {
+        "id": "V1981109",
+        "indicator": "KIND",
+        "type": "TIME-UNIT",
+        "word": "SECOND",
+        "roles": {
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981105": {
+        "id": "V1981105",
+        "indicator": "KIND",
+        "type": "NATURAL-GROUP",
+        "word": "DRACULA",
+        "roles": {
+          "LEX": "DRACULA",
+          "WNSENSE": "dracula%1:20:00::"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981291": {
+        "id": "V1981291",
+        "indicator": "F",
+        "type": "CRITICIZE",
+        "word": "ASSAULT",
+        "roles": {
+          "AGENT1": "#V1981124",
+          "MOD": "#V1984812",
+          "VFORM": "PASSIVE",
+          "LEX": "ASSAULTED",
+          "WNSENSE": "knock%2:32:02"
+        },
+        "start": 67,
+        "end": 131
+      },
+      "V1984812": {
+        "id": "V1984812",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V1981131",
+          "SEQUENCE1": "#V1981286",
+          "OPERATOR": "AND",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 67,
+        "end": 121
+      },
+      "V1981131": {
+        "id": "V1981131",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V1981213",
+          "FIGURE": "#V1981291",
+          "LEX": "WHEN"
+        },
+        "start": 67,
+        "end": 108
+      },
+      "V1981213": {
+        "id": "V1981213",
+        "indicator": "F",
+        "type": "PROPEL",
+        "word": "THROW",
+        "roles": {
+          "AGENT": "#V1981200",
+          "AFFECTED": "#V1981220",
+          "MOD": "#V1981225",
+          "TENSE": "PAST",
+          "LEX": "THREW",
+          "WNSENSE": "throw%1:04:00::"
+        },
+        "start": 72,
+        "end": 108
+      },
+      "V1981200": {
+        "id": "V1981200",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": "#V1981188",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 72,
+        "end": 84
+      },
+      "V1981188": {
+        "id": "V1981188",
+        "indicator": "F",
+        "type": "ALTERING-CONSCIOUSNESS-VAL",
+        "word": "DRUNK",
+        "roles": {
+          "FIGURE": "#V1981200",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "DRUNK",
+          "WNSENSE": "drunk%3:00:00::"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1981220": {
+        "id": "V1981220",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 90,
+        "end": 93
+      },
+      "V1981225": {
+        "id": "V1981225",
+        "indicator": "F",
+        "type": "CONTRA-FORCE",
+        "word": "AGAINST",
+        "roles": {
+          "GROUND": "#V1981270",
+          "FIGURE": "#V1981213",
+          "LEX": "AGAINST"
+        },
+        "start": 93,
+        "end": 108
+      },
+      "V1981270": {
+        "id": "V1981270",
+        "indicator": "A",
+        "type": "STRUCTURE-INTERNAL-COMPONENT",
+        "word": "WALL",
+        "roles": {
+          "LEX": "WALL",
+          "WNSENSE": "wall%1:06:00::"
+        },
+        "start": 101,
+        "end": 108
+      },
+      "V1981286": {
+        "id": "V1981286",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SEXUALLY",
+        "roles": {
+          "FIGURE": "#V1981291",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 112,
+        "end": 121
+      },
+      "root": "#V1981047"
+    },
+    {
+      "V1981619": {
+        "id": "V1981619",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1981296",
+          "LEX": "ME"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981296": {
+        "id": "V1981296",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "root": "#V1981619"
+    },
+    {
+      "V1983308": {
+        "id": "V1983308",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1980910",
+          "LEX": "WORKING"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980910": {
+        "id": "V1980910",
+        "indicator": "SM",
+        "type": "WORK",
+        "word": "WORK",
+        "roles": {
+          "QUANTITY": "#V1980891",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "MOD": "#V1980899",
+          "LEX": "WORKING",
+          "WNSENSE": "work%2:41:00::"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980889": {
+        "id": "V1980889",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "15"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980891": {
+        "id": "V1980891",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V1980899": {
+        "id": "V1980899",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V1980910",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 9,
+        "end": 13
+      },
+      "root": "#V1983308"
+    },
+    {
+      "V1981047": {
+        "id": "V1981047",
+        "indicator": "F",
+        "type": "CONTAINMENT",
+        "word": "HOUSE",
+        "roles": {
+          "LOCATION": "#V1980933",
+          "MANNER": "#V1981071",
+          "TENSE": "PRES",
+          "LEX": "HOUSE"
+        },
+        "start": 21,
+        "end": 131
+      },
+      "V1980933": {
+        "id": "V1980933",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1981642",
+          "FIGURE": "#V1981047",
+          "LEX": "AT"
+        },
+        "start": 21,
+        "end": 34
+      },
+      "V1981642": {
+        "id": "V1981642",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V1981410",
+          "LEX": "A"
+        },
+        "start": 24,
+        "end": 34
+      },
+      "V1981410": {
+        "id": "V1981410",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981642",
+          "GROUND": "#V1981042",
+          "LEX": "HAUNTED"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981042": {
+        "id": "V1981042",
+        "indicator": "F",
+        "type": "EVOKE-BOTHER",
+        "word": "HAUNT",
+        "roles": {
+          "AFFECTED": "#V1981642",
+          "WNSENSE": "bother%2:38:00"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981071": {
+        "id": "V1981071",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V1992698",
+          "FIGURE": "#V1981047",
+          "LEX": "AS",
+          "WNSENSE": "as%4:02:00::"
+        },
+        "start": 40,
+        "end": 131
+      },
+      "V1992698": {
+        "id": "V1992698",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981124"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981124": {
+        "id": "V1981124",
+        "indicator": "A",
+        "type": "FAMILY-RELATION",
+        "word": "BRIDES",
+        "roles": {
+          "ASSOC-WITH1": "#V1981105",
+          "ASSOC-WITH": "#V1981109",
+          "SIZE": "#V1981311",
+          "MOD": "#V1981291",
+          "LEX": "BRIDES",
+          "WNSENSE": "relative%1:18:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981311": {
+        "id": "V1981311",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981109": {
+        "id": "V1981109",
+        "indicator": "KIND",
+        "type": "TIME-UNIT",
+        "word": "SECOND",
+        "roles": {
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981105": {
+        "id": "V1981105",
+        "indicator": "KIND",
+        "type": "NATURAL-GROUP",
+        "word": "DRACULA",
+        "roles": {
+          "LEX": "DRACULA",
+          "WNSENSE": "dracula%1:20:00::"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981291": {
+        "id": "V1981291",
+        "indicator": "F",
+        "type": "CRITICIZE",
+        "word": "ASSAULT",
+        "roles": {
+          "AGENT1": "#V1981124",
+          "MOD": "#V1984812",
+          "VFORM": "PASSIVE",
+          "LEX": "ASSAULTED",
+          "WNSENSE": "knock%2:32:02"
+        },
+        "start": 67,
+        "end": 131
+      },
+      "V1984812": {
+        "id": "V1984812",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V1981131",
+          "SEQUENCE1": "#V1981286",
+          "OPERATOR": "AND",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 67,
+        "end": 121
+      },
+      "V1981131": {
+        "id": "V1981131",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V1981213",
+          "FIGURE": "#V1981291",
+          "LEX": "WHEN"
+        },
+        "start": 67,
+        "end": 108
+      },
+      "V1981213": {
+        "id": "V1981213",
+        "indicator": "F",
+        "type": "PROPEL",
+        "word": "THROW",
+        "roles": {
+          "AGENT": "#V1981200",
+          "AFFECTED": "#V1981220",
+          "MOD": "#V1981225",
+          "TENSE": "PAST",
+          "LEX": "THREW",
+          "WNSENSE": "throw%1:04:00::"
+        },
+        "start": 72,
+        "end": 108
+      },
+      "V1981200": {
+        "id": "V1981200",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": "#V1981188",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 72,
+        "end": 84
+      },
+      "V1981188": {
+        "id": "V1981188",
+        "indicator": "F",
+        "type": "ALTERING-CONSCIOUSNESS-VAL",
+        "word": "DRUNK",
+        "roles": {
+          "FIGURE": "#V1981200",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "DRUNK",
+          "WNSENSE": "drunk%3:00:00::"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1981220": {
+        "id": "V1981220",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 90,
+        "end": 93
+      },
+      "V1981225": {
+        "id": "V1981225",
+        "indicator": "F",
+        "type": "CONTRA-FORCE",
+        "word": "AGAINST",
+        "roles": {
+          "GROUND": "#V1981270",
+          "FIGURE": "#V1981213",
+          "LEX": "AGAINST"
+        },
+        "start": 93,
+        "end": 108
+      },
+      "V1981270": {
+        "id": "V1981270",
+        "indicator": "A",
+        "type": "STRUCTURE-INTERNAL-COMPONENT",
+        "word": "WALL",
+        "roles": {
+          "LEX": "WALL",
+          "WNSENSE": "wall%1:06:00::"
+        },
+        "start": 101,
+        "end": 108
+      },
+      "V1981286": {
+        "id": "V1981286",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SEXUALLY",
+        "roles": {
+          "FIGURE": "#V1981291",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 112,
+        "end": 121
+      },
+      "root": "#V1981047"
+    },
+    {
+      "V1981619": {
+        "id": "V1981619",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1981296",
+          "LEX": "ME"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981296": {
+        "id": "V1981296",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "root": "#V1981619"
+    },
+    {
+      "V1983308": {
+        "id": "V1983308",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1980910",
+          "LEX": "WORKING"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980910": {
+        "id": "V1980910",
+        "indicator": "SM",
+        "type": "WORK",
+        "word": "WORK",
+        "roles": {
+          "QUANTITY": "#V1980891",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "MOD": "#V1980899",
+          "LEX": "WORKING",
+          "WNSENSE": "work%2:41:00::"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980889": {
+        "id": "V1980889",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "15"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980891": {
+        "id": "V1980891",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V1980899": {
+        "id": "V1980899",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V1980910",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 9,
+        "end": 13
+      },
+      "root": "#V1983308"
+    },
+    {
+      "V1981047": {
+        "id": "V1981047",
+        "indicator": "F",
+        "type": "CONTAINMENT",
+        "word": "HOUSE",
+        "roles": {
+          "LOCATION": "#V1980933",
+          "MANNER": "#V1981071",
+          "VFORM": "BASE",
+          "LEX": "HOUSE"
+        },
+        "start": 21,
+        "end": 131
+      },
+      "V1980933": {
+        "id": "V1980933",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1981642",
+          "FIGURE": "#V1981047",
+          "LEX": "AT"
+        },
+        "start": 21,
+        "end": 34
+      },
+      "V1981642": {
+        "id": "V1981642",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V1981410",
+          "LEX": "A"
+        },
+        "start": 24,
+        "end": 34
+      },
+      "V1981410": {
+        "id": "V1981410",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981642",
+          "GROUND": "#V1981042",
+          "LEX": "HAUNTED"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981042": {
+        "id": "V1981042",
+        "indicator": "F",
+        "type": "EVOKE-BOTHER",
+        "word": "HAUNT",
+        "roles": {
+          "AFFECTED": "#V1981642",
+          "WNSENSE": "bother%2:38:00"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981071": {
+        "id": "V1981071",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V1992698",
+          "FIGURE": "#V1981047",
+          "LEX": "AS",
+          "WNSENSE": "as%4:02:00::"
+        },
+        "start": 40,
+        "end": 131
+      },
+      "V1992698": {
+        "id": "V1992698",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981124"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981124": {
+        "id": "V1981124",
+        "indicator": "A",
+        "type": "FAMILY-RELATION",
+        "word": "BRIDES",
+        "roles": {
+          "ASSOC-WITH1": "#V1981105",
+          "ASSOC-WITH": "#V1981109",
+          "SIZE": "#V1981311",
+          "MOD": "#V1981291",
+          "LEX": "BRIDES",
+          "WNSENSE": "relative%1:18:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981311": {
+        "id": "V1981311",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981109": {
+        "id": "V1981109",
+        "indicator": "KIND",
+        "type": "TIME-UNIT",
+        "word": "SECOND",
+        "roles": {
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981105": {
+        "id": "V1981105",
+        "indicator": "KIND",
+        "type": "NATURAL-GROUP",
+        "word": "DRACULA",
+        "roles": {
+          "LEX": "DRACULA",
+          "WNSENSE": "dracula%1:20:00::"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981291": {
+        "id": "V1981291",
+        "indicator": "F",
+        "type": "CRITICIZE",
+        "word": "ASSAULT",
+        "roles": {
+          "AGENT1": "#V1981124",
+          "MOD": "#V1984812",
+          "VFORM": "PASSIVE",
+          "LEX": "ASSAULTED",
+          "WNSENSE": "knock%2:32:02"
+        },
+        "start": 67,
+        "end": 131
+      },
+      "V1984812": {
+        "id": "V1984812",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V1981131",
+          "SEQUENCE1": "#V1981286",
+          "OPERATOR": "AND",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 67,
+        "end": 121
+      },
+      "V1981131": {
+        "id": "V1981131",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V1981213",
+          "FIGURE": "#V1981291",
+          "LEX": "WHEN"
+        },
+        "start": 67,
+        "end": 108
+      },
+      "V1981213": {
+        "id": "V1981213",
+        "indicator": "F",
+        "type": "PROPEL",
+        "word": "THROW",
+        "roles": {
+          "AGENT": "#V1981200",
+          "AFFECTED": "#V1981220",
+          "MOD": "#V1981225",
+          "TENSE": "PAST",
+          "LEX": "THREW",
+          "WNSENSE": "throw%1:04:00::"
+        },
+        "start": 72,
+        "end": 108
+      },
+      "V1981200": {
+        "id": "V1981200",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": "#V1981188",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 72,
+        "end": 84
+      },
+      "V1981188": {
+        "id": "V1981188",
+        "indicator": "F",
+        "type": "ALTERING-CONSCIOUSNESS-VAL",
+        "word": "DRUNK",
+        "roles": {
+          "FIGURE": "#V1981200",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "DRUNK",
+          "WNSENSE": "drunk%3:00:00::"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1981220": {
+        "id": "V1981220",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 90,
+        "end": 93
+      },
+      "V1981225": {
+        "id": "V1981225",
+        "indicator": "F",
+        "type": "CONTRA-FORCE",
+        "word": "AGAINST",
+        "roles": {
+          "GROUND": "#V1981270",
+          "FIGURE": "#V1981213",
+          "LEX": "AGAINST"
+        },
+        "start": 93,
+        "end": 108
+      },
+      "V1981270": {
+        "id": "V1981270",
+        "indicator": "A",
+        "type": "STRUCTURE-INTERNAL-COMPONENT",
+        "word": "WALL",
+        "roles": {
+          "LEX": "WALL",
+          "WNSENSE": "wall%1:06:00::"
+        },
+        "start": 101,
+        "end": 108
+      },
+      "V1981286": {
+        "id": "V1981286",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SEXUALLY",
+        "roles": {
+          "FIGURE": "#V1981291",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 112,
+        "end": 121
+      },
+      "root": "#V1981047"
+    },
+    {
+      "V1981619": {
+        "id": "V1981619",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1981296",
+          "LEX": "ME"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981296": {
+        "id": "V1981296",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "root": "#V1981619"
+    },
+    {
+      "V1983316": {
+        "id": "V1983316",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1980905",
+          "LEX": "WORKING"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980905": {
+        "id": "V1980905",
+        "indicator": "SM",
+        "type": "FUNCTION",
+        "word": "WORK",
+        "roles": {
+          "QUANTITY": "#V1980891",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "MOD": "#V1980899",
+          "LEX": "WORKING",
+          "WNSENSE": "work%2:35:02::"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980889": {
+        "id": "V1980889",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "15"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980891": {
+        "id": "V1980891",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V1980899": {
+        "id": "V1980899",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V1980905",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 9,
+        "end": 13
+      },
+      "root": "#V1983316"
+    },
+    {
+      "V1981047": {
+        "id": "V1981047",
+        "indicator": "F",
+        "type": "CONTAINMENT",
+        "word": "HOUSE",
+        "roles": {
+          "LOCATION": "#V1980933",
+          "MANNER": "#V1981071",
+          "TENSE": "PRES",
+          "LEX": "HOUSE"
+        },
+        "start": 21,
+        "end": 131
+      },
+      "V1980933": {
+        "id": "V1980933",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1981642",
+          "FIGURE": "#V1981047",
+          "LEX": "AT"
+        },
+        "start": 21,
+        "end": 34
+      },
+      "V1981642": {
+        "id": "V1981642",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V1981410",
+          "LEX": "A"
+        },
+        "start": 24,
+        "end": 34
+      },
+      "V1981410": {
+        "id": "V1981410",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981642",
+          "GROUND": "#V1981042",
+          "LEX": "HAUNTED"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981042": {
+        "id": "V1981042",
+        "indicator": "F",
+        "type": "EVOKE-BOTHER",
+        "word": "HAUNT",
+        "roles": {
+          "AFFECTED": "#V1981642",
+          "WNSENSE": "bother%2:38:00"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981071": {
+        "id": "V1981071",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V1992698",
+          "FIGURE": "#V1981047",
+          "LEX": "AS",
+          "WNSENSE": "as%4:02:00::"
+        },
+        "start": 40,
+        "end": 131
+      },
+      "V1992698": {
+        "id": "V1992698",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981124"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981124": {
+        "id": "V1981124",
+        "indicator": "A",
+        "type": "FAMILY-RELATION",
+        "word": "BRIDES",
+        "roles": {
+          "ASSOC-WITH1": "#V1981105",
+          "ASSOC-WITH": "#V1981109",
+          "SIZE": "#V1981311",
+          "MOD": "#V1981291",
+          "LEX": "BRIDES",
+          "WNSENSE": "relative%1:18:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981311": {
+        "id": "V1981311",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981109": {
+        "id": "V1981109",
+        "indicator": "KIND",
+        "type": "TIME-UNIT",
+        "word": "SECOND",
+        "roles": {
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981105": {
+        "id": "V1981105",
+        "indicator": "KIND",
+        "type": "NATURAL-GROUP",
+        "word": "DRACULA",
+        "roles": {
+          "LEX": "DRACULA",
+          "WNSENSE": "dracula%1:20:00::"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981291": {
+        "id": "V1981291",
+        "indicator": "F",
+        "type": "CRITICIZE",
+        "word": "ASSAULT",
+        "roles": {
+          "AGENT1": "#V1981124",
+          "MOD": "#V1984812",
+          "VFORM": "PASSIVE",
+          "LEX": "ASSAULTED",
+          "WNSENSE": "knock%2:32:02"
+        },
+        "start": 67,
+        "end": 131
+      },
+      "V1984812": {
+        "id": "V1984812",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V1981131",
+          "SEQUENCE1": "#V1981286",
+          "OPERATOR": "AND",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 67,
+        "end": 121
+      },
+      "V1981131": {
+        "id": "V1981131",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V1981213",
+          "FIGURE": "#V1981291",
+          "LEX": "WHEN"
+        },
+        "start": 67,
+        "end": 108
+      },
+      "V1981213": {
+        "id": "V1981213",
+        "indicator": "F",
+        "type": "PROPEL",
+        "word": "THROW",
+        "roles": {
+          "AGENT": "#V1981200",
+          "AFFECTED": "#V1981220",
+          "MOD": "#V1981225",
+          "TENSE": "PAST",
+          "LEX": "THREW",
+          "WNSENSE": "throw%1:04:00::"
+        },
+        "start": 72,
+        "end": 108
+      },
+      "V1981200": {
+        "id": "V1981200",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": "#V1981188",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 72,
+        "end": 84
+      },
+      "V1981188": {
+        "id": "V1981188",
+        "indicator": "F",
+        "type": "ALTERING-CONSCIOUSNESS-VAL",
+        "word": "DRUNK",
+        "roles": {
+          "FIGURE": "#V1981200",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "DRUNK",
+          "WNSENSE": "drunk%3:00:00::"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1981220": {
+        "id": "V1981220",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 90,
+        "end": 93
+      },
+      "V1981225": {
+        "id": "V1981225",
+        "indicator": "F",
+        "type": "CONTRA-FORCE",
+        "word": "AGAINST",
+        "roles": {
+          "GROUND": "#V1981270",
+          "FIGURE": "#V1981213",
+          "LEX": "AGAINST"
+        },
+        "start": 93,
+        "end": 108
+      },
+      "V1981270": {
+        "id": "V1981270",
+        "indicator": "A",
+        "type": "STRUCTURE-INTERNAL-COMPONENT",
+        "word": "WALL",
+        "roles": {
+          "LEX": "WALL",
+          "WNSENSE": "wall%1:06:00::"
+        },
+        "start": 101,
+        "end": 108
+      },
+      "V1981286": {
+        "id": "V1981286",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SEXUALLY",
+        "roles": {
+          "FIGURE": "#V1981291",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 112,
+        "end": 121
+      },
+      "root": "#V1981047"
+    },
+    {
+      "V1981675": {
+        "id": "V1981675",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1981459",
+          "LEX": "-"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981459": {
+        "id": "V1981459",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981296"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981296": {
+        "id": "V1981296",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "root": "#V1981675"
+    },
+    {
+      "V1983316": {
+        "id": "V1983316",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1980905",
+          "LEX": "WORKING"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980905": {
+        "id": "V1980905",
+        "indicator": "SM",
+        "type": "FUNCTION",
+        "word": "WORK",
+        "roles": {
+          "QUANTITY": "#V1980891",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "MOD": "#V1980899",
+          "LEX": "WORKING",
+          "WNSENSE": "work%2:35:02::"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980889": {
+        "id": "V1980889",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "15"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980891": {
+        "id": "V1980891",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V1980899": {
+        "id": "V1980899",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V1980905",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 9,
+        "end": 13
+      },
+      "root": "#V1983316"
+    },
+    {
+      "V1981047": {
+        "id": "V1981047",
+        "indicator": "F",
+        "type": "CONTAINMENT",
+        "word": "HOUSE",
+        "roles": {
+          "LOCATION": "#V1980933",
+          "MANNER": "#V1981071",
+          "VFORM": "BASE",
+          "LEX": "HOUSE"
+        },
+        "start": 21,
+        "end": 131
+      },
+      "V1980933": {
+        "id": "V1980933",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1981642",
+          "FIGURE": "#V1981047",
+          "LEX": "AT"
+        },
+        "start": 21,
+        "end": 34
+      },
+      "V1981642": {
+        "id": "V1981642",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V1981410",
+          "LEX": "A"
+        },
+        "start": 24,
+        "end": 34
+      },
+      "V1981410": {
+        "id": "V1981410",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981642",
+          "GROUND": "#V1981042",
+          "LEX": "HAUNTED"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981042": {
+        "id": "V1981042",
+        "indicator": "F",
+        "type": "EVOKE-BOTHER",
+        "word": "HAUNT",
+        "roles": {
+          "AFFECTED": "#V1981642",
+          "WNSENSE": "bother%2:38:00"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981071": {
+        "id": "V1981071",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V1992698",
+          "FIGURE": "#V1981047",
+          "LEX": "AS",
+          "WNSENSE": "as%4:02:00::"
+        },
+        "start": 40,
+        "end": 131
+      },
+      "V1992698": {
+        "id": "V1992698",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981124"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981124": {
+        "id": "V1981124",
+        "indicator": "A",
+        "type": "FAMILY-RELATION",
+        "word": "BRIDES",
+        "roles": {
+          "ASSOC-WITH1": "#V1981105",
+          "ASSOC-WITH": "#V1981109",
+          "SIZE": "#V1981311",
+          "MOD": "#V1981291",
+          "LEX": "BRIDES",
+          "WNSENSE": "relative%1:18:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981311": {
+        "id": "V1981311",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981109": {
+        "id": "V1981109",
+        "indicator": "KIND",
+        "type": "TIME-UNIT",
+        "word": "SECOND",
+        "roles": {
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981105": {
+        "id": "V1981105",
+        "indicator": "KIND",
+        "type": "NATURAL-GROUP",
+        "word": "DRACULA",
+        "roles": {
+          "LEX": "DRACULA",
+          "WNSENSE": "dracula%1:20:00::"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981291": {
+        "id": "V1981291",
+        "indicator": "F",
+        "type": "CRITICIZE",
+        "word": "ASSAULT",
+        "roles": {
+          "AGENT1": "#V1981124",
+          "MOD": "#V1984812",
+          "VFORM": "PASSIVE",
+          "LEX": "ASSAULTED",
+          "WNSENSE": "knock%2:32:02"
+        },
+        "start": 67,
+        "end": 131
+      },
+      "V1984812": {
+        "id": "V1984812",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V1981131",
+          "SEQUENCE1": "#V1981286",
+          "OPERATOR": "AND",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 67,
+        "end": 121
+      },
+      "V1981131": {
+        "id": "V1981131",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V1981213",
+          "FIGURE": "#V1981291",
+          "LEX": "WHEN"
+        },
+        "start": 67,
+        "end": 108
+      },
+      "V1981213": {
+        "id": "V1981213",
+        "indicator": "F",
+        "type": "PROPEL",
+        "word": "THROW",
+        "roles": {
+          "AGENT": "#V1981200",
+          "AFFECTED": "#V1981220",
+          "MOD": "#V1981225",
+          "TENSE": "PAST",
+          "LEX": "THREW",
+          "WNSENSE": "throw%1:04:00::"
+        },
+        "start": 72,
+        "end": 108
+      },
+      "V1981200": {
+        "id": "V1981200",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": "#V1981188",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 72,
+        "end": 84
+      },
+      "V1981188": {
+        "id": "V1981188",
+        "indicator": "F",
+        "type": "ALTERING-CONSCIOUSNESS-VAL",
+        "word": "DRUNK",
+        "roles": {
+          "FIGURE": "#V1981200",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "DRUNK",
+          "WNSENSE": "drunk%3:00:00::"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1981220": {
+        "id": "V1981220",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 90,
+        "end": 93
+      },
+      "V1981225": {
+        "id": "V1981225",
+        "indicator": "F",
+        "type": "CONTRA-FORCE",
+        "word": "AGAINST",
+        "roles": {
+          "GROUND": "#V1981270",
+          "FIGURE": "#V1981213",
+          "LEX": "AGAINST"
+        },
+        "start": 93,
+        "end": 108
+      },
+      "V1981270": {
+        "id": "V1981270",
+        "indicator": "A",
+        "type": "STRUCTURE-INTERNAL-COMPONENT",
+        "word": "WALL",
+        "roles": {
+          "LEX": "WALL",
+          "WNSENSE": "wall%1:06:00::"
+        },
+        "start": 101,
+        "end": 108
+      },
+      "V1981286": {
+        "id": "V1981286",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SEXUALLY",
+        "roles": {
+          "FIGURE": "#V1981291",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 112,
+        "end": 121
+      },
+      "root": "#V1981047"
+    },
+    {
+      "V1981675": {
+        "id": "V1981675",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1981459",
+          "LEX": "-"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981459": {
+        "id": "V1981459",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981296"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981296": {
+        "id": "V1981296",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "root": "#V1981675"
+    },
+    {
+      "V1983314": {
+        "id": "V1983314",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1980907",
+          "LEX": "WORKING"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980907": {
+        "id": "V1980907",
+        "indicator": "SM",
+        "type": "WORKING",
+        "word": "WORK",
+        "roles": {
+          "QUANTITY": "#V1980891",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "MOD": "#V1980899",
+          "LEX": "WORKING",
+          "WNSENSE": "work%2:41:02::"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980889": {
+        "id": "V1980889",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "15"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980891": {
+        "id": "V1980891",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V1980899": {
+        "id": "V1980899",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V1980907",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 9,
+        "end": 13
+      },
+      "root": "#V1983314"
+    },
+    {
+      "V1981047": {
+        "id": "V1981047",
+        "indicator": "F",
+        "type": "CONTAINMENT",
+        "word": "HOUSE",
+        "roles": {
+          "LOCATION": "#V1980933",
+          "MANNER": "#V1981071",
+          "TENSE": "PRES",
+          "LEX": "HOUSE"
+        },
+        "start": 21,
+        "end": 131
+      },
+      "V1980933": {
+        "id": "V1980933",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1981642",
+          "FIGURE": "#V1981047",
+          "LEX": "AT"
+        },
+        "start": 21,
+        "end": 34
+      },
+      "V1981642": {
+        "id": "V1981642",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V1981410",
+          "LEX": "A"
+        },
+        "start": 24,
+        "end": 34
+      },
+      "V1981410": {
+        "id": "V1981410",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981642",
+          "GROUND": "#V1981042",
+          "LEX": "HAUNTED"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981042": {
+        "id": "V1981042",
+        "indicator": "F",
+        "type": "EVOKE-BOTHER",
+        "word": "HAUNT",
+        "roles": {
+          "AFFECTED": "#V1981642",
+          "WNSENSE": "bother%2:38:00"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981071": {
+        "id": "V1981071",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V1992698",
+          "FIGURE": "#V1981047",
+          "LEX": "AS",
+          "WNSENSE": "as%4:02:00::"
+        },
+        "start": 40,
+        "end": 131
+      },
+      "V1992698": {
+        "id": "V1992698",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981124"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981124": {
+        "id": "V1981124",
+        "indicator": "A",
+        "type": "FAMILY-RELATION",
+        "word": "BRIDES",
+        "roles": {
+          "ASSOC-WITH1": "#V1981105",
+          "ASSOC-WITH": "#V1981109",
+          "SIZE": "#V1981311",
+          "MOD": "#V1981291",
+          "LEX": "BRIDES",
+          "WNSENSE": "relative%1:18:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981311": {
+        "id": "V1981311",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981109": {
+        "id": "V1981109",
+        "indicator": "KIND",
+        "type": "TIME-UNIT",
+        "word": "SECOND",
+        "roles": {
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981105": {
+        "id": "V1981105",
+        "indicator": "KIND",
+        "type": "NATURAL-GROUP",
+        "word": "DRACULA",
+        "roles": {
+          "LEX": "DRACULA",
+          "WNSENSE": "dracula%1:20:00::"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981291": {
+        "id": "V1981291",
+        "indicator": "F",
+        "type": "CRITICIZE",
+        "word": "ASSAULT",
+        "roles": {
+          "AGENT1": "#V1981124",
+          "MOD": "#V1984812",
+          "VFORM": "PASSIVE",
+          "LEX": "ASSAULTED",
+          "WNSENSE": "knock%2:32:02"
+        },
+        "start": 67,
+        "end": 131
+      },
+      "V1984812": {
+        "id": "V1984812",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V1981131",
+          "SEQUENCE1": "#V1981286",
+          "OPERATOR": "AND",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 67,
+        "end": 121
+      },
+      "V1981131": {
+        "id": "V1981131",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V1981213",
+          "FIGURE": "#V1981291",
+          "LEX": "WHEN"
+        },
+        "start": 67,
+        "end": 108
+      },
+      "V1981213": {
+        "id": "V1981213",
+        "indicator": "F",
+        "type": "PROPEL",
+        "word": "THROW",
+        "roles": {
+          "AGENT": "#V1981200",
+          "AFFECTED": "#V1981220",
+          "MOD": "#V1981225",
+          "TENSE": "PAST",
+          "LEX": "THREW",
+          "WNSENSE": "throw%1:04:00::"
+        },
+        "start": 72,
+        "end": 108
+      },
+      "V1981200": {
+        "id": "V1981200",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": "#V1981188",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 72,
+        "end": 84
+      },
+      "V1981188": {
+        "id": "V1981188",
+        "indicator": "F",
+        "type": "ALTERING-CONSCIOUSNESS-VAL",
+        "word": "DRUNK",
+        "roles": {
+          "FIGURE": "#V1981200",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "DRUNK",
+          "WNSENSE": "drunk%3:00:00::"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1981220": {
+        "id": "V1981220",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 90,
+        "end": 93
+      },
+      "V1981225": {
+        "id": "V1981225",
+        "indicator": "F",
+        "type": "CONTRA-FORCE",
+        "word": "AGAINST",
+        "roles": {
+          "GROUND": "#V1981270",
+          "FIGURE": "#V1981213",
+          "LEX": "AGAINST"
+        },
+        "start": 93,
+        "end": 108
+      },
+      "V1981270": {
+        "id": "V1981270",
+        "indicator": "A",
+        "type": "STRUCTURE-INTERNAL-COMPONENT",
+        "word": "WALL",
+        "roles": {
+          "LEX": "WALL",
+          "WNSENSE": "wall%1:06:00::"
+        },
+        "start": 101,
+        "end": 108
+      },
+      "V1981286": {
+        "id": "V1981286",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SEXUALLY",
+        "roles": {
+          "FIGURE": "#V1981291",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 112,
+        "end": 121
+      },
+      "root": "#V1981047"
+    },
+    {
+      "V1981675": {
+        "id": "V1981675",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1981459",
+          "LEX": "-"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981459": {
+        "id": "V1981459",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981296"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981296": {
+        "id": "V1981296",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "root": "#V1981675"
+    },
+    {
+      "V1983314": {
+        "id": "V1983314",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1980907",
+          "LEX": "WORKING"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980907": {
+        "id": "V1980907",
+        "indicator": "SM",
+        "type": "WORKING",
+        "word": "WORK",
+        "roles": {
+          "QUANTITY": "#V1980891",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "MOD": "#V1980899",
+          "LEX": "WORKING",
+          "WNSENSE": "work%2:41:02::"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980889": {
+        "id": "V1980889",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "15"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980891": {
+        "id": "V1980891",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V1980899": {
+        "id": "V1980899",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V1980907",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 9,
+        "end": 13
+      },
+      "root": "#V1983314"
+    },
+    {
+      "V1981047": {
+        "id": "V1981047",
+        "indicator": "F",
+        "type": "CONTAINMENT",
+        "word": "HOUSE",
+        "roles": {
+          "LOCATION": "#V1980933",
+          "MANNER": "#V1981071",
+          "VFORM": "BASE",
+          "LEX": "HOUSE"
+        },
+        "start": 21,
+        "end": 131
+      },
+      "V1980933": {
+        "id": "V1980933",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1981642",
+          "FIGURE": "#V1981047",
+          "LEX": "AT"
+        },
+        "start": 21,
+        "end": 34
+      },
+      "V1981642": {
+        "id": "V1981642",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V1981410",
+          "LEX": "A"
+        },
+        "start": 24,
+        "end": 34
+      },
+      "V1981410": {
+        "id": "V1981410",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981642",
+          "GROUND": "#V1981042",
+          "LEX": "HAUNTED"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981042": {
+        "id": "V1981042",
+        "indicator": "F",
+        "type": "EVOKE-BOTHER",
+        "word": "HAUNT",
+        "roles": {
+          "AFFECTED": "#V1981642",
+          "WNSENSE": "bother%2:38:00"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981071": {
+        "id": "V1981071",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V1992698",
+          "FIGURE": "#V1981047",
+          "LEX": "AS",
+          "WNSENSE": "as%4:02:00::"
+        },
+        "start": 40,
+        "end": 131
+      },
+      "V1992698": {
+        "id": "V1992698",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981124"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981124": {
+        "id": "V1981124",
+        "indicator": "A",
+        "type": "FAMILY-RELATION",
+        "word": "BRIDES",
+        "roles": {
+          "ASSOC-WITH1": "#V1981105",
+          "ASSOC-WITH": "#V1981109",
+          "SIZE": "#V1981311",
+          "MOD": "#V1981291",
+          "LEX": "BRIDES",
+          "WNSENSE": "relative%1:18:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981311": {
+        "id": "V1981311",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981109": {
+        "id": "V1981109",
+        "indicator": "KIND",
+        "type": "TIME-UNIT",
+        "word": "SECOND",
+        "roles": {
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981105": {
+        "id": "V1981105",
+        "indicator": "KIND",
+        "type": "NATURAL-GROUP",
+        "word": "DRACULA",
+        "roles": {
+          "LEX": "DRACULA",
+          "WNSENSE": "dracula%1:20:00::"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981291": {
+        "id": "V1981291",
+        "indicator": "F",
+        "type": "CRITICIZE",
+        "word": "ASSAULT",
+        "roles": {
+          "AGENT1": "#V1981124",
+          "MOD": "#V1984812",
+          "VFORM": "PASSIVE",
+          "LEX": "ASSAULTED",
+          "WNSENSE": "knock%2:32:02"
+        },
+        "start": 67,
+        "end": 131
+      },
+      "V1984812": {
+        "id": "V1984812",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V1981131",
+          "SEQUENCE1": "#V1981286",
+          "OPERATOR": "AND",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 67,
+        "end": 121
+      },
+      "V1981131": {
+        "id": "V1981131",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V1981213",
+          "FIGURE": "#V1981291",
+          "LEX": "WHEN"
+        },
+        "start": 67,
+        "end": 108
+      },
+      "V1981213": {
+        "id": "V1981213",
+        "indicator": "F",
+        "type": "PROPEL",
+        "word": "THROW",
+        "roles": {
+          "AGENT": "#V1981200",
+          "AFFECTED": "#V1981220",
+          "MOD": "#V1981225",
+          "TENSE": "PAST",
+          "LEX": "THREW",
+          "WNSENSE": "throw%1:04:00::"
+        },
+        "start": 72,
+        "end": 108
+      },
+      "V1981200": {
+        "id": "V1981200",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": "#V1981188",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 72,
+        "end": 84
+      },
+      "V1981188": {
+        "id": "V1981188",
+        "indicator": "F",
+        "type": "ALTERING-CONSCIOUSNESS-VAL",
+        "word": "DRUNK",
+        "roles": {
+          "FIGURE": "#V1981200",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "DRUNK",
+          "WNSENSE": "drunk%3:00:00::"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1981220": {
+        "id": "V1981220",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 90,
+        "end": 93
+      },
+      "V1981225": {
+        "id": "V1981225",
+        "indicator": "F",
+        "type": "CONTRA-FORCE",
+        "word": "AGAINST",
+        "roles": {
+          "GROUND": "#V1981270",
+          "FIGURE": "#V1981213",
+          "LEX": "AGAINST"
+        },
+        "start": 93,
+        "end": 108
+      },
+      "V1981270": {
+        "id": "V1981270",
+        "indicator": "A",
+        "type": "STRUCTURE-INTERNAL-COMPONENT",
+        "word": "WALL",
+        "roles": {
+          "LEX": "WALL",
+          "WNSENSE": "wall%1:06:00::"
+        },
+        "start": 101,
+        "end": 108
+      },
+      "V1981286": {
+        "id": "V1981286",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SEXUALLY",
+        "roles": {
+          "FIGURE": "#V1981291",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 112,
+        "end": 121
+      },
+      "root": "#V1981047"
+    },
+    {
+      "V1981675": {
+        "id": "V1981675",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1981459",
+          "LEX": "-"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981459": {
+        "id": "V1981459",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981296"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981296": {
+        "id": "V1981296",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "root": "#V1981675"
+    },
+    {
+      "V1983312": {
+        "id": "V1983312",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1980908",
+          "LEX": "WORKING"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980908": {
+        "id": "V1980908",
+        "indicator": "SM",
+        "type": "WORKING",
+        "word": "WORK",
+        "roles": {
+          "QUANTITY": "#V1980891",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "MOD": "#V1980899",
+          "LEX": "WORKING",
+          "WNSENSE": "work%2:41:02::"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980889": {
+        "id": "V1980889",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "15"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980891": {
+        "id": "V1980891",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V1980899": {
+        "id": "V1980899",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V1980908",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 9,
+        "end": 13
+      },
+      "root": "#V1983312"
+    },
+    {
+      "V1981047": {
+        "id": "V1981047",
+        "indicator": "F",
+        "type": "CONTAINMENT",
+        "word": "HOUSE",
+        "roles": {
+          "LOCATION": "#V1980933",
+          "MANNER": "#V1981071",
+          "TENSE": "PRES",
+          "LEX": "HOUSE"
+        },
+        "start": 21,
+        "end": 131
+      },
+      "V1980933": {
+        "id": "V1980933",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1981642",
+          "FIGURE": "#V1981047",
+          "LEX": "AT"
+        },
+        "start": 21,
+        "end": 34
+      },
+      "V1981642": {
+        "id": "V1981642",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V1981410",
+          "LEX": "A"
+        },
+        "start": 24,
+        "end": 34
+      },
+      "V1981410": {
+        "id": "V1981410",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981642",
+          "GROUND": "#V1981042",
+          "LEX": "HAUNTED"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981042": {
+        "id": "V1981042",
+        "indicator": "F",
+        "type": "EVOKE-BOTHER",
+        "word": "HAUNT",
+        "roles": {
+          "AFFECTED": "#V1981642",
+          "WNSENSE": "bother%2:38:00"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981071": {
+        "id": "V1981071",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V1992698",
+          "FIGURE": "#V1981047",
+          "LEX": "AS",
+          "WNSENSE": "as%4:02:00::"
+        },
+        "start": 40,
+        "end": 131
+      },
+      "V1992698": {
+        "id": "V1992698",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981124"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981124": {
+        "id": "V1981124",
+        "indicator": "A",
+        "type": "FAMILY-RELATION",
+        "word": "BRIDES",
+        "roles": {
+          "ASSOC-WITH1": "#V1981105",
+          "ASSOC-WITH": "#V1981109",
+          "SIZE": "#V1981311",
+          "MOD": "#V1981291",
+          "LEX": "BRIDES",
+          "WNSENSE": "relative%1:18:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981311": {
+        "id": "V1981311",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981109": {
+        "id": "V1981109",
+        "indicator": "KIND",
+        "type": "TIME-UNIT",
+        "word": "SECOND",
+        "roles": {
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981105": {
+        "id": "V1981105",
+        "indicator": "KIND",
+        "type": "NATURAL-GROUP",
+        "word": "DRACULA",
+        "roles": {
+          "LEX": "DRACULA",
+          "WNSENSE": "dracula%1:20:00::"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981291": {
+        "id": "V1981291",
+        "indicator": "F",
+        "type": "CRITICIZE",
+        "word": "ASSAULT",
+        "roles": {
+          "AGENT1": "#V1981124",
+          "MOD": "#V1984812",
+          "VFORM": "PASSIVE",
+          "LEX": "ASSAULTED",
+          "WNSENSE": "knock%2:32:02"
+        },
+        "start": 67,
+        "end": 131
+      },
+      "V1984812": {
+        "id": "V1984812",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V1981131",
+          "SEQUENCE1": "#V1981286",
+          "OPERATOR": "AND",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 67,
+        "end": 121
+      },
+      "V1981131": {
+        "id": "V1981131",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V1981213",
+          "FIGURE": "#V1981291",
+          "LEX": "WHEN"
+        },
+        "start": 67,
+        "end": 108
+      },
+      "V1981213": {
+        "id": "V1981213",
+        "indicator": "F",
+        "type": "PROPEL",
+        "word": "THROW",
+        "roles": {
+          "AGENT": "#V1981200",
+          "AFFECTED": "#V1981220",
+          "MOD": "#V1981225",
+          "TENSE": "PAST",
+          "LEX": "THREW",
+          "WNSENSE": "throw%1:04:00::"
+        },
+        "start": 72,
+        "end": 108
+      },
+      "V1981200": {
+        "id": "V1981200",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": "#V1981188",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 72,
+        "end": 84
+      },
+      "V1981188": {
+        "id": "V1981188",
+        "indicator": "F",
+        "type": "ALTERING-CONSCIOUSNESS-VAL",
+        "word": "DRUNK",
+        "roles": {
+          "FIGURE": "#V1981200",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "DRUNK",
+          "WNSENSE": "drunk%3:00:00::"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1981220": {
+        "id": "V1981220",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 90,
+        "end": 93
+      },
+      "V1981225": {
+        "id": "V1981225",
+        "indicator": "F",
+        "type": "CONTRA-FORCE",
+        "word": "AGAINST",
+        "roles": {
+          "GROUND": "#V1981270",
+          "FIGURE": "#V1981213",
+          "LEX": "AGAINST"
+        },
+        "start": 93,
+        "end": 108
+      },
+      "V1981270": {
+        "id": "V1981270",
+        "indicator": "A",
+        "type": "STRUCTURE-INTERNAL-COMPONENT",
+        "word": "WALL",
+        "roles": {
+          "LEX": "WALL",
+          "WNSENSE": "wall%1:06:00::"
+        },
+        "start": 101,
+        "end": 108
+      },
+      "V1981286": {
+        "id": "V1981286",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SEXUALLY",
+        "roles": {
+          "FIGURE": "#V1981291",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 112,
+        "end": 121
+      },
+      "root": "#V1981047"
+    },
+    {
+      "V1981675": {
+        "id": "V1981675",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1981459",
+          "LEX": "-"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981459": {
+        "id": "V1981459",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981296"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981296": {
+        "id": "V1981296",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "root": "#V1981675"
+    },
+    {
+      "V1983312": {
+        "id": "V1983312",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1980908",
+          "LEX": "WORKING"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980908": {
+        "id": "V1980908",
+        "indicator": "SM",
+        "type": "WORKING",
+        "word": "WORK",
+        "roles": {
+          "QUANTITY": "#V1980891",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "MOD": "#V1980899",
+          "LEX": "WORKING",
+          "WNSENSE": "work%2:41:02::"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980889": {
+        "id": "V1980889",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "15"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980891": {
+        "id": "V1980891",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V1980899": {
+        "id": "V1980899",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V1980908",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 9,
+        "end": 13
+      },
+      "root": "#V1983312"
+    },
+    {
+      "V1981047": {
+        "id": "V1981047",
+        "indicator": "F",
+        "type": "CONTAINMENT",
+        "word": "HOUSE",
+        "roles": {
+          "LOCATION": "#V1980933",
+          "MANNER": "#V1981071",
+          "VFORM": "BASE",
+          "LEX": "HOUSE"
+        },
+        "start": 21,
+        "end": 131
+      },
+      "V1980933": {
+        "id": "V1980933",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1981642",
+          "FIGURE": "#V1981047",
+          "LEX": "AT"
+        },
+        "start": 21,
+        "end": 34
+      },
+      "V1981642": {
+        "id": "V1981642",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V1981410",
+          "LEX": "A"
+        },
+        "start": 24,
+        "end": 34
+      },
+      "V1981410": {
+        "id": "V1981410",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981642",
+          "GROUND": "#V1981042",
+          "LEX": "HAUNTED"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981042": {
+        "id": "V1981042",
+        "indicator": "F",
+        "type": "EVOKE-BOTHER",
+        "word": "HAUNT",
+        "roles": {
+          "AFFECTED": "#V1981642",
+          "WNSENSE": "bother%2:38:00"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981071": {
+        "id": "V1981071",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V1992698",
+          "FIGURE": "#V1981047",
+          "LEX": "AS",
+          "WNSENSE": "as%4:02:00::"
+        },
+        "start": 40,
+        "end": 131
+      },
+      "V1992698": {
+        "id": "V1992698",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981124"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981124": {
+        "id": "V1981124",
+        "indicator": "A",
+        "type": "FAMILY-RELATION",
+        "word": "BRIDES",
+        "roles": {
+          "ASSOC-WITH1": "#V1981105",
+          "ASSOC-WITH": "#V1981109",
+          "SIZE": "#V1981311",
+          "MOD": "#V1981291",
+          "LEX": "BRIDES",
+          "WNSENSE": "relative%1:18:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981311": {
+        "id": "V1981311",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981109": {
+        "id": "V1981109",
+        "indicator": "KIND",
+        "type": "TIME-UNIT",
+        "word": "SECOND",
+        "roles": {
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981105": {
+        "id": "V1981105",
+        "indicator": "KIND",
+        "type": "NATURAL-GROUP",
+        "word": "DRACULA",
+        "roles": {
+          "LEX": "DRACULA",
+          "WNSENSE": "dracula%1:20:00::"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981291": {
+        "id": "V1981291",
+        "indicator": "F",
+        "type": "CRITICIZE",
+        "word": "ASSAULT",
+        "roles": {
+          "AGENT1": "#V1981124",
+          "MOD": "#V1984812",
+          "VFORM": "PASSIVE",
+          "LEX": "ASSAULTED",
+          "WNSENSE": "knock%2:32:02"
+        },
+        "start": 67,
+        "end": 131
+      },
+      "V1984812": {
+        "id": "V1984812",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V1981131",
+          "SEQUENCE1": "#V1981286",
+          "OPERATOR": "AND",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 67,
+        "end": 121
+      },
+      "V1981131": {
+        "id": "V1981131",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V1981213",
+          "FIGURE": "#V1981291",
+          "LEX": "WHEN"
+        },
+        "start": 67,
+        "end": 108
+      },
+      "V1981213": {
+        "id": "V1981213",
+        "indicator": "F",
+        "type": "PROPEL",
+        "word": "THROW",
+        "roles": {
+          "AGENT": "#V1981200",
+          "AFFECTED": "#V1981220",
+          "MOD": "#V1981225",
+          "TENSE": "PAST",
+          "LEX": "THREW",
+          "WNSENSE": "throw%1:04:00::"
+        },
+        "start": 72,
+        "end": 108
+      },
+      "V1981200": {
+        "id": "V1981200",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": "#V1981188",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 72,
+        "end": 84
+      },
+      "V1981188": {
+        "id": "V1981188",
+        "indicator": "F",
+        "type": "ALTERING-CONSCIOUSNESS-VAL",
+        "word": "DRUNK",
+        "roles": {
+          "FIGURE": "#V1981200",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "DRUNK",
+          "WNSENSE": "drunk%3:00:00::"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1981220": {
+        "id": "V1981220",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 90,
+        "end": 93
+      },
+      "V1981225": {
+        "id": "V1981225",
+        "indicator": "F",
+        "type": "CONTRA-FORCE",
+        "word": "AGAINST",
+        "roles": {
+          "GROUND": "#V1981270",
+          "FIGURE": "#V1981213",
+          "LEX": "AGAINST"
+        },
+        "start": 93,
+        "end": 108
+      },
+      "V1981270": {
+        "id": "V1981270",
+        "indicator": "A",
+        "type": "STRUCTURE-INTERNAL-COMPONENT",
+        "word": "WALL",
+        "roles": {
+          "LEX": "WALL",
+          "WNSENSE": "wall%1:06:00::"
+        },
+        "start": 101,
+        "end": 108
+      },
+      "V1981286": {
+        "id": "V1981286",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SEXUALLY",
+        "roles": {
+          "FIGURE": "#V1981291",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 112,
+        "end": 121
+      },
+      "root": "#V1981047"
+    },
+    {
+      "V1981675": {
+        "id": "V1981675",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1981459",
+          "LEX": "-"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981459": {
+        "id": "V1981459",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981296"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981296": {
+        "id": "V1981296",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "root": "#V1981675"
+    },
+    {
+      "V1983310": {
+        "id": "V1983310",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1980909",
+          "LEX": "WORKING"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980909": {
+        "id": "V1980909",
+        "indicator": "SM",
+        "type": "WORKING-OUT",
+        "word": "WORK",
+        "roles": {
+          "QUANTITY": "#V1980891",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "MOD": "#V1980899",
+          "LEX": "WORKING",
+          "WNSENSE": "work%2:29:00::"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980889": {
+        "id": "V1980889",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "15"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980891": {
+        "id": "V1980891",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V1980899": {
+        "id": "V1980899",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V1980909",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 9,
+        "end": 13
+      },
+      "root": "#V1983310"
+    },
+    {
+      "V1981047": {
+        "id": "V1981047",
+        "indicator": "F",
+        "type": "CONTAINMENT",
+        "word": "HOUSE",
+        "roles": {
+          "LOCATION": "#V1980933",
+          "MANNER": "#V1981071",
+          "TENSE": "PRES",
+          "LEX": "HOUSE"
+        },
+        "start": 21,
+        "end": 131
+      },
+      "V1980933": {
+        "id": "V1980933",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1981642",
+          "FIGURE": "#V1981047",
+          "LEX": "AT"
+        },
+        "start": 21,
+        "end": 34
+      },
+      "V1981642": {
+        "id": "V1981642",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V1981410",
+          "LEX": "A"
+        },
+        "start": 24,
+        "end": 34
+      },
+      "V1981410": {
+        "id": "V1981410",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981642",
+          "GROUND": "#V1981042",
+          "LEX": "HAUNTED"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981042": {
+        "id": "V1981042",
+        "indicator": "F",
+        "type": "EVOKE-BOTHER",
+        "word": "HAUNT",
+        "roles": {
+          "AFFECTED": "#V1981642",
+          "WNSENSE": "bother%2:38:00"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981071": {
+        "id": "V1981071",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V1992698",
+          "FIGURE": "#V1981047",
+          "LEX": "AS",
+          "WNSENSE": "as%4:02:00::"
+        },
+        "start": 40,
+        "end": 131
+      },
+      "V1992698": {
+        "id": "V1992698",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981124"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981124": {
+        "id": "V1981124",
+        "indicator": "A",
+        "type": "FAMILY-RELATION",
+        "word": "BRIDES",
+        "roles": {
+          "ASSOC-WITH1": "#V1981105",
+          "ASSOC-WITH": "#V1981109",
+          "SIZE": "#V1981311",
+          "MOD": "#V1981291",
+          "LEX": "BRIDES",
+          "WNSENSE": "relative%1:18:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981311": {
+        "id": "V1981311",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981109": {
+        "id": "V1981109",
+        "indicator": "KIND",
+        "type": "TIME-UNIT",
+        "word": "SECOND",
+        "roles": {
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981105": {
+        "id": "V1981105",
+        "indicator": "KIND",
+        "type": "NATURAL-GROUP",
+        "word": "DRACULA",
+        "roles": {
+          "LEX": "DRACULA",
+          "WNSENSE": "dracula%1:20:00::"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981291": {
+        "id": "V1981291",
+        "indicator": "F",
+        "type": "CRITICIZE",
+        "word": "ASSAULT",
+        "roles": {
+          "AGENT1": "#V1981124",
+          "MOD": "#V1984812",
+          "VFORM": "PASSIVE",
+          "LEX": "ASSAULTED",
+          "WNSENSE": "knock%2:32:02"
+        },
+        "start": 67,
+        "end": 131
+      },
+      "V1984812": {
+        "id": "V1984812",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V1981131",
+          "SEQUENCE1": "#V1981286",
+          "OPERATOR": "AND",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 67,
+        "end": 121
+      },
+      "V1981131": {
+        "id": "V1981131",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V1981213",
+          "FIGURE": "#V1981291",
+          "LEX": "WHEN"
+        },
+        "start": 67,
+        "end": 108
+      },
+      "V1981213": {
+        "id": "V1981213",
+        "indicator": "F",
+        "type": "PROPEL",
+        "word": "THROW",
+        "roles": {
+          "AGENT": "#V1981200",
+          "AFFECTED": "#V1981220",
+          "MOD": "#V1981225",
+          "TENSE": "PAST",
+          "LEX": "THREW",
+          "WNSENSE": "throw%1:04:00::"
+        },
+        "start": 72,
+        "end": 108
+      },
+      "V1981200": {
+        "id": "V1981200",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": "#V1981188",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 72,
+        "end": 84
+      },
+      "V1981188": {
+        "id": "V1981188",
+        "indicator": "F",
+        "type": "ALTERING-CONSCIOUSNESS-VAL",
+        "word": "DRUNK",
+        "roles": {
+          "FIGURE": "#V1981200",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "DRUNK",
+          "WNSENSE": "drunk%3:00:00::"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1981220": {
+        "id": "V1981220",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 90,
+        "end": 93
+      },
+      "V1981225": {
+        "id": "V1981225",
+        "indicator": "F",
+        "type": "CONTRA-FORCE",
+        "word": "AGAINST",
+        "roles": {
+          "GROUND": "#V1981270",
+          "FIGURE": "#V1981213",
+          "LEX": "AGAINST"
+        },
+        "start": 93,
+        "end": 108
+      },
+      "V1981270": {
+        "id": "V1981270",
+        "indicator": "A",
+        "type": "STRUCTURE-INTERNAL-COMPONENT",
+        "word": "WALL",
+        "roles": {
+          "LEX": "WALL",
+          "WNSENSE": "wall%1:06:00::"
+        },
+        "start": 101,
+        "end": 108
+      },
+      "V1981286": {
+        "id": "V1981286",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SEXUALLY",
+        "roles": {
+          "FIGURE": "#V1981291",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 112,
+        "end": 121
+      },
+      "root": "#V1981047"
+    },
+    {
+      "V1981675": {
+        "id": "V1981675",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1981459",
+          "LEX": "-"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981459": {
+        "id": "V1981459",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981296"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981296": {
+        "id": "V1981296",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "root": "#V1981675"
+    },
+    {
+      "V1983310": {
+        "id": "V1983310",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1980909",
+          "LEX": "WORKING"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980909": {
+        "id": "V1980909",
+        "indicator": "SM",
+        "type": "WORKING-OUT",
+        "word": "WORK",
+        "roles": {
+          "QUANTITY": "#V1980891",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "MOD": "#V1980899",
+          "LEX": "WORKING",
+          "WNSENSE": "work%2:29:00::"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980889": {
+        "id": "V1980889",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "15"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980891": {
+        "id": "V1980891",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V1980899": {
+        "id": "V1980899",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V1980909",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 9,
+        "end": 13
+      },
+      "root": "#V1983310"
+    },
+    {
+      "V1981047": {
+        "id": "V1981047",
+        "indicator": "F",
+        "type": "CONTAINMENT",
+        "word": "HOUSE",
+        "roles": {
+          "LOCATION": "#V1980933",
+          "MANNER": "#V1981071",
+          "VFORM": "BASE",
+          "LEX": "HOUSE"
+        },
+        "start": 21,
+        "end": 131
+      },
+      "V1980933": {
+        "id": "V1980933",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1981642",
+          "FIGURE": "#V1981047",
+          "LEX": "AT"
+        },
+        "start": 21,
+        "end": 34
+      },
+      "V1981642": {
+        "id": "V1981642",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V1981410",
+          "LEX": "A"
+        },
+        "start": 24,
+        "end": 34
+      },
+      "V1981410": {
+        "id": "V1981410",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981642",
+          "GROUND": "#V1981042",
+          "LEX": "HAUNTED"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981042": {
+        "id": "V1981042",
+        "indicator": "F",
+        "type": "EVOKE-BOTHER",
+        "word": "HAUNT",
+        "roles": {
+          "AFFECTED": "#V1981642",
+          "WNSENSE": "bother%2:38:00"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981071": {
+        "id": "V1981071",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V1992698",
+          "FIGURE": "#V1981047",
+          "LEX": "AS",
+          "WNSENSE": "as%4:02:00::"
+        },
+        "start": 40,
+        "end": 131
+      },
+      "V1992698": {
+        "id": "V1992698",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981124"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981124": {
+        "id": "V1981124",
+        "indicator": "A",
+        "type": "FAMILY-RELATION",
+        "word": "BRIDES",
+        "roles": {
+          "ASSOC-WITH1": "#V1981105",
+          "ASSOC-WITH": "#V1981109",
+          "SIZE": "#V1981311",
+          "MOD": "#V1981291",
+          "LEX": "BRIDES",
+          "WNSENSE": "relative%1:18:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981311": {
+        "id": "V1981311",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981109": {
+        "id": "V1981109",
+        "indicator": "KIND",
+        "type": "TIME-UNIT",
+        "word": "SECOND",
+        "roles": {
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981105": {
+        "id": "V1981105",
+        "indicator": "KIND",
+        "type": "NATURAL-GROUP",
+        "word": "DRACULA",
+        "roles": {
+          "LEX": "DRACULA",
+          "WNSENSE": "dracula%1:20:00::"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981291": {
+        "id": "V1981291",
+        "indicator": "F",
+        "type": "CRITICIZE",
+        "word": "ASSAULT",
+        "roles": {
+          "AGENT1": "#V1981124",
+          "MOD": "#V1984812",
+          "VFORM": "PASSIVE",
+          "LEX": "ASSAULTED",
+          "WNSENSE": "knock%2:32:02"
+        },
+        "start": 67,
+        "end": 131
+      },
+      "V1984812": {
+        "id": "V1984812",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V1981131",
+          "SEQUENCE1": "#V1981286",
+          "OPERATOR": "AND",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 67,
+        "end": 121
+      },
+      "V1981131": {
+        "id": "V1981131",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V1981213",
+          "FIGURE": "#V1981291",
+          "LEX": "WHEN"
+        },
+        "start": 67,
+        "end": 108
+      },
+      "V1981213": {
+        "id": "V1981213",
+        "indicator": "F",
+        "type": "PROPEL",
+        "word": "THROW",
+        "roles": {
+          "AGENT": "#V1981200",
+          "AFFECTED": "#V1981220",
+          "MOD": "#V1981225",
+          "TENSE": "PAST",
+          "LEX": "THREW",
+          "WNSENSE": "throw%1:04:00::"
+        },
+        "start": 72,
+        "end": 108
+      },
+      "V1981200": {
+        "id": "V1981200",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": "#V1981188",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 72,
+        "end": 84
+      },
+      "V1981188": {
+        "id": "V1981188",
+        "indicator": "F",
+        "type": "ALTERING-CONSCIOUSNESS-VAL",
+        "word": "DRUNK",
+        "roles": {
+          "FIGURE": "#V1981200",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "DRUNK",
+          "WNSENSE": "drunk%3:00:00::"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1981220": {
+        "id": "V1981220",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 90,
+        "end": 93
+      },
+      "V1981225": {
+        "id": "V1981225",
+        "indicator": "F",
+        "type": "CONTRA-FORCE",
+        "word": "AGAINST",
+        "roles": {
+          "GROUND": "#V1981270",
+          "FIGURE": "#V1981213",
+          "LEX": "AGAINST"
+        },
+        "start": 93,
+        "end": 108
+      },
+      "V1981270": {
+        "id": "V1981270",
+        "indicator": "A",
+        "type": "STRUCTURE-INTERNAL-COMPONENT",
+        "word": "WALL",
+        "roles": {
+          "LEX": "WALL",
+          "WNSENSE": "wall%1:06:00::"
+        },
+        "start": 101,
+        "end": 108
+      },
+      "V1981286": {
+        "id": "V1981286",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SEXUALLY",
+        "roles": {
+          "FIGURE": "#V1981291",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 112,
+        "end": 121
+      },
+      "root": "#V1981047"
+    },
+    {
+      "V1981675": {
+        "id": "V1981675",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1981459",
+          "LEX": "-"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981459": {
+        "id": "V1981459",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981296"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981296": {
+        "id": "V1981296",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "root": "#V1981675"
+    },
+    {
+      "V1983308": {
+        "id": "V1983308",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1980910",
+          "LEX": "WORKING"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980910": {
+        "id": "V1980910",
+        "indicator": "SM",
+        "type": "WORK",
+        "word": "WORK",
+        "roles": {
+          "QUANTITY": "#V1980891",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "MOD": "#V1980899",
+          "LEX": "WORKING",
+          "WNSENSE": "work%2:41:00::"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980889": {
+        "id": "V1980889",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "15"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980891": {
+        "id": "V1980891",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V1980899": {
+        "id": "V1980899",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V1980910",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 9,
+        "end": 13
+      },
+      "root": "#V1983308"
+    },
+    {
+      "V1981047": {
+        "id": "V1981047",
+        "indicator": "F",
+        "type": "CONTAINMENT",
+        "word": "HOUSE",
+        "roles": {
+          "LOCATION": "#V1980933",
+          "MANNER": "#V1981071",
+          "TENSE": "PRES",
+          "LEX": "HOUSE"
+        },
+        "start": 21,
+        "end": 131
+      },
+      "V1980933": {
+        "id": "V1980933",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1981642",
+          "FIGURE": "#V1981047",
+          "LEX": "AT"
+        },
+        "start": 21,
+        "end": 34
+      },
+      "V1981642": {
+        "id": "V1981642",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V1981410",
+          "LEX": "A"
+        },
+        "start": 24,
+        "end": 34
+      },
+      "V1981410": {
+        "id": "V1981410",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981642",
+          "GROUND": "#V1981042",
+          "LEX": "HAUNTED"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981042": {
+        "id": "V1981042",
+        "indicator": "F",
+        "type": "EVOKE-BOTHER",
+        "word": "HAUNT",
+        "roles": {
+          "AFFECTED": "#V1981642",
+          "WNSENSE": "bother%2:38:00"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981071": {
+        "id": "V1981071",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V1992698",
+          "FIGURE": "#V1981047",
+          "LEX": "AS",
+          "WNSENSE": "as%4:02:00::"
+        },
+        "start": 40,
+        "end": 131
+      },
+      "V1992698": {
+        "id": "V1992698",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981124"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981124": {
+        "id": "V1981124",
+        "indicator": "A",
+        "type": "FAMILY-RELATION",
+        "word": "BRIDES",
+        "roles": {
+          "ASSOC-WITH1": "#V1981105",
+          "ASSOC-WITH": "#V1981109",
+          "SIZE": "#V1981311",
+          "MOD": "#V1981291",
+          "LEX": "BRIDES",
+          "WNSENSE": "relative%1:18:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981311": {
+        "id": "V1981311",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981109": {
+        "id": "V1981109",
+        "indicator": "KIND",
+        "type": "TIME-UNIT",
+        "word": "SECOND",
+        "roles": {
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981105": {
+        "id": "V1981105",
+        "indicator": "KIND",
+        "type": "NATURAL-GROUP",
+        "word": "DRACULA",
+        "roles": {
+          "LEX": "DRACULA",
+          "WNSENSE": "dracula%1:20:00::"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981291": {
+        "id": "V1981291",
+        "indicator": "F",
+        "type": "CRITICIZE",
+        "word": "ASSAULT",
+        "roles": {
+          "AGENT1": "#V1981124",
+          "MOD": "#V1984812",
+          "VFORM": "PASSIVE",
+          "LEX": "ASSAULTED",
+          "WNSENSE": "knock%2:32:02"
+        },
+        "start": 67,
+        "end": 131
+      },
+      "V1984812": {
+        "id": "V1984812",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V1981131",
+          "SEQUENCE1": "#V1981286",
+          "OPERATOR": "AND",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 67,
+        "end": 121
+      },
+      "V1981131": {
+        "id": "V1981131",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V1981213",
+          "FIGURE": "#V1981291",
+          "LEX": "WHEN"
+        },
+        "start": 67,
+        "end": 108
+      },
+      "V1981213": {
+        "id": "V1981213",
+        "indicator": "F",
+        "type": "PROPEL",
+        "word": "THROW",
+        "roles": {
+          "AGENT": "#V1981200",
+          "AFFECTED": "#V1981220",
+          "MOD": "#V1981225",
+          "TENSE": "PAST",
+          "LEX": "THREW",
+          "WNSENSE": "throw%1:04:00::"
+        },
+        "start": 72,
+        "end": 108
+      },
+      "V1981200": {
+        "id": "V1981200",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": "#V1981188",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 72,
+        "end": 84
+      },
+      "V1981188": {
+        "id": "V1981188",
+        "indicator": "F",
+        "type": "ALTERING-CONSCIOUSNESS-VAL",
+        "word": "DRUNK",
+        "roles": {
+          "FIGURE": "#V1981200",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "DRUNK",
+          "WNSENSE": "drunk%3:00:00::"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1981220": {
+        "id": "V1981220",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 90,
+        "end": 93
+      },
+      "V1981225": {
+        "id": "V1981225",
+        "indicator": "F",
+        "type": "CONTRA-FORCE",
+        "word": "AGAINST",
+        "roles": {
+          "GROUND": "#V1981270",
+          "FIGURE": "#V1981213",
+          "LEX": "AGAINST"
+        },
+        "start": 93,
+        "end": 108
+      },
+      "V1981270": {
+        "id": "V1981270",
+        "indicator": "A",
+        "type": "STRUCTURE-INTERNAL-COMPONENT",
+        "word": "WALL",
+        "roles": {
+          "LEX": "WALL",
+          "WNSENSE": "wall%1:06:00::"
+        },
+        "start": 101,
+        "end": 108
+      },
+      "V1981286": {
+        "id": "V1981286",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SEXUALLY",
+        "roles": {
+          "FIGURE": "#V1981291",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 112,
+        "end": 121
+      },
+      "root": "#V1981047"
+    },
+    {
+      "V1981675": {
+        "id": "V1981675",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1981459",
+          "LEX": "-"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981459": {
+        "id": "V1981459",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981296"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981296": {
+        "id": "V1981296",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "root": "#V1981675"
+    },
+    {
+      "V1983308": {
+        "id": "V1983308",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1980910",
+          "LEX": "WORKING"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980910": {
+        "id": "V1980910",
+        "indicator": "SM",
+        "type": "WORK",
+        "word": "WORK",
+        "roles": {
+          "QUANTITY": "#V1980891",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "MOD": "#V1980899",
+          "LEX": "WORKING",
+          "WNSENSE": "work%2:41:00::"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980889": {
+        "id": "V1980889",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "15"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1980891": {
+        "id": "V1980891",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1980889",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V1980899": {
+        "id": "V1980899",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V1980910",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 9,
+        "end": 13
+      },
+      "root": "#V1983308"
+    },
+    {
+      "V1981047": {
+        "id": "V1981047",
+        "indicator": "F",
+        "type": "CONTAINMENT",
+        "word": "HOUSE",
+        "roles": {
+          "LOCATION": "#V1980933",
+          "MANNER": "#V1981071",
+          "VFORM": "BASE",
+          "LEX": "HOUSE"
+        },
+        "start": 21,
+        "end": 131
+      },
+      "V1980933": {
+        "id": "V1980933",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V1981642",
+          "FIGURE": "#V1981047",
+          "LEX": "AT"
+        },
+        "start": 21,
+        "end": 34
+      },
+      "V1981642": {
+        "id": "V1981642",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V1981410",
+          "LEX": "A"
+        },
+        "start": 24,
+        "end": 34
+      },
+      "V1981410": {
+        "id": "V1981410",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981642",
+          "GROUND": "#V1981042",
+          "LEX": "HAUNTED"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981042": {
+        "id": "V1981042",
+        "indicator": "F",
+        "type": "EVOKE-BOTHER",
+        "word": "HAUNT",
+        "roles": {
+          "AFFECTED": "#V1981642",
+          "WNSENSE": "bother%2:38:00"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V1981071": {
+        "id": "V1981071",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V1992698",
+          "FIGURE": "#V1981047",
+          "LEX": "AS",
+          "WNSENSE": "as%4:02:00::"
+        },
+        "start": 40,
+        "end": 131
+      },
+      "V1992698": {
+        "id": "V1992698",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981124"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981124": {
+        "id": "V1981124",
+        "indicator": "A",
+        "type": "FAMILY-RELATION",
+        "word": "BRIDES",
+        "roles": {
+          "ASSOC-WITH1": "#V1981105",
+          "ASSOC-WITH": "#V1981109",
+          "SIZE": "#V1981311",
+          "MOD": "#V1981291",
+          "LEX": "BRIDES",
+          "WNSENSE": "relative%1:18:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981311": {
+        "id": "V1981311",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981109": {
+        "id": "V1981109",
+        "indicator": "KIND",
+        "type": "TIME-UNIT",
+        "word": "SECOND",
+        "roles": {
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981105": {
+        "id": "V1981105",
+        "indicator": "KIND",
+        "type": "NATURAL-GROUP",
+        "word": "DRACULA",
+        "roles": {
+          "LEX": "DRACULA",
+          "WNSENSE": "dracula%1:20:00::"
+        },
+        "start": 43,
+        "end": 131
+      },
+      "V1981291": {
+        "id": "V1981291",
+        "indicator": "F",
+        "type": "CRITICIZE",
+        "word": "ASSAULT",
+        "roles": {
+          "AGENT1": "#V1981124",
+          "MOD": "#V1984812",
+          "VFORM": "PASSIVE",
+          "LEX": "ASSAULTED",
+          "WNSENSE": "knock%2:32:02"
+        },
+        "start": 67,
+        "end": 131
+      },
+      "V1984812": {
+        "id": "V1984812",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V1981131",
+          "SEQUENCE1": "#V1981286",
+          "OPERATOR": "AND",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 67,
+        "end": 121
+      },
+      "V1981131": {
+        "id": "V1981131",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V1981213",
+          "FIGURE": "#V1981291",
+          "LEX": "WHEN"
+        },
+        "start": 67,
+        "end": 108
+      },
+      "V1981213": {
+        "id": "V1981213",
+        "indicator": "F",
+        "type": "PROPEL",
+        "word": "THROW",
+        "roles": {
+          "AGENT": "#V1981200",
+          "AFFECTED": "#V1981220",
+          "MOD": "#V1981225",
+          "TENSE": "PAST",
+          "LEX": "THREW",
+          "WNSENSE": "throw%1:04:00::"
+        },
+        "start": 72,
+        "end": 108
+      },
+      "V1981200": {
+        "id": "V1981200",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": "#V1981188",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 72,
+        "end": 84
+      },
+      "V1981188": {
+        "id": "V1981188",
+        "indicator": "F",
+        "type": "ALTERING-CONSCIOUSNESS-VAL",
+        "word": "DRUNK",
+        "roles": {
+          "FIGURE": "#V1981200",
+          "SCALE": "RATIONAL-SCALE",
+          "LEX": "DRUNK",
+          "WNSENSE": "drunk%3:00:00::"
+        },
+        "start": 74,
+        "end": 80
+      },
+      "V1981220": {
+        "id": "V1981220",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 90,
+        "end": 93
+      },
+      "V1981225": {
+        "id": "V1981225",
+        "indicator": "F",
+        "type": "CONTRA-FORCE",
+        "word": "AGAINST",
+        "roles": {
+          "GROUND": "#V1981270",
+          "FIGURE": "#V1981213",
+          "LEX": "AGAINST"
+        },
+        "start": 93,
+        "end": 108
+      },
+      "V1981270": {
+        "id": "V1981270",
+        "indicator": "A",
+        "type": "STRUCTURE-INTERNAL-COMPONENT",
+        "word": "WALL",
+        "roles": {
+          "LEX": "WALL",
+          "WNSENSE": "wall%1:06:00::"
+        },
+        "start": 101,
+        "end": 108
+      },
+      "V1981286": {
+        "id": "V1981286",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SEXUALLY",
+        "roles": {
+          "FIGURE": "#V1981291",
+          "LEX": "SEXUALLY",
+          "WNSENSE": "sexually%4:02:01::"
+        },
+        "start": 112,
+        "end": 121
+      },
+      "root": "#V1981047"
+    },
+    {
+      "V1981675": {
+        "id": "V1981675",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1981459",
+          "LEX": "-"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981459": {
+        "id": "V1981459",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1981296"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "V1981296": {
+        "id": "V1981296",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 131,
+        "end": 133
+      },
+      "root": "#V1981675"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+368",
+    "*last-utt-id*=368  utt-id+368",
+    "*last-utt-id*=368  utt-id+368",
+    "*last-utt-id*=368  utt-id+NIL"
+  ]
+}

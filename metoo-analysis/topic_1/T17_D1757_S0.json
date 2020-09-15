@@ -1,0 +1,189 @@
+{
+  "parse": [
+    {
+      "V107082": {
+        "id": "V107082",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V95958",
+          "LEX": "GRABBED"
+        },
+        "start": 0,
+        "end": 70
+      },
+      "V95958": {
+        "id": "V95958",
+        "indicator": "F",
+        "type": "ACQUIRE",
+        "word": "GRAB",
+        "roles": {
+          "TIME": "#V95722",
+          "MOD": [
+            "#V95978",
+            "#V95970"
+          ],
+          "AGENT": "#V95951",
+          "AFFECTED": "#V95961",
+          "TENSE": "PAST",
+          "LEX": "GRABBED"
+        },
+        "start": 0,
+        "end": 70
+      },
+      "V95722": {
+        "id": "V95722",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V95839",
+          "FIGURE": "#V95958",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V95839": {
+        "id": "V95839",
+        "indicator": "F",
+        "type": "GIVING",
+        "word": "LIVED-IN",
+        "roles": {
+          "AGENT": "#V95748",
+          "AFFECTED": "#V95904",
+          "TENSE": "PAST",
+          "LEX": "LIVED-IN",
+          "WNSENSE": "live_in%2:34:00"
+        },
+        "start": 5,
+        "end": 22
+      },
+      "V95748": {
+        "id": "V95748",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V95904": {
+        "id": "V95904",
+        "indicator": "THE",
+        "type": "COUNTRY",
+        "word": "JAPAN",
+        "roles": {
+          "NAME-OF": "JAPAN",
+          "LEX": "JAPAN"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V95951": {
+        "id": "V95951",
+        "indicator": "A",
+        "type": "MEMBER-RELN",
+        "word": "STRANGER",
+        "roles": {
+          "LEX": "STRANGER",
+          "WNSENSE": "stranger%1:18:01::"
+        },
+        "start": 22,
+        "end": 33
+      },
+      "V95961": {
+        "id": "V95961",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 41,
+        "end": 44
+      },
+      "V95970": {
+        "id": "V95970",
+        "indicator": "F",
+        "type": "EVAL-WRT-EXPECTATION",
+        "word": "JUST",
+        "roles": {
+          "FIGURE": "#V95958",
+          "LEX": "JUST",
+          "WNSENSE": "just%4:02:00::"
+        },
+        "start": 44,
+        "end": 49
+      },
+      "V95978": {
+        "id": "V95978",
+        "indicator": "F",
+        "type": "SIMILARITY",
+        "word": "LIKE",
+        "roles": {
+          "GROUND": "#V104849",
+          "FIGURE": "#V95958",
+          "LEX": "LIKE"
+        },
+        "start": 49,
+        "end": 70
+      },
+      "V104849": {
+        "id": "V104849",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V95999"
+        },
+        "start": 54,
+        "end": 70
+      },
+      "V95999": {
+        "id": "V95999",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "POTUS",
+        "roles": {
+          "MOD": "#V96004",
+          "LEX": "POTUS",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 54,
+        "end": 70
+      },
+      "V96004": {
+        "id": "V96004",
+        "indicator": "F",
+        "type": "DESCRIBE",
+        "word": "DESCRIBE",
+        "roles": {
+          "NEUTRAL": "#V95999",
+          "VFORM": "PASSIVE",
+          "LEX": "DESCRIBED",
+          "WNSENSE": "describe%2:32:00::"
+        },
+        "start": 60,
+        "end": 70
+      },
+      "root": "#V107082"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "ERROR: bad argument to BOOST-BY-PERCENT: NIL",
+    "*last-utt-id*=NIL  utt-id+10",
+    "*last-utt-id*=10  utt-id+NIL"
+  ]
+}

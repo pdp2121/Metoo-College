@@ -1,0 +1,121 @@
+{
+  "parse": [
+    {
+      "V109082": {
+        "id": "V109082",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V108227",
+          "LEX": "WALKED"
+        },
+        "start": 0,
+        "end": 43
+      },
+      "V108227": {
+        "id": "V108227",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "MOD1": "#V108219",
+          "SCALE": "#V108320",
+          "RESULT": "#V108241",
+          "AGENT": "#V108222",
+          "MOD": "#V108303",
+          "TENSE": "PAST",
+          "LEX": "WALKED"
+        },
+        "start": 0,
+        "end": 43
+      },
+      "V108219": {
+        "id": "V108219",
+        "indicator": "F",
+        "type": "LUCKY",
+        "word": "FORTUNATELY",
+        "roles": {
+          "FIGURE": "#V108227",
+          "SCALE": "LUCKINESS-SCALE",
+          "ORIENTATION": "POS",
+          "LEX": "FORTUNATELY",
+          "WNSENSE": "lucky%3:00:00::"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V108222": {
+        "id": "V108222",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "SOMEONE",
+        "roles": {
+          "PROFORM": "SOMEONE",
+          "LEX": "SOMEONE",
+          "WNSENSE": "someone%1:03:00::"
+        },
+        "start": 12,
+        "end": 20
+      },
+      "V108241": {
+        "id": "V108241",
+        "indicator": "F",
+        "type": "DIRECTION-IN",
+        "word": "IN",
+        "roles": {
+          "FIGURE": "#V108222",
+          "LEX": "IN",
+          "WNSENSE": "in%4:02:01::"
+        },
+        "start": 27,
+        "end": 30
+      },
+      "V108303": {
+        "id": "V108303",
+        "indicator": "F",
+        "type": "EVAL-WRT-EXPECTATION",
+        "word": "JUST",
+        "roles": {
+          "FIGURE": "#V108227",
+          "LEX": "JUST",
+          "WNSENSE": "just%4:02:00::"
+        },
+        "start": 30,
+        "end": 35
+      },
+      "V108320": {
+        "id": "V108320",
+        "indicator": "F",
+        "type": "IN-SCALE",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V108381",
+          "FIGURE": "#V108227",
+          "LEX": "IN"
+        },
+        "start": 35,
+        "end": 43
+      },
+      "V108381": {
+        "id": "V108381",
+        "indicator": "BARE",
+        "type": "DURATION-SCALE",
+        "word": "TIME",
+        "roles": {
+          "LEX": "TIME",
+          "WNSENSE": "time%1:03:00::"
+        },
+        "start": 38,
+        "end": 43
+      },
+      "root": "#V109082"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+15",
+    "*last-utt-id*=15  utt-id+NIL"
+  ]
+}

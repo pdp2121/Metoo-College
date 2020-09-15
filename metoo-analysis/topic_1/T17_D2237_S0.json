@@ -1,0 +1,5096 @@
+{
+  "parse": [
+    {
+      "V2724264": {
+        "id": "V2724264",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V2724264"
+    },
+    {
+      "V2724292": {
+        "id": "V2724292",
+        "indicator": "F",
+        "type": "TRANSFORMATION",
+        "word": "MAKE",
+        "roles": {
+          "AFFECTED": "#V2724311",
+          "RESULT": "#V2724319",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "MADE",
+          "WNSENSE": "make%2:30:15::"
+        },
+        "start": 3,
+        "end": 18
+      },
+      "V2724311": {
+        "id": "V2724311",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 12,
+        "end": 16
+      },
+      "V2724319": {
+        "id": "V2724319",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 16,
+        "end": 18
+      },
+      "root": "#V2724292"
+    },
+    {
+      "V2727291": {
+        "id": "V2727291",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724382",
+          "LEX": "KNOW"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2724382": {
+        "id": "V2724382",
+        "indicator": "F",
+        "type": "KNOW",
+        "word": "KNOW",
+        "roles": {
+          "EXPERIENCER": "#V2727292",
+          "TENSE": "PRES",
+          "LEX": "KNOW",
+          "WNSENSE": "know%2:31:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2727292": {
+        "id": "V2727292",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ",
+          "COREF": "#V2724319"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "root": "#V2727291"
+    },
+    {
+      "V2731199": {
+        "id": "V2731199",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2727847",
+          "ACT1": "#V2726053",
+          "OPERATORS": "(BUT)",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 84
+      },
+      "V2727847": {
+        "id": "V2727847",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724445",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724445": {
+        "id": "V2724445",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "NEED",
+        "roles": {
+          "NEUTRAL": "#V2724409",
+          "FORMAL": "#V2724490",
+          "TENSE": "PRES",
+          "LEX": "NEEDS",
+          "WNSENSE": "need%2:42:00::"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724409": {
+        "id": "V2724409",
+        "indicator": "SM",
+        "type": "WORK",
+        "word": "WORK",
+        "roles": {
+          "QUAN": "MUCH",
+          "LEX": "WORK",
+          "WNSENSE": "work%2:41:00::"
+        },
+        "start": 25,
+        "end": 35
+      },
+      "V2724490": {
+        "id": "V2724490",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2724409",
+          "FORMAL": "#V2724503",
+          "VFORM": "BASE",
+          "LEX": "BE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 41,
+        "end": 52
+      },
+      "V2724503": {
+        "id": "V2724503",
+        "indicator": "F",
+        "type": "FINISHED",
+        "word": "DONE",
+        "roles": {
+          "FIGURE": "#V2724409",
+          "SCALE": "DOMAIN",
+          "LEX": "DONE",
+          "WNSENSE": "done%5:00:00:finished:01"
+        },
+        "start": 47,
+        "end": 52
+      },
+      "V2726053": {
+        "id": "V2726053",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724565",
+          "LEX": "HELP"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724565": {
+        "id": "V2724565",
+        "indicator": "F",
+        "type": "HELP",
+        "word": "HELP",
+        "roles": {
+          "AGENT": "#V2724534",
+          "AFFECTED": "#V2724578",
+          "TIME": "#V2724587",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "HELP",
+          "WNSENSE": "help%1:04:00::"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724534": {
+        "id": "V2724534",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 56,
+        "end": 60
+      },
+      "V2724578": {
+        "id": "V2724578",
+        "indicator": "INDEF-SET",
+        "type": "UNFORTUNATE",
+        "word": "SURVIVORS",
+        "roles": {
+          "LEX": "SURVIVORS",
+          "WNSENSE": "unfortunate%1:18:00"
+        },
+        "start": 69,
+        "end": 79
+      },
+      "V2724587": {
+        "id": "V2724587",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V2724565",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 79,
+        "end": 84
+      },
+      "root": "#V2731199"
+    },
+    {
+      "V2724264": {
+        "id": "V2724264",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V2724264"
+    },
+    {
+      "V2724292": {
+        "id": "V2724292",
+        "indicator": "F",
+        "type": "TRANSFORMATION",
+        "word": "MAKE",
+        "roles": {
+          "AFFECTED": "#V2724311",
+          "RESULT": "#V2724319",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "MADE",
+          "WNSENSE": "make%2:30:15::"
+        },
+        "start": 3,
+        "end": 18
+      },
+      "V2724311": {
+        "id": "V2724311",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 12,
+        "end": 16
+      },
+      "V2724319": {
+        "id": "V2724319",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 16,
+        "end": 18
+      },
+      "root": "#V2724292"
+    },
+    {
+      "V2727291": {
+        "id": "V2727291",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724382",
+          "LEX": "KNOW"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2724382": {
+        "id": "V2724382",
+        "indicator": "F",
+        "type": "KNOW",
+        "word": "KNOW",
+        "roles": {
+          "EXPERIENCER": "#V2727292",
+          "TENSE": "PRES",
+          "LEX": "KNOW",
+          "WNSENSE": "know%2:31:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2727292": {
+        "id": "V2727292",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "root": "#V2727291"
+    },
+    {
+      "V2731197": {
+        "id": "V2731197",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2727844",
+          "ACT1": "#V2726053",
+          "OPERATORS": "(BUT)",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 85
+      },
+      "V2727844": {
+        "id": "V2727844",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724445",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724445": {
+        "id": "V2724445",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "NEED",
+        "roles": {
+          "NEUTRAL": "#V2724408",
+          "FORMAL": "#V2724490",
+          "TENSE": "PRES",
+          "LEX": "NEEDS",
+          "WNSENSE": "need%2:42:00::"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724408": {
+        "id": "V2724408",
+        "indicator": "SM",
+        "type": "WORKING-OUT",
+        "word": "WORK",
+        "roles": {
+          "QUAN": "MUCH",
+          "LEX": "WORK",
+          "WNSENSE": "work%2:29:00::"
+        },
+        "start": 25,
+        "end": 35
+      },
+      "V2724490": {
+        "id": "V2724490",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2724408",
+          "FORMAL": "#V2724503",
+          "VFORM": "BASE",
+          "LEX": "BE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 41,
+        "end": 52
+      },
+      "V2724503": {
+        "id": "V2724503",
+        "indicator": "F",
+        "type": "FINISHED",
+        "word": "DONE",
+        "roles": {
+          "FIGURE": "#V2724408",
+          "SCALE": "DOMAIN",
+          "LEX": "DONE",
+          "WNSENSE": "done%5:00:00:finished:01"
+        },
+        "start": 47,
+        "end": 52
+      },
+      "V2726053": {
+        "id": "V2726053",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724565",
+          "LEX": "HELP"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724565": {
+        "id": "V2724565",
+        "indicator": "F",
+        "type": "HELP",
+        "word": "HELP",
+        "roles": {
+          "AGENT": "#V2724534",
+          "AFFECTED": "#V2724578",
+          "TIME": "#V2724587",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "HELP",
+          "WNSENSE": "help%1:04:00::"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724534": {
+        "id": "V2724534",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 56,
+        "end": 60
+      },
+      "V2724578": {
+        "id": "V2724578",
+        "indicator": "INDEF-SET",
+        "type": "UNFORTUNATE",
+        "word": "SURVIVORS",
+        "roles": {
+          "LEX": "SURVIVORS",
+          "WNSENSE": "unfortunate%1:18:00"
+        },
+        "start": 69,
+        "end": 79
+      },
+      "V2724587": {
+        "id": "V2724587",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V2724565",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 79,
+        "end": 84
+      },
+      "root": "#V2731197"
+    },
+    {
+      "V2724264": {
+        "id": "V2724264",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V2724264"
+    },
+    {
+      "V2724292": {
+        "id": "V2724292",
+        "indicator": "F",
+        "type": "TRANSFORMATION",
+        "word": "MAKE",
+        "roles": {
+          "AFFECTED": "#V2724311",
+          "RESULT": "#V2724319",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "MADE",
+          "WNSENSE": "make%2:30:15::"
+        },
+        "start": 3,
+        "end": 18
+      },
+      "V2724311": {
+        "id": "V2724311",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 12,
+        "end": 16
+      },
+      "V2724319": {
+        "id": "V2724319",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 16,
+        "end": 18
+      },
+      "root": "#V2724292"
+    },
+    {
+      "V2727291": {
+        "id": "V2727291",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724382",
+          "LEX": "KNOW"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2724382": {
+        "id": "V2724382",
+        "indicator": "F",
+        "type": "KNOW",
+        "word": "KNOW",
+        "roles": {
+          "EXPERIENCER": "#V2727292",
+          "TENSE": "PRES",
+          "LEX": "KNOW",
+          "WNSENSE": "know%2:31:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2727292": {
+        "id": "V2727292",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "root": "#V2727291"
+    },
+    {
+      "V2731195": {
+        "id": "V2731195",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2727841",
+          "ACT1": "#V2726053",
+          "OPERATORS": "(BUT)",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 85
+      },
+      "V2727841": {
+        "id": "V2727841",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724445",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724445": {
+        "id": "V2724445",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "NEED",
+        "roles": {
+          "NEUTRAL": "#V2724407",
+          "FORMAL": "#V2724490",
+          "TENSE": "PRES",
+          "LEX": "NEEDS",
+          "WNSENSE": "need%2:42:00::"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724407": {
+        "id": "V2724407",
+        "indicator": "SM",
+        "type": "WORKING",
+        "word": "WORK",
+        "roles": {
+          "QUAN": "MUCH",
+          "LEX": "WORK",
+          "WNSENSE": "work%2:41:02::"
+        },
+        "start": 25,
+        "end": 35
+      },
+      "V2724490": {
+        "id": "V2724490",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2724407",
+          "FORMAL": "#V2724503",
+          "VFORM": "BASE",
+          "LEX": "BE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 41,
+        "end": 52
+      },
+      "V2724503": {
+        "id": "V2724503",
+        "indicator": "F",
+        "type": "FINISHED",
+        "word": "DONE",
+        "roles": {
+          "FIGURE": "#V2724407",
+          "SCALE": "DOMAIN",
+          "LEX": "DONE",
+          "WNSENSE": "done%5:00:00:finished:01"
+        },
+        "start": 47,
+        "end": 52
+      },
+      "V2726053": {
+        "id": "V2726053",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724565",
+          "LEX": "HELP"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724565": {
+        "id": "V2724565",
+        "indicator": "F",
+        "type": "HELP",
+        "word": "HELP",
+        "roles": {
+          "AGENT": "#V2724534",
+          "AFFECTED": "#V2724578",
+          "TIME": "#V2724587",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "HELP",
+          "WNSENSE": "help%1:04:00::"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724534": {
+        "id": "V2724534",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 56,
+        "end": 60
+      },
+      "V2724578": {
+        "id": "V2724578",
+        "indicator": "INDEF-SET",
+        "type": "UNFORTUNATE",
+        "word": "SURVIVORS",
+        "roles": {
+          "LEX": "SURVIVORS",
+          "WNSENSE": "unfortunate%1:18:00"
+        },
+        "start": 69,
+        "end": 79
+      },
+      "V2724587": {
+        "id": "V2724587",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V2724565",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 79,
+        "end": 84
+      },
+      "root": "#V2731195"
+    },
+    {
+      "V2724264": {
+        "id": "V2724264",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V2724264"
+    },
+    {
+      "V2724292": {
+        "id": "V2724292",
+        "indicator": "F",
+        "type": "TRANSFORMATION",
+        "word": "MAKE",
+        "roles": {
+          "AFFECTED": "#V2724311",
+          "RESULT": "#V2724319",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "MADE",
+          "WNSENSE": "make%2:30:15::"
+        },
+        "start": 3,
+        "end": 18
+      },
+      "V2724311": {
+        "id": "V2724311",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 12,
+        "end": 16
+      },
+      "V2724319": {
+        "id": "V2724319",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 16,
+        "end": 18
+      },
+      "root": "#V2724292"
+    },
+    {
+      "V2727291": {
+        "id": "V2727291",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724382",
+          "LEX": "KNOW"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2724382": {
+        "id": "V2724382",
+        "indicator": "F",
+        "type": "KNOW",
+        "word": "KNOW",
+        "roles": {
+          "EXPERIENCER": "#V2727292",
+          "TENSE": "PRES",
+          "LEX": "KNOW",
+          "WNSENSE": "know%2:31:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2727292": {
+        "id": "V2727292",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "root": "#V2727291"
+    },
+    {
+      "V2731193": {
+        "id": "V2731193",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2727838",
+          "ACT1": "#V2726053",
+          "OPERATORS": "(BUT)",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 85
+      },
+      "V2727838": {
+        "id": "V2727838",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724445",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724445": {
+        "id": "V2724445",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "NEED",
+        "roles": {
+          "NEUTRAL": "#V2724406",
+          "FORMAL": "#V2724490",
+          "TENSE": "PRES",
+          "LEX": "NEEDS",
+          "WNSENSE": "need%2:42:00::"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724406": {
+        "id": "V2724406",
+        "indicator": "SM",
+        "type": "WORKING",
+        "word": "WORK",
+        "roles": {
+          "QUAN": "MUCH",
+          "LEX": "WORK",
+          "WNSENSE": "work%2:41:02::"
+        },
+        "start": 25,
+        "end": 35
+      },
+      "V2724490": {
+        "id": "V2724490",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2724406",
+          "FORMAL": "#V2724503",
+          "VFORM": "BASE",
+          "LEX": "BE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 41,
+        "end": 52
+      },
+      "V2724503": {
+        "id": "V2724503",
+        "indicator": "F",
+        "type": "FINISHED",
+        "word": "DONE",
+        "roles": {
+          "FIGURE": "#V2724406",
+          "SCALE": "DOMAIN",
+          "LEX": "DONE",
+          "WNSENSE": "done%5:00:00:finished:01"
+        },
+        "start": 47,
+        "end": 52
+      },
+      "V2726053": {
+        "id": "V2726053",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724565",
+          "LEX": "HELP"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724565": {
+        "id": "V2724565",
+        "indicator": "F",
+        "type": "HELP",
+        "word": "HELP",
+        "roles": {
+          "AGENT": "#V2724534",
+          "AFFECTED": "#V2724578",
+          "TIME": "#V2724587",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "HELP",
+          "WNSENSE": "help%1:04:00::"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724534": {
+        "id": "V2724534",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 56,
+        "end": 60
+      },
+      "V2724578": {
+        "id": "V2724578",
+        "indicator": "INDEF-SET",
+        "type": "UNFORTUNATE",
+        "word": "SURVIVORS",
+        "roles": {
+          "LEX": "SURVIVORS",
+          "WNSENSE": "unfortunate%1:18:00"
+        },
+        "start": 69,
+        "end": 79
+      },
+      "V2724587": {
+        "id": "V2724587",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V2724565",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 79,
+        "end": 84
+      },
+      "root": "#V2731193"
+    },
+    {
+      "V2724264": {
+        "id": "V2724264",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V2724264"
+    },
+    {
+      "V2724292": {
+        "id": "V2724292",
+        "indicator": "F",
+        "type": "TRANSFORMATION",
+        "word": "MAKE",
+        "roles": {
+          "AFFECTED": "#V2724311",
+          "RESULT": "#V2724319",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "MADE",
+          "WNSENSE": "make%2:30:15::"
+        },
+        "start": 3,
+        "end": 18
+      },
+      "V2724311": {
+        "id": "V2724311",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 12,
+        "end": 16
+      },
+      "V2724319": {
+        "id": "V2724319",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 16,
+        "end": 18
+      },
+      "root": "#V2724292"
+    },
+    {
+      "V2727291": {
+        "id": "V2727291",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724382",
+          "LEX": "KNOW"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2724382": {
+        "id": "V2724382",
+        "indicator": "F",
+        "type": "KNOW",
+        "word": "KNOW",
+        "roles": {
+          "EXPERIENCER": "#V2727292",
+          "TENSE": "PRES",
+          "LEX": "KNOW",
+          "WNSENSE": "know%2:31:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2727292": {
+        "id": "V2727292",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "root": "#V2727291"
+    },
+    {
+      "V2731191": {
+        "id": "V2731191",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2727835",
+          "ACT1": "#V2726053",
+          "OPERATORS": "(BUT)",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 85
+      },
+      "V2727835": {
+        "id": "V2727835",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724445",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724445": {
+        "id": "V2724445",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "NEED",
+        "roles": {
+          "NEUTRAL": "#V2724409",
+          "FORMAL": "#V2724490",
+          "TENSE": "PRES",
+          "LEX": "NEEDS",
+          "WNSENSE": "need%2:42:00::"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724409": {
+        "id": "V2724409",
+        "indicator": "SM",
+        "type": "WORK",
+        "word": "WORK",
+        "roles": {
+          "QUAN": "MUCH",
+          "LEX": "WORK",
+          "WNSENSE": "work%2:41:00::"
+        },
+        "start": 25,
+        "end": 35
+      },
+      "V2724490": {
+        "id": "V2724490",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2724409",
+          "FORMAL": "#V2724503",
+          "VFORM": "BASE",
+          "LEX": "BE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 41,
+        "end": 52
+      },
+      "V2724503": {
+        "id": "V2724503",
+        "indicator": "F",
+        "type": "FINISHED",
+        "word": "DONE",
+        "roles": {
+          "FIGURE": "#V2724409",
+          "SCALE": "DOMAIN",
+          "LEX": "DONE",
+          "WNSENSE": "done%5:00:00:finished:01"
+        },
+        "start": 47,
+        "end": 52
+      },
+      "V2726053": {
+        "id": "V2726053",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724565",
+          "LEX": "HELP"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724565": {
+        "id": "V2724565",
+        "indicator": "F",
+        "type": "HELP",
+        "word": "HELP",
+        "roles": {
+          "AGENT": "#V2724534",
+          "AFFECTED": "#V2724578",
+          "TIME": "#V2724587",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "HELP",
+          "WNSENSE": "help%1:04:00::"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724534": {
+        "id": "V2724534",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 56,
+        "end": 60
+      },
+      "V2724578": {
+        "id": "V2724578",
+        "indicator": "INDEF-SET",
+        "type": "UNFORTUNATE",
+        "word": "SURVIVORS",
+        "roles": {
+          "LEX": "SURVIVORS",
+          "WNSENSE": "unfortunate%1:18:00"
+        },
+        "start": 69,
+        "end": 79
+      },
+      "V2724587": {
+        "id": "V2724587",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V2724565",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 79,
+        "end": 84
+      },
+      "root": "#V2731191"
+    },
+    {
+      "V2724264": {
+        "id": "V2724264",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V2724264"
+    },
+    {
+      "V2724292": {
+        "id": "V2724292",
+        "indicator": "F",
+        "type": "TRANSFORMATION",
+        "word": "MAKE",
+        "roles": {
+          "AFFECTED": "#V2724311",
+          "RESULT": "#V2724319",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "MADE",
+          "WNSENSE": "make%2:30:15::"
+        },
+        "start": 3,
+        "end": 18
+      },
+      "V2724311": {
+        "id": "V2724311",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 12,
+        "end": 16
+      },
+      "V2724319": {
+        "id": "V2724319",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 16,
+        "end": 18
+      },
+      "root": "#V2724292"
+    },
+    {
+      "V2727291": {
+        "id": "V2727291",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724382",
+          "LEX": "KNOW"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2724382": {
+        "id": "V2724382",
+        "indicator": "F",
+        "type": "KNOW",
+        "word": "KNOW",
+        "roles": {
+          "EXPERIENCER": "#V2727292",
+          "TENSE": "PRES",
+          "LEX": "KNOW",
+          "WNSENSE": "know%2:31:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2727292": {
+        "id": "V2727292",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "root": "#V2727291"
+    },
+    {
+      "V2731189": {
+        "id": "V2731189",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2727832",
+          "ACT1": "#V2726053",
+          "OPERATORS": "(BUT)",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 85
+      },
+      "V2727832": {
+        "id": "V2727832",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724445",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724445": {
+        "id": "V2724445",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "NEED",
+        "roles": {
+          "NEUTRAL": "#V2724408",
+          "FORMAL": "#V2724490",
+          "TENSE": "PRES",
+          "LEX": "NEEDS",
+          "WNSENSE": "need%2:42:00::"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724408": {
+        "id": "V2724408",
+        "indicator": "SM",
+        "type": "WORKING-OUT",
+        "word": "WORK",
+        "roles": {
+          "QUAN": "MUCH",
+          "LEX": "WORK",
+          "WNSENSE": "work%2:29:00::"
+        },
+        "start": 25,
+        "end": 35
+      },
+      "V2724490": {
+        "id": "V2724490",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2724408",
+          "FORMAL": "#V2724503",
+          "VFORM": "BASE",
+          "LEX": "BE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 41,
+        "end": 52
+      },
+      "V2724503": {
+        "id": "V2724503",
+        "indicator": "F",
+        "type": "FINISHED",
+        "word": "DONE",
+        "roles": {
+          "FIGURE": "#V2724408",
+          "SCALE": "DOMAIN",
+          "LEX": "DONE",
+          "WNSENSE": "done%5:00:00:finished:01"
+        },
+        "start": 47,
+        "end": 52
+      },
+      "V2726053": {
+        "id": "V2726053",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724565",
+          "LEX": "HELP"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724565": {
+        "id": "V2724565",
+        "indicator": "F",
+        "type": "HELP",
+        "word": "HELP",
+        "roles": {
+          "AGENT": "#V2724534",
+          "AFFECTED": "#V2724578",
+          "TIME": "#V2724587",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "HELP",
+          "WNSENSE": "help%1:04:00::"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724534": {
+        "id": "V2724534",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 56,
+        "end": 60
+      },
+      "V2724578": {
+        "id": "V2724578",
+        "indicator": "INDEF-SET",
+        "type": "UNFORTUNATE",
+        "word": "SURVIVORS",
+        "roles": {
+          "LEX": "SURVIVORS",
+          "WNSENSE": "unfortunate%1:18:00"
+        },
+        "start": 69,
+        "end": 79
+      },
+      "V2724587": {
+        "id": "V2724587",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V2724565",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 79,
+        "end": 84
+      },
+      "root": "#V2731189"
+    },
+    {
+      "V2724264": {
+        "id": "V2724264",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V2724264"
+    },
+    {
+      "V2724292": {
+        "id": "V2724292",
+        "indicator": "F",
+        "type": "TRANSFORMATION",
+        "word": "MAKE",
+        "roles": {
+          "AFFECTED": "#V2724311",
+          "RESULT": "#V2724319",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "MADE",
+          "WNSENSE": "make%2:30:15::"
+        },
+        "start": 3,
+        "end": 18
+      },
+      "V2724311": {
+        "id": "V2724311",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 12,
+        "end": 16
+      },
+      "V2724319": {
+        "id": "V2724319",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 16,
+        "end": 18
+      },
+      "root": "#V2724292"
+    },
+    {
+      "V2727291": {
+        "id": "V2727291",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724382",
+          "LEX": "KNOW"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2724382": {
+        "id": "V2724382",
+        "indicator": "F",
+        "type": "KNOW",
+        "word": "KNOW",
+        "roles": {
+          "EXPERIENCER": "#V2727292",
+          "TENSE": "PRES",
+          "LEX": "KNOW",
+          "WNSENSE": "know%2:31:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2727292": {
+        "id": "V2727292",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "root": "#V2727291"
+    },
+    {
+      "V2731187": {
+        "id": "V2731187",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2727829",
+          "ACT1": "#V2726053",
+          "OPERATORS": "(BUT)",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 85
+      },
+      "V2727829": {
+        "id": "V2727829",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724445",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724445": {
+        "id": "V2724445",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "NEED",
+        "roles": {
+          "NEUTRAL": "#V2724407",
+          "FORMAL": "#V2724490",
+          "TENSE": "PRES",
+          "LEX": "NEEDS",
+          "WNSENSE": "need%2:42:00::"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724407": {
+        "id": "V2724407",
+        "indicator": "SM",
+        "type": "WORKING",
+        "word": "WORK",
+        "roles": {
+          "QUAN": "MUCH",
+          "LEX": "WORK",
+          "WNSENSE": "work%2:41:02::"
+        },
+        "start": 25,
+        "end": 35
+      },
+      "V2724490": {
+        "id": "V2724490",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2724407",
+          "FORMAL": "#V2724503",
+          "VFORM": "BASE",
+          "LEX": "BE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 41,
+        "end": 52
+      },
+      "V2724503": {
+        "id": "V2724503",
+        "indicator": "F",
+        "type": "FINISHED",
+        "word": "DONE",
+        "roles": {
+          "FIGURE": "#V2724407",
+          "SCALE": "DOMAIN",
+          "LEX": "DONE",
+          "WNSENSE": "done%5:00:00:finished:01"
+        },
+        "start": 47,
+        "end": 52
+      },
+      "V2726053": {
+        "id": "V2726053",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724565",
+          "LEX": "HELP"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724565": {
+        "id": "V2724565",
+        "indicator": "F",
+        "type": "HELP",
+        "word": "HELP",
+        "roles": {
+          "AGENT": "#V2724534",
+          "AFFECTED": "#V2724578",
+          "TIME": "#V2724587",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "HELP",
+          "WNSENSE": "help%1:04:00::"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724534": {
+        "id": "V2724534",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 56,
+        "end": 60
+      },
+      "V2724578": {
+        "id": "V2724578",
+        "indicator": "INDEF-SET",
+        "type": "UNFORTUNATE",
+        "word": "SURVIVORS",
+        "roles": {
+          "LEX": "SURVIVORS",
+          "WNSENSE": "unfortunate%1:18:00"
+        },
+        "start": 69,
+        "end": 79
+      },
+      "V2724587": {
+        "id": "V2724587",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V2724565",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 79,
+        "end": 84
+      },
+      "root": "#V2731187"
+    },
+    {
+      "V2724264": {
+        "id": "V2724264",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V2724264"
+    },
+    {
+      "V2724292": {
+        "id": "V2724292",
+        "indicator": "F",
+        "type": "TRANSFORMATION",
+        "word": "MAKE",
+        "roles": {
+          "AFFECTED": "#V2724311",
+          "RESULT": "#V2724319",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "MADE",
+          "WNSENSE": "make%2:30:15::"
+        },
+        "start": 3,
+        "end": 18
+      },
+      "V2724311": {
+        "id": "V2724311",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 12,
+        "end": 16
+      },
+      "V2724319": {
+        "id": "V2724319",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 16,
+        "end": 18
+      },
+      "root": "#V2724292"
+    },
+    {
+      "V2727291": {
+        "id": "V2727291",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724382",
+          "LEX": "KNOW"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2724382": {
+        "id": "V2724382",
+        "indicator": "F",
+        "type": "KNOW",
+        "word": "KNOW",
+        "roles": {
+          "EXPERIENCER": "#V2727292",
+          "TENSE": "PRES",
+          "LEX": "KNOW",
+          "WNSENSE": "know%2:31:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2727292": {
+        "id": "V2727292",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "root": "#V2727291"
+    },
+    {
+      "V2731185": {
+        "id": "V2731185",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2727826",
+          "ACT1": "#V2726053",
+          "OPERATORS": "(BUT)",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 85
+      },
+      "V2727826": {
+        "id": "V2727826",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724445",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724445": {
+        "id": "V2724445",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "NEED",
+        "roles": {
+          "NEUTRAL": "#V2724406",
+          "FORMAL": "#V2724490",
+          "TENSE": "PRES",
+          "LEX": "NEEDS",
+          "WNSENSE": "need%2:42:00::"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724406": {
+        "id": "V2724406",
+        "indicator": "SM",
+        "type": "WORKING",
+        "word": "WORK",
+        "roles": {
+          "QUAN": "MUCH",
+          "LEX": "WORK",
+          "WNSENSE": "work%2:41:02::"
+        },
+        "start": 25,
+        "end": 35
+      },
+      "V2724490": {
+        "id": "V2724490",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2724406",
+          "FORMAL": "#V2724503",
+          "VFORM": "BASE",
+          "LEX": "BE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 41,
+        "end": 52
+      },
+      "V2724503": {
+        "id": "V2724503",
+        "indicator": "F",
+        "type": "FINISHED",
+        "word": "DONE",
+        "roles": {
+          "FIGURE": "#V2724406",
+          "SCALE": "DOMAIN",
+          "LEX": "DONE",
+          "WNSENSE": "done%5:00:00:finished:01"
+        },
+        "start": 47,
+        "end": 52
+      },
+      "V2726053": {
+        "id": "V2726053",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724565",
+          "LEX": "HELP"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724565": {
+        "id": "V2724565",
+        "indicator": "F",
+        "type": "HELP",
+        "word": "HELP",
+        "roles": {
+          "AGENT": "#V2724534",
+          "AFFECTED": "#V2724578",
+          "TIME": "#V2724587",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "HELP",
+          "WNSENSE": "help%1:04:00::"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724534": {
+        "id": "V2724534",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 56,
+        "end": 60
+      },
+      "V2724578": {
+        "id": "V2724578",
+        "indicator": "INDEF-SET",
+        "type": "UNFORTUNATE",
+        "word": "SURVIVORS",
+        "roles": {
+          "LEX": "SURVIVORS",
+          "WNSENSE": "unfortunate%1:18:00"
+        },
+        "start": 69,
+        "end": 79
+      },
+      "V2724587": {
+        "id": "V2724587",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V2724565",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 79,
+        "end": 84
+      },
+      "root": "#V2731185"
+    },
+    {
+      "V2724264": {
+        "id": "V2724264",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V2724264"
+    },
+    {
+      "V2724292": {
+        "id": "V2724292",
+        "indicator": "F",
+        "type": "TRANSFORMATION",
+        "word": "MAKE",
+        "roles": {
+          "AFFECTED": "#V2724311",
+          "RESULT": "#V2724319",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "MADE",
+          "WNSENSE": "make%2:30:15::"
+        },
+        "start": 3,
+        "end": 18
+      },
+      "V2724311": {
+        "id": "V2724311",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 12,
+        "end": 16
+      },
+      "V2724319": {
+        "id": "V2724319",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 16,
+        "end": 18
+      },
+      "root": "#V2724292"
+    },
+    {
+      "V2727291": {
+        "id": "V2727291",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724382",
+          "LEX": "KNOW"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2724382": {
+        "id": "V2724382",
+        "indicator": "F",
+        "type": "KNOW",
+        "word": "KNOW",
+        "roles": {
+          "EXPERIENCER": "#V2727292",
+          "TENSE": "PRES",
+          "LEX": "KNOW",
+          "WNSENSE": "know%2:31:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2727292": {
+        "id": "V2727292",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "root": "#V2727291"
+    },
+    {
+      "V2731183": {
+        "id": "V2731183",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2727823",
+          "ACT1": "#V2726053",
+          "OPERATORS": "(BUT)",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 85
+      },
+      "V2727823": {
+        "id": "V2727823",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724445",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724445": {
+        "id": "V2724445",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "NEED",
+        "roles": {
+          "NEUTRAL": "#V2724409",
+          "FORMAL": "#V2724490",
+          "TENSE": "PRES",
+          "LEX": "NEEDS",
+          "WNSENSE": "need%2:42:00::"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724409": {
+        "id": "V2724409",
+        "indicator": "SM",
+        "type": "WORK",
+        "word": "WORK",
+        "roles": {
+          "QUAN": "MUCH",
+          "LEX": "WORK",
+          "WNSENSE": "work%2:41:00::"
+        },
+        "start": 25,
+        "end": 35
+      },
+      "V2724490": {
+        "id": "V2724490",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2724409",
+          "FORMAL": "#V2724502",
+          "VFORM": "BASE",
+          "LEX": "BE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 41,
+        "end": 52
+      },
+      "V2724502": {
+        "id": "V2724502",
+        "indicator": "F",
+        "type": "FINISHED",
+        "word": "DONE",
+        "roles": {
+          "FIGURE": "#V2724409",
+          "SCALE": "DOMAIN",
+          "LEX": "DONE",
+          "WNSENSE": "done%5:00:00:finished:01"
+        },
+        "start": 47,
+        "end": 52
+      },
+      "V2726053": {
+        "id": "V2726053",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724565",
+          "LEX": "HELP"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724565": {
+        "id": "V2724565",
+        "indicator": "F",
+        "type": "HELP",
+        "word": "HELP",
+        "roles": {
+          "AGENT": "#V2724534",
+          "AFFECTED": "#V2724578",
+          "TIME": "#V2724587",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "HELP",
+          "WNSENSE": "help%1:04:00::"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724534": {
+        "id": "V2724534",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 56,
+        "end": 60
+      },
+      "V2724578": {
+        "id": "V2724578",
+        "indicator": "INDEF-SET",
+        "type": "UNFORTUNATE",
+        "word": "SURVIVORS",
+        "roles": {
+          "LEX": "SURVIVORS",
+          "WNSENSE": "unfortunate%1:18:00"
+        },
+        "start": 69,
+        "end": 79
+      },
+      "V2724587": {
+        "id": "V2724587",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V2724565",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 79,
+        "end": 84
+      },
+      "root": "#V2731183"
+    },
+    {
+      "V2724264": {
+        "id": "V2724264",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V2724264"
+    },
+    {
+      "V2724292": {
+        "id": "V2724292",
+        "indicator": "F",
+        "type": "TRANSFORMATION",
+        "word": "MAKE",
+        "roles": {
+          "AFFECTED": "#V2724311",
+          "RESULT": "#V2724319",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "MADE",
+          "WNSENSE": "make%2:30:15::"
+        },
+        "start": 3,
+        "end": 18
+      },
+      "V2724311": {
+        "id": "V2724311",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 12,
+        "end": 16
+      },
+      "V2724319": {
+        "id": "V2724319",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 16,
+        "end": 18
+      },
+      "root": "#V2724292"
+    },
+    {
+      "V2727291": {
+        "id": "V2727291",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724382",
+          "LEX": "KNOW"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2724382": {
+        "id": "V2724382",
+        "indicator": "F",
+        "type": "KNOW",
+        "word": "KNOW",
+        "roles": {
+          "EXPERIENCER": "#V2727292",
+          "TENSE": "PRES",
+          "LEX": "KNOW",
+          "WNSENSE": "know%2:31:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2727292": {
+        "id": "V2727292",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "root": "#V2727291"
+    },
+    {
+      "V2731181": {
+        "id": "V2731181",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2727820",
+          "ACT1": "#V2726053",
+          "OPERATORS": "(BUT)",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 85
+      },
+      "V2727820": {
+        "id": "V2727820",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724445",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724445": {
+        "id": "V2724445",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "NEED",
+        "roles": {
+          "NEUTRAL": "#V2724408",
+          "FORMAL": "#V2724490",
+          "TENSE": "PRES",
+          "LEX": "NEEDS",
+          "WNSENSE": "need%2:42:00::"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724408": {
+        "id": "V2724408",
+        "indicator": "SM",
+        "type": "WORKING-OUT",
+        "word": "WORK",
+        "roles": {
+          "QUAN": "MUCH",
+          "LEX": "WORK",
+          "WNSENSE": "work%2:29:00::"
+        },
+        "start": 25,
+        "end": 35
+      },
+      "V2724490": {
+        "id": "V2724490",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2724408",
+          "FORMAL": "#V2724502",
+          "VFORM": "BASE",
+          "LEX": "BE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 41,
+        "end": 52
+      },
+      "V2724502": {
+        "id": "V2724502",
+        "indicator": "F",
+        "type": "FINISHED",
+        "word": "DONE",
+        "roles": {
+          "FIGURE": "#V2724408",
+          "SCALE": "DOMAIN",
+          "LEX": "DONE",
+          "WNSENSE": "done%5:00:00:finished:01"
+        },
+        "start": 47,
+        "end": 52
+      },
+      "V2726053": {
+        "id": "V2726053",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724565",
+          "LEX": "HELP"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724565": {
+        "id": "V2724565",
+        "indicator": "F",
+        "type": "HELP",
+        "word": "HELP",
+        "roles": {
+          "AGENT": "#V2724534",
+          "AFFECTED": "#V2724578",
+          "TIME": "#V2724587",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "HELP",
+          "WNSENSE": "help%1:04:00::"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724534": {
+        "id": "V2724534",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 56,
+        "end": 60
+      },
+      "V2724578": {
+        "id": "V2724578",
+        "indicator": "INDEF-SET",
+        "type": "UNFORTUNATE",
+        "word": "SURVIVORS",
+        "roles": {
+          "LEX": "SURVIVORS",
+          "WNSENSE": "unfortunate%1:18:00"
+        },
+        "start": 69,
+        "end": 79
+      },
+      "V2724587": {
+        "id": "V2724587",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V2724565",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 79,
+        "end": 84
+      },
+      "root": "#V2731181"
+    },
+    {
+      "V2724264": {
+        "id": "V2724264",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V2724264"
+    },
+    {
+      "V2724292": {
+        "id": "V2724292",
+        "indicator": "F",
+        "type": "TRANSFORMATION",
+        "word": "MAKE",
+        "roles": {
+          "AFFECTED": "#V2724311",
+          "RESULT": "#V2724319",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "MADE",
+          "WNSENSE": "make%2:30:15::"
+        },
+        "start": 3,
+        "end": 18
+      },
+      "V2724311": {
+        "id": "V2724311",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 12,
+        "end": 16
+      },
+      "V2724319": {
+        "id": "V2724319",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 16,
+        "end": 18
+      },
+      "root": "#V2724292"
+    },
+    {
+      "V2727291": {
+        "id": "V2727291",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724382",
+          "LEX": "KNOW"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2724382": {
+        "id": "V2724382",
+        "indicator": "F",
+        "type": "KNOW",
+        "word": "KNOW",
+        "roles": {
+          "EXPERIENCER": "#V2727292",
+          "TENSE": "PRES",
+          "LEX": "KNOW",
+          "WNSENSE": "know%2:31:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2727292": {
+        "id": "V2727292",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "root": "#V2727291"
+    },
+    {
+      "V2731179": {
+        "id": "V2731179",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2727817",
+          "ACT1": "#V2726053",
+          "OPERATORS": "(BUT)",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 85
+      },
+      "V2727817": {
+        "id": "V2727817",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724445",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724445": {
+        "id": "V2724445",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "NEED",
+        "roles": {
+          "NEUTRAL": "#V2724407",
+          "FORMAL": "#V2724490",
+          "TENSE": "PRES",
+          "LEX": "NEEDS",
+          "WNSENSE": "need%2:42:00::"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724407": {
+        "id": "V2724407",
+        "indicator": "SM",
+        "type": "WORKING",
+        "word": "WORK",
+        "roles": {
+          "QUAN": "MUCH",
+          "LEX": "WORK",
+          "WNSENSE": "work%2:41:02::"
+        },
+        "start": 25,
+        "end": 35
+      },
+      "V2724490": {
+        "id": "V2724490",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2724407",
+          "FORMAL": "#V2724502",
+          "VFORM": "BASE",
+          "LEX": "BE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 41,
+        "end": 52
+      },
+      "V2724502": {
+        "id": "V2724502",
+        "indicator": "F",
+        "type": "FINISHED",
+        "word": "DONE",
+        "roles": {
+          "FIGURE": "#V2724407",
+          "SCALE": "DOMAIN",
+          "LEX": "DONE",
+          "WNSENSE": "done%5:00:00:finished:01"
+        },
+        "start": 47,
+        "end": 52
+      },
+      "V2726053": {
+        "id": "V2726053",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724565",
+          "LEX": "HELP"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724565": {
+        "id": "V2724565",
+        "indicator": "F",
+        "type": "HELP",
+        "word": "HELP",
+        "roles": {
+          "AGENT": "#V2724534",
+          "AFFECTED": "#V2724578",
+          "TIME": "#V2724587",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "HELP",
+          "WNSENSE": "help%1:04:00::"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724534": {
+        "id": "V2724534",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 56,
+        "end": 60
+      },
+      "V2724578": {
+        "id": "V2724578",
+        "indicator": "INDEF-SET",
+        "type": "UNFORTUNATE",
+        "word": "SURVIVORS",
+        "roles": {
+          "LEX": "SURVIVORS",
+          "WNSENSE": "unfortunate%1:18:00"
+        },
+        "start": 69,
+        "end": 79
+      },
+      "V2724587": {
+        "id": "V2724587",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V2724565",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 79,
+        "end": 84
+      },
+      "root": "#V2731179"
+    },
+    {
+      "V2724264": {
+        "id": "V2724264",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V2724264"
+    },
+    {
+      "V2724292": {
+        "id": "V2724292",
+        "indicator": "F",
+        "type": "TRANSFORMATION",
+        "word": "MAKE",
+        "roles": {
+          "AFFECTED": "#V2724311",
+          "RESULT": "#V2724319",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "MADE",
+          "WNSENSE": "make%2:30:15::"
+        },
+        "start": 3,
+        "end": 18
+      },
+      "V2724311": {
+        "id": "V2724311",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 12,
+        "end": 16
+      },
+      "V2724319": {
+        "id": "V2724319",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 16,
+        "end": 18
+      },
+      "root": "#V2724292"
+    },
+    {
+      "V2727291": {
+        "id": "V2727291",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724382",
+          "LEX": "KNOW"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2724382": {
+        "id": "V2724382",
+        "indicator": "F",
+        "type": "KNOW",
+        "word": "KNOW",
+        "roles": {
+          "EXPERIENCER": "#V2727292",
+          "TENSE": "PRES",
+          "LEX": "KNOW",
+          "WNSENSE": "know%2:31:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2727292": {
+        "id": "V2727292",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "root": "#V2727291"
+    },
+    {
+      "V2731177": {
+        "id": "V2731177",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2727814",
+          "ACT1": "#V2726053",
+          "OPERATORS": "(BUT)",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 85
+      },
+      "V2727814": {
+        "id": "V2727814",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724445",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724445": {
+        "id": "V2724445",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "NEED",
+        "roles": {
+          "NEUTRAL": "#V2724406",
+          "FORMAL": "#V2724490",
+          "TENSE": "PRES",
+          "LEX": "NEEDS",
+          "WNSENSE": "need%2:42:00::"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724406": {
+        "id": "V2724406",
+        "indicator": "SM",
+        "type": "WORKING",
+        "word": "WORK",
+        "roles": {
+          "QUAN": "MUCH",
+          "LEX": "WORK",
+          "WNSENSE": "work%2:41:02::"
+        },
+        "start": 25,
+        "end": 35
+      },
+      "V2724490": {
+        "id": "V2724490",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2724406",
+          "FORMAL": "#V2724502",
+          "VFORM": "BASE",
+          "LEX": "BE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 41,
+        "end": 52
+      },
+      "V2724502": {
+        "id": "V2724502",
+        "indicator": "F",
+        "type": "FINISHED",
+        "word": "DONE",
+        "roles": {
+          "FIGURE": "#V2724406",
+          "SCALE": "DOMAIN",
+          "LEX": "DONE",
+          "WNSENSE": "done%5:00:00:finished:01"
+        },
+        "start": 47,
+        "end": 52
+      },
+      "V2726053": {
+        "id": "V2726053",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724565",
+          "LEX": "HELP"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724565": {
+        "id": "V2724565",
+        "indicator": "F",
+        "type": "HELP",
+        "word": "HELP",
+        "roles": {
+          "AGENT": "#V2724534",
+          "AFFECTED": "#V2724578",
+          "TIME": "#V2724587",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "HELP",
+          "WNSENSE": "help%1:04:00::"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724534": {
+        "id": "V2724534",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 56,
+        "end": 60
+      },
+      "V2724578": {
+        "id": "V2724578",
+        "indicator": "INDEF-SET",
+        "type": "UNFORTUNATE",
+        "word": "SURVIVORS",
+        "roles": {
+          "LEX": "SURVIVORS",
+          "WNSENSE": "unfortunate%1:18:00"
+        },
+        "start": 69,
+        "end": 79
+      },
+      "V2724587": {
+        "id": "V2724587",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V2724565",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 79,
+        "end": 84
+      },
+      "root": "#V2731177"
+    },
+    {
+      "V2724264": {
+        "id": "V2724264",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V2724264"
+    },
+    {
+      "V2724292": {
+        "id": "V2724292",
+        "indicator": "F",
+        "type": "TRANSFORMATION",
+        "word": "MAKE",
+        "roles": {
+          "AFFECTED": "#V2724311",
+          "RESULT": "#V2724319",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "MADE",
+          "WNSENSE": "make%2:30:15::"
+        },
+        "start": 3,
+        "end": 18
+      },
+      "V2724311": {
+        "id": "V2724311",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 12,
+        "end": 16
+      },
+      "V2724319": {
+        "id": "V2724319",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 16,
+        "end": 18
+      },
+      "root": "#V2724292"
+    },
+    {
+      "V2727291": {
+        "id": "V2727291",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724382",
+          "LEX": "KNOW"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2724382": {
+        "id": "V2724382",
+        "indicator": "F",
+        "type": "KNOW",
+        "word": "KNOW",
+        "roles": {
+          "EXPERIENCER": "#V2727292",
+          "TENSE": "PRES",
+          "LEX": "KNOW",
+          "WNSENSE": "know%2:31:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2727292": {
+        "id": "V2727292",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "root": "#V2727291"
+    },
+    {
+      "V2731175": {
+        "id": "V2731175",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2727811",
+          "ACT1": "#V2726053",
+          "OPERATORS": "(BUT)",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 85
+      },
+      "V2727811": {
+        "id": "V2727811",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724445",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724445": {
+        "id": "V2724445",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "NEED",
+        "roles": {
+          "NEUTRAL": "#V2724409",
+          "FORMAL": "#V2724490",
+          "TENSE": "PRES",
+          "LEX": "NEEDS",
+          "WNSENSE": "need%2:42:00::"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724409": {
+        "id": "V2724409",
+        "indicator": "SM",
+        "type": "WORK",
+        "word": "WORK",
+        "roles": {
+          "QUAN": "MUCH",
+          "LEX": "WORK",
+          "WNSENSE": "work%2:41:00::"
+        },
+        "start": 25,
+        "end": 35
+      },
+      "V2724490": {
+        "id": "V2724490",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2724409",
+          "FORMAL": "#V2724502",
+          "VFORM": "BASE",
+          "LEX": "BE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 41,
+        "end": 52
+      },
+      "V2724502": {
+        "id": "V2724502",
+        "indicator": "F",
+        "type": "FINISHED",
+        "word": "DONE",
+        "roles": {
+          "FIGURE": "#V2724409",
+          "SCALE": "DOMAIN",
+          "LEX": "DONE",
+          "WNSENSE": "done%5:00:00:finished:01"
+        },
+        "start": 47,
+        "end": 52
+      },
+      "V2726053": {
+        "id": "V2726053",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724565",
+          "LEX": "HELP"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724565": {
+        "id": "V2724565",
+        "indicator": "F",
+        "type": "HELP",
+        "word": "HELP",
+        "roles": {
+          "AGENT": "#V2724534",
+          "AFFECTED": "#V2724578",
+          "TIME": "#V2724587",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "HELP",
+          "WNSENSE": "help%1:04:00::"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724534": {
+        "id": "V2724534",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 56,
+        "end": 60
+      },
+      "V2724578": {
+        "id": "V2724578",
+        "indicator": "INDEF-SET",
+        "type": "UNFORTUNATE",
+        "word": "SURVIVORS",
+        "roles": {
+          "LEX": "SURVIVORS",
+          "WNSENSE": "unfortunate%1:18:00"
+        },
+        "start": 69,
+        "end": 79
+      },
+      "V2724587": {
+        "id": "V2724587",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V2724565",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 79,
+        "end": 84
+      },
+      "root": "#V2731175"
+    },
+    {
+      "V2724264": {
+        "id": "V2724264",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V2724264"
+    },
+    {
+      "V2724292": {
+        "id": "V2724292",
+        "indicator": "F",
+        "type": "TRANSFORMATION",
+        "word": "MAKE",
+        "roles": {
+          "AFFECTED": "#V2724311",
+          "RESULT": "#V2724319",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "MADE",
+          "WNSENSE": "make%2:30:15::"
+        },
+        "start": 3,
+        "end": 18
+      },
+      "V2724311": {
+        "id": "V2724311",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 12,
+        "end": 16
+      },
+      "V2724319": {
+        "id": "V2724319",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 16,
+        "end": 18
+      },
+      "root": "#V2724292"
+    },
+    {
+      "V2727291": {
+        "id": "V2727291",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724382",
+          "LEX": "KNOW"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2724382": {
+        "id": "V2724382",
+        "indicator": "F",
+        "type": "KNOW",
+        "word": "KNOW",
+        "roles": {
+          "EXPERIENCER": "#V2727292",
+          "TENSE": "PRES",
+          "LEX": "KNOW",
+          "WNSENSE": "know%2:31:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2727292": {
+        "id": "V2727292",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "root": "#V2727291"
+    },
+    {
+      "V2731173": {
+        "id": "V2731173",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2727808",
+          "ACT1": "#V2726053",
+          "OPERATORS": "(BUT)",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 85
+      },
+      "V2727808": {
+        "id": "V2727808",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724445",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724445": {
+        "id": "V2724445",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "NEED",
+        "roles": {
+          "NEUTRAL": "#V2724408",
+          "FORMAL": "#V2724490",
+          "TENSE": "PRES",
+          "LEX": "NEEDS",
+          "WNSENSE": "need%2:42:00::"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724408": {
+        "id": "V2724408",
+        "indicator": "SM",
+        "type": "WORKING-OUT",
+        "word": "WORK",
+        "roles": {
+          "QUAN": "MUCH",
+          "LEX": "WORK",
+          "WNSENSE": "work%2:29:00::"
+        },
+        "start": 25,
+        "end": 35
+      },
+      "V2724490": {
+        "id": "V2724490",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2724408",
+          "FORMAL": "#V2724502",
+          "VFORM": "BASE",
+          "LEX": "BE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 41,
+        "end": 52
+      },
+      "V2724502": {
+        "id": "V2724502",
+        "indicator": "F",
+        "type": "FINISHED",
+        "word": "DONE",
+        "roles": {
+          "FIGURE": "#V2724408",
+          "SCALE": "DOMAIN",
+          "LEX": "DONE",
+          "WNSENSE": "done%5:00:00:finished:01"
+        },
+        "start": 47,
+        "end": 52
+      },
+      "V2726053": {
+        "id": "V2726053",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724565",
+          "LEX": "HELP"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724565": {
+        "id": "V2724565",
+        "indicator": "F",
+        "type": "HELP",
+        "word": "HELP",
+        "roles": {
+          "AGENT": "#V2724534",
+          "AFFECTED": "#V2724578",
+          "TIME": "#V2724587",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "HELP",
+          "WNSENSE": "help%1:04:00::"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724534": {
+        "id": "V2724534",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 56,
+        "end": 60
+      },
+      "V2724578": {
+        "id": "V2724578",
+        "indicator": "INDEF-SET",
+        "type": "UNFORTUNATE",
+        "word": "SURVIVORS",
+        "roles": {
+          "LEX": "SURVIVORS",
+          "WNSENSE": "unfortunate%1:18:00"
+        },
+        "start": 69,
+        "end": 79
+      },
+      "V2724587": {
+        "id": "V2724587",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V2724565",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 79,
+        "end": 84
+      },
+      "root": "#V2731173"
+    },
+    {
+      "V2724264": {
+        "id": "V2724264",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V2724264"
+    },
+    {
+      "V2724292": {
+        "id": "V2724292",
+        "indicator": "F",
+        "type": "TRANSFORMATION",
+        "word": "MAKE",
+        "roles": {
+          "AFFECTED": "#V2724311",
+          "RESULT": "#V2724319",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "MADE",
+          "WNSENSE": "make%2:30:15::"
+        },
+        "start": 3,
+        "end": 18
+      },
+      "V2724311": {
+        "id": "V2724311",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 12,
+        "end": 16
+      },
+      "V2724319": {
+        "id": "V2724319",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 16,
+        "end": 18
+      },
+      "root": "#V2724292"
+    },
+    {
+      "V2727291": {
+        "id": "V2727291",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724382",
+          "LEX": "KNOW"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2724382": {
+        "id": "V2724382",
+        "indicator": "F",
+        "type": "KNOW",
+        "word": "KNOW",
+        "roles": {
+          "EXPERIENCER": "#V2727292",
+          "TENSE": "PRES",
+          "LEX": "KNOW",
+          "WNSENSE": "know%2:31:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2727292": {
+        "id": "V2727292",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "root": "#V2727291"
+    },
+    {
+      "V2731171": {
+        "id": "V2731171",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2727805",
+          "ACT1": "#V2726053",
+          "OPERATORS": "(BUT)",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 85
+      },
+      "V2727805": {
+        "id": "V2727805",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724445",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724445": {
+        "id": "V2724445",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "NEED",
+        "roles": {
+          "NEUTRAL": "#V2724407",
+          "FORMAL": "#V2724490",
+          "TENSE": "PRES",
+          "LEX": "NEEDS",
+          "WNSENSE": "need%2:42:00::"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724407": {
+        "id": "V2724407",
+        "indicator": "SM",
+        "type": "WORKING",
+        "word": "WORK",
+        "roles": {
+          "QUAN": "MUCH",
+          "LEX": "WORK",
+          "WNSENSE": "work%2:41:02::"
+        },
+        "start": 25,
+        "end": 35
+      },
+      "V2724490": {
+        "id": "V2724490",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2724407",
+          "FORMAL": "#V2724502",
+          "VFORM": "BASE",
+          "LEX": "BE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 41,
+        "end": 52
+      },
+      "V2724502": {
+        "id": "V2724502",
+        "indicator": "F",
+        "type": "FINISHED",
+        "word": "DONE",
+        "roles": {
+          "FIGURE": "#V2724407",
+          "SCALE": "DOMAIN",
+          "LEX": "DONE",
+          "WNSENSE": "done%5:00:00:finished:01"
+        },
+        "start": 47,
+        "end": 52
+      },
+      "V2726053": {
+        "id": "V2726053",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724565",
+          "LEX": "HELP"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724565": {
+        "id": "V2724565",
+        "indicator": "F",
+        "type": "HELP",
+        "word": "HELP",
+        "roles": {
+          "AGENT": "#V2724534",
+          "AFFECTED": "#V2724578",
+          "TIME": "#V2724587",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "HELP",
+          "WNSENSE": "help%1:04:00::"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724534": {
+        "id": "V2724534",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 56,
+        "end": 60
+      },
+      "V2724578": {
+        "id": "V2724578",
+        "indicator": "INDEF-SET",
+        "type": "UNFORTUNATE",
+        "word": "SURVIVORS",
+        "roles": {
+          "LEX": "SURVIVORS",
+          "WNSENSE": "unfortunate%1:18:00"
+        },
+        "start": 69,
+        "end": 79
+      },
+      "V2724587": {
+        "id": "V2724587",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V2724565",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 79,
+        "end": 84
+      },
+      "root": "#V2731171"
+    },
+    {
+      "V2724264": {
+        "id": "V2724264",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V2724264"
+    },
+    {
+      "V2724292": {
+        "id": "V2724292",
+        "indicator": "F",
+        "type": "TRANSFORMATION",
+        "word": "MAKE",
+        "roles": {
+          "AFFECTED": "#V2724311",
+          "RESULT": "#V2724319",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "MADE",
+          "WNSENSE": "make%2:30:15::"
+        },
+        "start": 3,
+        "end": 18
+      },
+      "V2724311": {
+        "id": "V2724311",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 12,
+        "end": 16
+      },
+      "V2724319": {
+        "id": "V2724319",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 16,
+        "end": 18
+      },
+      "root": "#V2724292"
+    },
+    {
+      "V2727291": {
+        "id": "V2727291",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724382",
+          "LEX": "KNOW"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2724382": {
+        "id": "V2724382",
+        "indicator": "F",
+        "type": "KNOW",
+        "word": "KNOW",
+        "roles": {
+          "EXPERIENCER": "#V2727292",
+          "TENSE": "PRES",
+          "LEX": "KNOW",
+          "WNSENSE": "know%2:31:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2727292": {
+        "id": "V2727292",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "root": "#V2727291"
+    },
+    {
+      "V2731169": {
+        "id": "V2731169",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2727802",
+          "ACT1": "#V2726053",
+          "OPERATORS": "(BUT)",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 85
+      },
+      "V2727802": {
+        "id": "V2727802",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724445",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724445": {
+        "id": "V2724445",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "NEED",
+        "roles": {
+          "NEUTRAL": "#V2724406",
+          "FORMAL": "#V2724490",
+          "TENSE": "PRES",
+          "LEX": "NEEDS",
+          "WNSENSE": "need%2:42:00::"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724406": {
+        "id": "V2724406",
+        "indicator": "SM",
+        "type": "WORKING",
+        "word": "WORK",
+        "roles": {
+          "QUAN": "MUCH",
+          "LEX": "WORK",
+          "WNSENSE": "work%2:41:02::"
+        },
+        "start": 25,
+        "end": 35
+      },
+      "V2724490": {
+        "id": "V2724490",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2724406",
+          "FORMAL": "#V2724502",
+          "VFORM": "BASE",
+          "LEX": "BE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 41,
+        "end": 52
+      },
+      "V2724502": {
+        "id": "V2724502",
+        "indicator": "F",
+        "type": "FINISHED",
+        "word": "DONE",
+        "roles": {
+          "FIGURE": "#V2724406",
+          "SCALE": "DOMAIN",
+          "LEX": "DONE",
+          "WNSENSE": "done%5:00:00:finished:01"
+        },
+        "start": 47,
+        "end": 52
+      },
+      "V2726053": {
+        "id": "V2726053",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724565",
+          "LEX": "HELP"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724565": {
+        "id": "V2724565",
+        "indicator": "F",
+        "type": "HELP",
+        "word": "HELP",
+        "roles": {
+          "AGENT": "#V2724534",
+          "AFFECTED": "#V2724578",
+          "TIME": "#V2724587",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "HELP",
+          "WNSENSE": "help%1:04:00::"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724534": {
+        "id": "V2724534",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 56,
+        "end": 60
+      },
+      "V2724578": {
+        "id": "V2724578",
+        "indicator": "INDEF-SET",
+        "type": "UNFORTUNATE",
+        "word": "SURVIVORS",
+        "roles": {
+          "LEX": "SURVIVORS",
+          "WNSENSE": "unfortunate%1:18:00"
+        },
+        "start": 69,
+        "end": 79
+      },
+      "V2724587": {
+        "id": "V2724587",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V2724565",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 79,
+        "end": 84
+      },
+      "root": "#V2731169"
+    },
+    {
+      "V2724264": {
+        "id": "V2724264",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V2724264"
+    },
+    {
+      "V2724292": {
+        "id": "V2724292",
+        "indicator": "F",
+        "type": "TRANSFORMATION",
+        "word": "MAKE",
+        "roles": {
+          "AFFECTED": "#V2724311",
+          "RESULT": "#V2724319",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "MADE",
+          "WNSENSE": "make%2:30:15::"
+        },
+        "start": 3,
+        "end": 18
+      },
+      "V2724311": {
+        "id": "V2724311",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 12,
+        "end": 16
+      },
+      "V2724319": {
+        "id": "V2724319",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 16,
+        "end": 18
+      },
+      "root": "#V2724292"
+    },
+    {
+      "V2727291": {
+        "id": "V2727291",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724382",
+          "LEX": "KNOW"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2724382": {
+        "id": "V2724382",
+        "indicator": "F",
+        "type": "KNOW",
+        "word": "KNOW",
+        "roles": {
+          "EXPERIENCER": "#V2727292",
+          "TENSE": "PRES",
+          "LEX": "KNOW",
+          "WNSENSE": "know%2:31:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2727292": {
+        "id": "V2727292",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "root": "#V2727291"
+    },
+    {
+      "V2731199": {
+        "id": "V2731199",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2727847",
+          "ACT1": "#V2726053",
+          "OPERATORS": "(BUT)",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 85
+      },
+      "V2727847": {
+        "id": "V2727847",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724445",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724445": {
+        "id": "V2724445",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "NEED",
+        "roles": {
+          "NEUTRAL": "#V2724409",
+          "FORMAL": "#V2724490",
+          "TENSE": "PRES",
+          "LEX": "NEEDS",
+          "WNSENSE": "need%2:42:00::"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724409": {
+        "id": "V2724409",
+        "indicator": "SM",
+        "type": "WORK",
+        "word": "WORK",
+        "roles": {
+          "QUAN": "MUCH",
+          "LEX": "WORK",
+          "WNSENSE": "work%2:41:00::"
+        },
+        "start": 25,
+        "end": 35
+      },
+      "V2724490": {
+        "id": "V2724490",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2724409",
+          "FORMAL": "#V2724503",
+          "VFORM": "BASE",
+          "LEX": "BE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 41,
+        "end": 52
+      },
+      "V2724503": {
+        "id": "V2724503",
+        "indicator": "F",
+        "type": "FINISHED",
+        "word": "DONE",
+        "roles": {
+          "FIGURE": "#V2724409",
+          "SCALE": "DOMAIN",
+          "LEX": "DONE",
+          "WNSENSE": "done%5:00:00:finished:01"
+        },
+        "start": 47,
+        "end": 52
+      },
+      "V2726053": {
+        "id": "V2726053",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724565",
+          "LEX": "HELP"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724565": {
+        "id": "V2724565",
+        "indicator": "F",
+        "type": "HELP",
+        "word": "HELP",
+        "roles": {
+          "AGENT": "#V2724534",
+          "AFFECTED": "#V2724578",
+          "TIME": "#V2724587",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "HELP",
+          "WNSENSE": "help%1:04:00::"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724534": {
+        "id": "V2724534",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 56,
+        "end": 60
+      },
+      "V2724578": {
+        "id": "V2724578",
+        "indicator": "INDEF-SET",
+        "type": "UNFORTUNATE",
+        "word": "SURVIVORS",
+        "roles": {
+          "LEX": "SURVIVORS",
+          "WNSENSE": "unfortunate%1:18:00"
+        },
+        "start": 69,
+        "end": 79
+      },
+      "V2724587": {
+        "id": "V2724587",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V2724565",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 79,
+        "end": 84
+      },
+      "root": "#V2731199"
+    },
+    {
+      "V2724264": {
+        "id": "V2724264",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V2724264"
+    },
+    {
+      "V2724292": {
+        "id": "V2724292",
+        "indicator": "F",
+        "type": "TRANSFORMATION",
+        "word": "MAKE",
+        "roles": {
+          "AFFECTED": "#V2724311",
+          "RESULT": "#V2724319",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "MADE",
+          "WNSENSE": "make%2:30:15::"
+        },
+        "start": 3,
+        "end": 18
+      },
+      "V2724311": {
+        "id": "V2724311",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 12,
+        "end": 16
+      },
+      "V2724319": {
+        "id": "V2724319",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 16,
+        "end": 18
+      },
+      "root": "#V2724292"
+    },
+    {
+      "V2727291": {
+        "id": "V2727291",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724382",
+          "LEX": "KNOW"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2724382": {
+        "id": "V2724382",
+        "indicator": "F",
+        "type": "KNOW",
+        "word": "KNOW",
+        "roles": {
+          "EXPERIENCER": "#V2727292",
+          "TENSE": "PRES",
+          "LEX": "KNOW",
+          "WNSENSE": "know%2:31:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2727292": {
+        "id": "V2727292",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "root": "#V2727291"
+    },
+    {
+      "V2731197": {
+        "id": "V2731197",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2727844",
+          "ACT1": "#V2726053",
+          "OPERATORS": "(BUT)",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 85
+      },
+      "V2727844": {
+        "id": "V2727844",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724445",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724445": {
+        "id": "V2724445",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "NEED",
+        "roles": {
+          "NEUTRAL": "#V2724408",
+          "FORMAL": "#V2724490",
+          "TENSE": "PRES",
+          "LEX": "NEEDS",
+          "WNSENSE": "need%2:42:00::"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724408": {
+        "id": "V2724408",
+        "indicator": "SM",
+        "type": "WORKING-OUT",
+        "word": "WORK",
+        "roles": {
+          "QUAN": "MUCH",
+          "LEX": "WORK",
+          "WNSENSE": "work%2:29:00::"
+        },
+        "start": 25,
+        "end": 35
+      },
+      "V2724490": {
+        "id": "V2724490",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2724408",
+          "FORMAL": "#V2724503",
+          "VFORM": "BASE",
+          "LEX": "BE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 41,
+        "end": 52
+      },
+      "V2724503": {
+        "id": "V2724503",
+        "indicator": "F",
+        "type": "FINISHED",
+        "word": "DONE",
+        "roles": {
+          "FIGURE": "#V2724408",
+          "SCALE": "DOMAIN",
+          "LEX": "DONE",
+          "WNSENSE": "done%5:00:00:finished:01"
+        },
+        "start": 47,
+        "end": 52
+      },
+      "V2726053": {
+        "id": "V2726053",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724565",
+          "LEX": "HELP"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724565": {
+        "id": "V2724565",
+        "indicator": "F",
+        "type": "HELP",
+        "word": "HELP",
+        "roles": {
+          "AGENT": "#V2724534",
+          "AFFECTED": "#V2724578",
+          "TIME": "#V2724587",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "HELP",
+          "WNSENSE": "help%1:04:00::"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724534": {
+        "id": "V2724534",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 56,
+        "end": 60
+      },
+      "V2724578": {
+        "id": "V2724578",
+        "indicator": "INDEF-SET",
+        "type": "UNFORTUNATE",
+        "word": "SURVIVORS",
+        "roles": {
+          "LEX": "SURVIVORS",
+          "WNSENSE": "unfortunate%1:18:00"
+        },
+        "start": 69,
+        "end": 79
+      },
+      "V2724587": {
+        "id": "V2724587",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V2724565",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 79,
+        "end": 84
+      },
+      "root": "#V2731197"
+    },
+    {
+      "V2724264": {
+        "id": "V2724264",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V2724264"
+    },
+    {
+      "V2724292": {
+        "id": "V2724292",
+        "indicator": "F",
+        "type": "TRANSFORMATION",
+        "word": "MAKE",
+        "roles": {
+          "AFFECTED": "#V2724311",
+          "RESULT": "#V2724319",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "MADE",
+          "WNSENSE": "make%2:30:15::"
+        },
+        "start": 3,
+        "end": 18
+      },
+      "V2724311": {
+        "id": "V2724311",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 12,
+        "end": 16
+      },
+      "V2724319": {
+        "id": "V2724319",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 16,
+        "end": 18
+      },
+      "root": "#V2724292"
+    },
+    {
+      "V2727291": {
+        "id": "V2727291",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724382",
+          "LEX": "KNOW"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2724382": {
+        "id": "V2724382",
+        "indicator": "F",
+        "type": "KNOW",
+        "word": "KNOW",
+        "roles": {
+          "EXPERIENCER": "#V2727292",
+          "TENSE": "PRES",
+          "LEX": "KNOW",
+          "WNSENSE": "know%2:31:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2727292": {
+        "id": "V2727292",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "root": "#V2727291"
+    },
+    {
+      "V2731195": {
+        "id": "V2731195",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2727841",
+          "ACT1": "#V2726053",
+          "OPERATORS": "(BUT)",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 85
+      },
+      "V2727841": {
+        "id": "V2727841",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724445",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724445": {
+        "id": "V2724445",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "NEED",
+        "roles": {
+          "NEUTRAL": "#V2724407",
+          "FORMAL": "#V2724490",
+          "TENSE": "PRES",
+          "LEX": "NEEDS",
+          "WNSENSE": "need%2:42:00::"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724407": {
+        "id": "V2724407",
+        "indicator": "SM",
+        "type": "WORKING",
+        "word": "WORK",
+        "roles": {
+          "QUAN": "MUCH",
+          "LEX": "WORK",
+          "WNSENSE": "work%2:41:02::"
+        },
+        "start": 25,
+        "end": 35
+      },
+      "V2724490": {
+        "id": "V2724490",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2724407",
+          "FORMAL": "#V2724503",
+          "VFORM": "BASE",
+          "LEX": "BE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 41,
+        "end": 52
+      },
+      "V2724503": {
+        "id": "V2724503",
+        "indicator": "F",
+        "type": "FINISHED",
+        "word": "DONE",
+        "roles": {
+          "FIGURE": "#V2724407",
+          "SCALE": "DOMAIN",
+          "LEX": "DONE",
+          "WNSENSE": "done%5:00:00:finished:01"
+        },
+        "start": 47,
+        "end": 52
+      },
+      "V2726053": {
+        "id": "V2726053",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724565",
+          "LEX": "HELP"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724565": {
+        "id": "V2724565",
+        "indicator": "F",
+        "type": "HELP",
+        "word": "HELP",
+        "roles": {
+          "AGENT": "#V2724534",
+          "AFFECTED": "#V2724578",
+          "TIME": "#V2724587",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "HELP",
+          "WNSENSE": "help%1:04:00::"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724534": {
+        "id": "V2724534",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 56,
+        "end": 60
+      },
+      "V2724578": {
+        "id": "V2724578",
+        "indicator": "INDEF-SET",
+        "type": "UNFORTUNATE",
+        "word": "SURVIVORS",
+        "roles": {
+          "LEX": "SURVIVORS",
+          "WNSENSE": "unfortunate%1:18:00"
+        },
+        "start": 69,
+        "end": 79
+      },
+      "V2724587": {
+        "id": "V2724587",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V2724565",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 79,
+        "end": 84
+      },
+      "root": "#V2731195"
+    },
+    {
+      "V2724264": {
+        "id": "V2724264",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V2724264"
+    },
+    {
+      "V2724292": {
+        "id": "V2724292",
+        "indicator": "F",
+        "type": "TRANSFORMATION",
+        "word": "MAKE",
+        "roles": {
+          "AFFECTED": "#V2724311",
+          "RESULT": "#V2724319",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "MADE",
+          "WNSENSE": "make%2:30:15::"
+        },
+        "start": 3,
+        "end": 18
+      },
+      "V2724311": {
+        "id": "V2724311",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 12,
+        "end": 16
+      },
+      "V2724319": {
+        "id": "V2724319",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 16,
+        "end": 18
+      },
+      "root": "#V2724292"
+    },
+    {
+      "V2727291": {
+        "id": "V2727291",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724382",
+          "LEX": "KNOW"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2724382": {
+        "id": "V2724382",
+        "indicator": "F",
+        "type": "KNOW",
+        "word": "KNOW",
+        "roles": {
+          "EXPERIENCER": "#V2727292",
+          "TENSE": "PRES",
+          "LEX": "KNOW",
+          "WNSENSE": "know%2:31:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2727292": {
+        "id": "V2727292",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "root": "#V2727291"
+    },
+    {
+      "V2731193": {
+        "id": "V2731193",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V2727838",
+          "ACT1": "#V2726053",
+          "OPERATORS": "(BUT)",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 85
+      },
+      "V2727838": {
+        "id": "V2727838",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724445",
+          "LEX": "NEEDS"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724445": {
+        "id": "V2724445",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "NEED",
+        "roles": {
+          "NEUTRAL": "#V2724406",
+          "FORMAL": "#V2724490",
+          "TENSE": "PRES",
+          "LEX": "NEEDS",
+          "WNSENSE": "need%2:42:00::"
+        },
+        "start": 25,
+        "end": 52
+      },
+      "V2724406": {
+        "id": "V2724406",
+        "indicator": "SM",
+        "type": "WORKING",
+        "word": "WORK",
+        "roles": {
+          "QUAN": "MUCH",
+          "LEX": "WORK",
+          "WNSENSE": "work%2:41:02::"
+        },
+        "start": 25,
+        "end": 35
+      },
+      "V2724490": {
+        "id": "V2724490",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2724406",
+          "FORMAL": "#V2724503",
+          "VFORM": "BASE",
+          "LEX": "BE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 41,
+        "end": 52
+      },
+      "V2724503": {
+        "id": "V2724503",
+        "indicator": "F",
+        "type": "FINISHED",
+        "word": "DONE",
+        "roles": {
+          "FIGURE": "#V2724406",
+          "SCALE": "DOMAIN",
+          "LEX": "DONE",
+          "WNSENSE": "done%5:00:00:finished:01"
+        },
+        "start": 47,
+        "end": 52
+      },
+      "V2726053": {
+        "id": "V2726053",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2724565",
+          "LEX": "HELP"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724565": {
+        "id": "V2724565",
+        "indicator": "F",
+        "type": "HELP",
+        "word": "HELP",
+        "roles": {
+          "AGENT": "#V2724534",
+          "AFFECTED": "#V2724578",
+          "TIME": "#V2724587",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "HELP",
+          "WNSENSE": "help%1:04:00::"
+        },
+        "start": 56,
+        "end": 84
+      },
+      "V2724534": {
+        "id": "V2724534",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 56,
+        "end": 60
+      },
+      "V2724578": {
+        "id": "V2724578",
+        "indicator": "INDEF-SET",
+        "type": "UNFORTUNATE",
+        "word": "SURVIVORS",
+        "roles": {
+          "LEX": "SURVIVORS",
+          "WNSENSE": "unfortunate%1:18:00"
+        },
+        "start": 69,
+        "end": 79
+      },
+      "V2724587": {
+        "id": "V2724587",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V2724565",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 79,
+        "end": 84
+      },
+      "root": "#V2731193"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+519",
+    "*last-utt-id*=519  utt-id+519",
+    "*last-utt-id*=519  utt-id+519",
+    "*last-utt-id*=519  utt-id+519",
+    "*last-utt-id*=519  utt-id+519",
+    "*last-utt-id*=519  utt-id+NIL"
+  ]
+}

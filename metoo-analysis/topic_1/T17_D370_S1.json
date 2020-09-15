@@ -1,0 +1,103 @@
+{
+  "parse": [
+    {
+      "V1412933": {
+        "id": "V1412933",
+        "indicator": "SPEECHACT",
+        "type": "SA_REQUEST",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1412300",
+          "LEX": "TIME"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1412300": {
+        "id": "V1412300",
+        "indicator": "F",
+        "type": "REGISTER",
+        "word": "TIME",
+        "roles": {
+          "AGENT": "#V1412929",
+          "FORMAL": "#V1412489",
+          "RESULT": "#V1412321",
+          "TENSE": "PRES",
+          "VFORM": "BASE",
+          "LEX": "TIME",
+          "WNSENSE": "time%2:30:00::"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1412929": {
+        "id": "V1412929",
+        "indicator": "IMPRO",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "PROFORM": "*YOU*",
+          "COREF": "SYS"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1412321": {
+        "id": "V1412321",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1412347",
+          "FIGURE": "#V1412489",
+          "LEX": "TO"
+        },
+        "start": 5,
+        "end": 12
+      },
+      "V1412347": {
+        "id": "V1412347",
+        "indicator": "BARE",
+        "type": "ENDPOINT",
+        "word": "END",
+        "roles": {
+          "LEX": "END",
+          "WNSENSE": "end%1:15:00::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "V1412489": {
+        "id": "V1412489",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1412359"
+        },
+        "start": 12,
+        "end": 22
+      },
+      "V1412359": {
+        "id": "V1412359",
+        "indicator": "THE",
+        "type": "WASTE",
+        "word": "SHIT",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "SHIT",
+          "WNSENSE": "shit%1:27:00::"
+        },
+        "start": 12,
+        "end": 22
+      },
+      "root": "#V1412933"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+232",
+    "*last-utt-id*=232  utt-id+NIL"
+  ]
+}

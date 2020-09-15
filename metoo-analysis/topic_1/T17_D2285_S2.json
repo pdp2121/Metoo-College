@@ -1,0 +1,180 @@
+{
+  "parse": [
+    {
+      "V510226": {
+        "id": "V510226",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V507093",
+          "LEX": "SENT"
+        },
+        "start": 0,
+        "end": 53
+      },
+      "V507093": {
+        "id": "V507093",
+        "indicator": "F",
+        "type": "SEND",
+        "word": "SEND",
+        "roles": {
+          "RESULT1": "#V508119",
+          "RESULT": "#V507104",
+          "AFFECTED": "#V507030",
+          "TIME": "#V507013",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "SENT"
+        },
+        "start": 0,
+        "end": 53
+      },
+      "V507013": {
+        "id": "V507013",
+        "indicator": "F",
+        "type": "AFTER",
+        "word": "LATER",
+        "roles": {
+          "EXTENT": "#V507008",
+          "FIGURE": "#V507093"
+        },
+        "start": 0,
+        "end": 17
+      },
+      "V507008": {
+        "id": "V507008",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT MONTH)",
+          "AMOUNT": "#V507006",
+          "LEX": "MONTHS",
+          "WNSENSE": "month%1:28:00::"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V507006": {
+        "id": "V507006",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V507030": {
+        "id": "V507030",
+        "indicator": "THE",
+        "type": "LETTER-SYMBOL",
+        "word": null,
+        "roles": {
+          "NAME-OF": "I",
+          "LEX": "I",
+          "WNSENSE": "i%1:10:00::"
+        },
+        "start": 17,
+        "end": 19
+      },
+      "V507104": {
+        "id": "V507104",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V507455",
+          "FIGURE": "#V507030",
+          "LEX": "TO"
+        },
+        "start": 28,
+        "end": 41
+      },
+      "V507455": {
+        "id": "V507455",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V507169"
+        },
+        "start": 31,
+        "end": 41
+      },
+      "V507169": {
+        "id": "V507169",
+        "indicator": "A",
+        "type": "ACTIVITY",
+        "word": "PROJECT",
+        "roles": {
+          "LEX": "PROJECT",
+          "WNSENSE": "project%1:04:00::"
+        },
+        "start": 31,
+        "end": 41
+      },
+      "V508119": {
+        "id": "V508119",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V507030",
+          "GROUND": "#V507203",
+          "DEGREE": "#V507184",
+          "LEX": "WANTED"
+        },
+        "start": 41,
+        "end": 53
+      },
+      "V507203": {
+        "id": "V507203",
+        "indicator": "F",
+        "type": "WANT",
+        "word": "WANT",
+        "roles": {
+          "EXPERIENCER": "#V507195",
+          "NEUTRAL": "#V507030",
+          "WNSENSE": "want%2:37:00::"
+        },
+        "start": 41,
+        "end": 53
+      },
+      "V507184": {
+        "id": "V507184",
+        "indicator": "F",
+        "type": "DEGREE-MODIFIER",
+        "word": "NO",
+        "roles": {
+          "FIGURE": "#V508119",
+          "LEX": "NO",
+          "WNSENSE": "no%4:02:02::"
+        },
+        "start": 41,
+        "end": 44
+      },
+      "V507195": {
+        "id": "V507195",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "ONE",
+        "roles": {
+          "LEX": "ONE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 44,
+        "end": 48
+      },
+      "root": "#V510226"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+95",
+    "*last-utt-id*=95  utt-id+NIL"
+  ]
+}

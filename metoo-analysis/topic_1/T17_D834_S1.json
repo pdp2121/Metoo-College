@@ -1,0 +1,131 @@
+{
+  "parse": [
+    {
+      "V897084": {
+        "id": "V897084",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V897055",
+          "LEX": "SCARED"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V897055": {
+        "id": "V897055",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V897085",
+          "GROUND": "#V894992",
+          "LEX": "SCARED"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V894992": {
+        "id": "V894992",
+        "indicator": "F",
+        "type": "EVOKE-FEAR",
+        "word": "SCARE",
+        "roles": {
+          "AFFECTED": "#V897085",
+          "REASON": "#V895004",
+          "WNSENSE": "scare%2:37:00::"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V897085": {
+        "id": "V897085",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "CONTEXT-REL": "UTT-FRAG",
+          "COREF": "#V895061"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V895004": {
+        "id": "V895004",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V895026",
+          "FIGURE": "#V894992",
+          "LEX": "TO"
+        },
+        "start": 7,
+        "end": 30
+      },
+      "V895026": {
+        "id": "V895026",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "TIME": "#V895047",
+          "MOD": "#V895038",
+          "VFORM": "BASE",
+          "LEX": "WALK",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 10,
+        "end": 30
+      },
+      "V895038": {
+        "id": "V895038",
+        "indicator": "F",
+        "type": "SINGULARITY-VAL",
+        "word": "ALONE",
+        "roles": {
+          "FIGURE": "#V895026",
+          "SCALE": "DOMAIN",
+          "LEX": "ALONE",
+          "WNSENSE": "alone%5:00:00:incomparable:00"
+        },
+        "start": 15,
+        "end": 21
+      },
+      "V895047": {
+        "id": "V895047",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V895061",
+          "FIGURE": "#V895026",
+          "LEX": "AT"
+        },
+        "start": 21,
+        "end": 30
+      },
+      "V895061": {
+        "id": "V895061",
+        "indicator": "BARE",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 24,
+        "end": 30
+      },
+      "root": "#V897084"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+180",
+    "*last-utt-id*=180  utt-id+NIL"
+  ]
+}

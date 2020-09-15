@@ -1,0 +1,175 @@
+{
+  "parse": [
+    {
+      "V541315": {
+        "id": "V541315",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V538314",
+          "LEX": "CAN"
+        },
+        "start": 0,
+        "end": 42
+      },
+      "V538314": {
+        "id": "V538314",
+        "indicator": "F",
+        "type": "TRANSFORM-TO-PRESERVE",
+        "word": "CAN",
+        "roles": {
+          "AGENT": "#V538298",
+          "AFFECTED": "#V538439",
+          "TENSE": "PRES",
+          "LEX": "CAN",
+          "WNSENSE": "can%2:30:00::"
+        },
+        "start": 0,
+        "end": 42
+      },
+      "V538298": {
+        "id": "V538298",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V538439": {
+        "id": "V538439",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "|...|",
+        "roles": {
+          "ASSOC-WITH1": "#V538329",
+          "ASSOC-WITH": "#V538345",
+          "LEX": "|...|",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 6,
+        "end": 42
+      },
+      "V538345": {
+        "id": "V538345",
+        "indicator": "KIND",
+        "type": "TOTAL-SCALE",
+        "word": "COUNT",
+        "roles": {
+          "MOD": [
+            "#V538425",
+            "#V538333"
+          ],
+          "LEX": "COUNT",
+          "WNSENSE": "count%1:23:00::"
+        },
+        "start": 6,
+        "end": 42
+      },
+      "V538329": {
+        "id": "V538329",
+        "indicator": "KIND",
+        "type": "CHEMICAL",
+        "word": "T",
+        "roles": {
+          "LEX": "T",
+          "WNSENSE": "t%1:27:01::"
+        },
+        "start": 6,
+        "end": 42
+      },
+      "V538333": {
+        "id": "V538333",
+        "indicator": "F",
+        "type": "EQUAL",
+        "word": "EVEN",
+        "roles": {
+          "FIGURE": "#V538345",
+          "SCALE": "EQUAL-SCALE",
+          "LEX": "EVEN",
+          "WNSENSE": "even%5:00:02:equal:00"
+        },
+        "start": 8,
+        "end": 13
+      },
+      "V538425": {
+        "id": "V538425",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V539302",
+          "NEUTRAL1": "#V538345",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "BEEN",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 19,
+        "end": 42
+      },
+      "V539302": {
+        "id": "V539302",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V538363"
+        },
+        "start": 19,
+        "end": 32
+      },
+      "V538363": {
+        "id": "V538363",
+        "indicator": "THE-SET",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "IDENTIFIED-AS": "#V539242",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "TIMES"
+        },
+        "start": 19,
+        "end": 32
+      },
+      "V539242": {
+        "id": "V539242",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V538989",
+          "LEX": "I"
+        },
+        "start": 29,
+        "end": 32
+      },
+      "V538989": {
+        "id": "V538989",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(I)",
+          "VAL": "(I)",
+          "LEX": "I"
+        },
+        "start": 29,
+        "end": 32
+      },
+      "root": "#V541315"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+95",
+    "*last-utt-id*=95  utt-id+NIL"
+  ]
+}

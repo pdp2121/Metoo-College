@@ -1,0 +1,206 @@
+{
+  "parse": [
+    {
+      "V2826950": {
+        "id": "V2826950",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2821705",
+          "LEX": "TWEET"
+        },
+        "start": 0,
+        "end": 41
+      },
+      "V2821998": {
+        "id": "V2821998",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2821557",
+          "MOD": "#V2821547",
+          "LEX": "WAY"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V2821547": {
+        "id": "V2821547",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V2821998",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2821557": {
+        "id": "V2821557",
+        "indicator": "BARE",
+        "type": "METHOD",
+        "word": "WAY",
+        "roles": {
+          "LEX": "WAY",
+          "WNSENSE": "way%1:04:01::"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "V2821705": {
+        "id": "V2821705",
+        "indicator": "F",
+        "type": "NONVERBAL-SAY",
+        "word": "TWEET",
+        "roles": {
+          "EXTENT": "#V2821771",
+          "AGENT": "#V2822173",
+          "TIME": "#V2821603",
+          "TENSE": "PRES",
+          "LEX": "TWEET"
+        },
+        "start": 9,
+        "end": 41
+      },
+      "V2821771": {
+        "id": "V2821771",
+        "indicator": "F",
+        "type": "EXTENT-PREDICATE",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2821705",
+          "GROUND": "#V2821759",
+          "LEX": "TWO"
+        },
+        "start": 9,
+        "end": 11
+      },
+      "V2821759": {
+        "id": "V2821759",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "AMOUNT": "#V2821567",
+          "LEX": "TWO"
+        },
+        "start": 9,
+        "end": 11
+      },
+      "V2821567": {
+        "id": "V2821567",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 9,
+        "end": 11
+      },
+      "V2822173": {
+        "id": "V2822173",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUANTITY": "#V2821576",
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "AMOUNT": "MANY",
+          "MOD": "#V2821767",
+          "LEX": "TIMES"
+        },
+        "start": 11,
+        "end": 30
+      },
+      "V2821576": {
+        "id": "V2821576",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "AMOUNT": "MANY",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 11,
+        "end": 23
+      },
+      "V2821767": {
+        "id": "V2821767",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2822173",
+          "GROUND": "#V2821591",
+          "LEX": "LIST"
+        },
+        "start": 23,
+        "end": 30
+      },
+      "V2821591": {
+        "id": "V2821591",
+        "indicator": "KIND",
+        "type": "LIST",
+        "word": "LIST",
+        "roles": {
+          "AMOUNT": "2"
+        },
+        "start": 23,
+        "end": 30
+      },
+      "V2821603": {
+        "id": "V2821603",
+        "indicator": "F",
+        "type": "TIME-IN-REL",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2822805",
+          "FIGURE": "#V2821705",
+          "LEX": "IN"
+        },
+        "start": 30,
+        "end": 35
+      },
+      "V2822805": {
+        "id": "V2822805",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V2822526",
+          "LEX": "A"
+        },
+        "start": 33,
+        "end": 35
+      },
+      "V2822526": {
+        "id": "V2822526",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(A)",
+          "VAL": "(A)",
+          "LEX": "A"
+        },
+        "start": 33,
+        "end": 35
+      },
+      "root": "#V2826950"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+483",
+    "*last-utt-id*=483  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "parse": [
+    {
+      "V932305": {
+        "id": "V932305",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V930933",
+          "LEX": "UPS"
+        },
+        "start": 0,
+        "end": 56
+      },
+      "V930933": {
+        "id": "V930933",
+        "indicator": "F",
+        "type": "SEND",
+        "word": "UPS",
+        "roles": {
+          "AGENT": "#V930870",
+          "AFFECTED": "#V930982",
+          "TENSE": "PRES",
+          "LEX": "UPS",
+          "WNSENSE": "send%2:32:00"
+        },
+        "start": 0,
+        "end": 56
+      },
+      "V930870": {
+        "id": "V930870",
+        "indicator": "INDEF-SET",
+        "type": "PERSON",
+        "word": "BYSTANDERS",
+        "roles": {
+          "MOD": [
+            "#V930919",
+            "#V930842"
+          ],
+          "LEX": "BYSTANDERS",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 34
+      },
+      "V930842": {
+        "id": "V930842",
+        "indicator": "F",
+        "type": "ADDITIONAL-VAL",
+        "word": "MORE",
+        "roles": {
+          "FIGURE": "#V930870",
+          "SCALE": "DOMAIN",
+          "DEGREE": "#V930835",
+          "LEX": "MORE"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V930835": {
+        "id": "V930835",
+        "indicator": "F",
+        "type": "DEGREE-MODIFIER",
+        "word": "NO",
+        "roles": {
+          "FIGURE": "#V930842",
+          "LEX": "NO",
+          "WNSENSE": "no%4:02:02::"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V930919": {
+        "id": "V930919",
+        "indicator": "F",
+        "type": "CAUSE-COVER",
+        "word": "COVER",
+        "roles": {
+          "AGENT": "#V931126",
+          "AFFECTED": "#V930870",
+          "TENSE": "PRES",
+          "LEX": "COVER",
+          "WNSENSE": "cover%2:35:00::"
+        },
+        "start": 19,
+        "end": 34
+      },
+      "V931126": {
+        "id": "V931126",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUAN": "NONE",
+          "MOD": "#V930891",
+          "LEX": "NO"
+        },
+        "start": 19,
+        "end": 27
+      },
+      "V930891": {
+        "id": "V930891",
+        "indicator": "F",
+        "type": "ADDITIONAL-VAL",
+        "word": "MORE",
+        "roles": {
+          "FIGURE": "#V931126",
+          "SCALE": "DOMAIN",
+          "LEX": "MORE",
+          "WNSENSE": "more%3:00:01::"
+        },
+        "start": 22,
+        "end": 27
+      },
+      "V930982": {
+        "id": "V930982",
+        "indicator": "QUANTIFIER",
+        "type": "STATUS",
+        "word": "SILENCE",
+        "roles": {
+          "QUAN": "NONE",
+          "MOD": "#V930954",
+          "LEX": "SILENCE",
+          "WNSENSE": "silence%1:26:00::"
+        },
+        "start": 40,
+        "end": 56
+      },
+      "V930954": {
+        "id": "V930954",
+        "indicator": "F",
+        "type": "ADDITIONAL-VAL",
+        "word": "MORE",
+        "roles": {
+          "FIGURE": "#V930982",
+          "SCALE": "DOMAIN",
+          "LEX": "MORE",
+          "WNSENSE": "more%3:00:01::"
+        },
+        "start": 43,
+        "end": 48
+      },
+      "root": "#V932305"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+143",
+    "*last-utt-id*=143  utt-id+NIL"
+  ]
+}

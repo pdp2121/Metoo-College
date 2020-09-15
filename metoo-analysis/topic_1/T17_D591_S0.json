@@ -1,0 +1,113 @@
+{
+  "parse": [
+    {
+      "V673363": {
+        "id": "V673363",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V672600",
+          "FOCUS": "#V672478",
+          "MOD": "#V672462",
+          "LEX": "ASK"
+        },
+        "start": 0,
+        "end": 54
+      },
+      "V672462": {
+        "id": "V672462",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "SO",
+        "roles": {
+          "FIGURE": "#V673363",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:02::"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V672600": {
+        "id": "V672600",
+        "indicator": "F",
+        "type": "ASK",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V672507",
+          "AGENT1": "#V672478",
+          "FORMAL": "#V672640",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "MODALITY": "(:* GOING-TO GOING-TO)",
+          "LEX": "ASK",
+          "WNSENSE": "ask%2:32:00::"
+        },
+        "start": 3,
+        "end": 54
+      },
+      "V672478": {
+        "id": "V672478",
+        "indicator": "WH-TERM-SET",
+        "type": "MEMBER",
+        "word": "MEMBER",
+        "roles": {
+          "QUAN": "WHICH",
+          "LEX": "MEMBERS",
+          "WNSENSE": "member%1:18:00::"
+        },
+        "start": 3,
+        "end": 17
+      },
+      "V672507": {
+        "id": "V672507",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 21,
+        "end": 25
+      },
+      "V672640": {
+        "id": "V672640",
+        "indicator": "F",
+        "type": "CHANGE",
+        "word": "RESIGN",
+        "roles": {
+          "AFFECTED": "#V672478",
+          "MOD": "#V672656",
+          "VFORM": "BASE",
+          "LEX": "RESIGN",
+          "WNSENSE": "resign%2:41:00::"
+        },
+        "start": 38,
+        "end": 54
+      },
+      "V672656": {
+        "id": "V672656",
+        "indicator": "F",
+        "type": "SEQUENCE-POSITION",
+        "word": "FIRST",
+        "roles": {
+          "FIGURE": "#V672640",
+          "LEX": "FIRST",
+          "WNSENSE": "first%1:24:00::"
+        },
+        "start": 48,
+        "end": 54
+      },
+      "root": "#V673363"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+143",
+    "*last-utt-id*=143  utt-id+NIL"
+  ]
+}

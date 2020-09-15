@@ -1,0 +1,103 @@
+{
+  "parse": [
+    {
+      "V2902656": {
+        "id": "V2902656",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "EXTENT": "#V2901823",
+          "GROUND": "#V2901935"
+        },
+        "start": 0,
+        "end": 47
+      },
+      "V2901823": {
+        "id": "V2901823",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "AMOUNT": "#V2901817",
+          "MOD": "#V2901929",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2901817": {
+        "id": "V2901817",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "4"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V2901929": {
+        "id": "V2901929",
+        "indicator": "F",
+        "type": "ACTIVE",
+        "word": "AT-WORK",
+        "roles": {
+          "FIGURE": "#V2901823",
+          "SCALE": "DOMAIN",
+          "LEX": "AT-WORK",
+          "WNSENSE": "at_work%5:00:00:busy:00"
+        },
+        "start": 11,
+        "end": 19
+      },
+      "V2901935": {
+        "id": "V2901935",
+        "indicator": "F",
+        "type": "ADD-INCLUDE",
+        "word": "INCLUDE",
+        "roles": {
+          "AFFECTED": "#V2901982",
+          "VFORM": "ING",
+          "LEX": "INCLUDING",
+          "WNSENSE": "include%2:30:00::"
+        },
+        "start": 19,
+        "end": 47
+      },
+      "V2901982": {
+        "id": "V2901982",
+        "indicator": "A",
+        "type": "INTERVIEW",
+        "word": "JOB-INTERVIEW",
+        "roles": {
+          "SIZE": "#V2902006",
+          "LEX": "JOB-INTERVIEW",
+          "WNSENSE": "job_interview%1:10:00"
+        },
+        "start": 29,
+        "end": 47
+      },
+      "V2902006": {
+        "id": "V2902006",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 29,
+        "end": 47
+      },
+      "root": "#V2902656"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+508",
+    "*last-utt-id*=508  utt-id+NIL"
+  ]
+}

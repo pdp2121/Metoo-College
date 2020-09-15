@@ -1,0 +1,257 @@
+{
+  "parse": [
+    {
+      "V887461": {
+        "id": "V887461",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V886401",
+          "LEX": "REMEMBER"
+        },
+        "start": 0,
+        "end": 57
+      },
+      "V886401": {
+        "id": "V886401",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": null,
+        "roles": {
+          "AGENT": "#V881063",
+          "AFFECTED": "#V881149",
+          "METHOD": "#V881080",
+          "FORMAL": "#V881190",
+          "TENSE": "PRES",
+          "LEX": "REMEMBER"
+        },
+        "start": 0,
+        "end": 57
+      },
+      "V881063": {
+        "id": "V881063",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V881080": {
+        "id": "V881080",
+        "indicator": "F",
+        "type": "REMEMBER",
+        "word": "REMEMBER",
+        "roles": {
+          "TIME": [
+            "#V882973",
+            "#V882266"
+          ],
+          "AGENT": "#V881063",
+          "TENSE": "PRES",
+          "LEX": "REMEMBER",
+          "WNSENSE": "remember%2:31:00::"
+        },
+        "start": 2,
+        "end": 30
+      },
+      "V882266": {
+        "id": "V882266",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V881080",
+          "GROUND": "#V881087",
+          "LEX": "TELLING"
+        },
+        "start": 11,
+        "end": 28
+      },
+      "V881087": {
+        "id": "V881087",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "AGENT1": "#V881098",
+          "NEUTRAL": "#V881106",
+          "VFORM": "ING",
+          "LEX": "TELLING",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 11,
+        "end": 28
+      },
+      "V881098": {
+        "id": "V881098",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 19,
+        "end": 23
+      },
+      "V881106": {
+        "id": "V881106",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "THAT",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "THAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 23,
+        "end": 28
+      },
+      "V882973": {
+        "id": "V882973",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V881080",
+          "GROUND": "#V883152"
+        },
+        "start": 28,
+        "end": 30
+      },
+      "V883152": {
+        "id": "V883152",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V882606",
+          "LEX": "I"
+        },
+        "start": 28,
+        "end": 30
+      },
+      "V882606": {
+        "id": "V882606",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(I)",
+          "VAL": "(I)",
+          "LEX": "I"
+        },
+        "start": 28,
+        "end": 30
+      },
+      "V881149": {
+        "id": "V881149",
+        "indicator": "BARE",
+        "type": "CHEMICAL",
+        "word": "T",
+        "roles": {
+          "ASSOC-WITH": "#V881140",
+          "MOD": "#V881167",
+          "LEX": "T",
+          "WNSENSE": "t%1:27:01::"
+        },
+        "start": 30,
+        "end": 48
+      },
+      "V881140": {
+        "id": "V881140",
+        "indicator": "KIND",
+        "type": "REFERENTIAL-SEM",
+        "word": "WASN",
+        "roles": {
+          "LEX": "WASN",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 30,
+        "end": 48
+      },
+      "V881167": {
+        "id": "V881167",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "GO",
+        "roles": {
+          "RESULT": "#V881182",
+          "AGENT": "#V881149",
+          "VFORM": "ING",
+          "LEX": "GOING",
+          "WNSENSE": "go%2:38:00::"
+        },
+        "start": 37,
+        "end": 48
+      },
+      "V881182": {
+        "id": "V881182",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V881317",
+          "FIGURE": "#V881149",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 43,
+        "end": 48
+      },
+      "V881317": {
+        "id": "V881317",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 43,
+        "end": 48
+      },
+      "V881190": {
+        "id": "V881190",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V881202",
+          "FIGURE": "#V881149",
+          "LEX": "WITH"
+        },
+        "start": 48,
+        "end": 57
+      },
+      "V881202": {
+        "id": "V881202",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 53,
+        "end": 57
+      },
+      "root": "#V887461"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+184",
+    "*last-utt-id*=184  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "parse": [
+    {
+      "V138385": {
+        "id": "V138385",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V131289",
+          "LEX": "USAF"
+        },
+        "start": 0,
+        "end": 51
+      },
+      "V131289": {
+        "id": "V131289",
+        "indicator": "BARE",
+        "type": "SOCIAL-GROUP",
+        "word": "USAF",
+        "roles": {
+          "ASSOC-WITH": "#V131210",
+          "MOD": "#V131491",
+          "LEX": "USAF",
+          "WNSENSE": "usaf%1:14:00::"
+        },
+        "start": 0,
+        "end": 51
+      },
+      "V131210": {
+        "id": "V131210",
+        "indicator": "KIND",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SIZE": "#V131206",
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V131219",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 0,
+        "end": 51
+      },
+      "V131206": {
+        "id": "V131206",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "18"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V131219": {
+        "id": "V131219",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V131210",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "V131491": {
+        "id": "V131491",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": null,
+        "roles": {
+          "AGENT": "#V131289",
+          "AFFECTED": "#V131461",
+          "METHOD": "#V131296",
+          "FORMAL": "#V131325",
+          "VFORM": "ING",
+          "LEX": "WORKING"
+        },
+        "start": 24,
+        "end": 51
+      },
+      "V131296": {
+        "id": "V131296",
+        "indicator": "F",
+        "type": "WORKING",
+        "word": "WORK",
+        "roles": {
+          "AGENT": "#V131289",
+          "VFORM": "ING",
+          "LEX": "WORKING",
+          "WNSENSE": "work%2:41:02::"
+        },
+        "start": 24,
+        "end": 32
+      },
+      "V131461": {
+        "id": "V131461",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V131316"
+        },
+        "start": 32,
+        "end": 39
+      },
+      "V131316": {
+        "id": "V131316",
+        "indicator": "INDEF-SET",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "NIGHTS",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 32,
+        "end": 39
+      },
+      "V131325": {
+        "id": "V131325",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V131383",
+          "FIGURE": "#V131461",
+          "LEX": "IN"
+        },
+        "start": 39,
+        "end": 51
+      },
+      "V131383": {
+        "id": "V131383",
+        "indicator": "BARE",
+        "type": "HEALTH-CARE-FACILITY",
+        "word": "HOSPITAL",
+        "roles": {
+          "LEX": "HOSPITAL",
+          "WNSENSE": "hospital%1:06:00::"
+        },
+        "start": 42,
+        "end": 51
+      },
+      "root": "#V138385"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+24",
+    "*last-utt-id*=24  utt-id+NIL"
+  ]
+}

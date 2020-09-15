@@ -1,0 +1,93 @@
+{
+  "parse": [
+    {
+      "V1997161": {
+        "id": "V1997161",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1997158",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 32
+      },
+      "V1997158": {
+        "id": "V1997158",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1996430"
+        },
+        "start": 0,
+        "end": 32
+      },
+      "V1996430": {
+        "id": "V1996430",
+        "indicator": "BARE",
+        "type": "INTERACT",
+        "word": "INTERACTION",
+        "roles": {
+          "MOD": [
+            "#V1996401",
+            "#V1996427"
+          ],
+          "LEX": "INTERACTION",
+          "WNSENSE": "interaction%1:04:00::"
+        },
+        "start": 0,
+        "end": 32
+      },
+      "V1996401": {
+        "id": "V1996401",
+        "indicator": "F",
+        "type": "AFRAID",
+        "word": "SHOCKED",
+        "roles": {
+          "FIGURE": "#V1996430",
+          "SCALE": "FEAR-SCALE",
+          "LEX": "SHOCKED",
+          "WNSENSE": "shocked%5:00:00:afraid:00"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V1996427": {
+        "id": "V1996427",
+        "indicator": "F",
+        "type": "PREVIOUS-VAL",
+        "word": "PREVIOUS",
+        "roles": {
+          "FIGURE": "#V1996430",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "DEGREE": "#V1996421",
+          "LEX": "PREVIOUS"
+        },
+        "start": 8,
+        "end": 20
+      },
+      "V1996421": {
+        "id": "V1996421",
+        "indicator": "F",
+        "type": "DEGREE-MODIFIER",
+        "word": "NO",
+        "roles": {
+          "FIGURE": "#V1996427",
+          "LEX": "NO",
+          "WNSENSE": "no%4:02:02::"
+        },
+        "start": 8,
+        "end": 11
+      },
+      "root": "#V1997161"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+364",
+    "*last-utt-id*=364  utt-id+NIL"
+  ]
+}

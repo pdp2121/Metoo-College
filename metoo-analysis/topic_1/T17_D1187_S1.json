@@ -1,0 +1,123 @@
+{
+  "parse": [
+    {
+      "V2508116": {
+        "id": "V2508116",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2505973",
+          "LEX": "MESSAGE"
+        },
+        "start": 0,
+        "end": 41
+      },
+      "V2505973": {
+        "id": "V2505973",
+        "indicator": "BARE",
+        "type": "CONTENT",
+        "word": "MESSAGE",
+        "roles": {
+          "MOD": [
+            "#V2505979",
+            "#V2505970"
+          ],
+          "LEX": "MESSAGE",
+          "WNSENSE": "message%1:10:00::"
+        },
+        "start": 0,
+        "end": 41
+      },
+      "V2505970": {
+        "id": "V2505970",
+        "indicator": "F",
+        "type": "INSTANTANEOUS-VAL",
+        "word": "INSTANT",
+        "roles": {
+          "FIGURE": "#V2505973",
+          "SCALE": "SPEED-SCALE",
+          "LEX": "INSTANT",
+          "WNSENSE": "instant%5:00:00:fast:01"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V2505979": {
+        "id": "V2505979",
+        "indicator": "F",
+        "type": "DETERMINE",
+        "word": "GUESS",
+        "roles": {
+          "AGENT": "#V2505973",
+          "FORMAL": "#V2505996",
+          "BENEFICIARY": "#V2505989",
+          "MANNER": "#V2506021",
+          "VFORM": "ING",
+          "LEX": "GUESSING",
+          "WNSENSE": "reason%2:31:01"
+        },
+        "start": 17,
+        "end": 41
+      },
+      "V2505989": {
+        "id": "V2505989",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "THAT",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "THAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 26,
+        "end": 31
+      },
+      "V2505996": {
+        "id": "V2505996",
+        "indicator": "INDEF-SET",
+        "type": "TOTAL-SCALE",
+        "word": "COUNT",
+        "roles": {
+          "LEX": "COUNTS",
+          "WNSENSE": "count%1:23:00::"
+        },
+        "start": 31,
+        "end": 38
+      },
+      "V2506021": {
+        "id": "V2506021",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V2506050",
+          "FIGURE": "#V2505979",
+          "LEX": "AS",
+          "WNSENSE": "as%4:02:00::"
+        },
+        "start": 38,
+        "end": 41
+      },
+      "V2506050": {
+        "id": "V2506050",
+        "indicator": "THE",
+        "type": "LETTER-SYMBOL",
+        "word": null,
+        "roles": {
+          "NAME-OF": "A",
+          "LEX": "A",
+          "WNSENSE": "a%1:10:00::"
+        },
+        "start": 41,
+        "end": 41
+      },
+      "root": "#V2508116"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+432",
+    "*last-utt-id*=432  utt-id+NIL"
+  ]
+}

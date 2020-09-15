@@ -1,0 +1,164 @@
+{
+  "parse": [
+    {
+      "V2263193": {
+        "id": "V2263193",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2261967",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 54
+      },
+      "V2261967": {
+        "id": "V2261967",
+        "indicator": "F",
+        "type": "EVENT-OF-STATE",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2261225",
+          "SEQUENCE1": "#V2261268",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 54
+      },
+      "V2261268": {
+        "id": "V2261268",
+        "indicator": "F",
+        "type": "HAVE",
+        "word": "HAVE",
+        "roles": {
+          "NEUTRAL": "#V2261218",
+          "NEUTRAL1": "#V2261334",
+          "LEX": "HAD",
+          "WNSENSE": "have%2:40:00::"
+        },
+        "start": 0,
+        "end": 54
+      },
+      "V2261225": {
+        "id": "V2261225",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2261218",
+          "FORMAL": "#V2261481",
+          "LEX": "WAS",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 0,
+        "end": 54
+      },
+      "V2261218": {
+        "id": "V2261218",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2261481": {
+        "id": "V2261481",
+        "indicator": "F",
+        "type": "AT-SCALE-VALUE",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2261218",
+          "GROUND": "#V2261239",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD"
+        },
+        "start": 9,
+        "end": 22
+      },
+      "V2261239": {
+        "id": "V2261239",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "12"
+        },
+        "start": 9,
+        "end": 22
+      },
+      "V2261334": {
+        "id": "V2261334",
+        "indicator": "A",
+        "type": "MANUFACTURED-OBJECT",
+        "word": "CASE",
+        "roles": {
+          "MOD": [
+            "#V2261339",
+            "#V2261328"
+          ],
+          "LEX": "CASE",
+          "WNSENSE": "artifact%1:03:00"
+        },
+        "start": 30,
+        "end": 54
+      },
+      "V2261328": {
+        "id": "V2261328",
+        "indicator": "F",
+        "type": "BAD",
+        "word": "BAD",
+        "roles": {
+          "ORIENTATION": "LESS",
+          "INTENSITY": "MED",
+          "FIGURE": "#V2261334",
+          "SCALE": "BADNESS-SCALE",
+          "LEX": "BAD",
+          "WNSENSE": "bad%3:00:00::"
+        },
+        "start": 32,
+        "end": 36
+      },
+      "V2261339": {
+        "id": "V2261339",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V2261347",
+          "FIGURE": "#V2261334",
+          "LEX": "OF"
+        },
+        "start": 41,
+        "end": 54
+      },
+      "V2261347": {
+        "id": "V2261347",
+        "indicator": "BARE",
+        "type": "PNEUMONIA",
+        "word": "PNEUMONIA",
+        "roles": {
+          "LEX": "PNEUMONIA",
+          "WNSENSE": "pneumonia%1:26:00::"
+        },
+        "start": 44,
+        "end": 54
+      },
+      "root": "#V2263193"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+448",
+    "*last-utt-id*=448  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "parse": [
+    {
+      "V525602": {
+        "id": "V525602",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V524987",
+          "LEX": "|...|"
+        },
+        "start": 0,
+        "end": 27
+      },
+      "V524987": {
+        "id": "V524987",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "|...|",
+        "roles": {
+          "MOD": [
+            "#V524962",
+            "#V525047"
+          ],
+          "LEX": "|...|",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 27
+      },
+      "V524962": {
+        "id": "V524962",
+        "indicator": "F",
+        "type": "AVAILABLE",
+        "word": "FOR-SALE",
+        "roles": {
+          "FIGURE": "#V524987",
+          "SCALE": "AVAILABILITY-SCALE",
+          "LEX": "FOR-SALE",
+          "WNSENSE": "for_sale%5:00:00:available:00"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V525047": {
+        "id": "V525047",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V524987",
+          "GROUND": "#V524973",
+          "LEX": "DOCUMENTARY"
+        },
+        "start": 10,
+        "end": 27
+      },
+      "V524973": {
+        "id": "V524973",
+        "indicator": "KIND",
+        "type": "MANUFACTURED-OBJECT",
+        "word": "DOCUMENTARY",
+        "roles": {
+          "AMOUNT": "1981"
+        },
+        "start": 10,
+        "end": 27
+      },
+      "root": "#V525602"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+98",
+    "*last-utt-id*=98  utt-id+NIL"
+  ]
+}

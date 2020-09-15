@@ -1,0 +1,48 @@
+{
+  "parse": [
+    {
+      "V75079": {
+        "id": "V75079",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V75000",
+          "LEX": "X"
+        },
+        "start": 1,
+        "end": 3
+      },
+      "V75000": {
+        "id": "V75000",
+        "indicator": "A",
+        "type": "MEDICATION",
+        "word": "X",
+        "roles": {
+          "SIZE": "#V75006",
+          "LEX": "X",
+          "WNSENSE": "x%1:06:00::"
+        },
+        "start": 1,
+        "end": 3
+      },
+      "V75006": {
+        "id": "V75006",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 1,
+        "end": 3
+      },
+      "root": "#V75079"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+6",
+    "*last-utt-id*=6  utt-id+NIL"
+  ]
+}

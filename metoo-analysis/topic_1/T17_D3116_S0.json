@@ -1,0 +1,196 @@
+{
+  "parse": [
+    {
+      "V1552963": {
+        "id": "V1552963",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1550977",
+          "LEX": "HAPPENED"
+        },
+        "start": 0,
+        "end": 62
+      },
+      "V1550977": {
+        "id": "V1550977",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V1550970",
+          "TIME": "#V1552955",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 0,
+        "end": 62
+      },
+      "V1550970": {
+        "id": "V1550970",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V1550985"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V1552955": {
+        "id": "V1552955",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1550977",
+          "GROUND": "#V1551138",
+          "LEX": "WALKING"
+        },
+        "start": 12,
+        "end": 62
+      },
+      "V1551138": {
+        "id": "V1551138",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": null,
+        "roles": {
+          "AFFECTED": "#V1550995",
+          "METHOD": "#V1550985",
+          "FORMAL": "#V1551003",
+          "VFORM": "ING",
+          "LEX": "WALKING"
+        },
+        "start": 12,
+        "end": 62
+      },
+      "V1550985": {
+        "id": "V1550985",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "VFORM": "ING",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 12,
+        "end": 20
+      },
+      "V1550995": {
+        "id": "V1550995",
+        "indicator": "BARE",
+        "type": "RELATIVE-LOCATION",
+        "word": "HOME",
+        "roles": {
+          "LEX": "HOME",
+          "WNSENSE": "home%1:15:02::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V1551003": {
+        "id": "V1551003",
+        "indicator": "F",
+        "type": "FROM-LOC",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V1552945",
+          "FIGURE": "#V1550995",
+          "LEX": "FROM"
+        },
+        "start": 25,
+        "end": 62
+      },
+      "V1552945": {
+        "id": "V1552945",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1551061"
+        },
+        "start": 30,
+        "end": 62
+      },
+      "V1551061": {
+        "id": "V1551061",
+        "indicator": "A",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "ASSOC-WITH1": "#V1551052",
+          "ASSOC-WITH": "#V1551057",
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V1551068",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 30,
+        "end": 62
+      },
+      "V1551057": {
+        "id": "V1551057",
+        "indicator": "KIND",
+        "type": "SCHOLAR",
+        "word": "SOPHOMORE",
+        "roles": {
+          "LEX": "SOPHOMORE",
+          "WNSENSE": "sophomore%1:18:00::"
+        },
+        "start": 30,
+        "end": 62
+      },
+      "V1551052": {
+        "id": "V1551052",
+        "indicator": "KIND",
+        "type": "RESEARCH-FACILITY",
+        "word": "LAB",
+        "roles": {
+          "LEX": "LAB",
+          "WNSENSE": "lab%1:06:00::"
+        },
+        "start": 30,
+        "end": 62
+      },
+      "V1551068": {
+        "id": "V1551068",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V1551076",
+          "FIGURE": "#V1551061",
+          "LEX": "OF"
+        },
+        "start": 51,
+        "end": 62
+      },
+      "V1551076": {
+        "id": "V1551076",
+        "indicator": "BARE",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "COLLEGE",
+        "roles": {
+          "LEX": "COLLEGE",
+          "WNSENSE": "college%1:14:00::"
+        },
+        "start": 54,
+        "end": 62
+      },
+      "root": "#V1552963"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+259",
+    "*last-utt-id*=259  utt-id+NIL"
+  ]
+}

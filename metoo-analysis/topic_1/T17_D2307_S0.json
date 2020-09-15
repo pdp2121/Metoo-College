@@ -1,0 +1,4693 @@
+{
+  "parse": [
+    {
+      "V708830": {
+        "id": "V708830",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V708029": {
+        "id": "V708029",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MOD": "#V707333"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707333": {
+        "id": "V707333",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "AGO",
+        "roles": {
+          "EXTENT": "#V707328",
+          "FIGURE": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707328": {
+        "id": "V707328",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "AMOUNT": "#V707326",
+          "LEX": "DAYS",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707326": {
+        "id": "V707326",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V707314"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707314": {
+        "id": "V707314",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "LESS-THAN",
+        "roles": {
+          "FIGURE": "#V707326",
+          "GROUND": "#V707720"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707720": {
+        "id": "V707720",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "root": "#V708830"
+    },
+    {
+      "V710248": {
+        "id": "V710248",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V707376",
+          "LEX": "GUY"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707376": {
+        "id": "V707376",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LOCATION": "#V707385",
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707385": {
+        "id": "V707385",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V707444",
+          "FIGURE": "#V707376",
+          "LEX": "AT"
+        },
+        "start": 29,
+        "end": 38
+      },
+      "V707444": {
+        "id": "V707444",
+        "indicator": "A",
+        "type": "BAR-MEASURE",
+        "word": "BAR",
+        "roles": {
+          "LEX": "BAR",
+          "WNSENSE": "bar%1:10:00::"
+        },
+        "start": 32,
+        "end": 38
+      },
+      "root": "#V710248"
+    },
+    {
+      "V709363": {
+        "id": "V709363",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V707564",
+          "FOCUS": "#V707657",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 68
+      },
+      "V707564": {
+        "id": "V707564",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "RUNNING-AWAY",
+        "roles": {
+          "AGENT": "#V707503",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 68
+      },
+      "V709033": {
+        "id": "V709033",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V707503",
+          "GROUND": "#V707460",
+          "LEX": "SAID"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707460": {
+        "id": "V707460",
+        "indicator": "F",
+        "type": "LOCUTION",
+        "word": "SAY",
+        "roles": {
+          "NEUTRAL": "#V707503",
+          "MOD": "#V707474",
+          "WNSENSE": "say%2:32:02::"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707474": {
+        "id": "V707474",
+        "indicator": "F",
+        "type": "REASON-FOR",
+        "word": "WHY",
+        "roles": {
+          "GROUND": "#V707657",
+          "FIGURE": "#V707460",
+          "LEX": "WHY"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707657": {
+        "id": "V707657",
+        "indicator": "WH-TERM",
+        "type": "REASON",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHY",
+          "SUCHTHAT": "#V707474"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707503": {
+        "id": "V707503",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 51,
+        "end": 55
+      },
+      "root": "#V709363"
+    },
+    {
+      "V708830": {
+        "id": "V708830",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V708029": {
+        "id": "V708029",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MOD": "#V707333"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707333": {
+        "id": "V707333",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "AGO",
+        "roles": {
+          "EXTENT": "#V707328",
+          "FIGURE": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707328": {
+        "id": "V707328",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "AMOUNT": "#V707326",
+          "LEX": "DAYS",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707326": {
+        "id": "V707326",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V707314"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707314": {
+        "id": "V707314",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "LESS-THAN",
+        "roles": {
+          "FIGURE": "#V707326",
+          "GROUND": "#V707720"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707720": {
+        "id": "V707720",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "root": "#V708830"
+    },
+    {
+      "V710248": {
+        "id": "V710248",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V707376",
+          "LEX": "GUY"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707376": {
+        "id": "V707376",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LOCATION": "#V707385",
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707385": {
+        "id": "V707385",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V707444",
+          "FIGURE": "#V707376",
+          "LEX": "AT"
+        },
+        "start": 29,
+        "end": 38
+      },
+      "V707444": {
+        "id": "V707444",
+        "indicator": "A",
+        "type": "BAR-MEASURE",
+        "word": "BAR",
+        "roles": {
+          "LEX": "BAR",
+          "WNSENSE": "bar%1:10:00::"
+        },
+        "start": 32,
+        "end": 38
+      },
+      "root": "#V710248"
+    },
+    {
+      "V709361": {
+        "id": "V709361",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V707562",
+          "FOCUS": "#V707657",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 69
+      },
+      "V707562": {
+        "id": "V707562",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "RUNNING-AWAY",
+        "roles": {
+          "AGENT": "#V707503",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 68
+      },
+      "V709033": {
+        "id": "V709033",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V707503",
+          "GROUND": "#V707460",
+          "LEX": "SAID"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707460": {
+        "id": "V707460",
+        "indicator": "F",
+        "type": "LOCUTION",
+        "word": "SAY",
+        "roles": {
+          "NEUTRAL": "#V707503",
+          "MOD": "#V707474",
+          "WNSENSE": "say%2:32:02::"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707474": {
+        "id": "V707474",
+        "indicator": "F",
+        "type": "REASON-FOR",
+        "word": "WHY",
+        "roles": {
+          "GROUND": "#V707657",
+          "FIGURE": "#V707460",
+          "LEX": "WHY"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707657": {
+        "id": "V707657",
+        "indicator": "WH-TERM",
+        "type": "REASON",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHY",
+          "SUCHTHAT": "#V707474"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707503": {
+        "id": "V707503",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 51,
+        "end": 55
+      },
+      "root": "#V709361"
+    },
+    {
+      "V708830": {
+        "id": "V708830",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V708029": {
+        "id": "V708029",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MOD": "#V707333"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707333": {
+        "id": "V707333",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "AGO",
+        "roles": {
+          "EXTENT": "#V707328",
+          "FIGURE": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707328": {
+        "id": "V707328",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "AMOUNT": "#V707326",
+          "LEX": "DAYS",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707326": {
+        "id": "V707326",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V707314"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707314": {
+        "id": "V707314",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "LESS-THAN",
+        "roles": {
+          "FIGURE": "#V707326",
+          "GROUND": "#V707720"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707720": {
+        "id": "V707720",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "root": "#V708830"
+    },
+    {
+      "V710248": {
+        "id": "V710248",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V707376",
+          "LEX": "GUY"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707376": {
+        "id": "V707376",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LOCATION": "#V707385",
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707385": {
+        "id": "V707385",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V707444",
+          "FIGURE": "#V707376",
+          "LEX": "AT"
+        },
+        "start": 29,
+        "end": 38
+      },
+      "V707444": {
+        "id": "V707444",
+        "indicator": "A",
+        "type": "BAR-MEASURE",
+        "word": "BAR",
+        "roles": {
+          "LEX": "BAR",
+          "WNSENSE": "bar%1:10:00::"
+        },
+        "start": 32,
+        "end": 38
+      },
+      "root": "#V710248"
+    },
+    {
+      "V709359": {
+        "id": "V709359",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V707558",
+          "FOCUS": "#V707657",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 69
+      },
+      "V707558": {
+        "id": "V707558",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "RUNNING-AWAY",
+        "roles": {
+          "AGENT": "#V707503",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 68
+      },
+      "V709033": {
+        "id": "V709033",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V707503",
+          "GROUND": "#V707460",
+          "LEX": "SAID"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707460": {
+        "id": "V707460",
+        "indicator": "F",
+        "type": "LOCUTION",
+        "word": "SAY",
+        "roles": {
+          "NEUTRAL": "#V707503",
+          "MOD": "#V707474",
+          "WNSENSE": "say%2:32:02::"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707474": {
+        "id": "V707474",
+        "indicator": "F",
+        "type": "REASON-FOR",
+        "word": "WHY",
+        "roles": {
+          "GROUND": "#V707657",
+          "FIGURE": "#V707460",
+          "LEX": "WHY"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707657": {
+        "id": "V707657",
+        "indicator": "WH-TERM",
+        "type": "REASON",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHY",
+          "SUCHTHAT": "#V707474"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707503": {
+        "id": "V707503",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 51,
+        "end": 55
+      },
+      "root": "#V709359"
+    },
+    {
+      "V708830": {
+        "id": "V708830",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V708029": {
+        "id": "V708029",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MOD": "#V707333"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707333": {
+        "id": "V707333",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "AGO",
+        "roles": {
+          "EXTENT": "#V707328",
+          "FIGURE": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707328": {
+        "id": "V707328",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "AMOUNT": "#V707326",
+          "LEX": "DAYS",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707326": {
+        "id": "V707326",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V707314"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707314": {
+        "id": "V707314",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "LESS-THAN",
+        "roles": {
+          "FIGURE": "#V707326",
+          "GROUND": "#V707720"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707720": {
+        "id": "V707720",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "root": "#V708830"
+    },
+    {
+      "V710248": {
+        "id": "V710248",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V707376",
+          "LEX": "GUY"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707376": {
+        "id": "V707376",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LOCATION": "#V707385",
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707385": {
+        "id": "V707385",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V707444",
+          "FIGURE": "#V707376",
+          "LEX": "AT"
+        },
+        "start": 29,
+        "end": 38
+      },
+      "V707444": {
+        "id": "V707444",
+        "indicator": "A",
+        "type": "BAR-MEASURE",
+        "word": "BAR",
+        "roles": {
+          "LEX": "BAR",
+          "WNSENSE": "bar%1:10:00::"
+        },
+        "start": 32,
+        "end": 38
+      },
+      "root": "#V710248"
+    },
+    {
+      "V709357": {
+        "id": "V709357",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V707564",
+          "FOCUS": "#V707657",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 69
+      },
+      "V707564": {
+        "id": "V707564",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "RUNNING-AWAY",
+        "roles": {
+          "AGENT": "#V707503",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 68
+      },
+      "V709029": {
+        "id": "V709029",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V707503",
+          "GROUND": "#V707458",
+          "LEX": "SAID"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707458": {
+        "id": "V707458",
+        "indicator": "F",
+        "type": "ENCODES-MESSAGE",
+        "word": "SAY",
+        "roles": {
+          "NEUTRAL1": "#V707503",
+          "MOD": "#V707474",
+          "WNSENSE": "say%2:42:00::"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707474": {
+        "id": "V707474",
+        "indicator": "F",
+        "type": "REASON-FOR",
+        "word": "WHY",
+        "roles": {
+          "GROUND": "#V707657",
+          "FIGURE": "#V707458",
+          "LEX": "WHY"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707657": {
+        "id": "V707657",
+        "indicator": "WH-TERM",
+        "type": "REASON",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHY",
+          "SUCHTHAT": "#V707474"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707503": {
+        "id": "V707503",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 51,
+        "end": 55
+      },
+      "root": "#V709357"
+    },
+    {
+      "V708830": {
+        "id": "V708830",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V708029": {
+        "id": "V708029",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MOD": "#V707333"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707333": {
+        "id": "V707333",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "AGO",
+        "roles": {
+          "EXTENT": "#V707328",
+          "FIGURE": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707328": {
+        "id": "V707328",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "AMOUNT": "#V707326",
+          "LEX": "DAYS",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707326": {
+        "id": "V707326",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V707314"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707314": {
+        "id": "V707314",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "LESS-THAN",
+        "roles": {
+          "FIGURE": "#V707326",
+          "GROUND": "#V707720"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707720": {
+        "id": "V707720",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "root": "#V708830"
+    },
+    {
+      "V710248": {
+        "id": "V710248",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V707376",
+          "LEX": "GUY"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707376": {
+        "id": "V707376",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LOCATION": "#V707385",
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707385": {
+        "id": "V707385",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V707444",
+          "FIGURE": "#V707376",
+          "LEX": "AT"
+        },
+        "start": 29,
+        "end": 38
+      },
+      "V707444": {
+        "id": "V707444",
+        "indicator": "A",
+        "type": "BAR-MEASURE",
+        "word": "BAR",
+        "roles": {
+          "LEX": "BAR",
+          "WNSENSE": "bar%1:10:00::"
+        },
+        "start": 32,
+        "end": 38
+      },
+      "root": "#V710248"
+    },
+    {
+      "V709355": {
+        "id": "V709355",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V707562",
+          "FOCUS": "#V707657",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 69
+      },
+      "V707562": {
+        "id": "V707562",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "RUNNING-AWAY",
+        "roles": {
+          "AGENT": "#V707503",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 68
+      },
+      "V709029": {
+        "id": "V709029",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V707503",
+          "GROUND": "#V707458",
+          "LEX": "SAID"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707458": {
+        "id": "V707458",
+        "indicator": "F",
+        "type": "ENCODES-MESSAGE",
+        "word": "SAY",
+        "roles": {
+          "NEUTRAL1": "#V707503",
+          "MOD": "#V707474",
+          "WNSENSE": "say%2:42:00::"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707474": {
+        "id": "V707474",
+        "indicator": "F",
+        "type": "REASON-FOR",
+        "word": "WHY",
+        "roles": {
+          "GROUND": "#V707657",
+          "FIGURE": "#V707458",
+          "LEX": "WHY"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707657": {
+        "id": "V707657",
+        "indicator": "WH-TERM",
+        "type": "REASON",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHY",
+          "SUCHTHAT": "#V707474"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707503": {
+        "id": "V707503",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 51,
+        "end": 55
+      },
+      "root": "#V709355"
+    },
+    {
+      "V708830": {
+        "id": "V708830",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V708029": {
+        "id": "V708029",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MOD": "#V707333"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707333": {
+        "id": "V707333",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "AGO",
+        "roles": {
+          "EXTENT": "#V707328",
+          "FIGURE": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707328": {
+        "id": "V707328",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "AMOUNT": "#V707326",
+          "LEX": "DAYS",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707326": {
+        "id": "V707326",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V707314"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707314": {
+        "id": "V707314",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "LESS-THAN",
+        "roles": {
+          "FIGURE": "#V707326",
+          "GROUND": "#V707720"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707720": {
+        "id": "V707720",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "root": "#V708830"
+    },
+    {
+      "V710248": {
+        "id": "V710248",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V707376",
+          "LEX": "GUY"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707376": {
+        "id": "V707376",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LOCATION": "#V707385",
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707385": {
+        "id": "V707385",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V707444",
+          "FIGURE": "#V707376",
+          "LEX": "AT"
+        },
+        "start": 29,
+        "end": 38
+      },
+      "V707444": {
+        "id": "V707444",
+        "indicator": "A",
+        "type": "BAR-MEASURE",
+        "word": "BAR",
+        "roles": {
+          "LEX": "BAR",
+          "WNSENSE": "bar%1:10:00::"
+        },
+        "start": 32,
+        "end": 38
+      },
+      "root": "#V710248"
+    },
+    {
+      "V709353": {
+        "id": "V709353",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V707558",
+          "FOCUS": "#V707657",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 69
+      },
+      "V707558": {
+        "id": "V707558",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "RUNNING-AWAY",
+        "roles": {
+          "AGENT": "#V707503",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 68
+      },
+      "V709029": {
+        "id": "V709029",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V707503",
+          "GROUND": "#V707458",
+          "LEX": "SAID"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707458": {
+        "id": "V707458",
+        "indicator": "F",
+        "type": "ENCODES-MESSAGE",
+        "word": "SAY",
+        "roles": {
+          "NEUTRAL1": "#V707503",
+          "MOD": "#V707474",
+          "WNSENSE": "say%2:42:00::"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707474": {
+        "id": "V707474",
+        "indicator": "F",
+        "type": "REASON-FOR",
+        "word": "WHY",
+        "roles": {
+          "GROUND": "#V707657",
+          "FIGURE": "#V707458",
+          "LEX": "WHY"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707657": {
+        "id": "V707657",
+        "indicator": "WH-TERM",
+        "type": "REASON",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHY",
+          "SUCHTHAT": "#V707474"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707503": {
+        "id": "V707503",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 51,
+        "end": 55
+      },
+      "root": "#V709353"
+    },
+    {
+      "V708830": {
+        "id": "V708830",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V708029": {
+        "id": "V708029",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MOD": "#V707333"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707333": {
+        "id": "V707333",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "AGO",
+        "roles": {
+          "EXTENT": "#V707328",
+          "FIGURE": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707328": {
+        "id": "V707328",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "AMOUNT": "#V707326",
+          "LEX": "DAYS",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707326": {
+        "id": "V707326",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V707314"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707314": {
+        "id": "V707314",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "LESS-THAN",
+        "roles": {
+          "FIGURE": "#V707326",
+          "GROUND": "#V707720"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707720": {
+        "id": "V707720",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "root": "#V708830"
+    },
+    {
+      "V710248": {
+        "id": "V710248",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V707376",
+          "LEX": "GUY"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707376": {
+        "id": "V707376",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LOCATION": "#V707385",
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707385": {
+        "id": "V707385",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V707444",
+          "FIGURE": "#V707376",
+          "LEX": "AT"
+        },
+        "start": 29,
+        "end": 38
+      },
+      "V707444": {
+        "id": "V707444",
+        "indicator": "A",
+        "type": "BAR-MEASURE",
+        "word": "BAR",
+        "roles": {
+          "LEX": "BAR",
+          "WNSENSE": "bar%1:10:00::"
+        },
+        "start": 32,
+        "end": 38
+      },
+      "root": "#V710248"
+    },
+    {
+      "V709351": {
+        "id": "V709351",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V707564",
+          "FOCUS": "#V707657",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 69
+      },
+      "V707564": {
+        "id": "V707564",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "RUNNING-AWAY",
+        "roles": {
+          "AGENT": "#V707503",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 68
+      },
+      "V709025": {
+        "id": "V709025",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V707503",
+          "GROUND": "#V707455",
+          "LEX": "SAID"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707455": {
+        "id": "V707455",
+        "indicator": "F",
+        "type": "SAY",
+        "word": "SAY",
+        "roles": {
+          "NEUTRAL": "#V707503",
+          "MOD": "#V707474",
+          "WNSENSE": "say%2:32:01::"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707474": {
+        "id": "V707474",
+        "indicator": "F",
+        "type": "REASON-FOR",
+        "word": "WHY",
+        "roles": {
+          "GROUND": "#V707657",
+          "FIGURE": "#V707455",
+          "LEX": "WHY"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707657": {
+        "id": "V707657",
+        "indicator": "WH-TERM",
+        "type": "REASON",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHY",
+          "SUCHTHAT": "#V707474"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707503": {
+        "id": "V707503",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 51,
+        "end": 55
+      },
+      "root": "#V709351"
+    },
+    {
+      "V708830": {
+        "id": "V708830",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V708029": {
+        "id": "V708029",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MOD": "#V707333"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707333": {
+        "id": "V707333",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "AGO",
+        "roles": {
+          "EXTENT": "#V707328",
+          "FIGURE": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707328": {
+        "id": "V707328",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "AMOUNT": "#V707326",
+          "LEX": "DAYS",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707326": {
+        "id": "V707326",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V707314"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707314": {
+        "id": "V707314",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "LESS-THAN",
+        "roles": {
+          "FIGURE": "#V707326",
+          "GROUND": "#V707720"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707720": {
+        "id": "V707720",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "root": "#V708830"
+    },
+    {
+      "V710248": {
+        "id": "V710248",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V707376",
+          "LEX": "GUY"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707376": {
+        "id": "V707376",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LOCATION": "#V707385",
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707385": {
+        "id": "V707385",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V707444",
+          "FIGURE": "#V707376",
+          "LEX": "AT"
+        },
+        "start": 29,
+        "end": 38
+      },
+      "V707444": {
+        "id": "V707444",
+        "indicator": "A",
+        "type": "BAR-MEASURE",
+        "word": "BAR",
+        "roles": {
+          "LEX": "BAR",
+          "WNSENSE": "bar%1:10:00::"
+        },
+        "start": 32,
+        "end": 38
+      },
+      "root": "#V710248"
+    },
+    {
+      "V709349": {
+        "id": "V709349",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V707562",
+          "FOCUS": "#V707657",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 69
+      },
+      "V707562": {
+        "id": "V707562",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "RUNNING-AWAY",
+        "roles": {
+          "AGENT": "#V707503",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 68
+      },
+      "V709025": {
+        "id": "V709025",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V707503",
+          "GROUND": "#V707455",
+          "LEX": "SAID"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707455": {
+        "id": "V707455",
+        "indicator": "F",
+        "type": "SAY",
+        "word": "SAY",
+        "roles": {
+          "NEUTRAL": "#V707503",
+          "MOD": "#V707474",
+          "WNSENSE": "say%2:32:01::"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707474": {
+        "id": "V707474",
+        "indicator": "F",
+        "type": "REASON-FOR",
+        "word": "WHY",
+        "roles": {
+          "GROUND": "#V707657",
+          "FIGURE": "#V707455",
+          "LEX": "WHY"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707657": {
+        "id": "V707657",
+        "indicator": "WH-TERM",
+        "type": "REASON",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHY",
+          "SUCHTHAT": "#V707474"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707503": {
+        "id": "V707503",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 51,
+        "end": 55
+      },
+      "root": "#V709349"
+    },
+    {
+      "V708830": {
+        "id": "V708830",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V708029": {
+        "id": "V708029",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MOD": "#V707333"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707333": {
+        "id": "V707333",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "AGO",
+        "roles": {
+          "EXTENT": "#V707328",
+          "FIGURE": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707328": {
+        "id": "V707328",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "AMOUNT": "#V707326",
+          "LEX": "DAYS",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707326": {
+        "id": "V707326",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V707314"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707314": {
+        "id": "V707314",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "LESS-THAN",
+        "roles": {
+          "FIGURE": "#V707326",
+          "GROUND": "#V707720"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707720": {
+        "id": "V707720",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "root": "#V708830"
+    },
+    {
+      "V710248": {
+        "id": "V710248",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V707376",
+          "LEX": "GUY"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707376": {
+        "id": "V707376",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LOCATION": "#V707385",
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707385": {
+        "id": "V707385",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V707444",
+          "FIGURE": "#V707376",
+          "LEX": "AT"
+        },
+        "start": 29,
+        "end": 38
+      },
+      "V707444": {
+        "id": "V707444",
+        "indicator": "A",
+        "type": "BAR-MEASURE",
+        "word": "BAR",
+        "roles": {
+          "LEX": "BAR",
+          "WNSENSE": "bar%1:10:00::"
+        },
+        "start": 32,
+        "end": 38
+      },
+      "root": "#V710248"
+    },
+    {
+      "V709347": {
+        "id": "V709347",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V707558",
+          "FOCUS": "#V707657",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 69
+      },
+      "V707558": {
+        "id": "V707558",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "RUNNING-AWAY",
+        "roles": {
+          "AGENT": "#V707503",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 68
+      },
+      "V709025": {
+        "id": "V709025",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V707503",
+          "GROUND": "#V707455",
+          "LEX": "SAID"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707455": {
+        "id": "V707455",
+        "indicator": "F",
+        "type": "SAY",
+        "word": "SAY",
+        "roles": {
+          "NEUTRAL": "#V707503",
+          "MOD": "#V707474",
+          "WNSENSE": "say%2:32:01::"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707474": {
+        "id": "V707474",
+        "indicator": "F",
+        "type": "REASON-FOR",
+        "word": "WHY",
+        "roles": {
+          "GROUND": "#V707657",
+          "FIGURE": "#V707455",
+          "LEX": "WHY"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707657": {
+        "id": "V707657",
+        "indicator": "WH-TERM",
+        "type": "REASON",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHY",
+          "SUCHTHAT": "#V707474"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707503": {
+        "id": "V707503",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 51,
+        "end": 55
+      },
+      "root": "#V709347"
+    },
+    {
+      "V708830": {
+        "id": "V708830",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V708029": {
+        "id": "V708029",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MOD": "#V707333"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707333": {
+        "id": "V707333",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "AGO",
+        "roles": {
+          "EXTENT": "#V707328",
+          "FIGURE": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707328": {
+        "id": "V707328",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "AMOUNT": "#V707326",
+          "LEX": "DAYS",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707326": {
+        "id": "V707326",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V707314"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707314": {
+        "id": "V707314",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "LESS-THAN",
+        "roles": {
+          "FIGURE": "#V707326",
+          "GROUND": "#V707720"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707720": {
+        "id": "V707720",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "root": "#V708830"
+    },
+    {
+      "V710248": {
+        "id": "V710248",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V707376",
+          "LEX": "GUY"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707376": {
+        "id": "V707376",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LOCATION": "#V707385",
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707385": {
+        "id": "V707385",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V707444",
+          "FIGURE": "#V707376",
+          "LEX": "AT"
+        },
+        "start": 29,
+        "end": 38
+      },
+      "V707444": {
+        "id": "V707444",
+        "indicator": "A",
+        "type": "BAR-MEASURE",
+        "word": "BAR",
+        "roles": {
+          "LEX": "BAR",
+          "WNSENSE": "bar%1:10:00::"
+        },
+        "start": 32,
+        "end": 38
+      },
+      "root": "#V710248"
+    },
+    {
+      "V709345": {
+        "id": "V709345",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V707564",
+          "FOCUS": "#V707657",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 69
+      },
+      "V707564": {
+        "id": "V707564",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "RUNNING-AWAY",
+        "roles": {
+          "AGENT": "#V707503",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 68
+      },
+      "V709021": {
+        "id": "V709021",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V707503",
+          "GROUND": "#V707454",
+          "LEX": "SAID"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707454": {
+        "id": "V707454",
+        "indicator": "F",
+        "type": "SAY",
+        "word": "SAY",
+        "roles": {
+          "FORMAL": "#V707503",
+          "MOD": "#V707474",
+          "WNSENSE": "say%2:32:01::"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707474": {
+        "id": "V707474",
+        "indicator": "F",
+        "type": "REASON-FOR",
+        "word": "WHY",
+        "roles": {
+          "GROUND": "#V707657",
+          "FIGURE": "#V707454",
+          "LEX": "WHY"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707657": {
+        "id": "V707657",
+        "indicator": "WH-TERM",
+        "type": "REASON",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHY",
+          "SUCHTHAT": "#V707474"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707503": {
+        "id": "V707503",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 51,
+        "end": 55
+      },
+      "root": "#V709345"
+    },
+    {
+      "V708830": {
+        "id": "V708830",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V708029": {
+        "id": "V708029",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MOD": "#V707333"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707333": {
+        "id": "V707333",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "AGO",
+        "roles": {
+          "EXTENT": "#V707328",
+          "FIGURE": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707328": {
+        "id": "V707328",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "AMOUNT": "#V707326",
+          "LEX": "DAYS",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707326": {
+        "id": "V707326",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V707314"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707314": {
+        "id": "V707314",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "LESS-THAN",
+        "roles": {
+          "FIGURE": "#V707326",
+          "GROUND": "#V707720"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707720": {
+        "id": "V707720",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "root": "#V708830"
+    },
+    {
+      "V710248": {
+        "id": "V710248",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V707376",
+          "LEX": "GUY"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707376": {
+        "id": "V707376",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LOCATION": "#V707385",
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707385": {
+        "id": "V707385",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V707444",
+          "FIGURE": "#V707376",
+          "LEX": "AT"
+        },
+        "start": 29,
+        "end": 38
+      },
+      "V707444": {
+        "id": "V707444",
+        "indicator": "A",
+        "type": "BAR-MEASURE",
+        "word": "BAR",
+        "roles": {
+          "LEX": "BAR",
+          "WNSENSE": "bar%1:10:00::"
+        },
+        "start": 32,
+        "end": 38
+      },
+      "root": "#V710248"
+    },
+    {
+      "V709343": {
+        "id": "V709343",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V707562",
+          "FOCUS": "#V707657",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 69
+      },
+      "V707562": {
+        "id": "V707562",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "RUNNING-AWAY",
+        "roles": {
+          "AGENT": "#V707503",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 68
+      },
+      "V709021": {
+        "id": "V709021",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V707503",
+          "GROUND": "#V707454",
+          "LEX": "SAID"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707454": {
+        "id": "V707454",
+        "indicator": "F",
+        "type": "SAY",
+        "word": "SAY",
+        "roles": {
+          "FORMAL": "#V707503",
+          "MOD": "#V707474",
+          "WNSENSE": "say%2:32:01::"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707474": {
+        "id": "V707474",
+        "indicator": "F",
+        "type": "REASON-FOR",
+        "word": "WHY",
+        "roles": {
+          "GROUND": "#V707657",
+          "FIGURE": "#V707454",
+          "LEX": "WHY"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707657": {
+        "id": "V707657",
+        "indicator": "WH-TERM",
+        "type": "REASON",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHY",
+          "SUCHTHAT": "#V707474"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707503": {
+        "id": "V707503",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 51,
+        "end": 55
+      },
+      "root": "#V709343"
+    },
+    {
+      "V708830": {
+        "id": "V708830",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V708029": {
+        "id": "V708029",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MOD": "#V707333"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707333": {
+        "id": "V707333",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "AGO",
+        "roles": {
+          "EXTENT": "#V707328",
+          "FIGURE": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707328": {
+        "id": "V707328",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "AMOUNT": "#V707326",
+          "LEX": "DAYS",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707326": {
+        "id": "V707326",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V707314"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707314": {
+        "id": "V707314",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "LESS-THAN",
+        "roles": {
+          "FIGURE": "#V707326",
+          "GROUND": "#V707720"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707720": {
+        "id": "V707720",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "root": "#V708830"
+    },
+    {
+      "V710248": {
+        "id": "V710248",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V707376",
+          "LEX": "GUY"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707376": {
+        "id": "V707376",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LOCATION": "#V707385",
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707385": {
+        "id": "V707385",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V707444",
+          "FIGURE": "#V707376",
+          "LEX": "AT"
+        },
+        "start": 29,
+        "end": 38
+      },
+      "V707444": {
+        "id": "V707444",
+        "indicator": "A",
+        "type": "BAR-MEASURE",
+        "word": "BAR",
+        "roles": {
+          "LEX": "BAR",
+          "WNSENSE": "bar%1:10:00::"
+        },
+        "start": 32,
+        "end": 38
+      },
+      "root": "#V710248"
+    },
+    {
+      "V709341": {
+        "id": "V709341",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V707558",
+          "FOCUS": "#V707657",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 69
+      },
+      "V707558": {
+        "id": "V707558",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "RUNNING-AWAY",
+        "roles": {
+          "AGENT": "#V707503",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 68
+      },
+      "V709021": {
+        "id": "V709021",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V707503",
+          "GROUND": "#V707454",
+          "LEX": "SAID"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707454": {
+        "id": "V707454",
+        "indicator": "F",
+        "type": "SAY",
+        "word": "SAY",
+        "roles": {
+          "FORMAL": "#V707503",
+          "MOD": "#V707474",
+          "WNSENSE": "say%2:32:01::"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707474": {
+        "id": "V707474",
+        "indicator": "F",
+        "type": "REASON-FOR",
+        "word": "WHY",
+        "roles": {
+          "GROUND": "#V707657",
+          "FIGURE": "#V707454",
+          "LEX": "WHY"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707657": {
+        "id": "V707657",
+        "indicator": "WH-TERM",
+        "type": "REASON",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHY",
+          "SUCHTHAT": "#V707474"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707503": {
+        "id": "V707503",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 51,
+        "end": 55
+      },
+      "root": "#V709341"
+    },
+    {
+      "V708830": {
+        "id": "V708830",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V708029": {
+        "id": "V708029",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MOD": "#V707333"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707333": {
+        "id": "V707333",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "AGO",
+        "roles": {
+          "EXTENT": "#V707328",
+          "FIGURE": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707328": {
+        "id": "V707328",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "AMOUNT": "#V707326",
+          "LEX": "DAYS",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707326": {
+        "id": "V707326",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V707314"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707314": {
+        "id": "V707314",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "LESS-THAN",
+        "roles": {
+          "FIGURE": "#V707326",
+          "GROUND": "#V707720"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707720": {
+        "id": "V707720",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "root": "#V708830"
+    },
+    {
+      "V710409": {
+        "id": "V710409",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V707376",
+          "LEX": "GUY"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707376": {
+        "id": "V707376",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LOCATION": "#V707385",
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707385": {
+        "id": "V707385",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V707443",
+          "FIGURE": "#V707376",
+          "LEX": "AT"
+        },
+        "start": 29,
+        "end": 38
+      },
+      "V707443": {
+        "id": "V707443",
+        "indicator": "A",
+        "type": "DRINKING-ESTABLISHMENT",
+        "word": "BAR",
+        "roles": {
+          "LEX": "BAR",
+          "WNSENSE": "bar%1:06:04::"
+        },
+        "start": 32,
+        "end": 38
+      },
+      "root": "#V710409"
+    },
+    {
+      "V709363": {
+        "id": "V709363",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V707564",
+          "FOCUS": "#V707657",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 69
+      },
+      "V707564": {
+        "id": "V707564",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "RUNNING-AWAY",
+        "roles": {
+          "AGENT": "#V707503",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 68
+      },
+      "V709033": {
+        "id": "V709033",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V707503",
+          "GROUND": "#V707460",
+          "LEX": "SAID"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707460": {
+        "id": "V707460",
+        "indicator": "F",
+        "type": "LOCUTION",
+        "word": "SAY",
+        "roles": {
+          "NEUTRAL": "#V707503",
+          "MOD": "#V707474",
+          "WNSENSE": "say%2:32:02::"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707474": {
+        "id": "V707474",
+        "indicator": "F",
+        "type": "REASON-FOR",
+        "word": "WHY",
+        "roles": {
+          "GROUND": "#V707657",
+          "FIGURE": "#V707460",
+          "LEX": "WHY"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707657": {
+        "id": "V707657",
+        "indicator": "WH-TERM",
+        "type": "REASON",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHY",
+          "SUCHTHAT": "#V707474"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707503": {
+        "id": "V707503",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 51,
+        "end": 55
+      },
+      "root": "#V709363"
+    },
+    {
+      "V708830": {
+        "id": "V708830",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V708029": {
+        "id": "V708029",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MOD": "#V707333"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707333": {
+        "id": "V707333",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "AGO",
+        "roles": {
+          "EXTENT": "#V707328",
+          "FIGURE": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707328": {
+        "id": "V707328",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "AMOUNT": "#V707326",
+          "LEX": "DAYS",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707326": {
+        "id": "V707326",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V707314"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707314": {
+        "id": "V707314",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "LESS-THAN",
+        "roles": {
+          "FIGURE": "#V707326",
+          "GROUND": "#V707720"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707720": {
+        "id": "V707720",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "root": "#V708830"
+    },
+    {
+      "V710409": {
+        "id": "V710409",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V707376",
+          "LEX": "GUY"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707376": {
+        "id": "V707376",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LOCATION": "#V707385",
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707385": {
+        "id": "V707385",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V707443",
+          "FIGURE": "#V707376",
+          "LEX": "AT"
+        },
+        "start": 29,
+        "end": 38
+      },
+      "V707443": {
+        "id": "V707443",
+        "indicator": "A",
+        "type": "DRINKING-ESTABLISHMENT",
+        "word": "BAR",
+        "roles": {
+          "LEX": "BAR",
+          "WNSENSE": "bar%1:06:04::"
+        },
+        "start": 32,
+        "end": 38
+      },
+      "root": "#V710409"
+    },
+    {
+      "V709361": {
+        "id": "V709361",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V707562",
+          "FOCUS": "#V707657",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 69
+      },
+      "V707562": {
+        "id": "V707562",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "RUNNING-AWAY",
+        "roles": {
+          "AGENT": "#V707503",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 68
+      },
+      "V709033": {
+        "id": "V709033",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V707503",
+          "GROUND": "#V707460",
+          "LEX": "SAID"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707460": {
+        "id": "V707460",
+        "indicator": "F",
+        "type": "LOCUTION",
+        "word": "SAY",
+        "roles": {
+          "NEUTRAL": "#V707503",
+          "MOD": "#V707474",
+          "WNSENSE": "say%2:32:02::"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707474": {
+        "id": "V707474",
+        "indicator": "F",
+        "type": "REASON-FOR",
+        "word": "WHY",
+        "roles": {
+          "GROUND": "#V707657",
+          "FIGURE": "#V707460",
+          "LEX": "WHY"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707657": {
+        "id": "V707657",
+        "indicator": "WH-TERM",
+        "type": "REASON",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHY",
+          "SUCHTHAT": "#V707474"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707503": {
+        "id": "V707503",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 51,
+        "end": 55
+      },
+      "root": "#V709361"
+    },
+    {
+      "V708830": {
+        "id": "V708830",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V708029": {
+        "id": "V708029",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MOD": "#V707333"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707333": {
+        "id": "V707333",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "AGO",
+        "roles": {
+          "EXTENT": "#V707328",
+          "FIGURE": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707328": {
+        "id": "V707328",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "AMOUNT": "#V707326",
+          "LEX": "DAYS",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707326": {
+        "id": "V707326",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V707314"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707314": {
+        "id": "V707314",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "LESS-THAN",
+        "roles": {
+          "FIGURE": "#V707326",
+          "GROUND": "#V707720"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707720": {
+        "id": "V707720",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "root": "#V708830"
+    },
+    {
+      "V710409": {
+        "id": "V710409",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V707376",
+          "LEX": "GUY"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707376": {
+        "id": "V707376",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LOCATION": "#V707385",
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707385": {
+        "id": "V707385",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V707443",
+          "FIGURE": "#V707376",
+          "LEX": "AT"
+        },
+        "start": 29,
+        "end": 38
+      },
+      "V707443": {
+        "id": "V707443",
+        "indicator": "A",
+        "type": "DRINKING-ESTABLISHMENT",
+        "word": "BAR",
+        "roles": {
+          "LEX": "BAR",
+          "WNSENSE": "bar%1:06:04::"
+        },
+        "start": 32,
+        "end": 38
+      },
+      "root": "#V710409"
+    },
+    {
+      "V709359": {
+        "id": "V709359",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V707558",
+          "FOCUS": "#V707657",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 69
+      },
+      "V707558": {
+        "id": "V707558",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "RUNNING-AWAY",
+        "roles": {
+          "AGENT": "#V707503",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 68
+      },
+      "V709033": {
+        "id": "V709033",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V707503",
+          "GROUND": "#V707460",
+          "LEX": "SAID"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707460": {
+        "id": "V707460",
+        "indicator": "F",
+        "type": "LOCUTION",
+        "word": "SAY",
+        "roles": {
+          "NEUTRAL": "#V707503",
+          "MOD": "#V707474",
+          "WNSENSE": "say%2:32:02::"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707474": {
+        "id": "V707474",
+        "indicator": "F",
+        "type": "REASON-FOR",
+        "word": "WHY",
+        "roles": {
+          "GROUND": "#V707657",
+          "FIGURE": "#V707460",
+          "LEX": "WHY"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707657": {
+        "id": "V707657",
+        "indicator": "WH-TERM",
+        "type": "REASON",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHY",
+          "SUCHTHAT": "#V707474"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707503": {
+        "id": "V707503",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 51,
+        "end": 55
+      },
+      "root": "#V709359"
+    },
+    {
+      "V708830": {
+        "id": "V708830",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V708029": {
+        "id": "V708029",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MOD": "#V707333"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707333": {
+        "id": "V707333",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "AGO",
+        "roles": {
+          "EXTENT": "#V707328",
+          "FIGURE": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707328": {
+        "id": "V707328",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "AMOUNT": "#V707326",
+          "LEX": "DAYS",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707326": {
+        "id": "V707326",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V707314"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707314": {
+        "id": "V707314",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "LESS-THAN",
+        "roles": {
+          "FIGURE": "#V707326",
+          "GROUND": "#V707720"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707720": {
+        "id": "V707720",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "root": "#V708830"
+    },
+    {
+      "V710409": {
+        "id": "V710409",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V707376",
+          "LEX": "GUY"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707376": {
+        "id": "V707376",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LOCATION": "#V707385",
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707385": {
+        "id": "V707385",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V707443",
+          "FIGURE": "#V707376",
+          "LEX": "AT"
+        },
+        "start": 29,
+        "end": 38
+      },
+      "V707443": {
+        "id": "V707443",
+        "indicator": "A",
+        "type": "DRINKING-ESTABLISHMENT",
+        "word": "BAR",
+        "roles": {
+          "LEX": "BAR",
+          "WNSENSE": "bar%1:06:04::"
+        },
+        "start": 32,
+        "end": 38
+      },
+      "root": "#V710409"
+    },
+    {
+      "V709357": {
+        "id": "V709357",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V707564",
+          "FOCUS": "#V707657",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 69
+      },
+      "V707564": {
+        "id": "V707564",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "RUNNING-AWAY",
+        "roles": {
+          "AGENT": "#V707503",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 68
+      },
+      "V709029": {
+        "id": "V709029",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V707503",
+          "GROUND": "#V707458",
+          "LEX": "SAID"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707458": {
+        "id": "V707458",
+        "indicator": "F",
+        "type": "ENCODES-MESSAGE",
+        "word": "SAY",
+        "roles": {
+          "NEUTRAL1": "#V707503",
+          "MOD": "#V707474",
+          "WNSENSE": "say%2:42:00::"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707474": {
+        "id": "V707474",
+        "indicator": "F",
+        "type": "REASON-FOR",
+        "word": "WHY",
+        "roles": {
+          "GROUND": "#V707657",
+          "FIGURE": "#V707458",
+          "LEX": "WHY"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707657": {
+        "id": "V707657",
+        "indicator": "WH-TERM",
+        "type": "REASON",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHY",
+          "SUCHTHAT": "#V707474"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707503": {
+        "id": "V707503",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 51,
+        "end": 55
+      },
+      "root": "#V709357"
+    },
+    {
+      "V708830": {
+        "id": "V708830",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V708029": {
+        "id": "V708029",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MOD": "#V707333"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707333": {
+        "id": "V707333",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "AGO",
+        "roles": {
+          "EXTENT": "#V707328",
+          "FIGURE": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707328": {
+        "id": "V707328",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "AMOUNT": "#V707326",
+          "LEX": "DAYS",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707326": {
+        "id": "V707326",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V707314"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707314": {
+        "id": "V707314",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "LESS-THAN",
+        "roles": {
+          "FIGURE": "#V707326",
+          "GROUND": "#V707720"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707720": {
+        "id": "V707720",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "root": "#V708830"
+    },
+    {
+      "V710409": {
+        "id": "V710409",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V707376",
+          "LEX": "GUY"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707376": {
+        "id": "V707376",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LOCATION": "#V707385",
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707385": {
+        "id": "V707385",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V707443",
+          "FIGURE": "#V707376",
+          "LEX": "AT"
+        },
+        "start": 29,
+        "end": 38
+      },
+      "V707443": {
+        "id": "V707443",
+        "indicator": "A",
+        "type": "DRINKING-ESTABLISHMENT",
+        "word": "BAR",
+        "roles": {
+          "LEX": "BAR",
+          "WNSENSE": "bar%1:06:04::"
+        },
+        "start": 32,
+        "end": 38
+      },
+      "root": "#V710409"
+    },
+    {
+      "V709355": {
+        "id": "V709355",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V707562",
+          "FOCUS": "#V707657",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 69
+      },
+      "V707562": {
+        "id": "V707562",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "RUNNING-AWAY",
+        "roles": {
+          "AGENT": "#V707503",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 68
+      },
+      "V709029": {
+        "id": "V709029",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V707503",
+          "GROUND": "#V707458",
+          "LEX": "SAID"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707458": {
+        "id": "V707458",
+        "indicator": "F",
+        "type": "ENCODES-MESSAGE",
+        "word": "SAY",
+        "roles": {
+          "NEUTRAL1": "#V707503",
+          "MOD": "#V707474",
+          "WNSENSE": "say%2:42:00::"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707474": {
+        "id": "V707474",
+        "indicator": "F",
+        "type": "REASON-FOR",
+        "word": "WHY",
+        "roles": {
+          "GROUND": "#V707657",
+          "FIGURE": "#V707458",
+          "LEX": "WHY"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707657": {
+        "id": "V707657",
+        "indicator": "WH-TERM",
+        "type": "REASON",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHY",
+          "SUCHTHAT": "#V707474"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707503": {
+        "id": "V707503",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 51,
+        "end": 55
+      },
+      "root": "#V709355"
+    },
+    {
+      "V708830": {
+        "id": "V708830",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V708029": {
+        "id": "V708029",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MOD": "#V707333"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707333": {
+        "id": "V707333",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "AGO",
+        "roles": {
+          "EXTENT": "#V707328",
+          "FIGURE": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707328": {
+        "id": "V707328",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "AMOUNT": "#V707326",
+          "LEX": "DAYS",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707326": {
+        "id": "V707326",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V707314"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707314": {
+        "id": "V707314",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "LESS-THAN",
+        "roles": {
+          "FIGURE": "#V707326",
+          "GROUND": "#V707720"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707720": {
+        "id": "V707720",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "root": "#V708830"
+    },
+    {
+      "V710409": {
+        "id": "V710409",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V707376",
+          "LEX": "GUY"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707376": {
+        "id": "V707376",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LOCATION": "#V707385",
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707385": {
+        "id": "V707385",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V707443",
+          "FIGURE": "#V707376",
+          "LEX": "AT"
+        },
+        "start": 29,
+        "end": 38
+      },
+      "V707443": {
+        "id": "V707443",
+        "indicator": "A",
+        "type": "DRINKING-ESTABLISHMENT",
+        "word": "BAR",
+        "roles": {
+          "LEX": "BAR",
+          "WNSENSE": "bar%1:06:04::"
+        },
+        "start": 32,
+        "end": 38
+      },
+      "root": "#V710409"
+    },
+    {
+      "V709353": {
+        "id": "V709353",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V707558",
+          "FOCUS": "#V707657",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 69
+      },
+      "V707558": {
+        "id": "V707558",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "RUNNING-AWAY",
+        "roles": {
+          "AGENT": "#V707503",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 68
+      },
+      "V709029": {
+        "id": "V709029",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V707503",
+          "GROUND": "#V707458",
+          "LEX": "SAID"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707458": {
+        "id": "V707458",
+        "indicator": "F",
+        "type": "ENCODES-MESSAGE",
+        "word": "SAY",
+        "roles": {
+          "NEUTRAL1": "#V707503",
+          "MOD": "#V707474",
+          "WNSENSE": "say%2:42:00::"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707474": {
+        "id": "V707474",
+        "indicator": "F",
+        "type": "REASON-FOR",
+        "word": "WHY",
+        "roles": {
+          "GROUND": "#V707657",
+          "FIGURE": "#V707458",
+          "LEX": "WHY"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707657": {
+        "id": "V707657",
+        "indicator": "WH-TERM",
+        "type": "REASON",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHY",
+          "SUCHTHAT": "#V707474"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707503": {
+        "id": "V707503",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 51,
+        "end": 55
+      },
+      "root": "#V709353"
+    },
+    {
+      "V708830": {
+        "id": "V708830",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V708029": {
+        "id": "V708029",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MOD": "#V707333"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707333": {
+        "id": "V707333",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "AGO",
+        "roles": {
+          "EXTENT": "#V707328",
+          "FIGURE": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707328": {
+        "id": "V707328",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "AMOUNT": "#V707326",
+          "LEX": "DAYS",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707326": {
+        "id": "V707326",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V707314"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707314": {
+        "id": "V707314",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "LESS-THAN",
+        "roles": {
+          "FIGURE": "#V707326",
+          "GROUND": "#V707720"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707720": {
+        "id": "V707720",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "root": "#V708830"
+    },
+    {
+      "V710409": {
+        "id": "V710409",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V707376",
+          "LEX": "GUY"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707376": {
+        "id": "V707376",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LOCATION": "#V707385",
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707385": {
+        "id": "V707385",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V707443",
+          "FIGURE": "#V707376",
+          "LEX": "AT"
+        },
+        "start": 29,
+        "end": 38
+      },
+      "V707443": {
+        "id": "V707443",
+        "indicator": "A",
+        "type": "DRINKING-ESTABLISHMENT",
+        "word": "BAR",
+        "roles": {
+          "LEX": "BAR",
+          "WNSENSE": "bar%1:06:04::"
+        },
+        "start": 32,
+        "end": 38
+      },
+      "root": "#V710409"
+    },
+    {
+      "V709351": {
+        "id": "V709351",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V707564",
+          "FOCUS": "#V707657",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 69
+      },
+      "V707564": {
+        "id": "V707564",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "RUNNING-AWAY",
+        "roles": {
+          "AGENT": "#V707503",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 68
+      },
+      "V709025": {
+        "id": "V709025",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V707503",
+          "GROUND": "#V707455",
+          "LEX": "SAID"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707455": {
+        "id": "V707455",
+        "indicator": "F",
+        "type": "SAY",
+        "word": "SAY",
+        "roles": {
+          "NEUTRAL": "#V707503",
+          "MOD": "#V707474",
+          "WNSENSE": "say%2:32:01::"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707474": {
+        "id": "V707474",
+        "indicator": "F",
+        "type": "REASON-FOR",
+        "word": "WHY",
+        "roles": {
+          "GROUND": "#V707657",
+          "FIGURE": "#V707455",
+          "LEX": "WHY"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707657": {
+        "id": "V707657",
+        "indicator": "WH-TERM",
+        "type": "REASON",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHY",
+          "SUCHTHAT": "#V707474"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707503": {
+        "id": "V707503",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 51,
+        "end": 55
+      },
+      "root": "#V709351"
+    },
+    {
+      "V708830": {
+        "id": "V708830",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V708029": {
+        "id": "V708029",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MOD": "#V707333"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707333": {
+        "id": "V707333",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "AGO",
+        "roles": {
+          "EXTENT": "#V707328",
+          "FIGURE": "#V708029"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V707328": {
+        "id": "V707328",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "AMOUNT": "#V707326",
+          "LEX": "DAYS",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707326": {
+        "id": "V707326",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V707314"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707314": {
+        "id": "V707314",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "LESS-THAN",
+        "roles": {
+          "FIGURE": "#V707326",
+          "GROUND": "#V707720"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V707720": {
+        "id": "V707720",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "root": "#V708830"
+    },
+    {
+      "V710409": {
+        "id": "V710409",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V707376",
+          "LEX": "GUY"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707376": {
+        "id": "V707376",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LOCATION": "#V707385",
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V707385": {
+        "id": "V707385",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V707443",
+          "FIGURE": "#V707376",
+          "LEX": "AT"
+        },
+        "start": 29,
+        "end": 38
+      },
+      "V707443": {
+        "id": "V707443",
+        "indicator": "A",
+        "type": "DRINKING-ESTABLISHMENT",
+        "word": "BAR",
+        "roles": {
+          "LEX": "BAR",
+          "WNSENSE": "bar%1:06:04::"
+        },
+        "start": 32,
+        "end": 38
+      },
+      "root": "#V710409"
+    },
+    {
+      "V709349": {
+        "id": "V709349",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V707562",
+          "FOCUS": "#V707657",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 69
+      },
+      "V707562": {
+        "id": "V707562",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "RUNNING-AWAY",
+        "roles": {
+          "AGENT": "#V707503",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "RUNNING-AWAY"
+        },
+        "start": 38,
+        "end": 68
+      },
+      "V709025": {
+        "id": "V709025",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V707503",
+          "GROUND": "#V707455",
+          "LEX": "SAID"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707455": {
+        "id": "V707455",
+        "indicator": "F",
+        "type": "SAY",
+        "word": "SAY",
+        "roles": {
+          "NEUTRAL": "#V707503",
+          "MOD": "#V707474",
+          "WNSENSE": "say%2:32:01::"
+        },
+        "start": 38,
+        "end": 47
+      },
+      "V707474": {
+        "id": "V707474",
+        "indicator": "F",
+        "type": "REASON-FOR",
+        "word": "WHY",
+        "roles": {
+          "GROUND": "#V707657",
+          "FIGURE": "#V707455",
+          "LEX": "WHY"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707657": {
+        "id": "V707657",
+        "indicator": "WH-TERM",
+        "type": "REASON",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHY",
+          "SUCHTHAT": "#V707474"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V707503": {
+        "id": "V707503",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 51,
+        "end": 55
+      },
+      "root": "#V709349"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+143",
+    "*last-utt-id*=143  utt-id+143",
+    "*last-utt-id*=143  utt-id+143",
+    "*last-utt-id*=143  utt-id+NIL"
+  ]
+}

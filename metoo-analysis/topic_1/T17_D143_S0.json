@@ -1,0 +1,108 @@
+{
+  "parse": [
+    {
+      "V1621722": {
+        "id": "V1621722",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V1621402",
+          "FOCUS": "#V1621419",
+          "LEX": "CHOOSE"
+        },
+        "start": 0,
+        "end": 31
+      },
+      "V1621402": {
+        "id": "V1621402",
+        "indicator": "F",
+        "type": "SELECT",
+        "word": "CHOOSE",
+        "roles": {
+          "METHOD": "#V1621350",
+          "AGENT": "#V1621381",
+          "NEUTRAL": "#V1621409",
+          "MOD": "#V1621392",
+          "TENSE": "PRES",
+          "MODALITY": "(:* DO DO)",
+          "LEX": "CHOOSE",
+          "WNSENSE": "choose%2:31:00::"
+        },
+        "start": 0,
+        "end": 31
+      },
+      "V1621350": {
+        "id": "V1621350",
+        "indicator": "F",
+        "type": "BY-MEANS-OF",
+        "word": "HOW",
+        "roles": {
+          "GROUND": "#V1621419",
+          "FIGURE": "#V1621402",
+          "LEX": "HOW"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V1621419": {
+        "id": "V1621419",
+        "indicator": "WH-TERM",
+        "type": "METHOD",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOW",
+          "SUCHTHAT": "#V1621350"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V1621381": {
+        "id": "V1621381",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 7,
+        "end": 11
+      },
+      "V1621392": {
+        "id": "V1621392",
+        "indicator": "F",
+        "type": "MODIFIER",
+        "word": "EVEN",
+        "roles": {
+          "FIGURE": "#V1621402",
+          "LEX": "EVEN",
+          "WNSENSE": "even%4:02:00::"
+        },
+        "start": 11,
+        "end": 16
+      },
+      "V1621409": {
+        "id": "V1621409",
+        "indicator": "INDEF-SET",
+        "type": "COMPOSITION",
+        "word": "STORY",
+        "roles": {
+          "LEX": "STORIES",
+          "WNSENSE": "composition%1:07:01"
+        },
+        "start": 23,
+        "end": 31
+      },
+      "root": "#V1621722"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+283",
+    "*last-utt-id*=283  utt-id+NIL"
+  ]
+}

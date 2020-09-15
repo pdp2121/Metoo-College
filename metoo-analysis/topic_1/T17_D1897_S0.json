@@ -1,0 +1,253 @@
+{
+  "parse": [
+    {
+      "V1759445": {
+        "id": "V1759445",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1759329",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 76
+      },
+      "V1759329": {
+        "id": "V1759329",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V1757121",
+          "SEQUENCE1": "#V1757148",
+          "EXTENT": "#V1757466",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 76
+      },
+      "V1757148": {
+        "id": "V1757148",
+        "indicator": "F",
+        "type": "REFUSE",
+        "word": "REFUSE",
+        "roles": {
+          "AGENT": "#V1757116",
+          "REASON": "#V1757162",
+          "LEX": "REFUSED",
+          "WNSENSE": "refuse%2:40:01::"
+        },
+        "start": 0,
+        "end": 76
+      },
+      "V1757121": {
+        "id": "V1757121",
+        "indicator": "F",
+        "type": "ACQUIRE",
+        "word": "GRAB",
+        "roles": {
+          "AGENT": "#V1757116",
+          "AFFECTED": "#V1757124",
+          "RESULT": "#V1757140",
+          "LEX": "GRABBED",
+          "WNSENSE": "grab%2:40:00::"
+        },
+        "start": 0,
+        "end": 76
+      },
+      "V1757466": {
+        "id": "V1757466",
+        "indicator": "F",
+        "type": "EXTENT-PREDICATE",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1759329",
+          "GROUND": "#V1757464",
+          "LEX": "ELEVEN"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V1757464": {
+        "id": "V1757464",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "AMOUNT": "#V1757109",
+          "LEX": "ELEVEN"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V1757109": {
+        "id": "V1757109",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "11"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V1757116": {
+        "id": "V1757116",
+        "indicator": "BARE",
+        "type": "PERSON",
+        "word": "TEAMMATE",
+        "roles": {
+          "LEX": "TEAMMATE",
+          "WNSENSE": "teammate%1:18:00::"
+        },
+        "start": 5,
+        "end": 14
+      },
+      "V1757124": {
+        "id": "V1757124",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 22,
+        "end": 25
+      },
+      "V1757140": {
+        "id": "V1757140",
+        "indicator": "F",
+        "type": "BACK-OF",
+        "word": "BEHIND",
+        "roles": {
+          "GROUND": "#V1757665",
+          "FIGURE": "#V1757121",
+          "LEX": "BEHIND",
+          "WNSENSE": "behind%4:02:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1757665": {
+        "id": "V1757665",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "COREF": "#V1757464"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1757162": {
+        "id": "V1757162",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1757188",
+          "FIGURE": "#V1757148",
+          "LEX": "TO"
+        },
+        "start": 47,
+        "end": 76
+      },
+      "V1757188": {
+        "id": "V1757188",
+        "indicator": "F",
+        "type": "ALLOW",
+        "word": "LET",
+        "roles": {
+          "AFFECTED": "#V1757237",
+          "TIME": "#V1757282",
+          "VFORM": "BASE",
+          "LEX": "LET",
+          "WNSENSE": "let%2:41:00::"
+        },
+        "start": 50,
+        "end": 76
+      },
+      "V1757237": {
+        "id": "V1757237",
+        "indicator": "BARE",
+        "type": "BOARD-GAME",
+        "word": "GO",
+        "roles": {
+          "LEX": "GO",
+          "WNSENSE": "go%1:04:00::"
+        },
+        "start": 54,
+        "end": 57
+      },
+      "V1757282": {
+        "id": "V1757282",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "UNTIL",
+        "roles": {
+          "GROUND": "#V1757319",
+          "FIGURE": "#V1757188",
+          "LEX": "UNTIL"
+        },
+        "start": 57,
+        "end": 76
+      },
+      "V1757319": {
+        "id": "V1757319",
+        "indicator": "F",
+        "type": "KISSING",
+        "word": "KISS",
+        "roles": {
+          "AGENT": "#V1757305",
+          "AFFECTED": "#V1757324",
+          "TENSE": "PAST",
+          "LEX": "KISSED",
+          "WNSENSE": "kiss%2:35:00::"
+        },
+        "start": 63,
+        "end": 76
+      },
+      "V1757305": {
+        "id": "V1757305",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 63,
+        "end": 65
+      },
+      "V1757324": {
+        "id": "V1757324",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00",
+          "COREF": "#V1757116"
+        },
+        "start": 72,
+        "end": 76
+      },
+      "root": "#V1759445"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+317",
+    "*last-utt-id*=317  utt-id+NIL"
+  ]
+}

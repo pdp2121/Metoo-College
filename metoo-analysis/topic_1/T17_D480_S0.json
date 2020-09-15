@@ -1,0 +1,200 @@
+{
+  "parse": [
+    {
+      "V2560950": {
+        "id": "V2560950",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2560947",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 35
+      },
+      "V2560947": {
+        "id": "V2560947",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2555446"
+        },
+        "start": 0,
+        "end": 35
+      },
+      "V2555446": {
+        "id": "V2555446",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "ARNOLD",
+        "roles": {
+          "MOD": "#V2555490",
+          "LEX": "ARNOLD",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 35
+      },
+      "V2555490": {
+        "id": "V2555490",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "TIME": "#V2556323",
+          "MOD": [
+            "#V2555539",
+            "#V2555501"
+          ],
+          "NEUTRAL": "#V2555462",
+          "NEUTRAL1": "#V2555446",
+          "TENSE": "PRES",
+          "MODALITY": "(:* POSSIBILITY MAY)",
+          "LEX": "BE",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 7,
+        "end": 35
+      },
+      "V2555462": {
+        "id": "V2555462",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 7,
+        "end": 9
+      },
+      "V2555501": {
+        "id": "V2555501",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "QUALIFICATION": "#V2555508",
+          "FIGURE": "#V2555490",
+          "SCALE": "CORRECTNESS-SCALE",
+          "ORIENTATION": "NEG",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 16,
+        "end": 28
+      },
+      "V2555508": {
+        "id": "V2555508",
+        "indicator": "F",
+        "type": "BUT",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2555501",
+          "GROUND": "#V2556688"
+        },
+        "start": 16,
+        "end": 28
+      },
+      "V2556688": {
+        "id": "V2556688",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2555490",
+          "GROUND": "#V2556701"
+        },
+        "start": 26,
+        "end": 28
+      },
+      "V2556701": {
+        "id": "V2556701",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V2556227",
+          "LEX": "I"
+        },
+        "start": 26,
+        "end": 28
+      },
+      "V2556227": {
+        "id": "V2556227",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(I)",
+          "VAL": "(I)",
+          "LEX": "I"
+        },
+        "start": 26,
+        "end": 28
+      },
+      "V2555539": {
+        "id": "V2555539",
+        "indicator": "F",
+        "type": "HIGH-VAL",
+        "word": "HIGHLY",
+        "roles": {
+          "FIGURE": "#V2555490",
+          "SCALE": "DIMENSIONAL-SCALE",
+          "LEX": "HIGHLY",
+          "WNSENSE": "high%3:00:02"
+        },
+        "start": 28,
+        "end": 35
+      },
+      "V2556323": {
+        "id": "V2556323",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2555490",
+          "GROUND": "#V2556434"
+        },
+        "start": 35,
+        "end": 35
+      },
+      "V2556434": {
+        "id": "V2556434",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V2556169",
+          "LEX": "Q"
+        },
+        "start": 35,
+        "end": 35
+      },
+      "V2556169": {
+        "id": "V2556169",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(Q)",
+          "VAL": "(Q)",
+          "LEX": "Q"
+        },
+        "start": 35,
+        "end": 35
+      },
+      "root": "#V2560950"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yetReference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+458",
+    "*last-utt-id*=458  utt-id+NIL"
+  ]
+}

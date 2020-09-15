@@ -1,0 +1,95 @@
+{
+  "parse": [
+    {
+      "V2134012": {
+        "id": "V2134012",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "FREQUENCY": "#V2134465",
+          "TENSE": "PRES",
+          "LEX": "HAPPENS",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V2134465": {
+        "id": "V2134465",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2134012",
+          "GROUND": "#V2134332",
+          "LEX": "TIMES"
+        },
+        "start": 8,
+        "end": 30
+      },
+      "V2134332": {
+        "id": "V2134332",
+        "indicator": "A",
+        "type": "RATE",
+        "word": null,
+        "roles": {
+          "REPEATS": "#V2134026",
+          "OVER-PERIOD": "#V2134081",
+          "LEX": "TIMES"
+        },
+        "start": 8,
+        "end": 30
+      },
+      "V2134026": {
+        "id": "V2134026",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "AMOUNT": "PLURAL",
+          "MOD": "#V2134019",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 8,
+        "end": 23
+      },
+      "V2134019": {
+        "id": "V2134019",
+        "indicator": "F",
+        "type": "N-TUPLE-VAL",
+        "word": "MULTIPLE",
+        "roles": {
+          "FIGURE": "#V2134026",
+          "SCALE": "DOMAIN",
+          "LEX": "MULTIPLE",
+          "WNSENSE": "multiple%3:00:00::"
+        },
+        "start": 8,
+        "end": 17
+      },
+      "V2134081": {
+        "id": "V2134081",
+        "indicator": "A",
+        "type": "WEEK",
+        "word": "WEEK",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "WEEK",
+          "WNSENSE": "week%1:28:01::"
+        },
+        "start": 23,
+        "end": 30
+      },
+      "root": "#V2134012"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+410",
+    "*last-utt-id*=410  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "parse": [
+    {
+      "V90440": {
+        "id": "V90440",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V90437",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 20
+      },
+      "V90437": {
+        "id": "V90437",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V89751"
+        },
+        "start": 0,
+        "end": 20
+      },
+      "V89751": {
+        "id": "V89751",
+        "indicator": "THE",
+        "type": "ICON",
+        "word": "BUTTON",
+        "roles": {
+          "ASSOC-WITH1": "#V89721",
+          "ASSOC-WITH": "#V89745",
+          "LEX": "BUTTON",
+          "WNSENSE": "button%1:10:00::"
+        },
+        "start": 0,
+        "end": 20
+      },
+      "V89745": {
+        "id": "V89745",
+        "indicator": "KIND",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u201d",
+        "roles": {
+          "MOD": "#V89727",
+          "LEX": "\u201d",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 20
+      },
+      "V89721": {
+        "id": "V89721",
+        "indicator": "KIND",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u201c",
+        "roles": {
+          "LEX": "\u201c",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 20
+      },
+      "V89727": {
+        "id": "V89727",
+        "indicator": "F",
+        "type": "SIMILAR",
+        "word": "LIKE",
+        "roles": {
+          "FIGURE": "#V89745",
+          "SCALE": "SIMILAR-SCALE",
+          "LEX": "LIKE",
+          "WNSENSE": "like%5:00:00:same:00"
+        },
+        "start": 6,
+        "end": 11
+      },
+      "root": "#V90440"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+8",
+    "*last-utt-id*=8  utt-id+NIL"
+  ]
+}

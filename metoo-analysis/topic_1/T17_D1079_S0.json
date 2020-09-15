@@ -1,0 +1,152 @@
+{
+  "parse": [
+    {
+      "V1132480": {
+        "id": "V1132480",
+        "indicator": "SPEECHACT",
+        "type": "SA_YN-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1132478",
+          "PUNCTYPE": "YNQ",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 31
+      },
+      "V1132478": {
+        "id": "V1132478",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1132202"
+        },
+        "start": 0,
+        "end": 31
+      },
+      "V1132202": {
+        "id": "V1132202",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": [
+            "#V1132224",
+            "#V1132199"
+          ],
+          "LEX": "MEN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 0,
+        "end": 31
+      },
+      "V1132199": {
+        "id": "V1132199",
+        "indicator": "F",
+        "type": "MORE-VAL",
+        "word": ">",
+        "roles": {
+          "FIGURE": "#V1132202",
+          "SCALE": "DOMAIN",
+          "LEX": ">",
+          "WNSENSE": "better%3:00:00::"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1132224": {
+        "id": "V1132224",
+        "indicator": "F",
+        "type": "WANT",
+        "word": "WANT",
+        "roles": {
+          "EXPERIENCER": "#V1132214",
+          "FORMAL": "#V1132258",
+          "TENSE": "PRES",
+          "LEX": "WANT",
+          "WNSENSE": "want%2:37:00::"
+        },
+        "start": 6,
+        "end": 31
+      },
+      "V1132214": {
+        "id": "V1132214",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 6,
+        "end": 10
+      },
+      "V1132258": {
+        "id": "V1132258",
+        "indicator": "F",
+        "type": "CONTROL-MANAGE",
+        "word": "TREAT",
+        "roles": {
+          "AGENT": "#V1132214",
+          "AFFECTED": "#V1132202",
+          "EXTENT": "#V1132411",
+          "VFORM": "BASE",
+          "LEX": "TREAT",
+          "WNSENSE": "control%2:41:00"
+        },
+        "start": 15,
+        "end": 31
+      },
+      "V1132411": {
+        "id": "V1132411",
+        "indicator": "F",
+        "type": "EXTENT-PREDICATE",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1132258",
+          "GROUND": "#V1132412",
+          "LEX": "BETTER",
+          "WNSENSE": "better%3:00:00::"
+        },
+        "start": 24,
+        "end": 31
+      },
+      "V1132412": {
+        "id": "V1132412",
+        "indicator": "THE",
+        "type": "VALUE",
+        "word": null,
+        "roles": {
+          "MOD": "#V1132261"
+        },
+        "start": 24,
+        "end": 31
+      },
+      "V1132261": {
+        "id": "V1132261",
+        "indicator": "F",
+        "type": "MORE-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "MED",
+          "FIGURE": "#V1132412",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BETTER",
+          "WNSENSE": "better%3:00:00::"
+        },
+        "start": 24,
+        "end": 31
+      },
+      "root": "#V1132480"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+203",
+    "*last-utt-id*=203  utt-id+NIL"
+  ]
+}

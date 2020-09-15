@@ -1,0 +1,80 @@
+{
+  "parse": [
+    {
+      "V325621": {
+        "id": "V325621",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V325575",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V325575": {
+        "id": "V325575",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V325485",
+          "SEQUENCE1": "#V325493",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V325493": {
+        "id": "V325493",
+        "indicator": "F",
+        "type": "SOUND-EXPRESSION",
+        "word": "LAUGH",
+        "roles": {
+          "AGENT": "#V325463",
+          "LEX": "LAUGHED",
+          "WNSENSE": "laugh%2:29:00::"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V325485": {
+        "id": "V325485",
+        "indicator": "F",
+        "type": "EVOKE-SURPRISE",
+        "word": "SHOCK",
+        "roles": {
+          "AFFECTED": "#V325463",
+          "LEX": "SHOCKED",
+          "WNSENSE": "shock%1:11:01::"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V325463": {
+        "id": "V325463",
+        "indicator": "PRO-SET",
+        "type": "PERSON",
+        "word": "WE",
+        "roles": {
+          "PROFORM": "WE",
+          "LEX": "WE",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "US"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V325621"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+47",
+    "*last-utt-id*=47  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "parse": [
+    {
+      "V653030": {
+        "id": "V653030",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V648821",
+          "FOCUS": "#V648816",
+          "LEX": "ARE"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V648821": {
+        "id": "V648821",
+        "indicator": "F",
+        "type": "EXPECTATION",
+        "word": "BE",
+        "roles": {
+          "COMP3": "#V648894",
+          "NEUTRAL": "#V649007",
+          "FORMAL": "#V648894",
+          "TIME": "#V653019",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "expect%2:31:00"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V653019": {
+        "id": "V653019",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V648821",
+          "GROUND": "#V648816"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V648816": {
+        "id": "V648816",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V649007": {
+        "id": "V649007",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V648992",
+          "LEX": "THE"
+        },
+        "start": 8,
+        "end": 23
+      },
+      "V648992": {
+        "id": "V648992",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V649007",
+          "GROUND": "#V648851",
+          "DEGREE": "#V648844",
+          "LEX": "SCARED"
+        },
+        "start": 12,
+        "end": 23
+      },
+      "V648851": {
+        "id": "V648851",
+        "indicator": "F",
+        "type": "EVOKE-FEAR",
+        "word": "SCARE",
+        "roles": {
+          "AFFECTED": "#V649007",
+          "WNSENSE": "scare%2:37:00::"
+        },
+        "start": 12,
+        "end": 23
+      },
+      "V648844": {
+        "id": "V648844",
+        "indicator": "F",
+        "type": "DEGREE-MODIFIER-HIGH",
+        "word": "TOO",
+        "roles": {
+          "FIGURE": "#V648992",
+          "LEX": "TOO",
+          "WNSENSE": "too%4:02:00::"
+        },
+        "start": 12,
+        "end": 16
+      },
+      "V648894": {
+        "id": "V648894",
+        "indicator": "F",
+        "type": "SAY",
+        "word": "SAY",
+        "roles": {
+          "AGENT": "#V649007",
+          "VFORM": "BASE",
+          "LEX": "SAY",
+          "WNSENSE": "say%2:32:01::"
+        },
+        "start": 23,
+        "end": 28
+      },
+      "root": "#V653030"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+111",
+    "*last-utt-id*=111  utt-id+NIL"
+  ]
+}

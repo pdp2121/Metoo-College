@@ -1,0 +1,181 @@
+{
+  "parse": [
+    {
+      "V1261836": {
+        "id": "V1261836",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1260258",
+          "LEX": "FADED"
+        },
+        "start": 0,
+        "end": 80
+      },
+      "V1260258": {
+        "id": "V1260258",
+        "indicator": "F",
+        "type": "WEAKEN",
+        "word": "FADED",
+        "roles": {
+          "RESULT": "#V1260271",
+          "AFFECTED": "#V1260216",
+          "TENSE": "PAST",
+          "MODALITY": "(:* POSSIBILITY MAY)",
+          "PERF": "+",
+          "LEX": "FADED",
+          "WNSENSE": "weaken%2:30:00"
+        },
+        "start": 0,
+        "end": 80
+      },
+      "V1260216": {
+        "id": "V1260216",
+        "indicator": "THE",
+        "type": "FACT",
+        "word": "SPECIFICS",
+        "roles": {
+          "LEX": "SPECIFICS",
+          "WNSENSE": "fact%1:09:01"
+        },
+        "start": 0,
+        "end": 14
+      },
+      "V1260271": {
+        "id": "V1260271",
+        "indicator": "F",
+        "type": "ABOVE",
+        "word": "OVER",
+        "roles": {
+          "GROUND": "#V1261797",
+          "FIGURE": "#V1260216",
+          "LEX": "OVER",
+          "WNSENSE": "above%4:02:01"
+        },
+        "start": 29,
+        "end": 80
+      },
+      "V1261797": {
+        "id": "V1261797",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1260297"
+        },
+        "start": 34,
+        "end": 80
+      },
+      "V1260297": {
+        "id": "V1260297",
+        "indicator": "THE",
+        "type": "INSTRUCTION-EVENT",
+        "word": "COURSE",
+        "roles": {
+          "MOD": "#V1260301",
+          "LEX": "COURSE"
+        },
+        "start": 34,
+        "end": 80
+      },
+      "V1260301": {
+        "id": "V1260301",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V1260322",
+          "FIGURE": "#V1260297",
+          "LEX": "OF"
+        },
+        "start": 45,
+        "end": 80
+      },
+      "V1260322": {
+        "id": "V1260322",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V1260452",
+          "SEQUENCE1": "#V1260555",
+          "LEX": "PUNC-AND"
+        },
+        "start": 48,
+        "end": 80
+      },
+      "V1260452": {
+        "id": "V1260452",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1260316"
+        },
+        "start": 48,
+        "end": 58
+      },
+      "V1260316": {
+        "id": "V1260316",
+        "indicator": "THE-SET",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 48,
+        "end": 58
+      },
+      "V1260555": {
+        "id": "V1260555",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1260328"
+        },
+        "start": 60,
+        "end": 80
+      },
+      "V1260328": {
+        "id": "V1260328",
+        "indicator": "INDEF-SET",
+        "type": "STATUS",
+        "word": "SITUATION",
+        "roles": {
+          "MOD": "#V1260325",
+          "LEX": "SITUATIONS",
+          "WNSENSE": "situation%1:26:01::"
+        },
+        "start": 60,
+        "end": 80
+      },
+      "V1260325": {
+        "id": "V1260325",
+        "indicator": "F",
+        "type": "N-TUPLE-VAL",
+        "word": "MULTIPLE",
+        "roles": {
+          "FIGURE": "#V1260328",
+          "SCALE": "DOMAIN",
+          "LEX": "MULTIPLE",
+          "WNSENSE": "multiple%3:00:00::"
+        },
+        "start": 60,
+        "end": 69
+      },
+      "root": "#V1261836"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to sequences not reimplemented yet",
+    "*last-utt-id*=NIL  utt-id+218",
+    "*last-utt-id*=218  utt-id+NIL"
+  ]
+}

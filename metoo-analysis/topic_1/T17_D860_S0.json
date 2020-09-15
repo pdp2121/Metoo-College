@@ -1,0 +1,80 @@
+{
+  "parse": [
+    {
+      "V1175897": {
+        "id": "V1175897",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1175550",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V1175550": {
+        "id": "V1175550",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1175534",
+          "FORMAL": "#V1175617",
+          "TENSE": "PAST",
+          "LEX": "WAS",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V1175534": {
+        "id": "V1175534",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1175617": {
+        "id": "V1175617",
+        "indicator": "F",
+        "type": "AT-SCALE-VALUE",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1175534",
+          "GROUND": "#V1175564",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD"
+        },
+        "start": 6,
+        "end": 25
+      },
+      "V1175564": {
+        "id": "V1175564",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "13"
+        },
+        "start": 6,
+        "end": 25
+      },
+      "root": "#V1175897"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+235",
+    "*last-utt-id*=235  utt-id+NIL"
+  ]
+}

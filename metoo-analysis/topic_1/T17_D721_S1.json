@@ -1,0 +1,161 @@
+{
+  "parse": [
+    {
+      "V2392330": {
+        "id": "V2392330",
+        "indicator": "SPEECHACT",
+        "type": "SA_YN-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V2390457",
+          "LEX": "LET"
+        },
+        "start": 0,
+        "end": 54
+      },
+      "V2390457": {
+        "id": "V2390457",
+        "indicator": "F",
+        "type": "ALLOW",
+        "word": "LET",
+        "roles": {
+          "AGENT": "#V2390441",
+          "AFFECTED": "#V2390521",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "LET",
+          "WNSENSE": "let%2:41:00::"
+        },
+        "start": 0,
+        "end": 54
+      },
+      "V2390441": {
+        "id": "V2390441",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 6,
+        "end": 10
+      },
+      "V2390521": {
+        "id": "V2390521",
+        "indicator": "BARE",
+        "type": "FAMILY-RELATION",
+        "word": "DAUGHTER",
+        "roles": {
+          "ASSOC-WITH1": "#V2390494",
+          "ASSOC-WITH": "#V2391104",
+          "MOD": "#V2390516",
+          "LEX": "DAUGHTER",
+          "WNSENSE": "daughter%1:18:00::"
+        },
+        "start": 14,
+        "end": 54
+      },
+      "V2390494": {
+        "id": "V2390494",
+        "indicator": "KIND",
+        "type": "REFERENTIAL-SEM",
+        "word": "MOORE",
+        "roles": {
+          "ASSOC-WITH": "#V2390488",
+          "LEX": "MOORE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 14,
+        "end": 54
+      },
+      "V2390488": {
+        "id": "V2390488",
+        "indicator": "KIND",
+        "type": "REFERENTIAL-SEM",
+        "word": "ROY",
+        "roles": {
+          "LEX": "ROY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 14,
+        "end": 54
+      },
+      "V2391104": {
+        "id": "V2391104",
+        "indicator": "THE-SET",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V2391070",
+          "LEX": "FIFTEEN"
+        },
+        "start": 30,
+        "end": 41
+      },
+      "V2391070": {
+        "id": "V2391070",
+        "indicator": "THE",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V2390503",
+          "SEQUENCE1": "#V2390510",
+          "LEX": "FIFTEEN",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 30,
+        "end": 41
+      },
+      "V2390503": {
+        "id": "V2390503",
+        "indicator": "THE",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "NUMBER": "15",
+          "LEX": "FIFTEEN"
+        },
+        "start": 30,
+        "end": 34
+      },
+      "V2390510": {
+        "id": "V2390510",
+        "indicator": "BARE",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 36,
+        "end": 41
+      },
+      "V2390516": {
+        "id": "V2390516",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V2390521",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 41,
+        "end": 45
+      },
+      "root": "#V2392330"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yetReference resolution to sequences not reimplemented yet",
+    "*last-utt-id*=NIL  utt-id+451",
+    "*last-utt-id*=451  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "parse": [
+    {
+      "V59336": {
+        "id": "V59336",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V59178",
+          "LEX": "DOCTOR"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V59178": {
+        "id": "V59178",
+        "indicator": "THE",
+        "type": "HEALTH-PROFESSIONAL",
+        "word": "DOCTOR",
+        "roles": {
+          "ASSOC-WITH": "#V59173",
+          "LEX": "DOCTOR",
+          "WNSENSE": "doctor%1:18:00::"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V59173": {
+        "id": "V59173",
+        "indicator": "KIND",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "EMERGENCY-ROOM",
+        "roles": {
+          "LEX": "EMERGENCY-ROOM",
+          "WNSENSE": "emergency_room%1:06:00"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "root": "#V59336"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+3",
+    "*last-utt-id*=3  utt-id+NIL"
+  ]
+}

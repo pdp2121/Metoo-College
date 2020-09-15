@@ -1,0 +1,7634 @@
+{
+  "parse": [
+    {
+      "V1774431": {
+        "id": "V1774431",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "MOD": [
+            "#V1768101",
+            "#V1768108"
+          ],
+          "CONTENT": "#V1768128",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V1768101": {
+        "id": "V1768101",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "HOPEFUL",
+        "roles": {
+          "FIGURE": "#V1774431",
+          "LEX": "HOPEFULLY"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1768108": {
+        "id": "V1768108",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SOMEDAY",
+        "roles": {
+          "FIGURE": "#V1774431",
+          "LEX": "SOMEDAY",
+          "WNSENSE": "someday%4:02:00::"
+        },
+        "start": 10,
+        "end": 18
+      },
+      "V1768128": {
+        "id": "V1768128",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V1769191",
+          "SEQUENCE1": "#V1768755",
+          "LEX": "AND"
+        },
+        "start": 18,
+        "end": 39
+      },
+      "V1769191": {
+        "id": "V1769191",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1768119"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V1768119": {
+        "id": "V1768119",
+        "indicator": "THE",
+        "type": "PLANT-PART",
+        "word": "STIGMA",
+        "roles": {
+          "LEX": "STIGMA",
+          "WNSENSE": "stigma%1:20:00::"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V1768755": {
+        "id": "V1768755",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1768140"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "V1768140": {
+        "id": "V1768140",
+        "indicator": "BARE",
+        "type": "TROUBLE",
+        "word": "SHAME",
+        "roles": {
+          "LEX": "SHAME",
+          "WNSENSE": "shame%1:11:00::"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "root": "#V1774431"
+    },
+    {
+      "V1769507": {
+        "id": "V1769507",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768170",
+          "LEX": "LIFTED"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V1768170": {
+        "id": "V1768170",
+        "indicator": "F",
+        "type": "MOVE-UPWARD",
+        "word": "LIFT",
+        "roles": {
+          "AFFECTED": "#V1769508",
+          "TENSE": "FUT",
+          "MODALITY": "(:* FUTURE WILL)",
+          "PASSIVE": "+",
+          "LEX": "LIFTED",
+          "WNSENSE": "lift%2:38:00::"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V1769508": {
+        "id": "V1769508",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ",
+          "COREF": "#V1769191"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "root": "#V1769507"
+    },
+    {
+      "V1768728": {
+        "id": "V1768728",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768187",
+          "MOD": "#V1768178",
+          "LEX": "THOSE"
+        },
+        "start": 54,
+        "end": 64
+      },
+      "V1768178": {
+        "id": "V1768178",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1768728",
+          "LEX": "AND"
+        },
+        "start": 54,
+        "end": 58
+      },
+      "V1768187": {
+        "id": "V1768187",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THOSE",
+        "roles": {
+          "PROFORM": "THOSE",
+          "LEX": "THOSE",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V1768128"
+        },
+        "start": 58,
+        "end": 64
+      },
+      "root": "#V1768728"
+    },
+    {
+      "V1769463": {
+        "id": "V1769463",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768198",
+          "FOCUS": "#V1768191",
+          "LEX": "ARE"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768198": {
+        "id": "V1768198",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1768191",
+          "FORMAL": "#V1768212",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768191": {
+        "id": "V1768191",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 68
+      },
+      "V1768212": {
+        "id": "V1768212",
+        "indicator": "F",
+        "type": "CULPABLE-VAL",
+        "word": "GUILTY",
+        "roles": {
+          "FIGURE": "#V1768191",
+          "SCALE": "DOMAIN",
+          "LEX": "GUILTY",
+          "WNSENSE": "guilty%3:00:00::"
+        },
+        "start": 72,
+        "end": 79
+      },
+      "root": "#V1769463"
+    },
+    {
+      "V1771070": {
+        "id": "V1771070",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1768226",
+          "LEX": "ARE"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1768226": {
+        "id": "V1768226",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1771071",
+          "FORMAL": "#V1770332",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1771071": {
+        "id": "V1771071",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ",
+          "COREF": "#V1769191"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1770332": {
+        "id": "V1770332",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1771071",
+          "GROUND": "#V1768245",
+          "LEX": "HELD"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768245": {
+        "id": "V1768245",
+        "indicator": "F",
+        "type": "BODY-MANIPULATION",
+        "word": "HOLD",
+        "roles": {
+          "RESULT": "#V1768259",
+          "AFFECTED": "#V1771071",
+          "TIME": "#V1768239",
+          "WNSENSE": "hold%2:35:00::"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768239": {
+        "id": "V1768239",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": "FOREVER",
+        "roles": {
+          "FIGURE": "#V1768245",
+          "LEX": "FOREVER",
+          "WNSENSE": "forever%4:02:00::"
+        },
+        "start": 83,
+        "end": 91
+      },
+      "V1768259": {
+        "id": "V1768259",
+        "indicator": "F",
+        "type": "RESPONSIBLE-VAL",
+        "word": "ACCOUNTABLE",
+        "roles": {
+          "GROUND": "#V1768292",
+          "ORIENTATION": "POS",
+          "FIGURE": "#V1771071",
+          "SCALE": "RESPONSIBILITY-SCALE",
+          "LEX": "ACCOUNTABLE",
+          "WNSENSE": "accountable%5:00:00:responsible:00"
+        },
+        "start": 96,
+        "end": 132
+      },
+      "V1768292": {
+        "id": "V1768292",
+        "indicator": "WH-TERM",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V1768308",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 108,
+        "end": 132
+      },
+      "V1768308": {
+        "id": "V1768308",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V1768299",
+          "AFFECTED": "#V1768292",
+          "FORMAL": "#V1768331",
+          "TENSE": "PRES",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 117,
+        "end": 132
+      },
+      "V1768299": {
+        "id": "V1768299",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V1768128"
+        },
+        "start": 117,
+        "end": 122
+      },
+      "V1768331": {
+        "id": "V1768331",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V1768292",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 127,
+        "end": 132
+      },
+      "root": "#V1771070"
+    },
+    {
+      "V1774431": {
+        "id": "V1774431",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "MOD": [
+            "#V1768101",
+            "#V1768108"
+          ],
+          "CONTENT": "#V1768128",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V1768101": {
+        "id": "V1768101",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "HOPEFUL",
+        "roles": {
+          "FIGURE": "#V1774431",
+          "LEX": "HOPEFULLY"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1768108": {
+        "id": "V1768108",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SOMEDAY",
+        "roles": {
+          "FIGURE": "#V1774431",
+          "LEX": "SOMEDAY",
+          "WNSENSE": "someday%4:02:00::"
+        },
+        "start": 10,
+        "end": 18
+      },
+      "V1768128": {
+        "id": "V1768128",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V1769191",
+          "SEQUENCE1": "#V1768755",
+          "LEX": "AND"
+        },
+        "start": 18,
+        "end": 39
+      },
+      "V1769191": {
+        "id": "V1769191",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1768119"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V1768119": {
+        "id": "V1768119",
+        "indicator": "THE",
+        "type": "PLANT-PART",
+        "word": "STIGMA",
+        "roles": {
+          "LEX": "STIGMA",
+          "WNSENSE": "stigma%1:20:00::"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V1768755": {
+        "id": "V1768755",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1768140"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "V1768140": {
+        "id": "V1768140",
+        "indicator": "BARE",
+        "type": "TROUBLE",
+        "word": "SHAME",
+        "roles": {
+          "LEX": "SHAME",
+          "WNSENSE": "shame%1:11:00::"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "root": "#V1774431"
+    },
+    {
+      "V1769507": {
+        "id": "V1769507",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768170",
+          "LEX": "LIFTED"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V1768170": {
+        "id": "V1768170",
+        "indicator": "F",
+        "type": "MOVE-UPWARD",
+        "word": "LIFT",
+        "roles": {
+          "AFFECTED": "#V1769508",
+          "TENSE": "FUT",
+          "MODALITY": "(:* FUTURE WILL)",
+          "PASSIVE": "+",
+          "LEX": "LIFTED",
+          "WNSENSE": "lift%2:38:00::"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V1769508": {
+        "id": "V1769508",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "root": "#V1769507"
+    },
+    {
+      "V1768728": {
+        "id": "V1768728",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768187",
+          "MOD": "#V1768178",
+          "LEX": "THOSE"
+        },
+        "start": 54,
+        "end": 64
+      },
+      "V1768178": {
+        "id": "V1768178",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1768728",
+          "LEX": "AND"
+        },
+        "start": 54,
+        "end": 58
+      },
+      "V1768187": {
+        "id": "V1768187",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THOSE",
+        "roles": {
+          "PROFORM": "THOSE",
+          "LEX": "THOSE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 58,
+        "end": 64
+      },
+      "root": "#V1768728"
+    },
+    {
+      "V1769463": {
+        "id": "V1769463",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768198",
+          "FOCUS": "#V1768191",
+          "LEX": "ARE"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768198": {
+        "id": "V1768198",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1768191",
+          "FORMAL": "#V1768212",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768191": {
+        "id": "V1768191",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 68
+      },
+      "V1768212": {
+        "id": "V1768212",
+        "indicator": "F",
+        "type": "CULPABLE-VAL",
+        "word": "GUILTY",
+        "roles": {
+          "FIGURE": "#V1768191",
+          "SCALE": "DOMAIN",
+          "LEX": "GUILTY",
+          "WNSENSE": "guilty%3:00:00::"
+        },
+        "start": 72,
+        "end": 79
+      },
+      "root": "#V1769463"
+    },
+    {
+      "V1771067": {
+        "id": "V1771067",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1768226",
+          "LEX": "ARE"
+        },
+        "start": 79,
+        "end": 133
+      },
+      "V1768226": {
+        "id": "V1768226",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1771068",
+          "FORMAL": "#V1770328",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1771068": {
+        "id": "V1771068",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1770328": {
+        "id": "V1770328",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1771068",
+          "GROUND": "#V1768245",
+          "LEX": "HELD"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768245": {
+        "id": "V1768245",
+        "indicator": "F",
+        "type": "BODY-MANIPULATION",
+        "word": "HOLD",
+        "roles": {
+          "RESULT": "#V1768259",
+          "AFFECTED": "#V1771068",
+          "TIME": "#V1768239",
+          "WNSENSE": "hold%2:35:00::"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768239": {
+        "id": "V1768239",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": "FOREVER",
+        "roles": {
+          "FIGURE": "#V1768245",
+          "LEX": "FOREVER",
+          "WNSENSE": "forever%4:02:00::"
+        },
+        "start": 83,
+        "end": 91
+      },
+      "V1768259": {
+        "id": "V1768259",
+        "indicator": "F",
+        "type": "RESPONSIBLE-VAL",
+        "word": "ACCOUNTABLE",
+        "roles": {
+          "GROUND": "#V1768293",
+          "ORIENTATION": "POS",
+          "FIGURE": "#V1771068",
+          "SCALE": "RESPONSIBILITY-SCALE",
+          "LEX": "ACCOUNTABLE",
+          "WNSENSE": "accountable%5:00:00:responsible:00"
+        },
+        "start": 96,
+        "end": 132
+      },
+      "V1768293": {
+        "id": "V1768293",
+        "indicator": "WH-TERM-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V1768308",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 108,
+        "end": 132
+      },
+      "V1768308": {
+        "id": "V1768308",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V1768299",
+          "AFFECTED": "#V1768293",
+          "FORMAL": "#V1768331",
+          "TENSE": "PRES",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 117,
+        "end": 132
+      },
+      "V1768299": {
+        "id": "V1768299",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 117,
+        "end": 122
+      },
+      "V1768331": {
+        "id": "V1768331",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V1768293",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 127,
+        "end": 132
+      },
+      "root": "#V1771067"
+    },
+    {
+      "V1774431": {
+        "id": "V1774431",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "MOD": [
+            "#V1768101",
+            "#V1768108"
+          ],
+          "CONTENT": "#V1768128",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V1768101": {
+        "id": "V1768101",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "HOPEFUL",
+        "roles": {
+          "FIGURE": "#V1774431",
+          "LEX": "HOPEFULLY"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1768108": {
+        "id": "V1768108",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SOMEDAY",
+        "roles": {
+          "FIGURE": "#V1774431",
+          "LEX": "SOMEDAY",
+          "WNSENSE": "someday%4:02:00::"
+        },
+        "start": 10,
+        "end": 18
+      },
+      "V1768128": {
+        "id": "V1768128",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V1769191",
+          "SEQUENCE1": "#V1768755",
+          "LEX": "AND"
+        },
+        "start": 18,
+        "end": 39
+      },
+      "V1769191": {
+        "id": "V1769191",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1768119"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V1768119": {
+        "id": "V1768119",
+        "indicator": "THE",
+        "type": "PLANT-PART",
+        "word": "STIGMA",
+        "roles": {
+          "LEX": "STIGMA",
+          "WNSENSE": "stigma%1:20:00::"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V1768755": {
+        "id": "V1768755",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1768140"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "V1768140": {
+        "id": "V1768140",
+        "indicator": "BARE",
+        "type": "TROUBLE",
+        "word": "SHAME",
+        "roles": {
+          "LEX": "SHAME",
+          "WNSENSE": "shame%1:11:00::"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "root": "#V1774431"
+    },
+    {
+      "V1769507": {
+        "id": "V1769507",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768170",
+          "LEX": "LIFTED"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V1768170": {
+        "id": "V1768170",
+        "indicator": "F",
+        "type": "MOVE-UPWARD",
+        "word": "LIFT",
+        "roles": {
+          "AFFECTED": "#V1769508",
+          "TENSE": "FUT",
+          "MODALITY": "(:* FUTURE WILL)",
+          "PASSIVE": "+",
+          "LEX": "LIFTED",
+          "WNSENSE": "lift%2:38:00::"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V1769508": {
+        "id": "V1769508",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "root": "#V1769507"
+    },
+    {
+      "V1768728": {
+        "id": "V1768728",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768187",
+          "MOD": "#V1768178",
+          "LEX": "THOSE"
+        },
+        "start": 54,
+        "end": 64
+      },
+      "V1768178": {
+        "id": "V1768178",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1768728",
+          "LEX": "AND"
+        },
+        "start": 54,
+        "end": 58
+      },
+      "V1768187": {
+        "id": "V1768187",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THOSE",
+        "roles": {
+          "PROFORM": "THOSE",
+          "LEX": "THOSE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 58,
+        "end": 64
+      },
+      "root": "#V1768728"
+    },
+    {
+      "V1769463": {
+        "id": "V1769463",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768198",
+          "FOCUS": "#V1768191",
+          "LEX": "ARE"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768198": {
+        "id": "V1768198",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1768191",
+          "FORMAL": "#V1768212",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768191": {
+        "id": "V1768191",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 68
+      },
+      "V1768212": {
+        "id": "V1768212",
+        "indicator": "F",
+        "type": "CULPABLE-VAL",
+        "word": "GUILTY",
+        "roles": {
+          "FIGURE": "#V1768191",
+          "SCALE": "DOMAIN",
+          "LEX": "GUILTY",
+          "WNSENSE": "guilty%3:00:00::"
+        },
+        "start": 72,
+        "end": 79
+      },
+      "root": "#V1769463"
+    },
+    {
+      "V1771091": {
+        "id": "V1771091",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1768226",
+          "LEX": "ARE"
+        },
+        "start": 79,
+        "end": 133
+      },
+      "V1768226": {
+        "id": "V1768226",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1771092",
+          "FORMAL": "#V1770403",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1771092": {
+        "id": "V1771092",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1770403": {
+        "id": "V1770403",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1771092",
+          "GROUND": "#V1768245",
+          "LEX": "HELD"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768245": {
+        "id": "V1768245",
+        "indicator": "F",
+        "type": "BODY-MANIPULATION",
+        "word": "HOLD",
+        "roles": {
+          "RESULT": "#V1768259",
+          "AFFECTED": "#V1771092",
+          "TIME": "#V1768239",
+          "WNSENSE": "hold%2:35:00::"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768239": {
+        "id": "V1768239",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": "FOREVER",
+        "roles": {
+          "FIGURE": "#V1768245",
+          "LEX": "FOREVER",
+          "WNSENSE": "forever%4:02:00::"
+        },
+        "start": 83,
+        "end": 91
+      },
+      "V1768259": {
+        "id": "V1768259",
+        "indicator": "F",
+        "type": "RESPONSIBLE-VAL",
+        "word": "ACCOUNTABLE",
+        "roles": {
+          "GROUND": "#V1768292",
+          "ORIENTATION": "POS",
+          "FIGURE": "#V1771092",
+          "SCALE": "RESPONSIBILITY-SCALE",
+          "LEX": "ACCOUNTABLE",
+          "WNSENSE": "accountable%5:00:00:responsible:00"
+        },
+        "start": 96,
+        "end": 132
+      },
+      "V1768292": {
+        "id": "V1768292",
+        "indicator": "WH-TERM",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V1768331",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 108,
+        "end": 132
+      },
+      "V1768331": {
+        "id": "V1768331",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "AGENT": "#V1768299",
+          "NEUTRAL": "#V1768292",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 117,
+        "end": 132
+      },
+      "V1768299": {
+        "id": "V1768299",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 117,
+        "end": 122
+      },
+      "root": "#V1771091"
+    },
+    {
+      "V1774431": {
+        "id": "V1774431",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "MOD": [
+            "#V1768101",
+            "#V1768108"
+          ],
+          "CONTENT": "#V1768128",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V1768101": {
+        "id": "V1768101",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "HOPEFUL",
+        "roles": {
+          "FIGURE": "#V1774431",
+          "LEX": "HOPEFULLY"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1768108": {
+        "id": "V1768108",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SOMEDAY",
+        "roles": {
+          "FIGURE": "#V1774431",
+          "LEX": "SOMEDAY",
+          "WNSENSE": "someday%4:02:00::"
+        },
+        "start": 10,
+        "end": 18
+      },
+      "V1768128": {
+        "id": "V1768128",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V1769191",
+          "SEQUENCE1": "#V1768755",
+          "LEX": "AND"
+        },
+        "start": 18,
+        "end": 39
+      },
+      "V1769191": {
+        "id": "V1769191",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1768119"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V1768119": {
+        "id": "V1768119",
+        "indicator": "THE",
+        "type": "PLANT-PART",
+        "word": "STIGMA",
+        "roles": {
+          "LEX": "STIGMA",
+          "WNSENSE": "stigma%1:20:00::"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V1768755": {
+        "id": "V1768755",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1768140"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "V1768140": {
+        "id": "V1768140",
+        "indicator": "BARE",
+        "type": "TROUBLE",
+        "word": "SHAME",
+        "roles": {
+          "LEX": "SHAME",
+          "WNSENSE": "shame%1:11:00::"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "root": "#V1774431"
+    },
+    {
+      "V1769507": {
+        "id": "V1769507",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768170",
+          "LEX": "LIFTED"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V1768170": {
+        "id": "V1768170",
+        "indicator": "F",
+        "type": "MOVE-UPWARD",
+        "word": "LIFT",
+        "roles": {
+          "AFFECTED": "#V1769508",
+          "TENSE": "FUT",
+          "MODALITY": "(:* FUTURE WILL)",
+          "PASSIVE": "+",
+          "LEX": "LIFTED",
+          "WNSENSE": "lift%2:38:00::"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V1769508": {
+        "id": "V1769508",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "root": "#V1769507"
+    },
+    {
+      "V1768728": {
+        "id": "V1768728",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768187",
+          "MOD": "#V1768178",
+          "LEX": "THOSE"
+        },
+        "start": 54,
+        "end": 64
+      },
+      "V1768178": {
+        "id": "V1768178",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1768728",
+          "LEX": "AND"
+        },
+        "start": 54,
+        "end": 58
+      },
+      "V1768187": {
+        "id": "V1768187",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THOSE",
+        "roles": {
+          "PROFORM": "THOSE",
+          "LEX": "THOSE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 58,
+        "end": 64
+      },
+      "root": "#V1768728"
+    },
+    {
+      "V1769463": {
+        "id": "V1769463",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768198",
+          "FOCUS": "#V1768191",
+          "LEX": "ARE"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768198": {
+        "id": "V1768198",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1768191",
+          "FORMAL": "#V1768212",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768191": {
+        "id": "V1768191",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 68
+      },
+      "V1768212": {
+        "id": "V1768212",
+        "indicator": "F",
+        "type": "CULPABLE-VAL",
+        "word": "GUILTY",
+        "roles": {
+          "FIGURE": "#V1768191",
+          "SCALE": "DOMAIN",
+          "LEX": "GUILTY",
+          "WNSENSE": "guilty%3:00:00::"
+        },
+        "start": 72,
+        "end": 79
+      },
+      "root": "#V1769463"
+    },
+    {
+      "V1771088": {
+        "id": "V1771088",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1768226",
+          "LEX": "ARE"
+        },
+        "start": 79,
+        "end": 133
+      },
+      "V1768226": {
+        "id": "V1768226",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1771089",
+          "FORMAL": "#V1770399",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1771089": {
+        "id": "V1771089",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1770399": {
+        "id": "V1770399",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1771089",
+          "GROUND": "#V1768245",
+          "LEX": "HELD"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768245": {
+        "id": "V1768245",
+        "indicator": "F",
+        "type": "BODY-MANIPULATION",
+        "word": "HOLD",
+        "roles": {
+          "RESULT": "#V1768259",
+          "AFFECTED": "#V1771089",
+          "TIME": "#V1768239",
+          "WNSENSE": "hold%2:35:00::"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768239": {
+        "id": "V1768239",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": "FOREVER",
+        "roles": {
+          "FIGURE": "#V1768245",
+          "LEX": "FOREVER",
+          "WNSENSE": "forever%4:02:00::"
+        },
+        "start": 83,
+        "end": 91
+      },
+      "V1768259": {
+        "id": "V1768259",
+        "indicator": "F",
+        "type": "RESPONSIBLE-VAL",
+        "word": "ACCOUNTABLE",
+        "roles": {
+          "GROUND": "#V1768293",
+          "ORIENTATION": "POS",
+          "FIGURE": "#V1771089",
+          "SCALE": "RESPONSIBILITY-SCALE",
+          "LEX": "ACCOUNTABLE",
+          "WNSENSE": "accountable%5:00:00:responsible:00"
+        },
+        "start": 96,
+        "end": 132
+      },
+      "V1768293": {
+        "id": "V1768293",
+        "indicator": "WH-TERM-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V1768331",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 108,
+        "end": 132
+      },
+      "V1768331": {
+        "id": "V1768331",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "AGENT": "#V1768299",
+          "NEUTRAL": "#V1768293",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 117,
+        "end": 132
+      },
+      "V1768299": {
+        "id": "V1768299",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 117,
+        "end": 122
+      },
+      "root": "#V1771088"
+    },
+    {
+      "V1769460": {
+        "id": "V1769460",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "MOD": [
+            "#V1768101",
+            "#V1768108"
+          ],
+          "CONTENT": "#V1768119",
+          "LEX": "STIGMA"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V1768101": {
+        "id": "V1768101",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "HOPEFUL",
+        "roles": {
+          "FIGURE": "#V1769460",
+          "LEX": "HOPEFULLY"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1768108": {
+        "id": "V1768108",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SOMEDAY",
+        "roles": {
+          "FIGURE": "#V1769460",
+          "LEX": "SOMEDAY",
+          "WNSENSE": "someday%4:02:00::"
+        },
+        "start": 10,
+        "end": 18
+      },
+      "V1768119": {
+        "id": "V1768119",
+        "indicator": "THE",
+        "type": "PLANT-PART",
+        "word": "STIGMA",
+        "roles": {
+          "LEX": "STIGMA",
+          "WNSENSE": "stigma%1:20:00::"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "root": "#V1769460"
+    },
+    {
+      "V1769799": {
+        "id": "V1769799",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768170",
+          "MOD": "#V1768129",
+          "LEX": "LIFTED"
+        },
+        "start": 29,
+        "end": 54
+      },
+      "V1768129": {
+        "id": "V1768129",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1769799",
+          "LEX": "AND"
+        },
+        "start": 29,
+        "end": 33
+      },
+      "V1768170": {
+        "id": "V1768170",
+        "indicator": "F",
+        "type": "MOVE-UPWARD",
+        "word": "LIFT",
+        "roles": {
+          "AFFECTED": "#V1768140",
+          "TENSE": "FUT",
+          "MODALITY": "(:* FUTURE WILL)",
+          "PASSIVE": "+",
+          "LEX": "LIFTED",
+          "WNSENSE": "lift%2:38:00::"
+        },
+        "start": 33,
+        "end": 54
+      },
+      "V1768140": {
+        "id": "V1768140",
+        "indicator": "BARE",
+        "type": "TROUBLE",
+        "word": "SHAME",
+        "roles": {
+          "LEX": "SHAME",
+          "WNSENSE": "shame%1:11:00::"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "root": "#V1769799"
+    },
+    {
+      "V1768728": {
+        "id": "V1768728",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768187",
+          "MOD": "#V1768178",
+          "LEX": "THOSE"
+        },
+        "start": 54,
+        "end": 64
+      },
+      "V1768178": {
+        "id": "V1768178",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1768728",
+          "LEX": "AND"
+        },
+        "start": 54,
+        "end": 58
+      },
+      "V1768187": {
+        "id": "V1768187",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THOSE",
+        "roles": {
+          "PROFORM": "THOSE",
+          "LEX": "THOSE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 58,
+        "end": 64
+      },
+      "root": "#V1768728"
+    },
+    {
+      "V1769463": {
+        "id": "V1769463",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768198",
+          "FOCUS": "#V1768191",
+          "LEX": "ARE"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768198": {
+        "id": "V1768198",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1768191",
+          "FORMAL": "#V1768212",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768191": {
+        "id": "V1768191",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 68
+      },
+      "V1768212": {
+        "id": "V1768212",
+        "indicator": "F",
+        "type": "CULPABLE-VAL",
+        "word": "GUILTY",
+        "roles": {
+          "FIGURE": "#V1768191",
+          "SCALE": "DOMAIN",
+          "LEX": "GUILTY",
+          "WNSENSE": "guilty%3:00:00::"
+        },
+        "start": 72,
+        "end": 79
+      },
+      "root": "#V1769463"
+    },
+    {
+      "V1771070": {
+        "id": "V1771070",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1768226",
+          "LEX": "ARE"
+        },
+        "start": 79,
+        "end": 133
+      },
+      "V1768226": {
+        "id": "V1768226",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1771071",
+          "FORMAL": "#V1770332",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1771071": {
+        "id": "V1771071",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1770332": {
+        "id": "V1770332",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1771071",
+          "GROUND": "#V1768245",
+          "LEX": "HELD"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768245": {
+        "id": "V1768245",
+        "indicator": "F",
+        "type": "BODY-MANIPULATION",
+        "word": "HOLD",
+        "roles": {
+          "RESULT": "#V1768259",
+          "AFFECTED": "#V1771071",
+          "TIME": "#V1768239",
+          "WNSENSE": "hold%2:35:00::"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768239": {
+        "id": "V1768239",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": "FOREVER",
+        "roles": {
+          "FIGURE": "#V1768245",
+          "LEX": "FOREVER",
+          "WNSENSE": "forever%4:02:00::"
+        },
+        "start": 83,
+        "end": 91
+      },
+      "V1768259": {
+        "id": "V1768259",
+        "indicator": "F",
+        "type": "RESPONSIBLE-VAL",
+        "word": "ACCOUNTABLE",
+        "roles": {
+          "GROUND": "#V1768292",
+          "ORIENTATION": "POS",
+          "FIGURE": "#V1771071",
+          "SCALE": "RESPONSIBILITY-SCALE",
+          "LEX": "ACCOUNTABLE",
+          "WNSENSE": "accountable%5:00:00:responsible:00"
+        },
+        "start": 96,
+        "end": 132
+      },
+      "V1768292": {
+        "id": "V1768292",
+        "indicator": "WH-TERM",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V1768308",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 108,
+        "end": 132
+      },
+      "V1768308": {
+        "id": "V1768308",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V1768299",
+          "AFFECTED": "#V1768292",
+          "FORMAL": "#V1768331",
+          "TENSE": "PRES",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 117,
+        "end": 132
+      },
+      "V1768299": {
+        "id": "V1768299",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 117,
+        "end": 122
+      },
+      "V1768331": {
+        "id": "V1768331",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V1768292",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 127,
+        "end": 132
+      },
+      "root": "#V1771070"
+    },
+    {
+      "V1769460": {
+        "id": "V1769460",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "MOD": [
+            "#V1768101",
+            "#V1768108"
+          ],
+          "CONTENT": "#V1768119",
+          "LEX": "STIGMA"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V1768101": {
+        "id": "V1768101",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "HOPEFUL",
+        "roles": {
+          "FIGURE": "#V1769460",
+          "LEX": "HOPEFULLY"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1768108": {
+        "id": "V1768108",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SOMEDAY",
+        "roles": {
+          "FIGURE": "#V1769460",
+          "LEX": "SOMEDAY",
+          "WNSENSE": "someday%4:02:00::"
+        },
+        "start": 10,
+        "end": 18
+      },
+      "V1768119": {
+        "id": "V1768119",
+        "indicator": "THE",
+        "type": "PLANT-PART",
+        "word": "STIGMA",
+        "roles": {
+          "LEX": "STIGMA",
+          "WNSENSE": "stigma%1:20:00::"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "root": "#V1769460"
+    },
+    {
+      "V1769799": {
+        "id": "V1769799",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768170",
+          "MOD": "#V1768129",
+          "LEX": "LIFTED"
+        },
+        "start": 29,
+        "end": 54
+      },
+      "V1768129": {
+        "id": "V1768129",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1769799",
+          "LEX": "AND"
+        },
+        "start": 29,
+        "end": 33
+      },
+      "V1768170": {
+        "id": "V1768170",
+        "indicator": "F",
+        "type": "MOVE-UPWARD",
+        "word": "LIFT",
+        "roles": {
+          "AFFECTED": "#V1768140",
+          "TENSE": "FUT",
+          "MODALITY": "(:* FUTURE WILL)",
+          "PASSIVE": "+",
+          "LEX": "LIFTED",
+          "WNSENSE": "lift%2:38:00::"
+        },
+        "start": 33,
+        "end": 54
+      },
+      "V1768140": {
+        "id": "V1768140",
+        "indicator": "BARE",
+        "type": "TROUBLE",
+        "word": "SHAME",
+        "roles": {
+          "LEX": "SHAME",
+          "WNSENSE": "shame%1:11:00::"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "root": "#V1769799"
+    },
+    {
+      "V1768728": {
+        "id": "V1768728",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768187",
+          "MOD": "#V1768178",
+          "LEX": "THOSE"
+        },
+        "start": 54,
+        "end": 64
+      },
+      "V1768178": {
+        "id": "V1768178",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1768728",
+          "LEX": "AND"
+        },
+        "start": 54,
+        "end": 58
+      },
+      "V1768187": {
+        "id": "V1768187",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THOSE",
+        "roles": {
+          "PROFORM": "THOSE",
+          "LEX": "THOSE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 58,
+        "end": 64
+      },
+      "root": "#V1768728"
+    },
+    {
+      "V1769463": {
+        "id": "V1769463",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768198",
+          "FOCUS": "#V1768191",
+          "LEX": "ARE"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768198": {
+        "id": "V1768198",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1768191",
+          "FORMAL": "#V1768212",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768191": {
+        "id": "V1768191",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 68
+      },
+      "V1768212": {
+        "id": "V1768212",
+        "indicator": "F",
+        "type": "CULPABLE-VAL",
+        "word": "GUILTY",
+        "roles": {
+          "FIGURE": "#V1768191",
+          "SCALE": "DOMAIN",
+          "LEX": "GUILTY",
+          "WNSENSE": "guilty%3:00:00::"
+        },
+        "start": 72,
+        "end": 79
+      },
+      "root": "#V1769463"
+    },
+    {
+      "V1771067": {
+        "id": "V1771067",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1768226",
+          "LEX": "ARE"
+        },
+        "start": 79,
+        "end": 133
+      },
+      "V1768226": {
+        "id": "V1768226",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1771068",
+          "FORMAL": "#V1770328",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1771068": {
+        "id": "V1771068",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1770328": {
+        "id": "V1770328",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1771068",
+          "GROUND": "#V1768245",
+          "LEX": "HELD"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768245": {
+        "id": "V1768245",
+        "indicator": "F",
+        "type": "BODY-MANIPULATION",
+        "word": "HOLD",
+        "roles": {
+          "RESULT": "#V1768259",
+          "AFFECTED": "#V1771068",
+          "TIME": "#V1768239",
+          "WNSENSE": "hold%2:35:00::"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768239": {
+        "id": "V1768239",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": "FOREVER",
+        "roles": {
+          "FIGURE": "#V1768245",
+          "LEX": "FOREVER",
+          "WNSENSE": "forever%4:02:00::"
+        },
+        "start": 83,
+        "end": 91
+      },
+      "V1768259": {
+        "id": "V1768259",
+        "indicator": "F",
+        "type": "RESPONSIBLE-VAL",
+        "word": "ACCOUNTABLE",
+        "roles": {
+          "GROUND": "#V1768293",
+          "ORIENTATION": "POS",
+          "FIGURE": "#V1771068",
+          "SCALE": "RESPONSIBILITY-SCALE",
+          "LEX": "ACCOUNTABLE",
+          "WNSENSE": "accountable%5:00:00:responsible:00"
+        },
+        "start": 96,
+        "end": 132
+      },
+      "V1768293": {
+        "id": "V1768293",
+        "indicator": "WH-TERM-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V1768308",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 108,
+        "end": 132
+      },
+      "V1768308": {
+        "id": "V1768308",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V1768299",
+          "AFFECTED": "#V1768293",
+          "FORMAL": "#V1768331",
+          "TENSE": "PRES",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 117,
+        "end": 132
+      },
+      "V1768299": {
+        "id": "V1768299",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 117,
+        "end": 122
+      },
+      "V1768331": {
+        "id": "V1768331",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V1768293",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 127,
+        "end": 132
+      },
+      "root": "#V1771067"
+    },
+    {
+      "V1774431": {
+        "id": "V1774431",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "MOD": [
+            "#V1768101",
+            "#V1768108"
+          ],
+          "CONTENT": "#V1768128",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V1768101": {
+        "id": "V1768101",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "HOPEFUL",
+        "roles": {
+          "FIGURE": "#V1774431",
+          "LEX": "HOPEFULLY"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1768108": {
+        "id": "V1768108",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SOMEDAY",
+        "roles": {
+          "FIGURE": "#V1774431",
+          "LEX": "SOMEDAY",
+          "WNSENSE": "someday%4:02:00::"
+        },
+        "start": 10,
+        "end": 18
+      },
+      "V1768128": {
+        "id": "V1768128",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V1769191",
+          "SEQUENCE1": "#V1768755",
+          "LEX": "AND"
+        },
+        "start": 18,
+        "end": 39
+      },
+      "V1769191": {
+        "id": "V1769191",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1768119"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V1768119": {
+        "id": "V1768119",
+        "indicator": "THE",
+        "type": "PLANT-PART",
+        "word": "STIGMA",
+        "roles": {
+          "LEX": "STIGMA",
+          "WNSENSE": "stigma%1:20:00::"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V1768755": {
+        "id": "V1768755",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1768140"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "V1768140": {
+        "id": "V1768140",
+        "indicator": "BARE",
+        "type": "TROUBLE",
+        "word": "SHAME",
+        "roles": {
+          "LEX": "SHAME",
+          "WNSENSE": "shame%1:11:00::"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "root": "#V1774431"
+    },
+    {
+      "V1769507": {
+        "id": "V1769507",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768170",
+          "LEX": "LIFTED"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V1768170": {
+        "id": "V1768170",
+        "indicator": "F",
+        "type": "MOVE-UPWARD",
+        "word": "LIFT",
+        "roles": {
+          "AFFECTED": "#V1769508",
+          "TENSE": "FUT",
+          "MODALITY": "(:* FUTURE WILL)",
+          "PASSIVE": "+",
+          "LEX": "LIFTED",
+          "WNSENSE": "lift%2:38:00::"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V1769508": {
+        "id": "V1769508",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "root": "#V1769507"
+    },
+    {
+      "V1768728": {
+        "id": "V1768728",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768187",
+          "MOD": "#V1768178",
+          "LEX": "THOSE"
+        },
+        "start": 54,
+        "end": 64
+      },
+      "V1768178": {
+        "id": "V1768178",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1768728",
+          "LEX": "AND"
+        },
+        "start": 54,
+        "end": 58
+      },
+      "V1768187": {
+        "id": "V1768187",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THOSE",
+        "roles": {
+          "PROFORM": "THOSE",
+          "LEX": "THOSE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 58,
+        "end": 64
+      },
+      "root": "#V1768728"
+    },
+    {
+      "V1769524": {
+        "id": "V1769524",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768198",
+          "FOCUS": "#V1768191",
+          "LEX": "ARE"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768198": {
+        "id": "V1768198",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1768191",
+          "FORMAL": "#V1768217",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768191": {
+        "id": "V1768191",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 68
+      },
+      "V1768217": {
+        "id": "V1768217",
+        "indicator": "F",
+        "type": "SORRY",
+        "word": "GUILTY",
+        "roles": {
+          "FIGURE": "#V1768191",
+          "SCALE": "REGRET-SCALE",
+          "LEX": "GUILTY",
+          "WNSENSE": "guilty%5:00:00:ashamed:00"
+        },
+        "start": 72,
+        "end": 79
+      },
+      "root": "#V1769524"
+    },
+    {
+      "V1771070": {
+        "id": "V1771070",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1768226",
+          "LEX": "ARE"
+        },
+        "start": 79,
+        "end": 133
+      },
+      "V1768226": {
+        "id": "V1768226",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1771071",
+          "FORMAL": "#V1770332",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1771071": {
+        "id": "V1771071",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1770332": {
+        "id": "V1770332",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1771071",
+          "GROUND": "#V1768245",
+          "LEX": "HELD"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768245": {
+        "id": "V1768245",
+        "indicator": "F",
+        "type": "BODY-MANIPULATION",
+        "word": "HOLD",
+        "roles": {
+          "RESULT": "#V1768259",
+          "AFFECTED": "#V1771071",
+          "TIME": "#V1768239",
+          "WNSENSE": "hold%2:35:00::"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768239": {
+        "id": "V1768239",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": "FOREVER",
+        "roles": {
+          "FIGURE": "#V1768245",
+          "LEX": "FOREVER",
+          "WNSENSE": "forever%4:02:00::"
+        },
+        "start": 83,
+        "end": 91
+      },
+      "V1768259": {
+        "id": "V1768259",
+        "indicator": "F",
+        "type": "RESPONSIBLE-VAL",
+        "word": "ACCOUNTABLE",
+        "roles": {
+          "GROUND": "#V1768292",
+          "ORIENTATION": "POS",
+          "FIGURE": "#V1771071",
+          "SCALE": "RESPONSIBILITY-SCALE",
+          "LEX": "ACCOUNTABLE",
+          "WNSENSE": "accountable%5:00:00:responsible:00"
+        },
+        "start": 96,
+        "end": 132
+      },
+      "V1768292": {
+        "id": "V1768292",
+        "indicator": "WH-TERM",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V1768308",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 108,
+        "end": 132
+      },
+      "V1768308": {
+        "id": "V1768308",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V1768299",
+          "AFFECTED": "#V1768292",
+          "FORMAL": "#V1768331",
+          "TENSE": "PRES",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 117,
+        "end": 132
+      },
+      "V1768299": {
+        "id": "V1768299",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 117,
+        "end": 122
+      },
+      "V1768331": {
+        "id": "V1768331",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V1768292",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 127,
+        "end": 132
+      },
+      "root": "#V1771070"
+    },
+    {
+      "V1774431": {
+        "id": "V1774431",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "MOD": [
+            "#V1768101",
+            "#V1768108"
+          ],
+          "CONTENT": "#V1768128",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V1768101": {
+        "id": "V1768101",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "HOPEFUL",
+        "roles": {
+          "FIGURE": "#V1774431",
+          "LEX": "HOPEFULLY"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1768108": {
+        "id": "V1768108",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SOMEDAY",
+        "roles": {
+          "FIGURE": "#V1774431",
+          "LEX": "SOMEDAY",
+          "WNSENSE": "someday%4:02:00::"
+        },
+        "start": 10,
+        "end": 18
+      },
+      "V1768128": {
+        "id": "V1768128",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V1769191",
+          "SEQUENCE1": "#V1768755",
+          "LEX": "AND"
+        },
+        "start": 18,
+        "end": 39
+      },
+      "V1769191": {
+        "id": "V1769191",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1768119"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V1768119": {
+        "id": "V1768119",
+        "indicator": "THE",
+        "type": "PLANT-PART",
+        "word": "STIGMA",
+        "roles": {
+          "LEX": "STIGMA",
+          "WNSENSE": "stigma%1:20:00::"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V1768755": {
+        "id": "V1768755",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1768140"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "V1768140": {
+        "id": "V1768140",
+        "indicator": "BARE",
+        "type": "TROUBLE",
+        "word": "SHAME",
+        "roles": {
+          "LEX": "SHAME",
+          "WNSENSE": "shame%1:11:00::"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "root": "#V1774431"
+    },
+    {
+      "V1769507": {
+        "id": "V1769507",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768170",
+          "LEX": "LIFTED"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V1768170": {
+        "id": "V1768170",
+        "indicator": "F",
+        "type": "MOVE-UPWARD",
+        "word": "LIFT",
+        "roles": {
+          "AFFECTED": "#V1769508",
+          "TENSE": "FUT",
+          "MODALITY": "(:* FUTURE WILL)",
+          "PASSIVE": "+",
+          "LEX": "LIFTED",
+          "WNSENSE": "lift%2:38:00::"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V1769508": {
+        "id": "V1769508",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "root": "#V1769507"
+    },
+    {
+      "V1768728": {
+        "id": "V1768728",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768187",
+          "MOD": "#V1768178",
+          "LEX": "THOSE"
+        },
+        "start": 54,
+        "end": 64
+      },
+      "V1768178": {
+        "id": "V1768178",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1768728",
+          "LEX": "AND"
+        },
+        "start": 54,
+        "end": 58
+      },
+      "V1768187": {
+        "id": "V1768187",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THOSE",
+        "roles": {
+          "PROFORM": "THOSE",
+          "LEX": "THOSE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 58,
+        "end": 64
+      },
+      "root": "#V1768728"
+    },
+    {
+      "V1769524": {
+        "id": "V1769524",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768198",
+          "FOCUS": "#V1768191",
+          "LEX": "ARE"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768198": {
+        "id": "V1768198",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1768191",
+          "FORMAL": "#V1768217",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768191": {
+        "id": "V1768191",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 68
+      },
+      "V1768217": {
+        "id": "V1768217",
+        "indicator": "F",
+        "type": "SORRY",
+        "word": "GUILTY",
+        "roles": {
+          "FIGURE": "#V1768191",
+          "SCALE": "REGRET-SCALE",
+          "LEX": "GUILTY",
+          "WNSENSE": "guilty%5:00:00:ashamed:00"
+        },
+        "start": 72,
+        "end": 79
+      },
+      "root": "#V1769524"
+    },
+    {
+      "V1771067": {
+        "id": "V1771067",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1768226",
+          "LEX": "ARE"
+        },
+        "start": 79,
+        "end": 133
+      },
+      "V1768226": {
+        "id": "V1768226",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1771068",
+          "FORMAL": "#V1770328",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1771068": {
+        "id": "V1771068",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1770328": {
+        "id": "V1770328",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1771068",
+          "GROUND": "#V1768245",
+          "LEX": "HELD"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768245": {
+        "id": "V1768245",
+        "indicator": "F",
+        "type": "BODY-MANIPULATION",
+        "word": "HOLD",
+        "roles": {
+          "RESULT": "#V1768259",
+          "AFFECTED": "#V1771068",
+          "TIME": "#V1768239",
+          "WNSENSE": "hold%2:35:00::"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768239": {
+        "id": "V1768239",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": "FOREVER",
+        "roles": {
+          "FIGURE": "#V1768245",
+          "LEX": "FOREVER",
+          "WNSENSE": "forever%4:02:00::"
+        },
+        "start": 83,
+        "end": 91
+      },
+      "V1768259": {
+        "id": "V1768259",
+        "indicator": "F",
+        "type": "RESPONSIBLE-VAL",
+        "word": "ACCOUNTABLE",
+        "roles": {
+          "GROUND": "#V1768293",
+          "ORIENTATION": "POS",
+          "FIGURE": "#V1771068",
+          "SCALE": "RESPONSIBILITY-SCALE",
+          "LEX": "ACCOUNTABLE",
+          "WNSENSE": "accountable%5:00:00:responsible:00"
+        },
+        "start": 96,
+        "end": 132
+      },
+      "V1768293": {
+        "id": "V1768293",
+        "indicator": "WH-TERM-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V1768308",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 108,
+        "end": 132
+      },
+      "V1768308": {
+        "id": "V1768308",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V1768299",
+          "AFFECTED": "#V1768293",
+          "FORMAL": "#V1768331",
+          "TENSE": "PRES",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 117,
+        "end": 132
+      },
+      "V1768299": {
+        "id": "V1768299",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 117,
+        "end": 122
+      },
+      "V1768331": {
+        "id": "V1768331",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V1768293",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 127,
+        "end": 132
+      },
+      "root": "#V1771067"
+    },
+    {
+      "V1774431": {
+        "id": "V1774431",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "MOD": [
+            "#V1768101",
+            "#V1768108"
+          ],
+          "CONTENT": "#V1768128",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V1768101": {
+        "id": "V1768101",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "HOPEFUL",
+        "roles": {
+          "FIGURE": "#V1774431",
+          "LEX": "HOPEFULLY"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1768108": {
+        "id": "V1768108",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SOMEDAY",
+        "roles": {
+          "FIGURE": "#V1774431",
+          "LEX": "SOMEDAY",
+          "WNSENSE": "someday%4:02:00::"
+        },
+        "start": 10,
+        "end": 18
+      },
+      "V1768128": {
+        "id": "V1768128",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V1769191",
+          "SEQUENCE1": "#V1768755",
+          "LEX": "AND"
+        },
+        "start": 18,
+        "end": 39
+      },
+      "V1769191": {
+        "id": "V1769191",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1768119"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V1768119": {
+        "id": "V1768119",
+        "indicator": "THE",
+        "type": "PLANT-PART",
+        "word": "STIGMA",
+        "roles": {
+          "LEX": "STIGMA",
+          "WNSENSE": "stigma%1:20:00::"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V1768755": {
+        "id": "V1768755",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1768140"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "V1768140": {
+        "id": "V1768140",
+        "indicator": "BARE",
+        "type": "TROUBLE",
+        "word": "SHAME",
+        "roles": {
+          "LEX": "SHAME",
+          "WNSENSE": "shame%1:11:00::"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "root": "#V1774431"
+    },
+    {
+      "V1769507": {
+        "id": "V1769507",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768170",
+          "LEX": "LIFTED"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V1768170": {
+        "id": "V1768170",
+        "indicator": "F",
+        "type": "MOVE-UPWARD",
+        "word": "LIFT",
+        "roles": {
+          "AFFECTED": "#V1769508",
+          "TENSE": "FUT",
+          "MODALITY": "(:* FUTURE WILL)",
+          "PASSIVE": "+",
+          "LEX": "LIFTED",
+          "WNSENSE": "lift%2:38:00::"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V1769508": {
+        "id": "V1769508",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "root": "#V1769507"
+    },
+    {
+      "V1768728": {
+        "id": "V1768728",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768187",
+          "MOD": "#V1768178",
+          "LEX": "THOSE"
+        },
+        "start": 54,
+        "end": 64
+      },
+      "V1768178": {
+        "id": "V1768178",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1768728",
+          "LEX": "AND"
+        },
+        "start": 54,
+        "end": 58
+      },
+      "V1768187": {
+        "id": "V1768187",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THOSE",
+        "roles": {
+          "PROFORM": "THOSE",
+          "LEX": "THOSE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 58,
+        "end": 64
+      },
+      "root": "#V1768728"
+    },
+    {
+      "V1769522": {
+        "id": "V1769522",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768198",
+          "FOCUS": "#V1768191",
+          "LEX": "ARE"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768198": {
+        "id": "V1768198",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1768191",
+          "FORMAL": "#V1768215",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768191": {
+        "id": "V1768191",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 68
+      },
+      "V1768215": {
+        "id": "V1768215",
+        "indicator": "F",
+        "type": "SORRY",
+        "word": "GUILTY",
+        "roles": {
+          "FIGURE": "#V1768191",
+          "SCALE": "REGRET-SCALE",
+          "LEX": "GUILTY",
+          "WNSENSE": "guilty%5:00:00:ashamed:00"
+        },
+        "start": 72,
+        "end": 79
+      },
+      "root": "#V1769522"
+    },
+    {
+      "V1771070": {
+        "id": "V1771070",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1768226",
+          "LEX": "ARE"
+        },
+        "start": 79,
+        "end": 133
+      },
+      "V1768226": {
+        "id": "V1768226",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1771071",
+          "FORMAL": "#V1770332",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1771071": {
+        "id": "V1771071",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1770332": {
+        "id": "V1770332",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1771071",
+          "GROUND": "#V1768245",
+          "LEX": "HELD"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768245": {
+        "id": "V1768245",
+        "indicator": "F",
+        "type": "BODY-MANIPULATION",
+        "word": "HOLD",
+        "roles": {
+          "RESULT": "#V1768259",
+          "AFFECTED": "#V1771071",
+          "TIME": "#V1768239",
+          "WNSENSE": "hold%2:35:00::"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768239": {
+        "id": "V1768239",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": "FOREVER",
+        "roles": {
+          "FIGURE": "#V1768245",
+          "LEX": "FOREVER",
+          "WNSENSE": "forever%4:02:00::"
+        },
+        "start": 83,
+        "end": 91
+      },
+      "V1768259": {
+        "id": "V1768259",
+        "indicator": "F",
+        "type": "RESPONSIBLE-VAL",
+        "word": "ACCOUNTABLE",
+        "roles": {
+          "GROUND": "#V1768292",
+          "ORIENTATION": "POS",
+          "FIGURE": "#V1771071",
+          "SCALE": "RESPONSIBILITY-SCALE",
+          "LEX": "ACCOUNTABLE",
+          "WNSENSE": "accountable%5:00:00:responsible:00"
+        },
+        "start": 96,
+        "end": 132
+      },
+      "V1768292": {
+        "id": "V1768292",
+        "indicator": "WH-TERM",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V1768308",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 108,
+        "end": 132
+      },
+      "V1768308": {
+        "id": "V1768308",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V1768299",
+          "AFFECTED": "#V1768292",
+          "FORMAL": "#V1768331",
+          "TENSE": "PRES",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 117,
+        "end": 132
+      },
+      "V1768299": {
+        "id": "V1768299",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 117,
+        "end": 122
+      },
+      "V1768331": {
+        "id": "V1768331",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V1768292",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 127,
+        "end": 132
+      },
+      "root": "#V1771070"
+    },
+    {
+      "V1774431": {
+        "id": "V1774431",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "MOD": [
+            "#V1768101",
+            "#V1768108"
+          ],
+          "CONTENT": "#V1768128",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V1768101": {
+        "id": "V1768101",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "HOPEFUL",
+        "roles": {
+          "FIGURE": "#V1774431",
+          "LEX": "HOPEFULLY"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1768108": {
+        "id": "V1768108",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SOMEDAY",
+        "roles": {
+          "FIGURE": "#V1774431",
+          "LEX": "SOMEDAY",
+          "WNSENSE": "someday%4:02:00::"
+        },
+        "start": 10,
+        "end": 18
+      },
+      "V1768128": {
+        "id": "V1768128",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V1769191",
+          "SEQUENCE1": "#V1768755",
+          "LEX": "AND"
+        },
+        "start": 18,
+        "end": 39
+      },
+      "V1769191": {
+        "id": "V1769191",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1768119"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V1768119": {
+        "id": "V1768119",
+        "indicator": "THE",
+        "type": "PLANT-PART",
+        "word": "STIGMA",
+        "roles": {
+          "LEX": "STIGMA",
+          "WNSENSE": "stigma%1:20:00::"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V1768755": {
+        "id": "V1768755",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1768140"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "V1768140": {
+        "id": "V1768140",
+        "indicator": "BARE",
+        "type": "TROUBLE",
+        "word": "SHAME",
+        "roles": {
+          "LEX": "SHAME",
+          "WNSENSE": "shame%1:11:00::"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "root": "#V1774431"
+    },
+    {
+      "V1769507": {
+        "id": "V1769507",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768170",
+          "LEX": "LIFTED"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V1768170": {
+        "id": "V1768170",
+        "indicator": "F",
+        "type": "MOVE-UPWARD",
+        "word": "LIFT",
+        "roles": {
+          "AFFECTED": "#V1769508",
+          "TENSE": "FUT",
+          "MODALITY": "(:* FUTURE WILL)",
+          "PASSIVE": "+",
+          "LEX": "LIFTED",
+          "WNSENSE": "lift%2:38:00::"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V1769508": {
+        "id": "V1769508",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "root": "#V1769507"
+    },
+    {
+      "V1768728": {
+        "id": "V1768728",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768187",
+          "MOD": "#V1768178",
+          "LEX": "THOSE"
+        },
+        "start": 54,
+        "end": 64
+      },
+      "V1768178": {
+        "id": "V1768178",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1768728",
+          "LEX": "AND"
+        },
+        "start": 54,
+        "end": 58
+      },
+      "V1768187": {
+        "id": "V1768187",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THOSE",
+        "roles": {
+          "PROFORM": "THOSE",
+          "LEX": "THOSE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 58,
+        "end": 64
+      },
+      "root": "#V1768728"
+    },
+    {
+      "V1769522": {
+        "id": "V1769522",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768198",
+          "FOCUS": "#V1768191",
+          "LEX": "ARE"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768198": {
+        "id": "V1768198",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1768191",
+          "FORMAL": "#V1768215",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768191": {
+        "id": "V1768191",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 68
+      },
+      "V1768215": {
+        "id": "V1768215",
+        "indicator": "F",
+        "type": "SORRY",
+        "word": "GUILTY",
+        "roles": {
+          "FIGURE": "#V1768191",
+          "SCALE": "REGRET-SCALE",
+          "LEX": "GUILTY",
+          "WNSENSE": "guilty%5:00:00:ashamed:00"
+        },
+        "start": 72,
+        "end": 79
+      },
+      "root": "#V1769522"
+    },
+    {
+      "V1771067": {
+        "id": "V1771067",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1768226",
+          "LEX": "ARE"
+        },
+        "start": 79,
+        "end": 133
+      },
+      "V1768226": {
+        "id": "V1768226",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1771068",
+          "FORMAL": "#V1770328",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1771068": {
+        "id": "V1771068",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1770328": {
+        "id": "V1770328",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1771068",
+          "GROUND": "#V1768245",
+          "LEX": "HELD"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768245": {
+        "id": "V1768245",
+        "indicator": "F",
+        "type": "BODY-MANIPULATION",
+        "word": "HOLD",
+        "roles": {
+          "RESULT": "#V1768259",
+          "AFFECTED": "#V1771068",
+          "TIME": "#V1768239",
+          "WNSENSE": "hold%2:35:00::"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768239": {
+        "id": "V1768239",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": "FOREVER",
+        "roles": {
+          "FIGURE": "#V1768245",
+          "LEX": "FOREVER",
+          "WNSENSE": "forever%4:02:00::"
+        },
+        "start": 83,
+        "end": 91
+      },
+      "V1768259": {
+        "id": "V1768259",
+        "indicator": "F",
+        "type": "RESPONSIBLE-VAL",
+        "word": "ACCOUNTABLE",
+        "roles": {
+          "GROUND": "#V1768293",
+          "ORIENTATION": "POS",
+          "FIGURE": "#V1771068",
+          "SCALE": "RESPONSIBILITY-SCALE",
+          "LEX": "ACCOUNTABLE",
+          "WNSENSE": "accountable%5:00:00:responsible:00"
+        },
+        "start": 96,
+        "end": 132
+      },
+      "V1768293": {
+        "id": "V1768293",
+        "indicator": "WH-TERM-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V1768308",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 108,
+        "end": 132
+      },
+      "V1768308": {
+        "id": "V1768308",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V1768299",
+          "AFFECTED": "#V1768293",
+          "FORMAL": "#V1768331",
+          "TENSE": "PRES",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 117,
+        "end": 132
+      },
+      "V1768299": {
+        "id": "V1768299",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 117,
+        "end": 122
+      },
+      "V1768331": {
+        "id": "V1768331",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V1768293",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 127,
+        "end": 132
+      },
+      "root": "#V1771067"
+    },
+    {
+      "V1769460": {
+        "id": "V1769460",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "MOD": [
+            "#V1768101",
+            "#V1768108"
+          ],
+          "CONTENT": "#V1768119",
+          "LEX": "STIGMA"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V1768101": {
+        "id": "V1768101",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "HOPEFUL",
+        "roles": {
+          "FIGURE": "#V1769460",
+          "LEX": "HOPEFULLY"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1768108": {
+        "id": "V1768108",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SOMEDAY",
+        "roles": {
+          "FIGURE": "#V1769460",
+          "LEX": "SOMEDAY",
+          "WNSENSE": "someday%4:02:00::"
+        },
+        "start": 10,
+        "end": 18
+      },
+      "V1768119": {
+        "id": "V1768119",
+        "indicator": "THE",
+        "type": "PLANT-PART",
+        "word": "STIGMA",
+        "roles": {
+          "LEX": "STIGMA",
+          "WNSENSE": "stigma%1:20:00::"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "root": "#V1769460"
+    },
+    {
+      "V1769799": {
+        "id": "V1769799",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768170",
+          "MOD": "#V1768129",
+          "LEX": "LIFTED"
+        },
+        "start": 29,
+        "end": 54
+      },
+      "V1768129": {
+        "id": "V1768129",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1769799",
+          "LEX": "AND"
+        },
+        "start": 29,
+        "end": 33
+      },
+      "V1768170": {
+        "id": "V1768170",
+        "indicator": "F",
+        "type": "MOVE-UPWARD",
+        "word": "LIFT",
+        "roles": {
+          "AFFECTED": "#V1768140",
+          "TENSE": "FUT",
+          "MODALITY": "(:* FUTURE WILL)",
+          "PASSIVE": "+",
+          "LEX": "LIFTED",
+          "WNSENSE": "lift%2:38:00::"
+        },
+        "start": 33,
+        "end": 54
+      },
+      "V1768140": {
+        "id": "V1768140",
+        "indicator": "BARE",
+        "type": "TROUBLE",
+        "word": "SHAME",
+        "roles": {
+          "LEX": "SHAME",
+          "WNSENSE": "shame%1:11:00::"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "root": "#V1769799"
+    },
+    {
+      "V1768728": {
+        "id": "V1768728",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768187",
+          "MOD": "#V1768178",
+          "LEX": "THOSE"
+        },
+        "start": 54,
+        "end": 64
+      },
+      "V1768178": {
+        "id": "V1768178",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1768728",
+          "LEX": "AND"
+        },
+        "start": 54,
+        "end": 58
+      },
+      "V1768187": {
+        "id": "V1768187",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THOSE",
+        "roles": {
+          "PROFORM": "THOSE",
+          "LEX": "THOSE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 58,
+        "end": 64
+      },
+      "root": "#V1768728"
+    },
+    {
+      "V1769463": {
+        "id": "V1769463",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768198",
+          "FOCUS": "#V1768191",
+          "LEX": "ARE"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768198": {
+        "id": "V1768198",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1768191",
+          "FORMAL": "#V1768212",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768191": {
+        "id": "V1768191",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 68
+      },
+      "V1768212": {
+        "id": "V1768212",
+        "indicator": "F",
+        "type": "CULPABLE-VAL",
+        "word": "GUILTY",
+        "roles": {
+          "FIGURE": "#V1768191",
+          "SCALE": "DOMAIN",
+          "LEX": "GUILTY",
+          "WNSENSE": "guilty%3:00:00::"
+        },
+        "start": 72,
+        "end": 79
+      },
+      "root": "#V1769463"
+    },
+    {
+      "V1771091": {
+        "id": "V1771091",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1768226",
+          "LEX": "ARE"
+        },
+        "start": 79,
+        "end": 133
+      },
+      "V1768226": {
+        "id": "V1768226",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1771092",
+          "FORMAL": "#V1770403",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1771092": {
+        "id": "V1771092",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1770403": {
+        "id": "V1770403",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1771092",
+          "GROUND": "#V1768245",
+          "LEX": "HELD"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768245": {
+        "id": "V1768245",
+        "indicator": "F",
+        "type": "BODY-MANIPULATION",
+        "word": "HOLD",
+        "roles": {
+          "RESULT": "#V1768259",
+          "AFFECTED": "#V1771092",
+          "TIME": "#V1768239",
+          "WNSENSE": "hold%2:35:00::"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768239": {
+        "id": "V1768239",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": "FOREVER",
+        "roles": {
+          "FIGURE": "#V1768245",
+          "LEX": "FOREVER",
+          "WNSENSE": "forever%4:02:00::"
+        },
+        "start": 83,
+        "end": 91
+      },
+      "V1768259": {
+        "id": "V1768259",
+        "indicator": "F",
+        "type": "RESPONSIBLE-VAL",
+        "word": "ACCOUNTABLE",
+        "roles": {
+          "GROUND": "#V1768292",
+          "ORIENTATION": "POS",
+          "FIGURE": "#V1771092",
+          "SCALE": "RESPONSIBILITY-SCALE",
+          "LEX": "ACCOUNTABLE",
+          "WNSENSE": "accountable%5:00:00:responsible:00"
+        },
+        "start": 96,
+        "end": 132
+      },
+      "V1768292": {
+        "id": "V1768292",
+        "indicator": "WH-TERM",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V1768331",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 108,
+        "end": 132
+      },
+      "V1768331": {
+        "id": "V1768331",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "AGENT": "#V1768299",
+          "NEUTRAL": "#V1768292",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 117,
+        "end": 132
+      },
+      "V1768299": {
+        "id": "V1768299",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 117,
+        "end": 122
+      },
+      "root": "#V1771091"
+    },
+    {
+      "V1769460": {
+        "id": "V1769460",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "MOD": [
+            "#V1768101",
+            "#V1768108"
+          ],
+          "CONTENT": "#V1768119",
+          "LEX": "STIGMA"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V1768101": {
+        "id": "V1768101",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "HOPEFUL",
+        "roles": {
+          "FIGURE": "#V1769460",
+          "LEX": "HOPEFULLY"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1768108": {
+        "id": "V1768108",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SOMEDAY",
+        "roles": {
+          "FIGURE": "#V1769460",
+          "LEX": "SOMEDAY",
+          "WNSENSE": "someday%4:02:00::"
+        },
+        "start": 10,
+        "end": 18
+      },
+      "V1768119": {
+        "id": "V1768119",
+        "indicator": "THE",
+        "type": "PLANT-PART",
+        "word": "STIGMA",
+        "roles": {
+          "LEX": "STIGMA",
+          "WNSENSE": "stigma%1:20:00::"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "root": "#V1769460"
+    },
+    {
+      "V1769799": {
+        "id": "V1769799",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768170",
+          "MOD": "#V1768129",
+          "LEX": "LIFTED"
+        },
+        "start": 29,
+        "end": 54
+      },
+      "V1768129": {
+        "id": "V1768129",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1769799",
+          "LEX": "AND"
+        },
+        "start": 29,
+        "end": 33
+      },
+      "V1768170": {
+        "id": "V1768170",
+        "indicator": "F",
+        "type": "MOVE-UPWARD",
+        "word": "LIFT",
+        "roles": {
+          "AFFECTED": "#V1768140",
+          "TENSE": "FUT",
+          "MODALITY": "(:* FUTURE WILL)",
+          "PASSIVE": "+",
+          "LEX": "LIFTED",
+          "WNSENSE": "lift%2:38:00::"
+        },
+        "start": 33,
+        "end": 54
+      },
+      "V1768140": {
+        "id": "V1768140",
+        "indicator": "BARE",
+        "type": "TROUBLE",
+        "word": "SHAME",
+        "roles": {
+          "LEX": "SHAME",
+          "WNSENSE": "shame%1:11:00::"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "root": "#V1769799"
+    },
+    {
+      "V1768728": {
+        "id": "V1768728",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768187",
+          "MOD": "#V1768178",
+          "LEX": "THOSE"
+        },
+        "start": 54,
+        "end": 64
+      },
+      "V1768178": {
+        "id": "V1768178",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1768728",
+          "LEX": "AND"
+        },
+        "start": 54,
+        "end": 58
+      },
+      "V1768187": {
+        "id": "V1768187",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THOSE",
+        "roles": {
+          "PROFORM": "THOSE",
+          "LEX": "THOSE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 58,
+        "end": 64
+      },
+      "root": "#V1768728"
+    },
+    {
+      "V1769463": {
+        "id": "V1769463",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768198",
+          "FOCUS": "#V1768191",
+          "LEX": "ARE"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768198": {
+        "id": "V1768198",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1768191",
+          "FORMAL": "#V1768212",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768191": {
+        "id": "V1768191",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 68
+      },
+      "V1768212": {
+        "id": "V1768212",
+        "indicator": "F",
+        "type": "CULPABLE-VAL",
+        "word": "GUILTY",
+        "roles": {
+          "FIGURE": "#V1768191",
+          "SCALE": "DOMAIN",
+          "LEX": "GUILTY",
+          "WNSENSE": "guilty%3:00:00::"
+        },
+        "start": 72,
+        "end": 79
+      },
+      "root": "#V1769463"
+    },
+    {
+      "V1771088": {
+        "id": "V1771088",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1768226",
+          "LEX": "ARE"
+        },
+        "start": 79,
+        "end": 133
+      },
+      "V1768226": {
+        "id": "V1768226",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1771089",
+          "FORMAL": "#V1770399",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1771089": {
+        "id": "V1771089",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1770399": {
+        "id": "V1770399",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1771089",
+          "GROUND": "#V1768245",
+          "LEX": "HELD"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768245": {
+        "id": "V1768245",
+        "indicator": "F",
+        "type": "BODY-MANIPULATION",
+        "word": "HOLD",
+        "roles": {
+          "RESULT": "#V1768259",
+          "AFFECTED": "#V1771089",
+          "TIME": "#V1768239",
+          "WNSENSE": "hold%2:35:00::"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768239": {
+        "id": "V1768239",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": "FOREVER",
+        "roles": {
+          "FIGURE": "#V1768245",
+          "LEX": "FOREVER",
+          "WNSENSE": "forever%4:02:00::"
+        },
+        "start": 83,
+        "end": 91
+      },
+      "V1768259": {
+        "id": "V1768259",
+        "indicator": "F",
+        "type": "RESPONSIBLE-VAL",
+        "word": "ACCOUNTABLE",
+        "roles": {
+          "GROUND": "#V1768293",
+          "ORIENTATION": "POS",
+          "FIGURE": "#V1771089",
+          "SCALE": "RESPONSIBILITY-SCALE",
+          "LEX": "ACCOUNTABLE",
+          "WNSENSE": "accountable%5:00:00:responsible:00"
+        },
+        "start": 96,
+        "end": 132
+      },
+      "V1768293": {
+        "id": "V1768293",
+        "indicator": "WH-TERM-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V1768331",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 108,
+        "end": 132
+      },
+      "V1768331": {
+        "id": "V1768331",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "AGENT": "#V1768299",
+          "NEUTRAL": "#V1768293",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 117,
+        "end": 132
+      },
+      "V1768299": {
+        "id": "V1768299",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 117,
+        "end": 122
+      },
+      "root": "#V1771088"
+    },
+    {
+      "V1774431": {
+        "id": "V1774431",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "MOD": [
+            "#V1768101",
+            "#V1768108"
+          ],
+          "CONTENT": "#V1768128",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V1768101": {
+        "id": "V1768101",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "HOPEFUL",
+        "roles": {
+          "FIGURE": "#V1774431",
+          "LEX": "HOPEFULLY"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1768108": {
+        "id": "V1768108",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SOMEDAY",
+        "roles": {
+          "FIGURE": "#V1774431",
+          "LEX": "SOMEDAY",
+          "WNSENSE": "someday%4:02:00::"
+        },
+        "start": 10,
+        "end": 18
+      },
+      "V1768128": {
+        "id": "V1768128",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V1769191",
+          "SEQUENCE1": "#V1768755",
+          "LEX": "AND"
+        },
+        "start": 18,
+        "end": 39
+      },
+      "V1769191": {
+        "id": "V1769191",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1768119"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V1768119": {
+        "id": "V1768119",
+        "indicator": "THE",
+        "type": "PLANT-PART",
+        "word": "STIGMA",
+        "roles": {
+          "LEX": "STIGMA",
+          "WNSENSE": "stigma%1:20:00::"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V1768755": {
+        "id": "V1768755",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1768140"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "V1768140": {
+        "id": "V1768140",
+        "indicator": "BARE",
+        "type": "TROUBLE",
+        "word": "SHAME",
+        "roles": {
+          "LEX": "SHAME",
+          "WNSENSE": "shame%1:11:00::"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "root": "#V1774431"
+    },
+    {
+      "V1769507": {
+        "id": "V1769507",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768170",
+          "LEX": "LIFTED"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V1768170": {
+        "id": "V1768170",
+        "indicator": "F",
+        "type": "MOVE-UPWARD",
+        "word": "LIFT",
+        "roles": {
+          "AFFECTED": "#V1769508",
+          "TENSE": "FUT",
+          "MODALITY": "(:* FUTURE WILL)",
+          "PASSIVE": "+",
+          "LEX": "LIFTED",
+          "WNSENSE": "lift%2:38:00::"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V1769508": {
+        "id": "V1769508",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "root": "#V1769507"
+    },
+    {
+      "V1768728": {
+        "id": "V1768728",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768187",
+          "MOD": "#V1768178",
+          "LEX": "THOSE"
+        },
+        "start": 54,
+        "end": 64
+      },
+      "V1768178": {
+        "id": "V1768178",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1768728",
+          "LEX": "AND"
+        },
+        "start": 54,
+        "end": 58
+      },
+      "V1768187": {
+        "id": "V1768187",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THOSE",
+        "roles": {
+          "PROFORM": "THOSE",
+          "LEX": "THOSE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 58,
+        "end": 64
+      },
+      "root": "#V1768728"
+    },
+    {
+      "V1769524": {
+        "id": "V1769524",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768198",
+          "FOCUS": "#V1768191",
+          "LEX": "ARE"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768198": {
+        "id": "V1768198",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1768191",
+          "FORMAL": "#V1768217",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768191": {
+        "id": "V1768191",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 68
+      },
+      "V1768217": {
+        "id": "V1768217",
+        "indicator": "F",
+        "type": "SORRY",
+        "word": "GUILTY",
+        "roles": {
+          "FIGURE": "#V1768191",
+          "SCALE": "REGRET-SCALE",
+          "LEX": "GUILTY",
+          "WNSENSE": "guilty%5:00:00:ashamed:00"
+        },
+        "start": 72,
+        "end": 79
+      },
+      "root": "#V1769524"
+    },
+    {
+      "V1771091": {
+        "id": "V1771091",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1768226",
+          "LEX": "ARE"
+        },
+        "start": 79,
+        "end": 133
+      },
+      "V1768226": {
+        "id": "V1768226",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1771092",
+          "FORMAL": "#V1770403",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1771092": {
+        "id": "V1771092",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1770403": {
+        "id": "V1770403",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1771092",
+          "GROUND": "#V1768245",
+          "LEX": "HELD"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768245": {
+        "id": "V1768245",
+        "indicator": "F",
+        "type": "BODY-MANIPULATION",
+        "word": "HOLD",
+        "roles": {
+          "RESULT": "#V1768259",
+          "AFFECTED": "#V1771092",
+          "TIME": "#V1768239",
+          "WNSENSE": "hold%2:35:00::"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768239": {
+        "id": "V1768239",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": "FOREVER",
+        "roles": {
+          "FIGURE": "#V1768245",
+          "LEX": "FOREVER",
+          "WNSENSE": "forever%4:02:00::"
+        },
+        "start": 83,
+        "end": 91
+      },
+      "V1768259": {
+        "id": "V1768259",
+        "indicator": "F",
+        "type": "RESPONSIBLE-VAL",
+        "word": "ACCOUNTABLE",
+        "roles": {
+          "GROUND": "#V1768292",
+          "ORIENTATION": "POS",
+          "FIGURE": "#V1771092",
+          "SCALE": "RESPONSIBILITY-SCALE",
+          "LEX": "ACCOUNTABLE",
+          "WNSENSE": "accountable%5:00:00:responsible:00"
+        },
+        "start": 96,
+        "end": 132
+      },
+      "V1768292": {
+        "id": "V1768292",
+        "indicator": "WH-TERM",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V1768331",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 108,
+        "end": 132
+      },
+      "V1768331": {
+        "id": "V1768331",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "AGENT": "#V1768299",
+          "NEUTRAL": "#V1768292",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 117,
+        "end": 132
+      },
+      "V1768299": {
+        "id": "V1768299",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 117,
+        "end": 122
+      },
+      "root": "#V1771091"
+    },
+    {
+      "V1774431": {
+        "id": "V1774431",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "MOD": [
+            "#V1768101",
+            "#V1768108"
+          ],
+          "CONTENT": "#V1768128",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V1768101": {
+        "id": "V1768101",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "HOPEFUL",
+        "roles": {
+          "FIGURE": "#V1774431",
+          "LEX": "HOPEFULLY"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1768108": {
+        "id": "V1768108",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SOMEDAY",
+        "roles": {
+          "FIGURE": "#V1774431",
+          "LEX": "SOMEDAY",
+          "WNSENSE": "someday%4:02:00::"
+        },
+        "start": 10,
+        "end": 18
+      },
+      "V1768128": {
+        "id": "V1768128",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V1769191",
+          "SEQUENCE1": "#V1768755",
+          "LEX": "AND"
+        },
+        "start": 18,
+        "end": 39
+      },
+      "V1769191": {
+        "id": "V1769191",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1768119"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V1768119": {
+        "id": "V1768119",
+        "indicator": "THE",
+        "type": "PLANT-PART",
+        "word": "STIGMA",
+        "roles": {
+          "LEX": "STIGMA",
+          "WNSENSE": "stigma%1:20:00::"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V1768755": {
+        "id": "V1768755",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1768140"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "V1768140": {
+        "id": "V1768140",
+        "indicator": "BARE",
+        "type": "TROUBLE",
+        "word": "SHAME",
+        "roles": {
+          "LEX": "SHAME",
+          "WNSENSE": "shame%1:11:00::"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "root": "#V1774431"
+    },
+    {
+      "V1769507": {
+        "id": "V1769507",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768170",
+          "LEX": "LIFTED"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V1768170": {
+        "id": "V1768170",
+        "indicator": "F",
+        "type": "MOVE-UPWARD",
+        "word": "LIFT",
+        "roles": {
+          "AFFECTED": "#V1769508",
+          "TENSE": "FUT",
+          "MODALITY": "(:* FUTURE WILL)",
+          "PASSIVE": "+",
+          "LEX": "LIFTED",
+          "WNSENSE": "lift%2:38:00::"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V1769508": {
+        "id": "V1769508",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "root": "#V1769507"
+    },
+    {
+      "V1768728": {
+        "id": "V1768728",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768187",
+          "MOD": "#V1768178",
+          "LEX": "THOSE"
+        },
+        "start": 54,
+        "end": 64
+      },
+      "V1768178": {
+        "id": "V1768178",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1768728",
+          "LEX": "AND"
+        },
+        "start": 54,
+        "end": 58
+      },
+      "V1768187": {
+        "id": "V1768187",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THOSE",
+        "roles": {
+          "PROFORM": "THOSE",
+          "LEX": "THOSE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 58,
+        "end": 64
+      },
+      "root": "#V1768728"
+    },
+    {
+      "V1769524": {
+        "id": "V1769524",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768198",
+          "FOCUS": "#V1768191",
+          "LEX": "ARE"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768198": {
+        "id": "V1768198",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1768191",
+          "FORMAL": "#V1768217",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768191": {
+        "id": "V1768191",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 68
+      },
+      "V1768217": {
+        "id": "V1768217",
+        "indicator": "F",
+        "type": "SORRY",
+        "word": "GUILTY",
+        "roles": {
+          "FIGURE": "#V1768191",
+          "SCALE": "REGRET-SCALE",
+          "LEX": "GUILTY",
+          "WNSENSE": "guilty%5:00:00:ashamed:00"
+        },
+        "start": 72,
+        "end": 79
+      },
+      "root": "#V1769524"
+    },
+    {
+      "V1771088": {
+        "id": "V1771088",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1768226",
+          "LEX": "ARE"
+        },
+        "start": 79,
+        "end": 133
+      },
+      "V1768226": {
+        "id": "V1768226",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1771089",
+          "FORMAL": "#V1770399",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1771089": {
+        "id": "V1771089",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1770399": {
+        "id": "V1770399",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1771089",
+          "GROUND": "#V1768245",
+          "LEX": "HELD"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768245": {
+        "id": "V1768245",
+        "indicator": "F",
+        "type": "BODY-MANIPULATION",
+        "word": "HOLD",
+        "roles": {
+          "RESULT": "#V1768259",
+          "AFFECTED": "#V1771089",
+          "TIME": "#V1768239",
+          "WNSENSE": "hold%2:35:00::"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768239": {
+        "id": "V1768239",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": "FOREVER",
+        "roles": {
+          "FIGURE": "#V1768245",
+          "LEX": "FOREVER",
+          "WNSENSE": "forever%4:02:00::"
+        },
+        "start": 83,
+        "end": 91
+      },
+      "V1768259": {
+        "id": "V1768259",
+        "indicator": "F",
+        "type": "RESPONSIBLE-VAL",
+        "word": "ACCOUNTABLE",
+        "roles": {
+          "GROUND": "#V1768293",
+          "ORIENTATION": "POS",
+          "FIGURE": "#V1771089",
+          "SCALE": "RESPONSIBILITY-SCALE",
+          "LEX": "ACCOUNTABLE",
+          "WNSENSE": "accountable%5:00:00:responsible:00"
+        },
+        "start": 96,
+        "end": 132
+      },
+      "V1768293": {
+        "id": "V1768293",
+        "indicator": "WH-TERM-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V1768331",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 108,
+        "end": 132
+      },
+      "V1768331": {
+        "id": "V1768331",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "AGENT": "#V1768299",
+          "NEUTRAL": "#V1768293",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 117,
+        "end": 132
+      },
+      "V1768299": {
+        "id": "V1768299",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 117,
+        "end": 122
+      },
+      "root": "#V1771088"
+    },
+    {
+      "V1774431": {
+        "id": "V1774431",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "MOD": [
+            "#V1768101",
+            "#V1768108"
+          ],
+          "CONTENT": "#V1768128",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V1768101": {
+        "id": "V1768101",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "HOPEFUL",
+        "roles": {
+          "FIGURE": "#V1774431",
+          "LEX": "HOPEFULLY"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1768108": {
+        "id": "V1768108",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SOMEDAY",
+        "roles": {
+          "FIGURE": "#V1774431",
+          "LEX": "SOMEDAY",
+          "WNSENSE": "someday%4:02:00::"
+        },
+        "start": 10,
+        "end": 18
+      },
+      "V1768128": {
+        "id": "V1768128",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V1769191",
+          "SEQUENCE1": "#V1768755",
+          "LEX": "AND"
+        },
+        "start": 18,
+        "end": 39
+      },
+      "V1769191": {
+        "id": "V1769191",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1768119"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V1768119": {
+        "id": "V1768119",
+        "indicator": "THE",
+        "type": "PLANT-PART",
+        "word": "STIGMA",
+        "roles": {
+          "LEX": "STIGMA",
+          "WNSENSE": "stigma%1:20:00::"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V1768755": {
+        "id": "V1768755",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1768140"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "V1768140": {
+        "id": "V1768140",
+        "indicator": "BARE",
+        "type": "TROUBLE",
+        "word": "SHAME",
+        "roles": {
+          "LEX": "SHAME",
+          "WNSENSE": "shame%1:11:00::"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "root": "#V1774431"
+    },
+    {
+      "V1769507": {
+        "id": "V1769507",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768170",
+          "LEX": "LIFTED"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V1768170": {
+        "id": "V1768170",
+        "indicator": "F",
+        "type": "MOVE-UPWARD",
+        "word": "LIFT",
+        "roles": {
+          "AFFECTED": "#V1769508",
+          "TENSE": "FUT",
+          "MODALITY": "(:* FUTURE WILL)",
+          "PASSIVE": "+",
+          "LEX": "LIFTED",
+          "WNSENSE": "lift%2:38:00::"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V1769508": {
+        "id": "V1769508",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "root": "#V1769507"
+    },
+    {
+      "V1768728": {
+        "id": "V1768728",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768187",
+          "MOD": "#V1768178",
+          "LEX": "THOSE"
+        },
+        "start": 54,
+        "end": 64
+      },
+      "V1768178": {
+        "id": "V1768178",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1768728",
+          "LEX": "AND"
+        },
+        "start": 54,
+        "end": 58
+      },
+      "V1768187": {
+        "id": "V1768187",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THOSE",
+        "roles": {
+          "PROFORM": "THOSE",
+          "LEX": "THOSE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 58,
+        "end": 64
+      },
+      "root": "#V1768728"
+    },
+    {
+      "V1769522": {
+        "id": "V1769522",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768198",
+          "FOCUS": "#V1768191",
+          "LEX": "ARE"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768198": {
+        "id": "V1768198",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1768191",
+          "FORMAL": "#V1768215",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768191": {
+        "id": "V1768191",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 68
+      },
+      "V1768215": {
+        "id": "V1768215",
+        "indicator": "F",
+        "type": "SORRY",
+        "word": "GUILTY",
+        "roles": {
+          "FIGURE": "#V1768191",
+          "SCALE": "REGRET-SCALE",
+          "LEX": "GUILTY",
+          "WNSENSE": "guilty%5:00:00:ashamed:00"
+        },
+        "start": 72,
+        "end": 79
+      },
+      "root": "#V1769522"
+    },
+    {
+      "V1771091": {
+        "id": "V1771091",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1768226",
+          "LEX": "ARE"
+        },
+        "start": 79,
+        "end": 133
+      },
+      "V1768226": {
+        "id": "V1768226",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1771092",
+          "FORMAL": "#V1770403",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1771092": {
+        "id": "V1771092",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1770403": {
+        "id": "V1770403",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1771092",
+          "GROUND": "#V1768245",
+          "LEX": "HELD"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768245": {
+        "id": "V1768245",
+        "indicator": "F",
+        "type": "BODY-MANIPULATION",
+        "word": "HOLD",
+        "roles": {
+          "RESULT": "#V1768259",
+          "AFFECTED": "#V1771092",
+          "TIME": "#V1768239",
+          "WNSENSE": "hold%2:35:00::"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768239": {
+        "id": "V1768239",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": "FOREVER",
+        "roles": {
+          "FIGURE": "#V1768245",
+          "LEX": "FOREVER",
+          "WNSENSE": "forever%4:02:00::"
+        },
+        "start": 83,
+        "end": 91
+      },
+      "V1768259": {
+        "id": "V1768259",
+        "indicator": "F",
+        "type": "RESPONSIBLE-VAL",
+        "word": "ACCOUNTABLE",
+        "roles": {
+          "GROUND": "#V1768292",
+          "ORIENTATION": "POS",
+          "FIGURE": "#V1771092",
+          "SCALE": "RESPONSIBILITY-SCALE",
+          "LEX": "ACCOUNTABLE",
+          "WNSENSE": "accountable%5:00:00:responsible:00"
+        },
+        "start": 96,
+        "end": 132
+      },
+      "V1768292": {
+        "id": "V1768292",
+        "indicator": "WH-TERM",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V1768331",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 108,
+        "end": 132
+      },
+      "V1768331": {
+        "id": "V1768331",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "AGENT": "#V1768299",
+          "NEUTRAL": "#V1768292",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 117,
+        "end": 132
+      },
+      "V1768299": {
+        "id": "V1768299",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 117,
+        "end": 122
+      },
+      "root": "#V1771091"
+    },
+    {
+      "V1774431": {
+        "id": "V1774431",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "MOD": [
+            "#V1768101",
+            "#V1768108"
+          ],
+          "CONTENT": "#V1768128",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V1768101": {
+        "id": "V1768101",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "HOPEFUL",
+        "roles": {
+          "FIGURE": "#V1774431",
+          "LEX": "HOPEFULLY"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1768108": {
+        "id": "V1768108",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SOMEDAY",
+        "roles": {
+          "FIGURE": "#V1774431",
+          "LEX": "SOMEDAY",
+          "WNSENSE": "someday%4:02:00::"
+        },
+        "start": 10,
+        "end": 18
+      },
+      "V1768128": {
+        "id": "V1768128",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V1769191",
+          "SEQUENCE1": "#V1768755",
+          "LEX": "AND"
+        },
+        "start": 18,
+        "end": 39
+      },
+      "V1769191": {
+        "id": "V1769191",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1768119"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V1768119": {
+        "id": "V1768119",
+        "indicator": "THE",
+        "type": "PLANT-PART",
+        "word": "STIGMA",
+        "roles": {
+          "LEX": "STIGMA",
+          "WNSENSE": "stigma%1:20:00::"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V1768755": {
+        "id": "V1768755",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1768140"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "V1768140": {
+        "id": "V1768140",
+        "indicator": "BARE",
+        "type": "TROUBLE",
+        "word": "SHAME",
+        "roles": {
+          "LEX": "SHAME",
+          "WNSENSE": "shame%1:11:00::"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "root": "#V1774431"
+    },
+    {
+      "V1769507": {
+        "id": "V1769507",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768170",
+          "LEX": "LIFTED"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V1768170": {
+        "id": "V1768170",
+        "indicator": "F",
+        "type": "MOVE-UPWARD",
+        "word": "LIFT",
+        "roles": {
+          "AFFECTED": "#V1769508",
+          "TENSE": "FUT",
+          "MODALITY": "(:* FUTURE WILL)",
+          "PASSIVE": "+",
+          "LEX": "LIFTED",
+          "WNSENSE": "lift%2:38:00::"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V1769508": {
+        "id": "V1769508",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "root": "#V1769507"
+    },
+    {
+      "V1768728": {
+        "id": "V1768728",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768187",
+          "MOD": "#V1768178",
+          "LEX": "THOSE"
+        },
+        "start": 54,
+        "end": 64
+      },
+      "V1768178": {
+        "id": "V1768178",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1768728",
+          "LEX": "AND"
+        },
+        "start": 54,
+        "end": 58
+      },
+      "V1768187": {
+        "id": "V1768187",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THOSE",
+        "roles": {
+          "PROFORM": "THOSE",
+          "LEX": "THOSE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 58,
+        "end": 64
+      },
+      "root": "#V1768728"
+    },
+    {
+      "V1769522": {
+        "id": "V1769522",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768198",
+          "FOCUS": "#V1768191",
+          "LEX": "ARE"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768198": {
+        "id": "V1768198",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1768191",
+          "FORMAL": "#V1768215",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768191": {
+        "id": "V1768191",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 68
+      },
+      "V1768215": {
+        "id": "V1768215",
+        "indicator": "F",
+        "type": "SORRY",
+        "word": "GUILTY",
+        "roles": {
+          "FIGURE": "#V1768191",
+          "SCALE": "REGRET-SCALE",
+          "LEX": "GUILTY",
+          "WNSENSE": "guilty%5:00:00:ashamed:00"
+        },
+        "start": 72,
+        "end": 79
+      },
+      "root": "#V1769522"
+    },
+    {
+      "V1771088": {
+        "id": "V1771088",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1768226",
+          "LEX": "ARE"
+        },
+        "start": 79,
+        "end": 133
+      },
+      "V1768226": {
+        "id": "V1768226",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1771089",
+          "FORMAL": "#V1770399",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1771089": {
+        "id": "V1771089",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1770399": {
+        "id": "V1770399",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1771089",
+          "GROUND": "#V1768245",
+          "LEX": "HELD"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768245": {
+        "id": "V1768245",
+        "indicator": "F",
+        "type": "BODY-MANIPULATION",
+        "word": "HOLD",
+        "roles": {
+          "RESULT": "#V1768259",
+          "AFFECTED": "#V1771089",
+          "TIME": "#V1768239",
+          "WNSENSE": "hold%2:35:00::"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768239": {
+        "id": "V1768239",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": "FOREVER",
+        "roles": {
+          "FIGURE": "#V1768245",
+          "LEX": "FOREVER",
+          "WNSENSE": "forever%4:02:00::"
+        },
+        "start": 83,
+        "end": 91
+      },
+      "V1768259": {
+        "id": "V1768259",
+        "indicator": "F",
+        "type": "RESPONSIBLE-VAL",
+        "word": "ACCOUNTABLE",
+        "roles": {
+          "GROUND": "#V1768293",
+          "ORIENTATION": "POS",
+          "FIGURE": "#V1771089",
+          "SCALE": "RESPONSIBILITY-SCALE",
+          "LEX": "ACCOUNTABLE",
+          "WNSENSE": "accountable%5:00:00:responsible:00"
+        },
+        "start": 96,
+        "end": 132
+      },
+      "V1768293": {
+        "id": "V1768293",
+        "indicator": "WH-TERM-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V1768331",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 108,
+        "end": 132
+      },
+      "V1768331": {
+        "id": "V1768331",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "AGENT": "#V1768299",
+          "NEUTRAL": "#V1768293",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 117,
+        "end": 132
+      },
+      "V1768299": {
+        "id": "V1768299",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 117,
+        "end": 122
+      },
+      "root": "#V1771088"
+    },
+    {
+      "V1769460": {
+        "id": "V1769460",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "MOD": [
+            "#V1768101",
+            "#V1768108"
+          ],
+          "CONTENT": "#V1768119",
+          "LEX": "STIGMA"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V1768101": {
+        "id": "V1768101",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "HOPEFUL",
+        "roles": {
+          "FIGURE": "#V1769460",
+          "LEX": "HOPEFULLY"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1768108": {
+        "id": "V1768108",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SOMEDAY",
+        "roles": {
+          "FIGURE": "#V1769460",
+          "LEX": "SOMEDAY",
+          "WNSENSE": "someday%4:02:00::"
+        },
+        "start": 10,
+        "end": 18
+      },
+      "V1768119": {
+        "id": "V1768119",
+        "indicator": "THE",
+        "type": "PLANT-PART",
+        "word": "STIGMA",
+        "roles": {
+          "LEX": "STIGMA",
+          "WNSENSE": "stigma%1:20:00::"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "root": "#V1769460"
+    },
+    {
+      "V1769799": {
+        "id": "V1769799",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768170",
+          "MOD": "#V1768129",
+          "LEX": "LIFTED"
+        },
+        "start": 29,
+        "end": 54
+      },
+      "V1768129": {
+        "id": "V1768129",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1769799",
+          "LEX": "AND"
+        },
+        "start": 29,
+        "end": 33
+      },
+      "V1768170": {
+        "id": "V1768170",
+        "indicator": "F",
+        "type": "MOVE-UPWARD",
+        "word": "LIFT",
+        "roles": {
+          "AFFECTED": "#V1768140",
+          "TENSE": "FUT",
+          "MODALITY": "(:* FUTURE WILL)",
+          "PASSIVE": "+",
+          "LEX": "LIFTED",
+          "WNSENSE": "lift%2:38:00::"
+        },
+        "start": 33,
+        "end": 54
+      },
+      "V1768140": {
+        "id": "V1768140",
+        "indicator": "BARE",
+        "type": "TROUBLE",
+        "word": "SHAME",
+        "roles": {
+          "LEX": "SHAME",
+          "WNSENSE": "shame%1:11:00::"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "root": "#V1769799"
+    },
+    {
+      "V1768728": {
+        "id": "V1768728",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768187",
+          "MOD": "#V1768178",
+          "LEX": "THOSE"
+        },
+        "start": 54,
+        "end": 64
+      },
+      "V1768178": {
+        "id": "V1768178",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1768728",
+          "LEX": "AND"
+        },
+        "start": 54,
+        "end": 58
+      },
+      "V1768187": {
+        "id": "V1768187",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THOSE",
+        "roles": {
+          "PROFORM": "THOSE",
+          "LEX": "THOSE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 58,
+        "end": 64
+      },
+      "root": "#V1768728"
+    },
+    {
+      "V1769524": {
+        "id": "V1769524",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768198",
+          "FOCUS": "#V1768191",
+          "LEX": "ARE"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768198": {
+        "id": "V1768198",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1768191",
+          "FORMAL": "#V1768217",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768191": {
+        "id": "V1768191",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 68
+      },
+      "V1768217": {
+        "id": "V1768217",
+        "indicator": "F",
+        "type": "SORRY",
+        "word": "GUILTY",
+        "roles": {
+          "FIGURE": "#V1768191",
+          "SCALE": "REGRET-SCALE",
+          "LEX": "GUILTY",
+          "WNSENSE": "guilty%5:00:00:ashamed:00"
+        },
+        "start": 72,
+        "end": 79
+      },
+      "root": "#V1769524"
+    },
+    {
+      "V1771070": {
+        "id": "V1771070",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1768226",
+          "LEX": "ARE"
+        },
+        "start": 79,
+        "end": 133
+      },
+      "V1768226": {
+        "id": "V1768226",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1771071",
+          "FORMAL": "#V1770332",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1771071": {
+        "id": "V1771071",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1770332": {
+        "id": "V1770332",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1771071",
+          "GROUND": "#V1768245",
+          "LEX": "HELD"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768245": {
+        "id": "V1768245",
+        "indicator": "F",
+        "type": "BODY-MANIPULATION",
+        "word": "HOLD",
+        "roles": {
+          "RESULT": "#V1768259",
+          "AFFECTED": "#V1771071",
+          "TIME": "#V1768239",
+          "WNSENSE": "hold%2:35:00::"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768239": {
+        "id": "V1768239",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": "FOREVER",
+        "roles": {
+          "FIGURE": "#V1768245",
+          "LEX": "FOREVER",
+          "WNSENSE": "forever%4:02:00::"
+        },
+        "start": 83,
+        "end": 91
+      },
+      "V1768259": {
+        "id": "V1768259",
+        "indicator": "F",
+        "type": "RESPONSIBLE-VAL",
+        "word": "ACCOUNTABLE",
+        "roles": {
+          "GROUND": "#V1768292",
+          "ORIENTATION": "POS",
+          "FIGURE": "#V1771071",
+          "SCALE": "RESPONSIBILITY-SCALE",
+          "LEX": "ACCOUNTABLE",
+          "WNSENSE": "accountable%5:00:00:responsible:00"
+        },
+        "start": 96,
+        "end": 132
+      },
+      "V1768292": {
+        "id": "V1768292",
+        "indicator": "WH-TERM",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V1768308",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 108,
+        "end": 132
+      },
+      "V1768308": {
+        "id": "V1768308",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V1768299",
+          "AFFECTED": "#V1768292",
+          "FORMAL": "#V1768331",
+          "TENSE": "PRES",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 117,
+        "end": 132
+      },
+      "V1768299": {
+        "id": "V1768299",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 117,
+        "end": 122
+      },
+      "V1768331": {
+        "id": "V1768331",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V1768292",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 127,
+        "end": 132
+      },
+      "root": "#V1771070"
+    },
+    {
+      "V1769460": {
+        "id": "V1769460",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "MOD": [
+            "#V1768101",
+            "#V1768108"
+          ],
+          "CONTENT": "#V1768119",
+          "LEX": "STIGMA"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V1768101": {
+        "id": "V1768101",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "HOPEFUL",
+        "roles": {
+          "FIGURE": "#V1769460",
+          "LEX": "HOPEFULLY"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1768108": {
+        "id": "V1768108",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SOMEDAY",
+        "roles": {
+          "FIGURE": "#V1769460",
+          "LEX": "SOMEDAY",
+          "WNSENSE": "someday%4:02:00::"
+        },
+        "start": 10,
+        "end": 18
+      },
+      "V1768119": {
+        "id": "V1768119",
+        "indicator": "THE",
+        "type": "PLANT-PART",
+        "word": "STIGMA",
+        "roles": {
+          "LEX": "STIGMA",
+          "WNSENSE": "stigma%1:20:00::"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "root": "#V1769460"
+    },
+    {
+      "V1769799": {
+        "id": "V1769799",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768170",
+          "MOD": "#V1768129",
+          "LEX": "LIFTED"
+        },
+        "start": 29,
+        "end": 54
+      },
+      "V1768129": {
+        "id": "V1768129",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1769799",
+          "LEX": "AND"
+        },
+        "start": 29,
+        "end": 33
+      },
+      "V1768170": {
+        "id": "V1768170",
+        "indicator": "F",
+        "type": "MOVE-UPWARD",
+        "word": "LIFT",
+        "roles": {
+          "AFFECTED": "#V1768140",
+          "TENSE": "FUT",
+          "MODALITY": "(:* FUTURE WILL)",
+          "PASSIVE": "+",
+          "LEX": "LIFTED",
+          "WNSENSE": "lift%2:38:00::"
+        },
+        "start": 33,
+        "end": 54
+      },
+      "V1768140": {
+        "id": "V1768140",
+        "indicator": "BARE",
+        "type": "TROUBLE",
+        "word": "SHAME",
+        "roles": {
+          "LEX": "SHAME",
+          "WNSENSE": "shame%1:11:00::"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "root": "#V1769799"
+    },
+    {
+      "V1768728": {
+        "id": "V1768728",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768187",
+          "MOD": "#V1768178",
+          "LEX": "THOSE"
+        },
+        "start": 54,
+        "end": 64
+      },
+      "V1768178": {
+        "id": "V1768178",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1768728",
+          "LEX": "AND"
+        },
+        "start": 54,
+        "end": 58
+      },
+      "V1768187": {
+        "id": "V1768187",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THOSE",
+        "roles": {
+          "PROFORM": "THOSE",
+          "LEX": "THOSE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 58,
+        "end": 64
+      },
+      "root": "#V1768728"
+    },
+    {
+      "V1769524": {
+        "id": "V1769524",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768198",
+          "FOCUS": "#V1768191",
+          "LEX": "ARE"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768198": {
+        "id": "V1768198",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1768191",
+          "FORMAL": "#V1768217",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768191": {
+        "id": "V1768191",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 68
+      },
+      "V1768217": {
+        "id": "V1768217",
+        "indicator": "F",
+        "type": "SORRY",
+        "word": "GUILTY",
+        "roles": {
+          "FIGURE": "#V1768191",
+          "SCALE": "REGRET-SCALE",
+          "LEX": "GUILTY",
+          "WNSENSE": "guilty%5:00:00:ashamed:00"
+        },
+        "start": 72,
+        "end": 79
+      },
+      "root": "#V1769524"
+    },
+    {
+      "V1771067": {
+        "id": "V1771067",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1768226",
+          "LEX": "ARE"
+        },
+        "start": 79,
+        "end": 133
+      },
+      "V1768226": {
+        "id": "V1768226",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1771068",
+          "FORMAL": "#V1770328",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1771068": {
+        "id": "V1771068",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1770328": {
+        "id": "V1770328",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1771068",
+          "GROUND": "#V1768245",
+          "LEX": "HELD"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768245": {
+        "id": "V1768245",
+        "indicator": "F",
+        "type": "BODY-MANIPULATION",
+        "word": "HOLD",
+        "roles": {
+          "RESULT": "#V1768259",
+          "AFFECTED": "#V1771068",
+          "TIME": "#V1768239",
+          "WNSENSE": "hold%2:35:00::"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768239": {
+        "id": "V1768239",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": "FOREVER",
+        "roles": {
+          "FIGURE": "#V1768245",
+          "LEX": "FOREVER",
+          "WNSENSE": "forever%4:02:00::"
+        },
+        "start": 83,
+        "end": 91
+      },
+      "V1768259": {
+        "id": "V1768259",
+        "indicator": "F",
+        "type": "RESPONSIBLE-VAL",
+        "word": "ACCOUNTABLE",
+        "roles": {
+          "GROUND": "#V1768293",
+          "ORIENTATION": "POS",
+          "FIGURE": "#V1771068",
+          "SCALE": "RESPONSIBILITY-SCALE",
+          "LEX": "ACCOUNTABLE",
+          "WNSENSE": "accountable%5:00:00:responsible:00"
+        },
+        "start": 96,
+        "end": 132
+      },
+      "V1768293": {
+        "id": "V1768293",
+        "indicator": "WH-TERM-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V1768308",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 108,
+        "end": 132
+      },
+      "V1768308": {
+        "id": "V1768308",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V1768299",
+          "AFFECTED": "#V1768293",
+          "FORMAL": "#V1768331",
+          "TENSE": "PRES",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 117,
+        "end": 132
+      },
+      "V1768299": {
+        "id": "V1768299",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 117,
+        "end": 122
+      },
+      "V1768331": {
+        "id": "V1768331",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V1768293",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 127,
+        "end": 132
+      },
+      "root": "#V1771067"
+    },
+    {
+      "V1769460": {
+        "id": "V1769460",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "MOD": [
+            "#V1768101",
+            "#V1768108"
+          ],
+          "CONTENT": "#V1768119",
+          "LEX": "STIGMA"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V1768101": {
+        "id": "V1768101",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "HOPEFUL",
+        "roles": {
+          "FIGURE": "#V1769460",
+          "LEX": "HOPEFULLY"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1768108": {
+        "id": "V1768108",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SOMEDAY",
+        "roles": {
+          "FIGURE": "#V1769460",
+          "LEX": "SOMEDAY",
+          "WNSENSE": "someday%4:02:00::"
+        },
+        "start": 10,
+        "end": 18
+      },
+      "V1768119": {
+        "id": "V1768119",
+        "indicator": "THE",
+        "type": "PLANT-PART",
+        "word": "STIGMA",
+        "roles": {
+          "LEX": "STIGMA",
+          "WNSENSE": "stigma%1:20:00::"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "root": "#V1769460"
+    },
+    {
+      "V1769799": {
+        "id": "V1769799",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768170",
+          "MOD": "#V1768129",
+          "LEX": "LIFTED"
+        },
+        "start": 29,
+        "end": 54
+      },
+      "V1768129": {
+        "id": "V1768129",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1769799",
+          "LEX": "AND"
+        },
+        "start": 29,
+        "end": 33
+      },
+      "V1768170": {
+        "id": "V1768170",
+        "indicator": "F",
+        "type": "MOVE-UPWARD",
+        "word": "LIFT",
+        "roles": {
+          "AFFECTED": "#V1768140",
+          "TENSE": "FUT",
+          "MODALITY": "(:* FUTURE WILL)",
+          "PASSIVE": "+",
+          "LEX": "LIFTED",
+          "WNSENSE": "lift%2:38:00::"
+        },
+        "start": 33,
+        "end": 54
+      },
+      "V1768140": {
+        "id": "V1768140",
+        "indicator": "BARE",
+        "type": "TROUBLE",
+        "word": "SHAME",
+        "roles": {
+          "LEX": "SHAME",
+          "WNSENSE": "shame%1:11:00::"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "root": "#V1769799"
+    },
+    {
+      "V1768728": {
+        "id": "V1768728",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768187",
+          "MOD": "#V1768178",
+          "LEX": "THOSE"
+        },
+        "start": 54,
+        "end": 64
+      },
+      "V1768178": {
+        "id": "V1768178",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1768728",
+          "LEX": "AND"
+        },
+        "start": 54,
+        "end": 58
+      },
+      "V1768187": {
+        "id": "V1768187",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THOSE",
+        "roles": {
+          "PROFORM": "THOSE",
+          "LEX": "THOSE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 58,
+        "end": 64
+      },
+      "root": "#V1768728"
+    },
+    {
+      "V1769522": {
+        "id": "V1769522",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768198",
+          "FOCUS": "#V1768191",
+          "LEX": "ARE"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768198": {
+        "id": "V1768198",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1768191",
+          "FORMAL": "#V1768215",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768191": {
+        "id": "V1768191",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 68
+      },
+      "V1768215": {
+        "id": "V1768215",
+        "indicator": "F",
+        "type": "SORRY",
+        "word": "GUILTY",
+        "roles": {
+          "FIGURE": "#V1768191",
+          "SCALE": "REGRET-SCALE",
+          "LEX": "GUILTY",
+          "WNSENSE": "guilty%5:00:00:ashamed:00"
+        },
+        "start": 72,
+        "end": 79
+      },
+      "root": "#V1769522"
+    },
+    {
+      "V1771070": {
+        "id": "V1771070",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1768226",
+          "LEX": "ARE"
+        },
+        "start": 79,
+        "end": 133
+      },
+      "V1768226": {
+        "id": "V1768226",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1771071",
+          "FORMAL": "#V1770332",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1771071": {
+        "id": "V1771071",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1770332": {
+        "id": "V1770332",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1771071",
+          "GROUND": "#V1768245",
+          "LEX": "HELD"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768245": {
+        "id": "V1768245",
+        "indicator": "F",
+        "type": "BODY-MANIPULATION",
+        "word": "HOLD",
+        "roles": {
+          "RESULT": "#V1768259",
+          "AFFECTED": "#V1771071",
+          "TIME": "#V1768239",
+          "WNSENSE": "hold%2:35:00::"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768239": {
+        "id": "V1768239",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": "FOREVER",
+        "roles": {
+          "FIGURE": "#V1768245",
+          "LEX": "FOREVER",
+          "WNSENSE": "forever%4:02:00::"
+        },
+        "start": 83,
+        "end": 91
+      },
+      "V1768259": {
+        "id": "V1768259",
+        "indicator": "F",
+        "type": "RESPONSIBLE-VAL",
+        "word": "ACCOUNTABLE",
+        "roles": {
+          "GROUND": "#V1768292",
+          "ORIENTATION": "POS",
+          "FIGURE": "#V1771071",
+          "SCALE": "RESPONSIBILITY-SCALE",
+          "LEX": "ACCOUNTABLE",
+          "WNSENSE": "accountable%5:00:00:responsible:00"
+        },
+        "start": 96,
+        "end": 132
+      },
+      "V1768292": {
+        "id": "V1768292",
+        "indicator": "WH-TERM",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V1768308",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 108,
+        "end": 132
+      },
+      "V1768308": {
+        "id": "V1768308",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V1768299",
+          "AFFECTED": "#V1768292",
+          "FORMAL": "#V1768331",
+          "TENSE": "PRES",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 117,
+        "end": 132
+      },
+      "V1768299": {
+        "id": "V1768299",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 117,
+        "end": 122
+      },
+      "V1768331": {
+        "id": "V1768331",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V1768292",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 127,
+        "end": 132
+      },
+      "root": "#V1771070"
+    },
+    {
+      "V1769460": {
+        "id": "V1769460",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "MOD": [
+            "#V1768101",
+            "#V1768108"
+          ],
+          "CONTENT": "#V1768119",
+          "LEX": "STIGMA"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V1768101": {
+        "id": "V1768101",
+        "indicator": "F",
+        "type": "DEGREE-OF-BELIEF",
+        "word": "HOPEFUL",
+        "roles": {
+          "FIGURE": "#V1769460",
+          "LEX": "HOPEFULLY"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1768108": {
+        "id": "V1768108",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "SOMEDAY",
+        "roles": {
+          "FIGURE": "#V1769460",
+          "LEX": "SOMEDAY",
+          "WNSENSE": "someday%4:02:00::"
+        },
+        "start": 10,
+        "end": 18
+      },
+      "V1768119": {
+        "id": "V1768119",
+        "indicator": "THE",
+        "type": "PLANT-PART",
+        "word": "STIGMA",
+        "roles": {
+          "LEX": "STIGMA",
+          "WNSENSE": "stigma%1:20:00::"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "root": "#V1769460"
+    },
+    {
+      "V1769799": {
+        "id": "V1769799",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768170",
+          "MOD": "#V1768129",
+          "LEX": "LIFTED"
+        },
+        "start": 29,
+        "end": 54
+      },
+      "V1768129": {
+        "id": "V1768129",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1769799",
+          "LEX": "AND"
+        },
+        "start": 29,
+        "end": 33
+      },
+      "V1768170": {
+        "id": "V1768170",
+        "indicator": "F",
+        "type": "MOVE-UPWARD",
+        "word": "LIFT",
+        "roles": {
+          "AFFECTED": "#V1768140",
+          "TENSE": "FUT",
+          "MODALITY": "(:* FUTURE WILL)",
+          "PASSIVE": "+",
+          "LEX": "LIFTED",
+          "WNSENSE": "lift%2:38:00::"
+        },
+        "start": 33,
+        "end": 54
+      },
+      "V1768140": {
+        "id": "V1768140",
+        "indicator": "BARE",
+        "type": "TROUBLE",
+        "word": "SHAME",
+        "roles": {
+          "LEX": "SHAME",
+          "WNSENSE": "shame%1:11:00::"
+        },
+        "start": 33,
+        "end": 39
+      },
+      "root": "#V1769799"
+    },
+    {
+      "V1768728": {
+        "id": "V1768728",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768187",
+          "MOD": "#V1768178",
+          "LEX": "THOSE"
+        },
+        "start": 54,
+        "end": 64
+      },
+      "V1768178": {
+        "id": "V1768178",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V1768728",
+          "LEX": "AND"
+        },
+        "start": 54,
+        "end": 58
+      },
+      "V1768187": {
+        "id": "V1768187",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THOSE",
+        "roles": {
+          "PROFORM": "THOSE",
+          "LEX": "THOSE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 58,
+        "end": 64
+      },
+      "root": "#V1768728"
+    },
+    {
+      "V1769522": {
+        "id": "V1769522",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1768198",
+          "FOCUS": "#V1768191",
+          "LEX": "ARE"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768198": {
+        "id": "V1768198",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1768191",
+          "FORMAL": "#V1768215",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 64,
+        "end": 79
+      },
+      "V1768191": {
+        "id": "V1768191",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 64,
+        "end": 68
+      },
+      "V1768215": {
+        "id": "V1768215",
+        "indicator": "F",
+        "type": "SORRY",
+        "word": "GUILTY",
+        "roles": {
+          "FIGURE": "#V1768191",
+          "SCALE": "REGRET-SCALE",
+          "LEX": "GUILTY",
+          "WNSENSE": "guilty%5:00:00:ashamed:00"
+        },
+        "start": 72,
+        "end": 79
+      },
+      "root": "#V1769522"
+    },
+    {
+      "V1771067": {
+        "id": "V1771067",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1768226",
+          "LEX": "ARE"
+        },
+        "start": 79,
+        "end": 133
+      },
+      "V1768226": {
+        "id": "V1768226",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1771068",
+          "FORMAL": "#V1770328",
+          "TENSE": "PRES",
+          "LEX": "ARE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1771068": {
+        "id": "V1771068",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 79,
+        "end": 132
+      },
+      "V1770328": {
+        "id": "V1770328",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1771068",
+          "GROUND": "#V1768245",
+          "LEX": "HELD"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768245": {
+        "id": "V1768245",
+        "indicator": "F",
+        "type": "BODY-MANIPULATION",
+        "word": "HOLD",
+        "roles": {
+          "RESULT": "#V1768259",
+          "AFFECTED": "#V1771068",
+          "TIME": "#V1768239",
+          "WNSENSE": "hold%2:35:00::"
+        },
+        "start": 83,
+        "end": 132
+      },
+      "V1768239": {
+        "id": "V1768239",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": "FOREVER",
+        "roles": {
+          "FIGURE": "#V1768245",
+          "LEX": "FOREVER",
+          "WNSENSE": "forever%4:02:00::"
+        },
+        "start": 83,
+        "end": 91
+      },
+      "V1768259": {
+        "id": "V1768259",
+        "indicator": "F",
+        "type": "RESPONSIBLE-VAL",
+        "word": "ACCOUNTABLE",
+        "roles": {
+          "GROUND": "#V1768293",
+          "ORIENTATION": "POS",
+          "FIGURE": "#V1771068",
+          "SCALE": "RESPONSIBILITY-SCALE",
+          "LEX": "ACCOUNTABLE",
+          "WNSENSE": "accountable%5:00:00:responsible:00"
+        },
+        "start": 96,
+        "end": 132
+      },
+      "V1768293": {
+        "id": "V1768293",
+        "indicator": "WH-TERM-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V1768308",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 108,
+        "end": 132
+      },
+      "V1768308": {
+        "id": "V1768308",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V1768299",
+          "AFFECTED": "#V1768293",
+          "FORMAL": "#V1768331",
+          "TENSE": "PRES",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 117,
+        "end": 132
+      },
+      "V1768299": {
+        "id": "V1768299",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 117,
+        "end": 122
+      },
+      "V1768331": {
+        "id": "V1768331",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V1768293",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 127,
+        "end": 132
+      },
+      "root": "#V1771067"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to sequences not reimplemented yet",
+    "*last-utt-id*=NIL  utt-id+280",
+    "*last-utt-id*=280  utt-id+280",
+    "*last-utt-id*=280  utt-id+280",
+    "*last-utt-id*=280  utt-id+280",
+    "*last-utt-id*=280  utt-id+280",
+    "*last-utt-id*=280  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "parse": [
+    {
+      "V2478256": {
+        "id": "V2478256",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2477525",
+          "LEX": "SUPPORT"
+        },
+        "start": 0,
+        "end": 44
+      },
+      "V2477525": {
+        "id": "V2477525",
+        "indicator": "F",
+        "type": "CONFIRM",
+        "word": "SUPPORT",
+        "roles": {
+          "AGENT": "#V2477511",
+          "NEUTRAL": "#V2478228",
+          "TENSE": "PRES",
+          "LEX": "SUPPORT",
+          "WNSENSE": "confirm%2:32:00"
+        },
+        "start": 0,
+        "end": 44
+      },
+      "V2477511": {
+        "id": "V2477511",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V2478228": {
+        "id": "V2478228",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2477561"
+        },
+        "start": 12,
+        "end": 44
+      },
+      "V2477561": {
+        "id": "V2477561",
+        "indicator": "INDEF-SET",
+        "type": "CRIMINAL-ACTIVITY",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V2477558",
+          "SEQUENCE1": "#V2477595",
+          "LEX": "PUNC-AND"
+        },
+        "start": 12,
+        "end": 44
+      },
+      "V2477595": {
+        "id": "V2477595",
+        "indicator": "INDEF-SET",
+        "type": "CRIMINAL-ACTIVITY",
+        "word": "STATUTORY-RAPE",
+        "roles": {
+          "LEX": "STATUTORY-RAPE",
+          "WNSENSE": "statutory_rape%1:04:00"
+        },
+        "start": 12,
+        "end": 44
+      },
+      "V2477558": {
+        "id": "V2477558",
+        "indicator": "INDEF-SET",
+        "type": "CRIMINAL-ACTIVITY",
+        "word": "SEXUAL-ASSAULT",
+        "roles": {
+          "LEX": "SEXUAL-ASSAULT",
+          "WNSENSE": "sexual_assault%1:04:00"
+        },
+        "start": 12,
+        "end": 44
+      },
+      "root": "#V2478256"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "pertainym sense info is: SENSE-INFO ((:WN-SENSE-KEYS (\"statute%1:10:00::\"))",
+    "                                     (:PENN-PARTS-OF-SPEECH (PARSER::NN)",
+    "                                      :TRIPS-PARTS-OF-SPEECH (W::N))) LF: ONT::REFERENTIAL-SEM LF-FORM: (W::STATUTE) domain info: NIL",
+    "*last-utt-id*=NIL  utt-id+429",
+    "*last-utt-id*=429  utt-id+NIL"
+  ]
+}

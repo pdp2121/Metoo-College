@@ -1,0 +1,156 @@
+{
+  "parse": [
+    {
+      "V852854": {
+        "id": "V852854",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V843625",
+          "LEX": "WALKED"
+        },
+        "start": 0,
+        "end": 58
+      },
+      "V843625": {
+        "id": "V843625",
+        "indicator": "F",
+        "type": "WALKING",
+        "word": "WALK",
+        "roles": {
+          "AGENT": "#V843610",
+          "AFFECTED": "#V843699",
+          "RESULT": "#V843634",
+          "MOD": "#V843567",
+          "TENSE": "PAST",
+          "LEX": "WALKED"
+        },
+        "start": 0,
+        "end": 58
+      },
+      "V843567": {
+        "id": "V843567",
+        "indicator": "F",
+        "type": "SITUATED-IN",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V843594",
+          "FIGURE": "#V843625",
+          "LEX": "AT"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V843594": {
+        "id": "V843594",
+        "indicator": "BARE",
+        "type": "WORKING",
+        "word": "JOB",
+        "roles": {
+          "MOD": "#V843729",
+          "LEX": "JOB",
+          "WNSENSE": "work%2:41:05"
+        },
+        "start": 3,
+        "end": 12
+      },
+      "V843729": {
+        "id": "V843729",
+        "indicator": "F",
+        "type": "SAME",
+        "word": "SAME",
+        "roles": {
+          "FIGURE": "#V843594"
+        },
+        "start": 3,
+        "end": 12
+      },
+      "V843610": {
+        "id": "V843610",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 12,
+        "end": 14
+      },
+      "V843634": {
+        "id": "V843634",
+        "indicator": "F",
+        "type": "GOAL-AS-CONTAINMENT",
+        "word": "INTO",
+        "roles": {
+          "GROUND": "#V843648",
+          "FIGURE": "#V843699",
+          "LEX": "INTO"
+        },
+        "start": 21,
+        "end": 56
+      },
+      "V843648": {
+        "id": "V843648",
+        "indicator": "THE",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "STOCKROOM",
+        "roles": {
+          "MOD": "#V843679",
+          "LEX": "STOCKROOM",
+          "WNSENSE": "stockroom%1:06:00::"
+        },
+        "start": 26,
+        "end": 56
+      },
+      "V843679": {
+        "id": "V843679",
+        "indicator": "F",
+        "type": "SCRUTINY",
+        "word": "WITNESS",
+        "roles": {
+          "NEUTRAL": "#V843648",
+          "MOD": "#V843693",
+          "VFORM": "BASE",
+          "LEX": "WITNESS",
+          "WNSENSE": "take%2:31:02"
+        },
+        "start": 40,
+        "end": 56
+      },
+      "V843693": {
+        "id": "V843693",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "ASST",
+        "roles": {
+          "FIGURE": "#V843679",
+          "LEX": "ASST"
+        },
+        "start": 51,
+        "end": 56
+      },
+      "V843699": {
+        "id": "V843699",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "MGR",
+        "roles": {
+          "LEX": "MGR",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 56,
+        "end": 58
+      },
+      "root": "#V852854"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+128",
+    "*last-utt-id*=128  utt-id+NIL"
+  ]
+}

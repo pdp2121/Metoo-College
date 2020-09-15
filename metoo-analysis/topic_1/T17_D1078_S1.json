@@ -1,0 +1,125 @@
+{
+  "parse": [
+    {
+      "V1132180": {
+        "id": "V1132180",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1127100",
+          "LEX": "LIST"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V1127100": {
+        "id": "V1127100",
+        "indicator": "F",
+        "type": "LISTING",
+        "word": "LIST",
+        "roles": {
+          "AGENT": "#V1127531",
+          "NEUTRAL": "#V1127860",
+          "RESULT": "#V1127111",
+          "LOCATION": "#V1127039",
+          "TENSE": "PRES",
+          "LEX": "LIST"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V1127039": {
+        "id": "V1127039",
+        "indicator": "F",
+        "type": "POS-WRT-SPEAKER-RELN",
+        "word": "HERE",
+        "roles": {
+          "GROUND": "#V1127187",
+          "FIGURE": "#V1127100",
+          "LEX": "HERE"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V1127187": {
+        "id": "V1127187",
+        "indicator": "IMPRO",
+        "type": "LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HERE"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V1127531": {
+        "id": "V1127531",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(S A)",
+          "VAL": "(S A)",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 9
+      },
+      "V1127111": {
+        "id": "V1127111",
+        "indicator": "F",
+        "type": "RESULTING-STATE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1127143",
+          "FIGURE": "#V1127860",
+          "LEX": "TO"
+        },
+        "start": 14,
+        "end": 23
+      },
+      "V1127143": {
+        "id": "V1127143",
+        "indicator": "BARE",
+        "type": "START",
+        "word": "START",
+        "roles": {
+          "LEX": "START",
+          "WNSENSE": "start%1:11:00::"
+        },
+        "start": 17,
+        "end": 23
+      },
+      "V1127860": {
+        "id": "V1127860",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1127179"
+        },
+        "start": 23,
+        "end": 23
+      },
+      "V1127179": {
+        "id": "V1127179",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "|...|",
+        "roles": {
+          "LEX": "|...|",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 23,
+        "end": 23
+      },
+      "root": "#V1132180"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+202",
+    "*last-utt-id*=202  utt-id+NIL"
+  ]
+}

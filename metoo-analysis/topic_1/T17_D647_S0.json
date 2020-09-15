@@ -1,0 +1,266 @@
+{
+  "parse": [
+    {
+      "V1536714": {
+        "id": "V1536714",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1534953",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 83
+      },
+      "V1534953": {
+        "id": "V1534953",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V1535451",
+          "SEQUENCE1": "#V1534964",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 83
+      },
+      "V1535451": {
+        "id": "V1535451",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": null,
+        "roles": {
+          "AGENT": "#V1534836",
+          "AFFECTED": "#V1535687",
+          "METHOD": "#V1534850",
+          "FORMAL": "#V1534881",
+          "TENSE": "PAST",
+          "LEX": "RAN"
+        },
+        "start": 0,
+        "end": 54
+      },
+      "V1534836": {
+        "id": "V1534836",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1534850": {
+        "id": "V1534850",
+        "indicator": "F",
+        "type": "MOVE-RAPIDLY",
+        "word": "RUN",
+        "roles": {
+          "RESULT": "#V1534860",
+          "AGENT": "#V1534836",
+          "TENSE": "PAST",
+          "LEX": "RAN",
+          "WNSENSE": "run%2:38:00::"
+        },
+        "start": 2,
+        "end": 12
+      },
+      "V1534860": {
+        "id": "V1534860",
+        "indicator": "F",
+        "type": "AWAY",
+        "word": "AWAY",
+        "roles": {
+          "FIGURE": "#V1534836",
+          "LEX": "AWAY"
+        },
+        "start": 6,
+        "end": 12
+      },
+      "V1535687": {
+        "id": "V1535687",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1534869"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V1534869": {
+        "id": "V1534869",
+        "indicator": "INDEF-SET",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SIZE": "#V1534865",
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V1534874",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V1534865": {
+        "id": "V1534865",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "13"
+        },
+        "start": 12,
+        "end": 15
+      },
+      "V1534874": {
+        "id": "V1534874",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "AGO",
+        "roles": {
+          "FIGURE": "#V1534869",
+          "LEX": "AGO",
+          "WNSENSE": "ago%4:02:00::"
+        },
+        "start": 21,
+        "end": 25
+      },
+      "V1534881": {
+        "id": "V1534881",
+        "indicator": "F",
+        "type": "FROM-LOC",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V1536571",
+          "FIGURE": "#V1535687",
+          "LEX": "FROM"
+        },
+        "start": 25,
+        "end": 54
+      },
+      "V1536571": {
+        "id": "V1536571",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1534892"
+        },
+        "start": 30,
+        "end": 54
+      },
+      "V1534892": {
+        "id": "V1534892",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "CALI",
+        "roles": {
+          "MOD": "#V1534903",
+          "LEX": "CALI",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 30,
+        "end": 54
+      },
+      "V1534903": {
+        "id": "V1534903",
+        "indicator": "F",
+        "type": "DESTINATION-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1534948",
+          "FIGURE": "#V1534892",
+          "LEX": "TO"
+        },
+        "start": 35,
+        "end": 54
+      },
+      "V1534948": {
+        "id": "V1534948",
+        "indicator": "THE",
+        "type": "GEOGRAPHIC-REGION",
+        "word": "NEW-YORK-CITY",
+        "roles": {
+          "NAME-OF": "NEW-YORK-CITY",
+          "LEX": "NEW-YORK-CITY",
+          "WNSENSE": "north_america%1:14:00"
+        },
+        "start": 38,
+        "end": 54
+      },
+      "V1534964": {
+        "id": "V1534964",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "MAKE",
+        "roles": {
+          "AGENT": "#V1534836",
+          "AFFECTED-RESULT": "#V1534977",
+          "TENSE": "PAST",
+          "LEX": "MADE",
+          "WNSENSE": "make%1:04:00::"
+        },
+        "start": 58,
+        "end": 83
+      },
+      "V1534977": {
+        "id": "V1534977",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "SOMETHING",
+        "roles": {
+          "PROFORM": "SOMETHING",
+          "MOD": "#V1534981",
+          "LEX": "SOMETHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 63,
+        "end": 83
+      },
+      "V1534981": {
+        "id": "V1534981",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V1534989",
+          "FIGURE": "#V1534977",
+          "LEX": "OF"
+        },
+        "start": 73,
+        "end": 83
+      },
+      "V1534989": {
+        "id": "V1534989",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MYSELF",
+        "roles": {
+          "PROFORM": "MYSELF",
+          "LEX": "MYSELF",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 76,
+        "end": 83
+      },
+      "root": "#V1536714"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+297",
+    "*last-utt-id*=297  utt-id+NIL"
+  ]
+}

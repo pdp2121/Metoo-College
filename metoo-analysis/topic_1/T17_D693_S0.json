@@ -1,0 +1,183 @@
+{
+  "parse": [
+    {
+      "V2079184": {
+        "id": "V2079184",
+        "indicator": "SPEECHACT",
+        "type": "SA_YN-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V2078368",
+          "LEX": "DRAW"
+        },
+        "start": 0,
+        "end": 64
+      },
+      "V2078368": {
+        "id": "V2078368",
+        "indicator": "F",
+        "type": "WRITE",
+        "word": "DRAW",
+        "roles": {
+          "AGENT": "#V2078363",
+          "AFFECTED": "#V2078381",
+          "MANNER": "#V2078403",
+          "TENSE": "PRES",
+          "MODALITY": "(:* DO DO)",
+          "LEX": "DRAW",
+          "WNSENSE": "draw%2:36:07::"
+        },
+        "start": 0,
+        "end": 64
+      },
+      "V2078363": {
+        "id": "V2078363",
+        "indicator": "THE",
+        "type": "PERSON",
+        "word": "RAPIST",
+        "roles": {
+          "ASSOC-POSS": "#V2078358",
+          "LEX": "RAPIST",
+          "WNSENSE": "rapist%1:18:00::"
+        },
+        "start": 5,
+        "end": 17
+      },
+      "V2078358": {
+        "id": "V2078358",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOUR",
+        "roles": {
+          "LEX": "YOUR",
+          "PROFORM": "YOUR",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 5,
+        "end": 17
+      },
+      "V2078381": {
+        "id": "V2078381",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "HIMSELF",
+        "roles": {
+          "PROFORM": "HIMSELF",
+          "LEX": "HIMSELF",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "#V2078363"
+        },
+        "start": 22,
+        "end": 30
+      },
+      "V2078403": {
+        "id": "V2078403",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V2079163",
+          "FIGURE": "#V2078368",
+          "LEX": "AS",
+          "WNSENSE": "as%4:02:00::"
+        },
+        "start": 30,
+        "end": 64
+      },
+      "V2079163": {
+        "id": "V2079163",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2078420"
+        },
+        "start": 33,
+        "end": 64
+      },
+      "V2078420": {
+        "id": "V2078420",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "JESUS",
+        "roles": {
+          "LOCATION": "#V2078429",
+          "LEX": "JESUS",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 33,
+        "end": 64
+      },
+      "V2078429": {
+        "id": "V2078429",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V2078891",
+          "FIGURE": "#V2078420",
+          "LEX": "ON"
+        },
+        "start": 39,
+        "end": 64
+      },
+      "V2078891": {
+        "id": "V2078891",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2078461"
+        },
+        "start": 42,
+        "end": 64
+      },
+      "V2078461": {
+        "id": "V2078461",
+        "indicator": "THE",
+        "type": "SHAPE-OBJECT",
+        "word": "CROSS",
+        "roles": {
+          "SOURCE": "#V2078469",
+          "LEX": "CROSS",
+          "WNSENSE": "shape%1:03:00"
+        },
+        "start": 42,
+        "end": 64
+      },
+      "V2078469": {
+        "id": "V2078469",
+        "indicator": "F",
+        "type": "SOURCE-AS-LOC",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V2078482",
+          "FIGURE": "#V2078461",
+          "LEX": "FROM"
+        },
+        "start": 52,
+        "end": 64
+      },
+      "V2078482": {
+        "id": "V2078482",
+        "indicator": "BARE",
+        "type": "GENERAL-STRUCTURE",
+        "word": "PRISON",
+        "roles": {
+          "LEX": "PRISON",
+          "WNSENSE": "prison%1:06:00::"
+        },
+        "start": 57,
+        "end": 64
+      },
+      "root": "#V2079184"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+405",
+    "*last-utt-id*=405  utt-id+NIL"
+  ]
+}

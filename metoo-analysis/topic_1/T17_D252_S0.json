@@ -1,0 +1,108 @@
+{
+  "parse": [
+    {
+      "V2882748": {
+        "id": "V2882748",
+        "indicator": "F",
+        "type": "REGISTER",
+        "word": "TIME",
+        "roles": {
+          "REASON": "#V2882774",
+          "TENSE": "PRES",
+          "LEX": "TIME",
+          "WNSENSE": "time%2:30:00::"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V2882774": {
+        "id": "V2882774",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2882793",
+          "FIGURE": "#V2882748",
+          "LEX": "TO"
+        },
+        "start": 5,
+        "end": 30
+      },
+      "V2882793": {
+        "id": "V2882793",
+        "indicator": "F",
+        "type": "ADD-INCLUDE",
+        "word": "ADD",
+        "roles": {
+          "MOD": [
+            "#V2882851",
+            "#V2882841"
+          ],
+          "AFFECTED": "#V2882838",
+          "VFORM": "BASE",
+          "LEX": "ADD",
+          "WNSENSE": "add%2:30:00::"
+        },
+        "start": 8,
+        "end": 30
+      },
+      "V2882838": {
+        "id": "V2882838",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "ASSOC-WITH": "#V2882813",
+          "LEX": "MEN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 12,
+        "end": 18
+      },
+      "V2882813": {
+        "id": "V2882813",
+        "indicator": "THE",
+        "type": "LETTER-SYMBOL",
+        "word": null,
+        "roles": {
+          "NAME-OF": "A",
+          "LEX": "A",
+          "WNSENSE": "a%1:10:00::"
+        },
+        "start": 12,
+        "end": 14
+      },
+      "V2882841": {
+        "id": "V2882841",
+        "indicator": "F",
+        "type": "ADDITIVE",
+        "word": "TOO",
+        "roles": {
+          "FIGURE": "#V2882793",
+          "LEX": "TOO",
+          "WNSENSE": "too%4:02:00::"
+        },
+        "start": 18,
+        "end": 22
+      },
+      "V2882851": {
+        "id": "V2882851",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "HASHTAG",
+        "roles": {
+          "FIGURE": "#V2882793",
+          "LEX": "HASHTAG"
+        },
+        "start": 22,
+        "end": 30
+      },
+      "root": "#V2882748"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+499",
+    "*last-utt-id*=499  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "parse": [
+    {
+      "V2177638": {
+        "id": "V2177638",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2176941",
+          "LEX": "SLEPT"
+        },
+        "start": 0,
+        "end": 60
+      },
+      "V2176941": {
+        "id": "V2176941",
+        "indicator": "F",
+        "type": "SLEEP",
+        "word": "SLEEP",
+        "roles": {
+          "TIME": [
+            "#V2176851",
+            "#V2177036"
+          ],
+          "LOCATION": "#V2176975",
+          "AFFECTED": "#V2176927",
+          "FREQUENCY": "#V2176947",
+          "TENSE": "PAST",
+          "LEX": "SLEPT"
+        },
+        "start": 0,
+        "end": 60
+      },
+      "V2176851": {
+        "id": "V2176851",
+        "indicator": "F",
+        "type": "TIME-IN-REL",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2176912",
+          "FIGURE": "#V2176941",
+          "LEX": "IN"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V2176912": {
+        "id": "V2176912",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "YEAR": "2001",
+          "LEX": "2001"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "V2176927": {
+        "id": "V2176927",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 9,
+        "end": 11
+      },
+      "V2176947": {
+        "id": "V2176947",
+        "indicator": "F",
+        "type": "FREQUENCY",
+        "word": "OVER",
+        "roles": {
+          "FIGURE": "#V2176941",
+          "LEX": "OVER",
+          "WNSENSE": "over%4:02:01::"
+        },
+        "start": 17,
+        "end": 22
+      },
+      "V2176975": {
+        "id": "V2176975",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2177032",
+          "FIGURE": "#V2176941",
+          "LEX": "AT"
+        },
+        "start": 22,
+        "end": 41
+      },
+      "V2177032": {
+        "id": "V2177032",
+        "indicator": "A",
+        "type": "LODGING",
+        "word": "HOUSE",
+        "roles": {
+          "ASSOC-WITH": "#V2177026",
+          "LEX": "HOUSE",
+          "WNSENSE": "house%1:06:00::"
+        },
+        "start": 25,
+        "end": 41
+      },
+      "V2177026": {
+        "id": "V2177026",
+        "indicator": "KIND",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "LEX": "FRIENDS",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 25,
+        "end": 41
+      },
+      "V2177036": {
+        "id": "V2177036",
+        "indicator": "F",
+        "type": "AFTER",
+        "word": "AFTER",
+        "roles": {
+          "GROUND": "#V2177091",
+          "FIGURE": "#V2176941",
+          "LEX": "AFTER",
+          "WNSENSE": "after%4:02:01::"
+        },
+        "start": 41,
+        "end": 60
+      },
+      "V2177091": {
+        "id": "V2177091",
+        "indicator": "A",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V2177086",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 47,
+        "end": 60
+      },
+      "V2177086": {
+        "id": "V2177086",
+        "indicator": "F",
+        "type": "LATE-IN-PROCESS",
+        "word": "LATE",
+        "roles": {
+          "FIGURE": "#V2177091",
+          "LEX": "LATE",
+          "WNSENSE": "late%3:00:02::"
+        },
+        "start": 49,
+        "end": 54
+      },
+      "root": "#V2177638"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+379",
+    "*last-utt-id*=379  utt-id+NIL"
+  ]
+}

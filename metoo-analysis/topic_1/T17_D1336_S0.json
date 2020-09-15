@@ -1,0 +1,171 @@
+{
+  "parse": [
+    {
+      "V1192635": {
+        "id": "V1192635",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1187103",
+          "LEX": "BEAT"
+        },
+        "start": 0,
+        "end": 49
+      },
+      "V1187103": {
+        "id": "V1187103",
+        "indicator": "F",
+        "type": "HITTING",
+        "word": "BEAT",
+        "roles": {
+          "LOCATION": "#V1187019",
+          "RESULT": "#V1187146",
+          "AGENT": "#V1187025",
+          "AFFECTED": "#V1187115",
+          "TIME": "#V1187050",
+          "TENSE": "PAST",
+          "LEX": "BEAT"
+        },
+        "start": 0,
+        "end": 49
+      },
+      "V1187019": {
+        "id": "V1187019",
+        "indicator": "F",
+        "type": "POS-WRT-SPEAKER-RELN",
+        "word": "HERE",
+        "roles": {
+          "GROUND": "#V1187172",
+          "FIGURE": "#V1187103",
+          "LEX": "HERE"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V1187172": {
+        "id": "V1187172",
+        "indicator": "IMPRO",
+        "type": "LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HERE"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V1187025": {
+        "id": "V1187025",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u2019",
+        "roles": {
+          "LEX": "\u2019",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V1187050": {
+        "id": "V1187050",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "EXTENT": "#V1187029",
+          "GROUND": "#V1187079",
+          "FIGURE": "#V1187103"
+        },
+        "start": 7,
+        "end": 36
+      },
+      "V1187029": {
+        "id": "V1187029",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 7,
+        "end": 9
+      },
+      "V1187079": {
+        "id": "V1187079",
+        "indicator": "BARE",
+        "type": "ALLOW",
+        "word": "LET",
+        "roles": {
+          "AFFECTED": "#V1187097",
+          "FREQUENCY": "#V1187071",
+          "LEX": "LETTING",
+          "WNSENSE": "let%2:41:00::"
+        },
+        "start": 12,
+        "end": 36
+      },
+      "V1187071": {
+        "id": "V1187071",
+        "indicator": "F",
+        "type": "NEVER",
+        "word": "NEVER",
+        "roles": {
+          "FIGURE": "#V1187079",
+          "LEX": "NEVER",
+          "WNSENSE": "never%4:02:00::"
+        },
+        "start": 12,
+        "end": 18
+      },
+      "V1187097": {
+        "id": "V1187097",
+        "indicator": "THE",
+        "type": "GEO-FORMATION",
+        "word": "WORLD",
+        "roles": {
+          "LEX": "WORLD",
+          "WNSENSE": "world%1:17:00::"
+        },
+        "start": 26,
+        "end": 36
+      },
+      "V1187115": {
+        "id": "V1187115",
+        "indicator": "PRO-SET",
+        "type": "PERSON",
+        "word": "US",
+        "roles": {
+          "PROFORM": "US",
+          "LEX": "US",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "US"
+        },
+        "start": 41,
+        "end": 44
+      },
+      "V1187146": {
+        "id": "V1187146",
+        "indicator": "F",
+        "type": "DIRECTION-DOWN",
+        "word": "DOWN",
+        "roles": {
+          "FIGURE": "#V1187115",
+          "LEX": "DOWN"
+        },
+        "start": 44,
+        "end": 49
+      },
+      "root": "#V1192635"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+205",
+    "*last-utt-id*=205  utt-id+NIL"
+  ]
+}

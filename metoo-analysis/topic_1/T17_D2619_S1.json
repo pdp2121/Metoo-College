@@ -1,0 +1,147 @@
+{
+  "parse": [
+    {
+      "V1601766": {
+        "id": "V1601766",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1599939",
+          "LEX": "FOLLOWED"
+        },
+        "start": 0,
+        "end": 47
+      },
+      "V1599939": {
+        "id": "V1599939",
+        "indicator": "F",
+        "type": "FOLLOW-SOMETHING",
+        "word": "FOLLOW",
+        "roles": {
+          "TIME": "#V1599979",
+          "AGENT": "#V1601767",
+          "NEUTRAL": "#V1599946",
+          "REASON": "#V1599952",
+          "TENSE": "PAST",
+          "LEX": "FOLLOWED",
+          "WNSENSE": "follow%2:38:00::"
+        },
+        "start": 0,
+        "end": 47
+      },
+      "V1601767": {
+        "id": "V1601767",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ",
+          "COREF": "#V1599976"
+        },
+        "start": 0,
+        "end": 47
+      },
+      "V1599946": {
+        "id": "V1599946",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 9,
+        "end": 12
+      },
+      "V1599952": {
+        "id": "V1599952",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V1599976",
+          "FIGURE": "#V1599939",
+          "LEX": "FOR"
+        },
+        "start": 12,
+        "end": 21
+      },
+      "V1599976": {
+        "id": "V1599976",
+        "indicator": "BARE",
+        "type": "LENGTH-UNIT",
+        "word": "MILE",
+        "roles": {
+          "LEX": "MILE",
+          "WNSENSE": "mile%1:23:01::"
+        },
+        "start": 16,
+        "end": 21
+      },
+      "V1599979": {
+        "id": "V1599979",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V1600020",
+          "FIGURE": "#V1599939",
+          "LEX": "WHEN"
+        },
+        "start": 21,
+        "end": 47
+      },
+      "V1600020": {
+        "id": "V1600020",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "EXIT",
+        "roles": {
+          "AGENT": "#V1600005",
+          "AFFECTED": "#V1600032",
+          "TENSE": "PAST",
+          "LEX": "EXITED",
+          "WNSENSE": "abort%2:29:00"
+        },
+        "start": 26,
+        "end": 47
+      },
+      "V1600005": {
+        "id": "V1600005",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 26,
+        "end": 28
+      },
+      "V1600032": {
+        "id": "V1600032",
+        "indicator": "THE",
+        "type": "THRUWAY",
+        "word": "FREEWAY",
+        "roles": {
+          "LEX": "FREEWAY",
+          "WNSENSE": "freeway%1:06:00::"
+        },
+        "start": 35,
+        "end": 47
+      },
+      "root": "#V1601766"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+291",
+    "*last-utt-id*=291  utt-id+NIL"
+  ]
+}

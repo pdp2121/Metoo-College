@@ -1,0 +1,148 @@
+{
+  "parse": [
+    {
+      "V2441632": {
+        "id": "V2441632",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2441183",
+          "LEX": "SLEPT"
+        },
+        "start": 0,
+        "end": 51
+      },
+      "V2441183": {
+        "id": "V2441183",
+        "indicator": "F",
+        "type": "SLEEP",
+        "word": "SLEEP",
+        "roles": {
+          "MOD1": "#V2441153",
+          "LOCATION": [
+            "#V2441300",
+            "#V2441191"
+          ],
+          "AFFECTED": "#V2441169",
+          "TENSE": "PAST",
+          "LEX": "SLEPT"
+        },
+        "start": 0,
+        "end": 51
+      },
+      "V2441153": {
+        "id": "V2441153",
+        "indicator": "F",
+        "type": "CHOICE-OPTION",
+        "word": "INSTEAD-OF",
+        "roles": {
+          "GROUND": "#V2441452",
+          "FIGURE": "#V2441183",
+          "LEX": "INSTEAD"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2441452": {
+        "id": "V2441452",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "COREF": "#V2441292"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2441169": {
+        "id": "V2441169",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 8,
+        "end": 10
+      },
+      "V2441191": {
+        "id": "V2441191",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2441292",
+          "FIGURE": "#V2441183",
+          "LEX": "IN"
+        },
+        "start": 16,
+        "end": 35
+      },
+      "V2441292": {
+        "id": "V2441292",
+        "indicator": "A",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "BATHROOM",
+        "roles": {
+          "MOD": "#V2441289",
+          "LEX": "BATHROOM",
+          "WNSENSE": "bathroom%1:06:00::"
+        },
+        "start": 19,
+        "end": 35
+      },
+      "V2441289": {
+        "id": "V2441289",
+        "indicator": "F",
+        "type": "TINY",
+        "word": "TINY",
+        "roles": {
+          "ORIENTATION": "LESS",
+          "INTENSITY": "HI",
+          "FIGURE": "#V2441292",
+          "SCALE": "SIZE-SCALE",
+          "LEX": "TINY",
+          "WNSENSE": "tiny%5:00:00:small:00"
+        },
+        "start": 21,
+        "end": 26
+      },
+      "V2441300": {
+        "id": "V2441300",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2441364",
+          "FIGURE": "#V2441183",
+          "LEX": "IN"
+        },
+        "start": 35,
+        "end": 51
+      },
+      "V2441364": {
+        "id": "V2441364",
+        "indicator": "THE",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "BASEMENT",
+        "roles": {
+          "LEX": "BASEMENT",
+          "WNSENSE": "basement%1:06:00::"
+        },
+        "start": 38,
+        "end": 51
+      },
+      "root": "#V2441632"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+469",
+    "*last-utt-id*=469  utt-id+NIL"
+  ]
+}

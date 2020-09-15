@@ -1,0 +1,177 @@
+{
+  "parse": [
+    {
+      "V1801342": {
+        "id": "V1801342",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1800480",
+          "LEX": "TRIED"
+        },
+        "start": 0,
+        "end": 52
+      },
+      "V1800480": {
+        "id": "V1800480",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V1800471",
+          "FORMAL": "#V1800882",
+          "TENSE": "PAST",
+          "LEX": "TRIED",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 0,
+        "end": 52
+      },
+      "V1800471": {
+        "id": "V1800471",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V1800882": {
+        "id": "V1800882",
+        "indicator": "F",
+        "type": "EVENT-OF-CAUSATION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V1800520",
+          "SEQUENCE1": "#V1800566",
+          "VFORM": "BASE",
+          "LEX": "AND"
+        },
+        "start": 9,
+        "end": 52
+      },
+      "V1800566": {
+        "id": "V1800566",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "PUT",
+        "roles": {
+          "AGENT": "#V1800471",
+          "AFFECTED": "#V1800593",
+          "RESULT": "#V1800625",
+          "LEX": "PUT",
+          "WNSENSE": "put%2:35:00::"
+        },
+        "start": 9,
+        "end": 52
+      },
+      "V1800520": {
+        "id": "V1800520",
+        "indicator": "F",
+        "type": "TOUCH",
+        "word": "TOUCH",
+        "roles": {
+          "AGENT": "#V1800471",
+          "AFFECTED": "#V1800528",
+          "LEX": "TOUCH",
+          "WNSENSE": "touch%1:04:00::"
+        },
+        "start": 9,
+        "end": 52
+      },
+      "V1800528": {
+        "id": "V1800528",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 18,
+        "end": 21
+      },
+      "V1800593": {
+        "id": "V1800593",
+        "indicator": "THE",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "HAND",
+        "roles": {
+          "ASSOC-POSS": "#V1800587",
+          "LEX": "HAND",
+          "WNSENSE": "hand%1:08:00::"
+        },
+        "start": 29,
+        "end": 37
+      },
+      "V1800587": {
+        "id": "V1800587",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 29,
+        "end": 37
+      },
+      "V1800625": {
+        "id": "V1800625",
+        "indicator": "F",
+        "type": "DIRECTION-DOWN-GROUND",
+        "word": "DOWN",
+        "roles": {
+          "GROUND": "#V1800672",
+          "FIGURE": "#V1800593",
+          "LEX": "DOWN"
+        },
+        "start": 37,
+        "end": 52
+      },
+      "V1800672": {
+        "id": "V1800672",
+        "indicator": "THE",
+        "type": "ATTIRE",
+        "word": "PANTS",
+        "roles": {
+          "ASSOC-POSS": "#V1800667",
+          "LEX": "PANTS",
+          "WNSENSE": "pants%1:06:01::"
+        },
+        "start": 42,
+        "end": 52
+      },
+      "V1800667": {
+        "id": "V1800667",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 42,
+        "end": 52
+      },
+      "root": "#V1801342"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+351",
+    "*last-utt-id*=351  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "parse": [
+    {
+      "V81523": {
+        "id": "V81523",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V80645",
+          "LEX": "AM"
+        },
+        "start": 0,
+        "end": 42
+      },
+      "V80645": {
+        "id": "V80645",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "LOCATION": "#V80611",
+          "NEUTRAL": "#V80628",
+          "FORMAL": "#V80656",
+          "TIME": "#V80931",
+          "TENSE": "PRES",
+          "LEX": "AM"
+        },
+        "start": 0,
+        "end": 42
+      },
+      "V80611": {
+        "id": "V80611",
+        "indicator": "F",
+        "type": "POS-WRT-SPEAKER-RELN",
+        "word": "HERE",
+        "roles": {
+          "GROUND": "#V80723",
+          "FIGURE": "#V80645",
+          "MOD": "#V80593",
+          "LEX": "HERE"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V80723": {
+        "id": "V80723",
+        "indicator": "IMPRO",
+        "type": "LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HERE"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V80593": {
+        "id": "V80593",
+        "indicator": "F",
+        "type": "INTENSIFIER",
+        "word": "SO",
+        "roles": {
+          "FIGURE": "#V80611",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:02::"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V80628": {
+        "id": "V80628",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 8,
+        "end": 10
+      },
+      "V80656": {
+        "id": "V80656",
+        "indicator": "F",
+        "type": "UNAFFECTED-VAL",
+        "word": "UNAFRAID",
+        "roles": {
+          "FIGURE": "#V80628",
+          "SCALE": "PSYCHOLOGICAL-CONDITION-SCALE",
+          "LEX": "UNAFRAID",
+          "WNSENSE": "unafraid%3:00:00::"
+        },
+        "start": 13,
+        "end": 22
+      },
+      "V80931": {
+        "id": "V80931",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V80645",
+          "GROUND": "#V80664",
+          "LEX": "LETTING"
+        },
+        "start": 22,
+        "end": 42
+      },
+      "V80664": {
+        "id": "V80664",
+        "indicator": "F",
+        "type": "ALLOW",
+        "word": "LET",
+        "roles": {
+          "AFFECTED": "#V80677",
+          "FORMAL": "#V80689",
+          "VFORM": "ING",
+          "LEX": "LETTING",
+          "WNSENSE": "let%2:41:00::"
+        },
+        "start": 22,
+        "end": 42
+      },
+      "V80677": {
+        "id": "V80677",
+        "indicator": "QUANTIFIER",
+        "type": "PERSON",
+        "word": "EVERYONE",
+        "roles": {
+          "QUAN": "EVERYONE",
+          "LEX": "EVERYONE",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 30,
+        "end": 39
+      },
+      "V80689": {
+        "id": "V80689",
+        "indicator": "F",
+        "type": "KNOW",
+        "word": "KNOW",
+        "roles": {
+          "EXPERIENCER": "#V80677",
+          "VFORM": "BASE",
+          "LEX": "KNOW",
+          "WNSENSE": "know%2:31:01::"
+        },
+        "start": 39,
+        "end": 42
+      },
+      "root": "#V81523"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+12",
+    "*last-utt-id*=12  utt-id+NIL"
+  ]
+}

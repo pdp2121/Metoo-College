@@ -1,0 +1,194 @@
+{
+  "parse": [
+    {
+      "V1546637": {
+        "id": "V1546637",
+        "indicator": "SPEECHACT",
+        "type": "SA_REQUEST",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1542994",
+          "LEX": "STOP"
+        },
+        "start": 0,
+        "end": 54
+      },
+      "V1542994": {
+        "id": "V1542994",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "STOP",
+        "roles": {
+          "AGENT": "#V1545447",
+          "AFFECTED": "#V1543283",
+          "FORMAL": "#V1543028",
+          "EXTENT": "#V1543172",
+          "TENSE": "PRES",
+          "VFORM": "BASE",
+          "LEX": "STOP"
+        },
+        "start": 0,
+        "end": 54
+      },
+      "V1545447": {
+        "id": "V1545447",
+        "indicator": "IMPRO",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "PROFORM": "*YOU*",
+          "COREF": "SYS"
+        },
+        "start": 0,
+        "end": 54
+      },
+      "V1543172": {
+        "id": "V1543172",
+        "indicator": "F",
+        "type": "EXTENT-PREDICATE",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1542994",
+          "GROUND": "#V1543165",
+          "LEX": "ONE"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1543165": {
+        "id": "V1543165",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "AMOUNT": "#V1542983",
+          "LEX": "ONE"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1542983": {
+        "id": "V1542983",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1543283": {
+        "id": "V1543283",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "THAT",
+          "MOD": "#V1543146",
+          "LEX": "THAT"
+        },
+        "start": 8,
+        "end": 22
+      },
+      "V1543146": {
+        "id": "V1543146",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1543283",
+          "GROUND": "#V1543024",
+          "LEX": "HARASSED"
+        },
+        "start": 13,
+        "end": 22
+      },
+      "V1543024": {
+        "id": "V1543024",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "HARASS",
+        "roles": {
+          "AFFECTED": "#V1543283",
+          "WNSENSE": "harass%2:37:00::"
+        },
+        "start": 13,
+        "end": 22
+      },
+      "V1543028": {
+        "id": "V1543028",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT1": "#V1543046",
+          "RESULT": "#V1543035",
+          "AGENT": "#V1543283",
+          "VFORM": "ING",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 22,
+        "end": 54
+      },
+      "V1543035": {
+        "id": "V1543035",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V1543256",
+          "FIGURE": "#V1543283",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 30,
+        "end": 35
+      },
+      "V1543256": {
+        "id": "V1543256",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 30,
+        "end": 35
+      },
+      "V1543046": {
+        "id": "V1543046",
+        "indicator": "F",
+        "type": "FROM-LOC",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V1543073",
+          "FIGURE": "#V1543283",
+          "LEX": "FROM"
+        },
+        "start": 35,
+        "end": 54
+      },
+      "V1543073": {
+        "id": "V1543073",
+        "indicator": "BARE",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "MIDDLE-SCHOOL",
+        "roles": {
+          "LEX": "MIDDLE-SCHOOL",
+          "WNSENSE": "middle_school%1:14:00"
+        },
+        "start": 40,
+        "end": 54
+      },
+      "root": "#V1546637"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+288",
+    "*last-utt-id*=288  utt-id+NIL"
+  ]
+}

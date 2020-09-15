@@ -1,0 +1,130 @@
+{
+  "parse": [
+    {
+      "V1783229": {
+        "id": "V1783229",
+        "indicator": "SPEECHACT",
+        "type": "SA_REQUEST",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1782350",
+          "LEX": "HARASS"
+        },
+        "start": 0,
+        "end": 37
+      },
+      "V1782350": {
+        "id": "V1782350",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "HARASS",
+        "roles": {
+          "AGENT": "#V1783227",
+          "AFFECTED": "#V1782353",
+          "LOCATION": "#V1782369",
+          "TENSE": "PRES",
+          "VFORM": "BASE",
+          "LEX": "HARASS",
+          "WNSENSE": "harass%2:37:00::"
+        },
+        "start": 0,
+        "end": 37
+      },
+      "V1783227": {
+        "id": "V1783227",
+        "indicator": "IMPRO",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "PROFORM": "*YOU*",
+          "COREF": "SYS"
+        },
+        "start": 0,
+        "end": 37
+      },
+      "V1782353": {
+        "id": "V1782353",
+        "indicator": "THE",
+        "type": "LETTER-SYMBOL",
+        "word": null,
+        "roles": {
+          "NAME-OF": "E",
+          "LEX": "E",
+          "WNSENSE": "e%1:10:00::"
+        },
+        "start": 7,
+        "end": 9
+      },
+      "V1782369": {
+        "id": "V1782369",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V1782658",
+          "FIGURE": "#V1782350",
+          "LEX": "ON"
+        },
+        "start": 9,
+        "end": 37
+      },
+      "V1782658": {
+        "id": "V1782658",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1782396"
+        },
+        "start": 12,
+        "end": 37
+      },
+      "V1782396": {
+        "id": "V1782396",
+        "indicator": "THE",
+        "type": "THOROUGHFARE",
+        "word": "STREET",
+        "roles": {
+          "MOD": "#V1782407",
+          "LEX": "STREET",
+          "WNSENSE": "street%1:06:00::"
+        },
+        "start": 12,
+        "end": 37
+      },
+      "V1782407": {
+        "id": "V1782407",
+        "indicator": "F",
+        "type": "OBJ-IN-PATH",
+        "word": "BY",
+        "roles": {
+          "GROUND": "#V1782465",
+          "FIGURE": "#V1782396",
+          "LEX": "BY",
+          "WNSENSE": "by%4:02:00::"
+        },
+        "start": 23,
+        "end": 37
+      },
+      "V1782465": {
+        "id": "V1782465",
+        "indicator": "A",
+        "type": "MEMBER-RELN",
+        "word": "STRANGER",
+        "roles": {
+          "LEX": "STRANGER",
+          "WNSENSE": "stranger%1:18:01::"
+        },
+        "start": 26,
+        "end": 37
+      },
+      "root": "#V1783229"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+352",
+    "*last-utt-id*=352  utt-id+NIL"
+  ]
+}

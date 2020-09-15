@@ -1,0 +1,236 @@
+{
+  "parse": [
+    {
+      "V342568": {
+        "id": "V342568",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V338211",
+          "LEX": "QUIT"
+        },
+        "start": 0,
+        "end": 80
+      },
+      "V338211": {
+        "id": "V338211",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "QUIT",
+        "roles": {
+          "AGENT": "#V338195",
+          "AFFECTED": "#V338227",
+          "TENSE": "PAST",
+          "LEX": "QUIT",
+          "WNSENSE": "quit%2:42:04::"
+        },
+        "start": 0,
+        "end": 80
+      },
+      "V338195": {
+        "id": "V338195",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V338227": {
+        "id": "V338227",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "BARTENDING",
+        "roles": {
+          "TIME": "#V338232",
+          "LEX": "BARTENDING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 7,
+        "end": 80
+      },
+      "V338232": {
+        "id": "V338232",
+        "indicator": "F",
+        "type": "AFTER",
+        "word": "AFTER",
+        "roles": {
+          "GROUND": "#V338240",
+          "FIGURE": "#V338227",
+          "LEX": "AFTER",
+          "WNSENSE": "after%4:02:01::"
+        },
+        "start": 18,
+        "end": 80
+      },
+      "V338240": {
+        "id": "V338240",
+        "indicator": "BARE",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "FORMAL": "#V341743",
+          "LEX": "BEING",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 24,
+        "end": 80
+      },
+      "V341743": {
+        "id": "V341743",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "GROUND": "#V338254",
+          "LEX": "FOLLOWED"
+        },
+        "start": 30,
+        "end": 80
+      },
+      "V338254": {
+        "id": "V338254",
+        "indicator": "F",
+        "type": "FOLLOW-SOMETHING",
+        "word": "FOLLOW",
+        "roles": {
+          "TRANSIENT-RESULT": "#V338276",
+          "RESULT": "#V338261",
+          "TIME": "#V338342",
+          "WNSENSE": "follow%2:38:00::"
+        },
+        "start": 30,
+        "end": 80
+      },
+      "V338261": {
+        "id": "V338261",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V338586",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 39,
+        "end": 44
+      },
+      "V338586": {
+        "id": "V338586",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 39,
+        "end": 44
+      },
+      "V338276": {
+        "id": "V338276",
+        "indicator": "F",
+        "type": "OBJ-IN-PATH",
+        "word": "BY",
+        "roles": {
+          "GROUND": "#V338336",
+          "LEX": "BY",
+          "WNSENSE": "by%4:02:00::"
+        },
+        "start": 44,
+        "end": 56
+      },
+      "V338336": {
+        "id": "V338336",
+        "indicator": "A",
+        "type": "CONSUMER",
+        "word": "PATRON",
+        "roles": {
+          "LEX": "PATRON",
+          "WNSENSE": "patron%1:18:00::"
+        },
+        "start": 47,
+        "end": 56
+      },
+      "V338342": {
+        "id": "V338342",
+        "indicator": "F",
+        "type": "AFTER",
+        "word": "AFTER",
+        "roles": {
+          "GROUND": "#V338353",
+          "FIGURE": "#V338254",
+          "LEX": "AFTER",
+          "WNSENSE": "after%4:02:01::"
+        },
+        "start": 56,
+        "end": 80
+      },
+      "V338353": {
+        "id": "V338353",
+        "indicator": "BARE",
+        "type": "CLOSE",
+        "word": "CLOSE",
+        "roles": {
+          "EXTENT": "#V338579",
+          "LEX": "CLOSING",
+          "WNSENSE": "close%2:35:00::"
+        },
+        "start": 62,
+        "end": 80
+      },
+      "V338579": {
+        "id": "V338579",
+        "indicator": "F",
+        "type": "EXTENT-PREDICATE",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V338353",
+          "GROUND": "#V338367",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 70,
+        "end": 80
+      },
+      "V338367": {
+        "id": "V338367",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "AMOUNT": "#V338365",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 70,
+        "end": 80
+      },
+      "V338365": {
+        "id": "V338365",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 70,
+        "end": 80
+      },
+      "root": "#V342568"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+58",
+    "*last-utt-id*=58  utt-id+NIL"
+  ]
+}

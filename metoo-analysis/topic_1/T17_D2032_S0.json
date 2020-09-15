@@ -1,0 +1,109 @@
+{
+  "parse": [
+    {
+      "V490801": {
+        "id": "V490801",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V490283",
+          "LEX": "DO-"
+        },
+        "start": 0,
+        "end": 34
+      },
+      "V490283": {
+        "id": "V490283",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "TIME": "#V490239",
+          "AGENT": "#V490253",
+          "NEUTRAL": "#V490289",
+          "MOD": "#V490297",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "DO-"
+        },
+        "start": 0,
+        "end": 34
+      },
+      "V490239": {
+        "id": "V490239",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V490283",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V490253": {
+        "id": "V490253",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 4,
+        "end": 8
+      },
+      "V490289": {
+        "id": "V490289",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "SOMETHING",
+        "roles": {
+          "PROFORM": "SOMETHING",
+          "LEX": "SOMETHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 15,
+        "end": 25
+      },
+      "V490297": {
+        "id": "V490297",
+        "indicator": "F",
+        "type": "ASSOCIATED-INFORMATION",
+        "word": "ABOUT",
+        "roles": {
+          "GROUND": "#V490308",
+          "FIGURE": "#V490283",
+          "LEX": "ABOUT",
+          "WNSENSE": "about%4:02:00::"
+        },
+        "start": 25,
+        "end": 34
+      },
+      "V490308": {
+        "id": "V490308",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 31,
+        "end": 34
+      },
+      "root": "#V490801"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+93",
+    "*last-utt-id*=93  utt-id+NIL"
+  ]
+}

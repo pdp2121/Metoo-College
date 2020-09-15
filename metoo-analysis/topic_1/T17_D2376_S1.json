@@ -1,0 +1,4773 @@
+{
+  "parse": [
+    {
+      "V1437999": {
+        "id": "V1437999",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1437485",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1437485": {
+        "id": "V1437485",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "root": "#V1437999"
+    },
+    {
+      "V1440509": {
+        "id": "V1440509",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V1437505",
+          "SEQUENCE1": "#V1437569",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437569": {
+        "id": "V1437569",
+        "indicator": "F",
+        "type": "CAUSE-MOVE",
+        "word": "TAKE",
+        "roles": {
+          "AFFECTED": "#V1437613",
+          "LEX": "TOOK",
+          "WNSENSE": "take%2:38:05::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437505": {
+        "id": "V1437505",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "COME",
+        "roles": {
+          "FREQUENCY": "#V1438224",
+          "LEX": "CAME",
+          "WNSENSE": "come%2:30:01::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1438224": {
+        "id": "V1438224",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1437505",
+          "GROUND": "#V1437520",
+          "LEX": "NIGHT"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437520": {
+        "id": "V1437520",
+        "indicator": "QUANTIFIER",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "QUAN": "EVERY",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437613": {
+        "id": "V1437613",
+        "indicator": "THE",
+        "type": "PRECIPITATION",
+        "word": "SHOWER",
+        "roles": {
+          "MOD": "#V1437605",
+          "LEX": "SHOWER",
+          "WNSENSE": "shower%1:19:00::"
+        },
+        "start": 26,
+        "end": 45
+      },
+      "V1437605": {
+        "id": "V1437605",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "HOT",
+        "roles": {
+          "FIGURE": "#V1437613",
+          "SCALE": "HEAT-SCALE",
+          "LEX": "HOTTEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 30,
+        "end": 38
+      },
+      "root": "#V1440509"
+    },
+    {
+      "V1441552": {
+        "id": "V1441552",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1437657",
+          "LEX": "STAND"
+        },
+        "start": 45,
+        "end": 97
+      },
+      "V1437657": {
+        "id": "V1437657",
+        "indicator": "F",
+        "type": "BE-AT-LOC",
+        "word": "STAND",
+        "roles": {
+          "NEUTRAL": "#V1437632",
+          "TIME": "#V1437673",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "LEX": "STAND",
+          "WNSENSE": "sit%2:35:00"
+        },
+        "start": 45,
+        "end": 97
+      },
+      "V1437632": {
+        "id": "V1437632",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 45,
+        "end": 47
+      },
+      "V1437673": {
+        "id": "V1437673",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1437696",
+          "FIGURE": "#V1437657",
+          "LEX": "TO"
+        },
+        "start": 59,
+        "end": 97
+      },
+      "V1437696": {
+        "id": "V1437696",
+        "indicator": "BARE",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "FORMAL": "#V1437766",
+          "LEX": "TRY",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 62,
+        "end": 97
+      },
+      "V1437766": {
+        "id": "V1437766",
+        "indicator": "F",
+        "type": "CAUSE-COME-FROM",
+        "word": "WASH-AWAY",
+        "roles": {
+          "AFFECTED": "#V1437790",
+          "VFORM": "BASE",
+          "LEX": "WASH-AWAY",
+          "WNSENSE": "wash_away%2:30:01"
+        },
+        "start": 66,
+        "end": 97
+      },
+      "V1437790": {
+        "id": "V1437790",
+        "indicator": "THE",
+        "type": "FEELING",
+        "word": "FEELING",
+        "roles": {
+          "MOD": "#V1437783",
+          "LEX": "FEELING",
+          "WNSENSE": "feeling%1:03:00::"
+        },
+        "start": 79,
+        "end": 97
+      },
+      "V1437783": {
+        "id": "V1437783",
+        "indicator": "F",
+        "type": "GENERAL-VAL",
+        "word": "GROSS",
+        "roles": {
+          "FIGURE": "#V1437790",
+          "SCALE": "EVALUATION-SCALE",
+          "LEX": "GROSS",
+          "WNSENSE": "gross%3:00:00::"
+        },
+        "start": 83,
+        "end": 89
+      },
+      "root": "#V1441552"
+    },
+    {
+      "V1437999": {
+        "id": "V1437999",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1437485",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1437485": {
+        "id": "V1437485",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "root": "#V1437999"
+    },
+    {
+      "V1440509": {
+        "id": "V1440509",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V1437505",
+          "SEQUENCE1": "#V1437569",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437569": {
+        "id": "V1437569",
+        "indicator": "F",
+        "type": "CAUSE-MOVE",
+        "word": "TAKE",
+        "roles": {
+          "AFFECTED": "#V1437613",
+          "LEX": "TOOK",
+          "WNSENSE": "take%2:38:05::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437505": {
+        "id": "V1437505",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "COME",
+        "roles": {
+          "FREQUENCY": "#V1438224",
+          "LEX": "CAME",
+          "WNSENSE": "come%2:30:01::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1438224": {
+        "id": "V1438224",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1437505",
+          "GROUND": "#V1437520",
+          "LEX": "NIGHT"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437520": {
+        "id": "V1437520",
+        "indicator": "QUANTIFIER",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "QUAN": "EVERY",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437613": {
+        "id": "V1437613",
+        "indicator": "THE",
+        "type": "PRECIPITATION",
+        "word": "SHOWER",
+        "roles": {
+          "MOD": "#V1437605",
+          "LEX": "SHOWER",
+          "WNSENSE": "shower%1:19:00::"
+        },
+        "start": 26,
+        "end": 45
+      },
+      "V1437605": {
+        "id": "V1437605",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "HOT",
+        "roles": {
+          "FIGURE": "#V1437613",
+          "SCALE": "HEAT-SCALE",
+          "LEX": "HOTTEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 30,
+        "end": 38
+      },
+      "root": "#V1440509"
+    },
+    {
+      "V1441541": {
+        "id": "V1441541",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1437657",
+          "LEX": "STAND"
+        },
+        "start": 45,
+        "end": 98
+      },
+      "V1437657": {
+        "id": "V1437657",
+        "indicator": "F",
+        "type": "BE-AT-LOC",
+        "word": "STAND",
+        "roles": {
+          "NEUTRAL": "#V1437632",
+          "TIME": "#V1437673",
+          "TENSE": "PAST",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "LEX": "STAND",
+          "WNSENSE": "sit%2:35:00"
+        },
+        "start": 45,
+        "end": 97
+      },
+      "V1437632": {
+        "id": "V1437632",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 47
+      },
+      "V1437673": {
+        "id": "V1437673",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1437696",
+          "FIGURE": "#V1437657",
+          "LEX": "TO"
+        },
+        "start": 59,
+        "end": 97
+      },
+      "V1437696": {
+        "id": "V1437696",
+        "indicator": "BARE",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "FORMAL": "#V1437766",
+          "LEX": "TRY",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 62,
+        "end": 97
+      },
+      "V1437766": {
+        "id": "V1437766",
+        "indicator": "F",
+        "type": "CAUSE-COME-FROM",
+        "word": "WASH-AWAY",
+        "roles": {
+          "AFFECTED": "#V1437790",
+          "VFORM": "BASE",
+          "LEX": "WASH-AWAY",
+          "WNSENSE": "wash_away%2:30:01"
+        },
+        "start": 66,
+        "end": 97
+      },
+      "V1437790": {
+        "id": "V1437790",
+        "indicator": "THE",
+        "type": "FEELING",
+        "word": "FEELING",
+        "roles": {
+          "MOD": "#V1437783",
+          "LEX": "FEELING",
+          "WNSENSE": "feeling%1:03:00::"
+        },
+        "start": 79,
+        "end": 97
+      },
+      "V1437783": {
+        "id": "V1437783",
+        "indicator": "F",
+        "type": "GENERAL-VAL",
+        "word": "GROSS",
+        "roles": {
+          "FIGURE": "#V1437790",
+          "SCALE": "EVALUATION-SCALE",
+          "LEX": "GROSS",
+          "WNSENSE": "gross%3:00:00::"
+        },
+        "start": 83,
+        "end": 89
+      },
+      "root": "#V1441541"
+    },
+    {
+      "V1437999": {
+        "id": "V1437999",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1437485",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1437485": {
+        "id": "V1437485",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "root": "#V1437999"
+    },
+    {
+      "V1440509": {
+        "id": "V1440509",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V1437505",
+          "SEQUENCE1": "#V1437569",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437569": {
+        "id": "V1437569",
+        "indicator": "F",
+        "type": "CAUSE-MOVE",
+        "word": "TAKE",
+        "roles": {
+          "AFFECTED": "#V1437613",
+          "LEX": "TOOK",
+          "WNSENSE": "take%2:38:05::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437505": {
+        "id": "V1437505",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "COME",
+        "roles": {
+          "FREQUENCY": "#V1438224",
+          "LEX": "CAME",
+          "WNSENSE": "come%2:30:01::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1438224": {
+        "id": "V1438224",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1437505",
+          "GROUND": "#V1437520",
+          "LEX": "NIGHT"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437520": {
+        "id": "V1437520",
+        "indicator": "QUANTIFIER",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "QUAN": "EVERY",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437613": {
+        "id": "V1437613",
+        "indicator": "THE",
+        "type": "PRECIPITATION",
+        "word": "SHOWER",
+        "roles": {
+          "MOD": "#V1437605",
+          "LEX": "SHOWER",
+          "WNSENSE": "shower%1:19:00::"
+        },
+        "start": 26,
+        "end": 45
+      },
+      "V1437605": {
+        "id": "V1437605",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "HOT",
+        "roles": {
+          "FIGURE": "#V1437613",
+          "SCALE": "HEAT-SCALE",
+          "LEX": "HOTTEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 30,
+        "end": 38
+      },
+      "root": "#V1440509"
+    },
+    {
+      "V1441517": {
+        "id": "V1441517",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1437657",
+          "LEX": "STAND"
+        },
+        "start": 45,
+        "end": 98
+      },
+      "V1437657": {
+        "id": "V1437657",
+        "indicator": "F",
+        "type": "BE-AT-LOC",
+        "word": "STAND",
+        "roles": {
+          "NEUTRAL": "#V1437632",
+          "TIME": "#V1437673",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "LEX": "STAND",
+          "WNSENSE": "sit%2:35:00"
+        },
+        "start": 45,
+        "end": 97
+      },
+      "V1437632": {
+        "id": "V1437632",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 47
+      },
+      "V1437673": {
+        "id": "V1437673",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1437696",
+          "FIGURE": "#V1437657",
+          "LEX": "TO"
+        },
+        "start": 59,
+        "end": 97
+      },
+      "V1437696": {
+        "id": "V1437696",
+        "indicator": "BARE",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "FORMAL": "#V1437768",
+          "LEX": "TRY",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 62,
+        "end": 97
+      },
+      "V1437768": {
+        "id": "V1437768",
+        "indicator": "F",
+        "type": "CAUSE-COME-FROM",
+        "word": "WASH-AWAY",
+        "roles": {
+          "AFFECTED": "#V1437790",
+          "VFORM": "BASE",
+          "LEX": "WASH-AWAY",
+          "WNSENSE": "wash_away%2:30:01"
+        },
+        "start": 66,
+        "end": 97
+      },
+      "V1437790": {
+        "id": "V1437790",
+        "indicator": "THE",
+        "type": "FEELING",
+        "word": "FEELING",
+        "roles": {
+          "MOD": "#V1437783",
+          "LEX": "FEELING",
+          "WNSENSE": "feeling%1:03:00::"
+        },
+        "start": 79,
+        "end": 97
+      },
+      "V1437783": {
+        "id": "V1437783",
+        "indicator": "F",
+        "type": "GENERAL-VAL",
+        "word": "GROSS",
+        "roles": {
+          "FIGURE": "#V1437790",
+          "SCALE": "EVALUATION-SCALE",
+          "LEX": "GROSS",
+          "WNSENSE": "gross%3:00:00::"
+        },
+        "start": 83,
+        "end": 89
+      },
+      "root": "#V1441517"
+    },
+    {
+      "V1437999": {
+        "id": "V1437999",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1437485",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1437485": {
+        "id": "V1437485",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "root": "#V1437999"
+    },
+    {
+      "V1440509": {
+        "id": "V1440509",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V1437505",
+          "SEQUENCE1": "#V1437569",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437569": {
+        "id": "V1437569",
+        "indicator": "F",
+        "type": "CAUSE-MOVE",
+        "word": "TAKE",
+        "roles": {
+          "AFFECTED": "#V1437613",
+          "LEX": "TOOK",
+          "WNSENSE": "take%2:38:05::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437505": {
+        "id": "V1437505",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "COME",
+        "roles": {
+          "FREQUENCY": "#V1438224",
+          "LEX": "CAME",
+          "WNSENSE": "come%2:30:01::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1438224": {
+        "id": "V1438224",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1437505",
+          "GROUND": "#V1437520",
+          "LEX": "NIGHT"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437520": {
+        "id": "V1437520",
+        "indicator": "QUANTIFIER",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "QUAN": "EVERY",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437613": {
+        "id": "V1437613",
+        "indicator": "THE",
+        "type": "PRECIPITATION",
+        "word": "SHOWER",
+        "roles": {
+          "MOD": "#V1437605",
+          "LEX": "SHOWER",
+          "WNSENSE": "shower%1:19:00::"
+        },
+        "start": 26,
+        "end": 45
+      },
+      "V1437605": {
+        "id": "V1437605",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "HOT",
+        "roles": {
+          "FIGURE": "#V1437613",
+          "SCALE": "HEAT-SCALE",
+          "LEX": "HOTTEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 30,
+        "end": 38
+      },
+      "root": "#V1440509"
+    },
+    {
+      "V1441506": {
+        "id": "V1441506",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1437657",
+          "LEX": "STAND"
+        },
+        "start": 45,
+        "end": 98
+      },
+      "V1437657": {
+        "id": "V1437657",
+        "indicator": "F",
+        "type": "BE-AT-LOC",
+        "word": "STAND",
+        "roles": {
+          "NEUTRAL": "#V1437632",
+          "TIME": "#V1437673",
+          "TENSE": "PAST",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "LEX": "STAND",
+          "WNSENSE": "sit%2:35:00"
+        },
+        "start": 45,
+        "end": 97
+      },
+      "V1437632": {
+        "id": "V1437632",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 47
+      },
+      "V1437673": {
+        "id": "V1437673",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1437696",
+          "FIGURE": "#V1437657",
+          "LEX": "TO"
+        },
+        "start": 59,
+        "end": 97
+      },
+      "V1437696": {
+        "id": "V1437696",
+        "indicator": "BARE",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "FORMAL": "#V1437768",
+          "LEX": "TRY",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 62,
+        "end": 97
+      },
+      "V1437768": {
+        "id": "V1437768",
+        "indicator": "F",
+        "type": "CAUSE-COME-FROM",
+        "word": "WASH-AWAY",
+        "roles": {
+          "AFFECTED": "#V1437790",
+          "VFORM": "BASE",
+          "LEX": "WASH-AWAY",
+          "WNSENSE": "wash_away%2:30:01"
+        },
+        "start": 66,
+        "end": 97
+      },
+      "V1437790": {
+        "id": "V1437790",
+        "indicator": "THE",
+        "type": "FEELING",
+        "word": "FEELING",
+        "roles": {
+          "MOD": "#V1437783",
+          "LEX": "FEELING",
+          "WNSENSE": "feeling%1:03:00::"
+        },
+        "start": 79,
+        "end": 97
+      },
+      "V1437783": {
+        "id": "V1437783",
+        "indicator": "F",
+        "type": "GENERAL-VAL",
+        "word": "GROSS",
+        "roles": {
+          "FIGURE": "#V1437790",
+          "SCALE": "EVALUATION-SCALE",
+          "LEX": "GROSS",
+          "WNSENSE": "gross%3:00:00::"
+        },
+        "start": 83,
+        "end": 89
+      },
+      "root": "#V1441506"
+    },
+    {
+      "V1437999": {
+        "id": "V1437999",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1437485",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1437485": {
+        "id": "V1437485",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "root": "#V1437999"
+    },
+    {
+      "V1440509": {
+        "id": "V1440509",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V1437505",
+          "SEQUENCE1": "#V1437569",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437569": {
+        "id": "V1437569",
+        "indicator": "F",
+        "type": "CAUSE-MOVE",
+        "word": "TAKE",
+        "roles": {
+          "AFFECTED": "#V1437612",
+          "LEX": "TOOK",
+          "WNSENSE": "take%2:38:05::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437505": {
+        "id": "V1437505",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "COME",
+        "roles": {
+          "FREQUENCY": "#V1438224",
+          "LEX": "CAME",
+          "WNSENSE": "come%2:30:01::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1438224": {
+        "id": "V1438224",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1437505",
+          "GROUND": "#V1437520",
+          "LEX": "NIGHT"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437520": {
+        "id": "V1437520",
+        "indicator": "QUANTIFIER",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "QUAN": "EVERY",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437612": {
+        "id": "V1437612",
+        "indicator": "THE",
+        "type": "SHOWER",
+        "word": "SHOWER",
+        "roles": {
+          "MOD": "#V1437605",
+          "LEX": "SHOWER",
+          "WNSENSE": "shower%1:04:00::"
+        },
+        "start": 26,
+        "end": 45
+      },
+      "V1437605": {
+        "id": "V1437605",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "HOT",
+        "roles": {
+          "FIGURE": "#V1437612",
+          "SCALE": "HEAT-SCALE",
+          "LEX": "HOTTEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 30,
+        "end": 38
+      },
+      "root": "#V1440509"
+    },
+    {
+      "V1441552": {
+        "id": "V1441552",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1437657",
+          "LEX": "STAND"
+        },
+        "start": 45,
+        "end": 98
+      },
+      "V1437657": {
+        "id": "V1437657",
+        "indicator": "F",
+        "type": "BE-AT-LOC",
+        "word": "STAND",
+        "roles": {
+          "NEUTRAL": "#V1437632",
+          "TIME": "#V1437673",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "LEX": "STAND",
+          "WNSENSE": "sit%2:35:00"
+        },
+        "start": 45,
+        "end": 97
+      },
+      "V1437632": {
+        "id": "V1437632",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 47
+      },
+      "V1437673": {
+        "id": "V1437673",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1437696",
+          "FIGURE": "#V1437657",
+          "LEX": "TO"
+        },
+        "start": 59,
+        "end": 97
+      },
+      "V1437696": {
+        "id": "V1437696",
+        "indicator": "BARE",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "FORMAL": "#V1437766",
+          "LEX": "TRY",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 62,
+        "end": 97
+      },
+      "V1437766": {
+        "id": "V1437766",
+        "indicator": "F",
+        "type": "CAUSE-COME-FROM",
+        "word": "WASH-AWAY",
+        "roles": {
+          "AFFECTED": "#V1437790",
+          "VFORM": "BASE",
+          "LEX": "WASH-AWAY",
+          "WNSENSE": "wash_away%2:30:01"
+        },
+        "start": 66,
+        "end": 97
+      },
+      "V1437790": {
+        "id": "V1437790",
+        "indicator": "THE",
+        "type": "FEELING",
+        "word": "FEELING",
+        "roles": {
+          "MOD": "#V1437783",
+          "LEX": "FEELING",
+          "WNSENSE": "feeling%1:03:00::"
+        },
+        "start": 79,
+        "end": 97
+      },
+      "V1437783": {
+        "id": "V1437783",
+        "indicator": "F",
+        "type": "GENERAL-VAL",
+        "word": "GROSS",
+        "roles": {
+          "FIGURE": "#V1437790",
+          "SCALE": "EVALUATION-SCALE",
+          "LEX": "GROSS",
+          "WNSENSE": "gross%3:00:00::"
+        },
+        "start": 83,
+        "end": 89
+      },
+      "root": "#V1441552"
+    },
+    {
+      "V1437999": {
+        "id": "V1437999",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1437485",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1437485": {
+        "id": "V1437485",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "root": "#V1437999"
+    },
+    {
+      "V1440509": {
+        "id": "V1440509",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V1437505",
+          "SEQUENCE1": "#V1437569",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437569": {
+        "id": "V1437569",
+        "indicator": "F",
+        "type": "CAUSE-MOVE",
+        "word": "TAKE",
+        "roles": {
+          "AFFECTED": "#V1437612",
+          "LEX": "TOOK",
+          "WNSENSE": "take%2:38:05::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437505": {
+        "id": "V1437505",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "COME",
+        "roles": {
+          "FREQUENCY": "#V1438224",
+          "LEX": "CAME",
+          "WNSENSE": "come%2:30:01::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1438224": {
+        "id": "V1438224",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1437505",
+          "GROUND": "#V1437520",
+          "LEX": "NIGHT"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437520": {
+        "id": "V1437520",
+        "indicator": "QUANTIFIER",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "QUAN": "EVERY",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437612": {
+        "id": "V1437612",
+        "indicator": "THE",
+        "type": "SHOWER",
+        "word": "SHOWER",
+        "roles": {
+          "MOD": "#V1437605",
+          "LEX": "SHOWER",
+          "WNSENSE": "shower%1:04:00::"
+        },
+        "start": 26,
+        "end": 45
+      },
+      "V1437605": {
+        "id": "V1437605",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "HOT",
+        "roles": {
+          "FIGURE": "#V1437612",
+          "SCALE": "HEAT-SCALE",
+          "LEX": "HOTTEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 30,
+        "end": 38
+      },
+      "root": "#V1440509"
+    },
+    {
+      "V1441541": {
+        "id": "V1441541",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1437657",
+          "LEX": "STAND"
+        },
+        "start": 45,
+        "end": 98
+      },
+      "V1437657": {
+        "id": "V1437657",
+        "indicator": "F",
+        "type": "BE-AT-LOC",
+        "word": "STAND",
+        "roles": {
+          "NEUTRAL": "#V1437632",
+          "TIME": "#V1437673",
+          "TENSE": "PAST",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "LEX": "STAND",
+          "WNSENSE": "sit%2:35:00"
+        },
+        "start": 45,
+        "end": 97
+      },
+      "V1437632": {
+        "id": "V1437632",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 47
+      },
+      "V1437673": {
+        "id": "V1437673",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1437696",
+          "FIGURE": "#V1437657",
+          "LEX": "TO"
+        },
+        "start": 59,
+        "end": 97
+      },
+      "V1437696": {
+        "id": "V1437696",
+        "indicator": "BARE",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "FORMAL": "#V1437766",
+          "LEX": "TRY",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 62,
+        "end": 97
+      },
+      "V1437766": {
+        "id": "V1437766",
+        "indicator": "F",
+        "type": "CAUSE-COME-FROM",
+        "word": "WASH-AWAY",
+        "roles": {
+          "AFFECTED": "#V1437790",
+          "VFORM": "BASE",
+          "LEX": "WASH-AWAY",
+          "WNSENSE": "wash_away%2:30:01"
+        },
+        "start": 66,
+        "end": 97
+      },
+      "V1437790": {
+        "id": "V1437790",
+        "indicator": "THE",
+        "type": "FEELING",
+        "word": "FEELING",
+        "roles": {
+          "MOD": "#V1437783",
+          "LEX": "FEELING",
+          "WNSENSE": "feeling%1:03:00::"
+        },
+        "start": 79,
+        "end": 97
+      },
+      "V1437783": {
+        "id": "V1437783",
+        "indicator": "F",
+        "type": "GENERAL-VAL",
+        "word": "GROSS",
+        "roles": {
+          "FIGURE": "#V1437790",
+          "SCALE": "EVALUATION-SCALE",
+          "LEX": "GROSS",
+          "WNSENSE": "gross%3:00:00::"
+        },
+        "start": 83,
+        "end": 89
+      },
+      "root": "#V1441541"
+    },
+    {
+      "V1437999": {
+        "id": "V1437999",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1437485",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1437485": {
+        "id": "V1437485",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "root": "#V1437999"
+    },
+    {
+      "V1440509": {
+        "id": "V1440509",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V1437505",
+          "SEQUENCE1": "#V1437569",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437569": {
+        "id": "V1437569",
+        "indicator": "F",
+        "type": "CAUSE-MOVE",
+        "word": "TAKE",
+        "roles": {
+          "AFFECTED": "#V1437612",
+          "LEX": "TOOK",
+          "WNSENSE": "take%2:38:05::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437505": {
+        "id": "V1437505",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "COME",
+        "roles": {
+          "FREQUENCY": "#V1438224",
+          "LEX": "CAME",
+          "WNSENSE": "come%2:30:01::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1438224": {
+        "id": "V1438224",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1437505",
+          "GROUND": "#V1437520",
+          "LEX": "NIGHT"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437520": {
+        "id": "V1437520",
+        "indicator": "QUANTIFIER",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "QUAN": "EVERY",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437612": {
+        "id": "V1437612",
+        "indicator": "THE",
+        "type": "SHOWER",
+        "word": "SHOWER",
+        "roles": {
+          "MOD": "#V1437605",
+          "LEX": "SHOWER",
+          "WNSENSE": "shower%1:04:00::"
+        },
+        "start": 26,
+        "end": 45
+      },
+      "V1437605": {
+        "id": "V1437605",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "HOT",
+        "roles": {
+          "FIGURE": "#V1437612",
+          "SCALE": "HEAT-SCALE",
+          "LEX": "HOTTEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 30,
+        "end": 38
+      },
+      "root": "#V1440509"
+    },
+    {
+      "V1441517": {
+        "id": "V1441517",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1437657",
+          "LEX": "STAND"
+        },
+        "start": 45,
+        "end": 98
+      },
+      "V1437657": {
+        "id": "V1437657",
+        "indicator": "F",
+        "type": "BE-AT-LOC",
+        "word": "STAND",
+        "roles": {
+          "NEUTRAL": "#V1437632",
+          "TIME": "#V1437673",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "LEX": "STAND",
+          "WNSENSE": "sit%2:35:00"
+        },
+        "start": 45,
+        "end": 97
+      },
+      "V1437632": {
+        "id": "V1437632",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 47
+      },
+      "V1437673": {
+        "id": "V1437673",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1437696",
+          "FIGURE": "#V1437657",
+          "LEX": "TO"
+        },
+        "start": 59,
+        "end": 97
+      },
+      "V1437696": {
+        "id": "V1437696",
+        "indicator": "BARE",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "FORMAL": "#V1437768",
+          "LEX": "TRY",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 62,
+        "end": 97
+      },
+      "V1437768": {
+        "id": "V1437768",
+        "indicator": "F",
+        "type": "CAUSE-COME-FROM",
+        "word": "WASH-AWAY",
+        "roles": {
+          "AFFECTED": "#V1437790",
+          "VFORM": "BASE",
+          "LEX": "WASH-AWAY",
+          "WNSENSE": "wash_away%2:30:01"
+        },
+        "start": 66,
+        "end": 97
+      },
+      "V1437790": {
+        "id": "V1437790",
+        "indicator": "THE",
+        "type": "FEELING",
+        "word": "FEELING",
+        "roles": {
+          "MOD": "#V1437783",
+          "LEX": "FEELING",
+          "WNSENSE": "feeling%1:03:00::"
+        },
+        "start": 79,
+        "end": 97
+      },
+      "V1437783": {
+        "id": "V1437783",
+        "indicator": "F",
+        "type": "GENERAL-VAL",
+        "word": "GROSS",
+        "roles": {
+          "FIGURE": "#V1437790",
+          "SCALE": "EVALUATION-SCALE",
+          "LEX": "GROSS",
+          "WNSENSE": "gross%3:00:00::"
+        },
+        "start": 83,
+        "end": 89
+      },
+      "root": "#V1441517"
+    },
+    {
+      "V1437999": {
+        "id": "V1437999",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1437485",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1437485": {
+        "id": "V1437485",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "root": "#V1437999"
+    },
+    {
+      "V1440509": {
+        "id": "V1440509",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V1437505",
+          "SEQUENCE1": "#V1437569",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437569": {
+        "id": "V1437569",
+        "indicator": "F",
+        "type": "CAUSE-MOVE",
+        "word": "TAKE",
+        "roles": {
+          "AFFECTED": "#V1437612",
+          "LEX": "TOOK",
+          "WNSENSE": "take%2:38:05::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437505": {
+        "id": "V1437505",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "COME",
+        "roles": {
+          "FREQUENCY": "#V1438224",
+          "LEX": "CAME",
+          "WNSENSE": "come%2:30:01::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1438224": {
+        "id": "V1438224",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1437505",
+          "GROUND": "#V1437520",
+          "LEX": "NIGHT"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437520": {
+        "id": "V1437520",
+        "indicator": "QUANTIFIER",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "QUAN": "EVERY",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437612": {
+        "id": "V1437612",
+        "indicator": "THE",
+        "type": "SHOWER",
+        "word": "SHOWER",
+        "roles": {
+          "MOD": "#V1437605",
+          "LEX": "SHOWER",
+          "WNSENSE": "shower%1:04:00::"
+        },
+        "start": 26,
+        "end": 45
+      },
+      "V1437605": {
+        "id": "V1437605",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "HOT",
+        "roles": {
+          "FIGURE": "#V1437612",
+          "SCALE": "HEAT-SCALE",
+          "LEX": "HOTTEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 30,
+        "end": 38
+      },
+      "root": "#V1440509"
+    },
+    {
+      "V1441506": {
+        "id": "V1441506",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1437657",
+          "LEX": "STAND"
+        },
+        "start": 45,
+        "end": 98
+      },
+      "V1437657": {
+        "id": "V1437657",
+        "indicator": "F",
+        "type": "BE-AT-LOC",
+        "word": "STAND",
+        "roles": {
+          "NEUTRAL": "#V1437632",
+          "TIME": "#V1437673",
+          "TENSE": "PAST",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "LEX": "STAND",
+          "WNSENSE": "sit%2:35:00"
+        },
+        "start": 45,
+        "end": 97
+      },
+      "V1437632": {
+        "id": "V1437632",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 47
+      },
+      "V1437673": {
+        "id": "V1437673",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1437696",
+          "FIGURE": "#V1437657",
+          "LEX": "TO"
+        },
+        "start": 59,
+        "end": 97
+      },
+      "V1437696": {
+        "id": "V1437696",
+        "indicator": "BARE",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "FORMAL": "#V1437768",
+          "LEX": "TRY",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 62,
+        "end": 97
+      },
+      "V1437768": {
+        "id": "V1437768",
+        "indicator": "F",
+        "type": "CAUSE-COME-FROM",
+        "word": "WASH-AWAY",
+        "roles": {
+          "AFFECTED": "#V1437790",
+          "VFORM": "BASE",
+          "LEX": "WASH-AWAY",
+          "WNSENSE": "wash_away%2:30:01"
+        },
+        "start": 66,
+        "end": 97
+      },
+      "V1437790": {
+        "id": "V1437790",
+        "indicator": "THE",
+        "type": "FEELING",
+        "word": "FEELING",
+        "roles": {
+          "MOD": "#V1437783",
+          "LEX": "FEELING",
+          "WNSENSE": "feeling%1:03:00::"
+        },
+        "start": 79,
+        "end": 97
+      },
+      "V1437783": {
+        "id": "V1437783",
+        "indicator": "F",
+        "type": "GENERAL-VAL",
+        "word": "GROSS",
+        "roles": {
+          "FIGURE": "#V1437790",
+          "SCALE": "EVALUATION-SCALE",
+          "LEX": "GROSS",
+          "WNSENSE": "gross%3:00:00::"
+        },
+        "start": 83,
+        "end": 89
+      },
+      "root": "#V1441506"
+    },
+    {
+      "V1437999": {
+        "id": "V1437999",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1437485",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1437485": {
+        "id": "V1437485",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "root": "#V1437999"
+    },
+    {
+      "V1440509": {
+        "id": "V1440509",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V1437505",
+          "SEQUENCE1": "#V1437569",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437569": {
+        "id": "V1437569",
+        "indicator": "F",
+        "type": "CAUSE-MOVE",
+        "word": "TAKE",
+        "roles": {
+          "AFFECTED": "#V1437611",
+          "LEX": "TOOK",
+          "WNSENSE": "take%2:38:05::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437505": {
+        "id": "V1437505",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "COME",
+        "roles": {
+          "FREQUENCY": "#V1438224",
+          "LEX": "CAME",
+          "WNSENSE": "come%2:30:01::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1438224": {
+        "id": "V1438224",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1437505",
+          "GROUND": "#V1437520",
+          "LEX": "NIGHT"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437520": {
+        "id": "V1437520",
+        "indicator": "QUANTIFIER",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "QUAN": "EVERY",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437611": {
+        "id": "V1437611",
+        "indicator": "THE",
+        "type": "FIXTURE",
+        "word": "SHOWER",
+        "roles": {
+          "MOD": "#V1437605",
+          "LEX": "SHOWER",
+          "WNSENSE": "shower%1:06:00::"
+        },
+        "start": 26,
+        "end": 45
+      },
+      "V1437605": {
+        "id": "V1437605",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "HOT",
+        "roles": {
+          "FIGURE": "#V1437611",
+          "SCALE": "HEAT-SCALE",
+          "LEX": "HOTTEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 30,
+        "end": 38
+      },
+      "root": "#V1440509"
+    },
+    {
+      "V1441552": {
+        "id": "V1441552",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1437657",
+          "LEX": "STAND"
+        },
+        "start": 45,
+        "end": 98
+      },
+      "V1437657": {
+        "id": "V1437657",
+        "indicator": "F",
+        "type": "BE-AT-LOC",
+        "word": "STAND",
+        "roles": {
+          "NEUTRAL": "#V1437632",
+          "TIME": "#V1437673",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "LEX": "STAND",
+          "WNSENSE": "sit%2:35:00"
+        },
+        "start": 45,
+        "end": 97
+      },
+      "V1437632": {
+        "id": "V1437632",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 47
+      },
+      "V1437673": {
+        "id": "V1437673",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1437696",
+          "FIGURE": "#V1437657",
+          "LEX": "TO"
+        },
+        "start": 59,
+        "end": 97
+      },
+      "V1437696": {
+        "id": "V1437696",
+        "indicator": "BARE",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "FORMAL": "#V1437766",
+          "LEX": "TRY",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 62,
+        "end": 97
+      },
+      "V1437766": {
+        "id": "V1437766",
+        "indicator": "F",
+        "type": "CAUSE-COME-FROM",
+        "word": "WASH-AWAY",
+        "roles": {
+          "AFFECTED": "#V1437790",
+          "VFORM": "BASE",
+          "LEX": "WASH-AWAY",
+          "WNSENSE": "wash_away%2:30:01"
+        },
+        "start": 66,
+        "end": 97
+      },
+      "V1437790": {
+        "id": "V1437790",
+        "indicator": "THE",
+        "type": "FEELING",
+        "word": "FEELING",
+        "roles": {
+          "MOD": "#V1437783",
+          "LEX": "FEELING",
+          "WNSENSE": "feeling%1:03:00::"
+        },
+        "start": 79,
+        "end": 97
+      },
+      "V1437783": {
+        "id": "V1437783",
+        "indicator": "F",
+        "type": "GENERAL-VAL",
+        "word": "GROSS",
+        "roles": {
+          "FIGURE": "#V1437790",
+          "SCALE": "EVALUATION-SCALE",
+          "LEX": "GROSS",
+          "WNSENSE": "gross%3:00:00::"
+        },
+        "start": 83,
+        "end": 89
+      },
+      "root": "#V1441552"
+    },
+    {
+      "V1437999": {
+        "id": "V1437999",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1437485",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1437485": {
+        "id": "V1437485",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "root": "#V1437999"
+    },
+    {
+      "V1440509": {
+        "id": "V1440509",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V1437505",
+          "SEQUENCE1": "#V1437569",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437569": {
+        "id": "V1437569",
+        "indicator": "F",
+        "type": "CAUSE-MOVE",
+        "word": "TAKE",
+        "roles": {
+          "AFFECTED": "#V1437611",
+          "LEX": "TOOK",
+          "WNSENSE": "take%2:38:05::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437505": {
+        "id": "V1437505",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "COME",
+        "roles": {
+          "FREQUENCY": "#V1438224",
+          "LEX": "CAME",
+          "WNSENSE": "come%2:30:01::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1438224": {
+        "id": "V1438224",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1437505",
+          "GROUND": "#V1437520",
+          "LEX": "NIGHT"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437520": {
+        "id": "V1437520",
+        "indicator": "QUANTIFIER",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "QUAN": "EVERY",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437611": {
+        "id": "V1437611",
+        "indicator": "THE",
+        "type": "FIXTURE",
+        "word": "SHOWER",
+        "roles": {
+          "MOD": "#V1437605",
+          "LEX": "SHOWER",
+          "WNSENSE": "shower%1:06:00::"
+        },
+        "start": 26,
+        "end": 45
+      },
+      "V1437605": {
+        "id": "V1437605",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "HOT",
+        "roles": {
+          "FIGURE": "#V1437611",
+          "SCALE": "HEAT-SCALE",
+          "LEX": "HOTTEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 30,
+        "end": 38
+      },
+      "root": "#V1440509"
+    },
+    {
+      "V1441541": {
+        "id": "V1441541",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1437657",
+          "LEX": "STAND"
+        },
+        "start": 45,
+        "end": 98
+      },
+      "V1437657": {
+        "id": "V1437657",
+        "indicator": "F",
+        "type": "BE-AT-LOC",
+        "word": "STAND",
+        "roles": {
+          "NEUTRAL": "#V1437632",
+          "TIME": "#V1437673",
+          "TENSE": "PAST",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "LEX": "STAND",
+          "WNSENSE": "sit%2:35:00"
+        },
+        "start": 45,
+        "end": 97
+      },
+      "V1437632": {
+        "id": "V1437632",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 47
+      },
+      "V1437673": {
+        "id": "V1437673",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1437696",
+          "FIGURE": "#V1437657",
+          "LEX": "TO"
+        },
+        "start": 59,
+        "end": 97
+      },
+      "V1437696": {
+        "id": "V1437696",
+        "indicator": "BARE",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "FORMAL": "#V1437766",
+          "LEX": "TRY",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 62,
+        "end": 97
+      },
+      "V1437766": {
+        "id": "V1437766",
+        "indicator": "F",
+        "type": "CAUSE-COME-FROM",
+        "word": "WASH-AWAY",
+        "roles": {
+          "AFFECTED": "#V1437790",
+          "VFORM": "BASE",
+          "LEX": "WASH-AWAY",
+          "WNSENSE": "wash_away%2:30:01"
+        },
+        "start": 66,
+        "end": 97
+      },
+      "V1437790": {
+        "id": "V1437790",
+        "indicator": "THE",
+        "type": "FEELING",
+        "word": "FEELING",
+        "roles": {
+          "MOD": "#V1437783",
+          "LEX": "FEELING",
+          "WNSENSE": "feeling%1:03:00::"
+        },
+        "start": 79,
+        "end": 97
+      },
+      "V1437783": {
+        "id": "V1437783",
+        "indicator": "F",
+        "type": "GENERAL-VAL",
+        "word": "GROSS",
+        "roles": {
+          "FIGURE": "#V1437790",
+          "SCALE": "EVALUATION-SCALE",
+          "LEX": "GROSS",
+          "WNSENSE": "gross%3:00:00::"
+        },
+        "start": 83,
+        "end": 89
+      },
+      "root": "#V1441541"
+    },
+    {
+      "V1437999": {
+        "id": "V1437999",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1437485",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1437485": {
+        "id": "V1437485",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "root": "#V1437999"
+    },
+    {
+      "V1440509": {
+        "id": "V1440509",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V1437505",
+          "SEQUENCE1": "#V1437569",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437569": {
+        "id": "V1437569",
+        "indicator": "F",
+        "type": "CAUSE-MOVE",
+        "word": "TAKE",
+        "roles": {
+          "AFFECTED": "#V1437611",
+          "LEX": "TOOK",
+          "WNSENSE": "take%2:38:05::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437505": {
+        "id": "V1437505",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "COME",
+        "roles": {
+          "FREQUENCY": "#V1438224",
+          "LEX": "CAME",
+          "WNSENSE": "come%2:30:01::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1438224": {
+        "id": "V1438224",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1437505",
+          "GROUND": "#V1437520",
+          "LEX": "NIGHT"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437520": {
+        "id": "V1437520",
+        "indicator": "QUANTIFIER",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "QUAN": "EVERY",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437611": {
+        "id": "V1437611",
+        "indicator": "THE",
+        "type": "FIXTURE",
+        "word": "SHOWER",
+        "roles": {
+          "MOD": "#V1437605",
+          "LEX": "SHOWER",
+          "WNSENSE": "shower%1:06:00::"
+        },
+        "start": 26,
+        "end": 45
+      },
+      "V1437605": {
+        "id": "V1437605",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "HOT",
+        "roles": {
+          "FIGURE": "#V1437611",
+          "SCALE": "HEAT-SCALE",
+          "LEX": "HOTTEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 30,
+        "end": 38
+      },
+      "root": "#V1440509"
+    },
+    {
+      "V1441517": {
+        "id": "V1441517",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1437657",
+          "LEX": "STAND"
+        },
+        "start": 45,
+        "end": 98
+      },
+      "V1437657": {
+        "id": "V1437657",
+        "indicator": "F",
+        "type": "BE-AT-LOC",
+        "word": "STAND",
+        "roles": {
+          "NEUTRAL": "#V1437632",
+          "TIME": "#V1437673",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "LEX": "STAND",
+          "WNSENSE": "sit%2:35:00"
+        },
+        "start": 45,
+        "end": 97
+      },
+      "V1437632": {
+        "id": "V1437632",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 47
+      },
+      "V1437673": {
+        "id": "V1437673",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1437696",
+          "FIGURE": "#V1437657",
+          "LEX": "TO"
+        },
+        "start": 59,
+        "end": 97
+      },
+      "V1437696": {
+        "id": "V1437696",
+        "indicator": "BARE",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "FORMAL": "#V1437768",
+          "LEX": "TRY",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 62,
+        "end": 97
+      },
+      "V1437768": {
+        "id": "V1437768",
+        "indicator": "F",
+        "type": "CAUSE-COME-FROM",
+        "word": "WASH-AWAY",
+        "roles": {
+          "AFFECTED": "#V1437790",
+          "VFORM": "BASE",
+          "LEX": "WASH-AWAY",
+          "WNSENSE": "wash_away%2:30:01"
+        },
+        "start": 66,
+        "end": 97
+      },
+      "V1437790": {
+        "id": "V1437790",
+        "indicator": "THE",
+        "type": "FEELING",
+        "word": "FEELING",
+        "roles": {
+          "MOD": "#V1437783",
+          "LEX": "FEELING",
+          "WNSENSE": "feeling%1:03:00::"
+        },
+        "start": 79,
+        "end": 97
+      },
+      "V1437783": {
+        "id": "V1437783",
+        "indicator": "F",
+        "type": "GENERAL-VAL",
+        "word": "GROSS",
+        "roles": {
+          "FIGURE": "#V1437790",
+          "SCALE": "EVALUATION-SCALE",
+          "LEX": "GROSS",
+          "WNSENSE": "gross%3:00:00::"
+        },
+        "start": 83,
+        "end": 89
+      },
+      "root": "#V1441517"
+    },
+    {
+      "V1437999": {
+        "id": "V1437999",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1437485",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1437485": {
+        "id": "V1437485",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "root": "#V1437999"
+    },
+    {
+      "V1440509": {
+        "id": "V1440509",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V1437505",
+          "SEQUENCE1": "#V1437569",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437569": {
+        "id": "V1437569",
+        "indicator": "F",
+        "type": "CAUSE-MOVE",
+        "word": "TAKE",
+        "roles": {
+          "AFFECTED": "#V1437611",
+          "LEX": "TOOK",
+          "WNSENSE": "take%2:38:05::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437505": {
+        "id": "V1437505",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "COME",
+        "roles": {
+          "FREQUENCY": "#V1438224",
+          "LEX": "CAME",
+          "WNSENSE": "come%2:30:01::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1438224": {
+        "id": "V1438224",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1437505",
+          "GROUND": "#V1437520",
+          "LEX": "NIGHT"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437520": {
+        "id": "V1437520",
+        "indicator": "QUANTIFIER",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "QUAN": "EVERY",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437611": {
+        "id": "V1437611",
+        "indicator": "THE",
+        "type": "FIXTURE",
+        "word": "SHOWER",
+        "roles": {
+          "MOD": "#V1437605",
+          "LEX": "SHOWER",
+          "WNSENSE": "shower%1:06:00::"
+        },
+        "start": 26,
+        "end": 45
+      },
+      "V1437605": {
+        "id": "V1437605",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "HOT",
+        "roles": {
+          "FIGURE": "#V1437611",
+          "SCALE": "HEAT-SCALE",
+          "LEX": "HOTTEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 30,
+        "end": 38
+      },
+      "root": "#V1440509"
+    },
+    {
+      "V1441506": {
+        "id": "V1441506",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1437657",
+          "LEX": "STAND"
+        },
+        "start": 45,
+        "end": 98
+      },
+      "V1437657": {
+        "id": "V1437657",
+        "indicator": "F",
+        "type": "BE-AT-LOC",
+        "word": "STAND",
+        "roles": {
+          "NEUTRAL": "#V1437632",
+          "TIME": "#V1437673",
+          "TENSE": "PAST",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "LEX": "STAND",
+          "WNSENSE": "sit%2:35:00"
+        },
+        "start": 45,
+        "end": 97
+      },
+      "V1437632": {
+        "id": "V1437632",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 47
+      },
+      "V1437673": {
+        "id": "V1437673",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1437696",
+          "FIGURE": "#V1437657",
+          "LEX": "TO"
+        },
+        "start": 59,
+        "end": 97
+      },
+      "V1437696": {
+        "id": "V1437696",
+        "indicator": "BARE",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "FORMAL": "#V1437768",
+          "LEX": "TRY",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 62,
+        "end": 97
+      },
+      "V1437768": {
+        "id": "V1437768",
+        "indicator": "F",
+        "type": "CAUSE-COME-FROM",
+        "word": "WASH-AWAY",
+        "roles": {
+          "AFFECTED": "#V1437790",
+          "VFORM": "BASE",
+          "LEX": "WASH-AWAY",
+          "WNSENSE": "wash_away%2:30:01"
+        },
+        "start": 66,
+        "end": 97
+      },
+      "V1437790": {
+        "id": "V1437790",
+        "indicator": "THE",
+        "type": "FEELING",
+        "word": "FEELING",
+        "roles": {
+          "MOD": "#V1437783",
+          "LEX": "FEELING",
+          "WNSENSE": "feeling%1:03:00::"
+        },
+        "start": 79,
+        "end": 97
+      },
+      "V1437783": {
+        "id": "V1437783",
+        "indicator": "F",
+        "type": "GENERAL-VAL",
+        "word": "GROSS",
+        "roles": {
+          "FIGURE": "#V1437790",
+          "SCALE": "EVALUATION-SCALE",
+          "LEX": "GROSS",
+          "WNSENSE": "gross%3:00:00::"
+        },
+        "start": 83,
+        "end": 89
+      },
+      "root": "#V1441506"
+    },
+    {
+      "V1437999": {
+        "id": "V1437999",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1437485",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1437485": {
+        "id": "V1437485",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "root": "#V1437999"
+    },
+    {
+      "V1440509": {
+        "id": "V1440509",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V1437505",
+          "SEQUENCE1": "#V1437569",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437569": {
+        "id": "V1437569",
+        "indicator": "F",
+        "type": "CAUSE-MOVE",
+        "word": "TAKE",
+        "roles": {
+          "AFFECTED": "#V1437613",
+          "LEX": "TOOK",
+          "WNSENSE": "take%2:38:05::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437505": {
+        "id": "V1437505",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "COME",
+        "roles": {
+          "FREQUENCY": "#V1438224",
+          "LEX": "CAME",
+          "WNSENSE": "come%2:30:01::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1438224": {
+        "id": "V1438224",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1437505",
+          "GROUND": "#V1437520",
+          "LEX": "NIGHT"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437520": {
+        "id": "V1437520",
+        "indicator": "QUANTIFIER",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "QUAN": "EVERY",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437613": {
+        "id": "V1437613",
+        "indicator": "THE",
+        "type": "PRECIPITATION",
+        "word": "SHOWER",
+        "roles": {
+          "MOD": "#V1437605",
+          "LEX": "SHOWER",
+          "WNSENSE": "shower%1:19:00::"
+        },
+        "start": 26,
+        "end": 45
+      },
+      "V1437605": {
+        "id": "V1437605",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "HOT",
+        "roles": {
+          "FIGURE": "#V1437613",
+          "SCALE": "HEAT-SCALE",
+          "LEX": "HOTTEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 30,
+        "end": 38
+      },
+      "root": "#V1440509"
+    },
+    {
+      "V1441852": {
+        "id": "V1441852",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1437657",
+          "LEX": "STAND"
+        },
+        "start": 45,
+        "end": 98
+      },
+      "V1437657": {
+        "id": "V1437657",
+        "indicator": "F",
+        "type": "BE-AT-LOC",
+        "word": "STAND",
+        "roles": {
+          "NEUTRAL": "#V1437632",
+          "TIME": "#V1437673",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "LEX": "STAND",
+          "WNSENSE": "sit%2:35:00"
+        },
+        "start": 45,
+        "end": 97
+      },
+      "V1437632": {
+        "id": "V1437632",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 47
+      },
+      "V1437673": {
+        "id": "V1437673",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1437696",
+          "FIGURE": "#V1437657",
+          "LEX": "TO"
+        },
+        "start": 59,
+        "end": 97
+      },
+      "V1437696": {
+        "id": "V1437696",
+        "indicator": "BARE",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "FORMAL": "#V1437766",
+          "LEX": "TRY",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 62,
+        "end": 97
+      },
+      "V1437766": {
+        "id": "V1437766",
+        "indicator": "F",
+        "type": "CAUSE-COME-FROM",
+        "word": "WASH-AWAY",
+        "roles": {
+          "AFFECTED": "#V1437790",
+          "VFORM": "BASE",
+          "LEX": "WASH-AWAY",
+          "WNSENSE": "wash_away%2:30:01"
+        },
+        "start": 66,
+        "end": 97
+      },
+      "V1437790": {
+        "id": "V1437790",
+        "indicator": "THE",
+        "type": "FEELING",
+        "word": "FEELING",
+        "roles": {
+          "MOD": "#V1437786",
+          "LEX": "FEELING",
+          "WNSENSE": "feeling%1:03:00::"
+        },
+        "start": 79,
+        "end": 97
+      },
+      "V1437786": {
+        "id": "V1437786",
+        "indicator": "F",
+        "type": "FAT-VAL",
+        "word": "GROSS",
+        "roles": {
+          "FIGURE": "#V1437790",
+          "SCALE": "FAT-SCALE",
+          "LEX": "GROSS",
+          "WNSENSE": "gross%5:00:00:fat:01"
+        },
+        "start": 83,
+        "end": 89
+      },
+      "root": "#V1441852"
+    },
+    {
+      "V1437999": {
+        "id": "V1437999",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1437485",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1437485": {
+        "id": "V1437485",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "root": "#V1437999"
+    },
+    {
+      "V1440509": {
+        "id": "V1440509",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V1437505",
+          "SEQUENCE1": "#V1437569",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437569": {
+        "id": "V1437569",
+        "indicator": "F",
+        "type": "CAUSE-MOVE",
+        "word": "TAKE",
+        "roles": {
+          "AFFECTED": "#V1437613",
+          "LEX": "TOOK",
+          "WNSENSE": "take%2:38:05::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437505": {
+        "id": "V1437505",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "COME",
+        "roles": {
+          "FREQUENCY": "#V1438224",
+          "LEX": "CAME",
+          "WNSENSE": "come%2:30:01::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1438224": {
+        "id": "V1438224",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1437505",
+          "GROUND": "#V1437520",
+          "LEX": "NIGHT"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437520": {
+        "id": "V1437520",
+        "indicator": "QUANTIFIER",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "QUAN": "EVERY",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437613": {
+        "id": "V1437613",
+        "indicator": "THE",
+        "type": "PRECIPITATION",
+        "word": "SHOWER",
+        "roles": {
+          "MOD": "#V1437605",
+          "LEX": "SHOWER",
+          "WNSENSE": "shower%1:19:00::"
+        },
+        "start": 26,
+        "end": 45
+      },
+      "V1437605": {
+        "id": "V1437605",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "HOT",
+        "roles": {
+          "FIGURE": "#V1437613",
+          "SCALE": "HEAT-SCALE",
+          "LEX": "HOTTEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 30,
+        "end": 38
+      },
+      "root": "#V1440509"
+    },
+    {
+      "V1441841": {
+        "id": "V1441841",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1437657",
+          "LEX": "STAND"
+        },
+        "start": 45,
+        "end": 98
+      },
+      "V1437657": {
+        "id": "V1437657",
+        "indicator": "F",
+        "type": "BE-AT-LOC",
+        "word": "STAND",
+        "roles": {
+          "NEUTRAL": "#V1437632",
+          "TIME": "#V1437673",
+          "TENSE": "PAST",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "LEX": "STAND",
+          "WNSENSE": "sit%2:35:00"
+        },
+        "start": 45,
+        "end": 97
+      },
+      "V1437632": {
+        "id": "V1437632",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 47
+      },
+      "V1437673": {
+        "id": "V1437673",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1437696",
+          "FIGURE": "#V1437657",
+          "LEX": "TO"
+        },
+        "start": 59,
+        "end": 97
+      },
+      "V1437696": {
+        "id": "V1437696",
+        "indicator": "BARE",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "FORMAL": "#V1437766",
+          "LEX": "TRY",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 62,
+        "end": 97
+      },
+      "V1437766": {
+        "id": "V1437766",
+        "indicator": "F",
+        "type": "CAUSE-COME-FROM",
+        "word": "WASH-AWAY",
+        "roles": {
+          "AFFECTED": "#V1437790",
+          "VFORM": "BASE",
+          "LEX": "WASH-AWAY",
+          "WNSENSE": "wash_away%2:30:01"
+        },
+        "start": 66,
+        "end": 97
+      },
+      "V1437790": {
+        "id": "V1437790",
+        "indicator": "THE",
+        "type": "FEELING",
+        "word": "FEELING",
+        "roles": {
+          "MOD": "#V1437786",
+          "LEX": "FEELING",
+          "WNSENSE": "feeling%1:03:00::"
+        },
+        "start": 79,
+        "end": 97
+      },
+      "V1437786": {
+        "id": "V1437786",
+        "indicator": "F",
+        "type": "FAT-VAL",
+        "word": "GROSS",
+        "roles": {
+          "FIGURE": "#V1437790",
+          "SCALE": "FAT-SCALE",
+          "LEX": "GROSS",
+          "WNSENSE": "gross%5:00:00:fat:01"
+        },
+        "start": 83,
+        "end": 89
+      },
+      "root": "#V1441841"
+    },
+    {
+      "V1437999": {
+        "id": "V1437999",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1437485",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1437485": {
+        "id": "V1437485",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "root": "#V1437999"
+    },
+    {
+      "V1440509": {
+        "id": "V1440509",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V1437505",
+          "SEQUENCE1": "#V1437569",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437569": {
+        "id": "V1437569",
+        "indicator": "F",
+        "type": "CAUSE-MOVE",
+        "word": "TAKE",
+        "roles": {
+          "AFFECTED": "#V1437613",
+          "LEX": "TOOK",
+          "WNSENSE": "take%2:38:05::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437505": {
+        "id": "V1437505",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "COME",
+        "roles": {
+          "FREQUENCY": "#V1438224",
+          "LEX": "CAME",
+          "WNSENSE": "come%2:30:01::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1438224": {
+        "id": "V1438224",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1437505",
+          "GROUND": "#V1437520",
+          "LEX": "NIGHT"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437520": {
+        "id": "V1437520",
+        "indicator": "QUANTIFIER",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "QUAN": "EVERY",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437613": {
+        "id": "V1437613",
+        "indicator": "THE",
+        "type": "PRECIPITATION",
+        "word": "SHOWER",
+        "roles": {
+          "MOD": "#V1437605",
+          "LEX": "SHOWER",
+          "WNSENSE": "shower%1:19:00::"
+        },
+        "start": 26,
+        "end": 45
+      },
+      "V1437605": {
+        "id": "V1437605",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "HOT",
+        "roles": {
+          "FIGURE": "#V1437613",
+          "SCALE": "HEAT-SCALE",
+          "LEX": "HOTTEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 30,
+        "end": 38
+      },
+      "root": "#V1440509"
+    },
+    {
+      "V1441817": {
+        "id": "V1441817",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1437657",
+          "LEX": "STAND"
+        },
+        "start": 45,
+        "end": 98
+      },
+      "V1437657": {
+        "id": "V1437657",
+        "indicator": "F",
+        "type": "BE-AT-LOC",
+        "word": "STAND",
+        "roles": {
+          "NEUTRAL": "#V1437632",
+          "TIME": "#V1437673",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "LEX": "STAND",
+          "WNSENSE": "sit%2:35:00"
+        },
+        "start": 45,
+        "end": 97
+      },
+      "V1437632": {
+        "id": "V1437632",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 47
+      },
+      "V1437673": {
+        "id": "V1437673",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1437696",
+          "FIGURE": "#V1437657",
+          "LEX": "TO"
+        },
+        "start": 59,
+        "end": 97
+      },
+      "V1437696": {
+        "id": "V1437696",
+        "indicator": "BARE",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "FORMAL": "#V1437768",
+          "LEX": "TRY",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 62,
+        "end": 97
+      },
+      "V1437768": {
+        "id": "V1437768",
+        "indicator": "F",
+        "type": "CAUSE-COME-FROM",
+        "word": "WASH-AWAY",
+        "roles": {
+          "AFFECTED": "#V1437790",
+          "VFORM": "BASE",
+          "LEX": "WASH-AWAY",
+          "WNSENSE": "wash_away%2:30:01"
+        },
+        "start": 66,
+        "end": 97
+      },
+      "V1437790": {
+        "id": "V1437790",
+        "indicator": "THE",
+        "type": "FEELING",
+        "word": "FEELING",
+        "roles": {
+          "MOD": "#V1437786",
+          "LEX": "FEELING",
+          "WNSENSE": "feeling%1:03:00::"
+        },
+        "start": 79,
+        "end": 97
+      },
+      "V1437786": {
+        "id": "V1437786",
+        "indicator": "F",
+        "type": "FAT-VAL",
+        "word": "GROSS",
+        "roles": {
+          "FIGURE": "#V1437790",
+          "SCALE": "FAT-SCALE",
+          "LEX": "GROSS",
+          "WNSENSE": "gross%5:00:00:fat:01"
+        },
+        "start": 83,
+        "end": 89
+      },
+      "root": "#V1441817"
+    },
+    {
+      "V1437999": {
+        "id": "V1437999",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1437485",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1437485": {
+        "id": "V1437485",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "root": "#V1437999"
+    },
+    {
+      "V1440509": {
+        "id": "V1440509",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V1437505",
+          "SEQUENCE1": "#V1437569",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437569": {
+        "id": "V1437569",
+        "indicator": "F",
+        "type": "CAUSE-MOVE",
+        "word": "TAKE",
+        "roles": {
+          "AFFECTED": "#V1437613",
+          "LEX": "TOOK",
+          "WNSENSE": "take%2:38:05::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437505": {
+        "id": "V1437505",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "COME",
+        "roles": {
+          "FREQUENCY": "#V1438224",
+          "LEX": "CAME",
+          "WNSENSE": "come%2:30:01::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1438224": {
+        "id": "V1438224",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1437505",
+          "GROUND": "#V1437520",
+          "LEX": "NIGHT"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437520": {
+        "id": "V1437520",
+        "indicator": "QUANTIFIER",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "QUAN": "EVERY",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437613": {
+        "id": "V1437613",
+        "indicator": "THE",
+        "type": "PRECIPITATION",
+        "word": "SHOWER",
+        "roles": {
+          "MOD": "#V1437605",
+          "LEX": "SHOWER",
+          "WNSENSE": "shower%1:19:00::"
+        },
+        "start": 26,
+        "end": 45
+      },
+      "V1437605": {
+        "id": "V1437605",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "HOT",
+        "roles": {
+          "FIGURE": "#V1437613",
+          "SCALE": "HEAT-SCALE",
+          "LEX": "HOTTEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 30,
+        "end": 38
+      },
+      "root": "#V1440509"
+    },
+    {
+      "V1441806": {
+        "id": "V1441806",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1437657",
+          "LEX": "STAND"
+        },
+        "start": 45,
+        "end": 98
+      },
+      "V1437657": {
+        "id": "V1437657",
+        "indicator": "F",
+        "type": "BE-AT-LOC",
+        "word": "STAND",
+        "roles": {
+          "NEUTRAL": "#V1437632",
+          "TIME": "#V1437673",
+          "TENSE": "PAST",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "LEX": "STAND",
+          "WNSENSE": "sit%2:35:00"
+        },
+        "start": 45,
+        "end": 97
+      },
+      "V1437632": {
+        "id": "V1437632",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 47
+      },
+      "V1437673": {
+        "id": "V1437673",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1437696",
+          "FIGURE": "#V1437657",
+          "LEX": "TO"
+        },
+        "start": 59,
+        "end": 97
+      },
+      "V1437696": {
+        "id": "V1437696",
+        "indicator": "BARE",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "FORMAL": "#V1437768",
+          "LEX": "TRY",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 62,
+        "end": 97
+      },
+      "V1437768": {
+        "id": "V1437768",
+        "indicator": "F",
+        "type": "CAUSE-COME-FROM",
+        "word": "WASH-AWAY",
+        "roles": {
+          "AFFECTED": "#V1437790",
+          "VFORM": "BASE",
+          "LEX": "WASH-AWAY",
+          "WNSENSE": "wash_away%2:30:01"
+        },
+        "start": 66,
+        "end": 97
+      },
+      "V1437790": {
+        "id": "V1437790",
+        "indicator": "THE",
+        "type": "FEELING",
+        "word": "FEELING",
+        "roles": {
+          "MOD": "#V1437786",
+          "LEX": "FEELING",
+          "WNSENSE": "feeling%1:03:00::"
+        },
+        "start": 79,
+        "end": 97
+      },
+      "V1437786": {
+        "id": "V1437786",
+        "indicator": "F",
+        "type": "FAT-VAL",
+        "word": "GROSS",
+        "roles": {
+          "FIGURE": "#V1437790",
+          "SCALE": "FAT-SCALE",
+          "LEX": "GROSS",
+          "WNSENSE": "gross%5:00:00:fat:01"
+        },
+        "start": 83,
+        "end": 89
+      },
+      "root": "#V1441806"
+    },
+    {
+      "V1437999": {
+        "id": "V1437999",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1437485",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1437485": {
+        "id": "V1437485",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "root": "#V1437999"
+    },
+    {
+      "V1440509": {
+        "id": "V1440509",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V1437505",
+          "SEQUENCE1": "#V1437569",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437569": {
+        "id": "V1437569",
+        "indicator": "F",
+        "type": "CAUSE-MOVE",
+        "word": "TAKE",
+        "roles": {
+          "AFFECTED": "#V1437612",
+          "LEX": "TOOK",
+          "WNSENSE": "take%2:38:05::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437505": {
+        "id": "V1437505",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "COME",
+        "roles": {
+          "FREQUENCY": "#V1438224",
+          "LEX": "CAME",
+          "WNSENSE": "come%2:30:01::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1438224": {
+        "id": "V1438224",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1437505",
+          "GROUND": "#V1437520",
+          "LEX": "NIGHT"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437520": {
+        "id": "V1437520",
+        "indicator": "QUANTIFIER",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "QUAN": "EVERY",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437612": {
+        "id": "V1437612",
+        "indicator": "THE",
+        "type": "SHOWER",
+        "word": "SHOWER",
+        "roles": {
+          "MOD": "#V1437605",
+          "LEX": "SHOWER",
+          "WNSENSE": "shower%1:04:00::"
+        },
+        "start": 26,
+        "end": 45
+      },
+      "V1437605": {
+        "id": "V1437605",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "HOT",
+        "roles": {
+          "FIGURE": "#V1437612",
+          "SCALE": "HEAT-SCALE",
+          "LEX": "HOTTEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 30,
+        "end": 38
+      },
+      "root": "#V1440509"
+    },
+    {
+      "V1441852": {
+        "id": "V1441852",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1437657",
+          "LEX": "STAND"
+        },
+        "start": 45,
+        "end": 98
+      },
+      "V1437657": {
+        "id": "V1437657",
+        "indicator": "F",
+        "type": "BE-AT-LOC",
+        "word": "STAND",
+        "roles": {
+          "NEUTRAL": "#V1437632",
+          "TIME": "#V1437673",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "LEX": "STAND",
+          "WNSENSE": "sit%2:35:00"
+        },
+        "start": 45,
+        "end": 97
+      },
+      "V1437632": {
+        "id": "V1437632",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 47
+      },
+      "V1437673": {
+        "id": "V1437673",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1437696",
+          "FIGURE": "#V1437657",
+          "LEX": "TO"
+        },
+        "start": 59,
+        "end": 97
+      },
+      "V1437696": {
+        "id": "V1437696",
+        "indicator": "BARE",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "FORMAL": "#V1437766",
+          "LEX": "TRY",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 62,
+        "end": 97
+      },
+      "V1437766": {
+        "id": "V1437766",
+        "indicator": "F",
+        "type": "CAUSE-COME-FROM",
+        "word": "WASH-AWAY",
+        "roles": {
+          "AFFECTED": "#V1437790",
+          "VFORM": "BASE",
+          "LEX": "WASH-AWAY",
+          "WNSENSE": "wash_away%2:30:01"
+        },
+        "start": 66,
+        "end": 97
+      },
+      "V1437790": {
+        "id": "V1437790",
+        "indicator": "THE",
+        "type": "FEELING",
+        "word": "FEELING",
+        "roles": {
+          "MOD": "#V1437786",
+          "LEX": "FEELING",
+          "WNSENSE": "feeling%1:03:00::"
+        },
+        "start": 79,
+        "end": 97
+      },
+      "V1437786": {
+        "id": "V1437786",
+        "indicator": "F",
+        "type": "FAT-VAL",
+        "word": "GROSS",
+        "roles": {
+          "FIGURE": "#V1437790",
+          "SCALE": "FAT-SCALE",
+          "LEX": "GROSS",
+          "WNSENSE": "gross%5:00:00:fat:01"
+        },
+        "start": 83,
+        "end": 89
+      },
+      "root": "#V1441852"
+    },
+    {
+      "V1437999": {
+        "id": "V1437999",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1437485",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1437485": {
+        "id": "V1437485",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "root": "#V1437999"
+    },
+    {
+      "V1440509": {
+        "id": "V1440509",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V1437505",
+          "SEQUENCE1": "#V1437569",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437569": {
+        "id": "V1437569",
+        "indicator": "F",
+        "type": "CAUSE-MOVE",
+        "word": "TAKE",
+        "roles": {
+          "AFFECTED": "#V1437612",
+          "LEX": "TOOK",
+          "WNSENSE": "take%2:38:05::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437505": {
+        "id": "V1437505",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "COME",
+        "roles": {
+          "FREQUENCY": "#V1438224",
+          "LEX": "CAME",
+          "WNSENSE": "come%2:30:01::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1438224": {
+        "id": "V1438224",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1437505",
+          "GROUND": "#V1437520",
+          "LEX": "NIGHT"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437520": {
+        "id": "V1437520",
+        "indicator": "QUANTIFIER",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "QUAN": "EVERY",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437612": {
+        "id": "V1437612",
+        "indicator": "THE",
+        "type": "SHOWER",
+        "word": "SHOWER",
+        "roles": {
+          "MOD": "#V1437605",
+          "LEX": "SHOWER",
+          "WNSENSE": "shower%1:04:00::"
+        },
+        "start": 26,
+        "end": 45
+      },
+      "V1437605": {
+        "id": "V1437605",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "HOT",
+        "roles": {
+          "FIGURE": "#V1437612",
+          "SCALE": "HEAT-SCALE",
+          "LEX": "HOTTEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 30,
+        "end": 38
+      },
+      "root": "#V1440509"
+    },
+    {
+      "V1441841": {
+        "id": "V1441841",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1437657",
+          "LEX": "STAND"
+        },
+        "start": 45,
+        "end": 98
+      },
+      "V1437657": {
+        "id": "V1437657",
+        "indicator": "F",
+        "type": "BE-AT-LOC",
+        "word": "STAND",
+        "roles": {
+          "NEUTRAL": "#V1437632",
+          "TIME": "#V1437673",
+          "TENSE": "PAST",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "LEX": "STAND",
+          "WNSENSE": "sit%2:35:00"
+        },
+        "start": 45,
+        "end": 97
+      },
+      "V1437632": {
+        "id": "V1437632",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 47
+      },
+      "V1437673": {
+        "id": "V1437673",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1437696",
+          "FIGURE": "#V1437657",
+          "LEX": "TO"
+        },
+        "start": 59,
+        "end": 97
+      },
+      "V1437696": {
+        "id": "V1437696",
+        "indicator": "BARE",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "FORMAL": "#V1437766",
+          "LEX": "TRY",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 62,
+        "end": 97
+      },
+      "V1437766": {
+        "id": "V1437766",
+        "indicator": "F",
+        "type": "CAUSE-COME-FROM",
+        "word": "WASH-AWAY",
+        "roles": {
+          "AFFECTED": "#V1437790",
+          "VFORM": "BASE",
+          "LEX": "WASH-AWAY",
+          "WNSENSE": "wash_away%2:30:01"
+        },
+        "start": 66,
+        "end": 97
+      },
+      "V1437790": {
+        "id": "V1437790",
+        "indicator": "THE",
+        "type": "FEELING",
+        "word": "FEELING",
+        "roles": {
+          "MOD": "#V1437786",
+          "LEX": "FEELING",
+          "WNSENSE": "feeling%1:03:00::"
+        },
+        "start": 79,
+        "end": 97
+      },
+      "V1437786": {
+        "id": "V1437786",
+        "indicator": "F",
+        "type": "FAT-VAL",
+        "word": "GROSS",
+        "roles": {
+          "FIGURE": "#V1437790",
+          "SCALE": "FAT-SCALE",
+          "LEX": "GROSS",
+          "WNSENSE": "gross%5:00:00:fat:01"
+        },
+        "start": 83,
+        "end": 89
+      },
+      "root": "#V1441841"
+    },
+    {
+      "V1437999": {
+        "id": "V1437999",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1437485",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1437485": {
+        "id": "V1437485",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "root": "#V1437999"
+    },
+    {
+      "V1440509": {
+        "id": "V1440509",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V1437505",
+          "SEQUENCE1": "#V1437569",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437569": {
+        "id": "V1437569",
+        "indicator": "F",
+        "type": "CAUSE-MOVE",
+        "word": "TAKE",
+        "roles": {
+          "AFFECTED": "#V1437612",
+          "LEX": "TOOK",
+          "WNSENSE": "take%2:38:05::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437505": {
+        "id": "V1437505",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "COME",
+        "roles": {
+          "FREQUENCY": "#V1438224",
+          "LEX": "CAME",
+          "WNSENSE": "come%2:30:01::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1438224": {
+        "id": "V1438224",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1437505",
+          "GROUND": "#V1437520",
+          "LEX": "NIGHT"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437520": {
+        "id": "V1437520",
+        "indicator": "QUANTIFIER",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "QUAN": "EVERY",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437612": {
+        "id": "V1437612",
+        "indicator": "THE",
+        "type": "SHOWER",
+        "word": "SHOWER",
+        "roles": {
+          "MOD": "#V1437605",
+          "LEX": "SHOWER",
+          "WNSENSE": "shower%1:04:00::"
+        },
+        "start": 26,
+        "end": 45
+      },
+      "V1437605": {
+        "id": "V1437605",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "HOT",
+        "roles": {
+          "FIGURE": "#V1437612",
+          "SCALE": "HEAT-SCALE",
+          "LEX": "HOTTEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 30,
+        "end": 38
+      },
+      "root": "#V1440509"
+    },
+    {
+      "V1441817": {
+        "id": "V1441817",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1437657",
+          "LEX": "STAND"
+        },
+        "start": 45,
+        "end": 98
+      },
+      "V1437657": {
+        "id": "V1437657",
+        "indicator": "F",
+        "type": "BE-AT-LOC",
+        "word": "STAND",
+        "roles": {
+          "NEUTRAL": "#V1437632",
+          "TIME": "#V1437673",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "LEX": "STAND",
+          "WNSENSE": "sit%2:35:00"
+        },
+        "start": 45,
+        "end": 97
+      },
+      "V1437632": {
+        "id": "V1437632",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 47
+      },
+      "V1437673": {
+        "id": "V1437673",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1437696",
+          "FIGURE": "#V1437657",
+          "LEX": "TO"
+        },
+        "start": 59,
+        "end": 97
+      },
+      "V1437696": {
+        "id": "V1437696",
+        "indicator": "BARE",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "FORMAL": "#V1437768",
+          "LEX": "TRY",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 62,
+        "end": 97
+      },
+      "V1437768": {
+        "id": "V1437768",
+        "indicator": "F",
+        "type": "CAUSE-COME-FROM",
+        "word": "WASH-AWAY",
+        "roles": {
+          "AFFECTED": "#V1437790",
+          "VFORM": "BASE",
+          "LEX": "WASH-AWAY",
+          "WNSENSE": "wash_away%2:30:01"
+        },
+        "start": 66,
+        "end": 97
+      },
+      "V1437790": {
+        "id": "V1437790",
+        "indicator": "THE",
+        "type": "FEELING",
+        "word": "FEELING",
+        "roles": {
+          "MOD": "#V1437786",
+          "LEX": "FEELING",
+          "WNSENSE": "feeling%1:03:00::"
+        },
+        "start": 79,
+        "end": 97
+      },
+      "V1437786": {
+        "id": "V1437786",
+        "indicator": "F",
+        "type": "FAT-VAL",
+        "word": "GROSS",
+        "roles": {
+          "FIGURE": "#V1437790",
+          "SCALE": "FAT-SCALE",
+          "LEX": "GROSS",
+          "WNSENSE": "gross%5:00:00:fat:01"
+        },
+        "start": 83,
+        "end": 89
+      },
+      "root": "#V1441817"
+    },
+    {
+      "V1437999": {
+        "id": "V1437999",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1437485",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1437485": {
+        "id": "V1437485",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "root": "#V1437999"
+    },
+    {
+      "V1440509": {
+        "id": "V1440509",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V1437505",
+          "SEQUENCE1": "#V1437569",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437569": {
+        "id": "V1437569",
+        "indicator": "F",
+        "type": "CAUSE-MOVE",
+        "word": "TAKE",
+        "roles": {
+          "AFFECTED": "#V1437612",
+          "LEX": "TOOK",
+          "WNSENSE": "take%2:38:05::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1437505": {
+        "id": "V1437505",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "COME",
+        "roles": {
+          "FREQUENCY": "#V1438224",
+          "LEX": "CAME",
+          "WNSENSE": "come%2:30:01::"
+        },
+        "start": 2,
+        "end": 45
+      },
+      "V1438224": {
+        "id": "V1438224",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1437505",
+          "GROUND": "#V1437520",
+          "LEX": "NIGHT"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437520": {
+        "id": "V1437520",
+        "indicator": "QUANTIFIER",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "QUAN": "EVERY",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V1437612": {
+        "id": "V1437612",
+        "indicator": "THE",
+        "type": "SHOWER",
+        "word": "SHOWER",
+        "roles": {
+          "MOD": "#V1437605",
+          "LEX": "SHOWER",
+          "WNSENSE": "shower%1:04:00::"
+        },
+        "start": 26,
+        "end": 45
+      },
+      "V1437605": {
+        "id": "V1437605",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "HOT",
+        "roles": {
+          "FIGURE": "#V1437612",
+          "SCALE": "HEAT-SCALE",
+          "LEX": "HOTTEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 30,
+        "end": 38
+      },
+      "root": "#V1440509"
+    },
+    {
+      "V1441806": {
+        "id": "V1441806",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1437657",
+          "LEX": "STAND"
+        },
+        "start": 45,
+        "end": 98
+      },
+      "V1437657": {
+        "id": "V1437657",
+        "indicator": "F",
+        "type": "BE-AT-LOC",
+        "word": "STAND",
+        "roles": {
+          "NEUTRAL": "#V1437632",
+          "TIME": "#V1437673",
+          "TENSE": "PAST",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "LEX": "STAND",
+          "WNSENSE": "sit%2:35:00"
+        },
+        "start": 45,
+        "end": 97
+      },
+      "V1437632": {
+        "id": "V1437632",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 45,
+        "end": 47
+      },
+      "V1437673": {
+        "id": "V1437673",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1437696",
+          "FIGURE": "#V1437657",
+          "LEX": "TO"
+        },
+        "start": 59,
+        "end": 97
+      },
+      "V1437696": {
+        "id": "V1437696",
+        "indicator": "BARE",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "FORMAL": "#V1437768",
+          "LEX": "TRY",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 62,
+        "end": 97
+      },
+      "V1437768": {
+        "id": "V1437768",
+        "indicator": "F",
+        "type": "CAUSE-COME-FROM",
+        "word": "WASH-AWAY",
+        "roles": {
+          "AFFECTED": "#V1437790",
+          "VFORM": "BASE",
+          "LEX": "WASH-AWAY",
+          "WNSENSE": "wash_away%2:30:01"
+        },
+        "start": 66,
+        "end": 97
+      },
+      "V1437790": {
+        "id": "V1437790",
+        "indicator": "THE",
+        "type": "FEELING",
+        "word": "FEELING",
+        "roles": {
+          "MOD": "#V1437786",
+          "LEX": "FEELING",
+          "WNSENSE": "feeling%1:03:00::"
+        },
+        "start": 79,
+        "end": 97
+      },
+      "V1437786": {
+        "id": "V1437786",
+        "indicator": "F",
+        "type": "FAT-VAL",
+        "word": "GROSS",
+        "roles": {
+          "FIGURE": "#V1437790",
+          "SCALE": "FAT-SCALE",
+          "LEX": "GROSS",
+          "WNSENSE": "gross%5:00:00:fat:01"
+        },
+        "start": 83,
+        "end": 89
+      },
+      "root": "#V1441806"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+295",
+    "*last-utt-id*=295  utt-id+295",
+    "*last-utt-id*=295  utt-id+295",
+    "*last-utt-id*=295  utt-id+NIL"
+  ]
+}

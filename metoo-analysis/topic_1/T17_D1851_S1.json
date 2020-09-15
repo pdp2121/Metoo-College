@@ -1,0 +1,105 @@
+{
+  "parse": [
+    {
+      "V1242624": {
+        "id": "V1242624",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1240509",
+          "MOD": "#V1240462",
+          "LEX": "WORK"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V1240462": {
+        "id": "V1240462",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V1242624",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V1240509": {
+        "id": "V1240509",
+        "indicator": "BARE",
+        "type": "WORK",
+        "word": "WORK",
+        "roles": {
+          "NEUTRAL": "#V1241026",
+          "AGENT1": "#V1240544",
+          "MOD": "#V1240497",
+          "LEX": "WORK",
+          "WNSENSE": "work%2:41:00::"
+        },
+        "start": 4,
+        "end": 19
+      },
+      "V1241026": {
+        "id": "V1241026",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V1240954",
+          "LEX": "I"
+        },
+        "start": 4,
+        "end": 6
+      },
+      "V1240954": {
+        "id": "V1240954",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(I)",
+          "VAL": "(I)",
+          "LEX": "I"
+        },
+        "start": 4,
+        "end": 6
+      },
+      "V1240497": {
+        "id": "V1240497",
+        "indicator": "F",
+        "type": "SINGULARITY-VAL",
+        "word": "ONLY",
+        "roles": {
+          "FIGURE": "#V1240509",
+          "SCALE": "DOMAIN",
+          "LEX": "ONLY",
+          "WNSENSE": "only%5:00:00:single:05"
+        },
+        "start": 6,
+        "end": 11
+      },
+      "V1240544": {
+        "id": "V1240544",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "FIGURE": "#V1240509",
+          "LEX": "WITH"
+        },
+        "start": 16,
+        "end": 19
+      },
+      "root": "#V1242624"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+221",
+    "*last-utt-id*=221  utt-id+NIL"
+  ]
+}

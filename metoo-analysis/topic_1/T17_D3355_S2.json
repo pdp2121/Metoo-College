@@ -1,0 +1,176 @@
+{
+  "parse": [
+    {
+      "V1446784": {
+        "id": "V1446784",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1446781",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 49
+      },
+      "V1446781": {
+        "id": "V1446781",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1442986"
+        },
+        "start": 0,
+        "end": 49
+      },
+      "V1442986": {
+        "id": "V1442986",
+        "indicator": "INDEF-SET",
+        "type": "COPE-DEAL",
+        "word": "DEALS",
+        "roles": {
+          "REASON": "#V1442992",
+          "MOD": [
+            "#V1443390",
+            "#V1442976"
+          ],
+          "LEX": "DEALS",
+          "WNSENSE": "dispense_with%2:41:00"
+        },
+        "start": 0,
+        "end": 49
+      },
+      "V1443390": {
+        "id": "V1443390",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1442986",
+          "GROUND": "#V1442970",
+          "LEX": "LOST"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V1442970": {
+        "id": "V1442970",
+        "indicator": "F",
+        "type": "LOSE",
+        "word": "LOSE",
+        "roles": {
+          "AFFECTED": "#V1442986",
+          "MOD": "#V1442963",
+          "WNSENSE": "lose%2:40:02::"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V1442963": {
+        "id": "V1442963",
+        "indicator": "F",
+        "type": "SAD-VAL",
+        "word": "SADLY",
+        "roles": {
+          "FIGURE": "#V1442970",
+          "SCALE": "SADNESS-SCALE",
+          "LEX": "SADLY",
+          "WNSENSE": "joyless%3:00:00::"
+        },
+        "start": 0,
+        "end": 6
+      },
+      "V1442976": {
+        "id": "V1442976",
+        "indicator": "F",
+        "type": "CERTAIN",
+        "word": "CERTAIN",
+        "roles": {
+          "ORIENTATION": "POS",
+          "FIGURE": "#V1442986",
+          "SCALE": "CERTAINTY-SCALE",
+          "LEX": "CERTAIN",
+          "WNSENSE": "certain%3:00:03::"
+        },
+        "start": 11,
+        "end": 19
+      },
+      "V1442992": {
+        "id": "V1442992",
+        "indicator": "F",
+        "type": "REASON",
+        "word": "BECAUSE",
+        "roles": {
+          "GROUND": "#V1443028",
+          "FIGURE": "#V1442986",
+          "LEX": "BECAUSE"
+        },
+        "start": 25,
+        "end": 49
+      },
+      "V1443028": {
+        "id": "V1443028",
+        "indicator": "F",
+        "type": "ESTABLISH-COMMUNICATION",
+        "word": "CALL",
+        "roles": {
+          "AGENT": "#V1443011",
+          "AGENT1": "#V1443271",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:01::"
+        },
+        "start": 33,
+        "end": 49
+      },
+      "V1443011": {
+        "id": "V1443011",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 33,
+        "end": 35
+      },
+      "V1443271": {
+        "id": "V1443271",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "SOME",
+          "MOD": "#V1443056",
+          "LEX": "SOME"
+        },
+        "start": 42,
+        "end": 49
+      },
+      "V1443056": {
+        "id": "V1443056",
+        "indicator": "F",
+        "type": "NOT-IN-WORKING-ORDER-VAL",
+        "word": "OUT",
+        "roles": {
+          "FIGURE": "#V1443271",
+          "SCALE": "FUNCTIONALITY-SCALE",
+          "LEX": "OUT",
+          "WNSENSE": "broken%5:00:00:damaged:00"
+        },
+        "start": 47,
+        "end": 49
+      },
+      "root": "#V1446784"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+268",
+    "*last-utt-id*=268  utt-id+NIL"
+  ]
+}

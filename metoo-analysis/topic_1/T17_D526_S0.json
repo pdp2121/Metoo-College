@@ -1,0 +1,102 @@
+{
+  "parse": [
+    {
+      "V36488": {
+        "id": "V36488",
+        "indicator": "SPEECHACT",
+        "type": "SA_REJECT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V36873",
+          "MOD": "#V36429",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V36429": {
+        "id": "V36429",
+        "indicator": "F",
+        "type": "IN-PAST",
+        "word": "ONCE",
+        "roles": {
+          "FIGURE": "#V36488",
+          "MOD": "#V36423",
+          "LEX": "ONCE",
+          "WNSENSE": "once%4:02:00::"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V36423": {
+        "id": "V36423",
+        "indicator": "F",
+        "type": "NEG",
+        "word": "NOT",
+        "roles": {
+          "FIGURE": "#V36429",
+          "LEX": "NOT",
+          "WNSENSE": "not%4:02:00::"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V36873": {
+        "id": "V36873",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V36476"
+        },
+        "start": 13,
+        "end": 23
+      },
+      "V36476": {
+        "id": "V36476",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "MCE",
+        "roles": {
+          "ASSOC-WITH1": "#V36463",
+          "ASSOC-WITH": "#V36470",
+          "LEX": "MCE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 13,
+        "end": 23
+      },
+      "V36470": {
+        "id": "V36470",
+        "indicator": "KIND",
+        "type": "REFERENTIAL-SEM",
+        "word": "WIV",
+        "roles": {
+          "LEX": "WIV",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 13,
+        "end": 23
+      },
+      "V36463": {
+        "id": "V36463",
+        "indicator": "KIND",
+        "type": "CHEMICAL",
+        "word": "T",
+        "roles": {
+          "LEX": "T",
+          "WNSENSE": "t%1:27:01::"
+        },
+        "start": 13,
+        "end": 23
+      },
+      "root": "#V36488"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+1",
+    "*last-utt-id*=1  utt-id+NIL"
+  ]
+}

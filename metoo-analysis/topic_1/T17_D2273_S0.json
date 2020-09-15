@@ -1,0 +1,6699 @@
+{
+  "parse": [
+    {
+      "V371326": {
+        "id": "V371326",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370914",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V370914": {
+        "id": "V370914",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V371326"
+    },
+    {
+      "V372781": {
+        "id": "V372781",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370925",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V370925": {
+        "id": "V370925",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "root": "#V372781"
+    },
+    {
+      "V370943": {
+        "id": "V370943",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL1": "#V370964",
+          "VFORM": "PASTPART",
+          "LEX": "BEEN",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 7,
+        "end": 25
+      },
+      "V370964": {
+        "id": "V370964",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371498",
+          "SEQUENCE1": "#V371201",
+          "LEX": "PUNC-AND"
+        },
+        "start": 13,
+        "end": 25
+      },
+      "V371498": {
+        "id": "V371498",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370958",
+          "COREF": "#V370925"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370958": {
+        "id": "V370958",
+        "indicator": "INDEF-SET",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SIZE": "#V370955",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370955": {
+        "id": "V370955",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "4"
+        },
+        "start": 13,
+        "end": 15
+      },
+      "V371201": {
+        "id": "V371201",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370980",
+          "COREF": "#V370925"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V370980": {
+        "id": "V370980",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "root": "#V370943"
+    },
+    {
+      "V374156": {
+        "id": "V374156",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V371006",
+          "LEX": "REMEMBER"
+        },
+        "start": 25,
+        "end": 77
+      },
+      "V371006": {
+        "id": "V371006",
+        "indicator": "F",
+        "type": "REMEMBER",
+        "word": "REMEMBER",
+        "roles": {
+          "AGENT": "#V374157",
+          "FORMAL": "#V371033",
+          "TIME": "#V370993",
+          "TENSE": "PRES",
+          "LEX": "REMEMBER",
+          "WNSENSE": "remember%2:31:00::"
+        },
+        "start": 25,
+        "end": 77
+      },
+      "V374157": {
+        "id": "V374157",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ",
+          "COREF": "#V370955"
+        },
+        "start": 25,
+        "end": 77
+      },
+      "V370993": {
+        "id": "V370993",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "STILL",
+        "roles": {
+          "FIGURE": "#V371006",
+          "LEX": "STILL",
+          "WNSENSE": "still%4:02:01::"
+        },
+        "start": 25,
+        "end": 31
+      },
+      "V371033": {
+        "id": "V371033",
+        "indicator": "BARE",
+        "type": "APPEAL-APPLY-DEMAND",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V371023",
+          "RESULT": "#V371073",
+          "LEX": "CALL",
+          "WNSENSE": "call%2:38:00::"
+        },
+        "start": 40,
+        "end": 77
+      },
+      "V371023": {
+        "id": "V371023",
+        "indicator": "THE",
+        "type": "DEVICE",
+        "word": "PHONE",
+        "roles": {
+          "LEX": "PHONE",
+          "WNSENSE": "phone%1:06:01::"
+        },
+        "start": 40,
+        "end": 50
+      },
+      "V371073": {
+        "id": "V371073",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V371102",
+          "FIGURE": "#V371023",
+          "LEX": "TO"
+        },
+        "start": 55,
+        "end": 77
+      },
+      "V371102": {
+        "id": "V371102",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371641",
+          "SEQUENCE1": "#V371648",
+          "LEX": "PUNC-AND"
+        },
+        "start": 58,
+        "end": 77
+      },
+      "V371641": {
+        "id": "V371641",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371099",
+          "COREF": "#V370925"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371099": {
+        "id": "V371099",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "MOM",
+        "roles": {
+          "ASSOC-POSS": "#V371095",
+          "LEX": "MOM",
+          "WNSENSE": "mom%1:18:00::"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371095": {
+        "id": "V371095",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371648": {
+        "id": "V371648",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371108",
+          "COREF": "#V370925"
+        },
+        "start": 67,
+        "end": 77
+      },
+      "V371108": {
+        "id": "V371108",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "MOD": "#V371105",
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 67,
+        "end": 77
+      },
+      "V371105": {
+        "id": "V371105",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V371108",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 67,
+        "end": 72
+      },
+      "root": "#V374156"
+    },
+    {
+      "V371326": {
+        "id": "V371326",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370914",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V370914": {
+        "id": "V370914",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V371326"
+    },
+    {
+      "V372781": {
+        "id": "V372781",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370925",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V370925": {
+        "id": "V370925",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "root": "#V372781"
+    },
+    {
+      "V370943": {
+        "id": "V370943",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL1": "#V370964",
+          "VFORM": "PASTPART",
+          "LEX": "BEEN",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 7,
+        "end": 25
+      },
+      "V370964": {
+        "id": "V370964",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371498",
+          "SEQUENCE1": "#V371201",
+          "LEX": "PUNC-AND"
+        },
+        "start": 13,
+        "end": 25
+      },
+      "V371498": {
+        "id": "V371498",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370958"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370958": {
+        "id": "V370958",
+        "indicator": "INDEF-SET",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SIZE": "#V370955",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370955": {
+        "id": "V370955",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "4"
+        },
+        "start": 13,
+        "end": 15
+      },
+      "V371201": {
+        "id": "V371201",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370980"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V370980": {
+        "id": "V370980",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "root": "#V370943"
+    },
+    {
+      "V374153": {
+        "id": "V374153",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V371006",
+          "LEX": "REMEMBER"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V371006": {
+        "id": "V371006",
+        "indicator": "F",
+        "type": "REMEMBER",
+        "word": "REMEMBER",
+        "roles": {
+          "AGENT": "#V374154",
+          "FORMAL": "#V371031",
+          "TIME": "#V370993",
+          "TENSE": "PRES",
+          "LEX": "REMEMBER",
+          "WNSENSE": "remember%2:31:00::"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V374154": {
+        "id": "V374154",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V370993": {
+        "id": "V370993",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "STILL",
+        "roles": {
+          "FIGURE": "#V371006",
+          "LEX": "STILL",
+          "WNSENSE": "still%4:02:01::"
+        },
+        "start": 25,
+        "end": 31
+      },
+      "V371031": {
+        "id": "V371031",
+        "indicator": "BARE",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V371023",
+          "RESULT": "#V371073",
+          "LEX": "CALL",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 40,
+        "end": 78
+      },
+      "V371023": {
+        "id": "V371023",
+        "indicator": "THE",
+        "type": "DEVICE",
+        "word": "PHONE",
+        "roles": {
+          "LEX": "PHONE",
+          "WNSENSE": "phone%1:06:01::"
+        },
+        "start": 40,
+        "end": 50
+      },
+      "V371073": {
+        "id": "V371073",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V371102",
+          "FIGURE": "#V371023",
+          "LEX": "TO"
+        },
+        "start": 55,
+        "end": 78
+      },
+      "V371102": {
+        "id": "V371102",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371641",
+          "SEQUENCE1": "#V371648",
+          "LEX": "PUNC-AND"
+        },
+        "start": 58,
+        "end": 78
+      },
+      "V371641": {
+        "id": "V371641",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371099"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371099": {
+        "id": "V371099",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "MOM",
+        "roles": {
+          "ASSOC-POSS": "#V371095",
+          "LEX": "MOM",
+          "WNSENSE": "mom%1:18:00::"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371095": {
+        "id": "V371095",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371648": {
+        "id": "V371648",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371108"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371108": {
+        "id": "V371108",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "MOD": "#V371105",
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371105": {
+        "id": "V371105",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V371108",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 67,
+        "end": 72
+      },
+      "root": "#V374153"
+    },
+    {
+      "V371326": {
+        "id": "V371326",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370914",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V370914": {
+        "id": "V370914",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V371326"
+    },
+    {
+      "V372781": {
+        "id": "V372781",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370925",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V370925": {
+        "id": "V370925",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "root": "#V372781"
+    },
+    {
+      "V370945": {
+        "id": "V370945",
+        "indicator": "F",
+        "type": "EXISTS",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V370964",
+          "VFORM": "PASTPART",
+          "LEX": "BEEN",
+          "WNSENSE": "be%2:42:00::"
+        },
+        "start": 7,
+        "end": 25
+      },
+      "V370964": {
+        "id": "V370964",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371498",
+          "SEQUENCE1": "#V371201",
+          "LEX": "PUNC-AND"
+        },
+        "start": 13,
+        "end": 25
+      },
+      "V371498": {
+        "id": "V371498",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370958"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370958": {
+        "id": "V370958",
+        "indicator": "INDEF-SET",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SIZE": "#V370955",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370955": {
+        "id": "V370955",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "4"
+        },
+        "start": 13,
+        "end": 15
+      },
+      "V371201": {
+        "id": "V371201",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370980"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V370980": {
+        "id": "V370980",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "root": "#V370945"
+    },
+    {
+      "V374156": {
+        "id": "V374156",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V371006",
+          "LEX": "REMEMBER"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V371006": {
+        "id": "V371006",
+        "indicator": "F",
+        "type": "REMEMBER",
+        "word": "REMEMBER",
+        "roles": {
+          "AGENT": "#V374157",
+          "FORMAL": "#V371033",
+          "TIME": "#V370993",
+          "TENSE": "PRES",
+          "LEX": "REMEMBER",
+          "WNSENSE": "remember%2:31:00::"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V374157": {
+        "id": "V374157",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V370993": {
+        "id": "V370993",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "STILL",
+        "roles": {
+          "FIGURE": "#V371006",
+          "LEX": "STILL",
+          "WNSENSE": "still%4:02:01::"
+        },
+        "start": 25,
+        "end": 31
+      },
+      "V371033": {
+        "id": "V371033",
+        "indicator": "BARE",
+        "type": "APPEAL-APPLY-DEMAND",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V371023",
+          "RESULT": "#V371073",
+          "LEX": "CALL",
+          "WNSENSE": "call%2:38:00::"
+        },
+        "start": 40,
+        "end": 78
+      },
+      "V371023": {
+        "id": "V371023",
+        "indicator": "THE",
+        "type": "DEVICE",
+        "word": "PHONE",
+        "roles": {
+          "LEX": "PHONE",
+          "WNSENSE": "phone%1:06:01::"
+        },
+        "start": 40,
+        "end": 50
+      },
+      "V371073": {
+        "id": "V371073",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V371102",
+          "FIGURE": "#V371023",
+          "LEX": "TO"
+        },
+        "start": 55,
+        "end": 78
+      },
+      "V371102": {
+        "id": "V371102",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371641",
+          "SEQUENCE1": "#V371648",
+          "LEX": "PUNC-AND"
+        },
+        "start": 58,
+        "end": 78
+      },
+      "V371641": {
+        "id": "V371641",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371099"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371099": {
+        "id": "V371099",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "MOM",
+        "roles": {
+          "ASSOC-POSS": "#V371095",
+          "LEX": "MOM",
+          "WNSENSE": "mom%1:18:00::"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371095": {
+        "id": "V371095",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371648": {
+        "id": "V371648",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371108"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371108": {
+        "id": "V371108",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "MOD": "#V371105",
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371105": {
+        "id": "V371105",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V371108",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 67,
+        "end": 72
+      },
+      "root": "#V374156"
+    },
+    {
+      "V371326": {
+        "id": "V371326",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370914",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V370914": {
+        "id": "V370914",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V371326"
+    },
+    {
+      "V372781": {
+        "id": "V372781",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370925",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V370925": {
+        "id": "V370925",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "root": "#V372781"
+    },
+    {
+      "V370945": {
+        "id": "V370945",
+        "indicator": "F",
+        "type": "EXISTS",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V370964",
+          "VFORM": "PASTPART",
+          "LEX": "BEEN",
+          "WNSENSE": "be%2:42:00::"
+        },
+        "start": 7,
+        "end": 25
+      },
+      "V370964": {
+        "id": "V370964",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371498",
+          "SEQUENCE1": "#V371201",
+          "LEX": "PUNC-AND"
+        },
+        "start": 13,
+        "end": 25
+      },
+      "V371498": {
+        "id": "V371498",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370958"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370958": {
+        "id": "V370958",
+        "indicator": "INDEF-SET",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SIZE": "#V370955",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370955": {
+        "id": "V370955",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "4"
+        },
+        "start": 13,
+        "end": 15
+      },
+      "V371201": {
+        "id": "V371201",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370980"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V370980": {
+        "id": "V370980",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "root": "#V370945"
+    },
+    {
+      "V374153": {
+        "id": "V374153",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V371006",
+          "LEX": "REMEMBER"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V371006": {
+        "id": "V371006",
+        "indicator": "F",
+        "type": "REMEMBER",
+        "word": "REMEMBER",
+        "roles": {
+          "AGENT": "#V374154",
+          "FORMAL": "#V371031",
+          "TIME": "#V370993",
+          "TENSE": "PRES",
+          "LEX": "REMEMBER",
+          "WNSENSE": "remember%2:31:00::"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V374154": {
+        "id": "V374154",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V370993": {
+        "id": "V370993",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "STILL",
+        "roles": {
+          "FIGURE": "#V371006",
+          "LEX": "STILL",
+          "WNSENSE": "still%4:02:01::"
+        },
+        "start": 25,
+        "end": 31
+      },
+      "V371031": {
+        "id": "V371031",
+        "indicator": "BARE",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V371023",
+          "RESULT": "#V371073",
+          "LEX": "CALL",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 40,
+        "end": 78
+      },
+      "V371023": {
+        "id": "V371023",
+        "indicator": "THE",
+        "type": "DEVICE",
+        "word": "PHONE",
+        "roles": {
+          "LEX": "PHONE",
+          "WNSENSE": "phone%1:06:01::"
+        },
+        "start": 40,
+        "end": 50
+      },
+      "V371073": {
+        "id": "V371073",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V371102",
+          "FIGURE": "#V371023",
+          "LEX": "TO"
+        },
+        "start": 55,
+        "end": 78
+      },
+      "V371102": {
+        "id": "V371102",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371641",
+          "SEQUENCE1": "#V371648",
+          "LEX": "PUNC-AND"
+        },
+        "start": 58,
+        "end": 78
+      },
+      "V371641": {
+        "id": "V371641",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371099"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371099": {
+        "id": "V371099",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "MOM",
+        "roles": {
+          "ASSOC-POSS": "#V371095",
+          "LEX": "MOM",
+          "WNSENSE": "mom%1:18:00::"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371095": {
+        "id": "V371095",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371648": {
+        "id": "V371648",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371108"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371108": {
+        "id": "V371108",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "MOD": "#V371105",
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371105": {
+        "id": "V371105",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V371108",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 67,
+        "end": 72
+      },
+      "root": "#V374153"
+    },
+    {
+      "V371326": {
+        "id": "V371326",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370914",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V370914": {
+        "id": "V370914",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V371326"
+    },
+    {
+      "V372781": {
+        "id": "V372781",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370925",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V370925": {
+        "id": "V370925",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "root": "#V372781"
+    },
+    {
+      "V370943": {
+        "id": "V370943",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL1": "#V370964",
+          "VFORM": "PASTPART",
+          "LEX": "BEEN",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 7,
+        "end": 25
+      },
+      "V370964": {
+        "id": "V370964",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371488",
+          "SEQUENCE1": "#V371201",
+          "LEX": "PUNC-AND"
+        },
+        "start": 13,
+        "end": 25
+      },
+      "V371488": {
+        "id": "V371488",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370959"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370959": {
+        "id": "V370959",
+        "indicator": "INDEF-SET",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SIZE": "#V370955",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370955": {
+        "id": "V370955",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "4"
+        },
+        "start": 13,
+        "end": 15
+      },
+      "V371201": {
+        "id": "V371201",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370980"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V370980": {
+        "id": "V370980",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "root": "#V370943"
+    },
+    {
+      "V374156": {
+        "id": "V374156",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V371006",
+          "LEX": "REMEMBER"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V371006": {
+        "id": "V371006",
+        "indicator": "F",
+        "type": "REMEMBER",
+        "word": "REMEMBER",
+        "roles": {
+          "AGENT": "#V374157",
+          "FORMAL": "#V371033",
+          "TIME": "#V370993",
+          "TENSE": "PRES",
+          "LEX": "REMEMBER",
+          "WNSENSE": "remember%2:31:00::"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V374157": {
+        "id": "V374157",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V370993": {
+        "id": "V370993",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "STILL",
+        "roles": {
+          "FIGURE": "#V371006",
+          "LEX": "STILL",
+          "WNSENSE": "still%4:02:01::"
+        },
+        "start": 25,
+        "end": 31
+      },
+      "V371033": {
+        "id": "V371033",
+        "indicator": "BARE",
+        "type": "APPEAL-APPLY-DEMAND",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V371023",
+          "RESULT": "#V371073",
+          "LEX": "CALL",
+          "WNSENSE": "call%2:38:00::"
+        },
+        "start": 40,
+        "end": 78
+      },
+      "V371023": {
+        "id": "V371023",
+        "indicator": "THE",
+        "type": "DEVICE",
+        "word": "PHONE",
+        "roles": {
+          "LEX": "PHONE",
+          "WNSENSE": "phone%1:06:01::"
+        },
+        "start": 40,
+        "end": 50
+      },
+      "V371073": {
+        "id": "V371073",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V371102",
+          "FIGURE": "#V371023",
+          "LEX": "TO"
+        },
+        "start": 55,
+        "end": 78
+      },
+      "V371102": {
+        "id": "V371102",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371641",
+          "SEQUENCE1": "#V371648",
+          "LEX": "PUNC-AND"
+        },
+        "start": 58,
+        "end": 78
+      },
+      "V371641": {
+        "id": "V371641",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371099"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371099": {
+        "id": "V371099",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "MOM",
+        "roles": {
+          "ASSOC-POSS": "#V371095",
+          "LEX": "MOM",
+          "WNSENSE": "mom%1:18:00::"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371095": {
+        "id": "V371095",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371648": {
+        "id": "V371648",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371108"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371108": {
+        "id": "V371108",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "MOD": "#V371105",
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371105": {
+        "id": "V371105",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V371108",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 67,
+        "end": 72
+      },
+      "root": "#V374156"
+    },
+    {
+      "V371326": {
+        "id": "V371326",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370914",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V370914": {
+        "id": "V370914",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V371326"
+    },
+    {
+      "V372781": {
+        "id": "V372781",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370925",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V370925": {
+        "id": "V370925",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "root": "#V372781"
+    },
+    {
+      "V370943": {
+        "id": "V370943",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL1": "#V370964",
+          "VFORM": "PASTPART",
+          "LEX": "BEEN",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 7,
+        "end": 25
+      },
+      "V370964": {
+        "id": "V370964",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371488",
+          "SEQUENCE1": "#V371201",
+          "LEX": "PUNC-AND"
+        },
+        "start": 13,
+        "end": 25
+      },
+      "V371488": {
+        "id": "V371488",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370959"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370959": {
+        "id": "V370959",
+        "indicator": "INDEF-SET",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SIZE": "#V370955",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370955": {
+        "id": "V370955",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "4"
+        },
+        "start": 13,
+        "end": 15
+      },
+      "V371201": {
+        "id": "V371201",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370980"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V370980": {
+        "id": "V370980",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "root": "#V370943"
+    },
+    {
+      "V374153": {
+        "id": "V374153",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V371006",
+          "LEX": "REMEMBER"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V371006": {
+        "id": "V371006",
+        "indicator": "F",
+        "type": "REMEMBER",
+        "word": "REMEMBER",
+        "roles": {
+          "AGENT": "#V374154",
+          "FORMAL": "#V371031",
+          "TIME": "#V370993",
+          "TENSE": "PRES",
+          "LEX": "REMEMBER",
+          "WNSENSE": "remember%2:31:00::"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V374154": {
+        "id": "V374154",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V370993": {
+        "id": "V370993",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "STILL",
+        "roles": {
+          "FIGURE": "#V371006",
+          "LEX": "STILL",
+          "WNSENSE": "still%4:02:01::"
+        },
+        "start": 25,
+        "end": 31
+      },
+      "V371031": {
+        "id": "V371031",
+        "indicator": "BARE",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V371023",
+          "RESULT": "#V371073",
+          "LEX": "CALL",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 40,
+        "end": 78
+      },
+      "V371023": {
+        "id": "V371023",
+        "indicator": "THE",
+        "type": "DEVICE",
+        "word": "PHONE",
+        "roles": {
+          "LEX": "PHONE",
+          "WNSENSE": "phone%1:06:01::"
+        },
+        "start": 40,
+        "end": 50
+      },
+      "V371073": {
+        "id": "V371073",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V371102",
+          "FIGURE": "#V371023",
+          "LEX": "TO"
+        },
+        "start": 55,
+        "end": 78
+      },
+      "V371102": {
+        "id": "V371102",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371641",
+          "SEQUENCE1": "#V371648",
+          "LEX": "PUNC-AND"
+        },
+        "start": 58,
+        "end": 78
+      },
+      "V371641": {
+        "id": "V371641",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371099"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371099": {
+        "id": "V371099",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "MOM",
+        "roles": {
+          "ASSOC-POSS": "#V371095",
+          "LEX": "MOM",
+          "WNSENSE": "mom%1:18:00::"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371095": {
+        "id": "V371095",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371648": {
+        "id": "V371648",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371108"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371108": {
+        "id": "V371108",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "MOD": "#V371105",
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371105": {
+        "id": "V371105",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V371108",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 67,
+        "end": 72
+      },
+      "root": "#V374153"
+    },
+    {
+      "V371326": {
+        "id": "V371326",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370914",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V370914": {
+        "id": "V370914",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V371326"
+    },
+    {
+      "V372781": {
+        "id": "V372781",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370925",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V370925": {
+        "id": "V370925",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "root": "#V372781"
+    },
+    {
+      "V370945": {
+        "id": "V370945",
+        "indicator": "F",
+        "type": "EXISTS",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V370964",
+          "VFORM": "PASTPART",
+          "LEX": "BEEN",
+          "WNSENSE": "be%2:42:00::"
+        },
+        "start": 7,
+        "end": 25
+      },
+      "V370964": {
+        "id": "V370964",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371488",
+          "SEQUENCE1": "#V371201",
+          "LEX": "PUNC-AND"
+        },
+        "start": 13,
+        "end": 25
+      },
+      "V371488": {
+        "id": "V371488",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370959"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370959": {
+        "id": "V370959",
+        "indicator": "INDEF-SET",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SIZE": "#V370955",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370955": {
+        "id": "V370955",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "4"
+        },
+        "start": 13,
+        "end": 15
+      },
+      "V371201": {
+        "id": "V371201",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370980"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V370980": {
+        "id": "V370980",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "root": "#V370945"
+    },
+    {
+      "V374156": {
+        "id": "V374156",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V371006",
+          "LEX": "REMEMBER"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V371006": {
+        "id": "V371006",
+        "indicator": "F",
+        "type": "REMEMBER",
+        "word": "REMEMBER",
+        "roles": {
+          "AGENT": "#V374157",
+          "FORMAL": "#V371033",
+          "TIME": "#V370993",
+          "TENSE": "PRES",
+          "LEX": "REMEMBER",
+          "WNSENSE": "remember%2:31:00::"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V374157": {
+        "id": "V374157",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V370993": {
+        "id": "V370993",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "STILL",
+        "roles": {
+          "FIGURE": "#V371006",
+          "LEX": "STILL",
+          "WNSENSE": "still%4:02:01::"
+        },
+        "start": 25,
+        "end": 31
+      },
+      "V371033": {
+        "id": "V371033",
+        "indicator": "BARE",
+        "type": "APPEAL-APPLY-DEMAND",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V371023",
+          "RESULT": "#V371073",
+          "LEX": "CALL",
+          "WNSENSE": "call%2:38:00::"
+        },
+        "start": 40,
+        "end": 78
+      },
+      "V371023": {
+        "id": "V371023",
+        "indicator": "THE",
+        "type": "DEVICE",
+        "word": "PHONE",
+        "roles": {
+          "LEX": "PHONE",
+          "WNSENSE": "phone%1:06:01::"
+        },
+        "start": 40,
+        "end": 50
+      },
+      "V371073": {
+        "id": "V371073",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V371102",
+          "FIGURE": "#V371023",
+          "LEX": "TO"
+        },
+        "start": 55,
+        "end": 78
+      },
+      "V371102": {
+        "id": "V371102",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371641",
+          "SEQUENCE1": "#V371648",
+          "LEX": "PUNC-AND"
+        },
+        "start": 58,
+        "end": 78
+      },
+      "V371641": {
+        "id": "V371641",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371099"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371099": {
+        "id": "V371099",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "MOM",
+        "roles": {
+          "ASSOC-POSS": "#V371095",
+          "LEX": "MOM",
+          "WNSENSE": "mom%1:18:00::"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371095": {
+        "id": "V371095",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371648": {
+        "id": "V371648",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371108"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371108": {
+        "id": "V371108",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "MOD": "#V371105",
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371105": {
+        "id": "V371105",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V371108",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 67,
+        "end": 72
+      },
+      "root": "#V374156"
+    },
+    {
+      "V371326": {
+        "id": "V371326",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370914",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V370914": {
+        "id": "V370914",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V371326"
+    },
+    {
+      "V372781": {
+        "id": "V372781",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370925",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V370925": {
+        "id": "V370925",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "root": "#V372781"
+    },
+    {
+      "V370945": {
+        "id": "V370945",
+        "indicator": "F",
+        "type": "EXISTS",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V370964",
+          "VFORM": "PASTPART",
+          "LEX": "BEEN",
+          "WNSENSE": "be%2:42:00::"
+        },
+        "start": 7,
+        "end": 25
+      },
+      "V370964": {
+        "id": "V370964",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371488",
+          "SEQUENCE1": "#V371201",
+          "LEX": "PUNC-AND"
+        },
+        "start": 13,
+        "end": 25
+      },
+      "V371488": {
+        "id": "V371488",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370959"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370959": {
+        "id": "V370959",
+        "indicator": "INDEF-SET",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SIZE": "#V370955",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370955": {
+        "id": "V370955",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "4"
+        },
+        "start": 13,
+        "end": 15
+      },
+      "V371201": {
+        "id": "V371201",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370980"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V370980": {
+        "id": "V370980",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "root": "#V370945"
+    },
+    {
+      "V374153": {
+        "id": "V374153",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V371006",
+          "LEX": "REMEMBER"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V371006": {
+        "id": "V371006",
+        "indicator": "F",
+        "type": "REMEMBER",
+        "word": "REMEMBER",
+        "roles": {
+          "AGENT": "#V374154",
+          "FORMAL": "#V371031",
+          "TIME": "#V370993",
+          "TENSE": "PRES",
+          "LEX": "REMEMBER",
+          "WNSENSE": "remember%2:31:00::"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V374154": {
+        "id": "V374154",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V370993": {
+        "id": "V370993",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "STILL",
+        "roles": {
+          "FIGURE": "#V371006",
+          "LEX": "STILL",
+          "WNSENSE": "still%4:02:01::"
+        },
+        "start": 25,
+        "end": 31
+      },
+      "V371031": {
+        "id": "V371031",
+        "indicator": "BARE",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V371023",
+          "RESULT": "#V371073",
+          "LEX": "CALL",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 40,
+        "end": 78
+      },
+      "V371023": {
+        "id": "V371023",
+        "indicator": "THE",
+        "type": "DEVICE",
+        "word": "PHONE",
+        "roles": {
+          "LEX": "PHONE",
+          "WNSENSE": "phone%1:06:01::"
+        },
+        "start": 40,
+        "end": 50
+      },
+      "V371073": {
+        "id": "V371073",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V371102",
+          "FIGURE": "#V371023",
+          "LEX": "TO"
+        },
+        "start": 55,
+        "end": 78
+      },
+      "V371102": {
+        "id": "V371102",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371641",
+          "SEQUENCE1": "#V371648",
+          "LEX": "PUNC-AND"
+        },
+        "start": 58,
+        "end": 78
+      },
+      "V371641": {
+        "id": "V371641",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371099"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371099": {
+        "id": "V371099",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "MOM",
+        "roles": {
+          "ASSOC-POSS": "#V371095",
+          "LEX": "MOM",
+          "WNSENSE": "mom%1:18:00::"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371095": {
+        "id": "V371095",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371648": {
+        "id": "V371648",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371108"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371108": {
+        "id": "V371108",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "MOD": "#V371105",
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371105": {
+        "id": "V371105",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V371108",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 67,
+        "end": 72
+      },
+      "root": "#V374153"
+    },
+    {
+      "V371326": {
+        "id": "V371326",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370914",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V370914": {
+        "id": "V370914",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V371326"
+    },
+    {
+      "V372778": {
+        "id": "V372778",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370925",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V370925": {
+        "id": "V370925",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "root": "#V372778"
+    },
+    {
+      "V370943": {
+        "id": "V370943",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL1": "#V370964",
+          "VFORM": "PASTPART",
+          "LEX": "BEEN",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 7,
+        "end": 25
+      },
+      "V370964": {
+        "id": "V370964",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371498",
+          "SEQUENCE1": "#V371201",
+          "LEX": "PUNC-AND"
+        },
+        "start": 13,
+        "end": 25
+      },
+      "V371498": {
+        "id": "V371498",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370958"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370958": {
+        "id": "V370958",
+        "indicator": "INDEF-SET",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SIZE": "#V370955",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370955": {
+        "id": "V370955",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "4"
+        },
+        "start": 13,
+        "end": 15
+      },
+      "V371201": {
+        "id": "V371201",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370980"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V370980": {
+        "id": "V370980",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "root": "#V370943"
+    },
+    {
+      "V374156": {
+        "id": "V374156",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V371006",
+          "LEX": "REMEMBER"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V371006": {
+        "id": "V371006",
+        "indicator": "F",
+        "type": "REMEMBER",
+        "word": "REMEMBER",
+        "roles": {
+          "AGENT": "#V374157",
+          "FORMAL": "#V371033",
+          "TIME": "#V370993",
+          "TENSE": "PRES",
+          "LEX": "REMEMBER",
+          "WNSENSE": "remember%2:31:00::"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V374157": {
+        "id": "V374157",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V370993": {
+        "id": "V370993",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "STILL",
+        "roles": {
+          "FIGURE": "#V371006",
+          "LEX": "STILL",
+          "WNSENSE": "still%4:02:01::"
+        },
+        "start": 25,
+        "end": 31
+      },
+      "V371033": {
+        "id": "V371033",
+        "indicator": "BARE",
+        "type": "APPEAL-APPLY-DEMAND",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V371023",
+          "RESULT": "#V371073",
+          "LEX": "CALL",
+          "WNSENSE": "call%2:38:00::"
+        },
+        "start": 40,
+        "end": 78
+      },
+      "V371023": {
+        "id": "V371023",
+        "indicator": "THE",
+        "type": "DEVICE",
+        "word": "PHONE",
+        "roles": {
+          "LEX": "PHONE",
+          "WNSENSE": "phone%1:06:01::"
+        },
+        "start": 40,
+        "end": 50
+      },
+      "V371073": {
+        "id": "V371073",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V371102",
+          "FIGURE": "#V371023",
+          "LEX": "TO"
+        },
+        "start": 55,
+        "end": 78
+      },
+      "V371102": {
+        "id": "V371102",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371641",
+          "SEQUENCE1": "#V371648",
+          "LEX": "PUNC-AND"
+        },
+        "start": 58,
+        "end": 78
+      },
+      "V371641": {
+        "id": "V371641",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371099"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371099": {
+        "id": "V371099",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "MOM",
+        "roles": {
+          "ASSOC-POSS": "#V371095",
+          "LEX": "MOM",
+          "WNSENSE": "mom%1:18:00::"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371095": {
+        "id": "V371095",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371648": {
+        "id": "V371648",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371108"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371108": {
+        "id": "V371108",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "MOD": "#V371105",
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371105": {
+        "id": "V371105",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V371108",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 67,
+        "end": 72
+      },
+      "root": "#V374156"
+    },
+    {
+      "V371326": {
+        "id": "V371326",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370914",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V370914": {
+        "id": "V370914",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V371326"
+    },
+    {
+      "V372778": {
+        "id": "V372778",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370925",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V370925": {
+        "id": "V370925",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "root": "#V372778"
+    },
+    {
+      "V370943": {
+        "id": "V370943",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL1": "#V370964",
+          "VFORM": "PASTPART",
+          "LEX": "BEEN",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 7,
+        "end": 25
+      },
+      "V370964": {
+        "id": "V370964",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371498",
+          "SEQUENCE1": "#V371201",
+          "LEX": "PUNC-AND"
+        },
+        "start": 13,
+        "end": 25
+      },
+      "V371498": {
+        "id": "V371498",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370958"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370958": {
+        "id": "V370958",
+        "indicator": "INDEF-SET",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SIZE": "#V370955",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370955": {
+        "id": "V370955",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "4"
+        },
+        "start": 13,
+        "end": 15
+      },
+      "V371201": {
+        "id": "V371201",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370980"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V370980": {
+        "id": "V370980",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "root": "#V370943"
+    },
+    {
+      "V374153": {
+        "id": "V374153",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V371006",
+          "LEX": "REMEMBER"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V371006": {
+        "id": "V371006",
+        "indicator": "F",
+        "type": "REMEMBER",
+        "word": "REMEMBER",
+        "roles": {
+          "AGENT": "#V374154",
+          "FORMAL": "#V371031",
+          "TIME": "#V370993",
+          "TENSE": "PRES",
+          "LEX": "REMEMBER",
+          "WNSENSE": "remember%2:31:00::"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V374154": {
+        "id": "V374154",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V370993": {
+        "id": "V370993",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "STILL",
+        "roles": {
+          "FIGURE": "#V371006",
+          "LEX": "STILL",
+          "WNSENSE": "still%4:02:01::"
+        },
+        "start": 25,
+        "end": 31
+      },
+      "V371031": {
+        "id": "V371031",
+        "indicator": "BARE",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V371023",
+          "RESULT": "#V371073",
+          "LEX": "CALL",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 40,
+        "end": 78
+      },
+      "V371023": {
+        "id": "V371023",
+        "indicator": "THE",
+        "type": "DEVICE",
+        "word": "PHONE",
+        "roles": {
+          "LEX": "PHONE",
+          "WNSENSE": "phone%1:06:01::"
+        },
+        "start": 40,
+        "end": 50
+      },
+      "V371073": {
+        "id": "V371073",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V371102",
+          "FIGURE": "#V371023",
+          "LEX": "TO"
+        },
+        "start": 55,
+        "end": 78
+      },
+      "V371102": {
+        "id": "V371102",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371641",
+          "SEQUENCE1": "#V371648",
+          "LEX": "PUNC-AND"
+        },
+        "start": 58,
+        "end": 78
+      },
+      "V371641": {
+        "id": "V371641",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371099"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371099": {
+        "id": "V371099",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "MOM",
+        "roles": {
+          "ASSOC-POSS": "#V371095",
+          "LEX": "MOM",
+          "WNSENSE": "mom%1:18:00::"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371095": {
+        "id": "V371095",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371648": {
+        "id": "V371648",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371108"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371108": {
+        "id": "V371108",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "MOD": "#V371105",
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371105": {
+        "id": "V371105",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V371108",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 67,
+        "end": 72
+      },
+      "root": "#V374153"
+    },
+    {
+      "V371326": {
+        "id": "V371326",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370914",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V370914": {
+        "id": "V370914",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V371326"
+    },
+    {
+      "V372778": {
+        "id": "V372778",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370925",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V370925": {
+        "id": "V370925",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "root": "#V372778"
+    },
+    {
+      "V370945": {
+        "id": "V370945",
+        "indicator": "F",
+        "type": "EXISTS",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V370964",
+          "VFORM": "PASTPART",
+          "LEX": "BEEN",
+          "WNSENSE": "be%2:42:00::"
+        },
+        "start": 7,
+        "end": 25
+      },
+      "V370964": {
+        "id": "V370964",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371498",
+          "SEQUENCE1": "#V371201",
+          "LEX": "PUNC-AND"
+        },
+        "start": 13,
+        "end": 25
+      },
+      "V371498": {
+        "id": "V371498",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370958"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370958": {
+        "id": "V370958",
+        "indicator": "INDEF-SET",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SIZE": "#V370955",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370955": {
+        "id": "V370955",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "4"
+        },
+        "start": 13,
+        "end": 15
+      },
+      "V371201": {
+        "id": "V371201",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370980"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V370980": {
+        "id": "V370980",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "root": "#V370945"
+    },
+    {
+      "V374156": {
+        "id": "V374156",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V371006",
+          "LEX": "REMEMBER"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V371006": {
+        "id": "V371006",
+        "indicator": "F",
+        "type": "REMEMBER",
+        "word": "REMEMBER",
+        "roles": {
+          "AGENT": "#V374157",
+          "FORMAL": "#V371033",
+          "TIME": "#V370993",
+          "TENSE": "PRES",
+          "LEX": "REMEMBER",
+          "WNSENSE": "remember%2:31:00::"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V374157": {
+        "id": "V374157",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V370993": {
+        "id": "V370993",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "STILL",
+        "roles": {
+          "FIGURE": "#V371006",
+          "LEX": "STILL",
+          "WNSENSE": "still%4:02:01::"
+        },
+        "start": 25,
+        "end": 31
+      },
+      "V371033": {
+        "id": "V371033",
+        "indicator": "BARE",
+        "type": "APPEAL-APPLY-DEMAND",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V371023",
+          "RESULT": "#V371073",
+          "LEX": "CALL",
+          "WNSENSE": "call%2:38:00::"
+        },
+        "start": 40,
+        "end": 78
+      },
+      "V371023": {
+        "id": "V371023",
+        "indicator": "THE",
+        "type": "DEVICE",
+        "word": "PHONE",
+        "roles": {
+          "LEX": "PHONE",
+          "WNSENSE": "phone%1:06:01::"
+        },
+        "start": 40,
+        "end": 50
+      },
+      "V371073": {
+        "id": "V371073",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V371102",
+          "FIGURE": "#V371023",
+          "LEX": "TO"
+        },
+        "start": 55,
+        "end": 78
+      },
+      "V371102": {
+        "id": "V371102",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371641",
+          "SEQUENCE1": "#V371648",
+          "LEX": "PUNC-AND"
+        },
+        "start": 58,
+        "end": 78
+      },
+      "V371641": {
+        "id": "V371641",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371099"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371099": {
+        "id": "V371099",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "MOM",
+        "roles": {
+          "ASSOC-POSS": "#V371095",
+          "LEX": "MOM",
+          "WNSENSE": "mom%1:18:00::"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371095": {
+        "id": "V371095",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371648": {
+        "id": "V371648",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371108"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371108": {
+        "id": "V371108",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "MOD": "#V371105",
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371105": {
+        "id": "V371105",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V371108",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 67,
+        "end": 72
+      },
+      "root": "#V374156"
+    },
+    {
+      "V371326": {
+        "id": "V371326",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370914",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V370914": {
+        "id": "V370914",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V371326"
+    },
+    {
+      "V372778": {
+        "id": "V372778",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370925",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V370925": {
+        "id": "V370925",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "root": "#V372778"
+    },
+    {
+      "V370945": {
+        "id": "V370945",
+        "indicator": "F",
+        "type": "EXISTS",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V370964",
+          "VFORM": "PASTPART",
+          "LEX": "BEEN",
+          "WNSENSE": "be%2:42:00::"
+        },
+        "start": 7,
+        "end": 25
+      },
+      "V370964": {
+        "id": "V370964",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371498",
+          "SEQUENCE1": "#V371201",
+          "LEX": "PUNC-AND"
+        },
+        "start": 13,
+        "end": 25
+      },
+      "V371498": {
+        "id": "V371498",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370958"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370958": {
+        "id": "V370958",
+        "indicator": "INDEF-SET",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SIZE": "#V370955",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370955": {
+        "id": "V370955",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "4"
+        },
+        "start": 13,
+        "end": 15
+      },
+      "V371201": {
+        "id": "V371201",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370980"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V370980": {
+        "id": "V370980",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "root": "#V370945"
+    },
+    {
+      "V374153": {
+        "id": "V374153",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V371006",
+          "LEX": "REMEMBER"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V371006": {
+        "id": "V371006",
+        "indicator": "F",
+        "type": "REMEMBER",
+        "word": "REMEMBER",
+        "roles": {
+          "AGENT": "#V374154",
+          "FORMAL": "#V371031",
+          "TIME": "#V370993",
+          "TENSE": "PRES",
+          "LEX": "REMEMBER",
+          "WNSENSE": "remember%2:31:00::"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V374154": {
+        "id": "V374154",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V370993": {
+        "id": "V370993",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "STILL",
+        "roles": {
+          "FIGURE": "#V371006",
+          "LEX": "STILL",
+          "WNSENSE": "still%4:02:01::"
+        },
+        "start": 25,
+        "end": 31
+      },
+      "V371031": {
+        "id": "V371031",
+        "indicator": "BARE",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V371023",
+          "RESULT": "#V371073",
+          "LEX": "CALL",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 40,
+        "end": 78
+      },
+      "V371023": {
+        "id": "V371023",
+        "indicator": "THE",
+        "type": "DEVICE",
+        "word": "PHONE",
+        "roles": {
+          "LEX": "PHONE",
+          "WNSENSE": "phone%1:06:01::"
+        },
+        "start": 40,
+        "end": 50
+      },
+      "V371073": {
+        "id": "V371073",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V371102",
+          "FIGURE": "#V371023",
+          "LEX": "TO"
+        },
+        "start": 55,
+        "end": 78
+      },
+      "V371102": {
+        "id": "V371102",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371641",
+          "SEQUENCE1": "#V371648",
+          "LEX": "PUNC-AND"
+        },
+        "start": 58,
+        "end": 78
+      },
+      "V371641": {
+        "id": "V371641",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371099"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371099": {
+        "id": "V371099",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "MOM",
+        "roles": {
+          "ASSOC-POSS": "#V371095",
+          "LEX": "MOM",
+          "WNSENSE": "mom%1:18:00::"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371095": {
+        "id": "V371095",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371648": {
+        "id": "V371648",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371108"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371108": {
+        "id": "V371108",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "MOD": "#V371105",
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371105": {
+        "id": "V371105",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V371108",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 67,
+        "end": 72
+      },
+      "root": "#V374153"
+    },
+    {
+      "V371326": {
+        "id": "V371326",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370914",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V370914": {
+        "id": "V370914",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V371326"
+    },
+    {
+      "V372778": {
+        "id": "V372778",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370925",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V370925": {
+        "id": "V370925",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "root": "#V372778"
+    },
+    {
+      "V370943": {
+        "id": "V370943",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL1": "#V370964",
+          "VFORM": "PASTPART",
+          "LEX": "BEEN",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 7,
+        "end": 25
+      },
+      "V370964": {
+        "id": "V370964",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371488",
+          "SEQUENCE1": "#V371201",
+          "LEX": "PUNC-AND"
+        },
+        "start": 13,
+        "end": 25
+      },
+      "V371488": {
+        "id": "V371488",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370959"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370959": {
+        "id": "V370959",
+        "indicator": "INDEF-SET",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SIZE": "#V370955",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370955": {
+        "id": "V370955",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "4"
+        },
+        "start": 13,
+        "end": 15
+      },
+      "V371201": {
+        "id": "V371201",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370980"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V370980": {
+        "id": "V370980",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "root": "#V370943"
+    },
+    {
+      "V374156": {
+        "id": "V374156",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V371006",
+          "LEX": "REMEMBER"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V371006": {
+        "id": "V371006",
+        "indicator": "F",
+        "type": "REMEMBER",
+        "word": "REMEMBER",
+        "roles": {
+          "AGENT": "#V374157",
+          "FORMAL": "#V371033",
+          "TIME": "#V370993",
+          "TENSE": "PRES",
+          "LEX": "REMEMBER",
+          "WNSENSE": "remember%2:31:00::"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V374157": {
+        "id": "V374157",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V370993": {
+        "id": "V370993",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "STILL",
+        "roles": {
+          "FIGURE": "#V371006",
+          "LEX": "STILL",
+          "WNSENSE": "still%4:02:01::"
+        },
+        "start": 25,
+        "end": 31
+      },
+      "V371033": {
+        "id": "V371033",
+        "indicator": "BARE",
+        "type": "APPEAL-APPLY-DEMAND",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V371023",
+          "RESULT": "#V371073",
+          "LEX": "CALL",
+          "WNSENSE": "call%2:38:00::"
+        },
+        "start": 40,
+        "end": 78
+      },
+      "V371023": {
+        "id": "V371023",
+        "indicator": "THE",
+        "type": "DEVICE",
+        "word": "PHONE",
+        "roles": {
+          "LEX": "PHONE",
+          "WNSENSE": "phone%1:06:01::"
+        },
+        "start": 40,
+        "end": 50
+      },
+      "V371073": {
+        "id": "V371073",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V371102",
+          "FIGURE": "#V371023",
+          "LEX": "TO"
+        },
+        "start": 55,
+        "end": 78
+      },
+      "V371102": {
+        "id": "V371102",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371641",
+          "SEQUENCE1": "#V371648",
+          "LEX": "PUNC-AND"
+        },
+        "start": 58,
+        "end": 78
+      },
+      "V371641": {
+        "id": "V371641",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371099"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371099": {
+        "id": "V371099",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "MOM",
+        "roles": {
+          "ASSOC-POSS": "#V371095",
+          "LEX": "MOM",
+          "WNSENSE": "mom%1:18:00::"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371095": {
+        "id": "V371095",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371648": {
+        "id": "V371648",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371108"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371108": {
+        "id": "V371108",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "MOD": "#V371105",
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371105": {
+        "id": "V371105",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V371108",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 67,
+        "end": 72
+      },
+      "root": "#V374156"
+    },
+    {
+      "V371326": {
+        "id": "V371326",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370914",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V370914": {
+        "id": "V370914",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V371326"
+    },
+    {
+      "V372778": {
+        "id": "V372778",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370925",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V370925": {
+        "id": "V370925",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "root": "#V372778"
+    },
+    {
+      "V370943": {
+        "id": "V370943",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL1": "#V370964",
+          "VFORM": "PASTPART",
+          "LEX": "BEEN",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 7,
+        "end": 25
+      },
+      "V370964": {
+        "id": "V370964",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371488",
+          "SEQUENCE1": "#V371201",
+          "LEX": "PUNC-AND"
+        },
+        "start": 13,
+        "end": 25
+      },
+      "V371488": {
+        "id": "V371488",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370959"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370959": {
+        "id": "V370959",
+        "indicator": "INDEF-SET",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SIZE": "#V370955",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370955": {
+        "id": "V370955",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "4"
+        },
+        "start": 13,
+        "end": 15
+      },
+      "V371201": {
+        "id": "V371201",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370980"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V370980": {
+        "id": "V370980",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "root": "#V370943"
+    },
+    {
+      "V374153": {
+        "id": "V374153",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V371006",
+          "LEX": "REMEMBER"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V371006": {
+        "id": "V371006",
+        "indicator": "F",
+        "type": "REMEMBER",
+        "word": "REMEMBER",
+        "roles": {
+          "AGENT": "#V374154",
+          "FORMAL": "#V371031",
+          "TIME": "#V370993",
+          "TENSE": "PRES",
+          "LEX": "REMEMBER",
+          "WNSENSE": "remember%2:31:00::"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V374154": {
+        "id": "V374154",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V370993": {
+        "id": "V370993",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "STILL",
+        "roles": {
+          "FIGURE": "#V371006",
+          "LEX": "STILL",
+          "WNSENSE": "still%4:02:01::"
+        },
+        "start": 25,
+        "end": 31
+      },
+      "V371031": {
+        "id": "V371031",
+        "indicator": "BARE",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V371023",
+          "RESULT": "#V371073",
+          "LEX": "CALL",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 40,
+        "end": 78
+      },
+      "V371023": {
+        "id": "V371023",
+        "indicator": "THE",
+        "type": "DEVICE",
+        "word": "PHONE",
+        "roles": {
+          "LEX": "PHONE",
+          "WNSENSE": "phone%1:06:01::"
+        },
+        "start": 40,
+        "end": 50
+      },
+      "V371073": {
+        "id": "V371073",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V371102",
+          "FIGURE": "#V371023",
+          "LEX": "TO"
+        },
+        "start": 55,
+        "end": 78
+      },
+      "V371102": {
+        "id": "V371102",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371641",
+          "SEQUENCE1": "#V371648",
+          "LEX": "PUNC-AND"
+        },
+        "start": 58,
+        "end": 78
+      },
+      "V371641": {
+        "id": "V371641",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371099"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371099": {
+        "id": "V371099",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "MOM",
+        "roles": {
+          "ASSOC-POSS": "#V371095",
+          "LEX": "MOM",
+          "WNSENSE": "mom%1:18:00::"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371095": {
+        "id": "V371095",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371648": {
+        "id": "V371648",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371108"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371108": {
+        "id": "V371108",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "MOD": "#V371105",
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371105": {
+        "id": "V371105",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V371108",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 67,
+        "end": 72
+      },
+      "root": "#V374153"
+    },
+    {
+      "V371326": {
+        "id": "V371326",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370914",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V370914": {
+        "id": "V370914",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V371326"
+    },
+    {
+      "V372778": {
+        "id": "V372778",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370925",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V370925": {
+        "id": "V370925",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "root": "#V372778"
+    },
+    {
+      "V370945": {
+        "id": "V370945",
+        "indicator": "F",
+        "type": "EXISTS",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V370964",
+          "VFORM": "PASTPART",
+          "LEX": "BEEN",
+          "WNSENSE": "be%2:42:00::"
+        },
+        "start": 7,
+        "end": 25
+      },
+      "V370964": {
+        "id": "V370964",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371488",
+          "SEQUENCE1": "#V371201",
+          "LEX": "PUNC-AND"
+        },
+        "start": 13,
+        "end": 25
+      },
+      "V371488": {
+        "id": "V371488",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370959"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370959": {
+        "id": "V370959",
+        "indicator": "INDEF-SET",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SIZE": "#V370955",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370955": {
+        "id": "V370955",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "4"
+        },
+        "start": 13,
+        "end": 15
+      },
+      "V371201": {
+        "id": "V371201",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370980"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V370980": {
+        "id": "V370980",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "root": "#V370945"
+    },
+    {
+      "V374156": {
+        "id": "V374156",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V371006",
+          "LEX": "REMEMBER"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V371006": {
+        "id": "V371006",
+        "indicator": "F",
+        "type": "REMEMBER",
+        "word": "REMEMBER",
+        "roles": {
+          "AGENT": "#V374157",
+          "FORMAL": "#V371033",
+          "TIME": "#V370993",
+          "TENSE": "PRES",
+          "LEX": "REMEMBER",
+          "WNSENSE": "remember%2:31:00::"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V374157": {
+        "id": "V374157",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V370993": {
+        "id": "V370993",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "STILL",
+        "roles": {
+          "FIGURE": "#V371006",
+          "LEX": "STILL",
+          "WNSENSE": "still%4:02:01::"
+        },
+        "start": 25,
+        "end": 31
+      },
+      "V371033": {
+        "id": "V371033",
+        "indicator": "BARE",
+        "type": "APPEAL-APPLY-DEMAND",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V371023",
+          "RESULT": "#V371073",
+          "LEX": "CALL",
+          "WNSENSE": "call%2:38:00::"
+        },
+        "start": 40,
+        "end": 78
+      },
+      "V371023": {
+        "id": "V371023",
+        "indicator": "THE",
+        "type": "DEVICE",
+        "word": "PHONE",
+        "roles": {
+          "LEX": "PHONE",
+          "WNSENSE": "phone%1:06:01::"
+        },
+        "start": 40,
+        "end": 50
+      },
+      "V371073": {
+        "id": "V371073",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V371102",
+          "FIGURE": "#V371023",
+          "LEX": "TO"
+        },
+        "start": 55,
+        "end": 78
+      },
+      "V371102": {
+        "id": "V371102",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371641",
+          "SEQUENCE1": "#V371648",
+          "LEX": "PUNC-AND"
+        },
+        "start": 58,
+        "end": 78
+      },
+      "V371641": {
+        "id": "V371641",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371099"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371099": {
+        "id": "V371099",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "MOM",
+        "roles": {
+          "ASSOC-POSS": "#V371095",
+          "LEX": "MOM",
+          "WNSENSE": "mom%1:18:00::"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371095": {
+        "id": "V371095",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371648": {
+        "id": "V371648",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371108"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371108": {
+        "id": "V371108",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "MOD": "#V371105",
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371105": {
+        "id": "V371105",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V371108",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 67,
+        "end": 72
+      },
+      "root": "#V374156"
+    },
+    {
+      "V371326": {
+        "id": "V371326",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370914",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V370914": {
+        "id": "V370914",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V371326"
+    },
+    {
+      "V372778": {
+        "id": "V372778",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370925",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V370925": {
+        "id": "V370925",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "root": "#V372778"
+    },
+    {
+      "V370945": {
+        "id": "V370945",
+        "indicator": "F",
+        "type": "EXISTS",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V370964",
+          "VFORM": "PASTPART",
+          "LEX": "BEEN",
+          "WNSENSE": "be%2:42:00::"
+        },
+        "start": 7,
+        "end": 25
+      },
+      "V370964": {
+        "id": "V370964",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371488",
+          "SEQUENCE1": "#V371201",
+          "LEX": "PUNC-AND"
+        },
+        "start": 13,
+        "end": 25
+      },
+      "V371488": {
+        "id": "V371488",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370959"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370959": {
+        "id": "V370959",
+        "indicator": "INDEF-SET",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SIZE": "#V370955",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370955": {
+        "id": "V370955",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "4"
+        },
+        "start": 13,
+        "end": 15
+      },
+      "V371201": {
+        "id": "V371201",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370980"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V370980": {
+        "id": "V370980",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "root": "#V370945"
+    },
+    {
+      "V374153": {
+        "id": "V374153",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V371006",
+          "LEX": "REMEMBER"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V371006": {
+        "id": "V371006",
+        "indicator": "F",
+        "type": "REMEMBER",
+        "word": "REMEMBER",
+        "roles": {
+          "AGENT": "#V374154",
+          "FORMAL": "#V371031",
+          "TIME": "#V370993",
+          "TENSE": "PRES",
+          "LEX": "REMEMBER",
+          "WNSENSE": "remember%2:31:00::"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V374154": {
+        "id": "V374154",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V370993": {
+        "id": "V370993",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "STILL",
+        "roles": {
+          "FIGURE": "#V371006",
+          "LEX": "STILL",
+          "WNSENSE": "still%4:02:01::"
+        },
+        "start": 25,
+        "end": 31
+      },
+      "V371031": {
+        "id": "V371031",
+        "indicator": "BARE",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V371023",
+          "RESULT": "#V371073",
+          "LEX": "CALL",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 40,
+        "end": 78
+      },
+      "V371023": {
+        "id": "V371023",
+        "indicator": "THE",
+        "type": "DEVICE",
+        "word": "PHONE",
+        "roles": {
+          "LEX": "PHONE",
+          "WNSENSE": "phone%1:06:01::"
+        },
+        "start": 40,
+        "end": 50
+      },
+      "V371073": {
+        "id": "V371073",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V371102",
+          "FIGURE": "#V371023",
+          "LEX": "TO"
+        },
+        "start": 55,
+        "end": 78
+      },
+      "V371102": {
+        "id": "V371102",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371641",
+          "SEQUENCE1": "#V371648",
+          "LEX": "PUNC-AND"
+        },
+        "start": 58,
+        "end": 78
+      },
+      "V371641": {
+        "id": "V371641",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371099"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371099": {
+        "id": "V371099",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "MOM",
+        "roles": {
+          "ASSOC-POSS": "#V371095",
+          "LEX": "MOM",
+          "WNSENSE": "mom%1:18:00::"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371095": {
+        "id": "V371095",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371648": {
+        "id": "V371648",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371108"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371108": {
+        "id": "V371108",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "MOD": "#V371105",
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371105": {
+        "id": "V371105",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V371108",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 67,
+        "end": 72
+      },
+      "root": "#V374153"
+    },
+    {
+      "V371326": {
+        "id": "V371326",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370914",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V370914": {
+        "id": "V370914",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V371326"
+    },
+    {
+      "V372781": {
+        "id": "V372781",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370925",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V370925": {
+        "id": "V370925",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "root": "#V372781"
+    },
+    {
+      "V370943": {
+        "id": "V370943",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL1": "#V370964",
+          "VFORM": "PASTPART",
+          "LEX": "BEEN",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 7,
+        "end": 25
+      },
+      "V370964": {
+        "id": "V370964",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371498",
+          "SEQUENCE1": "#V371201",
+          "LEX": "PUNC-AND"
+        },
+        "start": 13,
+        "end": 25
+      },
+      "V371498": {
+        "id": "V371498",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370958"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370958": {
+        "id": "V370958",
+        "indicator": "INDEF-SET",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SIZE": "#V370955",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370955": {
+        "id": "V370955",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "4"
+        },
+        "start": 13,
+        "end": 15
+      },
+      "V371201": {
+        "id": "V371201",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370980"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V370980": {
+        "id": "V370980",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "root": "#V370943"
+    },
+    {
+      "V374588": {
+        "id": "V374588",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V371006",
+          "LEX": "REMEMBER"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V371006": {
+        "id": "V371006",
+        "indicator": "F",
+        "type": "REMEMBER",
+        "word": "REMEMBER",
+        "roles": {
+          "AGENT": "#V374589",
+          "FORMAL": "#V371033",
+          "TIME": "#V370993",
+          "TENSE": "PRES",
+          "LEX": "REMEMBER",
+          "WNSENSE": "remember%2:31:00::"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V374589": {
+        "id": "V374589",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V370993": {
+        "id": "V370993",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "STILL",
+        "roles": {
+          "FIGURE": "#V371006",
+          "LEX": "STILL",
+          "WNSENSE": "still%4:02:01::"
+        },
+        "start": 25,
+        "end": 31
+      },
+      "V371033": {
+        "id": "V371033",
+        "indicator": "BARE",
+        "type": "APPEAL-APPLY-DEMAND",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V371023",
+          "RESULT": "#V371075",
+          "LEX": "CALL",
+          "WNSENSE": "call%2:38:00::"
+        },
+        "start": 40,
+        "end": 78
+      },
+      "V371023": {
+        "id": "V371023",
+        "indicator": "THE",
+        "type": "DEVICE",
+        "word": "PHONE",
+        "roles": {
+          "LEX": "PHONE",
+          "WNSENSE": "phone%1:06:01::"
+        },
+        "start": 40,
+        "end": 50
+      },
+      "V371075": {
+        "id": "V371075",
+        "indicator": "F",
+        "type": "RESULTING-STATE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V371102",
+          "FIGURE": "#V371023",
+          "LEX": "TO"
+        },
+        "start": 55,
+        "end": 78
+      },
+      "V371102": {
+        "id": "V371102",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371641",
+          "SEQUENCE1": "#V371648",
+          "LEX": "PUNC-AND"
+        },
+        "start": 58,
+        "end": 78
+      },
+      "V371641": {
+        "id": "V371641",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371099"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371099": {
+        "id": "V371099",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "MOM",
+        "roles": {
+          "ASSOC-POSS": "#V371095",
+          "LEX": "MOM",
+          "WNSENSE": "mom%1:18:00::"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371095": {
+        "id": "V371095",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371648": {
+        "id": "V371648",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371108"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371108": {
+        "id": "V371108",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "MOD": "#V371105",
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371105": {
+        "id": "V371105",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V371108",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 67,
+        "end": 72
+      },
+      "root": "#V374588"
+    },
+    {
+      "V371326": {
+        "id": "V371326",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370914",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V370914": {
+        "id": "V370914",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V371326"
+    },
+    {
+      "V372781": {
+        "id": "V372781",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370925",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V370925": {
+        "id": "V370925",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "root": "#V372781"
+    },
+    {
+      "V370943": {
+        "id": "V370943",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL1": "#V370964",
+          "VFORM": "PASTPART",
+          "LEX": "BEEN",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 7,
+        "end": 25
+      },
+      "V370964": {
+        "id": "V370964",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371498",
+          "SEQUENCE1": "#V371201",
+          "LEX": "PUNC-AND"
+        },
+        "start": 13,
+        "end": 25
+      },
+      "V371498": {
+        "id": "V371498",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370958"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370958": {
+        "id": "V370958",
+        "indicator": "INDEF-SET",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SIZE": "#V370955",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370955": {
+        "id": "V370955",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "4"
+        },
+        "start": 13,
+        "end": 15
+      },
+      "V371201": {
+        "id": "V371201",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370980"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V370980": {
+        "id": "V370980",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "root": "#V370943"
+    },
+    {
+      "V374585": {
+        "id": "V374585",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V371006",
+          "LEX": "REMEMBER"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V371006": {
+        "id": "V371006",
+        "indicator": "F",
+        "type": "REMEMBER",
+        "word": "REMEMBER",
+        "roles": {
+          "AGENT": "#V374586",
+          "FORMAL": "#V371031",
+          "TIME": "#V370993",
+          "TENSE": "PRES",
+          "LEX": "REMEMBER",
+          "WNSENSE": "remember%2:31:00::"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V374586": {
+        "id": "V374586",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V370993": {
+        "id": "V370993",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "STILL",
+        "roles": {
+          "FIGURE": "#V371006",
+          "LEX": "STILL",
+          "WNSENSE": "still%4:02:01::"
+        },
+        "start": 25,
+        "end": 31
+      },
+      "V371031": {
+        "id": "V371031",
+        "indicator": "BARE",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V371023",
+          "RESULT": "#V371075",
+          "LEX": "CALL",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 40,
+        "end": 78
+      },
+      "V371023": {
+        "id": "V371023",
+        "indicator": "THE",
+        "type": "DEVICE",
+        "word": "PHONE",
+        "roles": {
+          "LEX": "PHONE",
+          "WNSENSE": "phone%1:06:01::"
+        },
+        "start": 40,
+        "end": 50
+      },
+      "V371075": {
+        "id": "V371075",
+        "indicator": "F",
+        "type": "RESULTING-STATE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V371102",
+          "FIGURE": "#V371023",
+          "LEX": "TO"
+        },
+        "start": 55,
+        "end": 78
+      },
+      "V371102": {
+        "id": "V371102",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371641",
+          "SEQUENCE1": "#V371648",
+          "LEX": "PUNC-AND"
+        },
+        "start": 58,
+        "end": 78
+      },
+      "V371641": {
+        "id": "V371641",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371099"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371099": {
+        "id": "V371099",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "MOM",
+        "roles": {
+          "ASSOC-POSS": "#V371095",
+          "LEX": "MOM",
+          "WNSENSE": "mom%1:18:00::"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371095": {
+        "id": "V371095",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371648": {
+        "id": "V371648",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371108"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371108": {
+        "id": "V371108",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "MOD": "#V371105",
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371105": {
+        "id": "V371105",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V371108",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 67,
+        "end": 72
+      },
+      "root": "#V374585"
+    },
+    {
+      "V371326": {
+        "id": "V371326",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370914",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V370914": {
+        "id": "V370914",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V371326"
+    },
+    {
+      "V372781": {
+        "id": "V372781",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370925",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V370925": {
+        "id": "V370925",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "root": "#V372781"
+    },
+    {
+      "V370945": {
+        "id": "V370945",
+        "indicator": "F",
+        "type": "EXISTS",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V370964",
+          "VFORM": "PASTPART",
+          "LEX": "BEEN",
+          "WNSENSE": "be%2:42:00::"
+        },
+        "start": 7,
+        "end": 25
+      },
+      "V370964": {
+        "id": "V370964",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371498",
+          "SEQUENCE1": "#V371201",
+          "LEX": "PUNC-AND"
+        },
+        "start": 13,
+        "end": 25
+      },
+      "V371498": {
+        "id": "V371498",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370958"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370958": {
+        "id": "V370958",
+        "indicator": "INDEF-SET",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SIZE": "#V370955",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370955": {
+        "id": "V370955",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "4"
+        },
+        "start": 13,
+        "end": 15
+      },
+      "V371201": {
+        "id": "V371201",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370980"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V370980": {
+        "id": "V370980",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "root": "#V370945"
+    },
+    {
+      "V374588": {
+        "id": "V374588",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V371006",
+          "LEX": "REMEMBER"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V371006": {
+        "id": "V371006",
+        "indicator": "F",
+        "type": "REMEMBER",
+        "word": "REMEMBER",
+        "roles": {
+          "AGENT": "#V374589",
+          "FORMAL": "#V371033",
+          "TIME": "#V370993",
+          "TENSE": "PRES",
+          "LEX": "REMEMBER",
+          "WNSENSE": "remember%2:31:00::"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V374589": {
+        "id": "V374589",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V370993": {
+        "id": "V370993",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "STILL",
+        "roles": {
+          "FIGURE": "#V371006",
+          "LEX": "STILL",
+          "WNSENSE": "still%4:02:01::"
+        },
+        "start": 25,
+        "end": 31
+      },
+      "V371033": {
+        "id": "V371033",
+        "indicator": "BARE",
+        "type": "APPEAL-APPLY-DEMAND",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V371023",
+          "RESULT": "#V371075",
+          "LEX": "CALL",
+          "WNSENSE": "call%2:38:00::"
+        },
+        "start": 40,
+        "end": 78
+      },
+      "V371023": {
+        "id": "V371023",
+        "indicator": "THE",
+        "type": "DEVICE",
+        "word": "PHONE",
+        "roles": {
+          "LEX": "PHONE",
+          "WNSENSE": "phone%1:06:01::"
+        },
+        "start": 40,
+        "end": 50
+      },
+      "V371075": {
+        "id": "V371075",
+        "indicator": "F",
+        "type": "RESULTING-STATE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V371102",
+          "FIGURE": "#V371023",
+          "LEX": "TO"
+        },
+        "start": 55,
+        "end": 78
+      },
+      "V371102": {
+        "id": "V371102",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371641",
+          "SEQUENCE1": "#V371648",
+          "LEX": "PUNC-AND"
+        },
+        "start": 58,
+        "end": 78
+      },
+      "V371641": {
+        "id": "V371641",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371099"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371099": {
+        "id": "V371099",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "MOM",
+        "roles": {
+          "ASSOC-POSS": "#V371095",
+          "LEX": "MOM",
+          "WNSENSE": "mom%1:18:00::"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371095": {
+        "id": "V371095",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371648": {
+        "id": "V371648",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371108"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371108": {
+        "id": "V371108",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "MOD": "#V371105",
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371105": {
+        "id": "V371105",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V371108",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 67,
+        "end": 72
+      },
+      "root": "#V374588"
+    },
+    {
+      "V371326": {
+        "id": "V371326",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370914",
+          "LEX": "IT"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V370914": {
+        "id": "V370914",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V371326"
+    },
+    {
+      "V372781": {
+        "id": "V372781",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V370925",
+          "LEX": "S"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V370925": {
+        "id": "V370925",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "root": "#V372781"
+    },
+    {
+      "V370945": {
+        "id": "V370945",
+        "indicator": "F",
+        "type": "EXISTS",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V370964",
+          "VFORM": "PASTPART",
+          "LEX": "BEEN",
+          "WNSENSE": "be%2:42:00::"
+        },
+        "start": 7,
+        "end": 25
+      },
+      "V370964": {
+        "id": "V370964",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371498",
+          "SEQUENCE1": "#V371201",
+          "LEX": "PUNC-AND"
+        },
+        "start": 13,
+        "end": 25
+      },
+      "V371498": {
+        "id": "V371498",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370958"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370958": {
+        "id": "V370958",
+        "indicator": "INDEF-SET",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SIZE": "#V370955",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 13,
+        "end": 21
+      },
+      "V370955": {
+        "id": "V370955",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "4"
+        },
+        "start": 13,
+        "end": 15
+      },
+      "V371201": {
+        "id": "V371201",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V370980"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V370980": {
+        "id": "V370980",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "root": "#V370945"
+    },
+    {
+      "V374585": {
+        "id": "V374585",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V371006",
+          "LEX": "REMEMBER"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V371006": {
+        "id": "V371006",
+        "indicator": "F",
+        "type": "REMEMBER",
+        "word": "REMEMBER",
+        "roles": {
+          "AGENT": "#V374586",
+          "FORMAL": "#V371031",
+          "TIME": "#V370993",
+          "TENSE": "PRES",
+          "LEX": "REMEMBER",
+          "WNSENSE": "remember%2:31:00::"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V374586": {
+        "id": "V374586",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 25,
+        "end": 78
+      },
+      "V370993": {
+        "id": "V370993",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "STILL",
+        "roles": {
+          "FIGURE": "#V371006",
+          "LEX": "STILL",
+          "WNSENSE": "still%4:02:01::"
+        },
+        "start": 25,
+        "end": 31
+      },
+      "V371031": {
+        "id": "V371031",
+        "indicator": "BARE",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V371023",
+          "RESULT": "#V371075",
+          "LEX": "CALL",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 40,
+        "end": 78
+      },
+      "V371023": {
+        "id": "V371023",
+        "indicator": "THE",
+        "type": "DEVICE",
+        "word": "PHONE",
+        "roles": {
+          "LEX": "PHONE",
+          "WNSENSE": "phone%1:06:01::"
+        },
+        "start": 40,
+        "end": 50
+      },
+      "V371075": {
+        "id": "V371075",
+        "indicator": "F",
+        "type": "RESULTING-STATE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V371102",
+          "FIGURE": "#V371023",
+          "LEX": "TO"
+        },
+        "start": 55,
+        "end": 78
+      },
+      "V371102": {
+        "id": "V371102",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V371641",
+          "SEQUENCE1": "#V371648",
+          "LEX": "PUNC-AND"
+        },
+        "start": 58,
+        "end": 78
+      },
+      "V371641": {
+        "id": "V371641",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371099"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371099": {
+        "id": "V371099",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "MOM",
+        "roles": {
+          "ASSOC-POSS": "#V371095",
+          "LEX": "MOM",
+          "WNSENSE": "mom%1:18:00::"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371095": {
+        "id": "V371095",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 58,
+        "end": 65
+      },
+      "V371648": {
+        "id": "V371648",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V371108"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371108": {
+        "id": "V371108",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "MOD": "#V371105",
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 67,
+        "end": 78
+      },
+      "V371105": {
+        "id": "V371105",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V371108",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 67,
+        "end": 72
+      },
+      "root": "#V374585"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+70",
+    "*last-utt-id*=70  utt-id+70Reference resolution to sequences not reimplemented yet",
+    "*last-utt-id*=70  utt-id+70Reference resolution to sequences not reimplemented yet",
+    "*last-utt-id*=70  utt-id+70",
+    "*last-utt-id*=70  utt-id+NIL"
+  ]
+}

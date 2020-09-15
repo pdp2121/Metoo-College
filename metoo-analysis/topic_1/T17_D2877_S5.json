@@ -1,0 +1,81 @@
+{
+  "parse": [
+    {
+      "V1738128": {
+        "id": "V1738128",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1735073",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V1735073": {
+        "id": "V1735073",
+        "indicator": "BARE",
+        "type": "LETTER-SYMBOL",
+        "word": null,
+        "roles": {
+          "NAME-OF": "I",
+          "MOD": "#V1735097",
+          "LEX": "I",
+          "WNSENSE": "i%1:10:00::"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V1735097": {
+        "id": "V1735097",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "FREQUENCY": "#V1735089",
+          "NEUTRAL": "#V1735073",
+          "TIME": "#V1735142",
+          "VFORM": "PASSIVE",
+          "LEX": "TOLD",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 2,
+        "end": 23
+      },
+      "V1735089": {
+        "id": "V1735089",
+        "indicator": "F",
+        "type": "NEVER",
+        "word": "NEVER",
+        "roles": {
+          "FIGURE": "#V1735097",
+          "LEX": "NEVER",
+          "WNSENSE": "never%4:02:00::"
+        },
+        "start": 2,
+        "end": 8
+      },
+      "V1735142": {
+        "id": "V1735142",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "UNTIL-NOW",
+        "roles": {
+          "FIGURE": "#V1735097",
+          "LEX": "UNTIL-NOW",
+          "WNSENSE": "until_now%4:02:00"
+        },
+        "start": 13,
+        "end": 23
+      },
+      "root": "#V1738128"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+312",
+    "*last-utt-id*=312  utt-id+NIL"
+  ]
+}

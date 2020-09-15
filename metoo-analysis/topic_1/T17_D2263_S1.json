@@ -1,0 +1,93 @@
+{
+  "parse": [
+    {
+      "V289029": {
+        "id": "V289029",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V288700",
+          "LEX": "COMPLAINED"
+        },
+        "start": 0,
+        "end": 41
+      },
+      "V288700": {
+        "id": "V288700",
+        "indicator": "F",
+        "type": "COMPLAIN",
+        "word": "COMPLAIN",
+        "roles": {
+          "AGENT": "#V288685",
+          "AGENT1": "#V288738",
+          "TENSE": "PAST",
+          "LEX": "COMPLAINED",
+          "WNSENSE": "complain%2:32:00::"
+        },
+        "start": 0,
+        "end": 41
+      },
+      "V288685": {
+        "id": "V288685",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V288738": {
+        "id": "V288738",
+        "indicator": "INDEF-SET",
+        "type": "PROFESSIONAL",
+        "word": "SUPERVISOR",
+        "roles": {
+          "SIZE": "#V288733",
+          "MOD": "#V288735",
+          "LEX": "SUPERVISORS",
+          "WNSENSE": "professional%1:18:00"
+        },
+        "start": 13,
+        "end": 41
+      },
+      "V288733": {
+        "id": "V288733",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "4"
+        },
+        "start": 17,
+        "end": 19
+      },
+      "V288735": {
+        "id": "V288735",
+        "indicator": "F",
+        "type": "DIFFERENT",
+        "word": "DIFFERENT",
+        "roles": {
+          "FIGURE": "#V288738",
+          "SCALE": "DIFFERENT-SCALE",
+          "LEX": "DIFFERENT",
+          "WNSENSE": "different%3:00:00::"
+        },
+        "start": 19,
+        "end": 29
+      },
+      "root": "#V289029"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+52",
+    "*last-utt-id*=52  utt-id+NIL"
+  ]
+}

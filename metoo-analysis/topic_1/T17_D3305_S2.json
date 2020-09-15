@@ -1,0 +1,65 @@
+{
+  "parse": [
+    {
+      "V871057": {
+        "id": "V871057",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V870611",
+          "LEX": "NIGHT"
+        },
+        "start": 0,
+        "end": 16
+      },
+      "V870611": {
+        "id": "V870611",
+        "indicator": "BARE",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "SIZE": "#V870608",
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V870604",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 0,
+        "end": 16
+      },
+      "V870604": {
+        "id": "V870604",
+        "indicator": "F",
+        "type": "FATIGUED-VAL",
+        "word": "ALL-IN",
+        "roles": {
+          "FIGURE": "#V870611",
+          "SCALE": "FATIGUE-SCALE",
+          "LEX": "ALL-IN",
+          "WNSENSE": "all_in%5:00:00:tired:00"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V870608": {
+        "id": "V870608",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 8,
+        "end": 10
+      },
+      "root": "#V871057"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+152",
+    "*last-utt-id*=152  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "parse": [
+    {
+      "V1413332": {
+        "id": "V1413332",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1412657",
+          "MOD": "#V1412650",
+          "LEX": "DAY"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1412650": {
+        "id": "V1412650",
+        "indicator": "F",
+        "type": "SEQUENCE-POSITION",
+        "word": "FIRST",
+        "roles": {
+          "FIGURE": "#V1413332",
+          "LEX": "FIRST",
+          "WNSENSE": "first%1:24:00::"
+        },
+        "start": 0,
+        "end": 6
+      },
+      "V1412657": {
+        "id": "V1412657",
+        "indicator": "BARE",
+        "type": "DAY",
+        "word": "DAY",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V1412662",
+          "LEX": "DAY",
+          "WNSENSE": "day%1:28:03::"
+        },
+        "start": 6,
+        "end": 22
+      },
+      "V1412662": {
+        "id": "V1412662",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V1412687",
+          "FIGURE": "#V1412657",
+          "LEX": "OF"
+        },
+        "start": 10,
+        "end": 22
+      },
+      "V1412687": {
+        "id": "V1412687",
+        "indicator": "BARE",
+        "type": "TRY",
+        "word": "HEADSHOT",
+        "roles": {
+          "LEX": "HEADSHOT",
+          "WNSENSE": "headshot%1:04:01::"
+        },
+        "start": 13,
+        "end": 22
+      },
+      "root": "#V1413332"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+219",
+    "*last-utt-id*=219  utt-id+NIL"
+  ]
+}

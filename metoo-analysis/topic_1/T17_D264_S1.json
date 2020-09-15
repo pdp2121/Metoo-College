@@ -1,0 +1,157 @@
+{
+  "parse": [
+    {
+      "V147444": {
+        "id": "V147444",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V142595",
+          "LEX": "MADE"
+        },
+        "start": 0,
+        "end": 51
+      },
+      "V142595": {
+        "id": "V142595",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "MAKE",
+        "roles": {
+          "MOD": "#V142548",
+          "AFFECTED-RESULT": "#V142564",
+          "REASON": "#V142617",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "MADE"
+        },
+        "start": 0,
+        "end": 51
+      },
+      "V142548": {
+        "id": "V142548",
+        "indicator": "F",
+        "type": "CHOICE-OPTION",
+        "word": "INSTEAD-OF",
+        "roles": {
+          "GROUND": "#V143017",
+          "FIGURE": "#V142595",
+          "LEX": "INSTEAD"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V143017": {
+        "id": "V143017",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 0,
+        "end": 8
+      },
+      "V142564": {
+        "id": "V142564",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 8,
+        "end": 10
+      },
+      "V142617": {
+        "id": "V142617",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V142643",
+          "FIGURE": "#V142595",
+          "LEX": "TO"
+        },
+        "start": 19,
+        "end": 51
+      },
+      "V142643": {
+        "id": "V142643",
+        "indicator": "F",
+        "type": "POSSIBLY-TRUE",
+        "word": "FEEL-LIKE",
+        "roles": {
+          "NEUTRAL": "#V142734",
+          "VFORM": "BASE",
+          "LEX": "FEEL-LIKE"
+        },
+        "start": 22,
+        "end": 51
+      },
+      "V142734": {
+        "id": "V142734",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V142718",
+          "FORMAL": "#V142758",
+          "TENSE": "PAST",
+          "LEX": "WAS",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 32,
+        "end": 51
+      },
+      "V142718": {
+        "id": "V142718",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 32,
+        "end": 34
+      },
+      "V142758": {
+        "id": "V142758",
+        "indicator": "F",
+        "type": "BECOME",
+        "word": "REACTING",
+        "roles": {
+          "DEGREE": "#V142749",
+          "AFFECTED": "#V142718",
+          "LEX": "REACTING",
+          "WNSENSE": "take%2:30:09"
+        },
+        "start": 38,
+        "end": 51
+      },
+      "V142749": {
+        "id": "V142749",
+        "indicator": "F",
+        "type": "DEGREE-MODIFIER-HIGH",
+        "word": "OVER-",
+        "roles": {
+          "FIGURE": "#V142758"
+        },
+        "start": 38,
+        "end": 51
+      },
+      "root": "#V147444"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+21",
+    "*last-utt-id*=21  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "parse": [
+    {
+      "V2570408": {
+        "id": "V2570408",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2569130",
+          "LEX": "ASKED"
+        },
+        "start": 0,
+        "end": 54
+      },
+      "V2569130": {
+        "id": "V2569130",
+        "indicator": "F",
+        "type": "ASK-QUESTION",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V2569122",
+          "FORMAL": "#V2569243",
+          "TENSE": "PAST",
+          "LEX": "ASKED",
+          "WNSENSE": "ask%2:32:02::"
+        },
+        "start": 0,
+        "end": 54
+      },
+      "V2569122": {
+        "id": "V2569122",
+        "indicator": "BARE",
+        "type": "SPECIALIST",
+        "word": "MASSEUSE",
+        "roles": {
+          "MOD": "#V2569116",
+          "LEX": "MASSEUSE",
+          "WNSENSE": "masseuse%1:18:00::"
+        },
+        "start": 0,
+        "end": 14
+      },
+      "V2569116": {
+        "id": "V2569116",
+        "indicator": "F",
+        "type": "BIOLOGICAL-PROPERTY-VAL",
+        "word": "MALE",
+        "roles": {
+          "FIGURE": "#V2569122",
+          "SCALE": "DOMAIN",
+          "LEX": "MALE",
+          "WNSENSE": "male%3:00:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2569243": {
+        "id": "V2569243",
+        "indicator": "F",
+        "type": "CLAUSE-CONDITION",
+        "word": "IF",
+        "roles": {
+          "CONTENT": "#V2569170",
+          "LEX": "USING",
+          "WNSENSE": "use%1:04:00::"
+        },
+        "start": 20,
+        "end": 54
+      },
+      "V2569170": {
+        "id": "V2569170",
+        "indicator": "F",
+        "type": "USE",
+        "word": "USE",
+        "roles": {
+          "AGENT": "#V2569149",
+          "AFFECTED": "#V2569213",
+          "MOD": "#V2569206",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "USING",
+          "WNSENSE": "use%1:04:00::"
+        },
+        "start": 23,
+        "end": 54
+      },
+      "V2569149": {
+        "id": "V2569149",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00",
+          "COREF": "#V2569122"
+        },
+        "start": 23,
+        "end": 26
+      },
+      "V2569206": {
+        "id": "V2569206",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "TOO-MUCH",
+        "roles": {
+          "FIGURE": "#V2569170",
+          "LEX": "TOO-MUCH",
+          "WNSENSE": "too_much%4:02:00"
+        },
+        "start": 36,
+        "end": 45
+      },
+      "V2569213": {
+        "id": "V2569213",
+        "indicator": "BARE",
+        "type": "PHYSICAL-PHENOMENON",
+        "word": "PRESSURE",
+        "roles": {
+          "LEX": "PRESSURE",
+          "WNSENSE": "force%1:19:00"
+        },
+        "start": 45,
+        "end": 54
+      },
+      "root": "#V2570408"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+478",
+    "*last-utt-id*=478  utt-id+NIL"
+  ]
+}

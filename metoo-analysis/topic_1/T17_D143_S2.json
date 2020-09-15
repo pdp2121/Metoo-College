@@ -1,0 +1,103 @@
+{
+  "parse": [
+    {
+      "V1624468": {
+        "id": "V1624468",
+        "indicator": "SPEECHACT",
+        "type": "SA_YN-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1624419",
+          "PUNCTYPE": "YNQ",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V1624419": {
+        "id": "V1624419",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1624038"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V1624038": {
+        "id": "V1624038",
+        "indicator": "THE",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V1624017",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V1624017": {
+        "id": "V1624017",
+        "indicator": "F",
+        "type": "EVOKE-INJURY",
+        "word": "INJURE",
+        "roles": {
+          "TIME": "#V1623970",
+          "AFFECTED": "#V1623988",
+          "MOD": "#V1624012",
+          "WNSENSE": "injure%2:29:00::"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V1623970": {
+        "id": "V1623970",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V1624038",
+          "FIGURE": "#V1624017",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V1623988": {
+        "id": "V1623988",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 5,
+        "end": 9
+      },
+      "V1624012": {
+        "id": "V1624012",
+        "indicator": "F",
+        "type": "PHYSICAL-VAL",
+        "word": "PHYSICALLY",
+        "roles": {
+          "FIGURE": "#V1624017",
+          "SCALE": "DOMAIN",
+          "LEX": "PHYSICALLY",
+          "WNSENSE": "corporeal%3:00:00::"
+        },
+        "start": 14,
+        "end": 25
+      },
+      "root": "#V1624468"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+285",
+    "*last-utt-id*=285  utt-id+NIL"
+  ]
+}

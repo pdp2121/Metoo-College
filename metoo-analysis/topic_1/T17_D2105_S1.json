@@ -1,0 +1,81 @@
+{
+  "parse": [
+    {
+      "V1264501": {
+        "id": "V1264501",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1263725",
+          "LEX": "NEED"
+        },
+        "start": 1,
+        "end": 17
+      },
+      "V1263725": {
+        "id": "V1263725",
+        "indicator": "BARE",
+        "type": "WANT",
+        "word": "NEED",
+        "roles": {
+          "MOD": "#V1263781",
+          "LEX": "NEED",
+          "WNSENSE": "desire%2:37:00"
+        },
+        "start": 1,
+        "end": 17
+      },
+      "V1263781": {
+        "id": "V1263781",
+        "indicator": "F",
+        "type": "LOCUTION",
+        "word": "SAY",
+        "roles": {
+          "AGENT": "#V1263759",
+          "NEUTRAL": "#V1263725",
+          "DEGREE": "#V1263797",
+          "TENSE": "PRES",
+          "LEX": "SAY",
+          "WNSENSE": "say%2:32:02::"
+        },
+        "start": 6,
+        "end": 17
+      },
+      "V1263759": {
+        "id": "V1263759",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 6,
+        "end": 8
+      },
+      "V1263797": {
+        "id": "V1263797",
+        "indicator": "F",
+        "type": "DEGREE-MODIFIER",
+        "word": "MORE",
+        "roles": {
+          "FIGURE": "#V1263781",
+          "LEX": "MORE",
+          "WNSENSE": "more%4:02:00::"
+        },
+        "start": 12,
+        "end": 17
+      },
+      "root": "#V1264501"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=244  utt-id+245",
+    "*last-utt-id*=245  utt-id+NIL"
+  ]
+}

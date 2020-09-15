@@ -1,0 +1,106 @@
+{
+  "parse": [
+    {
+      "V70554": {
+        "id": "V70554",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V63050",
+          "LEX": "INVOLVE"
+        },
+        "start": 0,
+        "end": 62
+      },
+      "V63050": {
+        "id": "V63050",
+        "indicator": "F",
+        "type": "HAVE",
+        "word": "INVOLVE",
+        "roles": {
+          "NEUTRAL": "#V62972",
+          "NEUTRAL1": "#V63110",
+          "TENSE": "PRES",
+          "NEGATION": "+",
+          "MODALITY": "(:* SHOULD SHOULD)",
+          "LEX": "INVOLVE",
+          "WNSENSE": "involve%2:42:00::"
+        },
+        "start": 0,
+        "end": 62
+      },
+      "V62972": {
+        "id": "V62972",
+        "indicator": "BARE",
+        "type": "RENDER-INEFFECTIVE",
+        "word": "BREAK",
+        "roles": {
+          "AFFECTED": "#V63004",
+          "LEX": "BREAKING",
+          "WNSENSE": "break%2:30:05::"
+        },
+        "start": 0,
+        "end": 27
+      },
+      "V63004": {
+        "id": "V63004",
+        "indicator": "THE",
+        "type": "COGITATION",
+        "word": "GLASS-CEILING",
+        "roles": {
+          "LEX": "GLASS-CEILING",
+          "WNSENSE": "glass_ceiling%1:10:00"
+        },
+        "start": 9,
+        "end": 27
+      },
+      "V63110": {
+        "id": "V63110",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": "|...|",
+        "roles": {
+          "ASSOC-WITH": "#V63104",
+          "LEX": "|...|",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 46,
+        "end": 62
+      },
+      "V63104": {
+        "id": "V63104",
+        "indicator": "KIND",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "PENIS",
+        "roles": {
+          "MOD": "#V63097",
+          "LEX": "PENIS",
+          "WNSENSE": "external_body_part%1:08:00"
+        },
+        "start": 46,
+        "end": 62
+      },
+      "V63097": {
+        "id": "V63097",
+        "indicator": "F",
+        "type": "SOFT-VAL",
+        "word": "FLACCID",
+        "roles": {
+          "FIGURE": "#V63104",
+          "SCALE": "TACTILE-SOFTNESS-SCALE",
+          "LEX": "FLACCID",
+          "WNSENSE": "flaccid%5:00:00:soft:01"
+        },
+        "start": 48,
+        "end": 56
+      },
+      "root": "#V70554"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+8",
+    "*last-utt-id*=8  utt-id+NIL"
+  ]
+}

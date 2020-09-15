@@ -1,0 +1,195 @@
+{
+  "parse": [
+    {
+      "V2443064": {
+        "id": "V2443064",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2437300",
+          "LEX": "SUGGESTIONS"
+        },
+        "start": 0,
+        "end": 74
+      },
+      "V2437300": {
+        "id": "V2437300",
+        "indicator": "INDEF-SET",
+        "type": "PROPOSAL",
+        "word": "SUGGESTION",
+        "roles": {
+          "MOD": [
+            "#V2437351",
+            "#V2437407",
+            "#V2437411"
+          ],
+          "LEX": "SUGGESTIONS"
+        },
+        "start": 0,
+        "end": 74
+      },
+      "V2437407": {
+        "id": "V2437407",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2437300",
+          "GROUND": "#V2437290",
+          "LEX": "GRABBED"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2437290": {
+        "id": "V2437290",
+        "indicator": "F",
+        "type": "ACQUIRE",
+        "word": "GRAB",
+        "roles": {
+          "AFFECTED": "#V2437300",
+          "WNSENSE": "grab%2:40:00::"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2437411": {
+        "id": "V2437411",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2437300",
+          "GROUND": "#V2437295",
+          "LEX": "KISSED"
+        },
+        "start": 8,
+        "end": 15
+      },
+      "V2437295": {
+        "id": "V2437295",
+        "indicator": "F",
+        "type": "KISSING",
+        "word": "KISS",
+        "roles": {
+          "AFFECTED": "#V2437300",
+          "WNSENSE": "kiss%2:35:00::"
+        },
+        "start": 8,
+        "end": 15
+      },
+      "V2437351": {
+        "id": "V2437351",
+        "indicator": "F",
+        "type": "NAMING",
+        "word": "CALL",
+        "roles": {
+          "NEUTRAL": "#V2437300",
+          "FORMAL": "#V2437367",
+          "MOD": "#V2437308",
+          "VFORM": "PASSIVE",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:02::"
+        },
+        "start": 27,
+        "end": 74
+      },
+      "V2437308": {
+        "id": "V2437308",
+        "indicator": "F",
+        "type": "ASSOCIATED-INFORMATION",
+        "word": "ABOUT",
+        "roles": {
+          "GROUND": "#V2438319",
+          "FIGURE": "#V2437351",
+          "LEX": "ABOUT",
+          "WNSENSE": "about%4:02:00::"
+        },
+        "start": 27,
+        "end": 53
+      },
+      "V2438319": {
+        "id": "V2438319",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2437341"
+        },
+        "start": 33,
+        "end": 53
+      },
+      "V2437341": {
+        "id": "V2437341",
+        "indicator": "INDEF-SET",
+        "type": "ORGANIZATION",
+        "word": "CLUBS",
+        "roles": {
+          "ASSOC-WITH1": "#V2437320",
+          "ASSOC-WITH": "#V2437329",
+          "LEX": "CLUBS",
+          "WNSENSE": "organization%1:14:00"
+        },
+        "start": 33,
+        "end": 53
+      },
+      "V2437329": {
+        "id": "V2437329",
+        "indicator": "KIND",
+        "type": "PART",
+        "word": "STRIP",
+        "roles": {
+          "LEX": "STRIP",
+          "WNSENSE": "strip%1:17:00::"
+        },
+        "start": 33,
+        "end": 53
+      },
+      "V2437320": {
+        "id": "V2437320",
+        "indicator": "KIND",
+        "type": "PERSON",
+        "word": "PLAYBOY",
+        "roles": {
+          "LEX": "PLAYBOY",
+          "WNSENSE": "playboy%1:18:00::"
+        },
+        "start": 33,
+        "end": 53
+      },
+      "V2437367": {
+        "id": "V2437367",
+        "indicator": "INDEF-SET",
+        "type": "NAME",
+        "word": "NAME",
+        "roles": {
+          "MOD": "#V2437360",
+          "LEX": "NAMES"
+        },
+        "start": 60,
+        "end": 74
+      },
+      "V2437360": {
+        "id": "V2437360",
+        "indicator": "F",
+        "type": "NOT-DIGNIFIED-VAL",
+        "word": "DEMEANING",
+        "roles": {
+          "FIGURE": "#V2437367",
+          "SCALE": "EVALUATION-SCALE",
+          "LEX": "DEMEANING",
+          "WNSENSE": "demeaning%5:00:00:undignified:00"
+        },
+        "start": 60,
+        "end": 70
+      },
+      "root": "#V2443064"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+414",
+    "*last-utt-id*=414  utt-id+NIL"
+  ]
+}

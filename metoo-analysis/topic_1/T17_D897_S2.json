@@ -1,0 +1,79 @@
+{
+  "parse": [
+    {
+      "V1617267": {
+        "id": "V1617267",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1617014",
+          "LEX": "INTERVENED"
+        },
+        "start": 0,
+        "end": 27
+      },
+      "V1617014": {
+        "id": "V1617014",
+        "indicator": "F",
+        "type": "MANIPULATE",
+        "word": "INTERVENE",
+        "roles": {
+          "AGENT": "#V1617005",
+          "TIME": "#V1617081",
+          "TENSE": "PAST",
+          "LEX": "INTERVENED",
+          "WNSENSE": "operate%2:35:00"
+        },
+        "start": 0,
+        "end": 27
+      },
+      "V1617005": {
+        "id": "V1617005",
+        "indicator": "QUANTIFIER",
+        "type": "REFERENTIAL-SEM",
+        "word": "ONE",
+        "roles": {
+          "QUAN": "NONE",
+          "LEX": "ONE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 7
+      },
+      "V1617081": {
+        "id": "V1617081",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1617014",
+          "GROUND": "#V1617031",
+          "LEX": "NIGHT"
+        },
+        "start": 18,
+        "end": 27
+      },
+      "V1617031": {
+        "id": "V1617031",
+        "indicator": "THE",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "PROFORM": "THAT",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 18,
+        "end": 27
+      },
+      "root": "#V1617267"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+316",
+    "*last-utt-id*=316  utt-id+NIL"
+  ]
+}

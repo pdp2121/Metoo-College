@@ -1,0 +1,128 @@
+{
+  "parse": [
+    {
+      "V880536": {
+        "id": "V880536",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V879884",
+          "LEX": "REMEMBER"
+        },
+        "start": 0,
+        "end": 27
+      },
+      "V879884": {
+        "id": "V879884",
+        "indicator": "F",
+        "type": "REMEMBER",
+        "word": "REMEMBER",
+        "roles": {
+          "AGENT": "#V879826",
+          "TENSE": "PRES",
+          "LEX": "REMEMBER",
+          "WNSENSE": "remember%2:31:00::"
+        },
+        "start": 0,
+        "end": 27
+      },
+      "V879826": {
+        "id": "V879826",
+        "indicator": "INDEF-SET",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V880056",
+          "SEQUENCE1": "#V879844",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 18
+      },
+      "V880056": {
+        "id": "V880056",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V879816"
+        },
+        "start": 0,
+        "end": 7
+      },
+      "V879816": {
+        "id": "V879816",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V879822",
+          "LEX": "THE"
+        },
+        "start": 0,
+        "end": 7
+      },
+      "V879822": {
+        "id": "V879822",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2",
+          "LEX": "TWO"
+        },
+        "start": 5,
+        "end": 7
+      },
+      "V879844": {
+        "id": "V879844",
+        "indicator": "BARE",
+        "type": "TIME-LOC",
+        "word": "TIME",
+        "roles": {
+          "IDENTIFIED-AS": "#V880229",
+          "LEX": "TIME",
+          "WNSENSE": "date%1:28:03"
+        },
+        "start": 11,
+        "end": 18
+      },
+      "V880229": {
+        "id": "V880229",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V880161",
+          "LEX": "I",
+          "WNSENSE": "date%1:28:03"
+        },
+        "start": 16,
+        "end": 18
+      },
+      "V880161": {
+        "id": "V880161",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(I)",
+          "VAL": "(I)",
+          "LEX": "I"
+        },
+        "start": 16,
+        "end": 18
+      },
+      "root": "#V880536"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+175",
+    "*last-utt-id*=175  utt-id+NIL"
+  ]
+}

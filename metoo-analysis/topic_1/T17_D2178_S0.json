@@ -1,0 +1,7046 @@
+{
+  "parse": [
+    {
+      "V2106584": {
+        "id": "V2106584",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106084",
+          "FOCUS": "#V2106397",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106084": {
+        "id": "V2106084",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106397",
+          "FIGURE": "#V2106585",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106585": {
+        "id": "V2106585",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 0,
+        "end": 5
+      },
+      "V2106397": {
+        "id": "V2106397",
+        "indicator": "WH-TERM",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHEN",
+          "SUCHTHAT": "#V2106084"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V2106584"
+    },
+    {
+      "V2108828": {
+        "id": "V2108828",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106114",
+          "LEX": "TOUCHED"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106114": {
+        "id": "V2106114",
+        "indicator": "F",
+        "type": "TOUCH",
+        "word": "TOUCH",
+        "roles": {
+          "AGENT": "#V2106105",
+          "AFFECTED": "#V2106121",
+          "TIME": "#V2107134",
+          "TENSE": "PAST",
+          "LEX": "TOUCHED",
+          "WNSENSE": "touch%1:04:00::"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106105": {
+        "id": "V2106105",
+        "indicator": "THE",
+        "type": "MEMBER-RELN",
+        "word": "STRANGER",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "STRANGER",
+          "WNSENSE": "stranger%1:18:01::"
+        },
+        "start": 5,
+        "end": 19
+      },
+      "V2106121": {
+        "id": "V2106121",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 27,
+        "end": 30
+      },
+      "V2107134": {
+        "id": "V2107134",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V2106124",
+          "SEQUENCE1": "#V2106192",
+          "OPERATOR": "OR",
+          "LEX": "WHEN"
+        },
+        "start": 30,
+        "end": 84
+      },
+      "V2106124": {
+        "id": "V2106124",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHILE",
+        "roles": {
+          "GROUND": "#V2106176",
+          "FIGURE": "#V2106114",
+          "LEX": "WHILE"
+        },
+        "start": 30,
+        "end": 50
+      },
+      "V2106176": {
+        "id": "V2106176",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "AGENT": "#V2106146",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 36,
+        "end": 50
+      },
+      "V2106146": {
+        "id": "V2106146",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 36,
+        "end": 38
+      },
+      "V2106192": {
+        "id": "V2106192",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106231",
+          "FIGURE": "#V2106114",
+          "LEX": "WHEN"
+        },
+        "start": 53,
+        "end": 84
+      },
+      "V2106231": {
+        "id": "V2106231",
+        "indicator": "F",
+        "type": "APPEAL-APPLY-DEMAND",
+        "word": "CALL",
+        "roles": {
+          "AGENT": "#V2106220",
+          "NEUTRAL": "#V2106237",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:38:00::"
+        },
+        "start": 58,
+        "end": 84
+      },
+      "V2106220": {
+        "id": "V2106220",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "PROFORM": "THAT",
+          "MOD": "#V2106217",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 58,
+        "end": 74
+      },
+      "V2106217": {
+        "id": "V2106217",
+        "indicator": "F",
+        "type": "STUPID",
+        "word": "STUPID",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2106220",
+          "SCALE": "INTELLIGENCE-SCALE",
+          "LEX": "STUPID",
+          "WNSENSE": "stupid%3:00:00::"
+        },
+        "start": 63,
+        "end": 70
+      },
+      "V2106237": {
+        "id": "V2106237",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 81,
+        "end": 84
+      },
+      "root": "#V2108828"
+    },
+    {
+      "V2106242": {
+        "id": "V2106242",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": "HORE",
+        "roles": {
+          "VFORM": "BASE",
+          "LEX": "HORE"
+        },
+        "start": 84,
+        "end": 89
+      },
+      "root": "#V2106242"
+    },
+    {
+      "V2106775": {
+        "id": "V2106775",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106246",
+          "LEX": "CAUSE"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "V2106246": {
+        "id": "V2106246",
+        "indicator": "BARE",
+        "type": "CAUSE-EFFECT",
+        "word": "CAUSE",
+        "roles": {
+          "LEX": "CAUSE",
+          "WNSENSE": "cause%2:36:00::"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "root": "#V2106775"
+    },
+    {
+      "V2107153": {
+        "id": "V2107153",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2106303",
+          "LEX": "TRYING"
+        },
+        "start": 95,
+        "end": 122
+      },
+      "V2106303": {
+        "id": "V2106303",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2106269",
+          "FORMAL": "#V2106340",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "TRYING",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 95,
+        "end": 122
+      },
+      "V2106269": {
+        "id": "V2106269",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V2106340": {
+        "id": "V2106340",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V2106269",
+          "AFFECTED": "#V2106343",
+          "VFORM": "BASE",
+          "LEX": "IGNORE",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 108,
+        "end": 122
+      },
+      "V2106343": {
+        "id": "V2106343",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00",
+          "COREF": "#V2106220"
+        },
+        "start": 118,
+        "end": 122
+      },
+      "root": "#V2107153"
+    },
+    {
+      "V2106584": {
+        "id": "V2106584",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106084",
+          "FOCUS": "#V2106397",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106084": {
+        "id": "V2106084",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106397",
+          "FIGURE": "#V2106585",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106585": {
+        "id": "V2106585",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 0,
+        "end": 5
+      },
+      "V2106397": {
+        "id": "V2106397",
+        "indicator": "WH-TERM",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHEN",
+          "SUCHTHAT": "#V2106084"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V2106584"
+    },
+    {
+      "V2108828": {
+        "id": "V2108828",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106114",
+          "LEX": "TOUCHED"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106114": {
+        "id": "V2106114",
+        "indicator": "F",
+        "type": "TOUCH",
+        "word": "TOUCH",
+        "roles": {
+          "AGENT": "#V2106105",
+          "AFFECTED": "#V2106121",
+          "TIME": "#V2107134",
+          "TENSE": "PAST",
+          "LEX": "TOUCHED",
+          "WNSENSE": "touch%1:04:00::"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106105": {
+        "id": "V2106105",
+        "indicator": "THE",
+        "type": "MEMBER-RELN",
+        "word": "STRANGER",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "STRANGER",
+          "WNSENSE": "stranger%1:18:01::"
+        },
+        "start": 5,
+        "end": 19
+      },
+      "V2106121": {
+        "id": "V2106121",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 27,
+        "end": 30
+      },
+      "V2107134": {
+        "id": "V2107134",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V2106124",
+          "SEQUENCE1": "#V2106192",
+          "OPERATOR": "OR",
+          "LEX": "WHEN"
+        },
+        "start": 30,
+        "end": 84
+      },
+      "V2106124": {
+        "id": "V2106124",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHILE",
+        "roles": {
+          "GROUND": "#V2106176",
+          "FIGURE": "#V2106114",
+          "LEX": "WHILE"
+        },
+        "start": 30,
+        "end": 50
+      },
+      "V2106176": {
+        "id": "V2106176",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "AGENT": "#V2106146",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 36,
+        "end": 50
+      },
+      "V2106146": {
+        "id": "V2106146",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 36,
+        "end": 38
+      },
+      "V2106192": {
+        "id": "V2106192",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106231",
+          "FIGURE": "#V2106114",
+          "LEX": "WHEN"
+        },
+        "start": 53,
+        "end": 84
+      },
+      "V2106231": {
+        "id": "V2106231",
+        "indicator": "F",
+        "type": "APPEAL-APPLY-DEMAND",
+        "word": "CALL",
+        "roles": {
+          "AGENT": "#V2106220",
+          "NEUTRAL": "#V2106237",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:38:00::"
+        },
+        "start": 58,
+        "end": 84
+      },
+      "V2106220": {
+        "id": "V2106220",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "PROFORM": "THAT",
+          "MOD": "#V2106217",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 58,
+        "end": 74
+      },
+      "V2106217": {
+        "id": "V2106217",
+        "indicator": "F",
+        "type": "STUPID",
+        "word": "STUPID",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2106220",
+          "SCALE": "INTELLIGENCE-SCALE",
+          "LEX": "STUPID",
+          "WNSENSE": "stupid%3:00:00::"
+        },
+        "start": 63,
+        "end": 70
+      },
+      "V2106237": {
+        "id": "V2106237",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 81,
+        "end": 84
+      },
+      "root": "#V2108828"
+    },
+    {
+      "V2106242": {
+        "id": "V2106242",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": "HORE",
+        "roles": {
+          "VFORM": "BASE",
+          "LEX": "HORE"
+        },
+        "start": 84,
+        "end": 89
+      },
+      "root": "#V2106242"
+    },
+    {
+      "V2106773": {
+        "id": "V2106773",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106245",
+          "LEX": "CAUSE"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "V2106245": {
+        "id": "V2106245",
+        "indicator": "BARE",
+        "type": "CAUSE-EFFECT",
+        "word": "CAUSE",
+        "roles": {
+          "LEX": "CAUSE",
+          "WNSENSE": "cause%2:36:00::"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "root": "#V2106773"
+    },
+    {
+      "V2107153": {
+        "id": "V2107153",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2106303",
+          "LEX": "TRYING"
+        },
+        "start": 95,
+        "end": 123
+      },
+      "V2106303": {
+        "id": "V2106303",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2106269",
+          "FORMAL": "#V2106340",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "TRYING",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 95,
+        "end": 122
+      },
+      "V2106269": {
+        "id": "V2106269",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V2106340": {
+        "id": "V2106340",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V2106269",
+          "AFFECTED": "#V2106343",
+          "VFORM": "BASE",
+          "LEX": "IGNORE",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 108,
+        "end": 122
+      },
+      "V2106343": {
+        "id": "V2106343",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 118,
+        "end": 122
+      },
+      "root": "#V2107153"
+    },
+    {
+      "V2106584": {
+        "id": "V2106584",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106084",
+          "FOCUS": "#V2106397",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106084": {
+        "id": "V2106084",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106397",
+          "FIGURE": "#V2106585",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106585": {
+        "id": "V2106585",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 0,
+        "end": 5
+      },
+      "V2106397": {
+        "id": "V2106397",
+        "indicator": "WH-TERM",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHEN",
+          "SUCHTHAT": "#V2106084"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V2106584"
+    },
+    {
+      "V2108751": {
+        "id": "V2108751",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106113",
+          "LEX": "TOUCHED"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106113": {
+        "id": "V2106113",
+        "indicator": "F",
+        "type": "CONNECTED",
+        "word": "TOUCH",
+        "roles": {
+          "NEUTRAL": "#V2106105",
+          "NEUTRAL1": "#V2106121",
+          "TIME": "#V2107134",
+          "TENSE": "PAST",
+          "LEX": "TOUCHED",
+          "WNSENSE": "touch%2:35:01::"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106105": {
+        "id": "V2106105",
+        "indicator": "THE",
+        "type": "MEMBER-RELN",
+        "word": "STRANGER",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "STRANGER",
+          "WNSENSE": "stranger%1:18:01::"
+        },
+        "start": 5,
+        "end": 19
+      },
+      "V2106121": {
+        "id": "V2106121",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 27,
+        "end": 30
+      },
+      "V2107134": {
+        "id": "V2107134",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V2106124",
+          "SEQUENCE1": "#V2106192",
+          "OPERATOR": "OR",
+          "LEX": "WHEN"
+        },
+        "start": 30,
+        "end": 84
+      },
+      "V2106124": {
+        "id": "V2106124",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHILE",
+        "roles": {
+          "GROUND": "#V2106176",
+          "FIGURE": "#V2106113",
+          "LEX": "WHILE"
+        },
+        "start": 30,
+        "end": 50
+      },
+      "V2106176": {
+        "id": "V2106176",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "AGENT": "#V2106146",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 36,
+        "end": 50
+      },
+      "V2106146": {
+        "id": "V2106146",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 36,
+        "end": 38
+      },
+      "V2106192": {
+        "id": "V2106192",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106231",
+          "FIGURE": "#V2106113",
+          "LEX": "WHEN"
+        },
+        "start": 53,
+        "end": 84
+      },
+      "V2106231": {
+        "id": "V2106231",
+        "indicator": "F",
+        "type": "APPEAL-APPLY-DEMAND",
+        "word": "CALL",
+        "roles": {
+          "AGENT": "#V2106220",
+          "NEUTRAL": "#V2106237",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:38:00::"
+        },
+        "start": 58,
+        "end": 84
+      },
+      "V2106220": {
+        "id": "V2106220",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "PROFORM": "THAT",
+          "MOD": "#V2106217",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 58,
+        "end": 74
+      },
+      "V2106217": {
+        "id": "V2106217",
+        "indicator": "F",
+        "type": "STUPID",
+        "word": "STUPID",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2106220",
+          "SCALE": "INTELLIGENCE-SCALE",
+          "LEX": "STUPID",
+          "WNSENSE": "stupid%3:00:00::"
+        },
+        "start": 63,
+        "end": 70
+      },
+      "V2106237": {
+        "id": "V2106237",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 81,
+        "end": 84
+      },
+      "root": "#V2108751"
+    },
+    {
+      "V2106242": {
+        "id": "V2106242",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": "HORE",
+        "roles": {
+          "VFORM": "BASE",
+          "LEX": "HORE"
+        },
+        "start": 84,
+        "end": 89
+      },
+      "root": "#V2106242"
+    },
+    {
+      "V2106775": {
+        "id": "V2106775",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106246",
+          "LEX": "CAUSE"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "V2106246": {
+        "id": "V2106246",
+        "indicator": "BARE",
+        "type": "CAUSE-EFFECT",
+        "word": "CAUSE",
+        "roles": {
+          "LEX": "CAUSE",
+          "WNSENSE": "cause%2:36:00::"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "root": "#V2106775"
+    },
+    {
+      "V2107153": {
+        "id": "V2107153",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2106303",
+          "LEX": "TRYING"
+        },
+        "start": 95,
+        "end": 123
+      },
+      "V2106303": {
+        "id": "V2106303",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2106269",
+          "FORMAL": "#V2106340",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "TRYING",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 95,
+        "end": 122
+      },
+      "V2106269": {
+        "id": "V2106269",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V2106340": {
+        "id": "V2106340",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V2106269",
+          "AFFECTED": "#V2106343",
+          "VFORM": "BASE",
+          "LEX": "IGNORE",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 108,
+        "end": 122
+      },
+      "V2106343": {
+        "id": "V2106343",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 118,
+        "end": 122
+      },
+      "root": "#V2107153"
+    },
+    {
+      "V2106584": {
+        "id": "V2106584",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106084",
+          "FOCUS": "#V2106397",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106084": {
+        "id": "V2106084",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106397",
+          "FIGURE": "#V2106585",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106585": {
+        "id": "V2106585",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 0,
+        "end": 5
+      },
+      "V2106397": {
+        "id": "V2106397",
+        "indicator": "WH-TERM",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHEN",
+          "SUCHTHAT": "#V2106084"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V2106584"
+    },
+    {
+      "V2108751": {
+        "id": "V2108751",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106113",
+          "LEX": "TOUCHED"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106113": {
+        "id": "V2106113",
+        "indicator": "F",
+        "type": "CONNECTED",
+        "word": "TOUCH",
+        "roles": {
+          "NEUTRAL": "#V2106105",
+          "NEUTRAL1": "#V2106121",
+          "TIME": "#V2107134",
+          "TENSE": "PAST",
+          "LEX": "TOUCHED",
+          "WNSENSE": "touch%2:35:01::"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106105": {
+        "id": "V2106105",
+        "indicator": "THE",
+        "type": "MEMBER-RELN",
+        "word": "STRANGER",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "STRANGER",
+          "WNSENSE": "stranger%1:18:01::"
+        },
+        "start": 5,
+        "end": 19
+      },
+      "V2106121": {
+        "id": "V2106121",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 27,
+        "end": 30
+      },
+      "V2107134": {
+        "id": "V2107134",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V2106124",
+          "SEQUENCE1": "#V2106192",
+          "OPERATOR": "OR",
+          "LEX": "WHEN"
+        },
+        "start": 30,
+        "end": 84
+      },
+      "V2106124": {
+        "id": "V2106124",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHILE",
+        "roles": {
+          "GROUND": "#V2106176",
+          "FIGURE": "#V2106113",
+          "LEX": "WHILE"
+        },
+        "start": 30,
+        "end": 50
+      },
+      "V2106176": {
+        "id": "V2106176",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "AGENT": "#V2106146",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 36,
+        "end": 50
+      },
+      "V2106146": {
+        "id": "V2106146",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 36,
+        "end": 38
+      },
+      "V2106192": {
+        "id": "V2106192",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106231",
+          "FIGURE": "#V2106113",
+          "LEX": "WHEN"
+        },
+        "start": 53,
+        "end": 84
+      },
+      "V2106231": {
+        "id": "V2106231",
+        "indicator": "F",
+        "type": "APPEAL-APPLY-DEMAND",
+        "word": "CALL",
+        "roles": {
+          "AGENT": "#V2106220",
+          "NEUTRAL": "#V2106237",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:38:00::"
+        },
+        "start": 58,
+        "end": 84
+      },
+      "V2106220": {
+        "id": "V2106220",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "PROFORM": "THAT",
+          "MOD": "#V2106217",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 58,
+        "end": 74
+      },
+      "V2106217": {
+        "id": "V2106217",
+        "indicator": "F",
+        "type": "STUPID",
+        "word": "STUPID",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2106220",
+          "SCALE": "INTELLIGENCE-SCALE",
+          "LEX": "STUPID",
+          "WNSENSE": "stupid%3:00:00::"
+        },
+        "start": 63,
+        "end": 70
+      },
+      "V2106237": {
+        "id": "V2106237",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 81,
+        "end": 84
+      },
+      "root": "#V2108751"
+    },
+    {
+      "V2106242": {
+        "id": "V2106242",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": "HORE",
+        "roles": {
+          "VFORM": "BASE",
+          "LEX": "HORE"
+        },
+        "start": 84,
+        "end": 89
+      },
+      "root": "#V2106242"
+    },
+    {
+      "V2106773": {
+        "id": "V2106773",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106245",
+          "LEX": "CAUSE"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "V2106245": {
+        "id": "V2106245",
+        "indicator": "BARE",
+        "type": "CAUSE-EFFECT",
+        "word": "CAUSE",
+        "roles": {
+          "LEX": "CAUSE",
+          "WNSENSE": "cause%2:36:00::"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "root": "#V2106773"
+    },
+    {
+      "V2107153": {
+        "id": "V2107153",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2106303",
+          "LEX": "TRYING"
+        },
+        "start": 95,
+        "end": 123
+      },
+      "V2106303": {
+        "id": "V2106303",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2106269",
+          "FORMAL": "#V2106340",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "TRYING",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 95,
+        "end": 122
+      },
+      "V2106269": {
+        "id": "V2106269",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V2106340": {
+        "id": "V2106340",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V2106269",
+          "AFFECTED": "#V2106343",
+          "VFORM": "BASE",
+          "LEX": "IGNORE",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 108,
+        "end": 122
+      },
+      "V2106343": {
+        "id": "V2106343",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 118,
+        "end": 122
+      },
+      "root": "#V2107153"
+    },
+    {
+      "V2106584": {
+        "id": "V2106584",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106084",
+          "FOCUS": "#V2106397",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106084": {
+        "id": "V2106084",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106397",
+          "FIGURE": "#V2106585",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106585": {
+        "id": "V2106585",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 0,
+        "end": 5
+      },
+      "V2106397": {
+        "id": "V2106397",
+        "indicator": "WH-TERM",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHEN",
+          "SUCHTHAT": "#V2106084"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V2106584"
+    },
+    {
+      "V2108703": {
+        "id": "V2108703",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106112",
+          "LEX": "TOUCHED"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106112": {
+        "id": "V2106112",
+        "indicator": "F",
+        "type": "EVOKE-ATTRACTION",
+        "word": "TOUCH",
+        "roles": {
+          "AGENT": "#V2106105",
+          "AFFECTED": "#V2106121",
+          "TIME": "#V2107134",
+          "TENSE": "PAST",
+          "LEX": "TOUCHED",
+          "WNSENSE": "touch%2:37:00::"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106105": {
+        "id": "V2106105",
+        "indicator": "THE",
+        "type": "MEMBER-RELN",
+        "word": "STRANGER",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "STRANGER",
+          "WNSENSE": "stranger%1:18:01::"
+        },
+        "start": 5,
+        "end": 19
+      },
+      "V2106121": {
+        "id": "V2106121",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 27,
+        "end": 30
+      },
+      "V2107134": {
+        "id": "V2107134",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V2106124",
+          "SEQUENCE1": "#V2106192",
+          "OPERATOR": "OR",
+          "LEX": "WHEN"
+        },
+        "start": 30,
+        "end": 84
+      },
+      "V2106124": {
+        "id": "V2106124",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHILE",
+        "roles": {
+          "GROUND": "#V2106176",
+          "FIGURE": "#V2106112",
+          "LEX": "WHILE"
+        },
+        "start": 30,
+        "end": 50
+      },
+      "V2106176": {
+        "id": "V2106176",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "AGENT": "#V2106146",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 36,
+        "end": 50
+      },
+      "V2106146": {
+        "id": "V2106146",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 36,
+        "end": 38
+      },
+      "V2106192": {
+        "id": "V2106192",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106231",
+          "FIGURE": "#V2106112",
+          "LEX": "WHEN"
+        },
+        "start": 53,
+        "end": 84
+      },
+      "V2106231": {
+        "id": "V2106231",
+        "indicator": "F",
+        "type": "APPEAL-APPLY-DEMAND",
+        "word": "CALL",
+        "roles": {
+          "AGENT": "#V2106220",
+          "NEUTRAL": "#V2106237",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:38:00::"
+        },
+        "start": 58,
+        "end": 84
+      },
+      "V2106220": {
+        "id": "V2106220",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "PROFORM": "THAT",
+          "MOD": "#V2106217",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 58,
+        "end": 74
+      },
+      "V2106217": {
+        "id": "V2106217",
+        "indicator": "F",
+        "type": "STUPID",
+        "word": "STUPID",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2106220",
+          "SCALE": "INTELLIGENCE-SCALE",
+          "LEX": "STUPID",
+          "WNSENSE": "stupid%3:00:00::"
+        },
+        "start": 63,
+        "end": 70
+      },
+      "V2106237": {
+        "id": "V2106237",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 81,
+        "end": 84
+      },
+      "root": "#V2108703"
+    },
+    {
+      "V2106242": {
+        "id": "V2106242",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": "HORE",
+        "roles": {
+          "VFORM": "BASE",
+          "LEX": "HORE"
+        },
+        "start": 84,
+        "end": 89
+      },
+      "root": "#V2106242"
+    },
+    {
+      "V2106775": {
+        "id": "V2106775",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106246",
+          "LEX": "CAUSE"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "V2106246": {
+        "id": "V2106246",
+        "indicator": "BARE",
+        "type": "CAUSE-EFFECT",
+        "word": "CAUSE",
+        "roles": {
+          "LEX": "CAUSE",
+          "WNSENSE": "cause%2:36:00::"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "root": "#V2106775"
+    },
+    {
+      "V2107153": {
+        "id": "V2107153",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2106303",
+          "LEX": "TRYING"
+        },
+        "start": 95,
+        "end": 123
+      },
+      "V2106303": {
+        "id": "V2106303",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2106269",
+          "FORMAL": "#V2106340",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "TRYING",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 95,
+        "end": 122
+      },
+      "V2106269": {
+        "id": "V2106269",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V2106340": {
+        "id": "V2106340",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V2106269",
+          "AFFECTED": "#V2106343",
+          "VFORM": "BASE",
+          "LEX": "IGNORE",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 108,
+        "end": 122
+      },
+      "V2106343": {
+        "id": "V2106343",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 118,
+        "end": 122
+      },
+      "root": "#V2107153"
+    },
+    {
+      "V2106584": {
+        "id": "V2106584",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106084",
+          "FOCUS": "#V2106397",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106084": {
+        "id": "V2106084",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106397",
+          "FIGURE": "#V2106585",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106585": {
+        "id": "V2106585",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 0,
+        "end": 5
+      },
+      "V2106397": {
+        "id": "V2106397",
+        "indicator": "WH-TERM",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHEN",
+          "SUCHTHAT": "#V2106084"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V2106584"
+    },
+    {
+      "V2108703": {
+        "id": "V2108703",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106112",
+          "LEX": "TOUCHED"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106112": {
+        "id": "V2106112",
+        "indicator": "F",
+        "type": "EVOKE-ATTRACTION",
+        "word": "TOUCH",
+        "roles": {
+          "AGENT": "#V2106105",
+          "AFFECTED": "#V2106121",
+          "TIME": "#V2107134",
+          "TENSE": "PAST",
+          "LEX": "TOUCHED",
+          "WNSENSE": "touch%2:37:00::"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106105": {
+        "id": "V2106105",
+        "indicator": "THE",
+        "type": "MEMBER-RELN",
+        "word": "STRANGER",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "STRANGER",
+          "WNSENSE": "stranger%1:18:01::"
+        },
+        "start": 5,
+        "end": 19
+      },
+      "V2106121": {
+        "id": "V2106121",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 27,
+        "end": 30
+      },
+      "V2107134": {
+        "id": "V2107134",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V2106124",
+          "SEQUENCE1": "#V2106192",
+          "OPERATOR": "OR",
+          "LEX": "WHEN"
+        },
+        "start": 30,
+        "end": 84
+      },
+      "V2106124": {
+        "id": "V2106124",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHILE",
+        "roles": {
+          "GROUND": "#V2106176",
+          "FIGURE": "#V2106112",
+          "LEX": "WHILE"
+        },
+        "start": 30,
+        "end": 50
+      },
+      "V2106176": {
+        "id": "V2106176",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "AGENT": "#V2106146",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 36,
+        "end": 50
+      },
+      "V2106146": {
+        "id": "V2106146",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 36,
+        "end": 38
+      },
+      "V2106192": {
+        "id": "V2106192",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106231",
+          "FIGURE": "#V2106112",
+          "LEX": "WHEN"
+        },
+        "start": 53,
+        "end": 84
+      },
+      "V2106231": {
+        "id": "V2106231",
+        "indicator": "F",
+        "type": "APPEAL-APPLY-DEMAND",
+        "word": "CALL",
+        "roles": {
+          "AGENT": "#V2106220",
+          "NEUTRAL": "#V2106237",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:38:00::"
+        },
+        "start": 58,
+        "end": 84
+      },
+      "V2106220": {
+        "id": "V2106220",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "PROFORM": "THAT",
+          "MOD": "#V2106217",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 58,
+        "end": 74
+      },
+      "V2106217": {
+        "id": "V2106217",
+        "indicator": "F",
+        "type": "STUPID",
+        "word": "STUPID",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2106220",
+          "SCALE": "INTELLIGENCE-SCALE",
+          "LEX": "STUPID",
+          "WNSENSE": "stupid%3:00:00::"
+        },
+        "start": 63,
+        "end": 70
+      },
+      "V2106237": {
+        "id": "V2106237",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 81,
+        "end": 84
+      },
+      "root": "#V2108703"
+    },
+    {
+      "V2106242": {
+        "id": "V2106242",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": "HORE",
+        "roles": {
+          "VFORM": "BASE",
+          "LEX": "HORE"
+        },
+        "start": 84,
+        "end": 89
+      },
+      "root": "#V2106242"
+    },
+    {
+      "V2106773": {
+        "id": "V2106773",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106245",
+          "LEX": "CAUSE"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "V2106245": {
+        "id": "V2106245",
+        "indicator": "BARE",
+        "type": "CAUSE-EFFECT",
+        "word": "CAUSE",
+        "roles": {
+          "LEX": "CAUSE",
+          "WNSENSE": "cause%2:36:00::"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "root": "#V2106773"
+    },
+    {
+      "V2107153": {
+        "id": "V2107153",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2106303",
+          "LEX": "TRYING"
+        },
+        "start": 95,
+        "end": 123
+      },
+      "V2106303": {
+        "id": "V2106303",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2106269",
+          "FORMAL": "#V2106340",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "TRYING",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 95,
+        "end": 122
+      },
+      "V2106269": {
+        "id": "V2106269",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V2106340": {
+        "id": "V2106340",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V2106269",
+          "AFFECTED": "#V2106343",
+          "VFORM": "BASE",
+          "LEX": "IGNORE",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 108,
+        "end": 122
+      },
+      "V2106343": {
+        "id": "V2106343",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 118,
+        "end": 122
+      },
+      "root": "#V2107153"
+    },
+    {
+      "V2106584": {
+        "id": "V2106584",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106084",
+          "FOCUS": "#V2106397",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106084": {
+        "id": "V2106084",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106397",
+          "FIGURE": "#V2106585",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106585": {
+        "id": "V2106585",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 0,
+        "end": 5
+      },
+      "V2106397": {
+        "id": "V2106397",
+        "indicator": "WH-TERM",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHEN",
+          "SUCHTHAT": "#V2106084"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V2106584"
+    },
+    {
+      "V2108661": {
+        "id": "V2108661",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106114",
+          "LEX": "TOUCHED"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106114": {
+        "id": "V2106114",
+        "indicator": "F",
+        "type": "TOUCH",
+        "word": "TOUCH",
+        "roles": {
+          "AGENT": "#V2106105",
+          "AFFECTED": "#V2106121",
+          "TIME": "#V2107134",
+          "TENSE": "PAST",
+          "LEX": "TOUCHED",
+          "WNSENSE": "touch%1:04:00::"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106105": {
+        "id": "V2106105",
+        "indicator": "THE",
+        "type": "MEMBER-RELN",
+        "word": "STRANGER",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "STRANGER",
+          "WNSENSE": "stranger%1:18:01::"
+        },
+        "start": 5,
+        "end": 19
+      },
+      "V2106121": {
+        "id": "V2106121",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 27,
+        "end": 30
+      },
+      "V2107134": {
+        "id": "V2107134",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V2106124",
+          "SEQUENCE1": "#V2106192",
+          "OPERATOR": "OR",
+          "LEX": "WHEN"
+        },
+        "start": 30,
+        "end": 84
+      },
+      "V2106124": {
+        "id": "V2106124",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHILE",
+        "roles": {
+          "GROUND": "#V2106176",
+          "FIGURE": "#V2106114",
+          "LEX": "WHILE"
+        },
+        "start": 30,
+        "end": 50
+      },
+      "V2106176": {
+        "id": "V2106176",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "AGENT": "#V2106146",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 36,
+        "end": 50
+      },
+      "V2106146": {
+        "id": "V2106146",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 36,
+        "end": 38
+      },
+      "V2106192": {
+        "id": "V2106192",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106228",
+          "FIGURE": "#V2106114",
+          "LEX": "WHEN"
+        },
+        "start": 53,
+        "end": 84
+      },
+      "V2106228": {
+        "id": "V2106228",
+        "indicator": "F",
+        "type": "ESTABLISH-COMMUNICATION",
+        "word": "CALL",
+        "roles": {
+          "AGENT": "#V2106220",
+          "AGENT1": "#V2106237",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:01::"
+        },
+        "start": 58,
+        "end": 84
+      },
+      "V2106220": {
+        "id": "V2106220",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "PROFORM": "THAT",
+          "MOD": "#V2106217",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 58,
+        "end": 74
+      },
+      "V2106217": {
+        "id": "V2106217",
+        "indicator": "F",
+        "type": "STUPID",
+        "word": "STUPID",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2106220",
+          "SCALE": "INTELLIGENCE-SCALE",
+          "LEX": "STUPID",
+          "WNSENSE": "stupid%3:00:00::"
+        },
+        "start": 63,
+        "end": 70
+      },
+      "V2106237": {
+        "id": "V2106237",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 81,
+        "end": 84
+      },
+      "root": "#V2108661"
+    },
+    {
+      "V2106242": {
+        "id": "V2106242",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": "HORE",
+        "roles": {
+          "VFORM": "BASE",
+          "LEX": "HORE"
+        },
+        "start": 84,
+        "end": 89
+      },
+      "root": "#V2106242"
+    },
+    {
+      "V2106775": {
+        "id": "V2106775",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106246",
+          "LEX": "CAUSE"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "V2106246": {
+        "id": "V2106246",
+        "indicator": "BARE",
+        "type": "CAUSE-EFFECT",
+        "word": "CAUSE",
+        "roles": {
+          "LEX": "CAUSE",
+          "WNSENSE": "cause%2:36:00::"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "root": "#V2106775"
+    },
+    {
+      "V2107153": {
+        "id": "V2107153",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2106303",
+          "LEX": "TRYING"
+        },
+        "start": 95,
+        "end": 123
+      },
+      "V2106303": {
+        "id": "V2106303",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2106269",
+          "FORMAL": "#V2106340",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "TRYING",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 95,
+        "end": 122
+      },
+      "V2106269": {
+        "id": "V2106269",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V2106340": {
+        "id": "V2106340",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V2106269",
+          "AFFECTED": "#V2106343",
+          "VFORM": "BASE",
+          "LEX": "IGNORE",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 108,
+        "end": 122
+      },
+      "V2106343": {
+        "id": "V2106343",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 118,
+        "end": 122
+      },
+      "root": "#V2107153"
+    },
+    {
+      "V2106584": {
+        "id": "V2106584",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106084",
+          "FOCUS": "#V2106397",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106084": {
+        "id": "V2106084",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106397",
+          "FIGURE": "#V2106585",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106585": {
+        "id": "V2106585",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 0,
+        "end": 5
+      },
+      "V2106397": {
+        "id": "V2106397",
+        "indicator": "WH-TERM",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHEN",
+          "SUCHTHAT": "#V2106084"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V2106584"
+    },
+    {
+      "V2108661": {
+        "id": "V2108661",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106114",
+          "LEX": "TOUCHED"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106114": {
+        "id": "V2106114",
+        "indicator": "F",
+        "type": "TOUCH",
+        "word": "TOUCH",
+        "roles": {
+          "AGENT": "#V2106105",
+          "AFFECTED": "#V2106121",
+          "TIME": "#V2107134",
+          "TENSE": "PAST",
+          "LEX": "TOUCHED",
+          "WNSENSE": "touch%1:04:00::"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106105": {
+        "id": "V2106105",
+        "indicator": "THE",
+        "type": "MEMBER-RELN",
+        "word": "STRANGER",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "STRANGER",
+          "WNSENSE": "stranger%1:18:01::"
+        },
+        "start": 5,
+        "end": 19
+      },
+      "V2106121": {
+        "id": "V2106121",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 27,
+        "end": 30
+      },
+      "V2107134": {
+        "id": "V2107134",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V2106124",
+          "SEQUENCE1": "#V2106192",
+          "OPERATOR": "OR",
+          "LEX": "WHEN"
+        },
+        "start": 30,
+        "end": 84
+      },
+      "V2106124": {
+        "id": "V2106124",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHILE",
+        "roles": {
+          "GROUND": "#V2106176",
+          "FIGURE": "#V2106114",
+          "LEX": "WHILE"
+        },
+        "start": 30,
+        "end": 50
+      },
+      "V2106176": {
+        "id": "V2106176",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "AGENT": "#V2106146",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 36,
+        "end": 50
+      },
+      "V2106146": {
+        "id": "V2106146",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 36,
+        "end": 38
+      },
+      "V2106192": {
+        "id": "V2106192",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106228",
+          "FIGURE": "#V2106114",
+          "LEX": "WHEN"
+        },
+        "start": 53,
+        "end": 84
+      },
+      "V2106228": {
+        "id": "V2106228",
+        "indicator": "F",
+        "type": "ESTABLISH-COMMUNICATION",
+        "word": "CALL",
+        "roles": {
+          "AGENT": "#V2106220",
+          "AGENT1": "#V2106237",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:01::"
+        },
+        "start": 58,
+        "end": 84
+      },
+      "V2106220": {
+        "id": "V2106220",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "PROFORM": "THAT",
+          "MOD": "#V2106217",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 58,
+        "end": 74
+      },
+      "V2106217": {
+        "id": "V2106217",
+        "indicator": "F",
+        "type": "STUPID",
+        "word": "STUPID",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2106220",
+          "SCALE": "INTELLIGENCE-SCALE",
+          "LEX": "STUPID",
+          "WNSENSE": "stupid%3:00:00::"
+        },
+        "start": 63,
+        "end": 70
+      },
+      "V2106237": {
+        "id": "V2106237",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 81,
+        "end": 84
+      },
+      "root": "#V2108661"
+    },
+    {
+      "V2106242": {
+        "id": "V2106242",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": "HORE",
+        "roles": {
+          "VFORM": "BASE",
+          "LEX": "HORE"
+        },
+        "start": 84,
+        "end": 89
+      },
+      "root": "#V2106242"
+    },
+    {
+      "V2106773": {
+        "id": "V2106773",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106245",
+          "LEX": "CAUSE"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "V2106245": {
+        "id": "V2106245",
+        "indicator": "BARE",
+        "type": "CAUSE-EFFECT",
+        "word": "CAUSE",
+        "roles": {
+          "LEX": "CAUSE",
+          "WNSENSE": "cause%2:36:00::"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "root": "#V2106773"
+    },
+    {
+      "V2107153": {
+        "id": "V2107153",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2106303",
+          "LEX": "TRYING"
+        },
+        "start": 95,
+        "end": 123
+      },
+      "V2106303": {
+        "id": "V2106303",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2106269",
+          "FORMAL": "#V2106340",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "TRYING",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 95,
+        "end": 122
+      },
+      "V2106269": {
+        "id": "V2106269",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V2106340": {
+        "id": "V2106340",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V2106269",
+          "AFFECTED": "#V2106343",
+          "VFORM": "BASE",
+          "LEX": "IGNORE",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 108,
+        "end": 122
+      },
+      "V2106343": {
+        "id": "V2106343",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 118,
+        "end": 122
+      },
+      "root": "#V2107153"
+    },
+    {
+      "V2106584": {
+        "id": "V2106584",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106084",
+          "FOCUS": "#V2106397",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106084": {
+        "id": "V2106084",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106397",
+          "FIGURE": "#V2106585",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106585": {
+        "id": "V2106585",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 0,
+        "end": 5
+      },
+      "V2106397": {
+        "id": "V2106397",
+        "indicator": "WH-TERM",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHEN",
+          "SUCHTHAT": "#V2106084"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V2106584"
+    },
+    {
+      "V2108584": {
+        "id": "V2108584",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106113",
+          "LEX": "TOUCHED"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106113": {
+        "id": "V2106113",
+        "indicator": "F",
+        "type": "CONNECTED",
+        "word": "TOUCH",
+        "roles": {
+          "NEUTRAL": "#V2106105",
+          "NEUTRAL1": "#V2106121",
+          "TIME": "#V2107134",
+          "TENSE": "PAST",
+          "LEX": "TOUCHED",
+          "WNSENSE": "touch%2:35:01::"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106105": {
+        "id": "V2106105",
+        "indicator": "THE",
+        "type": "MEMBER-RELN",
+        "word": "STRANGER",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "STRANGER",
+          "WNSENSE": "stranger%1:18:01::"
+        },
+        "start": 5,
+        "end": 19
+      },
+      "V2106121": {
+        "id": "V2106121",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 27,
+        "end": 30
+      },
+      "V2107134": {
+        "id": "V2107134",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V2106124",
+          "SEQUENCE1": "#V2106192",
+          "OPERATOR": "OR",
+          "LEX": "WHEN"
+        },
+        "start": 30,
+        "end": 84
+      },
+      "V2106124": {
+        "id": "V2106124",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHILE",
+        "roles": {
+          "GROUND": "#V2106176",
+          "FIGURE": "#V2106113",
+          "LEX": "WHILE"
+        },
+        "start": 30,
+        "end": 50
+      },
+      "V2106176": {
+        "id": "V2106176",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "AGENT": "#V2106146",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 36,
+        "end": 50
+      },
+      "V2106146": {
+        "id": "V2106146",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 36,
+        "end": 38
+      },
+      "V2106192": {
+        "id": "V2106192",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106228",
+          "FIGURE": "#V2106113",
+          "LEX": "WHEN"
+        },
+        "start": 53,
+        "end": 84
+      },
+      "V2106228": {
+        "id": "V2106228",
+        "indicator": "F",
+        "type": "ESTABLISH-COMMUNICATION",
+        "word": "CALL",
+        "roles": {
+          "AGENT": "#V2106220",
+          "AGENT1": "#V2106237",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:01::"
+        },
+        "start": 58,
+        "end": 84
+      },
+      "V2106220": {
+        "id": "V2106220",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "PROFORM": "THAT",
+          "MOD": "#V2106217",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 58,
+        "end": 74
+      },
+      "V2106217": {
+        "id": "V2106217",
+        "indicator": "F",
+        "type": "STUPID",
+        "word": "STUPID",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2106220",
+          "SCALE": "INTELLIGENCE-SCALE",
+          "LEX": "STUPID",
+          "WNSENSE": "stupid%3:00:00::"
+        },
+        "start": 63,
+        "end": 70
+      },
+      "V2106237": {
+        "id": "V2106237",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 81,
+        "end": 84
+      },
+      "root": "#V2108584"
+    },
+    {
+      "V2106242": {
+        "id": "V2106242",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": "HORE",
+        "roles": {
+          "VFORM": "BASE",
+          "LEX": "HORE"
+        },
+        "start": 84,
+        "end": 89
+      },
+      "root": "#V2106242"
+    },
+    {
+      "V2106775": {
+        "id": "V2106775",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106246",
+          "LEX": "CAUSE"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "V2106246": {
+        "id": "V2106246",
+        "indicator": "BARE",
+        "type": "CAUSE-EFFECT",
+        "word": "CAUSE",
+        "roles": {
+          "LEX": "CAUSE",
+          "WNSENSE": "cause%2:36:00::"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "root": "#V2106775"
+    },
+    {
+      "V2107153": {
+        "id": "V2107153",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2106303",
+          "LEX": "TRYING"
+        },
+        "start": 95,
+        "end": 123
+      },
+      "V2106303": {
+        "id": "V2106303",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2106269",
+          "FORMAL": "#V2106340",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "TRYING",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 95,
+        "end": 122
+      },
+      "V2106269": {
+        "id": "V2106269",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V2106340": {
+        "id": "V2106340",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V2106269",
+          "AFFECTED": "#V2106343",
+          "VFORM": "BASE",
+          "LEX": "IGNORE",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 108,
+        "end": 122
+      },
+      "V2106343": {
+        "id": "V2106343",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 118,
+        "end": 122
+      },
+      "root": "#V2107153"
+    },
+    {
+      "V2106584": {
+        "id": "V2106584",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106084",
+          "FOCUS": "#V2106397",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106084": {
+        "id": "V2106084",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106397",
+          "FIGURE": "#V2106585",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106585": {
+        "id": "V2106585",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 0,
+        "end": 5
+      },
+      "V2106397": {
+        "id": "V2106397",
+        "indicator": "WH-TERM",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHEN",
+          "SUCHTHAT": "#V2106084"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V2106584"
+    },
+    {
+      "V2108584": {
+        "id": "V2108584",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106113",
+          "LEX": "TOUCHED"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106113": {
+        "id": "V2106113",
+        "indicator": "F",
+        "type": "CONNECTED",
+        "word": "TOUCH",
+        "roles": {
+          "NEUTRAL": "#V2106105",
+          "NEUTRAL1": "#V2106121",
+          "TIME": "#V2107134",
+          "TENSE": "PAST",
+          "LEX": "TOUCHED",
+          "WNSENSE": "touch%2:35:01::"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106105": {
+        "id": "V2106105",
+        "indicator": "THE",
+        "type": "MEMBER-RELN",
+        "word": "STRANGER",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "STRANGER",
+          "WNSENSE": "stranger%1:18:01::"
+        },
+        "start": 5,
+        "end": 19
+      },
+      "V2106121": {
+        "id": "V2106121",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 27,
+        "end": 30
+      },
+      "V2107134": {
+        "id": "V2107134",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V2106124",
+          "SEQUENCE1": "#V2106192",
+          "OPERATOR": "OR",
+          "LEX": "WHEN"
+        },
+        "start": 30,
+        "end": 84
+      },
+      "V2106124": {
+        "id": "V2106124",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHILE",
+        "roles": {
+          "GROUND": "#V2106176",
+          "FIGURE": "#V2106113",
+          "LEX": "WHILE"
+        },
+        "start": 30,
+        "end": 50
+      },
+      "V2106176": {
+        "id": "V2106176",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "AGENT": "#V2106146",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 36,
+        "end": 50
+      },
+      "V2106146": {
+        "id": "V2106146",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 36,
+        "end": 38
+      },
+      "V2106192": {
+        "id": "V2106192",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106228",
+          "FIGURE": "#V2106113",
+          "LEX": "WHEN"
+        },
+        "start": 53,
+        "end": 84
+      },
+      "V2106228": {
+        "id": "V2106228",
+        "indicator": "F",
+        "type": "ESTABLISH-COMMUNICATION",
+        "word": "CALL",
+        "roles": {
+          "AGENT": "#V2106220",
+          "AGENT1": "#V2106237",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:01::"
+        },
+        "start": 58,
+        "end": 84
+      },
+      "V2106220": {
+        "id": "V2106220",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "PROFORM": "THAT",
+          "MOD": "#V2106217",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 58,
+        "end": 74
+      },
+      "V2106217": {
+        "id": "V2106217",
+        "indicator": "F",
+        "type": "STUPID",
+        "word": "STUPID",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2106220",
+          "SCALE": "INTELLIGENCE-SCALE",
+          "LEX": "STUPID",
+          "WNSENSE": "stupid%3:00:00::"
+        },
+        "start": 63,
+        "end": 70
+      },
+      "V2106237": {
+        "id": "V2106237",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 81,
+        "end": 84
+      },
+      "root": "#V2108584"
+    },
+    {
+      "V2106242": {
+        "id": "V2106242",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": "HORE",
+        "roles": {
+          "VFORM": "BASE",
+          "LEX": "HORE"
+        },
+        "start": 84,
+        "end": 89
+      },
+      "root": "#V2106242"
+    },
+    {
+      "V2106773": {
+        "id": "V2106773",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106245",
+          "LEX": "CAUSE"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "V2106245": {
+        "id": "V2106245",
+        "indicator": "BARE",
+        "type": "CAUSE-EFFECT",
+        "word": "CAUSE",
+        "roles": {
+          "LEX": "CAUSE",
+          "WNSENSE": "cause%2:36:00::"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "root": "#V2106773"
+    },
+    {
+      "V2107153": {
+        "id": "V2107153",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2106303",
+          "LEX": "TRYING"
+        },
+        "start": 95,
+        "end": 123
+      },
+      "V2106303": {
+        "id": "V2106303",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2106269",
+          "FORMAL": "#V2106340",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "TRYING",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 95,
+        "end": 122
+      },
+      "V2106269": {
+        "id": "V2106269",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V2106340": {
+        "id": "V2106340",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V2106269",
+          "AFFECTED": "#V2106343",
+          "VFORM": "BASE",
+          "LEX": "IGNORE",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 108,
+        "end": 122
+      },
+      "V2106343": {
+        "id": "V2106343",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 118,
+        "end": 122
+      },
+      "root": "#V2107153"
+    },
+    {
+      "V2106584": {
+        "id": "V2106584",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106084",
+          "FOCUS": "#V2106397",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106084": {
+        "id": "V2106084",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106397",
+          "FIGURE": "#V2106585",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106585": {
+        "id": "V2106585",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 0,
+        "end": 5
+      },
+      "V2106397": {
+        "id": "V2106397",
+        "indicator": "WH-TERM",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHEN",
+          "SUCHTHAT": "#V2106084"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V2106584"
+    },
+    {
+      "V2108536": {
+        "id": "V2108536",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106112",
+          "LEX": "TOUCHED"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106112": {
+        "id": "V2106112",
+        "indicator": "F",
+        "type": "EVOKE-ATTRACTION",
+        "word": "TOUCH",
+        "roles": {
+          "AGENT": "#V2106105",
+          "AFFECTED": "#V2106121",
+          "TIME": "#V2107134",
+          "TENSE": "PAST",
+          "LEX": "TOUCHED",
+          "WNSENSE": "touch%2:37:00::"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106105": {
+        "id": "V2106105",
+        "indicator": "THE",
+        "type": "MEMBER-RELN",
+        "word": "STRANGER",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "STRANGER",
+          "WNSENSE": "stranger%1:18:01::"
+        },
+        "start": 5,
+        "end": 19
+      },
+      "V2106121": {
+        "id": "V2106121",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 27,
+        "end": 30
+      },
+      "V2107134": {
+        "id": "V2107134",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V2106124",
+          "SEQUENCE1": "#V2106192",
+          "OPERATOR": "OR",
+          "LEX": "WHEN"
+        },
+        "start": 30,
+        "end": 84
+      },
+      "V2106124": {
+        "id": "V2106124",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHILE",
+        "roles": {
+          "GROUND": "#V2106176",
+          "FIGURE": "#V2106112",
+          "LEX": "WHILE"
+        },
+        "start": 30,
+        "end": 50
+      },
+      "V2106176": {
+        "id": "V2106176",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "AGENT": "#V2106146",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 36,
+        "end": 50
+      },
+      "V2106146": {
+        "id": "V2106146",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 36,
+        "end": 38
+      },
+      "V2106192": {
+        "id": "V2106192",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106228",
+          "FIGURE": "#V2106112",
+          "LEX": "WHEN"
+        },
+        "start": 53,
+        "end": 84
+      },
+      "V2106228": {
+        "id": "V2106228",
+        "indicator": "F",
+        "type": "ESTABLISH-COMMUNICATION",
+        "word": "CALL",
+        "roles": {
+          "AGENT": "#V2106220",
+          "AGENT1": "#V2106237",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:01::"
+        },
+        "start": 58,
+        "end": 84
+      },
+      "V2106220": {
+        "id": "V2106220",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "PROFORM": "THAT",
+          "MOD": "#V2106217",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 58,
+        "end": 74
+      },
+      "V2106217": {
+        "id": "V2106217",
+        "indicator": "F",
+        "type": "STUPID",
+        "word": "STUPID",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2106220",
+          "SCALE": "INTELLIGENCE-SCALE",
+          "LEX": "STUPID",
+          "WNSENSE": "stupid%3:00:00::"
+        },
+        "start": 63,
+        "end": 70
+      },
+      "V2106237": {
+        "id": "V2106237",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 81,
+        "end": 84
+      },
+      "root": "#V2108536"
+    },
+    {
+      "V2106242": {
+        "id": "V2106242",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": "HORE",
+        "roles": {
+          "VFORM": "BASE",
+          "LEX": "HORE"
+        },
+        "start": 84,
+        "end": 89
+      },
+      "root": "#V2106242"
+    },
+    {
+      "V2106775": {
+        "id": "V2106775",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106246",
+          "LEX": "CAUSE"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "V2106246": {
+        "id": "V2106246",
+        "indicator": "BARE",
+        "type": "CAUSE-EFFECT",
+        "word": "CAUSE",
+        "roles": {
+          "LEX": "CAUSE",
+          "WNSENSE": "cause%2:36:00::"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "root": "#V2106775"
+    },
+    {
+      "V2107153": {
+        "id": "V2107153",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2106303",
+          "LEX": "TRYING"
+        },
+        "start": 95,
+        "end": 123
+      },
+      "V2106303": {
+        "id": "V2106303",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2106269",
+          "FORMAL": "#V2106340",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "TRYING",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 95,
+        "end": 122
+      },
+      "V2106269": {
+        "id": "V2106269",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V2106340": {
+        "id": "V2106340",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V2106269",
+          "AFFECTED": "#V2106343",
+          "VFORM": "BASE",
+          "LEX": "IGNORE",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 108,
+        "end": 122
+      },
+      "V2106343": {
+        "id": "V2106343",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 118,
+        "end": 122
+      },
+      "root": "#V2107153"
+    },
+    {
+      "V2106584": {
+        "id": "V2106584",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106084",
+          "FOCUS": "#V2106397",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106084": {
+        "id": "V2106084",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106397",
+          "FIGURE": "#V2106585",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106585": {
+        "id": "V2106585",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 0,
+        "end": 5
+      },
+      "V2106397": {
+        "id": "V2106397",
+        "indicator": "WH-TERM",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHEN",
+          "SUCHTHAT": "#V2106084"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V2106584"
+    },
+    {
+      "V2108536": {
+        "id": "V2108536",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106112",
+          "LEX": "TOUCHED"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106112": {
+        "id": "V2106112",
+        "indicator": "F",
+        "type": "EVOKE-ATTRACTION",
+        "word": "TOUCH",
+        "roles": {
+          "AGENT": "#V2106105",
+          "AFFECTED": "#V2106121",
+          "TIME": "#V2107134",
+          "TENSE": "PAST",
+          "LEX": "TOUCHED",
+          "WNSENSE": "touch%2:37:00::"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106105": {
+        "id": "V2106105",
+        "indicator": "THE",
+        "type": "MEMBER-RELN",
+        "word": "STRANGER",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "STRANGER",
+          "WNSENSE": "stranger%1:18:01::"
+        },
+        "start": 5,
+        "end": 19
+      },
+      "V2106121": {
+        "id": "V2106121",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 27,
+        "end": 30
+      },
+      "V2107134": {
+        "id": "V2107134",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V2106124",
+          "SEQUENCE1": "#V2106192",
+          "OPERATOR": "OR",
+          "LEX": "WHEN"
+        },
+        "start": 30,
+        "end": 84
+      },
+      "V2106124": {
+        "id": "V2106124",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHILE",
+        "roles": {
+          "GROUND": "#V2106176",
+          "FIGURE": "#V2106112",
+          "LEX": "WHILE"
+        },
+        "start": 30,
+        "end": 50
+      },
+      "V2106176": {
+        "id": "V2106176",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "AGENT": "#V2106146",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 36,
+        "end": 50
+      },
+      "V2106146": {
+        "id": "V2106146",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 36,
+        "end": 38
+      },
+      "V2106192": {
+        "id": "V2106192",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106228",
+          "FIGURE": "#V2106112",
+          "LEX": "WHEN"
+        },
+        "start": 53,
+        "end": 84
+      },
+      "V2106228": {
+        "id": "V2106228",
+        "indicator": "F",
+        "type": "ESTABLISH-COMMUNICATION",
+        "word": "CALL",
+        "roles": {
+          "AGENT": "#V2106220",
+          "AGENT1": "#V2106237",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:01::"
+        },
+        "start": 58,
+        "end": 84
+      },
+      "V2106220": {
+        "id": "V2106220",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "PROFORM": "THAT",
+          "MOD": "#V2106217",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 58,
+        "end": 74
+      },
+      "V2106217": {
+        "id": "V2106217",
+        "indicator": "F",
+        "type": "STUPID",
+        "word": "STUPID",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2106220",
+          "SCALE": "INTELLIGENCE-SCALE",
+          "LEX": "STUPID",
+          "WNSENSE": "stupid%3:00:00::"
+        },
+        "start": 63,
+        "end": 70
+      },
+      "V2106237": {
+        "id": "V2106237",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 81,
+        "end": 84
+      },
+      "root": "#V2108536"
+    },
+    {
+      "V2106242": {
+        "id": "V2106242",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": "HORE",
+        "roles": {
+          "VFORM": "BASE",
+          "LEX": "HORE"
+        },
+        "start": 84,
+        "end": 89
+      },
+      "root": "#V2106242"
+    },
+    {
+      "V2106773": {
+        "id": "V2106773",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106245",
+          "LEX": "CAUSE"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "V2106245": {
+        "id": "V2106245",
+        "indicator": "BARE",
+        "type": "CAUSE-EFFECT",
+        "word": "CAUSE",
+        "roles": {
+          "LEX": "CAUSE",
+          "WNSENSE": "cause%2:36:00::"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "root": "#V2106773"
+    },
+    {
+      "V2107153": {
+        "id": "V2107153",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2106303",
+          "LEX": "TRYING"
+        },
+        "start": 95,
+        "end": 123
+      },
+      "V2106303": {
+        "id": "V2106303",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2106269",
+          "FORMAL": "#V2106340",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "TRYING",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 95,
+        "end": 122
+      },
+      "V2106269": {
+        "id": "V2106269",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V2106340": {
+        "id": "V2106340",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V2106269",
+          "AFFECTED": "#V2106343",
+          "VFORM": "BASE",
+          "LEX": "IGNORE",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 108,
+        "end": 122
+      },
+      "V2106343": {
+        "id": "V2106343",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 118,
+        "end": 122
+      },
+      "root": "#V2107153"
+    },
+    {
+      "V2106584": {
+        "id": "V2106584",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106084",
+          "FOCUS": "#V2106397",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106084": {
+        "id": "V2106084",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106397",
+          "FIGURE": "#V2106585",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106585": {
+        "id": "V2106585",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 0,
+        "end": 5
+      },
+      "V2106397": {
+        "id": "V2106397",
+        "indicator": "WH-TERM",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHEN",
+          "SUCHTHAT": "#V2106084"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V2106584"
+    },
+    {
+      "V2108754": {
+        "id": "V2108754",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106113",
+          "LEX": "TOUCHED"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106113": {
+        "id": "V2106113",
+        "indicator": "F",
+        "type": "CONNECTED",
+        "word": "TOUCH",
+        "roles": {
+          "NEUTRAL": "#V2106720",
+          "NEUTRAL1": "#V2106121",
+          "TIME": "#V2107134",
+          "TENSE": "PAST",
+          "LEX": "TOUCHED",
+          "WNSENSE": "touch%2:35:01::"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106720": {
+        "id": "V2106720",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2106105"
+        },
+        "start": 5,
+        "end": 19
+      },
+      "V2106105": {
+        "id": "V2106105",
+        "indicator": "THE",
+        "type": "MEMBER-RELN",
+        "word": "STRANGER",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "STRANGER",
+          "WNSENSE": "stranger%1:18:01::"
+        },
+        "start": 5,
+        "end": 19
+      },
+      "V2106121": {
+        "id": "V2106121",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 27,
+        "end": 30
+      },
+      "V2107134": {
+        "id": "V2107134",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V2106124",
+          "SEQUENCE1": "#V2106192",
+          "OPERATOR": "OR",
+          "LEX": "WHEN"
+        },
+        "start": 30,
+        "end": 84
+      },
+      "V2106124": {
+        "id": "V2106124",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHILE",
+        "roles": {
+          "GROUND": "#V2106176",
+          "FIGURE": "#V2106113",
+          "LEX": "WHILE"
+        },
+        "start": 30,
+        "end": 50
+      },
+      "V2106176": {
+        "id": "V2106176",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "AGENT": "#V2106146",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 36,
+        "end": 50
+      },
+      "V2106146": {
+        "id": "V2106146",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 36,
+        "end": 38
+      },
+      "V2106192": {
+        "id": "V2106192",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106231",
+          "FIGURE": "#V2106113",
+          "LEX": "WHEN"
+        },
+        "start": 53,
+        "end": 84
+      },
+      "V2106231": {
+        "id": "V2106231",
+        "indicator": "F",
+        "type": "APPEAL-APPLY-DEMAND",
+        "word": "CALL",
+        "roles": {
+          "AGENT": "#V2106220",
+          "NEUTRAL": "#V2106237",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:38:00::"
+        },
+        "start": 58,
+        "end": 84
+      },
+      "V2106220": {
+        "id": "V2106220",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "PROFORM": "THAT",
+          "MOD": "#V2106217",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 58,
+        "end": 74
+      },
+      "V2106217": {
+        "id": "V2106217",
+        "indicator": "F",
+        "type": "STUPID",
+        "word": "STUPID",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2106220",
+          "SCALE": "INTELLIGENCE-SCALE",
+          "LEX": "STUPID",
+          "WNSENSE": "stupid%3:00:00::"
+        },
+        "start": 63,
+        "end": 70
+      },
+      "V2106237": {
+        "id": "V2106237",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 81,
+        "end": 84
+      },
+      "root": "#V2108754"
+    },
+    {
+      "V2106242": {
+        "id": "V2106242",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": "HORE",
+        "roles": {
+          "VFORM": "BASE",
+          "LEX": "HORE"
+        },
+        "start": 84,
+        "end": 89
+      },
+      "root": "#V2106242"
+    },
+    {
+      "V2106775": {
+        "id": "V2106775",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106246",
+          "LEX": "CAUSE"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "V2106246": {
+        "id": "V2106246",
+        "indicator": "BARE",
+        "type": "CAUSE-EFFECT",
+        "word": "CAUSE",
+        "roles": {
+          "LEX": "CAUSE",
+          "WNSENSE": "cause%2:36:00::"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "root": "#V2106775"
+    },
+    {
+      "V2107153": {
+        "id": "V2107153",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2106303",
+          "LEX": "TRYING"
+        },
+        "start": 95,
+        "end": 123
+      },
+      "V2106303": {
+        "id": "V2106303",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2106269",
+          "FORMAL": "#V2106340",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "TRYING",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 95,
+        "end": 122
+      },
+      "V2106269": {
+        "id": "V2106269",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V2106340": {
+        "id": "V2106340",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V2106269",
+          "AFFECTED": "#V2106343",
+          "VFORM": "BASE",
+          "LEX": "IGNORE",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 108,
+        "end": 122
+      },
+      "V2106343": {
+        "id": "V2106343",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 118,
+        "end": 122
+      },
+      "root": "#V2107153"
+    },
+    {
+      "V2106584": {
+        "id": "V2106584",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106084",
+          "FOCUS": "#V2106397",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106084": {
+        "id": "V2106084",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106397",
+          "FIGURE": "#V2106585",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106585": {
+        "id": "V2106585",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 0,
+        "end": 5
+      },
+      "V2106397": {
+        "id": "V2106397",
+        "indicator": "WH-TERM",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHEN",
+          "SUCHTHAT": "#V2106084"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V2106584"
+    },
+    {
+      "V2108754": {
+        "id": "V2108754",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106113",
+          "LEX": "TOUCHED"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106113": {
+        "id": "V2106113",
+        "indicator": "F",
+        "type": "CONNECTED",
+        "word": "TOUCH",
+        "roles": {
+          "NEUTRAL": "#V2106720",
+          "NEUTRAL1": "#V2106121",
+          "TIME": "#V2107134",
+          "TENSE": "PAST",
+          "LEX": "TOUCHED",
+          "WNSENSE": "touch%2:35:01::"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106720": {
+        "id": "V2106720",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2106105"
+        },
+        "start": 5,
+        "end": 19
+      },
+      "V2106105": {
+        "id": "V2106105",
+        "indicator": "THE",
+        "type": "MEMBER-RELN",
+        "word": "STRANGER",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "STRANGER",
+          "WNSENSE": "stranger%1:18:01::"
+        },
+        "start": 5,
+        "end": 19
+      },
+      "V2106121": {
+        "id": "V2106121",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 27,
+        "end": 30
+      },
+      "V2107134": {
+        "id": "V2107134",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V2106124",
+          "SEQUENCE1": "#V2106192",
+          "OPERATOR": "OR",
+          "LEX": "WHEN"
+        },
+        "start": 30,
+        "end": 84
+      },
+      "V2106124": {
+        "id": "V2106124",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHILE",
+        "roles": {
+          "GROUND": "#V2106176",
+          "FIGURE": "#V2106113",
+          "LEX": "WHILE"
+        },
+        "start": 30,
+        "end": 50
+      },
+      "V2106176": {
+        "id": "V2106176",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "AGENT": "#V2106146",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 36,
+        "end": 50
+      },
+      "V2106146": {
+        "id": "V2106146",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 36,
+        "end": 38
+      },
+      "V2106192": {
+        "id": "V2106192",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106231",
+          "FIGURE": "#V2106113",
+          "LEX": "WHEN"
+        },
+        "start": 53,
+        "end": 84
+      },
+      "V2106231": {
+        "id": "V2106231",
+        "indicator": "F",
+        "type": "APPEAL-APPLY-DEMAND",
+        "word": "CALL",
+        "roles": {
+          "AGENT": "#V2106220",
+          "NEUTRAL": "#V2106237",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:38:00::"
+        },
+        "start": 58,
+        "end": 84
+      },
+      "V2106220": {
+        "id": "V2106220",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "PROFORM": "THAT",
+          "MOD": "#V2106217",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 58,
+        "end": 74
+      },
+      "V2106217": {
+        "id": "V2106217",
+        "indicator": "F",
+        "type": "STUPID",
+        "word": "STUPID",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2106220",
+          "SCALE": "INTELLIGENCE-SCALE",
+          "LEX": "STUPID",
+          "WNSENSE": "stupid%3:00:00::"
+        },
+        "start": 63,
+        "end": 70
+      },
+      "V2106237": {
+        "id": "V2106237",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 81,
+        "end": 84
+      },
+      "root": "#V2108754"
+    },
+    {
+      "V2106242": {
+        "id": "V2106242",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": "HORE",
+        "roles": {
+          "VFORM": "BASE",
+          "LEX": "HORE"
+        },
+        "start": 84,
+        "end": 89
+      },
+      "root": "#V2106242"
+    },
+    {
+      "V2106773": {
+        "id": "V2106773",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106245",
+          "LEX": "CAUSE"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "V2106245": {
+        "id": "V2106245",
+        "indicator": "BARE",
+        "type": "CAUSE-EFFECT",
+        "word": "CAUSE",
+        "roles": {
+          "LEX": "CAUSE",
+          "WNSENSE": "cause%2:36:00::"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "root": "#V2106773"
+    },
+    {
+      "V2107153": {
+        "id": "V2107153",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2106303",
+          "LEX": "TRYING"
+        },
+        "start": 95,
+        "end": 123
+      },
+      "V2106303": {
+        "id": "V2106303",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2106269",
+          "FORMAL": "#V2106340",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "TRYING",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 95,
+        "end": 122
+      },
+      "V2106269": {
+        "id": "V2106269",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V2106340": {
+        "id": "V2106340",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V2106269",
+          "AFFECTED": "#V2106343",
+          "VFORM": "BASE",
+          "LEX": "IGNORE",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 108,
+        "end": 122
+      },
+      "V2106343": {
+        "id": "V2106343",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 118,
+        "end": 122
+      },
+      "root": "#V2107153"
+    },
+    {
+      "V2106584": {
+        "id": "V2106584",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106084",
+          "FOCUS": "#V2106397",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106084": {
+        "id": "V2106084",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106397",
+          "FIGURE": "#V2106585",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106585": {
+        "id": "V2106585",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 0,
+        "end": 5
+      },
+      "V2106397": {
+        "id": "V2106397",
+        "indicator": "WH-TERM",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHEN",
+          "SUCHTHAT": "#V2106084"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V2106584"
+    },
+    {
+      "V2108587": {
+        "id": "V2108587",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106113",
+          "LEX": "TOUCHED"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106113": {
+        "id": "V2106113",
+        "indicator": "F",
+        "type": "CONNECTED",
+        "word": "TOUCH",
+        "roles": {
+          "NEUTRAL": "#V2106720",
+          "NEUTRAL1": "#V2106121",
+          "TIME": "#V2107134",
+          "TENSE": "PAST",
+          "LEX": "TOUCHED",
+          "WNSENSE": "touch%2:35:01::"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106720": {
+        "id": "V2106720",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2106105"
+        },
+        "start": 5,
+        "end": 19
+      },
+      "V2106105": {
+        "id": "V2106105",
+        "indicator": "THE",
+        "type": "MEMBER-RELN",
+        "word": "STRANGER",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "STRANGER",
+          "WNSENSE": "stranger%1:18:01::"
+        },
+        "start": 5,
+        "end": 19
+      },
+      "V2106121": {
+        "id": "V2106121",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 27,
+        "end": 30
+      },
+      "V2107134": {
+        "id": "V2107134",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V2106124",
+          "SEQUENCE1": "#V2106192",
+          "OPERATOR": "OR",
+          "LEX": "WHEN"
+        },
+        "start": 30,
+        "end": 84
+      },
+      "V2106124": {
+        "id": "V2106124",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHILE",
+        "roles": {
+          "GROUND": "#V2106176",
+          "FIGURE": "#V2106113",
+          "LEX": "WHILE"
+        },
+        "start": 30,
+        "end": 50
+      },
+      "V2106176": {
+        "id": "V2106176",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "AGENT": "#V2106146",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 36,
+        "end": 50
+      },
+      "V2106146": {
+        "id": "V2106146",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 36,
+        "end": 38
+      },
+      "V2106192": {
+        "id": "V2106192",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106228",
+          "FIGURE": "#V2106113",
+          "LEX": "WHEN"
+        },
+        "start": 53,
+        "end": 84
+      },
+      "V2106228": {
+        "id": "V2106228",
+        "indicator": "F",
+        "type": "ESTABLISH-COMMUNICATION",
+        "word": "CALL",
+        "roles": {
+          "AGENT": "#V2106220",
+          "AGENT1": "#V2106237",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:01::"
+        },
+        "start": 58,
+        "end": 84
+      },
+      "V2106220": {
+        "id": "V2106220",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "PROFORM": "THAT",
+          "MOD": "#V2106217",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 58,
+        "end": 74
+      },
+      "V2106217": {
+        "id": "V2106217",
+        "indicator": "F",
+        "type": "STUPID",
+        "word": "STUPID",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2106220",
+          "SCALE": "INTELLIGENCE-SCALE",
+          "LEX": "STUPID",
+          "WNSENSE": "stupid%3:00:00::"
+        },
+        "start": 63,
+        "end": 70
+      },
+      "V2106237": {
+        "id": "V2106237",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 81,
+        "end": 84
+      },
+      "root": "#V2108587"
+    },
+    {
+      "V2106242": {
+        "id": "V2106242",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": "HORE",
+        "roles": {
+          "VFORM": "BASE",
+          "LEX": "HORE"
+        },
+        "start": 84,
+        "end": 89
+      },
+      "root": "#V2106242"
+    },
+    {
+      "V2106775": {
+        "id": "V2106775",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106246",
+          "LEX": "CAUSE"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "V2106246": {
+        "id": "V2106246",
+        "indicator": "BARE",
+        "type": "CAUSE-EFFECT",
+        "word": "CAUSE",
+        "roles": {
+          "LEX": "CAUSE",
+          "WNSENSE": "cause%2:36:00::"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "root": "#V2106775"
+    },
+    {
+      "V2107153": {
+        "id": "V2107153",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2106303",
+          "LEX": "TRYING"
+        },
+        "start": 95,
+        "end": 123
+      },
+      "V2106303": {
+        "id": "V2106303",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2106269",
+          "FORMAL": "#V2106340",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "TRYING",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 95,
+        "end": 122
+      },
+      "V2106269": {
+        "id": "V2106269",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V2106340": {
+        "id": "V2106340",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V2106269",
+          "AFFECTED": "#V2106343",
+          "VFORM": "BASE",
+          "LEX": "IGNORE",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 108,
+        "end": 122
+      },
+      "V2106343": {
+        "id": "V2106343",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 118,
+        "end": 122
+      },
+      "root": "#V2107153"
+    },
+    {
+      "V2106584": {
+        "id": "V2106584",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106084",
+          "FOCUS": "#V2106397",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106084": {
+        "id": "V2106084",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106397",
+          "FIGURE": "#V2106585",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106585": {
+        "id": "V2106585",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 0,
+        "end": 5
+      },
+      "V2106397": {
+        "id": "V2106397",
+        "indicator": "WH-TERM",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHEN",
+          "SUCHTHAT": "#V2106084"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V2106584"
+    },
+    {
+      "V2108587": {
+        "id": "V2108587",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106113",
+          "LEX": "TOUCHED"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106113": {
+        "id": "V2106113",
+        "indicator": "F",
+        "type": "CONNECTED",
+        "word": "TOUCH",
+        "roles": {
+          "NEUTRAL": "#V2106720",
+          "NEUTRAL1": "#V2106121",
+          "TIME": "#V2107134",
+          "TENSE": "PAST",
+          "LEX": "TOUCHED",
+          "WNSENSE": "touch%2:35:01::"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106720": {
+        "id": "V2106720",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2106105"
+        },
+        "start": 5,
+        "end": 19
+      },
+      "V2106105": {
+        "id": "V2106105",
+        "indicator": "THE",
+        "type": "MEMBER-RELN",
+        "word": "STRANGER",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "STRANGER",
+          "WNSENSE": "stranger%1:18:01::"
+        },
+        "start": 5,
+        "end": 19
+      },
+      "V2106121": {
+        "id": "V2106121",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 27,
+        "end": 30
+      },
+      "V2107134": {
+        "id": "V2107134",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V2106124",
+          "SEQUENCE1": "#V2106192",
+          "OPERATOR": "OR",
+          "LEX": "WHEN"
+        },
+        "start": 30,
+        "end": 84
+      },
+      "V2106124": {
+        "id": "V2106124",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHILE",
+        "roles": {
+          "GROUND": "#V2106176",
+          "FIGURE": "#V2106113",
+          "LEX": "WHILE"
+        },
+        "start": 30,
+        "end": 50
+      },
+      "V2106176": {
+        "id": "V2106176",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "AGENT": "#V2106146",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 36,
+        "end": 50
+      },
+      "V2106146": {
+        "id": "V2106146",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 36,
+        "end": 38
+      },
+      "V2106192": {
+        "id": "V2106192",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106228",
+          "FIGURE": "#V2106113",
+          "LEX": "WHEN"
+        },
+        "start": 53,
+        "end": 84
+      },
+      "V2106228": {
+        "id": "V2106228",
+        "indicator": "F",
+        "type": "ESTABLISH-COMMUNICATION",
+        "word": "CALL",
+        "roles": {
+          "AGENT": "#V2106220",
+          "AGENT1": "#V2106237",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:01::"
+        },
+        "start": 58,
+        "end": 84
+      },
+      "V2106220": {
+        "id": "V2106220",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "PROFORM": "THAT",
+          "MOD": "#V2106217",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 58,
+        "end": 74
+      },
+      "V2106217": {
+        "id": "V2106217",
+        "indicator": "F",
+        "type": "STUPID",
+        "word": "STUPID",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2106220",
+          "SCALE": "INTELLIGENCE-SCALE",
+          "LEX": "STUPID",
+          "WNSENSE": "stupid%3:00:00::"
+        },
+        "start": 63,
+        "end": 70
+      },
+      "V2106237": {
+        "id": "V2106237",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 81,
+        "end": 84
+      },
+      "root": "#V2108587"
+    },
+    {
+      "V2106242": {
+        "id": "V2106242",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": "HORE",
+        "roles": {
+          "VFORM": "BASE",
+          "LEX": "HORE"
+        },
+        "start": 84,
+        "end": 89
+      },
+      "root": "#V2106242"
+    },
+    {
+      "V2106773": {
+        "id": "V2106773",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106245",
+          "LEX": "CAUSE"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "V2106245": {
+        "id": "V2106245",
+        "indicator": "BARE",
+        "type": "CAUSE-EFFECT",
+        "word": "CAUSE",
+        "roles": {
+          "LEX": "CAUSE",
+          "WNSENSE": "cause%2:36:00::"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "root": "#V2106773"
+    },
+    {
+      "V2107153": {
+        "id": "V2107153",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2106303",
+          "LEX": "TRYING"
+        },
+        "start": 95,
+        "end": 123
+      },
+      "V2106303": {
+        "id": "V2106303",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2106269",
+          "FORMAL": "#V2106340",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "TRYING",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 95,
+        "end": 122
+      },
+      "V2106269": {
+        "id": "V2106269",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V2106340": {
+        "id": "V2106340",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V2106269",
+          "AFFECTED": "#V2106343",
+          "VFORM": "BASE",
+          "LEX": "IGNORE",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 108,
+        "end": 122
+      },
+      "V2106343": {
+        "id": "V2106343",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 118,
+        "end": 122
+      },
+      "root": "#V2107153"
+    },
+    {
+      "V2106584": {
+        "id": "V2106584",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106084",
+          "FOCUS": "#V2106397",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106084": {
+        "id": "V2106084",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106397",
+          "FIGURE": "#V2106585",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106585": {
+        "id": "V2106585",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 0,
+        "end": 5
+      },
+      "V2106397": {
+        "id": "V2106397",
+        "indicator": "WH-TERM",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHEN",
+          "SUCHTHAT": "#V2106084"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V2106584"
+    },
+    {
+      "V2108828": {
+        "id": "V2108828",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106114",
+          "LEX": "TOUCHED"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106114": {
+        "id": "V2106114",
+        "indicator": "F",
+        "type": "TOUCH",
+        "word": "TOUCH",
+        "roles": {
+          "AGENT": "#V2106105",
+          "AFFECTED": "#V2106121",
+          "TIME": "#V2107134",
+          "TENSE": "PAST",
+          "LEX": "TOUCHED",
+          "WNSENSE": "touch%1:04:00::"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106105": {
+        "id": "V2106105",
+        "indicator": "THE",
+        "type": "MEMBER-RELN",
+        "word": "STRANGER",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "STRANGER",
+          "WNSENSE": "stranger%1:18:01::"
+        },
+        "start": 5,
+        "end": 19
+      },
+      "V2106121": {
+        "id": "V2106121",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 27,
+        "end": 30
+      },
+      "V2107134": {
+        "id": "V2107134",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V2106124",
+          "SEQUENCE1": "#V2106192",
+          "OPERATOR": "OR",
+          "LEX": "WHEN"
+        },
+        "start": 30,
+        "end": 84
+      },
+      "V2106124": {
+        "id": "V2106124",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHILE",
+        "roles": {
+          "GROUND": "#V2106176",
+          "FIGURE": "#V2106114",
+          "LEX": "WHILE"
+        },
+        "start": 30,
+        "end": 50
+      },
+      "V2106176": {
+        "id": "V2106176",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "AGENT": "#V2106146",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 36,
+        "end": 50
+      },
+      "V2106146": {
+        "id": "V2106146",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 36,
+        "end": 38
+      },
+      "V2106192": {
+        "id": "V2106192",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106231",
+          "FIGURE": "#V2106114",
+          "LEX": "WHEN"
+        },
+        "start": 53,
+        "end": 84
+      },
+      "V2106231": {
+        "id": "V2106231",
+        "indicator": "F",
+        "type": "APPEAL-APPLY-DEMAND",
+        "word": "CALL",
+        "roles": {
+          "AGENT": "#V2106220",
+          "NEUTRAL": "#V2106237",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:38:00::"
+        },
+        "start": 58,
+        "end": 84
+      },
+      "V2106220": {
+        "id": "V2106220",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "PROFORM": "THAT",
+          "MOD": "#V2106217",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 58,
+        "end": 74
+      },
+      "V2106217": {
+        "id": "V2106217",
+        "indicator": "F",
+        "type": "STUPID",
+        "word": "STUPID",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2106220",
+          "SCALE": "INTELLIGENCE-SCALE",
+          "LEX": "STUPID",
+          "WNSENSE": "stupid%3:00:00::"
+        },
+        "start": 63,
+        "end": 70
+      },
+      "V2106237": {
+        "id": "V2106237",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 81,
+        "end": 84
+      },
+      "root": "#V2108828"
+    },
+    {
+      "V2106242": {
+        "id": "V2106242",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": "HORE",
+        "roles": {
+          "VFORM": "BASE",
+          "LEX": "HORE"
+        },
+        "start": 84,
+        "end": 89
+      },
+      "root": "#V2106242"
+    },
+    {
+      "V2106775": {
+        "id": "V2106775",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106246",
+          "LEX": "CAUSE"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "V2106246": {
+        "id": "V2106246",
+        "indicator": "BARE",
+        "type": "CAUSE-EFFECT",
+        "word": "CAUSE",
+        "roles": {
+          "LEX": "CAUSE",
+          "WNSENSE": "cause%2:36:00::"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "root": "#V2106775"
+    },
+    {
+      "V2107188": {
+        "id": "V2107188",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2106303",
+          "LEX": "TRYING"
+        },
+        "start": 95,
+        "end": 123
+      },
+      "V2106303": {
+        "id": "V2106303",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2106554",
+          "FORMAL": "#V2106340",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "TRYING",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 95,
+        "end": 122
+      },
+      "V2106554": {
+        "id": "V2106554",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2106269"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V2106269": {
+        "id": "V2106269",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V2106340": {
+        "id": "V2106340",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V2106554",
+          "AFFECTED": "#V2106343",
+          "VFORM": "BASE",
+          "LEX": "IGNORE",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 108,
+        "end": 122
+      },
+      "V2106343": {
+        "id": "V2106343",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 118,
+        "end": 122
+      },
+      "root": "#V2107188"
+    },
+    {
+      "V2106584": {
+        "id": "V2106584",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106084",
+          "FOCUS": "#V2106397",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106084": {
+        "id": "V2106084",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106397",
+          "FIGURE": "#V2106585",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106585": {
+        "id": "V2106585",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 0,
+        "end": 5
+      },
+      "V2106397": {
+        "id": "V2106397",
+        "indicator": "WH-TERM",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHEN",
+          "SUCHTHAT": "#V2106084"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V2106584"
+    },
+    {
+      "V2108828": {
+        "id": "V2108828",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106114",
+          "LEX": "TOUCHED"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106114": {
+        "id": "V2106114",
+        "indicator": "F",
+        "type": "TOUCH",
+        "word": "TOUCH",
+        "roles": {
+          "AGENT": "#V2106105",
+          "AFFECTED": "#V2106121",
+          "TIME": "#V2107134",
+          "TENSE": "PAST",
+          "LEX": "TOUCHED",
+          "WNSENSE": "touch%1:04:00::"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106105": {
+        "id": "V2106105",
+        "indicator": "THE",
+        "type": "MEMBER-RELN",
+        "word": "STRANGER",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "STRANGER",
+          "WNSENSE": "stranger%1:18:01::"
+        },
+        "start": 5,
+        "end": 19
+      },
+      "V2106121": {
+        "id": "V2106121",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 27,
+        "end": 30
+      },
+      "V2107134": {
+        "id": "V2107134",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V2106124",
+          "SEQUENCE1": "#V2106192",
+          "OPERATOR": "OR",
+          "LEX": "WHEN"
+        },
+        "start": 30,
+        "end": 84
+      },
+      "V2106124": {
+        "id": "V2106124",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHILE",
+        "roles": {
+          "GROUND": "#V2106176",
+          "FIGURE": "#V2106114",
+          "LEX": "WHILE"
+        },
+        "start": 30,
+        "end": 50
+      },
+      "V2106176": {
+        "id": "V2106176",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "AGENT": "#V2106146",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 36,
+        "end": 50
+      },
+      "V2106146": {
+        "id": "V2106146",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 36,
+        "end": 38
+      },
+      "V2106192": {
+        "id": "V2106192",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106231",
+          "FIGURE": "#V2106114",
+          "LEX": "WHEN"
+        },
+        "start": 53,
+        "end": 84
+      },
+      "V2106231": {
+        "id": "V2106231",
+        "indicator": "F",
+        "type": "APPEAL-APPLY-DEMAND",
+        "word": "CALL",
+        "roles": {
+          "AGENT": "#V2106220",
+          "NEUTRAL": "#V2106237",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:38:00::"
+        },
+        "start": 58,
+        "end": 84
+      },
+      "V2106220": {
+        "id": "V2106220",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "PROFORM": "THAT",
+          "MOD": "#V2106217",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 58,
+        "end": 74
+      },
+      "V2106217": {
+        "id": "V2106217",
+        "indicator": "F",
+        "type": "STUPID",
+        "word": "STUPID",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2106220",
+          "SCALE": "INTELLIGENCE-SCALE",
+          "LEX": "STUPID",
+          "WNSENSE": "stupid%3:00:00::"
+        },
+        "start": 63,
+        "end": 70
+      },
+      "V2106237": {
+        "id": "V2106237",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 81,
+        "end": 84
+      },
+      "root": "#V2108828"
+    },
+    {
+      "V2106242": {
+        "id": "V2106242",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": "HORE",
+        "roles": {
+          "VFORM": "BASE",
+          "LEX": "HORE"
+        },
+        "start": 84,
+        "end": 89
+      },
+      "root": "#V2106242"
+    },
+    {
+      "V2106773": {
+        "id": "V2106773",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106245",
+          "LEX": "CAUSE"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "V2106245": {
+        "id": "V2106245",
+        "indicator": "BARE",
+        "type": "CAUSE-EFFECT",
+        "word": "CAUSE",
+        "roles": {
+          "LEX": "CAUSE",
+          "WNSENSE": "cause%2:36:00::"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "root": "#V2106773"
+    },
+    {
+      "V2107188": {
+        "id": "V2107188",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2106303",
+          "LEX": "TRYING"
+        },
+        "start": 95,
+        "end": 123
+      },
+      "V2106303": {
+        "id": "V2106303",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2106554",
+          "FORMAL": "#V2106340",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "TRYING",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 95,
+        "end": 122
+      },
+      "V2106554": {
+        "id": "V2106554",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2106269"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V2106269": {
+        "id": "V2106269",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V2106340": {
+        "id": "V2106340",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V2106554",
+          "AFFECTED": "#V2106343",
+          "VFORM": "BASE",
+          "LEX": "IGNORE",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 108,
+        "end": 122
+      },
+      "V2106343": {
+        "id": "V2106343",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 118,
+        "end": 122
+      },
+      "root": "#V2107188"
+    },
+    {
+      "V2106584": {
+        "id": "V2106584",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106084",
+          "FOCUS": "#V2106397",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106084": {
+        "id": "V2106084",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106397",
+          "FIGURE": "#V2106585",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106585": {
+        "id": "V2106585",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 0,
+        "end": 5
+      },
+      "V2106397": {
+        "id": "V2106397",
+        "indicator": "WH-TERM",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHEN",
+          "SUCHTHAT": "#V2106084"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V2106584"
+    },
+    {
+      "V2108751": {
+        "id": "V2108751",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106113",
+          "LEX": "TOUCHED"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106113": {
+        "id": "V2106113",
+        "indicator": "F",
+        "type": "CONNECTED",
+        "word": "TOUCH",
+        "roles": {
+          "NEUTRAL": "#V2106105",
+          "NEUTRAL1": "#V2106121",
+          "TIME": "#V2107134",
+          "TENSE": "PAST",
+          "LEX": "TOUCHED",
+          "WNSENSE": "touch%2:35:01::"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106105": {
+        "id": "V2106105",
+        "indicator": "THE",
+        "type": "MEMBER-RELN",
+        "word": "STRANGER",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "STRANGER",
+          "WNSENSE": "stranger%1:18:01::"
+        },
+        "start": 5,
+        "end": 19
+      },
+      "V2106121": {
+        "id": "V2106121",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 27,
+        "end": 30
+      },
+      "V2107134": {
+        "id": "V2107134",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V2106124",
+          "SEQUENCE1": "#V2106192",
+          "OPERATOR": "OR",
+          "LEX": "WHEN"
+        },
+        "start": 30,
+        "end": 84
+      },
+      "V2106124": {
+        "id": "V2106124",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHILE",
+        "roles": {
+          "GROUND": "#V2106176",
+          "FIGURE": "#V2106113",
+          "LEX": "WHILE"
+        },
+        "start": 30,
+        "end": 50
+      },
+      "V2106176": {
+        "id": "V2106176",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "AGENT": "#V2106146",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 36,
+        "end": 50
+      },
+      "V2106146": {
+        "id": "V2106146",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 36,
+        "end": 38
+      },
+      "V2106192": {
+        "id": "V2106192",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106231",
+          "FIGURE": "#V2106113",
+          "LEX": "WHEN"
+        },
+        "start": 53,
+        "end": 84
+      },
+      "V2106231": {
+        "id": "V2106231",
+        "indicator": "F",
+        "type": "APPEAL-APPLY-DEMAND",
+        "word": "CALL",
+        "roles": {
+          "AGENT": "#V2106220",
+          "NEUTRAL": "#V2106237",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:38:00::"
+        },
+        "start": 58,
+        "end": 84
+      },
+      "V2106220": {
+        "id": "V2106220",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "PROFORM": "THAT",
+          "MOD": "#V2106217",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 58,
+        "end": 74
+      },
+      "V2106217": {
+        "id": "V2106217",
+        "indicator": "F",
+        "type": "STUPID",
+        "word": "STUPID",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2106220",
+          "SCALE": "INTELLIGENCE-SCALE",
+          "LEX": "STUPID",
+          "WNSENSE": "stupid%3:00:00::"
+        },
+        "start": 63,
+        "end": 70
+      },
+      "V2106237": {
+        "id": "V2106237",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 81,
+        "end": 84
+      },
+      "root": "#V2108751"
+    },
+    {
+      "V2106242": {
+        "id": "V2106242",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": "HORE",
+        "roles": {
+          "VFORM": "BASE",
+          "LEX": "HORE"
+        },
+        "start": 84,
+        "end": 89
+      },
+      "root": "#V2106242"
+    },
+    {
+      "V2106775": {
+        "id": "V2106775",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106246",
+          "LEX": "CAUSE"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "V2106246": {
+        "id": "V2106246",
+        "indicator": "BARE",
+        "type": "CAUSE-EFFECT",
+        "word": "CAUSE",
+        "roles": {
+          "LEX": "CAUSE",
+          "WNSENSE": "cause%2:36:00::"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "root": "#V2106775"
+    },
+    {
+      "V2107188": {
+        "id": "V2107188",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2106303",
+          "LEX": "TRYING"
+        },
+        "start": 95,
+        "end": 123
+      },
+      "V2106303": {
+        "id": "V2106303",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2106554",
+          "FORMAL": "#V2106340",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "TRYING",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 95,
+        "end": 122
+      },
+      "V2106554": {
+        "id": "V2106554",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2106269"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V2106269": {
+        "id": "V2106269",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V2106340": {
+        "id": "V2106340",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V2106554",
+          "AFFECTED": "#V2106343",
+          "VFORM": "BASE",
+          "LEX": "IGNORE",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 108,
+        "end": 122
+      },
+      "V2106343": {
+        "id": "V2106343",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 118,
+        "end": 122
+      },
+      "root": "#V2107188"
+    },
+    {
+      "V2106584": {
+        "id": "V2106584",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106084",
+          "FOCUS": "#V2106397",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106084": {
+        "id": "V2106084",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106397",
+          "FIGURE": "#V2106585",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V2106585": {
+        "id": "V2106585",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 0,
+        "end": 5
+      },
+      "V2106397": {
+        "id": "V2106397",
+        "indicator": "WH-TERM",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHEN",
+          "SUCHTHAT": "#V2106084"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V2106584"
+    },
+    {
+      "V2108751": {
+        "id": "V2108751",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106113",
+          "LEX": "TOUCHED"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106113": {
+        "id": "V2106113",
+        "indicator": "F",
+        "type": "CONNECTED",
+        "word": "TOUCH",
+        "roles": {
+          "NEUTRAL": "#V2106105",
+          "NEUTRAL1": "#V2106121",
+          "TIME": "#V2107134",
+          "TENSE": "PAST",
+          "LEX": "TOUCHED",
+          "WNSENSE": "touch%2:35:01::"
+        },
+        "start": 5,
+        "end": 84
+      },
+      "V2106105": {
+        "id": "V2106105",
+        "indicator": "THE",
+        "type": "MEMBER-RELN",
+        "word": "STRANGER",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "STRANGER",
+          "WNSENSE": "stranger%1:18:01::"
+        },
+        "start": 5,
+        "end": 19
+      },
+      "V2106121": {
+        "id": "V2106121",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 27,
+        "end": 30
+      },
+      "V2107134": {
+        "id": "V2107134",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V2106124",
+          "SEQUENCE1": "#V2106192",
+          "OPERATOR": "OR",
+          "LEX": "WHEN"
+        },
+        "start": 30,
+        "end": 84
+      },
+      "V2106124": {
+        "id": "V2106124",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHILE",
+        "roles": {
+          "GROUND": "#V2106176",
+          "FIGURE": "#V2106113",
+          "LEX": "WHILE"
+        },
+        "start": 30,
+        "end": 50
+      },
+      "V2106176": {
+        "id": "V2106176",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "AGENT": "#V2106146",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 36,
+        "end": 50
+      },
+      "V2106146": {
+        "id": "V2106146",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 36,
+        "end": 38
+      },
+      "V2106192": {
+        "id": "V2106192",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V2106231",
+          "FIGURE": "#V2106113",
+          "LEX": "WHEN"
+        },
+        "start": 53,
+        "end": 84
+      },
+      "V2106231": {
+        "id": "V2106231",
+        "indicator": "F",
+        "type": "APPEAL-APPLY-DEMAND",
+        "word": "CALL",
+        "roles": {
+          "AGENT": "#V2106220",
+          "NEUTRAL": "#V2106237",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:38:00::"
+        },
+        "start": 58,
+        "end": 84
+      },
+      "V2106220": {
+        "id": "V2106220",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "PROFORM": "THAT",
+          "MOD": "#V2106217",
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 58,
+        "end": 74
+      },
+      "V2106217": {
+        "id": "V2106217",
+        "indicator": "F",
+        "type": "STUPID",
+        "word": "STUPID",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V2106220",
+          "SCALE": "INTELLIGENCE-SCALE",
+          "LEX": "STUPID",
+          "WNSENSE": "stupid%3:00:00::"
+        },
+        "start": 63,
+        "end": 70
+      },
+      "V2106237": {
+        "id": "V2106237",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 81,
+        "end": 84
+      },
+      "root": "#V2108751"
+    },
+    {
+      "V2106242": {
+        "id": "V2106242",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": "HORE",
+        "roles": {
+          "VFORM": "BASE",
+          "LEX": "HORE"
+        },
+        "start": 84,
+        "end": 89
+      },
+      "root": "#V2106242"
+    },
+    {
+      "V2106773": {
+        "id": "V2106773",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2106245",
+          "LEX": "CAUSE"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "V2106245": {
+        "id": "V2106245",
+        "indicator": "BARE",
+        "type": "CAUSE-EFFECT",
+        "word": "CAUSE",
+        "roles": {
+          "LEX": "CAUSE",
+          "WNSENSE": "cause%2:36:00::"
+        },
+        "start": 89,
+        "end": 95
+      },
+      "root": "#V2106773"
+    },
+    {
+      "V2107188": {
+        "id": "V2107188",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2106303",
+          "LEX": "TRYING"
+        },
+        "start": 95,
+        "end": 123
+      },
+      "V2106303": {
+        "id": "V2106303",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2106554",
+          "FORMAL": "#V2106340",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "TRYING",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 95,
+        "end": 122
+      },
+      "V2106554": {
+        "id": "V2106554",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2106269"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V2106269": {
+        "id": "V2106269",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 95,
+        "end": 97
+      },
+      "V2106340": {
+        "id": "V2106340",
+        "indicator": "F",
+        "type": "IGNORE",
+        "word": "IGNORE",
+        "roles": {
+          "AGENT": "#V2106554",
+          "AFFECTED": "#V2106343",
+          "VFORM": "BASE",
+          "LEX": "IGNORE",
+          "WNSENSE": "ignore%2:32:02::"
+        },
+        "start": 108,
+        "end": 122
+      },
+      "V2106343": {
+        "id": "V2106343",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 118,
+        "end": 122
+      },
+      "root": "#V2107188"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+384",
+    "*last-utt-id*=384  utt-id+384",
+    "*last-utt-id*=384  utt-id+384",
+    "*last-utt-id*=384  utt-id+384",
+    "*last-utt-id*=384  utt-id+384",
+    "*last-utt-id*=384  utt-id+NIL"
+  ]
+}

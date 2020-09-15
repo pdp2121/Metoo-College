@@ -1,0 +1,145 @@
+{
+  "parse": [
+    {
+      "V3057637": {
+        "id": "V3057637",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V3057393",
+          "ACT1": "#V3060869",
+          "LEX": "ASSAULT"
+        },
+        "start": 0,
+        "end": 50
+      },
+      "V3057393": {
+        "id": "V3057393",
+        "indicator": "SPEECHACT",
+        "type": "SA_ACK",
+        "word": null,
+        "roles": {
+          "CONTENT": "(OH)",
+          "LEX": "OH"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V3060869": {
+        "id": "V3060869",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "MOD1": "#V3057229",
+          "MOD": [
+            "#V3057294",
+            "#V3057301"
+          ],
+          "CONTENT": "#V3057306",
+          "LEX": "ASSAULT"
+        },
+        "start": 3,
+        "end": 50
+      },
+      "V3057229": {
+        "id": "V3057229",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V3060869",
+          "LEX": "AND"
+        },
+        "start": 3,
+        "end": 7
+      },
+      "V3057294": {
+        "id": "V3057294",
+        "indicator": "F",
+        "type": "TOPIC-SIGNAL",
+        "word": "BY-THE-WAY",
+        "roles": {
+          "FIGURE": "#V3060869",
+          "LEX": "BY-THE-WAY",
+          "WNSENSE": "by_the_way%4:02:00"
+        },
+        "start": 7,
+        "end": 18
+      },
+      "V3057301": {
+        "id": "V3057301",
+        "indicator": "F",
+        "type": "SEQUENCE-POSITION",
+        "word": "FIRST",
+        "roles": {
+          "FIGURE": "#V3060869",
+          "LEX": "FIRST",
+          "WNSENSE": "first%1:24:00::"
+        },
+        "start": 18,
+        "end": 24
+      },
+      "V3057306": {
+        "id": "V3057306",
+        "indicator": "BARE",
+        "type": "CRITICIZE",
+        "word": "ASSAULT",
+        "roles": {
+          "MOD": "#V3057324",
+          "LEX": "ASSAULT",
+          "WNSENSE": "knock%2:32:02"
+        },
+        "start": 24,
+        "end": 50
+      },
+      "V3057324": {
+        "id": "V3057324",
+        "indicator": "F",
+        "type": "RATE-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V3057344",
+          "FIGURE": "#V3057306",
+          "LEX": "AT"
+        },
+        "start": 32,
+        "end": 50
+      },
+      "V3057344": {
+        "id": "V3057344",
+        "indicator": "THE",
+        "type": "AGE-SCALE",
+        "word": "AGE",
+        "roles": {
+          "FIGURE": "#V3057359",
+          "LEX": "AGE",
+          "WNSENSE": "age%1:07:00::"
+        },
+        "start": 35,
+        "end": 50
+      },
+      "V3057359": {
+        "id": "V3057359",
+        "indicator": "THE",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "NUMBER": "17",
+          "LEX": "SEVENTEEN"
+        },
+        "start": 43,
+        "end": 50
+      },
+      "root": "#V3057637"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+506",
+    "*last-utt-id*=506  utt-id+506",
+    "*last-utt-id*=506  utt-id+NIL"
+  ]
+}

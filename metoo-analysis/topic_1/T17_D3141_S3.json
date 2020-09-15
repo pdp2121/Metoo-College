@@ -1,0 +1,107 @@
+{
+  "parse": [
+    {
+      "V1882661": {
+        "id": "V1882661",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1882426",
+          "LEX": "DOUBT"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1882426": {
+        "id": "V1882426",
+        "indicator": "F",
+        "type": "DOUBT",
+        "word": "DOUBT",
+        "roles": {
+          "EXPERIENCER": "#V1882401",
+          "FORMAL": "#V1882471",
+          "TIME": "#V1882414",
+          "TENSE": "PRES",
+          "LEX": "DOUBT",
+          "WNSENSE": "doubt%2:31:00::"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V1882401": {
+        "id": "V1882401",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1882414": {
+        "id": "V1882414",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "STILL",
+        "roles": {
+          "FIGURE": "#V1882426",
+          "LEX": "STILL",
+          "WNSENSE": "still%4:02:01::"
+        },
+        "start": 2,
+        "end": 8
+      },
+      "V1882471": {
+        "id": "V1882471",
+        "indicator": "F",
+        "type": "CLAUSE-CONDITION",
+        "word": "IF",
+        "roles": {
+          "CONTENT": "#V1882455",
+          "LEX": "DID"
+        },
+        "start": 14,
+        "end": 22
+      },
+      "V1882455": {
+        "id": "V1882455",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V1882441",
+          "TENSE": "PAST",
+          "MODALITY": "(:* DO DO)",
+          "LEX": "DID"
+        },
+        "start": 17,
+        "end": 22
+      },
+      "V1882441": {
+        "id": "V1882441",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V1882426"
+        },
+        "start": 17,
+        "end": 20
+      },
+      "root": "#V1882661"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+310",
+    "*last-utt-id*=310  utt-id+NIL"
+  ]
+}

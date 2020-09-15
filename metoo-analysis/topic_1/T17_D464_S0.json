@@ -1,0 +1,94 @@
+{
+  "parse": [
+    {
+      "V2436135": {
+        "id": "V2436135",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2435390",
+          "LEX": "DRUGGED"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V2435390": {
+        "id": "V2435390",
+        "indicator": "F",
+        "type": "CURE",
+        "word": "DRUGGED",
+        "roles": {
+          "FREQUENCY": "#V2435472",
+          "AFFECTED": "#V2435324",
+          "LOCATION": "#V2435404",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "DRUGGED",
+          "WNSENSE": "bring_around%2:29:01"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V2435324": {
+        "id": "V2435324",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2435404": {
+        "id": "V2435404",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V2435463",
+          "FIGURE": "#V2435390",
+          "LEX": "AT"
+        },
+        "start": 14,
+        "end": 23
+      },
+      "V2435463": {
+        "id": "V2435463",
+        "indicator": "A",
+        "type": "BAR-MEASURE",
+        "word": "BAR",
+        "roles": {
+          "LEX": "BAR",
+          "WNSENSE": "bar%1:10:00::"
+        },
+        "start": 17,
+        "end": 23
+      },
+      "V2435472": {
+        "id": "V2435472",
+        "indicator": "F",
+        "type": "REPETITION",
+        "word": "ONCE",
+        "roles": {
+          "FIGURE": "#V2435390",
+          "LEX": "ONCE",
+          "WNSENSE": "once%4:02:00::"
+        },
+        "start": 23,
+        "end": 28
+      },
+      "root": "#V2436135"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+420",
+    "*last-utt-id*=420  utt-id+NIL"
+  ]
+}

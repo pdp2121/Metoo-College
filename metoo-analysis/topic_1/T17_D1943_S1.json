@@ -1,0 +1,108 @@
+{
+  "parse": [
+    {
+      "V2302387": {
+        "id": "V2302387",
+        "indicator": "F",
+        "type": "FILL-CONTAINER",
+        "word": "FUEL",
+        "roles": {
+          "AFFECTED": "#V2302503",
+          "TIME": "#V2302375",
+          "VFORM": "PASSIVE",
+          "LEX": "FUELED",
+          "WNSENSE": "fill%2:30:01"
+        },
+        "start": 0,
+        "end": 49
+      },
+      "V2302375": {
+        "id": "V2302375",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "STILL",
+        "roles": {
+          "FIGURE": "#V2302387",
+          "LEX": "STILL",
+          "WNSENSE": "still%4:02:01::"
+        },
+        "start": 0,
+        "end": 6
+      },
+      "V2302503": {
+        "id": "V2302503",
+        "indicator": "BARE",
+        "type": "BELIEVE",
+        "word": "THINK",
+        "roles": {
+          "FORMAL": "#V2302489",
+          "MOD": "#V2302520",
+          "LEX": "THINKING",
+          "WNSENSE": "think%2:31:01::"
+        },
+        "start": 13,
+        "end": 49
+      },
+      "V2302489": {
+        "id": "V2302489",
+        "indicator": "A",
+        "type": "MANNER-SAY",
+        "word": "RAGE",
+        "roles": {
+          "MOD": "#V2302482",
+          "LEX": "RAGE",
+          "WNSENSE": "whisper%2:32:00"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V2302482": {
+        "id": "V2302482",
+        "indicator": "F",
+        "type": "WARM",
+        "word": "HOT",
+        "roles": {
+          "FIGURE": "#V2302489",
+          "SCALE": "HEAT-SCALE",
+          "LEX": "HOT",
+          "WNSENSE": "hot%5:00:00:warm:03"
+        },
+        "start": 20,
+        "end": 24
+      },
+      "V2302520": {
+        "id": "V2302520",
+        "indicator": "F",
+        "type": "ASSOCIATED-INFORMATION",
+        "word": "ABOUT",
+        "roles": {
+          "GROUND": "#V2302576",
+          "FIGURE": "#V2302503",
+          "LEX": "ABOUT",
+          "WNSENSE": "about%4:02:00::"
+        },
+        "start": 38,
+        "end": 49
+      },
+      "V2302576": {
+        "id": "V2302576",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "THIS",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "THIS",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 44,
+        "end": 49
+      },
+      "root": "#V2302387"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+418",
+    "*last-utt-id*=418  utt-id+NIL"
+  ]
+}

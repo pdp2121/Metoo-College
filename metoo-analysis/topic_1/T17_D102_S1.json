@@ -1,0 +1,178 @@
+{
+  "parse": [
+    {
+      "V1195085": {
+        "id": "V1195085",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1191511",
+          "LEX": "STOPPED"
+        },
+        "start": 0,
+        "end": 56
+      },
+      "V1191511": {
+        "id": "V1191511",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "STOP",
+        "roles": {
+          "AGENT": "#V1191493",
+          "AFFECTED": "#V1195043",
+          "FREQUENCY": "#V1191500",
+          "TENSE": "PAST",
+          "LEX": "STOPPED",
+          "WNSENSE": "stop%2:38:00::"
+        },
+        "start": 0,
+        "end": 56
+      },
+      "V1191493": {
+        "id": "V1191493",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V1191531"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V1191500": {
+        "id": "V1191500",
+        "indicator": "F",
+        "type": "NEVER",
+        "word": "NEVER",
+        "roles": {
+          "FIGURE": "#V1191511",
+          "LEX": "NEVER",
+          "WNSENSE": "never%4:02:00::"
+        },
+        "start": 3,
+        "end": 9
+      },
+      "V1195043": {
+        "id": "V1195043",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1191535"
+        },
+        "start": 17,
+        "end": 56
+      },
+      "V1191535": {
+        "id": "V1191535",
+        "indicator": "THE-SET",
+        "type": "YEAR",
+        "word": "YEAR",
+        "roles": {
+          "SIZE": "#V1191531",
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": [
+            "#V1191596",
+            "#V1191525"
+          ],
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:01::"
+        },
+        "start": 17,
+        "end": 56
+      },
+      "V1191525": {
+        "id": "V1191525",
+        "indicator": "F",
+        "type": "WHOLE-COMPLETE",
+        "word": "WHOLE",
+        "roles": {
+          "FIGURE": "#V1191535",
+          "SCALE": "COMPLETE-SCALE",
+          "LEX": "WHOLE",
+          "WNSENSE": "whole%3:00:00::"
+        },
+        "start": 21,
+        "end": 28
+      },
+      "V1191531": {
+        "id": "V1191531",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "5"
+        },
+        "start": 28,
+        "end": 30
+      },
+      "V1191596": {
+        "id": "V1191596",
+        "indicator": "F",
+        "type": "ENDURING",
+        "word": "LIVED-WITH",
+        "roles": {
+          "AGENT": "#V1191553",
+          "BENEFICIARY": "#V1191617",
+          "TENSE": "PAST",
+          "LEX": "LIVED-WITH",
+          "WNSENSE": "live_with%2:31:00"
+        },
+        "start": 36,
+        "end": 56
+      },
+      "V1191553": {
+        "id": "V1191553",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 36,
+        "end": 38
+      },
+      "V1191617": {
+        "id": "V1191617",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "MOM",
+        "roles": {
+          "ASSOC-POSS": "#V1191613",
+          "LEX": "MOM",
+          "WNSENSE": "mom%1:18:00::"
+        },
+        "start": 49,
+        "end": 56
+      },
+      "V1191613": {
+        "id": "V1191613",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 49,
+        "end": 56
+      },
+      "root": "#V1195085"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+199",
+    "*last-utt-id*=199  utt-id+NIL"
+  ]
+}

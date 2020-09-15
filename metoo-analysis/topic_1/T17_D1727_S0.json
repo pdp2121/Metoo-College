@@ -1,0 +1,136 @@
+{
+  "parse": [
+    {
+      "V2852999": {
+        "id": "V2852999",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2845918",
+          "LEX": "WALKING"
+        },
+        "start": 0,
+        "end": 44
+      },
+      "V2845918": {
+        "id": "V2845918",
+        "indicator": "SM",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "QUANTITY": "#V2845904",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2845902",
+          "MOD": [
+            "#V2845933",
+            "#V2845912"
+          ],
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 0,
+        "end": 44
+      },
+      "V2845902": {
+        "id": "V2845902",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "9"
+        },
+        "start": 0,
+        "end": 44
+      },
+      "V2845904": {
+        "id": "V2845904",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2845902",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V2845912": {
+        "id": "V2845912",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V2845918",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 11,
+        "end": 15
+      },
+      "V2845933": {
+        "id": "V2845933",
+        "indicator": "F",
+        "type": "DESTINATION-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2845951",
+          "FIGURE": "#V2845918",
+          "LEX": "TO"
+        },
+        "start": 23,
+        "end": 44
+      },
+      "V2845951": {
+        "id": "V2845951",
+        "indicator": "BARE",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "SCHOOL",
+        "roles": {
+          "LOCATION": "#V2845959",
+          "LEX": "SCHOOL",
+          "WNSENSE": "school%1:14:00::"
+        },
+        "start": 26,
+        "end": 44
+      },
+      "V2845959": {
+        "id": "V2845959",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V2846062",
+          "FIGURE": "#V2845951",
+          "LEX": "IN"
+        },
+        "start": 33,
+        "end": 44
+      },
+      "V2846062": {
+        "id": "V2846062",
+        "indicator": "A",
+        "type": "GROUP-OBJECT",
+        "word": "GROUP",
+        "roles": {
+          "LEX": "GROUP",
+          "WNSENSE": "group%1:03:00::"
+        },
+        "start": 36,
+        "end": 44
+      },
+      "root": "#V2852999"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+476",
+    "*last-utt-id*=476  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "parse": [
+    {
+      "V2250741": {
+        "id": "V2250741",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2250346",
+          "LEX": "INVALIDATED"
+        },
+        "start": 0,
+        "end": 41
+      },
+      "V2250346": {
+        "id": "V2250346",
+        "indicator": "F",
+        "type": "CANCEL",
+        "word": "INVALIDATED",
+        "roles": {
+          "AGENT": "#V2250717",
+          "AFFECTED": "#V2250366",
+          "TENSE": "PAST",
+          "LEX": "INVALIDATED",
+          "WNSENSE": "call_off%2:41:00"
+        },
+        "start": 0,
+        "end": 41
+      },
+      "V2250717": {
+        "id": "V2250717",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2250326"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V2250326": {
+        "id": "V2250326",
+        "indicator": "A",
+        "type": "HEALTH-PROFESSIONAL",
+        "word": "DOCTOR",
+        "roles": {
+          "MOD": "#V2250331",
+          "LEX": "DOCTOR",
+          "WNSENSE": "doctor%1:18:00::"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V2250331": {
+        "id": "V2250331",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V2250341",
+          "FIGURE": "#V2250326",
+          "LEX": "OF"
+        },
+        "start": 9,
+        "end": 23
+      },
+      "V2250341": {
+        "id": "V2250341",
+        "indicator": "BARE",
+        "type": "SCIENCE-DISCIPLINE",
+        "word": "PSYCHOLOGY",
+        "roles": {
+          "LEX": "PSYCHOLOGY",
+          "WNSENSE": "psychology%1:09:00::"
+        },
+        "start": 12,
+        "end": 23
+      },
+      "V2250366": {
+        "id": "V2250366",
+        "indicator": "BARE",
+        "type": "ATTACK",
+        "word": "ASSAULT",
+        "roles": {
+          "LEX": "ASSAULT",
+          "WNSENSE": "assault%2:33:00::"
+        },
+        "start": 35,
+        "end": 41
+      },
+      "root": "#V2250741"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+394",
+    "*last-utt-id*=394  utt-id+NIL"
+  ]
+}

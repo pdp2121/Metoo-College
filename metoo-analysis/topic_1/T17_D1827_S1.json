@@ -1,0 +1,188 @@
+{
+  "parse": [
+    {
+      "V960873": {
+        "id": "V960873",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V954675",
+          "LEX": "WITNESSED"
+        },
+        "start": 0,
+        "end": 37
+      },
+      "V954675": {
+        "id": "V954675",
+        "indicator": "F",
+        "type": "SCRUTINY",
+        "word": "WITNESS",
+        "roles": {
+          "AGENT": "#V954670",
+          "NEUTRAL": "#V954703",
+          "BENEFICIARY": "#V954686",
+          "TIME": "#V955448",
+          "TENSE": "PAST",
+          "LEX": "WITNESSED"
+        },
+        "start": 0,
+        "end": 37
+      },
+      "V955448": {
+        "id": "V955448",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V954675",
+          "GROUND": "#V955556"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V955556": {
+        "id": "V955556",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V955214",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V955214": {
+        "id": "V955214",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(I)",
+          "VAL": "(I)",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V954670": {
+        "id": "V954670",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "VE",
+        "roles": {
+          "ASSOC-WITH": "#V954665",
+          "LEX": "VE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 2,
+        "end": 7
+      },
+      "V954665": {
+        "id": "V954665",
+        "indicator": "KIND",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u2019",
+        "roles": {
+          "LEX": "\u2019",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 2,
+        "end": 7
+      },
+      "V954686": {
+        "id": "V954686",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V954679",
+          "SEQUENCE1": "#V954696",
+          "LEX": "AND"
+        },
+        "start": 17,
+        "end": 27
+      },
+      "V954679": {
+        "id": "V954679",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V955214"
+        },
+        "start": 17,
+        "end": 20
+      },
+      "V954696": {
+        "id": "V954696",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V955214"
+        },
+        "start": 24,
+        "end": 27
+      },
+      "V954703": {
+        "id": "V954703",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u2019",
+        "roles": {
+          "IDENTIFIED-AS": "#V954706",
+          "MOD": "#V954723",
+          "LEX": "\u2019",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 27,
+        "end": 37
+      },
+      "V954706": {
+        "id": "V954706",
+        "indicator": "THE",
+        "type": "LETTER-SYMBOL",
+        "word": null,
+        "roles": {
+          "NAME-OF": "S",
+          "LEX": "S",
+          "WNSENSE": "s%1:10:00::"
+        },
+        "start": 29,
+        "end": 31
+      },
+      "V954723": {
+        "id": "V954723",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "WRONG",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V954703",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "WRONG",
+          "WNSENSE": "wrong%3:00:04::"
+        },
+        "start": 31,
+        "end": 37
+      },
+      "root": "#V960873"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+173",
+    "*last-utt-id*=173  utt-id+NIL"
+  ]
+}

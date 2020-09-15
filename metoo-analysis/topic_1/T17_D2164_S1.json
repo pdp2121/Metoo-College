@@ -1,0 +1,69 @@
+{
+  "parse": [
+    {
+      "V1967618": {
+        "id": "V1967618",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1967165",
+          "LEX": "LIST"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V1967165": {
+        "id": "V1967165",
+        "indicator": "BARE",
+        "type": "LIST",
+        "word": "LIST",
+        "roles": {
+          "MOD": [
+            "#V1967269",
+            "#V1967159"
+          ],
+          "LEX": "LIST",
+          "WNSENSE": "list%1:10:00::"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V1967159": {
+        "id": "V1967159",
+        "indicator": "F",
+        "type": "PRIMARY",
+        "word": "IMPORTANT",
+        "roles": {
+          "FIGURE": "#V1967165",
+          "SCALE": "IMPORTANT-SCALE",
+          "LEX": "IMPORTANT",
+          "WNSENSE": "important%3:00:00::"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V1967269": {
+        "id": "V1967269",
+        "indicator": "F",
+        "type": "TRANSFER",
+        "word": "PASS-ON",
+        "roles": {
+          "AFFECTED": "#V1967165",
+          "VFORM": "BASE",
+          "LEX": "PASS-ON",
+          "WNSENSE": "pass_on%2:40:01"
+        },
+        "start": 15,
+        "end": 26
+      },
+      "root": "#V1967618"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+362",
+    "*last-utt-id*=362  utt-id+NIL"
+  ]
+}

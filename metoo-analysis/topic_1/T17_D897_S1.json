@@ -1,0 +1,146 @@
+{
+  "parse": [
+    {
+      "V1616404": {
+        "id": "V1616404",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1616060",
+          "LEX": "TOOK"
+        },
+        "start": 0,
+        "end": 37
+      },
+      "V1616060": {
+        "id": "V1616060",
+        "indicator": "F",
+        "type": "ACQUIRE",
+        "word": "TAKE",
+        "roles": {
+          "RESULT": "#V1616099",
+          "AGENT": "#V1616031",
+          "AFFECTED": "#V1616091",
+          "MOD": "#V1616011",
+          "TENSE": "PAST",
+          "LEX": "TOOK"
+        },
+        "start": 0,
+        "end": 37
+      },
+      "V1616011": {
+        "id": "V1616011",
+        "indicator": "F",
+        "type": "CHOICE-OPTION",
+        "word": "INSTEAD-OF",
+        "roles": {
+          "GROUND": "#V1616028",
+          "FIGURE": "#V1616060",
+          "LEX": "INSTEAD-OF"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V1616028": {
+        "id": "V1616028",
+        "indicator": "THE",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "ROOM",
+        "roles": {
+          "ASSOC-POSS": "#V1616025",
+          "LEX": "ROOM",
+          "WNSENSE": "room%1:06:00::"
+        },
+        "start": 11,
+        "end": 19
+      },
+      "V1616025": {
+        "id": "V1616025",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 11,
+        "end": 19
+      },
+      "V1616031": {
+        "id": "V1616031",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 19,
+        "end": 22
+      },
+      "V1616091": {
+        "id": "V1616091",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 27,
+        "end": 30
+      },
+      "V1616099": {
+        "id": "V1616099",
+        "indicator": "F",
+        "type": "RESULTING-OBJECT",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1616122",
+          "FIGURE": "#V1616091",
+          "LEX": "TO"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V1616122": {
+        "id": "V1616122",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "HIS",
+          "ASSOC-POSS": "#V1616151",
+          "LEX": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 33,
+        "end": 37
+      },
+      "V1616151": {
+        "id": "V1616151",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "PROFORM": "HIS"
+        },
+        "start": 33,
+        "end": 37
+      },
+      "root": "#V1616404"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+315",
+    "*last-utt-id*=315  utt-id+NIL"
+  ]
+}

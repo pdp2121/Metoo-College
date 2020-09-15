@@ -1,0 +1,241 @@
+{
+  "parse": [
+    {
+      "V581327": {
+        "id": "V581327",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V577684",
+          "LEX": "WAITING"
+        },
+        "start": 0,
+        "end": 86
+      },
+      "V577684": {
+        "id": "V577684",
+        "indicator": "BARE",
+        "type": "WAIT-WATCH",
+        "word": "WAIT",
+        "roles": {
+          "TIME": [
+            "#V577471",
+            "#V578432",
+            "#V577638"
+          ],
+          "LOCATION": "#V577562",
+          "NEUTRAL": "#V577727",
+          "LEX": "WAITING"
+        },
+        "start": 0,
+        "end": 86
+      },
+      "V577471": {
+        "id": "V577471",
+        "indicator": "F",
+        "type": "IN-PAST",
+        "word": "ONCE",
+        "roles": {
+          "FIGURE": "#V577684",
+          "LEX": "ONCE",
+          "WNSENSE": "once%4:02:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V578432": {
+        "id": "V578432",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V577480",
+          "SEQUENCE1": "#V577550",
+          "OPERATOR": "AND",
+          "LEX": "ONCE",
+          "WNSENSE": "once%4:02:00::"
+        },
+        "start": 5,
+        "end": 33
+      },
+      "V577480": {
+        "id": "V577480",
+        "indicator": "F",
+        "type": "AFTER",
+        "word": "AFTER",
+        "roles": {
+          "GROUND": "#V577535",
+          "FIGURE": "#V577684",
+          "LEX": "AFTER",
+          "WNSENSE": "after%4:02:01::"
+        },
+        "start": 5,
+        "end": 24
+      },
+      "V577535": {
+        "id": "V577535",
+        "indicator": "A",
+        "type": "GATHERING-EVENT",
+        "word": "PARTY",
+        "roles": {
+          "ASSOC-WITH": "#V577531",
+          "LEX": "PARTY",
+          "WNSENSE": "party%1:14:00::"
+        },
+        "start": 11,
+        "end": 24
+      },
+      "V577531": {
+        "id": "V577531",
+        "indicator": "KIND",
+        "type": "ORGANIZATION",
+        "word": "FRAT",
+        "roles": {
+          "LEX": "FRAT",
+          "WNSENSE": "frat%1:14:00::"
+        },
+        "start": 11,
+        "end": 24
+      },
+      "V577550": {
+        "id": "V577550",
+        "indicator": "F",
+        "type": "IN-PAST",
+        "word": "ONCE",
+        "roles": {
+          "FIGURE": "#V577684",
+          "LEX": "ONCE",
+          "WNSENSE": "once%4:02:00::"
+        },
+        "start": 28,
+        "end": 33
+      },
+      "V577562": {
+        "id": "V577562",
+        "indicator": "F",
+        "type": "POS-AFTER-IN-TRAJECTORY",
+        "word": "AFTER",
+        "roles": {
+          "GROUND": "#V578202",
+          "FIGURE": "#V577684",
+          "LEX": "AFTER"
+        },
+        "start": 33,
+        "end": 51
+      },
+      "V578202": {
+        "id": "V578202",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUANTITY": "#V577608",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "AMOUNT": "#V577580",
+          "MOD": "#V577625",
+          "LEX": "NIGHT"
+        },
+        "start": 39,
+        "end": 51
+      },
+      "V577580": {
+        "id": "V577580",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 39,
+        "end": 51
+      },
+      "V577608": {
+        "id": "V577608",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "AMOUNT": "#V577580",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 39,
+        "end": 47
+      },
+      "V577625": {
+        "id": "V577625",
+        "indicator": "F",
+        "type": "NOT-IN-WORKING-ORDER-VAL",
+        "word": "OUT",
+        "roles": {
+          "FIGURE": "#V578202",
+          "SCALE": "FUNCTIONALITY-SCALE",
+          "LEX": "OUT",
+          "WNSENSE": "broken%5:00:00:damaged:00"
+        },
+        "start": 47,
+        "end": 51
+      },
+      "V577638": {
+        "id": "V577638",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V577675",
+          "FIGURE": "#V577684",
+          "LEX": "AT"
+        },
+        "start": 51,
+        "end": 68
+      },
+      "V577675": {
+        "id": "V577675",
+        "indicator": "THE",
+        "type": "TIME-INTERVAL",
+        "word": "WHILE",
+        "roles": {
+          "ASSOC-WITH": "#V577665",
+          "LEX": "WHILE",
+          "WNSENSE": "while%1:28:00::"
+        },
+        "start": 54,
+        "end": 68
+      },
+      "V577665": {
+        "id": "V577665",
+        "indicator": "KIND",
+        "type": "BAR-MEASURE",
+        "word": "BAR",
+        "roles": {
+          "LEX": "BAR",
+          "WNSENSE": "bar%1:10:00::"
+        },
+        "start": 54,
+        "end": 68
+      },
+      "V577727": {
+        "id": "V577727",
+        "indicator": "THE",
+        "type": "LAND-VEHICLE",
+        "word": "BUS",
+        "roles": {
+          "LEX": "BUS",
+          "WNSENSE": "bus%1:06:01::"
+        },
+        "start": 76,
+        "end": 86
+      },
+      "root": "#V581327"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+99",
+    "*last-utt-id*=99  utt-id+NIL"
+  ]
+}

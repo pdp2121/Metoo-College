@@ -1,0 +1,104 @@
+{
+  "parse": [
+    {
+      "V1179394": {
+        "id": "V1179394",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1177504",
+          "LEX": "COMPLEX"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V1177504": {
+        "id": "V1177504",
+        "indicator": "BARE",
+        "type": "MACROMOLECULAR-COMPLEX",
+        "word": "COMPLEX",
+        "roles": {
+          "MOD": [
+            "#V1177515",
+            "#V1177494"
+          ],
+          "LEX": "COMPLEX",
+          "WNSENSE": "complex%1:27:00::"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V1177494": {
+        "id": "V1177494",
+        "indicator": "F",
+        "type": "LIVE",
+        "word": "LIVE",
+        "roles": {
+          "AFFECTED": "#V1177504",
+          "LEX": "LIVED",
+          "WNSENSE": "live%2:42:06::"
+        },
+        "start": 0,
+        "end": 6
+      },
+      "V1177515": {
+        "id": "V1177515",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V1177625",
+          "FIGURE": "#V1177504",
+          "LEX": "FOR"
+        },
+        "start": 14,
+        "end": 26
+      },
+      "V1177625": {
+        "id": "V1177625",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V1177542",
+          "LEX": "YEARS"
+        },
+        "start": 19,
+        "end": 26
+      },
+      "V1177542": {
+        "id": "V1177542",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V1177540",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 19,
+        "end": 26
+      },
+      "V1177540": {
+        "id": "V1177540",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "20"
+        },
+        "start": 19,
+        "end": 26
+      },
+      "root": "#V1179394"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=226  utt-id+227",
+    "*last-utt-id*=227  utt-id+NIL"
+  ]
+}

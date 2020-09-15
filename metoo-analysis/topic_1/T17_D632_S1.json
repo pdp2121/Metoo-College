@@ -1,0 +1,114 @@
+{
+  "parse": [
+    {
+      "V1291317": {
+        "id": "V1291317",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1290811",
+          "LEX": "WELCOME"
+        },
+        "start": 0,
+        "end": 32
+      },
+      "V1290811": {
+        "id": "V1290811",
+        "indicator": "BARE",
+        "type": "WELCOME",
+        "word": "WELCOME",
+        "roles": {
+          "RESULT": "#V1290823",
+          "LEX": "WELCOME",
+          "WNSENSE": "welcome%2:32:00::"
+        },
+        "start": 0,
+        "end": 32
+      },
+      "V1290823": {
+        "id": "V1290823",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1291076",
+          "LEX": "TO"
+        },
+        "start": 8,
+        "end": 32
+      },
+      "V1291076": {
+        "id": "V1291076",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1290888"
+        },
+        "start": 11,
+        "end": 32
+      },
+      "V1290888": {
+        "id": "V1290888",
+        "indicator": "THE",
+        "type": "AGE-SCALE",
+        "word": "AGE",
+        "roles": {
+          "ASSOC-WITH": "#V1290877",
+          "SCALE": "TIME-MEASURE-SCALE",
+          "LEX": "AGE",
+          "WNSENSE": "age%1:07:00::"
+        },
+        "start": 11,
+        "end": 32
+      },
+      "V1290877": {
+        "id": "V1290877",
+        "indicator": "KIND",
+        "type": "NATURAL-OBJECT",
+        "word": "STONE",
+        "roles": {
+          "MOD": "#V1290872",
+          "LEX": "STONE",
+          "WNSENSE": "stone%1:17:00::"
+        },
+        "start": 11,
+        "end": 32
+      },
+      "V1290872": {
+        "id": "V1290872",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "GROUND": "#V1290912",
+          "FIGURE": "#V1290877",
+          "LEX": "MUSLIM",
+          "WNSENSE": "muslim%3:01:00::"
+        },
+        "start": 15,
+        "end": 22
+      },
+      "V1290912": {
+        "id": "V1290912",
+        "indicator": "KIND",
+        "type": "REFERENTIAL-SEM",
+        "word": "ISLAMISM",
+        "roles": {},
+        "start": 15,
+        "end": 22
+      },
+      "root": "#V1291317"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "pertainym sense info is: SENSE-INFO ((:WN-SENSE-KEYS (\"islamism%1:09:00::\"))",
+    "                                     (:PENN-PARTS-OF-SPEECH (PARSER::NNP)",
+    "                                      :TRIPS-PARTS-OF-SPEECH (W::NAME))) LF: ONT::REFERENTIAL-SEM LF-FORM: (W::ISLAMISM) domain info: NIL",
+    "*last-utt-id*=NIL  utt-id+251",
+    "*last-utt-id*=251  utt-id+NIL"
+  ]
+}

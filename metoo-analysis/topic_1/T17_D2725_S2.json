@@ -1,0 +1,180 @@
+{
+  "parse": [
+    {
+      "V2730204": {
+        "id": "V2730204",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2723930",
+          "LEX": "KEEP"
+        },
+        "start": 0,
+        "end": 61
+      },
+      "V2723930": {
+        "id": "V2723930",
+        "indicator": "F",
+        "type": "MAINTAIN-KEEP",
+        "word": "KEEP",
+        "roles": {
+          "AGENT": "#V2723910",
+          "FORMAL": "#V2723943",
+          "TENSE": "PRES",
+          "LEX": "KEEP",
+          "WNSENSE": "keep%2:42:00::"
+        },
+        "start": 0,
+        "end": 61
+      },
+      "V2723910": {
+        "id": "V2723910",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2723943": {
+        "id": "V2723943",
+        "indicator": "F",
+        "type": "BELIEVE",
+        "word": "THINK",
+        "roles": {
+          "EXPERIENCER": "#V2723910",
+          "FORMAL": "#V2723969",
+          "VFORM": "ING",
+          "LEX": "THINKING",
+          "WNSENSE": "think%2:31:01::"
+        },
+        "start": 7,
+        "end": 61
+      },
+      "V2723969": {
+        "id": "V2723969",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V2724146",
+          "NEUTRAL1": "#V2723981",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 16,
+        "end": 61
+      },
+      "V2724146": {
+        "id": "V2724146",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2723959"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V2723959": {
+        "id": "V2723959",
+        "indicator": "PRO",
+        "type": "EXPLETIVE",
+        "word": null,
+        "roles": {
+          "PROFORM": "THERE",
+          "LEX": "THERE"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V2723981": {
+        "id": "V2723981",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "SOMETHING",
+        "roles": {
+          "SUCHTHAT": "#V2724022",
+          "PROFORM": "SOMETHING",
+          "LEX": "SOMETHING"
+        },
+        "start": 26,
+        "end": 61
+      },
+      "V2724022": {
+        "id": "V2724022",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2723997",
+          "AFFECTED": "#V2723981",
+          "FORMAL": "#V2724045",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 36,
+        "end": 61
+      },
+      "V2723997": {
+        "id": "V2723997",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 36,
+        "end": 38
+      },
+      "V2724045": {
+        "id": "V2724045",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V2723981",
+          "MOD": "#V2724058",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 49,
+        "end": 61
+      },
+      "V2724058": {
+        "id": "V2724058",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "BETTER",
+        "roles": {
+          "FIGURE": "#V2724045",
+          "LEX": "BETTER",
+          "WNSENSE": "better%4:02:00::"
+        },
+        "start": 54,
+        "end": 61
+      },
+      "root": "#V2730204"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+515",
+    "*last-utt-id*=515  utt-id+NIL"
+  ]
+}

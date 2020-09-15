@@ -1,0 +1,213 @@
+{
+  "parse": [
+    {
+      "V1001498": {
+        "id": "V1001498",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V999130",
+          "LEX": "FLATTERED"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V999130": {
+        "id": "V999130",
+        "indicator": "F",
+        "type": "FLATTER",
+        "word": "FLATTER",
+        "roles": {
+          "AFFECTED": "#V999089",
+          "TIME": "#V999133",
+          "TENSE": "PRES",
+          "NEGATION": "+",
+          "PASSIVE": "+",
+          "LEX": "FLATTERED",
+          "WNSENSE": "flatter%2:32:00::"
+        },
+        "start": 0,
+        "end": 90
+      },
+      "V999089": {
+        "id": "V999089",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "LEX": "WOMEN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 0,
+        "end": 6
+      },
+      "V999133": {
+        "id": "V999133",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V999166",
+          "FIGURE": "#V999130",
+          "LEX": "WHEN"
+        },
+        "start": 24,
+        "end": 90
+      },
+      "V999166": {
+        "id": "V999166",
+        "indicator": "F",
+        "type": "ESTABLISH-COMMUNICATION",
+        "word": "CALL",
+        "roles": {
+          "AGENT": "#V999154",
+          "AGENT1": "#V999179",
+          "TIME": "#V999192",
+          "TENSE": "PRES",
+          "LEX": "CALL",
+          "WNSENSE": "call%2:32:01::"
+        },
+        "start": 29,
+        "end": 90
+      },
+      "V999154": {
+        "id": "V999154",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "MOD": [
+            "#V999146",
+            "#V999151"
+          ],
+          "LEX": "MEN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 29,
+        "end": 48
+      },
+      "V999146": {
+        "id": "V999146",
+        "indicator": "F",
+        "type": "RANDOM-VAL",
+        "word": "RANDOM",
+        "roles": {
+          "FIGURE": "#V999154",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "RANDOM",
+          "WNSENSE": "random%3:00:00::"
+        },
+        "start": 29,
+        "end": 36
+      },
+      "V999151": {
+        "id": "V999151",
+        "indicator": "F",
+        "type": "STRANGE",
+        "word": "STRANGE",
+        "roles": {
+          "ORIENTATION": "LESS",
+          "INTENSITY": "MED",
+          "FIGURE": "#V999154",
+          "SCALE": "NOT-TYPICAL-SCALE",
+          "LEX": "STRANGE",
+          "WNSENSE": "strange%3:00:00::"
+        },
+        "start": 36,
+        "end": 44
+      },
+      "V999179": {
+        "id": "V999179",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEM",
+        "roles": {
+          "PROFORM": "THEM",
+          "LEX": "THEM",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V999089"
+        },
+        "start": 53,
+        "end": 58
+      },
+      "V999192": {
+        "id": "V999192",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "BY",
+        "roles": {
+          "GROUND": "#V999215",
+          "FIGURE": "#V999166",
+          "LEX": "BY",
+          "WNSENSE": "by%4:02:00::"
+        },
+        "start": 58,
+        "end": 90
+      },
+      "V999215": {
+        "id": "V999215",
+        "indicator": "INDEF-SET",
+        "type": "TIME-INTERVAL",
+        "word": "TERM",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": [
+            "#V999221",
+            "#V999210"
+          ],
+          "LEX": "TERMS",
+          "WNSENSE": "term%1:28:00::"
+        },
+        "start": 61,
+        "end": 90
+      },
+      "V999210": {
+        "id": "V999210",
+        "indicator": "F",
+        "type": "FAMILIAR-VAL",
+        "word": "FAMILIAR",
+        "roles": {
+          "FIGURE": "#V999215",
+          "SCALE": "FAMILIAR-SCALE",
+          "LEX": "FAMILIAR",
+          "WNSENSE": "familiar%3:00:00::"
+        },
+        "start": 61,
+        "end": 70
+      },
+      "V999221": {
+        "id": "V999221",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V999235",
+          "FIGURE": "#V999215",
+          "LEX": "OF"
+        },
+        "start": 76,
+        "end": 90
+      },
+      "V999235": {
+        "id": "V999235",
+        "indicator": "BARE",
+        "type": "ACTIVITY-EVENT",
+        "word": "ENDEARMENT",
+        "roles": {
+          "LEX": "ENDEARMENT",
+          "WNSENSE": "endearment%1:04:00::"
+        },
+        "start": 79,
+        "end": 90
+      },
+      "root": "#V1001498"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+161",
+    "*last-utt-id*=161  utt-id+NIL"
+  ]
+}

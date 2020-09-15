@@ -1,0 +1,153 @@
+{
+  "parse": [
+    {
+      "V2674058": {
+        "id": "V2674058",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2673379",
+          "LEX": "RUINED"
+        },
+        "start": 0,
+        "end": 54
+      },
+      "V2673379": {
+        "id": "V2673379",
+        "indicator": "F",
+        "type": "DESTROY",
+        "word": "RUIN",
+        "roles": {
+          "AGENT": "#V2673365",
+          "AFFECTED": "#V2673434",
+          "TIME": "#V2673913",
+          "TENSE": "PAST",
+          "LEX": "RUINED",
+          "WNSENSE": "ruin%1:04:00::"
+        },
+        "start": 0,
+        "end": 54
+      },
+      "V2673365": {
+        "id": "V2673365",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2673434": {
+        "id": "V2673434",
+        "indicator": "A",
+        "type": "ATTIRE",
+        "word": "DRESS",
+        "roles": {
+          "MOD": "#V2673423",
+          "LEX": "DRESS",
+          "WNSENSE": "dress%1:06:00::"
+        },
+        "start": 9,
+        "end": 22
+      },
+      "V2673423": {
+        "id": "V2673423",
+        "indicator": "F",
+        "type": "GOOD",
+        "word": "NICE",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "MED",
+          "FIGURE": "#V2673434",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "NICE",
+          "WNSENSE": "nice%3:00:00::"
+        },
+        "start": 11,
+        "end": 16
+      },
+      "V2673913": {
+        "id": "V2673913",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2673379",
+          "GROUND": "#V2673440",
+          "LEX": "CLIMBING"
+        },
+        "start": 22,
+        "end": 54
+      },
+      "V2673440": {
+        "id": "V2673440",
+        "indicator": "F",
+        "type": "LOCOMOTE-UP",
+        "word": "CLIMB",
+        "roles": {
+          "RESULT": "#V2673445",
+          "VFORM": "ING",
+          "LEX": "CLIMBING",
+          "WNSENSE": "climb%2:38:00::"
+        },
+        "start": 22,
+        "end": 54
+      },
+      "V2673445": {
+        "id": "V2673445",
+        "indicator": "F",
+        "type": "THROUGH",
+        "word": "THROUGH",
+        "roles": {
+          "GROUND": "#V2673502",
+          "LEX": "THROUGH",
+          "WNSENSE": "through%4:02:01::"
+        },
+        "start": 31,
+        "end": 54
+      },
+      "V2673502": {
+        "id": "V2673502",
+        "indicator": "A",
+        "type": "STRUCTURAL-OPENING",
+        "word": "WINDOW",
+        "roles": {
+          "MOD": "#V2673498",
+          "LEX": "WINDOW",
+          "WNSENSE": "window%1:06:01::"
+        },
+        "start": 39,
+        "end": 54
+      },
+      "V2673498": {
+        "id": "V2673498",
+        "indicator": "F",
+        "type": "SMALL",
+        "word": "SMALL",
+        "roles": {
+          "ORIENTATION": "LESS",
+          "INTENSITY": "MED",
+          "FIGURE": "#V2673502",
+          "SCALE": "SIZE-SCALE",
+          "LEX": "SMALL",
+          "WNSENSE": "small%3:00:00::"
+        },
+        "start": 41,
+        "end": 47
+      },
+      "root": "#V2674058"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+476",
+    "*last-utt-id*=476  utt-id+NIL"
+  ]
+}

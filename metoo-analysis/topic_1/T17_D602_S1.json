@@ -1,0 +1,147 @@
+{
+  "parse": [
+    {
+      "V872800": {
+        "id": "V872800",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V872797",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 46
+      },
+      "V872797": {
+        "id": "V872797",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V870755"
+        },
+        "start": 0,
+        "end": 46
+      },
+      "V870755": {
+        "id": "V870755",
+        "indicator": "BARE",
+        "type": "ATTIRE",
+        "word": "SHIRT",
+        "roles": {
+          "ASSOC-WITH": "#V870748",
+          "MOD": "#V870789",
+          "LEX": "SHIRT",
+          "WNSENSE": "shirt%1:06:00::"
+        },
+        "start": 0,
+        "end": 46
+      },
+      "V870748": {
+        "id": "V870748",
+        "indicator": "KIND",
+        "type": "CHEMICAL",
+        "word": "T",
+        "roles": {
+          "WNSENSE": "t%1:27:01::"
+        },
+        "start": 0,
+        "end": 46
+      },
+      "V870789": {
+        "id": "V870789",
+        "indicator": "F",
+        "type": "REMIND",
+        "word": "REMIND",
+        "roles": {
+          "AGENT1": "#V870804",
+          "FORMAL": "#V870839",
+          "VFORM": "BASE",
+          "LEX": "REMIND",
+          "WNSENSE": "remind%2:31:00::"
+        },
+        "start": 11,
+        "end": 46
+      },
+      "V870804": {
+        "id": "V870804",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 21,
+        "end": 25
+      },
+      "V870839": {
+        "id": "V870839",
+        "indicator": "F",
+        "type": "CONTROL-MANAGE",
+        "word": "TREAT",
+        "roles": {
+          "EVALUATION": "#V870847",
+          "AGENT": "#V870804",
+          "AFFECTED": "#V870755",
+          "MOD": "#V870927",
+          "VFORM": "BASE",
+          "LEX": "TREAT",
+          "WNSENSE": "control%2:41:00"
+        },
+        "start": 25,
+        "end": 46
+      },
+      "V870927": {
+        "id": "V870927",
+        "indicator": "F",
+        "type": "EXCLUSIVE",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V870839",
+          "GROUND": "#V870842",
+          "LEX": "YOURSELF"
+        },
+        "start": 34,
+        "end": 43
+      },
+      "V870842": {
+        "id": "V870842",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOURSELF",
+        "roles": {
+          "PROFORM": "YOURSELF",
+          "LEX": "YOURSELF",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 34,
+        "end": 43
+      },
+      "V870847": {
+        "id": "V870847",
+        "indicator": "F",
+        "type": "GOOD",
+        "word": "WELL",
+        "roles": {
+          "FIGURE": "#V870839",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "WELL",
+          "WNSENSE": "advantageous%3:00:00::"
+        },
+        "start": 43,
+        "end": 46
+      },
+      "root": "#V872800"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+175",
+    "*last-utt-id*=175  utt-id+NIL"
+  ]
+}

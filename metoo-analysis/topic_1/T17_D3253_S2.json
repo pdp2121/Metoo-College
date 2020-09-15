@@ -1,0 +1,184 @@
+{
+  "parse": [
+    {
+      "V192855": {
+        "id": "V192855",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V188180",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V188180": {
+        "id": "V188180",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "TIME": [
+            "#V188737",
+            "#V188142"
+          ],
+          "NEUTRAL": "#V188136",
+          "FORMAL": "#V188195",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V188737": {
+        "id": "V188737",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V188180",
+          "GROUND": "#V188825"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V188825": {
+        "id": "V188825",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V188577",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V188577": {
+        "id": "V188577",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(I)",
+          "VAL": "(I)",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V188136": {
+        "id": "V188136",
+        "indicator": "BARE",
+        "type": "CHEMICAL",
+        "word": "T",
+        "roles": {
+          "ASSOC-WITH": "#V188127",
+          "LEX": "T",
+          "WNSENSE": "t%1:27:01::"
+        },
+        "start": 2,
+        "end": 9
+      },
+      "V188127": {
+        "id": "V188127",
+        "indicator": "KIND",
+        "type": "REFERENTIAL-SEM",
+        "word": "DIDN",
+        "roles": {
+          "LEX": "DIDN",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 2,
+        "end": 9
+      },
+      "V188142": {
+        "id": "V188142",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "UNTIL",
+        "roles": {
+          "GROUND": "#V188699",
+          "FIGURE": "#V188180",
+          "LEX": "UNTIL"
+        },
+        "start": 9,
+        "end": 17
+      },
+      "V188699": {
+        "id": "V188699",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V188580",
+          "LEX": "I"
+        },
+        "start": 15,
+        "end": 17
+      },
+      "V188580": {
+        "id": "V188580",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(I)",
+          "VAL": "(I)",
+          "LEX": "I"
+        },
+        "start": 15,
+        "end": 17
+      },
+      "V188195": {
+        "id": "V188195",
+        "indicator": "F",
+        "type": "SITUATED-IN",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V188260",
+          "FIGURE": "#V188136",
+          "LEX": "IN"
+        },
+        "start": 21,
+        "end": 36
+      },
+      "V188260": {
+        "id": "V188260",
+        "indicator": "THE-SET",
+        "type": "LIFECYCLE-STAGE",
+        "word": "TWENTIES",
+        "roles": {
+          "ASSOC-POSS": "#V188256",
+          "LEX": "TWENTIES",
+          "WNSENSE": "twenties%1:28:00::"
+        },
+        "start": 24,
+        "end": 36
+      },
+      "V188256": {
+        "id": "V188256",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 24,
+        "end": 36
+      },
+      "root": "#V192855"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yetReference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+33",
+    "*last-utt-id*=33  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,5536 @@
+{
+  "parse": [
+    {
+      "V2306365": {
+        "id": "V2306365",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2306346",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2306346": {
+        "id": "V2306346",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2305805"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305805": {
+        "id": "V2305805",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "MOD": "#V2305799",
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305799": {
+        "id": "V2305799",
+        "indicator": "F",
+        "type": "SINGULARITY-VAL",
+        "word": "ONLY",
+        "roles": {
+          "FIGURE": "#V2305805",
+          "SCALE": "DOMAIN",
+          "LEX": "ONLY",
+          "WNSENSE": "only%5:00:00:single:05"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "root": "#V2306365"
+    },
+    {
+      "V2311574": {
+        "id": "V2311574",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305836",
+          "LEX": "TWEET"
+        },
+        "start": 15,
+        "end": 75
+      },
+      "V2306142": {
+        "id": "V2306142",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305808",
+          "FOCUS": "#V2305808",
+          "LEX": "WHO"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305808": {
+        "id": "V2305808",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305836": {
+        "id": "V2305836",
+        "indicator": "F",
+        "type": "NONVERBAL-SAY",
+        "word": "TWEET",
+        "roles": {
+          "AGENT": "#V2307058",
+          "REASON": "#V2305841",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "TWEET",
+          "WNSENSE": "signal%1:10:00"
+        },
+        "start": 19,
+        "end": 75
+      },
+      "V2307058": {
+        "id": "V2307058",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(T)",
+          "VAL": "(T)",
+          "LEX": "T"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V2305841": {
+        "id": "V2305841",
+        "indicator": "F",
+        "type": "REASON",
+        "word": "BECAUSE",
+        "roles": {
+          "GROUND": "#V2305894",
+          "FIGURE": "#V2305836",
+          "LEX": "BECAUSE"
+        },
+        "start": 31,
+        "end": 75
+      },
+      "V2305894": {
+        "id": "V2305894",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2305869",
+          "AFFECTED": "#V2305911",
+          "FORMAL": "#V2305923",
+          "TENSE": "PAST",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 39,
+        "end": 75
+      },
+      "V2305869": {
+        "id": "V2305869",
+        "indicator": "QUANTIFIER",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "QUAN": "NONE",
+          "OPERATOR": "OR",
+          "SEQUENCE": "#V2305866",
+          "SEQUENCE1": "#V2305878",
+          "LEX": "OR"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305878": {
+        "id": "V2305878",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305866": {
+        "id": "V2305866",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305911": {
+        "id": "V2305911",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "SAI",
+        "roles": {
+          "LEX": "SAI",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 66,
+        "end": 70
+      },
+      "V2305923": {
+        "id": "V2305923",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V2305911",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 70,
+        "end": 75
+      },
+      "root": "#V2311574"
+    },
+    {
+      "V2306944": {
+        "id": "V2306944",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2305931",
+          "LEX": "ANYTHING"
+        },
+        "start": 75,
+        "end": 96
+      },
+      "V2305931": {
+        "id": "V2305931",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "ANYTHING",
+        "roles": {
+          "PROFORM": "ANYTHING",
+          "MOD": "#V2305938",
+          "LEX": "ANYTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 75,
+        "end": 96
+      },
+      "V2305938": {
+        "id": "V2305938",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2305965",
+          "FIGURE": "#V2305931",
+          "LEX": "TO"
+        },
+        "start": 84,
+        "end": 96
+      },
+      "V2305965": {
+        "id": "V2305965",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "PIG",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "PIG",
+          "WNSENSE": "pig%1:05:00::",
+          "COREF": "#V2305805"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "root": "#V2306944"
+    },
+    {
+      "V2306365": {
+        "id": "V2306365",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2306346",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2306346": {
+        "id": "V2306346",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2305805"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305805": {
+        "id": "V2305805",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "MOD": "#V2305799",
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305799": {
+        "id": "V2305799",
+        "indicator": "F",
+        "type": "SINGULARITY-VAL",
+        "word": "ONLY",
+        "roles": {
+          "FIGURE": "#V2305805",
+          "SCALE": "DOMAIN",
+          "LEX": "ONLY",
+          "WNSENSE": "only%5:00:00:single:05"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "root": "#V2306365"
+    },
+    {
+      "V2311574": {
+        "id": "V2311574",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305836",
+          "LEX": "TWEET"
+        },
+        "start": 15,
+        "end": 75
+      },
+      "V2306142": {
+        "id": "V2306142",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305808",
+          "FOCUS": "#V2305808",
+          "LEX": "WHO"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305808": {
+        "id": "V2305808",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305836": {
+        "id": "V2305836",
+        "indicator": "F",
+        "type": "NONVERBAL-SAY",
+        "word": "TWEET",
+        "roles": {
+          "AGENT": "#V2307058",
+          "REASON": "#V2305841",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "TWEET",
+          "WNSENSE": "signal%1:10:00"
+        },
+        "start": 19,
+        "end": 75
+      },
+      "V2307058": {
+        "id": "V2307058",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(T)",
+          "VAL": "(T)",
+          "LEX": "T"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V2305841": {
+        "id": "V2305841",
+        "indicator": "F",
+        "type": "REASON",
+        "word": "BECAUSE",
+        "roles": {
+          "GROUND": "#V2305894",
+          "FIGURE": "#V2305836",
+          "LEX": "BECAUSE"
+        },
+        "start": 31,
+        "end": 75
+      },
+      "V2305894": {
+        "id": "V2305894",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2305869",
+          "AFFECTED": "#V2305911",
+          "FORMAL": "#V2305923",
+          "TENSE": "PAST",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 39,
+        "end": 75
+      },
+      "V2305869": {
+        "id": "V2305869",
+        "indicator": "QUANTIFIER",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "QUAN": "NONE",
+          "OPERATOR": "OR",
+          "SEQUENCE": "#V2305866",
+          "SEQUENCE1": "#V2305878",
+          "LEX": "OR"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305878": {
+        "id": "V2305878",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305866": {
+        "id": "V2305866",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305911": {
+        "id": "V2305911",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "SAI",
+        "roles": {
+          "LEX": "SAI",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 66,
+        "end": 70
+      },
+      "V2305923": {
+        "id": "V2305923",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V2305911",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 70,
+        "end": 75
+      },
+      "root": "#V2311574"
+    },
+    {
+      "V2306942": {
+        "id": "V2306942",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2305931",
+          "LEX": "ANYTHING"
+        },
+        "start": 75,
+        "end": 97
+      },
+      "V2305931": {
+        "id": "V2305931",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "ANYTHING",
+        "roles": {
+          "PROFORM": "ANYTHING",
+          "MOD": "#V2305939",
+          "LEX": "ANYTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 75,
+        "end": 96
+      },
+      "V2305939": {
+        "id": "V2305939",
+        "indicator": "F",
+        "type": "RESULTING-OBJECT",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2305965",
+          "FIGURE": "#V2305931",
+          "LEX": "TO"
+        },
+        "start": 84,
+        "end": 96
+      },
+      "V2305965": {
+        "id": "V2305965",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "PIG",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "PIG",
+          "WNSENSE": "pig%1:05:00::"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "root": "#V2306942"
+    },
+    {
+      "V2306365": {
+        "id": "V2306365",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2306346",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2306346": {
+        "id": "V2306346",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2305805"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305805": {
+        "id": "V2305805",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "MOD": "#V2305799",
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305799": {
+        "id": "V2305799",
+        "indicator": "F",
+        "type": "SINGULARITY-VAL",
+        "word": "ONLY",
+        "roles": {
+          "FIGURE": "#V2305805",
+          "SCALE": "DOMAIN",
+          "LEX": "ONLY",
+          "WNSENSE": "only%5:00:00:single:05"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "root": "#V2306365"
+    },
+    {
+      "V2311570": {
+        "id": "V2311570",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305836",
+          "LEX": "TWEET"
+        },
+        "start": 15,
+        "end": 75
+      },
+      "V2306142": {
+        "id": "V2306142",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305808",
+          "FOCUS": "#V2305808",
+          "LEX": "WHO"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305808": {
+        "id": "V2305808",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305836": {
+        "id": "V2305836",
+        "indicator": "F",
+        "type": "NONVERBAL-SAY",
+        "word": "TWEET",
+        "roles": {
+          "AGENT": "#V2307058",
+          "REASON": "#V2305841",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "TWEET",
+          "WNSENSE": "signal%1:10:00"
+        },
+        "start": 19,
+        "end": 75
+      },
+      "V2307058": {
+        "id": "V2307058",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(T)",
+          "VAL": "(T)",
+          "LEX": "T"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V2305841": {
+        "id": "V2305841",
+        "indicator": "F",
+        "type": "REASON",
+        "word": "BECAUSE",
+        "roles": {
+          "GROUND": "#V2305894",
+          "FIGURE": "#V2305836",
+          "LEX": "BECAUSE"
+        },
+        "start": 31,
+        "end": 75
+      },
+      "V2305894": {
+        "id": "V2305894",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2305869",
+          "AFFECTED": "#V2305911",
+          "FORMAL": "#V2305923",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 39,
+        "end": 75
+      },
+      "V2305869": {
+        "id": "V2305869",
+        "indicator": "QUANTIFIER",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "QUAN": "NONE",
+          "OPERATOR": "OR",
+          "SEQUENCE": "#V2305866",
+          "SEQUENCE1": "#V2305878",
+          "LEX": "OR"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305878": {
+        "id": "V2305878",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305866": {
+        "id": "V2305866",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305911": {
+        "id": "V2305911",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "SAI",
+        "roles": {
+          "LEX": "SAI",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 66,
+        "end": 70
+      },
+      "V2305923": {
+        "id": "V2305923",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V2305911",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 70,
+        "end": 75
+      },
+      "root": "#V2311570"
+    },
+    {
+      "V2306944": {
+        "id": "V2306944",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2305931",
+          "LEX": "ANYTHING"
+        },
+        "start": 75,
+        "end": 97
+      },
+      "V2305931": {
+        "id": "V2305931",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "ANYTHING",
+        "roles": {
+          "PROFORM": "ANYTHING",
+          "MOD": "#V2305938",
+          "LEX": "ANYTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 75,
+        "end": 96
+      },
+      "V2305938": {
+        "id": "V2305938",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2305965",
+          "FIGURE": "#V2305931",
+          "LEX": "TO"
+        },
+        "start": 84,
+        "end": 96
+      },
+      "V2305965": {
+        "id": "V2305965",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "PIG",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "PIG",
+          "WNSENSE": "pig%1:05:00::"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "root": "#V2306944"
+    },
+    {
+      "V2306365": {
+        "id": "V2306365",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2306346",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2306346": {
+        "id": "V2306346",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2305805"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305805": {
+        "id": "V2305805",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "MOD": "#V2305799",
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305799": {
+        "id": "V2305799",
+        "indicator": "F",
+        "type": "SINGULARITY-VAL",
+        "word": "ONLY",
+        "roles": {
+          "FIGURE": "#V2305805",
+          "SCALE": "DOMAIN",
+          "LEX": "ONLY",
+          "WNSENSE": "only%5:00:00:single:05"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "root": "#V2306365"
+    },
+    {
+      "V2311570": {
+        "id": "V2311570",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305836",
+          "LEX": "TWEET"
+        },
+        "start": 15,
+        "end": 75
+      },
+      "V2306142": {
+        "id": "V2306142",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305808",
+          "FOCUS": "#V2305808",
+          "LEX": "WHO"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305808": {
+        "id": "V2305808",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305836": {
+        "id": "V2305836",
+        "indicator": "F",
+        "type": "NONVERBAL-SAY",
+        "word": "TWEET",
+        "roles": {
+          "AGENT": "#V2307058",
+          "REASON": "#V2305841",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "TWEET",
+          "WNSENSE": "signal%1:10:00"
+        },
+        "start": 19,
+        "end": 75
+      },
+      "V2307058": {
+        "id": "V2307058",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(T)",
+          "VAL": "(T)",
+          "LEX": "T"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V2305841": {
+        "id": "V2305841",
+        "indicator": "F",
+        "type": "REASON",
+        "word": "BECAUSE",
+        "roles": {
+          "GROUND": "#V2305894",
+          "FIGURE": "#V2305836",
+          "LEX": "BECAUSE"
+        },
+        "start": 31,
+        "end": 75
+      },
+      "V2305894": {
+        "id": "V2305894",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2305869",
+          "AFFECTED": "#V2305911",
+          "FORMAL": "#V2305923",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 39,
+        "end": 75
+      },
+      "V2305869": {
+        "id": "V2305869",
+        "indicator": "QUANTIFIER",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "QUAN": "NONE",
+          "OPERATOR": "OR",
+          "SEQUENCE": "#V2305866",
+          "SEQUENCE1": "#V2305878",
+          "LEX": "OR"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305878": {
+        "id": "V2305878",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305866": {
+        "id": "V2305866",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305911": {
+        "id": "V2305911",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "SAI",
+        "roles": {
+          "LEX": "SAI",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 66,
+        "end": 70
+      },
+      "V2305923": {
+        "id": "V2305923",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V2305911",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 70,
+        "end": 75
+      },
+      "root": "#V2311570"
+    },
+    {
+      "V2306942": {
+        "id": "V2306942",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2305931",
+          "LEX": "ANYTHING"
+        },
+        "start": 75,
+        "end": 97
+      },
+      "V2305931": {
+        "id": "V2305931",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "ANYTHING",
+        "roles": {
+          "PROFORM": "ANYTHING",
+          "MOD": "#V2305939",
+          "LEX": "ANYTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 75,
+        "end": 96
+      },
+      "V2305939": {
+        "id": "V2305939",
+        "indicator": "F",
+        "type": "RESULTING-OBJECT",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2305965",
+          "FIGURE": "#V2305931",
+          "LEX": "TO"
+        },
+        "start": 84,
+        "end": 96
+      },
+      "V2305965": {
+        "id": "V2305965",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "PIG",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "PIG",
+          "WNSENSE": "pig%1:05:00::"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "root": "#V2306942"
+    },
+    {
+      "V2306372": {
+        "id": "V2306372",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305805",
+          "LEX": "WOMAN"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305805": {
+        "id": "V2305805",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "MOD": "#V2305799",
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305799": {
+        "id": "V2305799",
+        "indicator": "F",
+        "type": "SINGULARITY-VAL",
+        "word": "ONLY",
+        "roles": {
+          "FIGURE": "#V2305805",
+          "SCALE": "DOMAIN",
+          "LEX": "ONLY",
+          "WNSENSE": "only%5:00:00:single:05"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "root": "#V2306372"
+    },
+    {
+      "V2311574": {
+        "id": "V2311574",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305836",
+          "LEX": "TWEET"
+        },
+        "start": 15,
+        "end": 75
+      },
+      "V2306142": {
+        "id": "V2306142",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305808",
+          "FOCUS": "#V2305808",
+          "LEX": "WHO"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305808": {
+        "id": "V2305808",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305836": {
+        "id": "V2305836",
+        "indicator": "F",
+        "type": "NONVERBAL-SAY",
+        "word": "TWEET",
+        "roles": {
+          "AGENT": "#V2307058",
+          "REASON": "#V2305841",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "TWEET",
+          "WNSENSE": "signal%1:10:00"
+        },
+        "start": 19,
+        "end": 75
+      },
+      "V2307058": {
+        "id": "V2307058",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(T)",
+          "VAL": "(T)",
+          "LEX": "T"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V2305841": {
+        "id": "V2305841",
+        "indicator": "F",
+        "type": "REASON",
+        "word": "BECAUSE",
+        "roles": {
+          "GROUND": "#V2305894",
+          "FIGURE": "#V2305836",
+          "LEX": "BECAUSE"
+        },
+        "start": 31,
+        "end": 75
+      },
+      "V2305894": {
+        "id": "V2305894",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2305869",
+          "AFFECTED": "#V2305911",
+          "FORMAL": "#V2305923",
+          "TENSE": "PAST",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 39,
+        "end": 75
+      },
+      "V2305869": {
+        "id": "V2305869",
+        "indicator": "QUANTIFIER",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "QUAN": "NONE",
+          "OPERATOR": "OR",
+          "SEQUENCE": "#V2305866",
+          "SEQUENCE1": "#V2305878",
+          "LEX": "OR"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305878": {
+        "id": "V2305878",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305866": {
+        "id": "V2305866",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305911": {
+        "id": "V2305911",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "SAI",
+        "roles": {
+          "LEX": "SAI",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 66,
+        "end": 70
+      },
+      "V2305923": {
+        "id": "V2305923",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V2305911",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 70,
+        "end": 75
+      },
+      "root": "#V2311574"
+    },
+    {
+      "V2306944": {
+        "id": "V2306944",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2305931",
+          "LEX": "ANYTHING"
+        },
+        "start": 75,
+        "end": 97
+      },
+      "V2305931": {
+        "id": "V2305931",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "ANYTHING",
+        "roles": {
+          "PROFORM": "ANYTHING",
+          "MOD": "#V2305938",
+          "LEX": "ANYTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 75,
+        "end": 96
+      },
+      "V2305938": {
+        "id": "V2305938",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2305965",
+          "FIGURE": "#V2305931",
+          "LEX": "TO"
+        },
+        "start": 84,
+        "end": 96
+      },
+      "V2305965": {
+        "id": "V2305965",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "PIG",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "PIG",
+          "WNSENSE": "pig%1:05:00::"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "root": "#V2306944"
+    },
+    {
+      "V2306372": {
+        "id": "V2306372",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305805",
+          "LEX": "WOMAN"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305805": {
+        "id": "V2305805",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "MOD": "#V2305799",
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305799": {
+        "id": "V2305799",
+        "indicator": "F",
+        "type": "SINGULARITY-VAL",
+        "word": "ONLY",
+        "roles": {
+          "FIGURE": "#V2305805",
+          "SCALE": "DOMAIN",
+          "LEX": "ONLY",
+          "WNSENSE": "only%5:00:00:single:05"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "root": "#V2306372"
+    },
+    {
+      "V2311574": {
+        "id": "V2311574",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305836",
+          "LEX": "TWEET"
+        },
+        "start": 15,
+        "end": 75
+      },
+      "V2306142": {
+        "id": "V2306142",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305808",
+          "FOCUS": "#V2305808",
+          "LEX": "WHO"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305808": {
+        "id": "V2305808",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305836": {
+        "id": "V2305836",
+        "indicator": "F",
+        "type": "NONVERBAL-SAY",
+        "word": "TWEET",
+        "roles": {
+          "AGENT": "#V2307058",
+          "REASON": "#V2305841",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "TWEET",
+          "WNSENSE": "signal%1:10:00"
+        },
+        "start": 19,
+        "end": 75
+      },
+      "V2307058": {
+        "id": "V2307058",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(T)",
+          "VAL": "(T)",
+          "LEX": "T"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V2305841": {
+        "id": "V2305841",
+        "indicator": "F",
+        "type": "REASON",
+        "word": "BECAUSE",
+        "roles": {
+          "GROUND": "#V2305894",
+          "FIGURE": "#V2305836",
+          "LEX": "BECAUSE"
+        },
+        "start": 31,
+        "end": 75
+      },
+      "V2305894": {
+        "id": "V2305894",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2305869",
+          "AFFECTED": "#V2305911",
+          "FORMAL": "#V2305923",
+          "TENSE": "PAST",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 39,
+        "end": 75
+      },
+      "V2305869": {
+        "id": "V2305869",
+        "indicator": "QUANTIFIER",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "QUAN": "NONE",
+          "OPERATOR": "OR",
+          "SEQUENCE": "#V2305866",
+          "SEQUENCE1": "#V2305878",
+          "LEX": "OR"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305878": {
+        "id": "V2305878",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305866": {
+        "id": "V2305866",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305911": {
+        "id": "V2305911",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "SAI",
+        "roles": {
+          "LEX": "SAI",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 66,
+        "end": 70
+      },
+      "V2305923": {
+        "id": "V2305923",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V2305911",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 70,
+        "end": 75
+      },
+      "root": "#V2311574"
+    },
+    {
+      "V2306942": {
+        "id": "V2306942",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2305931",
+          "LEX": "ANYTHING"
+        },
+        "start": 75,
+        "end": 97
+      },
+      "V2305931": {
+        "id": "V2305931",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "ANYTHING",
+        "roles": {
+          "PROFORM": "ANYTHING",
+          "MOD": "#V2305939",
+          "LEX": "ANYTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 75,
+        "end": 96
+      },
+      "V2305939": {
+        "id": "V2305939",
+        "indicator": "F",
+        "type": "RESULTING-OBJECT",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2305965",
+          "FIGURE": "#V2305931",
+          "LEX": "TO"
+        },
+        "start": 84,
+        "end": 96
+      },
+      "V2305965": {
+        "id": "V2305965",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "PIG",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "PIG",
+          "WNSENSE": "pig%1:05:00::"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "root": "#V2306942"
+    },
+    {
+      "V2306372": {
+        "id": "V2306372",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305805",
+          "LEX": "WOMAN"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305805": {
+        "id": "V2305805",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "MOD": "#V2305799",
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305799": {
+        "id": "V2305799",
+        "indicator": "F",
+        "type": "SINGULARITY-VAL",
+        "word": "ONLY",
+        "roles": {
+          "FIGURE": "#V2305805",
+          "SCALE": "DOMAIN",
+          "LEX": "ONLY",
+          "WNSENSE": "only%5:00:00:single:05"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "root": "#V2306372"
+    },
+    {
+      "V2311570": {
+        "id": "V2311570",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305836",
+          "LEX": "TWEET"
+        },
+        "start": 15,
+        "end": 75
+      },
+      "V2306142": {
+        "id": "V2306142",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305808",
+          "FOCUS": "#V2305808",
+          "LEX": "WHO"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305808": {
+        "id": "V2305808",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305836": {
+        "id": "V2305836",
+        "indicator": "F",
+        "type": "NONVERBAL-SAY",
+        "word": "TWEET",
+        "roles": {
+          "AGENT": "#V2307058",
+          "REASON": "#V2305841",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "TWEET",
+          "WNSENSE": "signal%1:10:00"
+        },
+        "start": 19,
+        "end": 75
+      },
+      "V2307058": {
+        "id": "V2307058",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(T)",
+          "VAL": "(T)",
+          "LEX": "T"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V2305841": {
+        "id": "V2305841",
+        "indicator": "F",
+        "type": "REASON",
+        "word": "BECAUSE",
+        "roles": {
+          "GROUND": "#V2305894",
+          "FIGURE": "#V2305836",
+          "LEX": "BECAUSE"
+        },
+        "start": 31,
+        "end": 75
+      },
+      "V2305894": {
+        "id": "V2305894",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2305869",
+          "AFFECTED": "#V2305911",
+          "FORMAL": "#V2305923",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 39,
+        "end": 75
+      },
+      "V2305869": {
+        "id": "V2305869",
+        "indicator": "QUANTIFIER",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "QUAN": "NONE",
+          "OPERATOR": "OR",
+          "SEQUENCE": "#V2305866",
+          "SEQUENCE1": "#V2305878",
+          "LEX": "OR"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305878": {
+        "id": "V2305878",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305866": {
+        "id": "V2305866",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305911": {
+        "id": "V2305911",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "SAI",
+        "roles": {
+          "LEX": "SAI",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 66,
+        "end": 70
+      },
+      "V2305923": {
+        "id": "V2305923",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V2305911",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 70,
+        "end": 75
+      },
+      "root": "#V2311570"
+    },
+    {
+      "V2306944": {
+        "id": "V2306944",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2305931",
+          "LEX": "ANYTHING"
+        },
+        "start": 75,
+        "end": 97
+      },
+      "V2305931": {
+        "id": "V2305931",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "ANYTHING",
+        "roles": {
+          "PROFORM": "ANYTHING",
+          "MOD": "#V2305938",
+          "LEX": "ANYTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 75,
+        "end": 96
+      },
+      "V2305938": {
+        "id": "V2305938",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2305965",
+          "FIGURE": "#V2305931",
+          "LEX": "TO"
+        },
+        "start": 84,
+        "end": 96
+      },
+      "V2305965": {
+        "id": "V2305965",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "PIG",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "PIG",
+          "WNSENSE": "pig%1:05:00::"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "root": "#V2306944"
+    },
+    {
+      "V2306372": {
+        "id": "V2306372",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305805",
+          "LEX": "WOMAN"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305805": {
+        "id": "V2305805",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "MOD": "#V2305799",
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305799": {
+        "id": "V2305799",
+        "indicator": "F",
+        "type": "SINGULARITY-VAL",
+        "word": "ONLY",
+        "roles": {
+          "FIGURE": "#V2305805",
+          "SCALE": "DOMAIN",
+          "LEX": "ONLY",
+          "WNSENSE": "only%5:00:00:single:05"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "root": "#V2306372"
+    },
+    {
+      "V2311570": {
+        "id": "V2311570",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305836",
+          "LEX": "TWEET"
+        },
+        "start": 15,
+        "end": 75
+      },
+      "V2306142": {
+        "id": "V2306142",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305808",
+          "FOCUS": "#V2305808",
+          "LEX": "WHO"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305808": {
+        "id": "V2305808",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305836": {
+        "id": "V2305836",
+        "indicator": "F",
+        "type": "NONVERBAL-SAY",
+        "word": "TWEET",
+        "roles": {
+          "AGENT": "#V2307058",
+          "REASON": "#V2305841",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "TWEET",
+          "WNSENSE": "signal%1:10:00"
+        },
+        "start": 19,
+        "end": 75
+      },
+      "V2307058": {
+        "id": "V2307058",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(T)",
+          "VAL": "(T)",
+          "LEX": "T"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V2305841": {
+        "id": "V2305841",
+        "indicator": "F",
+        "type": "REASON",
+        "word": "BECAUSE",
+        "roles": {
+          "GROUND": "#V2305894",
+          "FIGURE": "#V2305836",
+          "LEX": "BECAUSE"
+        },
+        "start": 31,
+        "end": 75
+      },
+      "V2305894": {
+        "id": "V2305894",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2305869",
+          "AFFECTED": "#V2305911",
+          "FORMAL": "#V2305923",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 39,
+        "end": 75
+      },
+      "V2305869": {
+        "id": "V2305869",
+        "indicator": "QUANTIFIER",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "QUAN": "NONE",
+          "OPERATOR": "OR",
+          "SEQUENCE": "#V2305866",
+          "SEQUENCE1": "#V2305878",
+          "LEX": "OR"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305878": {
+        "id": "V2305878",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305866": {
+        "id": "V2305866",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305911": {
+        "id": "V2305911",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "SAI",
+        "roles": {
+          "LEX": "SAI",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 66,
+        "end": 70
+      },
+      "V2305923": {
+        "id": "V2305923",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V2305911",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 70,
+        "end": 75
+      },
+      "root": "#V2311570"
+    },
+    {
+      "V2306942": {
+        "id": "V2306942",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2305931",
+          "LEX": "ANYTHING"
+        },
+        "start": 75,
+        "end": 97
+      },
+      "V2305931": {
+        "id": "V2305931",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "ANYTHING",
+        "roles": {
+          "PROFORM": "ANYTHING",
+          "MOD": "#V2305939",
+          "LEX": "ANYTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 75,
+        "end": 96
+      },
+      "V2305939": {
+        "id": "V2305939",
+        "indicator": "F",
+        "type": "RESULTING-OBJECT",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2305965",
+          "FIGURE": "#V2305931",
+          "LEX": "TO"
+        },
+        "start": 84,
+        "end": 96
+      },
+      "V2305965": {
+        "id": "V2305965",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "PIG",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "PIG",
+          "WNSENSE": "pig%1:05:00::"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "root": "#V2306942"
+    },
+    {
+      "V2306365": {
+        "id": "V2306365",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2306346",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2306346": {
+        "id": "V2306346",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2305805"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305805": {
+        "id": "V2305805",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "MOD": "#V2305799",
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305799": {
+        "id": "V2305799",
+        "indicator": "F",
+        "type": "SINGULARITY-VAL",
+        "word": "ONLY",
+        "roles": {
+          "FIGURE": "#V2305805",
+          "SCALE": "DOMAIN",
+          "LEX": "ONLY",
+          "WNSENSE": "only%5:00:00:single:05"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "root": "#V2306365"
+    },
+    {
+      "V2311574": {
+        "id": "V2311574",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305836",
+          "LEX": "TWEET"
+        },
+        "start": 15,
+        "end": 75
+      },
+      "V2306142": {
+        "id": "V2306142",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305808",
+          "FOCUS": "#V2305808",
+          "LEX": "WHO"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305808": {
+        "id": "V2305808",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305836": {
+        "id": "V2305836",
+        "indicator": "F",
+        "type": "NONVERBAL-SAY",
+        "word": "TWEET",
+        "roles": {
+          "AGENT": "#V2307058",
+          "REASON": "#V2305841",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "TWEET",
+          "WNSENSE": "signal%1:10:00"
+        },
+        "start": 19,
+        "end": 75
+      },
+      "V2307058": {
+        "id": "V2307058",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(T)",
+          "VAL": "(T)",
+          "LEX": "T"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V2305841": {
+        "id": "V2305841",
+        "indicator": "F",
+        "type": "REASON",
+        "word": "BECAUSE",
+        "roles": {
+          "GROUND": "#V2305894",
+          "FIGURE": "#V2305836",
+          "LEX": "BECAUSE"
+        },
+        "start": 31,
+        "end": 75
+      },
+      "V2305894": {
+        "id": "V2305894",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2305869",
+          "AFFECTED": "#V2305911",
+          "FORMAL": "#V2305923",
+          "TENSE": "PAST",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 39,
+        "end": 75
+      },
+      "V2305869": {
+        "id": "V2305869",
+        "indicator": "QUANTIFIER",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "QUAN": "NONE",
+          "OPERATOR": "OR",
+          "SEQUENCE": "#V2305866",
+          "SEQUENCE1": "#V2305878",
+          "LEX": "OR"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305878": {
+        "id": "V2305878",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305866": {
+        "id": "V2305866",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305911": {
+        "id": "V2305911",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "SAI",
+        "roles": {
+          "LEX": "SAI",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 66,
+        "end": 70
+      },
+      "V2305923": {
+        "id": "V2305923",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V2305911",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 70,
+        "end": 75
+      },
+      "root": "#V2311574"
+    },
+    {
+      "V2306961": {
+        "id": "V2306961",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2305931",
+          "LEX": "ANYTHING"
+        },
+        "start": 75,
+        "end": 97
+      },
+      "V2305931": {
+        "id": "V2305931",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "ANYTHING",
+        "roles": {
+          "PROFORM": "ANYTHING",
+          "MOD": "#V2305938",
+          "LEX": "ANYTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 75,
+        "end": 96
+      },
+      "V2305938": {
+        "id": "V2305938",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2306151",
+          "FIGURE": "#V2305931",
+          "LEX": "TO"
+        },
+        "start": 84,
+        "end": 96
+      },
+      "V2306151": {
+        "id": "V2306151",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2305965"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "V2305965": {
+        "id": "V2305965",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "PIG",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "PIG",
+          "WNSENSE": "pig%1:05:00::"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "root": "#V2306961"
+    },
+    {
+      "V2306365": {
+        "id": "V2306365",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2306346",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2306346": {
+        "id": "V2306346",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2305805"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305805": {
+        "id": "V2305805",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "MOD": "#V2305799",
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305799": {
+        "id": "V2305799",
+        "indicator": "F",
+        "type": "SINGULARITY-VAL",
+        "word": "ONLY",
+        "roles": {
+          "FIGURE": "#V2305805",
+          "SCALE": "DOMAIN",
+          "LEX": "ONLY",
+          "WNSENSE": "only%5:00:00:single:05"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "root": "#V2306365"
+    },
+    {
+      "V2311570": {
+        "id": "V2311570",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305836",
+          "LEX": "TWEET"
+        },
+        "start": 15,
+        "end": 75
+      },
+      "V2306142": {
+        "id": "V2306142",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305808",
+          "FOCUS": "#V2305808",
+          "LEX": "WHO"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305808": {
+        "id": "V2305808",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305836": {
+        "id": "V2305836",
+        "indicator": "F",
+        "type": "NONVERBAL-SAY",
+        "word": "TWEET",
+        "roles": {
+          "AGENT": "#V2307058",
+          "REASON": "#V2305841",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "TWEET",
+          "WNSENSE": "signal%1:10:00"
+        },
+        "start": 19,
+        "end": 75
+      },
+      "V2307058": {
+        "id": "V2307058",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(T)",
+          "VAL": "(T)",
+          "LEX": "T"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V2305841": {
+        "id": "V2305841",
+        "indicator": "F",
+        "type": "REASON",
+        "word": "BECAUSE",
+        "roles": {
+          "GROUND": "#V2305894",
+          "FIGURE": "#V2305836",
+          "LEX": "BECAUSE"
+        },
+        "start": 31,
+        "end": 75
+      },
+      "V2305894": {
+        "id": "V2305894",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2305869",
+          "AFFECTED": "#V2305911",
+          "FORMAL": "#V2305923",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 39,
+        "end": 75
+      },
+      "V2305869": {
+        "id": "V2305869",
+        "indicator": "QUANTIFIER",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "QUAN": "NONE",
+          "OPERATOR": "OR",
+          "SEQUENCE": "#V2305866",
+          "SEQUENCE1": "#V2305878",
+          "LEX": "OR"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305878": {
+        "id": "V2305878",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305866": {
+        "id": "V2305866",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305911": {
+        "id": "V2305911",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "SAI",
+        "roles": {
+          "LEX": "SAI",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 66,
+        "end": 70
+      },
+      "V2305923": {
+        "id": "V2305923",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V2305911",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 70,
+        "end": 75
+      },
+      "root": "#V2311570"
+    },
+    {
+      "V2306961": {
+        "id": "V2306961",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2305931",
+          "LEX": "ANYTHING"
+        },
+        "start": 75,
+        "end": 97
+      },
+      "V2305931": {
+        "id": "V2305931",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "ANYTHING",
+        "roles": {
+          "PROFORM": "ANYTHING",
+          "MOD": "#V2305938",
+          "LEX": "ANYTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 75,
+        "end": 96
+      },
+      "V2305938": {
+        "id": "V2305938",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2306151",
+          "FIGURE": "#V2305931",
+          "LEX": "TO"
+        },
+        "start": 84,
+        "end": 96
+      },
+      "V2306151": {
+        "id": "V2306151",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2305965"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "V2305965": {
+        "id": "V2305965",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "PIG",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "PIG",
+          "WNSENSE": "pig%1:05:00::"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "root": "#V2306961"
+    },
+    {
+      "V2306372": {
+        "id": "V2306372",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305805",
+          "LEX": "WOMAN"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305805": {
+        "id": "V2305805",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "MOD": "#V2305799",
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305799": {
+        "id": "V2305799",
+        "indicator": "F",
+        "type": "SINGULARITY-VAL",
+        "word": "ONLY",
+        "roles": {
+          "FIGURE": "#V2305805",
+          "SCALE": "DOMAIN",
+          "LEX": "ONLY",
+          "WNSENSE": "only%5:00:00:single:05"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "root": "#V2306372"
+    },
+    {
+      "V2311574": {
+        "id": "V2311574",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305836",
+          "LEX": "TWEET"
+        },
+        "start": 15,
+        "end": 75
+      },
+      "V2306142": {
+        "id": "V2306142",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305808",
+          "FOCUS": "#V2305808",
+          "LEX": "WHO"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305808": {
+        "id": "V2305808",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305836": {
+        "id": "V2305836",
+        "indicator": "F",
+        "type": "NONVERBAL-SAY",
+        "word": "TWEET",
+        "roles": {
+          "AGENT": "#V2307058",
+          "REASON": "#V2305841",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "TWEET",
+          "WNSENSE": "signal%1:10:00"
+        },
+        "start": 19,
+        "end": 75
+      },
+      "V2307058": {
+        "id": "V2307058",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(T)",
+          "VAL": "(T)",
+          "LEX": "T"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V2305841": {
+        "id": "V2305841",
+        "indicator": "F",
+        "type": "REASON",
+        "word": "BECAUSE",
+        "roles": {
+          "GROUND": "#V2305894",
+          "FIGURE": "#V2305836",
+          "LEX": "BECAUSE"
+        },
+        "start": 31,
+        "end": 75
+      },
+      "V2305894": {
+        "id": "V2305894",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2305869",
+          "AFFECTED": "#V2305911",
+          "FORMAL": "#V2305923",
+          "TENSE": "PAST",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 39,
+        "end": 75
+      },
+      "V2305869": {
+        "id": "V2305869",
+        "indicator": "QUANTIFIER",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "QUAN": "NONE",
+          "OPERATOR": "OR",
+          "SEQUENCE": "#V2305866",
+          "SEQUENCE1": "#V2305878",
+          "LEX": "OR"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305878": {
+        "id": "V2305878",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305866": {
+        "id": "V2305866",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305911": {
+        "id": "V2305911",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "SAI",
+        "roles": {
+          "LEX": "SAI",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 66,
+        "end": 70
+      },
+      "V2305923": {
+        "id": "V2305923",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V2305911",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 70,
+        "end": 75
+      },
+      "root": "#V2311574"
+    },
+    {
+      "V2306961": {
+        "id": "V2306961",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2305931",
+          "LEX": "ANYTHING"
+        },
+        "start": 75,
+        "end": 97
+      },
+      "V2305931": {
+        "id": "V2305931",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "ANYTHING",
+        "roles": {
+          "PROFORM": "ANYTHING",
+          "MOD": "#V2305938",
+          "LEX": "ANYTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 75,
+        "end": 96
+      },
+      "V2305938": {
+        "id": "V2305938",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2306151",
+          "FIGURE": "#V2305931",
+          "LEX": "TO"
+        },
+        "start": 84,
+        "end": 96
+      },
+      "V2306151": {
+        "id": "V2306151",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2305965"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "V2305965": {
+        "id": "V2305965",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "PIG",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "PIG",
+          "WNSENSE": "pig%1:05:00::"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "root": "#V2306961"
+    },
+    {
+      "V2306372": {
+        "id": "V2306372",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305805",
+          "LEX": "WOMAN"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305805": {
+        "id": "V2305805",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "MOD": "#V2305799",
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305799": {
+        "id": "V2305799",
+        "indicator": "F",
+        "type": "SINGULARITY-VAL",
+        "word": "ONLY",
+        "roles": {
+          "FIGURE": "#V2305805",
+          "SCALE": "DOMAIN",
+          "LEX": "ONLY",
+          "WNSENSE": "only%5:00:00:single:05"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "root": "#V2306372"
+    },
+    {
+      "V2311570": {
+        "id": "V2311570",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305836",
+          "LEX": "TWEET"
+        },
+        "start": 15,
+        "end": 75
+      },
+      "V2306142": {
+        "id": "V2306142",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305808",
+          "FOCUS": "#V2305808",
+          "LEX": "WHO"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305808": {
+        "id": "V2305808",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305836": {
+        "id": "V2305836",
+        "indicator": "F",
+        "type": "NONVERBAL-SAY",
+        "word": "TWEET",
+        "roles": {
+          "AGENT": "#V2307058",
+          "REASON": "#V2305841",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "TWEET",
+          "WNSENSE": "signal%1:10:00"
+        },
+        "start": 19,
+        "end": 75
+      },
+      "V2307058": {
+        "id": "V2307058",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(T)",
+          "VAL": "(T)",
+          "LEX": "T"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V2305841": {
+        "id": "V2305841",
+        "indicator": "F",
+        "type": "REASON",
+        "word": "BECAUSE",
+        "roles": {
+          "GROUND": "#V2305894",
+          "FIGURE": "#V2305836",
+          "LEX": "BECAUSE"
+        },
+        "start": 31,
+        "end": 75
+      },
+      "V2305894": {
+        "id": "V2305894",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2305869",
+          "AFFECTED": "#V2305911",
+          "FORMAL": "#V2305923",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 39,
+        "end": 75
+      },
+      "V2305869": {
+        "id": "V2305869",
+        "indicator": "QUANTIFIER",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "QUAN": "NONE",
+          "OPERATOR": "OR",
+          "SEQUENCE": "#V2305866",
+          "SEQUENCE1": "#V2305878",
+          "LEX": "OR"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305878": {
+        "id": "V2305878",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305866": {
+        "id": "V2305866",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305911": {
+        "id": "V2305911",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "SAI",
+        "roles": {
+          "LEX": "SAI",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 66,
+        "end": 70
+      },
+      "V2305923": {
+        "id": "V2305923",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V2305911",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 70,
+        "end": 75
+      },
+      "root": "#V2311570"
+    },
+    {
+      "V2306961": {
+        "id": "V2306961",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2305931",
+          "LEX": "ANYTHING"
+        },
+        "start": 75,
+        "end": 97
+      },
+      "V2305931": {
+        "id": "V2305931",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "ANYTHING",
+        "roles": {
+          "PROFORM": "ANYTHING",
+          "MOD": "#V2305938",
+          "LEX": "ANYTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 75,
+        "end": 96
+      },
+      "V2305938": {
+        "id": "V2305938",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2306151",
+          "FIGURE": "#V2305931",
+          "LEX": "TO"
+        },
+        "start": 84,
+        "end": 96
+      },
+      "V2306151": {
+        "id": "V2306151",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2305965"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "V2305965": {
+        "id": "V2305965",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "PIG",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "PIG",
+          "WNSENSE": "pig%1:05:00::"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "root": "#V2306961"
+    },
+    {
+      "V2306365": {
+        "id": "V2306365",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2306346",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2306346": {
+        "id": "V2306346",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2305805"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305805": {
+        "id": "V2305805",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "MOD": "#V2305799",
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305799": {
+        "id": "V2305799",
+        "indicator": "F",
+        "type": "SINGULARITY-VAL",
+        "word": "ONLY",
+        "roles": {
+          "FIGURE": "#V2305805",
+          "SCALE": "DOMAIN",
+          "LEX": "ONLY",
+          "WNSENSE": "only%5:00:00:single:05"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "root": "#V2306365"
+    },
+    {
+      "V2311574": {
+        "id": "V2311574",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305836",
+          "LEX": "TWEET"
+        },
+        "start": 15,
+        "end": 75
+      },
+      "V2306142": {
+        "id": "V2306142",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305808",
+          "FOCUS": "#V2305808",
+          "LEX": "WHO"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305808": {
+        "id": "V2305808",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305836": {
+        "id": "V2305836",
+        "indicator": "F",
+        "type": "NONVERBAL-SAY",
+        "word": "TWEET",
+        "roles": {
+          "AGENT": "#V2307058",
+          "REASON": "#V2305841",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "TWEET",
+          "WNSENSE": "signal%1:10:00"
+        },
+        "start": 19,
+        "end": 75
+      },
+      "V2307058": {
+        "id": "V2307058",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(T)",
+          "VAL": "(T)",
+          "LEX": "T"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V2305841": {
+        "id": "V2305841",
+        "indicator": "F",
+        "type": "REASON",
+        "word": "BECAUSE",
+        "roles": {
+          "GROUND": "#V2305894",
+          "FIGURE": "#V2305836",
+          "LEX": "BECAUSE"
+        },
+        "start": 31,
+        "end": 75
+      },
+      "V2305894": {
+        "id": "V2305894",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2305869",
+          "AFFECTED": "#V2305911",
+          "FORMAL": "#V2305923",
+          "TENSE": "PAST",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 39,
+        "end": 75
+      },
+      "V2305869": {
+        "id": "V2305869",
+        "indicator": "QUANTIFIER",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "QUAN": "NONE",
+          "OPERATOR": "OR",
+          "SEQUENCE": "#V2305866",
+          "SEQUENCE1": "#V2305878",
+          "LEX": "OR"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305878": {
+        "id": "V2305878",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305866": {
+        "id": "V2305866",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305911": {
+        "id": "V2305911",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "SAI",
+        "roles": {
+          "LEX": "SAI",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 66,
+        "end": 70
+      },
+      "V2305923": {
+        "id": "V2305923",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V2305911",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 70,
+        "end": 75
+      },
+      "root": "#V2311574"
+    },
+    {
+      "V2307062": {
+        "id": "V2307062",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2305931",
+          "LEX": "ANYTHING"
+        },
+        "start": 75,
+        "end": 97
+      },
+      "V2305931": {
+        "id": "V2305931",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "ANYTHING",
+        "roles": {
+          "PROFORM": "ANYTHING",
+          "MOD": "#V2305940",
+          "LEX": "ANYTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 75,
+        "end": 96
+      },
+      "V2305940": {
+        "id": "V2305940",
+        "indicator": "F",
+        "type": "RESULTING-STATE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2306151",
+          "FIGURE": "#V2305931",
+          "LEX": "TO"
+        },
+        "start": 84,
+        "end": 96
+      },
+      "V2306151": {
+        "id": "V2306151",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2305965"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "V2305965": {
+        "id": "V2305965",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "PIG",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "PIG",
+          "WNSENSE": "pig%1:05:00::"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "root": "#V2307062"
+    },
+    {
+      "V2306365": {
+        "id": "V2306365",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2306346",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2306346": {
+        "id": "V2306346",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2305805"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305805": {
+        "id": "V2305805",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "MOD": "#V2305799",
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305799": {
+        "id": "V2305799",
+        "indicator": "F",
+        "type": "SINGULARITY-VAL",
+        "word": "ONLY",
+        "roles": {
+          "FIGURE": "#V2305805",
+          "SCALE": "DOMAIN",
+          "LEX": "ONLY",
+          "WNSENSE": "only%5:00:00:single:05"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "root": "#V2306365"
+    },
+    {
+      "V2311570": {
+        "id": "V2311570",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305836",
+          "LEX": "TWEET"
+        },
+        "start": 15,
+        "end": 75
+      },
+      "V2306142": {
+        "id": "V2306142",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305808",
+          "FOCUS": "#V2305808",
+          "LEX": "WHO"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305808": {
+        "id": "V2305808",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305836": {
+        "id": "V2305836",
+        "indicator": "F",
+        "type": "NONVERBAL-SAY",
+        "word": "TWEET",
+        "roles": {
+          "AGENT": "#V2307058",
+          "REASON": "#V2305841",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "TWEET",
+          "WNSENSE": "signal%1:10:00"
+        },
+        "start": 19,
+        "end": 75
+      },
+      "V2307058": {
+        "id": "V2307058",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(T)",
+          "VAL": "(T)",
+          "LEX": "T"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V2305841": {
+        "id": "V2305841",
+        "indicator": "F",
+        "type": "REASON",
+        "word": "BECAUSE",
+        "roles": {
+          "GROUND": "#V2305894",
+          "FIGURE": "#V2305836",
+          "LEX": "BECAUSE"
+        },
+        "start": 31,
+        "end": 75
+      },
+      "V2305894": {
+        "id": "V2305894",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2305869",
+          "AFFECTED": "#V2305911",
+          "FORMAL": "#V2305923",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 39,
+        "end": 75
+      },
+      "V2305869": {
+        "id": "V2305869",
+        "indicator": "QUANTIFIER",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "QUAN": "NONE",
+          "OPERATOR": "OR",
+          "SEQUENCE": "#V2305866",
+          "SEQUENCE1": "#V2305878",
+          "LEX": "OR"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305878": {
+        "id": "V2305878",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305866": {
+        "id": "V2305866",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305911": {
+        "id": "V2305911",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "SAI",
+        "roles": {
+          "LEX": "SAI",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 66,
+        "end": 70
+      },
+      "V2305923": {
+        "id": "V2305923",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V2305911",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 70,
+        "end": 75
+      },
+      "root": "#V2311570"
+    },
+    {
+      "V2307062": {
+        "id": "V2307062",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2305931",
+          "LEX": "ANYTHING"
+        },
+        "start": 75,
+        "end": 97
+      },
+      "V2305931": {
+        "id": "V2305931",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "ANYTHING",
+        "roles": {
+          "PROFORM": "ANYTHING",
+          "MOD": "#V2305940",
+          "LEX": "ANYTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 75,
+        "end": 96
+      },
+      "V2305940": {
+        "id": "V2305940",
+        "indicator": "F",
+        "type": "RESULTING-STATE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2306151",
+          "FIGURE": "#V2305931",
+          "LEX": "TO"
+        },
+        "start": 84,
+        "end": 96
+      },
+      "V2306151": {
+        "id": "V2306151",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2305965"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "V2305965": {
+        "id": "V2305965",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "PIG",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "PIG",
+          "WNSENSE": "pig%1:05:00::"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "root": "#V2307062"
+    },
+    {
+      "V2306372": {
+        "id": "V2306372",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305805",
+          "LEX": "WOMAN"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305805": {
+        "id": "V2305805",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "MOD": "#V2305799",
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305799": {
+        "id": "V2305799",
+        "indicator": "F",
+        "type": "SINGULARITY-VAL",
+        "word": "ONLY",
+        "roles": {
+          "FIGURE": "#V2305805",
+          "SCALE": "DOMAIN",
+          "LEX": "ONLY",
+          "WNSENSE": "only%5:00:00:single:05"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "root": "#V2306372"
+    },
+    {
+      "V2311574": {
+        "id": "V2311574",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305836",
+          "LEX": "TWEET"
+        },
+        "start": 15,
+        "end": 75
+      },
+      "V2306142": {
+        "id": "V2306142",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305808",
+          "FOCUS": "#V2305808",
+          "LEX": "WHO"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305808": {
+        "id": "V2305808",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305836": {
+        "id": "V2305836",
+        "indicator": "F",
+        "type": "NONVERBAL-SAY",
+        "word": "TWEET",
+        "roles": {
+          "AGENT": "#V2307058",
+          "REASON": "#V2305841",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "TWEET",
+          "WNSENSE": "signal%1:10:00"
+        },
+        "start": 19,
+        "end": 75
+      },
+      "V2307058": {
+        "id": "V2307058",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(T)",
+          "VAL": "(T)",
+          "LEX": "T"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V2305841": {
+        "id": "V2305841",
+        "indicator": "F",
+        "type": "REASON",
+        "word": "BECAUSE",
+        "roles": {
+          "GROUND": "#V2305894",
+          "FIGURE": "#V2305836",
+          "LEX": "BECAUSE"
+        },
+        "start": 31,
+        "end": 75
+      },
+      "V2305894": {
+        "id": "V2305894",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2305869",
+          "AFFECTED": "#V2305911",
+          "FORMAL": "#V2305923",
+          "TENSE": "PAST",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 39,
+        "end": 75
+      },
+      "V2305869": {
+        "id": "V2305869",
+        "indicator": "QUANTIFIER",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "QUAN": "NONE",
+          "OPERATOR": "OR",
+          "SEQUENCE": "#V2305866",
+          "SEQUENCE1": "#V2305878",
+          "LEX": "OR"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305878": {
+        "id": "V2305878",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305866": {
+        "id": "V2305866",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305911": {
+        "id": "V2305911",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "SAI",
+        "roles": {
+          "LEX": "SAI",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 66,
+        "end": 70
+      },
+      "V2305923": {
+        "id": "V2305923",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V2305911",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 70,
+        "end": 75
+      },
+      "root": "#V2311574"
+    },
+    {
+      "V2307062": {
+        "id": "V2307062",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2305931",
+          "LEX": "ANYTHING"
+        },
+        "start": 75,
+        "end": 97
+      },
+      "V2305931": {
+        "id": "V2305931",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "ANYTHING",
+        "roles": {
+          "PROFORM": "ANYTHING",
+          "MOD": "#V2305940",
+          "LEX": "ANYTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 75,
+        "end": 96
+      },
+      "V2305940": {
+        "id": "V2305940",
+        "indicator": "F",
+        "type": "RESULTING-STATE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2306151",
+          "FIGURE": "#V2305931",
+          "LEX": "TO"
+        },
+        "start": 84,
+        "end": 96
+      },
+      "V2306151": {
+        "id": "V2306151",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2305965"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "V2305965": {
+        "id": "V2305965",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "PIG",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "PIG",
+          "WNSENSE": "pig%1:05:00::"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "root": "#V2307062"
+    },
+    {
+      "V2306372": {
+        "id": "V2306372",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305805",
+          "LEX": "WOMAN"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305805": {
+        "id": "V2305805",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "MOD": "#V2305799",
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305799": {
+        "id": "V2305799",
+        "indicator": "F",
+        "type": "SINGULARITY-VAL",
+        "word": "ONLY",
+        "roles": {
+          "FIGURE": "#V2305805",
+          "SCALE": "DOMAIN",
+          "LEX": "ONLY",
+          "WNSENSE": "only%5:00:00:single:05"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "root": "#V2306372"
+    },
+    {
+      "V2311570": {
+        "id": "V2311570",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305836",
+          "LEX": "TWEET"
+        },
+        "start": 15,
+        "end": 75
+      },
+      "V2306142": {
+        "id": "V2306142",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305808",
+          "FOCUS": "#V2305808",
+          "LEX": "WHO"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305808": {
+        "id": "V2305808",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305836": {
+        "id": "V2305836",
+        "indicator": "F",
+        "type": "NONVERBAL-SAY",
+        "word": "TWEET",
+        "roles": {
+          "AGENT": "#V2307058",
+          "REASON": "#V2305841",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "TWEET",
+          "WNSENSE": "signal%1:10:00"
+        },
+        "start": 19,
+        "end": 75
+      },
+      "V2307058": {
+        "id": "V2307058",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(T)",
+          "VAL": "(T)",
+          "LEX": "T"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V2305841": {
+        "id": "V2305841",
+        "indicator": "F",
+        "type": "REASON",
+        "word": "BECAUSE",
+        "roles": {
+          "GROUND": "#V2305894",
+          "FIGURE": "#V2305836",
+          "LEX": "BECAUSE"
+        },
+        "start": 31,
+        "end": 75
+      },
+      "V2305894": {
+        "id": "V2305894",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2305869",
+          "AFFECTED": "#V2305911",
+          "FORMAL": "#V2305923",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 39,
+        "end": 75
+      },
+      "V2305869": {
+        "id": "V2305869",
+        "indicator": "QUANTIFIER",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "QUAN": "NONE",
+          "OPERATOR": "OR",
+          "SEQUENCE": "#V2305866",
+          "SEQUENCE1": "#V2305878",
+          "LEX": "OR"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305878": {
+        "id": "V2305878",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305866": {
+        "id": "V2305866",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305911": {
+        "id": "V2305911",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "SAI",
+        "roles": {
+          "LEX": "SAI",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 66,
+        "end": 70
+      },
+      "V2305923": {
+        "id": "V2305923",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V2305911",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 70,
+        "end": 75
+      },
+      "root": "#V2311570"
+    },
+    {
+      "V2307062": {
+        "id": "V2307062",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2305931",
+          "LEX": "ANYTHING"
+        },
+        "start": 75,
+        "end": 97
+      },
+      "V2305931": {
+        "id": "V2305931",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "ANYTHING",
+        "roles": {
+          "PROFORM": "ANYTHING",
+          "MOD": "#V2305940",
+          "LEX": "ANYTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 75,
+        "end": 96
+      },
+      "V2305940": {
+        "id": "V2305940",
+        "indicator": "F",
+        "type": "RESULTING-STATE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2306151",
+          "FIGURE": "#V2305931",
+          "LEX": "TO"
+        },
+        "start": 84,
+        "end": 96
+      },
+      "V2306151": {
+        "id": "V2306151",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2305965"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "V2305965": {
+        "id": "V2305965",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "PIG",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "PIG",
+          "WNSENSE": "pig%1:05:00::"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "root": "#V2307062"
+    },
+    {
+      "V2306365": {
+        "id": "V2306365",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2306346",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2306346": {
+        "id": "V2306346",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2305805"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305805": {
+        "id": "V2305805",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "MOD": "#V2305799",
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305799": {
+        "id": "V2305799",
+        "indicator": "F",
+        "type": "SINGULARITY-VAL",
+        "word": "ONLY",
+        "roles": {
+          "FIGURE": "#V2305805",
+          "SCALE": "DOMAIN",
+          "LEX": "ONLY",
+          "WNSENSE": "only%5:00:00:single:05"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "root": "#V2306365"
+    },
+    {
+      "V2312200": {
+        "id": "V2312200",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305836",
+          "LEX": "TWEET"
+        },
+        "start": 15,
+        "end": 75
+      },
+      "V2306230": {
+        "id": "V2306230",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2306048",
+          "FOCUS": "#V2305808",
+          "LEX": "-"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2306048": {
+        "id": "V2306048",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2305808"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305808": {
+        "id": "V2305808",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305836": {
+        "id": "V2305836",
+        "indicator": "F",
+        "type": "NONVERBAL-SAY",
+        "word": "TWEET",
+        "roles": {
+          "AGENT": "#V2307058",
+          "REASON": "#V2305841",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "TWEET",
+          "WNSENSE": "signal%1:10:00"
+        },
+        "start": 19,
+        "end": 75
+      },
+      "V2307058": {
+        "id": "V2307058",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(T)",
+          "VAL": "(T)",
+          "LEX": "T"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V2305841": {
+        "id": "V2305841",
+        "indicator": "F",
+        "type": "REASON",
+        "word": "BECAUSE",
+        "roles": {
+          "GROUND": "#V2305894",
+          "FIGURE": "#V2305836",
+          "LEX": "BECAUSE"
+        },
+        "start": 31,
+        "end": 75
+      },
+      "V2305894": {
+        "id": "V2305894",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2305869",
+          "AFFECTED": "#V2305911",
+          "FORMAL": "#V2305923",
+          "TENSE": "PAST",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 39,
+        "end": 75
+      },
+      "V2305869": {
+        "id": "V2305869",
+        "indicator": "QUANTIFIER",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "QUAN": "NONE",
+          "OPERATOR": "OR",
+          "SEQUENCE": "#V2305866",
+          "SEQUENCE1": "#V2305878",
+          "LEX": "OR"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305878": {
+        "id": "V2305878",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305866": {
+        "id": "V2305866",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305911": {
+        "id": "V2305911",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "SAI",
+        "roles": {
+          "LEX": "SAI",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 66,
+        "end": 70
+      },
+      "V2305923": {
+        "id": "V2305923",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V2305911",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 70,
+        "end": 75
+      },
+      "root": "#V2312200"
+    },
+    {
+      "V2306944": {
+        "id": "V2306944",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2305931",
+          "LEX": "ANYTHING"
+        },
+        "start": 75,
+        "end": 97
+      },
+      "V2305931": {
+        "id": "V2305931",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "ANYTHING",
+        "roles": {
+          "PROFORM": "ANYTHING",
+          "MOD": "#V2305938",
+          "LEX": "ANYTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 75,
+        "end": 96
+      },
+      "V2305938": {
+        "id": "V2305938",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2305965",
+          "FIGURE": "#V2305931",
+          "LEX": "TO"
+        },
+        "start": 84,
+        "end": 96
+      },
+      "V2305965": {
+        "id": "V2305965",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "PIG",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "PIG",
+          "WNSENSE": "pig%1:05:00::"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "root": "#V2306944"
+    },
+    {
+      "V2306365": {
+        "id": "V2306365",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2306346",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2306346": {
+        "id": "V2306346",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2305805"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305805": {
+        "id": "V2305805",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "MOD": "#V2305799",
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305799": {
+        "id": "V2305799",
+        "indicator": "F",
+        "type": "SINGULARITY-VAL",
+        "word": "ONLY",
+        "roles": {
+          "FIGURE": "#V2305805",
+          "SCALE": "DOMAIN",
+          "LEX": "ONLY",
+          "WNSENSE": "only%5:00:00:single:05"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "root": "#V2306365"
+    },
+    {
+      "V2312200": {
+        "id": "V2312200",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305836",
+          "LEX": "TWEET"
+        },
+        "start": 15,
+        "end": 75
+      },
+      "V2306230": {
+        "id": "V2306230",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2306048",
+          "FOCUS": "#V2305808",
+          "LEX": "-"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2306048": {
+        "id": "V2306048",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2305808"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305808": {
+        "id": "V2305808",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305836": {
+        "id": "V2305836",
+        "indicator": "F",
+        "type": "NONVERBAL-SAY",
+        "word": "TWEET",
+        "roles": {
+          "AGENT": "#V2307058",
+          "REASON": "#V2305841",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "TWEET",
+          "WNSENSE": "signal%1:10:00"
+        },
+        "start": 19,
+        "end": 75
+      },
+      "V2307058": {
+        "id": "V2307058",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(T)",
+          "VAL": "(T)",
+          "LEX": "T"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V2305841": {
+        "id": "V2305841",
+        "indicator": "F",
+        "type": "REASON",
+        "word": "BECAUSE",
+        "roles": {
+          "GROUND": "#V2305894",
+          "FIGURE": "#V2305836",
+          "LEX": "BECAUSE"
+        },
+        "start": 31,
+        "end": 75
+      },
+      "V2305894": {
+        "id": "V2305894",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2305869",
+          "AFFECTED": "#V2305911",
+          "FORMAL": "#V2305923",
+          "TENSE": "PAST",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 39,
+        "end": 75
+      },
+      "V2305869": {
+        "id": "V2305869",
+        "indicator": "QUANTIFIER",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "QUAN": "NONE",
+          "OPERATOR": "OR",
+          "SEQUENCE": "#V2305866",
+          "SEQUENCE1": "#V2305878",
+          "LEX": "OR"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305878": {
+        "id": "V2305878",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305866": {
+        "id": "V2305866",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305911": {
+        "id": "V2305911",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "SAI",
+        "roles": {
+          "LEX": "SAI",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 66,
+        "end": 70
+      },
+      "V2305923": {
+        "id": "V2305923",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V2305911",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 70,
+        "end": 75
+      },
+      "root": "#V2312200"
+    },
+    {
+      "V2306942": {
+        "id": "V2306942",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2305931",
+          "LEX": "ANYTHING"
+        },
+        "start": 75,
+        "end": 97
+      },
+      "V2305931": {
+        "id": "V2305931",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "ANYTHING",
+        "roles": {
+          "PROFORM": "ANYTHING",
+          "MOD": "#V2305939",
+          "LEX": "ANYTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 75,
+        "end": 96
+      },
+      "V2305939": {
+        "id": "V2305939",
+        "indicator": "F",
+        "type": "RESULTING-OBJECT",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2305965",
+          "FIGURE": "#V2305931",
+          "LEX": "TO"
+        },
+        "start": 84,
+        "end": 96
+      },
+      "V2305965": {
+        "id": "V2305965",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "PIG",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "PIG",
+          "WNSENSE": "pig%1:05:00::"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "root": "#V2306942"
+    },
+    {
+      "V2306365": {
+        "id": "V2306365",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2306346",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2306346": {
+        "id": "V2306346",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2305805"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305805": {
+        "id": "V2305805",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "MOD": "#V2305799",
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305799": {
+        "id": "V2305799",
+        "indicator": "F",
+        "type": "SINGULARITY-VAL",
+        "word": "ONLY",
+        "roles": {
+          "FIGURE": "#V2305805",
+          "SCALE": "DOMAIN",
+          "LEX": "ONLY",
+          "WNSENSE": "only%5:00:00:single:05"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "root": "#V2306365"
+    },
+    {
+      "V2312196": {
+        "id": "V2312196",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305836",
+          "LEX": "TWEET"
+        },
+        "start": 15,
+        "end": 75
+      },
+      "V2306230": {
+        "id": "V2306230",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2306048",
+          "FOCUS": "#V2305808",
+          "LEX": "-"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2306048": {
+        "id": "V2306048",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2305808"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305808": {
+        "id": "V2305808",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305836": {
+        "id": "V2305836",
+        "indicator": "F",
+        "type": "NONVERBAL-SAY",
+        "word": "TWEET",
+        "roles": {
+          "AGENT": "#V2307058",
+          "REASON": "#V2305841",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "TWEET",
+          "WNSENSE": "signal%1:10:00"
+        },
+        "start": 19,
+        "end": 75
+      },
+      "V2307058": {
+        "id": "V2307058",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(T)",
+          "VAL": "(T)",
+          "LEX": "T"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V2305841": {
+        "id": "V2305841",
+        "indicator": "F",
+        "type": "REASON",
+        "word": "BECAUSE",
+        "roles": {
+          "GROUND": "#V2305894",
+          "FIGURE": "#V2305836",
+          "LEX": "BECAUSE"
+        },
+        "start": 31,
+        "end": 75
+      },
+      "V2305894": {
+        "id": "V2305894",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2305869",
+          "AFFECTED": "#V2305911",
+          "FORMAL": "#V2305923",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 39,
+        "end": 75
+      },
+      "V2305869": {
+        "id": "V2305869",
+        "indicator": "QUANTIFIER",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "QUAN": "NONE",
+          "OPERATOR": "OR",
+          "SEQUENCE": "#V2305866",
+          "SEQUENCE1": "#V2305878",
+          "LEX": "OR"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305878": {
+        "id": "V2305878",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305866": {
+        "id": "V2305866",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305911": {
+        "id": "V2305911",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "SAI",
+        "roles": {
+          "LEX": "SAI",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 66,
+        "end": 70
+      },
+      "V2305923": {
+        "id": "V2305923",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V2305911",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 70,
+        "end": 75
+      },
+      "root": "#V2312196"
+    },
+    {
+      "V2306944": {
+        "id": "V2306944",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2305931",
+          "LEX": "ANYTHING"
+        },
+        "start": 75,
+        "end": 97
+      },
+      "V2305931": {
+        "id": "V2305931",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "ANYTHING",
+        "roles": {
+          "PROFORM": "ANYTHING",
+          "MOD": "#V2305938",
+          "LEX": "ANYTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 75,
+        "end": 96
+      },
+      "V2305938": {
+        "id": "V2305938",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2305965",
+          "FIGURE": "#V2305931",
+          "LEX": "TO"
+        },
+        "start": 84,
+        "end": 96
+      },
+      "V2305965": {
+        "id": "V2305965",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "PIG",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "PIG",
+          "WNSENSE": "pig%1:05:00::"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "root": "#V2306944"
+    },
+    {
+      "V2306365": {
+        "id": "V2306365",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2306346",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2306346": {
+        "id": "V2306346",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2305805"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305805": {
+        "id": "V2305805",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "MOD": "#V2305799",
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V2305799": {
+        "id": "V2305799",
+        "indicator": "F",
+        "type": "SINGULARITY-VAL",
+        "word": "ONLY",
+        "roles": {
+          "FIGURE": "#V2305805",
+          "SCALE": "DOMAIN",
+          "LEX": "ONLY",
+          "WNSENSE": "only%5:00:00:single:05"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "root": "#V2306365"
+    },
+    {
+      "V2312196": {
+        "id": "V2312196",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2305836",
+          "LEX": "TWEET"
+        },
+        "start": 15,
+        "end": 75
+      },
+      "V2306230": {
+        "id": "V2306230",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2306048",
+          "FOCUS": "#V2305808",
+          "LEX": "-"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2306048": {
+        "id": "V2306048",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2305808"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305808": {
+        "id": "V2305808",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "V2305836": {
+        "id": "V2305836",
+        "indicator": "F",
+        "type": "NONVERBAL-SAY",
+        "word": "TWEET",
+        "roles": {
+          "AGENT": "#V2307058",
+          "REASON": "#V2305841",
+          "TENSE": "PRES",
+          "MODALITY": "(:* ABILITY CAN)",
+          "LEX": "TWEET",
+          "WNSENSE": "signal%1:10:00"
+        },
+        "start": 19,
+        "end": 75
+      },
+      "V2307058": {
+        "id": "V2307058",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(T)",
+          "VAL": "(T)",
+          "LEX": "T"
+        },
+        "start": 23,
+        "end": 25
+      },
+      "V2305841": {
+        "id": "V2305841",
+        "indicator": "F",
+        "type": "REASON",
+        "word": "BECAUSE",
+        "roles": {
+          "GROUND": "#V2305894",
+          "FIGURE": "#V2305836",
+          "LEX": "BECAUSE"
+        },
+        "start": 31,
+        "end": 75
+      },
+      "V2305894": {
+        "id": "V2305894",
+        "indicator": "F",
+        "type": "MAKE-IT-SO",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V2305869",
+          "AFFECTED": "#V2305911",
+          "FORMAL": "#V2305923",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "HAVE",
+          "WNSENSE": "have%2:30:00::"
+        },
+        "start": 39,
+        "end": 75
+      },
+      "V2305869": {
+        "id": "V2305869",
+        "indicator": "QUANTIFIER",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "QUAN": "NONE",
+          "OPERATOR": "OR",
+          "SEQUENCE": "#V2305866",
+          "SEQUENCE1": "#V2305878",
+          "LEX": "OR"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305878": {
+        "id": "V2305878",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "WOMAN",
+        "roles": {
+          "LEX": "WOMAN",
+          "WNSENSE": "woman%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305866": {
+        "id": "V2305866",
+        "indicator": "INDEF-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V2305911": {
+        "id": "V2305911",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "SAI",
+        "roles": {
+          "LEX": "SAI",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 66,
+        "end": 70
+      },
+      "V2305923": {
+        "id": "V2305923",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "NEUTRAL": "#V2305911",
+          "VFORM": "PASSIVE",
+          "LEX": "DONE",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 70,
+        "end": 75
+      },
+      "root": "#V2312196"
+    },
+    {
+      "V2306942": {
+        "id": "V2306942",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2305931",
+          "LEX": "ANYTHING"
+        },
+        "start": 75,
+        "end": 97
+      },
+      "V2305931": {
+        "id": "V2305931",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "ANYTHING",
+        "roles": {
+          "PROFORM": "ANYTHING",
+          "MOD": "#V2305939",
+          "LEX": "ANYTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 75,
+        "end": 96
+      },
+      "V2305939": {
+        "id": "V2305939",
+        "indicator": "F",
+        "type": "RESULTING-OBJECT",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V2305965",
+          "FIGURE": "#V2305931",
+          "LEX": "TO"
+        },
+        "start": 84,
+        "end": 96
+      },
+      "V2305965": {
+        "id": "V2305965",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "PIG",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "PIG",
+          "WNSENSE": "pig%1:05:00::"
+        },
+        "start": 87,
+        "end": 96
+      },
+      "root": "#V2306942"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+460",
+    "*last-utt-id*=460  utt-id+460",
+    "*last-utt-id*=460  utt-id+460",
+    "*last-utt-id*=460  utt-id+NIL"
+  ]
+}

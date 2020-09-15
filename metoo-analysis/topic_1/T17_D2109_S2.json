@@ -1,0 +1,90 @@
+{
+  "parse": [
+    {
+      "V1321520": {
+        "id": "V1321520",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1321173",
+          "LEX": "GOT"
+        },
+        "start": 0,
+        "end": 18
+      },
+      "V1321173": {
+        "id": "V1321173",
+        "indicator": "F",
+        "type": "BECOME",
+        "word": "GET",
+        "roles": {
+          "AFFECTED": "#V1321521",
+          "FORMAL": "#V1321385",
+          "TENSE": "PAST",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:30:00::"
+        },
+        "start": 0,
+        "end": 18
+      },
+      "V1321521": {
+        "id": "V1321521",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 0,
+        "end": 18
+      },
+      "V1321385": {
+        "id": "V1321385",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1321521",
+          "GROUND": "#V1321198",
+          "LEX": "HARASSED"
+        },
+        "start": 4,
+        "end": 18
+      },
+      "V1321198": {
+        "id": "V1321198",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "HARASS",
+        "roles": {
+          "AFFECTED": "#V1321521",
+          "DEGREE": "#V1321203",
+          "WNSENSE": "harass%2:37:00::"
+        },
+        "start": 4,
+        "end": 18
+      },
+      "V1321203": {
+        "id": "V1321203",
+        "indicator": "F",
+        "type": "DEGREE-MODIFIER",
+        "word": "MORE",
+        "roles": {
+          "FIGURE": "#V1321198",
+          "LEX": "MORE",
+          "WNSENSE": "more%4:02:00::"
+        },
+        "start": 13,
+        "end": 18
+      },
+      "root": "#V1321520"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+261",
+    "*last-utt-id*=261  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "parse": [
+    {
+      "V1716974": {
+        "id": "V1716974",
+        "indicator": "SPEECHACT",
+        "type": "SA_REQUEST",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1715911",
+          "LEX": "PRAY"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V1715911": {
+        "id": "V1715911",
+        "indicator": "F",
+        "type": "REQUEST",
+        "word": "PRAY",
+        "roles": {
+          "TIME": "#V1716365",
+          "AGENT": "#V1716944",
+          "NEUTRAL": "#V1715966",
+          "MOD": "#V1715979",
+          "TENSE": "PRES",
+          "VFORM": "BASE",
+          "LEX": "PRAY"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V1716944": {
+        "id": "V1716944",
+        "indicator": "IMPRO",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "PROFORM": "*YOU*",
+          "COREF": "SYS"
+        },
+        "start": 0,
+        "end": 30
+      },
+      "V1716365": {
+        "id": "V1716365",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1715911",
+          "GROUND": "#V1716449"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1716449": {
+        "id": "V1716449",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V1716328",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1716328": {
+        "id": "V1716328",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(I)",
+          "VAL": "(I)",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V1715966": {
+        "id": "V1715966",
+        "indicator": "THE",
+        "type": "ABILITY-TO-TOUCH",
+        "word": "TOUCH",
+        "roles": {
+          "PROFORM": "THIS",
+          "ASSOC-WITH1": "#V1715953",
+          "ASSOC-WITH": "#V1715962",
+          "LEX": "TOUCH",
+          "WNSENSE": "touch%1:09:01::"
+        },
+        "start": 7,
+        "end": 26
+      },
+      "V1715962": {
+        "id": "V1715962",
+        "indicator": "KIND",
+        "type": "CHEMICAL",
+        "word": "T",
+        "roles": {
+          "LEX": "T",
+          "WNSENSE": "t%1:27:01::"
+        },
+        "start": 7,
+        "end": 26
+      },
+      "V1715953": {
+        "id": "V1715953",
+        "indicator": "KIND",
+        "type": "REFERENTIAL-SEM",
+        "word": "DOESN",
+        "roles": {
+          "LEX": "DOESN",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 7,
+        "end": 26
+      },
+      "V1715979": {
+        "id": "V1715979",
+        "indicator": "F",
+        "type": "ETCETERA",
+        "word": "ETC",
+        "roles": {
+          "FIGURE": "#V1715911",
+          "LEX": "ETC",
+          "WNSENSE": "etcetera%4:02:00"
+        },
+        "start": 26,
+        "end": 30
+      },
+      "root": "#V1716974"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+299",
+    "*last-utt-id*=299  utt-id+NIL"
+  ]
+}

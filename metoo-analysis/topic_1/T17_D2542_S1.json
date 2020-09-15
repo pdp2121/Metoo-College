@@ -1,0 +1,203 @@
+{
+  "parse": [
+    {
+      "V692635": {
+        "id": "V692635",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V686202",
+          "LEX": "PULLED"
+        },
+        "start": 0,
+        "end": 62
+      },
+      "V686202": {
+        "id": "V686202",
+        "indicator": "F",
+        "type": "PULL",
+        "word": "PULL",
+        "roles": {
+          "RESULT": "#V686309",
+          "AGENT": "#V686188",
+          "AFFECTED": "#V686241",
+          "MOD": "#V686193",
+          "TENSE": "PAST",
+          "LEX": "PULLED",
+          "WNSENSE": "pull%2:35:00::"
+        },
+        "start": 0,
+        "end": 62
+      },
+      "V686188": {
+        "id": "V686188",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V686193": {
+        "id": "V686193",
+        "indicator": "F",
+        "type": "SEQUENCE-POSITION",
+        "word": "THEN",
+        "roles": {
+          "FIGURE": "#V686202",
+          "LEX": "THEN",
+          "WNSENSE": "then%4:02:00::"
+        },
+        "start": 3,
+        "end": 8
+      },
+      "V686241": {
+        "id": "V686241",
+        "indicator": "THE",
+        "type": "ATTIRE",
+        "word": "SWEAT-PANTS",
+        "roles": {
+          "ASSOC-POSS": "#V686208",
+          "MOD": "#V686579",
+          "LEX": "SWEAT-PANTS",
+          "WNSENSE": "sweat_pants%1:06:00"
+        },
+        "start": 15,
+        "end": 56
+      },
+      "V686208": {
+        "id": "V686208",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 15,
+        "end": 56
+      },
+      "V686579": {
+        "id": "V686579",
+        "indicator": "F",
+        "type": "PROPERTY-VAL",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V686276",
+          "SEQUENCE1": "#V686989",
+          "OPERATOR": "AND",
+          "WNSENSE": "down%5:00:00:inoperative:00"
+        },
+        "start": 31,
+        "end": 56
+      },
+      "V686276": {
+        "id": "V686276",
+        "indicator": "F",
+        "type": "NOT-IN-WORKING-ORDER-VAL",
+        "word": "DOWN",
+        "roles": {
+          "FIGURE": "#V686241",
+          "SCALE": "FUNCTIONALITY-SCALE",
+          "LEX": "DOWN",
+          "WNSENSE": "down%5:00:00:inoperative:00"
+        },
+        "start": 31,
+        "end": 36
+      },
+      "V686989": {
+        "id": "V686989",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V686241",
+          "GROUND": "#V686299",
+          "LEX": "EXPOSED"
+        },
+        "start": 40,
+        "end": 56
+      },
+      "V686299": {
+        "id": "V686299",
+        "indicator": "F",
+        "type": "EXPOSE",
+        "word": "EXPOSE",
+        "roles": {
+          "AFFECTED": "#V686241",
+          "MOD": "#V686518",
+          "WNSENSE": "expose%2:35:00::"
+        },
+        "start": 40,
+        "end": 56
+      },
+      "V686518": {
+        "id": "V686518",
+        "indicator": "F",
+        "type": "EXCLUSIVE",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V686299",
+          "GROUND": "#V686302",
+          "LEX": "HIMSELF"
+        },
+        "start": 48,
+        "end": 56
+      },
+      "V686302": {
+        "id": "V686302",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "HIMSELF",
+        "roles": {
+          "PROFORM": "HIMSELF",
+          "LEX": "HIMSELF",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "#V686241"
+        },
+        "start": 48,
+        "end": 56
+      },
+      "V686309": {
+        "id": "V686309",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V686331",
+          "FIGURE": "#V686241",
+          "LEX": "TO"
+        },
+        "start": 56,
+        "end": 62
+      },
+      "V686331": {
+        "id": "V686331",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 59,
+        "end": 62
+      },
+      "root": "#V692635"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+134",
+    "*last-utt-id*=134  utt-id+NIL"
+  ]
+}

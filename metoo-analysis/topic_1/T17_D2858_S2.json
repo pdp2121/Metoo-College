@@ -1,0 +1,79 @@
+{
+  "parse": [
+    {
+      "V1473953": {
+        "id": "V1473953",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1473865",
+          "LEX": "PUSHED"
+        },
+        "start": 1,
+        "end": 17
+      },
+      "V1473865": {
+        "id": "V1473865",
+        "indicator": "F",
+        "type": "PUSH",
+        "word": "PUSH",
+        "roles": {
+          "RESULT": "#V1473873",
+          "AGENT": "#V1473850",
+          "AFFECTED": "#V1473869",
+          "TENSE": "PAST",
+          "LEX": "PUSHED",
+          "WNSENSE": "push%1:04:00::"
+        },
+        "start": 1,
+        "end": 17
+      },
+      "V1473850": {
+        "id": "V1473850",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 1,
+        "end": 3
+      },
+      "V1473869": {
+        "id": "V1473869",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 10,
+        "end": 14
+      },
+      "V1473873": {
+        "id": "V1473873",
+        "indicator": "F",
+        "type": "AWAY",
+        "word": "AWAY",
+        "roles": {
+          "FIGURE": "#V1473869",
+          "LEX": "AWAY"
+        },
+        "start": 14,
+        "end": 17
+      },
+      "root": "#V1473953"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+274",
+    "*last-utt-id*=274  utt-id+NIL"
+  ]
+}

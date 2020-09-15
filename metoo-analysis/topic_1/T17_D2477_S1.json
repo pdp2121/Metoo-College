@@ -1,0 +1,91 @@
+{
+  "parse": [
+    {
+      "V47366": {
+        "id": "V47366",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V46988",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V46988": {
+        "id": "V46988",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V47367",
+          "TIME": "#V46953",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V47367": {
+        "id": "V47367",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ",
+          "COREF": "#V47121"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V46953": {
+        "id": "V46953",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "UNTIL",
+        "roles": {
+          "GROUND": "#V47156",
+          "FIGURE": "#V46988",
+          "LEX": "UNTIL"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V47156": {
+        "id": "V47156",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V47121",
+          "LEX": "I"
+        },
+        "start": 6,
+        "end": 8
+      },
+      "V47121": {
+        "id": "V47121",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(I)",
+          "VAL": "(I)",
+          "LEX": "I"
+        },
+        "start": 6,
+        "end": 8
+      },
+      "root": "#V47366"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+2",
+    "*last-utt-id*=2  utt-id+NIL"
+  ]
+}

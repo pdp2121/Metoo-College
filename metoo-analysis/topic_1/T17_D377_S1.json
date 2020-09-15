@@ -1,0 +1,94 @@
+{
+  "parse": [
+    {
+      "V1507322": {
+        "id": "V1507322",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1507057",
+          "LEX": "HAPPENED"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V1507057": {
+        "id": "V1507057",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V1507050",
+          "TIME": "#V1507065",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V1507050": {
+        "id": "V1507050",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V1507065": {
+        "id": "V1507065",
+        "indicator": "F",
+        "type": "SINCE",
+        "word": "SINCE",
+        "roles": {
+          "GROUND": "#V1507088",
+          "FIGURE": "#V1507057",
+          "LEX": "SINCE"
+        },
+        "start": 12,
+        "end": 28
+      },
+      "V1507088": {
+        "id": "V1507088",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "PROFORM": "LAST",
+          "EXTENT": "(:* YEAR YEAR)",
+          "LEX": "YEAR"
+        },
+        "start": 18,
+        "end": 28
+      },
+      "V1507074": {
+        "id": "V1507074",
+        "indicator": "F",
+        "type": "LAST-VAL",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V1507088",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "LAST",
+          "WNSENSE": "last%3:00:00::"
+        },
+        "start": 18,
+        "end": 23
+      },
+      "root": "#V1507322"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+250",
+    "*last-utt-id*=250  utt-id+NIL"
+  ]
+}

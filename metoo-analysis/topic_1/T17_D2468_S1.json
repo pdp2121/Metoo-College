@@ -1,0 +1,91 @@
+{
+  "parse": [
+    {
+      "V2529582": {
+        "id": "V2529582",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2529232",
+          "LEX": "(HERE S)"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V2529232": {
+        "id": "V2529232",
+        "indicator": "A",
+        "type": "RATE",
+        "word": null,
+        "roles": {
+          "REPEATS": "#V2527032",
+          "OVER-PERIOD": "#V2527095",
+          "LEX": "(HERE S)"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V2527032": {
+        "id": "V2527032",
+        "indicator": "BARE",
+        "type": "LOCATION",
+        "word": "HERE",
+        "roles": {
+          "NAME-OF": "(HERE S)",
+          "LEX": "(HERE S)",
+          "WNSENSE": "here%1:15:00::"
+        },
+        "start": 0,
+        "end": 7
+      },
+      "V2527095": {
+        "id": "V2527095",
+        "indicator": "A",
+        "type": "LIST",
+        "word": "LIST",
+        "roles": {
+          "MOD": "#V2527149",
+          "LEX": "LIST",
+          "WNSENSE": "list%1:10:00::"
+        },
+        "start": 7,
+        "end": 26
+      },
+      "V2527149": {
+        "id": "V2527149",
+        "indicator": "F",
+        "type": "START",
+        "word": "START",
+        "roles": {
+          "AFFECTED": "#V2527095",
+          "AGENT1": "#V2527173",
+          "VFORM": "BASE",
+          "LEX": "START",
+          "WNSENSE": "start%1:11:00::"
+        },
+        "start": 14,
+        "end": 26
+      },
+      "V2527173": {
+        "id": "V2527173",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2527095",
+          "FIGURE": "#V2527149",
+          "LEX": "WITH"
+        },
+        "start": 23,
+        "end": 26
+      },
+      "root": "#V2529582"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+490",
+    "*last-utt-id*=490  utt-id+NIL"
+  ]
+}

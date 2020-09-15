@@ -1,0 +1,78 @@
+{
+  "parse": [
+    {
+      "V2086037": {
+        "id": "V2086037",
+        "indicator": "SPEECHACT",
+        "type": "SA_REQUEST",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2085881",
+          "LEX": "FUCK"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V2085881": {
+        "id": "V2085881",
+        "indicator": "F",
+        "type": "JOINING",
+        "word": "FUCK",
+        "roles": {
+          "AGENT": "#V2086035",
+          "AFFECTED": "#V2085917",
+          "TENSE": "PRES",
+          "VFORM": "BASE",
+          "LEX": "FUCK",
+          "WNSENSE": "fuck%2:35:00::"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V2086035": {
+        "id": "V2086035",
+        "indicator": "IMPRO",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "PROFORM": "*YOU*",
+          "COREF": "SYS"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V2085917": {
+        "id": "V2085917",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2085904"
+        },
+        "start": 5,
+        "end": 9
+      },
+      "V2085904": {
+        "id": "V2085904",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 5,
+        "end": 9
+      },
+      "root": "#V2086037"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+372",
+    "*last-utt-id*=372  utt-id+NIL"
+  ]
+}

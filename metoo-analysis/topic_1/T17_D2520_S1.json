@@ -1,0 +1,184 @@
+{
+  "parse": [
+    {
+      "V494067": {
+        "id": "V494067",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V485023",
+          "LEX": "TOLD"
+        },
+        "start": 0,
+        "end": 55
+      },
+      "V485023": {
+        "id": "V485023",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "TIME": [
+            "#V484920",
+            "#V484980"
+          ],
+          "AGENT1": "#V484968",
+          "NEUTRAL": "#V485373",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "TOLD"
+        },
+        "start": 0,
+        "end": 55
+      },
+      "V484920": {
+        "id": "V484920",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V484961",
+          "FIGURE": "#V485023",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 16
+      },
+      "V484961": {
+        "id": "V484961",
+        "indicator": "F",
+        "type": "ASSERT",
+        "word": "REPORT",
+        "roles": {
+          "AGENT": "#V484943",
+          "AFFECTED": "#V485023",
+          "LEX": "REPORTED",
+          "WNSENSE": "assert%2:32:01"
+        },
+        "start": 5,
+        "end": 16
+      },
+      "V484943": {
+        "id": "V484943",
+        "indicator": "KIND",
+        "type": "LETTER-SYMBOL",
+        "word": null,
+        "roles": {
+          "NAME-OF": "I",
+          "WNSENSE": "i%1:10:00::"
+        },
+        "start": 5,
+        "end": 16
+      },
+      "V484968": {
+        "id": "V484968",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V485484"
+        },
+        "start": 16,
+        "end": 19
+      },
+      "V484980": {
+        "id": "V484980",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V485484",
+          "FIGURE": "#V485023",
+          "LEX": "TO"
+        },
+        "start": 19,
+        "end": 25
+      },
+      "V485484": {
+        "id": "V485484",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V485001"
+        },
+        "start": 22,
+        "end": 25
+      },
+      "V485001": {
+        "id": "V485001",
+        "indicator": "BARE",
+        "type": "FACILITY",
+        "word": "HQ",
+        "roles": {
+          "LEX": "HQ",
+          "WNSENSE": "hq%1:06:00::"
+        },
+        "start": 22,
+        "end": 25
+      },
+      "V485373": {
+        "id": "V485373",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "THAT",
+          "MOD": "#V485062",
+          "LEX": "THAT"
+        },
+        "start": 34,
+        "end": 55
+      },
+      "V485062": {
+        "id": "V485062",
+        "indicator": "F",
+        "type": "POSSIBLE",
+        "word": "POSSIBLE",
+        "roles": {
+          "AFFECTED": "#V485049",
+          "FORMAL": "#V485373",
+          "LEX": "POSSIBLE"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V485049": {
+        "id": "V485049",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "WASN",
+        "roles": {
+          "IDENTIFIED-AS": "#V485052",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V485052": {
+        "id": "V485052",
+        "indicator": "THE",
+        "type": "LETTER-SYMBOL",
+        "word": null,
+        "roles": {
+          "NAME-OF": "T",
+          "LEX": "T",
+          "WNSENSE": "t%1:10:00::"
+        },
+        "start": 44,
+        "end": 46
+      },
+      "root": "#V494067"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+92",
+    "*last-utt-id*=92  utt-id+NIL"
+  ]
+}

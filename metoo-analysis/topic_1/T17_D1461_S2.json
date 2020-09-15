@@ -1,0 +1,52 @@
+{
+  "parse": [
+    {
+      "V2589914": {
+        "id": "V2589914",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2589635",
+          "LEX": "MINE"
+        },
+        "start": 0,
+        "end": 14
+      },
+      "V2589635": {
+        "id": "V2589635",
+        "indicator": "BARE",
+        "type": "BOMB",
+        "word": "MINE",
+        "roles": {
+          "MOD": "#V2589644",
+          "LEX": "MINE",
+          "WNSENSE": "mine%1:06:00::"
+        },
+        "start": 0,
+        "end": 14
+      },
+      "V2589644": {
+        "id": "V2589644",
+        "indicator": "F",
+        "type": "ADD-INCLUDE",
+        "word": "INCLUDE",
+        "roles": {
+          "AFFECTED": "#V2589635",
+          "VFORM": "PASSIVE",
+          "LEX": "INCLUDED",
+          "WNSENSE": "include%2:30:00::"
+        },
+        "start": 5,
+        "end": 14
+      },
+      "root": "#V2589914"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+458",
+    "*last-utt-id*=458  utt-id+NIL"
+  ]
+}

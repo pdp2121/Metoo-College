@@ -1,0 +1,117 @@
+{
+  "parse": [
+    {
+      "V974611": {
+        "id": "V974611",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V973326",
+          "LEX": "RESPONSE"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V973326": {
+        "id": "V973326",
+        "indicator": "A",
+        "type": "OUTCOME",
+        "word": "RESPONSE",
+        "roles": {
+          "FORMAL": "#V973390",
+          "LEX": "RESPONSE",
+          "WNSENSE": "response%1:19:00::"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V973390": {
+        "id": "V973390",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V973370",
+          "RESULT": "#V973427",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:36:00::"
+        },
+        "start": 11,
+        "end": 36
+      },
+      "V973370": {
+        "id": "V973370",
+        "indicator": "A",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 11,
+        "end": 20
+      },
+      "V973427": {
+        "id": "V973427",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V973686",
+          "FIGURE": "#V973370",
+          "LEX": "ON"
+        },
+        "start": 24,
+        "end": 36
+      },
+      "V973686": {
+        "id": "V973686",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V973464"
+        },
+        "start": 27,
+        "end": 36
+      },
+      "V973464": {
+        "id": "V973464",
+        "indicator": "THE",
+        "type": "LOC-AS-POINT",
+        "word": "POST",
+        "roles": {
+          "ASSOC-POSS": "#V973449",
+          "LEX": "POST",
+          "WNSENSE": "post%1:15:00::"
+        },
+        "start": 27,
+        "end": 36
+      },
+      "V973449": {
+        "id": "V973449",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00",
+          "COREF": "#V973370"
+        },
+        "start": 27,
+        "end": 36
+      },
+      "root": "#V974611"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+205",
+    "*last-utt-id*=205  utt-id+NIL"
+  ]
+}

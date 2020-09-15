@@ -1,0 +1,63 @@
+{
+  "parse": [
+    {
+      "V690065": {
+        "id": "V690065",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V688094",
+          "LEX": "STARTING"
+        },
+        "start": 0,
+        "end": 18
+      },
+      "V688094": {
+        "id": "V688094",
+        "indicator": "BARE",
+        "type": "START",
+        "word": "START",
+        "roles": {
+          "LOCATION": "#V688118",
+          "LEX": "STARTING",
+          "WNSENSE": "start%1:11:00::"
+        },
+        "start": 0,
+        "end": 18
+      },
+      "V688118": {
+        "id": "V688118",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V688133",
+          "FIGURE": "#V688094",
+          "LEX": "AT"
+        },
+        "start": 9,
+        "end": 18
+      },
+      "V688133": {
+        "id": "V688133",
+        "indicator": "THE",
+        "type": "AGE-SCALE",
+        "word": "AGE",
+        "roles": {
+          "NAME-OF": "(AGE 12)",
+          "LEX": "(AGE 12)",
+          "WNSENSE": "age%1:07:00::"
+        },
+        "start": 12,
+        "end": 18
+      },
+      "root": "#V690065"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+124",
+    "*last-utt-id*=124  utt-id+NIL"
+  ]
+}

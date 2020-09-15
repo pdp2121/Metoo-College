@@ -1,0 +1,116 @@
+{
+  "parse": [
+    {
+      "V261526": {
+        "id": "V261526",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V260590",
+          "LEX": "STARTED"
+        },
+        "start": 0,
+        "end": 20
+      },
+      "V260590": {
+        "id": "V260590",
+        "indicator": "F",
+        "type": "START",
+        "word": "START",
+        "roles": {
+          "EXTENT": "#V260669",
+          "AGENT": "#V260568",
+          "MOD": "#V260611",
+          "TENSE": "PAST",
+          "LEX": "STARTED",
+          "WNSENSE": "start%1:11:00::"
+        },
+        "start": 0,
+        "end": 20
+      },
+      "V260568": {
+        "id": "V260568",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V260663"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V260611": {
+        "id": "V260611",
+        "indicator": "F",
+        "type": "RATE-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V260625",
+          "FIGURE": "#V260590",
+          "LEX": "AT"
+        },
+        "start": 11,
+        "end": 19
+      },
+      "V260625": {
+        "id": "V260625",
+        "indicator": "BARE",
+        "type": "AGE-SCALE",
+        "word": "AGE",
+        "roles": {
+          "SCALE": "TIME-MEASURE-SCALE",
+          "LEX": "AGE",
+          "WNSENSE": "age%1:07:00::"
+        },
+        "start": 14,
+        "end": 19
+      },
+      "V260669": {
+        "id": "V260669",
+        "indicator": "F",
+        "type": "EXTENT-PREDICATE",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V260590",
+          "GROUND": "#V260663",
+          "LEX": "TWELVE"
+        },
+        "start": 19,
+        "end": 20
+      },
+      "V260663": {
+        "id": "V260663",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "AMOUNT": "#V260631",
+          "LEX": "TWELVE"
+        },
+        "start": 19,
+        "end": 20
+      },
+      "V260631": {
+        "id": "V260631",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "12"
+        },
+        "start": 19,
+        "end": 20
+      },
+      "root": "#V261526"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+45",
+    "*last-utt-id*=45  utt-id+NIL"
+  ]
+}

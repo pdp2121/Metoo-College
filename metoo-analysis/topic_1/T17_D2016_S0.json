@@ -1,0 +1,77 @@
+{
+  "parse": [
+    {
+      "V324587": {
+        "id": "V324587",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V324505",
+          "LEX": "YEARS"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V324505": {
+        "id": "V324505",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V324362",
+          "MOD": "#V324370",
+          "LEX": "YEARS"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V324362": {
+        "id": "V324362",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V324360",
+          "LEX": "YEARS",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V324360": {
+        "id": "V324360",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "3"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V324370": {
+        "id": "V324370",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V324505",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 8,
+        "end": 10
+      },
+      "root": "#V324587"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+54",
+    "*last-utt-id*=54  utt-id+NIL"
+  ]
+}

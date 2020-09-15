@@ -1,0 +1,287 @@
+{
+  "parse": [
+    {
+      "V1995002": {
+        "id": "V1995002",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1992981",
+          "LEX": "TIMES"
+        },
+        "start": 0,
+        "end": 122
+      },
+      "V1992981": {
+        "id": "V1992981",
+        "indicator": "INDEF-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "REFSET": "#V1992518",
+          "SIZE": "UNIVERSAL",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 0,
+        "end": 122
+      },
+      "V1992518": {
+        "id": "V1992518",
+        "indicator": "THE-SET",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DOMAIN",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "PROFORM": "THOSE",
+          "MOD": "#V1992571",
+          "LEX": "TIMES",
+          "WNSENSE": "multiple%1:09:00"
+        },
+        "start": 4,
+        "end": 122
+      },
+      "V1992571": {
+        "id": "V1992571",
+        "indicator": "F",
+        "type": "SELECT",
+        "word": "CHOOSE",
+        "roles": {
+          "AGENT": "#V1992557",
+          "NEUTRAL": "#V1992518",
+          "REASON": "#V1992587",
+          "TENSE": "PAST",
+          "LEX": "CHOSE",
+          "WNSENSE": "choose%2:31:00::"
+        },
+        "start": 16,
+        "end": 122
+      },
+      "V1992557": {
+        "id": "V1992557",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 21,
+        "end": 23
+      },
+      "V1992587": {
+        "id": "V1992587",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V1993048",
+          "FIGURE": "#V1992571",
+          "LEX": "TO"
+        },
+        "start": 29,
+        "end": 122
+      },
+      "V1993048": {
+        "id": "V1993048",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V1992606",
+          "SEQUENCE1": "#V1992709",
+          "VFORM": "BASE",
+          "LEX": "AND",
+          "WNSENSE": "acknowledge%2:32:04::"
+        },
+        "start": 32,
+        "end": 122
+      },
+      "V1992709": {
+        "id": "V1992709",
+        "indicator": "F",
+        "type": "ACKNOWLEDGE",
+        "word": "ACKNOWLEDGE",
+        "roles": {
+          "FORMAL": "#V1992754",
+          "MOD": "#V1992698",
+          "LEX": "ACKNOWLEDGE",
+          "WNSENSE": "acknowledge%2:32:04::"
+        },
+        "start": 32,
+        "end": 122
+      },
+      "V1992606": {
+        "id": "V1992606",
+        "indicator": "F",
+        "type": "ACTIVITY-ONGOING",
+        "word": "MOVE-ON",
+        "roles": {
+          "LEX": "MOVE-ON"
+        },
+        "start": 32,
+        "end": 122
+      },
+      "V1992698": {
+        "id": "V1992698",
+        "indicator": "F",
+        "type": "MODIFIER",
+        "word": "EVEN",
+        "roles": {
+          "FIGURE": "#V1992709",
+          "MOD": "#V1992688",
+          "LEX": "EVEN",
+          "WNSENSE": "even%4:02:00::"
+        },
+        "start": 44,
+        "end": 53
+      },
+      "V1992688": {
+        "id": "V1992688",
+        "indicator": "F",
+        "type": "NEG",
+        "word": "NOT",
+        "roles": {
+          "FIGURE": "#V1992698",
+          "LEX": "NOT",
+          "WNSENSE": "not%4:02:00::"
+        },
+        "start": 44,
+        "end": 48
+      },
+      "V1992754": {
+        "id": "V1992754",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1992738",
+          "FORMAL": "#V1993284",
+          "REASON": "#V1992810",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 65,
+        "end": 122
+      },
+      "V1992738": {
+        "id": "V1992738",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 70,
+        "end": 72
+      },
+      "V1993284": {
+        "id": "V1993284",
+        "indicator": "F",
+        "type": "MEMBERSHIP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1992738",
+          "GROUND": "#V1992807",
+          "LEX": "VICTIM"
+        },
+        "start": 76,
+        "end": 85
+      },
+      "V1992807": {
+        "id": "V1992807",
+        "indicator": "THE-SET",
+        "type": "UNFORTUNATE",
+        "word": "VICTIM",
+        "roles": {},
+        "start": 76,
+        "end": 85
+      },
+      "V1992810": {
+        "id": "V1992810",
+        "indicator": "F",
+        "type": "REASON",
+        "word": "BECAUSE",
+        "roles": {
+          "GROUND": "#V1992834",
+          "FIGURE": "#V1992754",
+          "LEX": "BECAUSE"
+        },
+        "start": 85,
+        "end": 122
+      },
+      "V1992834": {
+        "id": "V1992834",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V1992822",
+          "NEUTRAL1": "#V1992913",
+          "TENSE": "PAST",
+          "LEX": "WAS",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 93,
+        "end": 122
+      },
+      "V1992822": {
+        "id": "V1992822",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "THAT",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "THAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 93,
+        "end": 98
+      },
+      "V1992913": {
+        "id": "V1992913",
+        "indicator": "THE",
+        "type": "EXIT",
+        "word": "WAY-OUT",
+        "roles": {
+          "MOD": "#V1992853",
+          "LEX": "WAY-OUT",
+          "WNSENSE": "way_out%1:06:00"
+        },
+        "start": 102,
+        "end": 122
+      },
+      "V1992853": {
+        "id": "V1992853",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "EASY",
+        "roles": {
+          "FIGURE": "#V1992913",
+          "SCALE": "EASY-SCALE",
+          "LEX": "EASIEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 106,
+        "end": 114
+      },
+      "root": "#V1995002"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+341",
+    "*last-utt-id*=341  utt-id+NIL"
+  ]
+}

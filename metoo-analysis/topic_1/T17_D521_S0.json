@@ -1,0 +1,228 @@
+{
+  "parse": [
+    {
+      "V2986689": {
+        "id": "V2986689",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2986685",
+          "LEX": "RAN"
+        },
+        "start": 0,
+        "end": 71
+      },
+      "V2986685": {
+        "id": "V2986685",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": null,
+        "roles": {
+          "AGENT": "#V2984079",
+          "AFFECTED": "#V2982849",
+          "METHOD": "#V2982677",
+          "FORMAL": "#V2982852",
+          "TENSE": "PAST",
+          "LEX": "RAN"
+        },
+        "start": 0,
+        "end": 71
+      },
+      "V2984079": {
+        "id": "V2984079",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(I)",
+          "VAL": "(I)",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2982677": {
+        "id": "V2982677",
+        "indicator": "F",
+        "type": "MOVE-RAPIDLY",
+        "word": "RUN",
+        "roles": {
+          "RESULT1": "#V2982904",
+          "RESULT": "#V2982687",
+          "AGENT": "#V2984079",
+          "MOD": "#V2982691",
+          "TENSE": "PAST",
+          "LEX": "RAN",
+          "WNSENSE": "run%2:38:00::"
+        },
+        "start": 2,
+        "end": 64
+      },
+      "V2982687": {
+        "id": "V2982687",
+        "indicator": "F",
+        "type": "AWAY",
+        "word": "AWAY",
+        "roles": {
+          "FIGURE": "#V2984079",
+          "LEX": "AWAY"
+        },
+        "start": 6,
+        "end": 11
+      },
+      "V2982691": {
+        "id": "V2982691",
+        "indicator": "F",
+        "type": "CHOICE-OPTION",
+        "word": "INSTEAD-OF",
+        "roles": {
+          "GROUND": "#V2982816",
+          "FIGURE": "#V2982677",
+          "LEX": "INSTEAD-OF"
+        },
+        "start": 11,
+        "end": 47
+      },
+      "V2982816": {
+        "id": "V2982816",
+        "indicator": "INDEF-SET",
+        "type": "SITUATION-ROOT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V2982706",
+          "SEQUENCE1": "#V2982824",
+          "LEX": "PUNC-AND"
+        },
+        "start": 22,
+        "end": 47
+      },
+      "V2982706": {
+        "id": "V2982706",
+        "indicator": "BARE",
+        "type": "SAY",
+        "word": "SPEAK",
+        "roles": {
+          "LOCATION": "#V2982744",
+          "LEX": "SPEAKING",
+          "WNSENSE": "speak%2:32:00::"
+        },
+        "start": 22,
+        "end": 34
+      },
+      "V2982744": {
+        "id": "V2982744",
+        "indicator": "F",
+        "type": "DIRECTION-UP-GROUND",
+        "word": "UP",
+        "roles": {
+          "FIGURE": "#V2982706",
+          "LEX": "UP"
+        },
+        "start": 31,
+        "end": 34
+      },
+      "V2982824": {
+        "id": "V2982824",
+        "indicator": "THE",
+        "type": "STATUS",
+        "word": "SILENCE",
+        "roles": {
+          "ASSOC-POSS": "#V2982819",
+          "LEX": "SILENCE",
+          "WNSENSE": "silence%1:26:00::"
+        },
+        "start": 36,
+        "end": 47
+      },
+      "V2982819": {
+        "id": "V2982819",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 36,
+        "end": 47
+      },
+      "V2982904": {
+        "id": "V2982904",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2984079",
+          "GROUND": "#V2982844",
+          "DEGREE": "#V2982834",
+          "LEX": "SWALLOWED"
+        },
+        "start": 47,
+        "end": 64
+      },
+      "V2982844": {
+        "id": "V2982844",
+        "indicator": "F",
+        "type": "CONSUME",
+        "word": "SWALLOW",
+        "roles": {
+          "AFFECTED": "#V2984079",
+          "WNSENSE": "swallow%2:34:00::"
+        },
+        "start": 47,
+        "end": 64
+      },
+      "V2982834": {
+        "id": "V2982834",
+        "indicator": "F",
+        "type": "DEGREE-MODIFIER-LOW",
+        "word": "ALMOST",
+        "roles": {
+          "FIGURE": "#V2982904",
+          "LEX": "ALMOST",
+          "WNSENSE": "almost%4:02:00::"
+        },
+        "start": 47,
+        "end": 54
+      },
+      "V2982849": {
+        "id": "V2982849",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 64,
+        "end": 67
+      },
+      "V2982852": {
+        "id": "V2982852",
+        "indicator": "F",
+        "type": "WHOLE-COMPLETE",
+        "word": "WHOLE",
+        "roles": {
+          "FIGURE": "#V2982849",
+          "SCALE": "COMPLETE-SCALE",
+          "LEX": "WHOLE",
+          "WNSENSE": "whole%3:00:00::"
+        },
+        "start": 67,
+        "end": 71
+      },
+      "root": "#V2986689"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+524",
+    "*last-utt-id*=524  utt-id+NIL"
+  ]
+}

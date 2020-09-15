@@ -1,0 +1,115 @@
+{
+  "parse": [
+    {
+      "V2819827": {
+        "id": "V2819827",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2818826",
+          "LEX": "GOT"
+        },
+        "start": 1,
+        "end": 35
+      },
+      "V2818826": {
+        "id": "V2818826",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V2818805",
+          "AFFECTED": "#V2818864",
+          "RESULT": "#V2818880",
+          "TIME": "#V2818800",
+          "TENSE": "PAST",
+          "LEX": "GOT"
+        },
+        "start": 1,
+        "end": 35
+      },
+      "V2818800": {
+        "id": "V2818800",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V2818826",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 1,
+        "end": 5
+      },
+      "V2818805": {
+        "id": "V2818805",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 5,
+        "end": 10
+      },
+      "V2818864": {
+        "id": "V2818864",
+        "indicator": "THE",
+        "type": "WASTE",
+        "word": "SHIT",
+        "roles": {
+          "LEX": "SHIT",
+          "WNSENSE": "shit%1:27:00::"
+        },
+        "start": 14,
+        "end": 23
+      },
+      "V2818880": {
+        "id": "V2818880",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V2819805",
+          "FIGURE": "#V2818864",
+          "LEX": "ON"
+        },
+        "start": 23,
+        "end": 35
+      },
+      "V2819805": {
+        "id": "V2819805",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2818904"
+        },
+        "start": 26,
+        "end": 35
+      },
+      "V2818904": {
+        "id": "V2818904",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "FACEBOOK",
+        "roles": {
+          "LEX": "FACEBOOK",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 26,
+        "end": 35
+      },
+      "root": "#V2819827"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+524",
+    "*last-utt-id*=524  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "parse": [
+    {
+      "V369722": {
+        "id": "V369722",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "ACT": "#V369507",
+          "ACT1": "#V370166",
+          "LEX": "LAUGH"
+        },
+        "start": 0,
+        "end": 60
+      },
+      "V369507": {
+        "id": "V369507",
+        "indicator": "SPEECHACT",
+        "type": "SA_RESPONSE",
+        "word": null,
+        "roles": {
+          "CONTENT": "(POS)",
+          "LEX": "YEAH"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V370166": {
+        "id": "V370166",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V369347",
+          "LEX": "LAUGH"
+        },
+        "start": 5,
+        "end": 60
+      },
+      "V369347": {
+        "id": "V369347",
+        "indicator": "F",
+        "type": "SOUND-EXPRESSION",
+        "word": "LAUGH",
+        "roles": {
+          "CONDITION": "#V369415",
+          "AGENT": "#V369330",
+          "MOD": "#V369393",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "LAUGH",
+          "WNSENSE": "laugh%2:29:00::"
+        },
+        "start": 5,
+        "end": 60
+      },
+      "V369330": {
+        "id": "V369330",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 5,
+        "end": 9
+      },
+      "V369393": {
+        "id": "V369393",
+        "indicator": "F",
+        "type": "INTENSE",
+        "word": "HARD",
+        "roles": {
+          "FIGURE": "#V369347",
+          "SCALE": "INTENSITY-SCALE",
+          "MOD": "#V369363",
+          "LEX": "HARD",
+          "WNSENSE": "hard%5:00:00:strong:00"
+        },
+        "start": 21,
+        "end": 33
+      },
+      "V369363": {
+        "id": "V369363",
+        "indicator": "F",
+        "type": "INTENSIFIER",
+        "word": "REALLY",
+        "roles": {
+          "FIGURE": "#V369393",
+          "LEX": "REALLY",
+          "WNSENSE": "really%4:02:03::"
+        },
+        "start": 21,
+        "end": 28
+      },
+      "V369415": {
+        "id": "V369415",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "GROUND": "#V369430",
+          "FIGURE": "#V369347",
+          "LEX": "IF"
+        },
+        "start": 33,
+        "end": 60
+      },
+      "V369430": {
+        "id": "V369430",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "HAPPEN",
+        "roles": {
+          "NEUTRAL": "#V369422",
+          "AFFECTED": "#V369468",
+          "TENSE": "PAST",
+          "LEX": "HAPPENED",
+          "WNSENSE": "happen%2:30:00::"
+        },
+        "start": 36,
+        "end": 60
+      },
+      "V369422": {
+        "id": "V369422",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V369347"
+        },
+        "start": 36,
+        "end": 39
+      },
+      "V369468": {
+        "id": "V369468",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": "SISTE",
+        "roles": {
+          "ASSOC-POSS": "#V369462",
+          "LEX": "SISTE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 48,
+        "end": 60
+      },
+      "V369462": {
+        "id": "V369462",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOUR",
+        "roles": {
+          "LEX": "YOUR",
+          "PROFORM": "YOUR",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 48,
+        "end": 60
+      },
+      "root": "#V369722"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+55",
+    "*last-utt-id*=55  utt-id+55",
+    "*last-utt-id*=55  utt-id+NIL"
+  ]
+}

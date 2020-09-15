@@ -1,0 +1,154 @@
+{
+  "parse": [
+    {
+      "V111765": {
+        "id": "V111765",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V110570",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 51
+      },
+      "V110570": {
+        "id": "V110570",
+        "indicator": "F",
+        "type": "EVENT-OF-CAUSATION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "(AND)",
+          "SEQUENCE": "#V109714",
+          "SEQUENCE1": "#V109772",
+          "TENSE": "PAST",
+          "LEX": "PUNC-AND"
+        },
+        "start": 0,
+        "end": 51
+      },
+      "V109772": {
+        "id": "V109772",
+        "indicator": "F",
+        "type": "BREAK-OBJECT",
+        "word": "RIP",
+        "roles": {
+          "AGENT": "#V109694",
+          "AFFECTED": "#V109798",
+          "QUALIFICATION": "#V109761",
+          "LEX": "RIPPED",
+          "WNSENSE": "rip%2:35:00::"
+        },
+        "start": 0,
+        "end": 51
+      },
+      "V109714": {
+        "id": "V109714",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "GO",
+        "roles": {
+          "RESULT": "#V109731",
+          "AGENT": "#V109694",
+          "LEX": "WENT",
+          "WNSENSE": "go%2:38:00::"
+        },
+        "start": 0,
+        "end": 51
+      },
+      "V109694": {
+        "id": "V109694",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V109731": {
+        "id": "V109731",
+        "indicator": "F",
+        "type": "RESULTING-STATE",
+        "word": "INTO",
+        "roles": {
+          "GROUND": "#V110376",
+          "FIGURE": "#V109694",
+          "LEX": "INTO"
+        },
+        "start": 10,
+        "end": 27
+      },
+      "V110376": {
+        "id": "V110376",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V109753"
+        },
+        "start": 15,
+        "end": 27
+      },
+      "V109753": {
+        "id": "V109753",
+        "indicator": "BARE",
+        "type": "STATUS",
+        "word": "MODE",
+        "roles": {
+          "ASSOC-WITH": "#V109738",
+          "LEX": "MODE",
+          "WNSENSE": "mode%1:26:00::"
+        },
+        "start": 15,
+        "end": 27
+      },
+      "V109738": {
+        "id": "V109738",
+        "indicator": "KIND",
+        "type": "CRITICIZE",
+        "word": "ATTACK",
+        "roles": {
+          "LEX": "ATTACK",
+          "WNSENSE": "knock%2:32:02"
+        },
+        "start": 15,
+        "end": 27
+      },
+      "V109761": {
+        "id": "V109761",
+        "indicator": "F",
+        "type": "QUALIFICATION",
+        "word": "ALMOST",
+        "roles": {
+          "FIGURE": "#V109772",
+          "LEX": "NEARLY"
+        },
+        "start": 29,
+        "end": 36
+      },
+      "V109798": {
+        "id": "V109798",
+        "indicator": "THE",
+        "type": "CONTROL-MANAGE",
+        "word": "LEASH",
+        "roles": {
+          "LEX": "LEASH",
+          "WNSENSE": "leash%1:04:00::"
+        },
+        "start": 43,
+        "end": 51
+      },
+      "root": "#V111765"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+11",
+    "*last-utt-id*=11  utt-id+NIL"
+  ]
+}

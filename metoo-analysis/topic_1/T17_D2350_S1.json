@@ -1,0 +1,52 @@
+{
+  "parse": [
+    {
+      "V1163545": {
+        "id": "V1163545",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1163373",
+          "LEX": "(MESSAGE 51)"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1163373": {
+        "id": "V1163373",
+        "indicator": "BARE",
+        "type": "CONTENT",
+        "word": "MESSAGE",
+        "roles": {
+          "MOD": "#V1163370",
+          "LEX": "(MESSAGE 51)",
+          "WNSENSE": "message%1:10:00::"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V1163370": {
+        "id": "V1163370",
+        "indicator": "F",
+        "type": "INSTANTANEOUS-VAL",
+        "word": "INSTANT",
+        "roles": {
+          "FIGURE": "#V1163373",
+          "SCALE": "SPEED-SCALE",
+          "LEX": "INSTANT",
+          "WNSENSE": "instant%5:00:00:fast:01"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "root": "#V1163545"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+245",
+    "*last-utt-id*=245  utt-id+NIL"
+  ]
+}

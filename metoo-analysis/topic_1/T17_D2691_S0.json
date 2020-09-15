@@ -1,0 +1,5806 @@
+{
+  "parse": [
+    {
+      "V2367424": {
+        "id": "V2367424",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365191",
+          "LEX": "TRIED"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365191": {
+        "id": "V2365191",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2365170",
+          "FORMAL": "#V2365228",
+          "FREQUENCY": "#V2365182",
+          "TENSE": "PAST",
+          "LEX": "TRIED",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365170": {
+        "id": "V2365170",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365182": {
+        "id": "V2365182",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365191",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 2,
+        "end": 9
+      },
+      "V2365228": {
+        "id": "V2365228",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "MAKE",
+        "roles": {
+          "AGENT": "#V2365170",
+          "AFFECTED-RESULT": "#V2365256",
+          "VFORM": "BASE",
+          "LEX": "MAKE",
+          "WNSENSE": "make%1:04:00::"
+        },
+        "start": 15,
+        "end": 29
+      },
+      "V2365256": {
+        "id": "V2365256",
+        "indicator": "BARE",
+        "type": "LIGHT",
+        "word": "LIGHT",
+        "roles": {
+          "LEX": "LIGHT",
+          "WNSENSE": "light%1:19:00::"
+        },
+        "start": 23,
+        "end": 29
+      },
+      "root": "#V2367424"
+    },
+    {
+      "V2365270": {
+        "id": "V2365270",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 29,
+        "end": 32
+      },
+      "root": "#V2365270"
+    },
+    {
+      "V2365583": {
+        "id": "V2365583",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365276",
+          "LEX": "IT"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365276": {
+        "id": "V2365276",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V2365256"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "root": "#V2365583"
+    },
+    {
+      "V2366946": {
+        "id": "V2366946",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2365735",
+          "MOD": "#V2365282",
+          "LEX": "AND"
+        },
+        "start": 35,
+        "end": 97
+      },
+      "V2365282": {
+        "id": "V2365282",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V2366946",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 35,
+        "end": 39
+      },
+      "V2365735": {
+        "id": "V2365735",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2365306",
+          "SEQUENCE1": "#V2365344",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365344": {
+        "id": "V2365344",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "HARASS",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "HARASSED",
+          "WNSENSE": "harass%2:37:00::"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365306": {
+        "id": "V2365306",
+        "indicator": "F",
+        "type": "EVOKE-FEAR",
+        "word": "BULLIED",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "BULLIED",
+          "WNSENSE": "frighten%2:37:00"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365293": {
+        "id": "V2365293",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "BOSS",
+        "roles": {
+          "ASSOC-POSS": "#V2365287",
+          "MOD": [
+            "#V2365301",
+            "#V2365290"
+          ],
+          "LEX": "BOSS",
+          "WNSENSE": "professional%1:18:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365287": {
+        "id": "V2365287",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365290": {
+        "id": "V2365290",
+        "indicator": "F",
+        "type": "PREVIOUS-VAL",
+        "word": "FORMER",
+        "roles": {
+          "FIGURE": "#V2365293",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "FORMER",
+          "WNSENSE": "former%5:00:02:past:00"
+        },
+        "start": 42,
+        "end": 49
+      },
+      "V2365301": {
+        "id": "V2365301",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "INTIMIDATE",
+        "roles": {
+          "AFFECTED": "#V2365293",
+          "FREQUENCY": "#V2365296",
+          "VFORM": "PASSIVE",
+          "LEX": "INTIMIDATED",
+          "WNSENSE": "intimidate%2:37:01::"
+        },
+        "start": 54,
+        "end": 73
+      },
+      "V2365296": {
+        "id": "V2365296",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365301",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 54,
+        "end": 61
+      },
+      "V2365347": {
+        "id": "V2365347",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 94,
+        "end": 97
+      },
+      "root": "#V2366946"
+    },
+    {
+      "V2367424": {
+        "id": "V2367424",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365191",
+          "LEX": "TRIED"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365191": {
+        "id": "V2365191",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2365170",
+          "FORMAL": "#V2365228",
+          "FREQUENCY": "#V2365182",
+          "TENSE": "PAST",
+          "LEX": "TRIED",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365170": {
+        "id": "V2365170",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365182": {
+        "id": "V2365182",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365191",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 2,
+        "end": 9
+      },
+      "V2365228": {
+        "id": "V2365228",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "MAKE",
+        "roles": {
+          "AGENT": "#V2365170",
+          "AFFECTED-RESULT": "#V2365256",
+          "VFORM": "BASE",
+          "LEX": "MAKE",
+          "WNSENSE": "make%1:04:00::"
+        },
+        "start": 15,
+        "end": 29
+      },
+      "V2365256": {
+        "id": "V2365256",
+        "indicator": "BARE",
+        "type": "LIGHT",
+        "word": "LIGHT",
+        "roles": {
+          "LEX": "LIGHT",
+          "WNSENSE": "light%1:19:00::"
+        },
+        "start": 23,
+        "end": 29
+      },
+      "root": "#V2367424"
+    },
+    {
+      "V2365270": {
+        "id": "V2365270",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 29,
+        "end": 32
+      },
+      "root": "#V2365270"
+    },
+    {
+      "V2365583": {
+        "id": "V2365583",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365276",
+          "LEX": "IT"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365276": {
+        "id": "V2365276",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "root": "#V2365583"
+    },
+    {
+      "V2366958": {
+        "id": "V2366958",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2365785",
+          "MOD": "#V2365282",
+          "LEX": "AND"
+        },
+        "start": 35,
+        "end": 98
+      },
+      "V2365282": {
+        "id": "V2365282",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V2366958",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 35,
+        "end": 39
+      },
+      "V2365785": {
+        "id": "V2365785",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2365309",
+          "SEQUENCE1": "#V2365344",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365344": {
+        "id": "V2365344",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "HARASS",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "HARASSED",
+          "WNSENSE": "harass%2:37:00::"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365309": {
+        "id": "V2365309",
+        "indicator": "F",
+        "type": "PROVOKE",
+        "word": "BULLIED",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "BULLIED",
+          "WNSENSE": "persuade%2:32:00"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365293": {
+        "id": "V2365293",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "BOSS",
+        "roles": {
+          "ASSOC-POSS": "#V2365287",
+          "MOD": [
+            "#V2365301",
+            "#V2365290"
+          ],
+          "LEX": "BOSS",
+          "WNSENSE": "professional%1:18:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365287": {
+        "id": "V2365287",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365290": {
+        "id": "V2365290",
+        "indicator": "F",
+        "type": "PREVIOUS-VAL",
+        "word": "FORMER",
+        "roles": {
+          "FIGURE": "#V2365293",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "FORMER",
+          "WNSENSE": "former%5:00:02:past:00"
+        },
+        "start": 42,
+        "end": 49
+      },
+      "V2365301": {
+        "id": "V2365301",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "INTIMIDATE",
+        "roles": {
+          "AFFECTED": "#V2365293",
+          "FREQUENCY": "#V2365296",
+          "VFORM": "PASSIVE",
+          "LEX": "INTIMIDATED",
+          "WNSENSE": "intimidate%2:37:01::"
+        },
+        "start": 54,
+        "end": 73
+      },
+      "V2365296": {
+        "id": "V2365296",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365301",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 54,
+        "end": 61
+      },
+      "V2365347": {
+        "id": "V2365347",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 94,
+        "end": 97
+      },
+      "root": "#V2366958"
+    },
+    {
+      "V2367424": {
+        "id": "V2367424",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365191",
+          "LEX": "TRIED"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365191": {
+        "id": "V2365191",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2365170",
+          "FORMAL": "#V2365228",
+          "FREQUENCY": "#V2365182",
+          "TENSE": "PAST",
+          "LEX": "TRIED",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365170": {
+        "id": "V2365170",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365182": {
+        "id": "V2365182",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365191",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 2,
+        "end": 9
+      },
+      "V2365228": {
+        "id": "V2365228",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "MAKE",
+        "roles": {
+          "AGENT": "#V2365170",
+          "AFFECTED-RESULT": "#V2365256",
+          "VFORM": "BASE",
+          "LEX": "MAKE",
+          "WNSENSE": "make%1:04:00::"
+        },
+        "start": 15,
+        "end": 29
+      },
+      "V2365256": {
+        "id": "V2365256",
+        "indicator": "BARE",
+        "type": "LIGHT",
+        "word": "LIGHT",
+        "roles": {
+          "LEX": "LIGHT",
+          "WNSENSE": "light%1:19:00::"
+        },
+        "start": 23,
+        "end": 29
+      },
+      "root": "#V2367424"
+    },
+    {
+      "V2365270": {
+        "id": "V2365270",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 29,
+        "end": 32
+      },
+      "root": "#V2365270"
+    },
+    {
+      "V2365583": {
+        "id": "V2365583",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365276",
+          "LEX": "IT"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365276": {
+        "id": "V2365276",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "root": "#V2365583"
+    },
+    {
+      "V2366955": {
+        "id": "V2366955",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2365789",
+          "MOD": "#V2365282",
+          "LEX": "AND"
+        },
+        "start": 35,
+        "end": 98
+      },
+      "V2365282": {
+        "id": "V2365282",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V2366955",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 35,
+        "end": 39
+      },
+      "V2365789": {
+        "id": "V2365789",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2365311",
+          "SEQUENCE1": "#V2365344",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365344": {
+        "id": "V2365344",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "HARASS",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "HARASSED",
+          "WNSENSE": "harass%2:37:00::"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365311": {
+        "id": "V2365311",
+        "indicator": "F",
+        "type": "PROVOKE",
+        "word": "BULLIED",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "BULLIED",
+          "WNSENSE": "persuade%2:32:00"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365293": {
+        "id": "V2365293",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "BOSS",
+        "roles": {
+          "ASSOC-POSS": "#V2365287",
+          "MOD": [
+            "#V2365301",
+            "#V2365290"
+          ],
+          "LEX": "BOSS",
+          "WNSENSE": "professional%1:18:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365287": {
+        "id": "V2365287",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365290": {
+        "id": "V2365290",
+        "indicator": "F",
+        "type": "PREVIOUS-VAL",
+        "word": "FORMER",
+        "roles": {
+          "FIGURE": "#V2365293",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "FORMER",
+          "WNSENSE": "former%5:00:02:past:00"
+        },
+        "start": 42,
+        "end": 49
+      },
+      "V2365301": {
+        "id": "V2365301",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "INTIMIDATE",
+        "roles": {
+          "AFFECTED": "#V2365293",
+          "FREQUENCY": "#V2365296",
+          "VFORM": "PASSIVE",
+          "LEX": "INTIMIDATED",
+          "WNSENSE": "intimidate%2:37:01::"
+        },
+        "start": 54,
+        "end": 73
+      },
+      "V2365296": {
+        "id": "V2365296",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365301",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 54,
+        "end": 61
+      },
+      "V2365347": {
+        "id": "V2365347",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 94,
+        "end": 97
+      },
+      "root": "#V2366955"
+    },
+    {
+      "V2367424": {
+        "id": "V2367424",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365191",
+          "LEX": "TRIED"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365191": {
+        "id": "V2365191",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2365170",
+          "FORMAL": "#V2365228",
+          "FREQUENCY": "#V2365182",
+          "TENSE": "PAST",
+          "LEX": "TRIED",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365170": {
+        "id": "V2365170",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365182": {
+        "id": "V2365182",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365191",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 2,
+        "end": 9
+      },
+      "V2365228": {
+        "id": "V2365228",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "MAKE",
+        "roles": {
+          "AGENT": "#V2365170",
+          "AFFECTED-RESULT": "#V2365256",
+          "VFORM": "BASE",
+          "LEX": "MAKE",
+          "WNSENSE": "make%1:04:00::"
+        },
+        "start": 15,
+        "end": 29
+      },
+      "V2365256": {
+        "id": "V2365256",
+        "indicator": "BARE",
+        "type": "LIGHT",
+        "word": "LIGHT",
+        "roles": {
+          "LEX": "LIGHT",
+          "WNSENSE": "light%1:19:00::"
+        },
+        "start": 23,
+        "end": 29
+      },
+      "root": "#V2367424"
+    },
+    {
+      "V2365270": {
+        "id": "V2365270",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 29,
+        "end": 32
+      },
+      "root": "#V2365270"
+    },
+    {
+      "V2365583": {
+        "id": "V2365583",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365276",
+          "LEX": "IT"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365276": {
+        "id": "V2365276",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "root": "#V2365583"
+    },
+    {
+      "V2366952": {
+        "id": "V2366952",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2365792",
+          "MOD": "#V2365282",
+          "LEX": "AND"
+        },
+        "start": 35,
+        "end": 98
+      },
+      "V2365282": {
+        "id": "V2365282",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V2366952",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 35,
+        "end": 39
+      },
+      "V2365792": {
+        "id": "V2365792",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2365313",
+          "SEQUENCE1": "#V2365344",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365344": {
+        "id": "V2365344",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "HARASS",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "HARASSED",
+          "WNSENSE": "harass%2:37:00::"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365313": {
+        "id": "V2365313",
+        "indicator": "F",
+        "type": "PROVOKE",
+        "word": "BULLIED",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "BULLIED",
+          "WNSENSE": "persuade%2:32:00"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365293": {
+        "id": "V2365293",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "BOSS",
+        "roles": {
+          "ASSOC-POSS": "#V2365287",
+          "MOD": [
+            "#V2365301",
+            "#V2365290"
+          ],
+          "LEX": "BOSS",
+          "WNSENSE": "professional%1:18:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365287": {
+        "id": "V2365287",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365290": {
+        "id": "V2365290",
+        "indicator": "F",
+        "type": "PREVIOUS-VAL",
+        "word": "FORMER",
+        "roles": {
+          "FIGURE": "#V2365293",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "FORMER",
+          "WNSENSE": "former%5:00:02:past:00"
+        },
+        "start": 42,
+        "end": 49
+      },
+      "V2365301": {
+        "id": "V2365301",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "INTIMIDATE",
+        "roles": {
+          "AFFECTED": "#V2365293",
+          "FREQUENCY": "#V2365296",
+          "VFORM": "PASSIVE",
+          "LEX": "INTIMIDATED",
+          "WNSENSE": "intimidate%2:37:01::"
+        },
+        "start": 54,
+        "end": 73
+      },
+      "V2365296": {
+        "id": "V2365296",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365301",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 54,
+        "end": 61
+      },
+      "V2365347": {
+        "id": "V2365347",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 94,
+        "end": 97
+      },
+      "root": "#V2366952"
+    },
+    {
+      "V2367424": {
+        "id": "V2367424",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365191",
+          "LEX": "TRIED"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365191": {
+        "id": "V2365191",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2365170",
+          "FORMAL": "#V2365228",
+          "FREQUENCY": "#V2365182",
+          "TENSE": "PAST",
+          "LEX": "TRIED",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365170": {
+        "id": "V2365170",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365182": {
+        "id": "V2365182",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365191",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 2,
+        "end": 9
+      },
+      "V2365228": {
+        "id": "V2365228",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "MAKE",
+        "roles": {
+          "AGENT": "#V2365170",
+          "AFFECTED-RESULT": "#V2365256",
+          "VFORM": "BASE",
+          "LEX": "MAKE",
+          "WNSENSE": "make%1:04:00::"
+        },
+        "start": 15,
+        "end": 29
+      },
+      "V2365256": {
+        "id": "V2365256",
+        "indicator": "BARE",
+        "type": "LIGHT",
+        "word": "LIGHT",
+        "roles": {
+          "LEX": "LIGHT",
+          "WNSENSE": "light%1:19:00::"
+        },
+        "start": 23,
+        "end": 29
+      },
+      "root": "#V2367424"
+    },
+    {
+      "V2365270": {
+        "id": "V2365270",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 29,
+        "end": 32
+      },
+      "root": "#V2365270"
+    },
+    {
+      "V2365583": {
+        "id": "V2365583",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365276",
+          "LEX": "IT"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365276": {
+        "id": "V2365276",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "root": "#V2365583"
+    },
+    {
+      "V2366949": {
+        "id": "V2366949",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2365796",
+          "MOD": "#V2365282",
+          "LEX": "AND"
+        },
+        "start": 35,
+        "end": 98
+      },
+      "V2365282": {
+        "id": "V2365282",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V2366949",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 35,
+        "end": 39
+      },
+      "V2365796": {
+        "id": "V2365796",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2365317",
+          "SEQUENCE1": "#V2365344",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365344": {
+        "id": "V2365344",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "HARASS",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "HARASSED",
+          "WNSENSE": "harass%2:37:00::"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365317": {
+        "id": "V2365317",
+        "indicator": "F",
+        "type": "PROVOKE",
+        "word": "BULLIED",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "BULLIED",
+          "WNSENSE": "persuade%2:32:00"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365293": {
+        "id": "V2365293",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "BOSS",
+        "roles": {
+          "ASSOC-POSS": "#V2365287",
+          "MOD": [
+            "#V2365301",
+            "#V2365290"
+          ],
+          "LEX": "BOSS",
+          "WNSENSE": "professional%1:18:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365287": {
+        "id": "V2365287",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365290": {
+        "id": "V2365290",
+        "indicator": "F",
+        "type": "PREVIOUS-VAL",
+        "word": "FORMER",
+        "roles": {
+          "FIGURE": "#V2365293",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "FORMER",
+          "WNSENSE": "former%5:00:02:past:00"
+        },
+        "start": 42,
+        "end": 49
+      },
+      "V2365301": {
+        "id": "V2365301",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "INTIMIDATE",
+        "roles": {
+          "AFFECTED": "#V2365293",
+          "FREQUENCY": "#V2365296",
+          "VFORM": "PASSIVE",
+          "LEX": "INTIMIDATED",
+          "WNSENSE": "intimidate%2:37:01::"
+        },
+        "start": 54,
+        "end": 73
+      },
+      "V2365296": {
+        "id": "V2365296",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365301",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 54,
+        "end": 61
+      },
+      "V2365347": {
+        "id": "V2365347",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 94,
+        "end": 97
+      },
+      "root": "#V2366949"
+    },
+    {
+      "V2367645": {
+        "id": "V2367645",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365191",
+          "LEX": "TRIED"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365191": {
+        "id": "V2365191",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2365473",
+          "FORMAL": "#V2365228",
+          "FREQUENCY": "#V2365182",
+          "TENSE": "PAST",
+          "LEX": "TRIED",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365473": {
+        "id": "V2365473",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2365170"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365170": {
+        "id": "V2365170",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365182": {
+        "id": "V2365182",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365191",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 2,
+        "end": 9
+      },
+      "V2365228": {
+        "id": "V2365228",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "MAKE",
+        "roles": {
+          "AGENT": "#V2365473",
+          "AFFECTED-RESULT": "#V2365256",
+          "VFORM": "BASE",
+          "LEX": "MAKE",
+          "WNSENSE": "make%1:04:00::"
+        },
+        "start": 15,
+        "end": 29
+      },
+      "V2365256": {
+        "id": "V2365256",
+        "indicator": "BARE",
+        "type": "LIGHT",
+        "word": "LIGHT",
+        "roles": {
+          "LEX": "LIGHT",
+          "WNSENSE": "light%1:19:00::"
+        },
+        "start": 23,
+        "end": 29
+      },
+      "root": "#V2367645"
+    },
+    {
+      "V2365270": {
+        "id": "V2365270",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 29,
+        "end": 32
+      },
+      "root": "#V2365270"
+    },
+    {
+      "V2365583": {
+        "id": "V2365583",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365276",
+          "LEX": "IT"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365276": {
+        "id": "V2365276",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "root": "#V2365583"
+    },
+    {
+      "V2366946": {
+        "id": "V2366946",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2365735",
+          "MOD": "#V2365282",
+          "LEX": "AND"
+        },
+        "start": 35,
+        "end": 98
+      },
+      "V2365282": {
+        "id": "V2365282",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V2366946",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 35,
+        "end": 39
+      },
+      "V2365735": {
+        "id": "V2365735",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2365306",
+          "SEQUENCE1": "#V2365344",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365344": {
+        "id": "V2365344",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "HARASS",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "HARASSED",
+          "WNSENSE": "harass%2:37:00::"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365306": {
+        "id": "V2365306",
+        "indicator": "F",
+        "type": "EVOKE-FEAR",
+        "word": "BULLIED",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "BULLIED",
+          "WNSENSE": "frighten%2:37:00"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365293": {
+        "id": "V2365293",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "BOSS",
+        "roles": {
+          "ASSOC-POSS": "#V2365287",
+          "MOD": [
+            "#V2365301",
+            "#V2365290"
+          ],
+          "LEX": "BOSS",
+          "WNSENSE": "professional%1:18:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365287": {
+        "id": "V2365287",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365290": {
+        "id": "V2365290",
+        "indicator": "F",
+        "type": "PREVIOUS-VAL",
+        "word": "FORMER",
+        "roles": {
+          "FIGURE": "#V2365293",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "FORMER",
+          "WNSENSE": "former%5:00:02:past:00"
+        },
+        "start": 42,
+        "end": 49
+      },
+      "V2365301": {
+        "id": "V2365301",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "INTIMIDATE",
+        "roles": {
+          "AFFECTED": "#V2365293",
+          "FREQUENCY": "#V2365296",
+          "VFORM": "PASSIVE",
+          "LEX": "INTIMIDATED",
+          "WNSENSE": "intimidate%2:37:01::"
+        },
+        "start": 54,
+        "end": 73
+      },
+      "V2365296": {
+        "id": "V2365296",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365301",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 54,
+        "end": 61
+      },
+      "V2365347": {
+        "id": "V2365347",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 94,
+        "end": 97
+      },
+      "root": "#V2366946"
+    },
+    {
+      "V2367645": {
+        "id": "V2367645",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365191",
+          "LEX": "TRIED"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365191": {
+        "id": "V2365191",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2365473",
+          "FORMAL": "#V2365228",
+          "FREQUENCY": "#V2365182",
+          "TENSE": "PAST",
+          "LEX": "TRIED",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365473": {
+        "id": "V2365473",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2365170"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365170": {
+        "id": "V2365170",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365182": {
+        "id": "V2365182",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365191",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 2,
+        "end": 9
+      },
+      "V2365228": {
+        "id": "V2365228",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "MAKE",
+        "roles": {
+          "AGENT": "#V2365473",
+          "AFFECTED-RESULT": "#V2365256",
+          "VFORM": "BASE",
+          "LEX": "MAKE",
+          "WNSENSE": "make%1:04:00::"
+        },
+        "start": 15,
+        "end": 29
+      },
+      "V2365256": {
+        "id": "V2365256",
+        "indicator": "BARE",
+        "type": "LIGHT",
+        "word": "LIGHT",
+        "roles": {
+          "LEX": "LIGHT",
+          "WNSENSE": "light%1:19:00::"
+        },
+        "start": 23,
+        "end": 29
+      },
+      "root": "#V2367645"
+    },
+    {
+      "V2365270": {
+        "id": "V2365270",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 29,
+        "end": 32
+      },
+      "root": "#V2365270"
+    },
+    {
+      "V2365583": {
+        "id": "V2365583",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365276",
+          "LEX": "IT"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365276": {
+        "id": "V2365276",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "root": "#V2365583"
+    },
+    {
+      "V2366958": {
+        "id": "V2366958",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2365785",
+          "MOD": "#V2365282",
+          "LEX": "AND"
+        },
+        "start": 35,
+        "end": 98
+      },
+      "V2365282": {
+        "id": "V2365282",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V2366958",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 35,
+        "end": 39
+      },
+      "V2365785": {
+        "id": "V2365785",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2365309",
+          "SEQUENCE1": "#V2365344",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365344": {
+        "id": "V2365344",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "HARASS",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "HARASSED",
+          "WNSENSE": "harass%2:37:00::"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365309": {
+        "id": "V2365309",
+        "indicator": "F",
+        "type": "PROVOKE",
+        "word": "BULLIED",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "BULLIED",
+          "WNSENSE": "persuade%2:32:00"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365293": {
+        "id": "V2365293",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "BOSS",
+        "roles": {
+          "ASSOC-POSS": "#V2365287",
+          "MOD": [
+            "#V2365301",
+            "#V2365290"
+          ],
+          "LEX": "BOSS",
+          "WNSENSE": "professional%1:18:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365287": {
+        "id": "V2365287",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365290": {
+        "id": "V2365290",
+        "indicator": "F",
+        "type": "PREVIOUS-VAL",
+        "word": "FORMER",
+        "roles": {
+          "FIGURE": "#V2365293",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "FORMER",
+          "WNSENSE": "former%5:00:02:past:00"
+        },
+        "start": 42,
+        "end": 49
+      },
+      "V2365301": {
+        "id": "V2365301",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "INTIMIDATE",
+        "roles": {
+          "AFFECTED": "#V2365293",
+          "FREQUENCY": "#V2365296",
+          "VFORM": "PASSIVE",
+          "LEX": "INTIMIDATED",
+          "WNSENSE": "intimidate%2:37:01::"
+        },
+        "start": 54,
+        "end": 73
+      },
+      "V2365296": {
+        "id": "V2365296",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365301",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 54,
+        "end": 61
+      },
+      "V2365347": {
+        "id": "V2365347",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 94,
+        "end": 97
+      },
+      "root": "#V2366958"
+    },
+    {
+      "V2367645": {
+        "id": "V2367645",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365191",
+          "LEX": "TRIED"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365191": {
+        "id": "V2365191",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2365473",
+          "FORMAL": "#V2365228",
+          "FREQUENCY": "#V2365182",
+          "TENSE": "PAST",
+          "LEX": "TRIED",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365473": {
+        "id": "V2365473",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2365170"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365170": {
+        "id": "V2365170",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365182": {
+        "id": "V2365182",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365191",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 2,
+        "end": 9
+      },
+      "V2365228": {
+        "id": "V2365228",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "MAKE",
+        "roles": {
+          "AGENT": "#V2365473",
+          "AFFECTED-RESULT": "#V2365256",
+          "VFORM": "BASE",
+          "LEX": "MAKE",
+          "WNSENSE": "make%1:04:00::"
+        },
+        "start": 15,
+        "end": 29
+      },
+      "V2365256": {
+        "id": "V2365256",
+        "indicator": "BARE",
+        "type": "LIGHT",
+        "word": "LIGHT",
+        "roles": {
+          "LEX": "LIGHT",
+          "WNSENSE": "light%1:19:00::"
+        },
+        "start": 23,
+        "end": 29
+      },
+      "root": "#V2367645"
+    },
+    {
+      "V2365270": {
+        "id": "V2365270",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 29,
+        "end": 32
+      },
+      "root": "#V2365270"
+    },
+    {
+      "V2365583": {
+        "id": "V2365583",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365276",
+          "LEX": "IT"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365276": {
+        "id": "V2365276",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "root": "#V2365583"
+    },
+    {
+      "V2366955": {
+        "id": "V2366955",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2365789",
+          "MOD": "#V2365282",
+          "LEX": "AND"
+        },
+        "start": 35,
+        "end": 98
+      },
+      "V2365282": {
+        "id": "V2365282",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V2366955",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 35,
+        "end": 39
+      },
+      "V2365789": {
+        "id": "V2365789",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2365311",
+          "SEQUENCE1": "#V2365344",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365344": {
+        "id": "V2365344",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "HARASS",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "HARASSED",
+          "WNSENSE": "harass%2:37:00::"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365311": {
+        "id": "V2365311",
+        "indicator": "F",
+        "type": "PROVOKE",
+        "word": "BULLIED",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "BULLIED",
+          "WNSENSE": "persuade%2:32:00"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365293": {
+        "id": "V2365293",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "BOSS",
+        "roles": {
+          "ASSOC-POSS": "#V2365287",
+          "MOD": [
+            "#V2365301",
+            "#V2365290"
+          ],
+          "LEX": "BOSS",
+          "WNSENSE": "professional%1:18:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365287": {
+        "id": "V2365287",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365290": {
+        "id": "V2365290",
+        "indicator": "F",
+        "type": "PREVIOUS-VAL",
+        "word": "FORMER",
+        "roles": {
+          "FIGURE": "#V2365293",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "FORMER",
+          "WNSENSE": "former%5:00:02:past:00"
+        },
+        "start": 42,
+        "end": 49
+      },
+      "V2365301": {
+        "id": "V2365301",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "INTIMIDATE",
+        "roles": {
+          "AFFECTED": "#V2365293",
+          "FREQUENCY": "#V2365296",
+          "VFORM": "PASSIVE",
+          "LEX": "INTIMIDATED",
+          "WNSENSE": "intimidate%2:37:01::"
+        },
+        "start": 54,
+        "end": 73
+      },
+      "V2365296": {
+        "id": "V2365296",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365301",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 54,
+        "end": 61
+      },
+      "V2365347": {
+        "id": "V2365347",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 94,
+        "end": 97
+      },
+      "root": "#V2366955"
+    },
+    {
+      "V2367645": {
+        "id": "V2367645",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365191",
+          "LEX": "TRIED"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365191": {
+        "id": "V2365191",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2365473",
+          "FORMAL": "#V2365228",
+          "FREQUENCY": "#V2365182",
+          "TENSE": "PAST",
+          "LEX": "TRIED",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365473": {
+        "id": "V2365473",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2365170"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365170": {
+        "id": "V2365170",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365182": {
+        "id": "V2365182",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365191",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 2,
+        "end": 9
+      },
+      "V2365228": {
+        "id": "V2365228",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "MAKE",
+        "roles": {
+          "AGENT": "#V2365473",
+          "AFFECTED-RESULT": "#V2365256",
+          "VFORM": "BASE",
+          "LEX": "MAKE",
+          "WNSENSE": "make%1:04:00::"
+        },
+        "start": 15,
+        "end": 29
+      },
+      "V2365256": {
+        "id": "V2365256",
+        "indicator": "BARE",
+        "type": "LIGHT",
+        "word": "LIGHT",
+        "roles": {
+          "LEX": "LIGHT",
+          "WNSENSE": "light%1:19:00::"
+        },
+        "start": 23,
+        "end": 29
+      },
+      "root": "#V2367645"
+    },
+    {
+      "V2365270": {
+        "id": "V2365270",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 29,
+        "end": 32
+      },
+      "root": "#V2365270"
+    },
+    {
+      "V2365583": {
+        "id": "V2365583",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365276",
+          "LEX": "IT"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365276": {
+        "id": "V2365276",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "root": "#V2365583"
+    },
+    {
+      "V2366952": {
+        "id": "V2366952",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2365792",
+          "MOD": "#V2365282",
+          "LEX": "AND"
+        },
+        "start": 35,
+        "end": 98
+      },
+      "V2365282": {
+        "id": "V2365282",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V2366952",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 35,
+        "end": 39
+      },
+      "V2365792": {
+        "id": "V2365792",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2365313",
+          "SEQUENCE1": "#V2365344",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365344": {
+        "id": "V2365344",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "HARASS",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "HARASSED",
+          "WNSENSE": "harass%2:37:00::"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365313": {
+        "id": "V2365313",
+        "indicator": "F",
+        "type": "PROVOKE",
+        "word": "BULLIED",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "BULLIED",
+          "WNSENSE": "persuade%2:32:00"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365293": {
+        "id": "V2365293",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "BOSS",
+        "roles": {
+          "ASSOC-POSS": "#V2365287",
+          "MOD": [
+            "#V2365301",
+            "#V2365290"
+          ],
+          "LEX": "BOSS",
+          "WNSENSE": "professional%1:18:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365287": {
+        "id": "V2365287",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365290": {
+        "id": "V2365290",
+        "indicator": "F",
+        "type": "PREVIOUS-VAL",
+        "word": "FORMER",
+        "roles": {
+          "FIGURE": "#V2365293",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "FORMER",
+          "WNSENSE": "former%5:00:02:past:00"
+        },
+        "start": 42,
+        "end": 49
+      },
+      "V2365301": {
+        "id": "V2365301",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "INTIMIDATE",
+        "roles": {
+          "AFFECTED": "#V2365293",
+          "FREQUENCY": "#V2365296",
+          "VFORM": "PASSIVE",
+          "LEX": "INTIMIDATED",
+          "WNSENSE": "intimidate%2:37:01::"
+        },
+        "start": 54,
+        "end": 73
+      },
+      "V2365296": {
+        "id": "V2365296",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365301",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 54,
+        "end": 61
+      },
+      "V2365347": {
+        "id": "V2365347",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 94,
+        "end": 97
+      },
+      "root": "#V2366952"
+    },
+    {
+      "V2367645": {
+        "id": "V2367645",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365191",
+          "LEX": "TRIED"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365191": {
+        "id": "V2365191",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2365473",
+          "FORMAL": "#V2365228",
+          "FREQUENCY": "#V2365182",
+          "TENSE": "PAST",
+          "LEX": "TRIED",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365473": {
+        "id": "V2365473",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2365170"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365170": {
+        "id": "V2365170",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365182": {
+        "id": "V2365182",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365191",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 2,
+        "end": 9
+      },
+      "V2365228": {
+        "id": "V2365228",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "MAKE",
+        "roles": {
+          "AGENT": "#V2365473",
+          "AFFECTED-RESULT": "#V2365256",
+          "VFORM": "BASE",
+          "LEX": "MAKE",
+          "WNSENSE": "make%1:04:00::"
+        },
+        "start": 15,
+        "end": 29
+      },
+      "V2365256": {
+        "id": "V2365256",
+        "indicator": "BARE",
+        "type": "LIGHT",
+        "word": "LIGHT",
+        "roles": {
+          "LEX": "LIGHT",
+          "WNSENSE": "light%1:19:00::"
+        },
+        "start": 23,
+        "end": 29
+      },
+      "root": "#V2367645"
+    },
+    {
+      "V2365270": {
+        "id": "V2365270",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 29,
+        "end": 32
+      },
+      "root": "#V2365270"
+    },
+    {
+      "V2365583": {
+        "id": "V2365583",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365276",
+          "LEX": "IT"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365276": {
+        "id": "V2365276",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "root": "#V2365583"
+    },
+    {
+      "V2366949": {
+        "id": "V2366949",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2365796",
+          "MOD": "#V2365282",
+          "LEX": "AND"
+        },
+        "start": 35,
+        "end": 98
+      },
+      "V2365282": {
+        "id": "V2365282",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V2366949",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 35,
+        "end": 39
+      },
+      "V2365796": {
+        "id": "V2365796",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2365317",
+          "SEQUENCE1": "#V2365344",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365344": {
+        "id": "V2365344",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "HARASS",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "HARASSED",
+          "WNSENSE": "harass%2:37:00::"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365317": {
+        "id": "V2365317",
+        "indicator": "F",
+        "type": "PROVOKE",
+        "word": "BULLIED",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "BULLIED",
+          "WNSENSE": "persuade%2:32:00"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365293": {
+        "id": "V2365293",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "BOSS",
+        "roles": {
+          "ASSOC-POSS": "#V2365287",
+          "MOD": [
+            "#V2365301",
+            "#V2365290"
+          ],
+          "LEX": "BOSS",
+          "WNSENSE": "professional%1:18:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365287": {
+        "id": "V2365287",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365290": {
+        "id": "V2365290",
+        "indicator": "F",
+        "type": "PREVIOUS-VAL",
+        "word": "FORMER",
+        "roles": {
+          "FIGURE": "#V2365293",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "FORMER",
+          "WNSENSE": "former%5:00:02:past:00"
+        },
+        "start": 42,
+        "end": 49
+      },
+      "V2365301": {
+        "id": "V2365301",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "INTIMIDATE",
+        "roles": {
+          "AFFECTED": "#V2365293",
+          "FREQUENCY": "#V2365296",
+          "VFORM": "PASSIVE",
+          "LEX": "INTIMIDATED",
+          "WNSENSE": "intimidate%2:37:01::"
+        },
+        "start": 54,
+        "end": 73
+      },
+      "V2365296": {
+        "id": "V2365296",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365301",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 54,
+        "end": 61
+      },
+      "V2365347": {
+        "id": "V2365347",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 94,
+        "end": 97
+      },
+      "root": "#V2366949"
+    },
+    {
+      "V2367424": {
+        "id": "V2367424",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365191",
+          "LEX": "TRIED"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365191": {
+        "id": "V2365191",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2365170",
+          "FORMAL": "#V2365228",
+          "FREQUENCY": "#V2365182",
+          "TENSE": "PAST",
+          "LEX": "TRIED",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365170": {
+        "id": "V2365170",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365182": {
+        "id": "V2365182",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365191",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 2,
+        "end": 9
+      },
+      "V2365228": {
+        "id": "V2365228",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "MAKE",
+        "roles": {
+          "AGENT": "#V2365170",
+          "AFFECTED-RESULT": "#V2365256",
+          "VFORM": "BASE",
+          "LEX": "MAKE",
+          "WNSENSE": "make%1:04:00::"
+        },
+        "start": 15,
+        "end": 29
+      },
+      "V2365256": {
+        "id": "V2365256",
+        "indicator": "BARE",
+        "type": "LIGHT",
+        "word": "LIGHT",
+        "roles": {
+          "LEX": "LIGHT",
+          "WNSENSE": "light%1:19:00::"
+        },
+        "start": 23,
+        "end": 29
+      },
+      "root": "#V2367424"
+    },
+    {
+      "V2365270": {
+        "id": "V2365270",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 29,
+        "end": 32
+      },
+      "root": "#V2365270"
+    },
+    {
+      "V2365706": {
+        "id": "V2365706",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365476",
+          "LEX": "-"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365476": {
+        "id": "V2365476",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2365276"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365276": {
+        "id": "V2365276",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "root": "#V2365706"
+    },
+    {
+      "V2366946": {
+        "id": "V2366946",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2365735",
+          "MOD": "#V2365282",
+          "LEX": "AND"
+        },
+        "start": 35,
+        "end": 98
+      },
+      "V2365282": {
+        "id": "V2365282",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V2366946",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 35,
+        "end": 39
+      },
+      "V2365735": {
+        "id": "V2365735",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2365306",
+          "SEQUENCE1": "#V2365344",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365344": {
+        "id": "V2365344",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "HARASS",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "HARASSED",
+          "WNSENSE": "harass%2:37:00::"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365306": {
+        "id": "V2365306",
+        "indicator": "F",
+        "type": "EVOKE-FEAR",
+        "word": "BULLIED",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "BULLIED",
+          "WNSENSE": "frighten%2:37:00"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365293": {
+        "id": "V2365293",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "BOSS",
+        "roles": {
+          "ASSOC-POSS": "#V2365287",
+          "MOD": [
+            "#V2365301",
+            "#V2365290"
+          ],
+          "LEX": "BOSS",
+          "WNSENSE": "professional%1:18:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365287": {
+        "id": "V2365287",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365290": {
+        "id": "V2365290",
+        "indicator": "F",
+        "type": "PREVIOUS-VAL",
+        "word": "FORMER",
+        "roles": {
+          "FIGURE": "#V2365293",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "FORMER",
+          "WNSENSE": "former%5:00:02:past:00"
+        },
+        "start": 42,
+        "end": 49
+      },
+      "V2365301": {
+        "id": "V2365301",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "INTIMIDATE",
+        "roles": {
+          "AFFECTED": "#V2365293",
+          "FREQUENCY": "#V2365296",
+          "VFORM": "PASSIVE",
+          "LEX": "INTIMIDATED",
+          "WNSENSE": "intimidate%2:37:01::"
+        },
+        "start": 54,
+        "end": 73
+      },
+      "V2365296": {
+        "id": "V2365296",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365301",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 54,
+        "end": 61
+      },
+      "V2365347": {
+        "id": "V2365347",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 94,
+        "end": 97
+      },
+      "root": "#V2366946"
+    },
+    {
+      "V2367424": {
+        "id": "V2367424",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365191",
+          "LEX": "TRIED"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365191": {
+        "id": "V2365191",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2365170",
+          "FORMAL": "#V2365228",
+          "FREQUENCY": "#V2365182",
+          "TENSE": "PAST",
+          "LEX": "TRIED",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365170": {
+        "id": "V2365170",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365182": {
+        "id": "V2365182",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365191",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 2,
+        "end": 9
+      },
+      "V2365228": {
+        "id": "V2365228",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "MAKE",
+        "roles": {
+          "AGENT": "#V2365170",
+          "AFFECTED-RESULT": "#V2365256",
+          "VFORM": "BASE",
+          "LEX": "MAKE",
+          "WNSENSE": "make%1:04:00::"
+        },
+        "start": 15,
+        "end": 29
+      },
+      "V2365256": {
+        "id": "V2365256",
+        "indicator": "BARE",
+        "type": "LIGHT",
+        "word": "LIGHT",
+        "roles": {
+          "LEX": "LIGHT",
+          "WNSENSE": "light%1:19:00::"
+        },
+        "start": 23,
+        "end": 29
+      },
+      "root": "#V2367424"
+    },
+    {
+      "V2365270": {
+        "id": "V2365270",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 29,
+        "end": 32
+      },
+      "root": "#V2365270"
+    },
+    {
+      "V2365706": {
+        "id": "V2365706",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365476",
+          "LEX": "-"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365476": {
+        "id": "V2365476",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2365276"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365276": {
+        "id": "V2365276",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "root": "#V2365706"
+    },
+    {
+      "V2366958": {
+        "id": "V2366958",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2365785",
+          "MOD": "#V2365282",
+          "LEX": "AND"
+        },
+        "start": 35,
+        "end": 98
+      },
+      "V2365282": {
+        "id": "V2365282",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V2366958",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 35,
+        "end": 39
+      },
+      "V2365785": {
+        "id": "V2365785",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2365309",
+          "SEQUENCE1": "#V2365344",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365344": {
+        "id": "V2365344",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "HARASS",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "HARASSED",
+          "WNSENSE": "harass%2:37:00::"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365309": {
+        "id": "V2365309",
+        "indicator": "F",
+        "type": "PROVOKE",
+        "word": "BULLIED",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "BULLIED",
+          "WNSENSE": "persuade%2:32:00"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365293": {
+        "id": "V2365293",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "BOSS",
+        "roles": {
+          "ASSOC-POSS": "#V2365287",
+          "MOD": [
+            "#V2365301",
+            "#V2365290"
+          ],
+          "LEX": "BOSS",
+          "WNSENSE": "professional%1:18:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365287": {
+        "id": "V2365287",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365290": {
+        "id": "V2365290",
+        "indicator": "F",
+        "type": "PREVIOUS-VAL",
+        "word": "FORMER",
+        "roles": {
+          "FIGURE": "#V2365293",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "FORMER",
+          "WNSENSE": "former%5:00:02:past:00"
+        },
+        "start": 42,
+        "end": 49
+      },
+      "V2365301": {
+        "id": "V2365301",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "INTIMIDATE",
+        "roles": {
+          "AFFECTED": "#V2365293",
+          "FREQUENCY": "#V2365296",
+          "VFORM": "PASSIVE",
+          "LEX": "INTIMIDATED",
+          "WNSENSE": "intimidate%2:37:01::"
+        },
+        "start": 54,
+        "end": 73
+      },
+      "V2365296": {
+        "id": "V2365296",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365301",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 54,
+        "end": 61
+      },
+      "V2365347": {
+        "id": "V2365347",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 94,
+        "end": 97
+      },
+      "root": "#V2366958"
+    },
+    {
+      "V2367424": {
+        "id": "V2367424",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365191",
+          "LEX": "TRIED"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365191": {
+        "id": "V2365191",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2365170",
+          "FORMAL": "#V2365228",
+          "FREQUENCY": "#V2365182",
+          "TENSE": "PAST",
+          "LEX": "TRIED",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365170": {
+        "id": "V2365170",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365182": {
+        "id": "V2365182",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365191",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 2,
+        "end": 9
+      },
+      "V2365228": {
+        "id": "V2365228",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "MAKE",
+        "roles": {
+          "AGENT": "#V2365170",
+          "AFFECTED-RESULT": "#V2365256",
+          "VFORM": "BASE",
+          "LEX": "MAKE",
+          "WNSENSE": "make%1:04:00::"
+        },
+        "start": 15,
+        "end": 29
+      },
+      "V2365256": {
+        "id": "V2365256",
+        "indicator": "BARE",
+        "type": "LIGHT",
+        "word": "LIGHT",
+        "roles": {
+          "LEX": "LIGHT",
+          "WNSENSE": "light%1:19:00::"
+        },
+        "start": 23,
+        "end": 29
+      },
+      "root": "#V2367424"
+    },
+    {
+      "V2365270": {
+        "id": "V2365270",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 29,
+        "end": 32
+      },
+      "root": "#V2365270"
+    },
+    {
+      "V2365706": {
+        "id": "V2365706",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365476",
+          "LEX": "-"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365476": {
+        "id": "V2365476",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2365276"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365276": {
+        "id": "V2365276",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "root": "#V2365706"
+    },
+    {
+      "V2366955": {
+        "id": "V2366955",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2365789",
+          "MOD": "#V2365282",
+          "LEX": "AND"
+        },
+        "start": 35,
+        "end": 98
+      },
+      "V2365282": {
+        "id": "V2365282",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V2366955",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 35,
+        "end": 39
+      },
+      "V2365789": {
+        "id": "V2365789",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2365311",
+          "SEQUENCE1": "#V2365344",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365344": {
+        "id": "V2365344",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "HARASS",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "HARASSED",
+          "WNSENSE": "harass%2:37:00::"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365311": {
+        "id": "V2365311",
+        "indicator": "F",
+        "type": "PROVOKE",
+        "word": "BULLIED",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "BULLIED",
+          "WNSENSE": "persuade%2:32:00"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365293": {
+        "id": "V2365293",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "BOSS",
+        "roles": {
+          "ASSOC-POSS": "#V2365287",
+          "MOD": [
+            "#V2365301",
+            "#V2365290"
+          ],
+          "LEX": "BOSS",
+          "WNSENSE": "professional%1:18:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365287": {
+        "id": "V2365287",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365290": {
+        "id": "V2365290",
+        "indicator": "F",
+        "type": "PREVIOUS-VAL",
+        "word": "FORMER",
+        "roles": {
+          "FIGURE": "#V2365293",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "FORMER",
+          "WNSENSE": "former%5:00:02:past:00"
+        },
+        "start": 42,
+        "end": 49
+      },
+      "V2365301": {
+        "id": "V2365301",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "INTIMIDATE",
+        "roles": {
+          "AFFECTED": "#V2365293",
+          "FREQUENCY": "#V2365296",
+          "VFORM": "PASSIVE",
+          "LEX": "INTIMIDATED",
+          "WNSENSE": "intimidate%2:37:01::"
+        },
+        "start": 54,
+        "end": 73
+      },
+      "V2365296": {
+        "id": "V2365296",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365301",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 54,
+        "end": 61
+      },
+      "V2365347": {
+        "id": "V2365347",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 94,
+        "end": 97
+      },
+      "root": "#V2366955"
+    },
+    {
+      "V2367424": {
+        "id": "V2367424",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365191",
+          "LEX": "TRIED"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365191": {
+        "id": "V2365191",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2365170",
+          "FORMAL": "#V2365228",
+          "FREQUENCY": "#V2365182",
+          "TENSE": "PAST",
+          "LEX": "TRIED",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365170": {
+        "id": "V2365170",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365182": {
+        "id": "V2365182",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365191",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 2,
+        "end": 9
+      },
+      "V2365228": {
+        "id": "V2365228",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "MAKE",
+        "roles": {
+          "AGENT": "#V2365170",
+          "AFFECTED-RESULT": "#V2365256",
+          "VFORM": "BASE",
+          "LEX": "MAKE",
+          "WNSENSE": "make%1:04:00::"
+        },
+        "start": 15,
+        "end": 29
+      },
+      "V2365256": {
+        "id": "V2365256",
+        "indicator": "BARE",
+        "type": "LIGHT",
+        "word": "LIGHT",
+        "roles": {
+          "LEX": "LIGHT",
+          "WNSENSE": "light%1:19:00::"
+        },
+        "start": 23,
+        "end": 29
+      },
+      "root": "#V2367424"
+    },
+    {
+      "V2365270": {
+        "id": "V2365270",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 29,
+        "end": 32
+      },
+      "root": "#V2365270"
+    },
+    {
+      "V2365706": {
+        "id": "V2365706",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365476",
+          "LEX": "-"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365476": {
+        "id": "V2365476",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2365276"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365276": {
+        "id": "V2365276",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "root": "#V2365706"
+    },
+    {
+      "V2366952": {
+        "id": "V2366952",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2365792",
+          "MOD": "#V2365282",
+          "LEX": "AND"
+        },
+        "start": 35,
+        "end": 98
+      },
+      "V2365282": {
+        "id": "V2365282",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V2366952",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 35,
+        "end": 39
+      },
+      "V2365792": {
+        "id": "V2365792",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2365313",
+          "SEQUENCE1": "#V2365344",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365344": {
+        "id": "V2365344",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "HARASS",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "HARASSED",
+          "WNSENSE": "harass%2:37:00::"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365313": {
+        "id": "V2365313",
+        "indicator": "F",
+        "type": "PROVOKE",
+        "word": "BULLIED",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "BULLIED",
+          "WNSENSE": "persuade%2:32:00"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365293": {
+        "id": "V2365293",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "BOSS",
+        "roles": {
+          "ASSOC-POSS": "#V2365287",
+          "MOD": [
+            "#V2365301",
+            "#V2365290"
+          ],
+          "LEX": "BOSS",
+          "WNSENSE": "professional%1:18:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365287": {
+        "id": "V2365287",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365290": {
+        "id": "V2365290",
+        "indicator": "F",
+        "type": "PREVIOUS-VAL",
+        "word": "FORMER",
+        "roles": {
+          "FIGURE": "#V2365293",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "FORMER",
+          "WNSENSE": "former%5:00:02:past:00"
+        },
+        "start": 42,
+        "end": 49
+      },
+      "V2365301": {
+        "id": "V2365301",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "INTIMIDATE",
+        "roles": {
+          "AFFECTED": "#V2365293",
+          "FREQUENCY": "#V2365296",
+          "VFORM": "PASSIVE",
+          "LEX": "INTIMIDATED",
+          "WNSENSE": "intimidate%2:37:01::"
+        },
+        "start": 54,
+        "end": 73
+      },
+      "V2365296": {
+        "id": "V2365296",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365301",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 54,
+        "end": 61
+      },
+      "V2365347": {
+        "id": "V2365347",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 94,
+        "end": 97
+      },
+      "root": "#V2366952"
+    },
+    {
+      "V2367424": {
+        "id": "V2367424",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365191",
+          "LEX": "TRIED"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365191": {
+        "id": "V2365191",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2365170",
+          "FORMAL": "#V2365228",
+          "FREQUENCY": "#V2365182",
+          "TENSE": "PAST",
+          "LEX": "TRIED",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365170": {
+        "id": "V2365170",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365182": {
+        "id": "V2365182",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365191",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 2,
+        "end": 9
+      },
+      "V2365228": {
+        "id": "V2365228",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "MAKE",
+        "roles": {
+          "AGENT": "#V2365170",
+          "AFFECTED-RESULT": "#V2365256",
+          "VFORM": "BASE",
+          "LEX": "MAKE",
+          "WNSENSE": "make%1:04:00::"
+        },
+        "start": 15,
+        "end": 29
+      },
+      "V2365256": {
+        "id": "V2365256",
+        "indicator": "BARE",
+        "type": "LIGHT",
+        "word": "LIGHT",
+        "roles": {
+          "LEX": "LIGHT",
+          "WNSENSE": "light%1:19:00::"
+        },
+        "start": 23,
+        "end": 29
+      },
+      "root": "#V2367424"
+    },
+    {
+      "V2365270": {
+        "id": "V2365270",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 29,
+        "end": 32
+      },
+      "root": "#V2365270"
+    },
+    {
+      "V2365706": {
+        "id": "V2365706",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365476",
+          "LEX": "-"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365476": {
+        "id": "V2365476",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2365276"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365276": {
+        "id": "V2365276",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "root": "#V2365706"
+    },
+    {
+      "V2366949": {
+        "id": "V2366949",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2365796",
+          "MOD": "#V2365282",
+          "LEX": "AND"
+        },
+        "start": 35,
+        "end": 98
+      },
+      "V2365282": {
+        "id": "V2365282",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V2366949",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 35,
+        "end": 39
+      },
+      "V2365796": {
+        "id": "V2365796",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2365317",
+          "SEQUENCE1": "#V2365344",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365344": {
+        "id": "V2365344",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "HARASS",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "HARASSED",
+          "WNSENSE": "harass%2:37:00::"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365317": {
+        "id": "V2365317",
+        "indicator": "F",
+        "type": "PROVOKE",
+        "word": "BULLIED",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "BULLIED",
+          "WNSENSE": "persuade%2:32:00"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365293": {
+        "id": "V2365293",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "BOSS",
+        "roles": {
+          "ASSOC-POSS": "#V2365287",
+          "MOD": [
+            "#V2365301",
+            "#V2365290"
+          ],
+          "LEX": "BOSS",
+          "WNSENSE": "professional%1:18:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365287": {
+        "id": "V2365287",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365290": {
+        "id": "V2365290",
+        "indicator": "F",
+        "type": "PREVIOUS-VAL",
+        "word": "FORMER",
+        "roles": {
+          "FIGURE": "#V2365293",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "FORMER",
+          "WNSENSE": "former%5:00:02:past:00"
+        },
+        "start": 42,
+        "end": 49
+      },
+      "V2365301": {
+        "id": "V2365301",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "INTIMIDATE",
+        "roles": {
+          "AFFECTED": "#V2365293",
+          "FREQUENCY": "#V2365296",
+          "VFORM": "PASSIVE",
+          "LEX": "INTIMIDATED",
+          "WNSENSE": "intimidate%2:37:01::"
+        },
+        "start": 54,
+        "end": 73
+      },
+      "V2365296": {
+        "id": "V2365296",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365301",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 54,
+        "end": 61
+      },
+      "V2365347": {
+        "id": "V2365347",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 94,
+        "end": 97
+      },
+      "root": "#V2366949"
+    },
+    {
+      "V2367701": {
+        "id": "V2367701",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365191",
+          "LEX": "TRIED"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365191": {
+        "id": "V2365191",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2365170",
+          "FORMAL": "#V2365228",
+          "FREQUENCY": "#V2365182",
+          "TENSE": "PAST",
+          "LEX": "TRIED",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365170": {
+        "id": "V2365170",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365182": {
+        "id": "V2365182",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365191",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 2,
+        "end": 9
+      },
+      "V2365228": {
+        "id": "V2365228",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "MAKE",
+        "roles": {
+          "AGENT": "#V2365170",
+          "AFFECTED-RESULT": "#V2365253",
+          "VFORM": "BASE",
+          "LEX": "MAKE",
+          "WNSENSE": "make%1:04:00::"
+        },
+        "start": 15,
+        "end": 29
+      },
+      "V2365253": {
+        "id": "V2365253",
+        "indicator": "BARE",
+        "type": "DEVICE-COMPONENT",
+        "word": "LIGHT",
+        "roles": {
+          "LEX": "LIGHT",
+          "WNSENSE": "component%1:06:00"
+        },
+        "start": 23,
+        "end": 29
+      },
+      "root": "#V2367701"
+    },
+    {
+      "V2365270": {
+        "id": "V2365270",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 29,
+        "end": 32
+      },
+      "root": "#V2365270"
+    },
+    {
+      "V2365583": {
+        "id": "V2365583",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365276",
+          "LEX": "IT"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365276": {
+        "id": "V2365276",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "root": "#V2365583"
+    },
+    {
+      "V2366946": {
+        "id": "V2366946",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2365735",
+          "MOD": "#V2365282",
+          "LEX": "AND"
+        },
+        "start": 35,
+        "end": 98
+      },
+      "V2365282": {
+        "id": "V2365282",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V2366946",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 35,
+        "end": 39
+      },
+      "V2365735": {
+        "id": "V2365735",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2365306",
+          "SEQUENCE1": "#V2365344",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365344": {
+        "id": "V2365344",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "HARASS",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "HARASSED",
+          "WNSENSE": "harass%2:37:00::"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365306": {
+        "id": "V2365306",
+        "indicator": "F",
+        "type": "EVOKE-FEAR",
+        "word": "BULLIED",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "BULLIED",
+          "WNSENSE": "frighten%2:37:00"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365293": {
+        "id": "V2365293",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "BOSS",
+        "roles": {
+          "ASSOC-POSS": "#V2365287",
+          "MOD": [
+            "#V2365301",
+            "#V2365290"
+          ],
+          "LEX": "BOSS",
+          "WNSENSE": "professional%1:18:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365287": {
+        "id": "V2365287",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365290": {
+        "id": "V2365290",
+        "indicator": "F",
+        "type": "PREVIOUS-VAL",
+        "word": "FORMER",
+        "roles": {
+          "FIGURE": "#V2365293",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "FORMER",
+          "WNSENSE": "former%5:00:02:past:00"
+        },
+        "start": 42,
+        "end": 49
+      },
+      "V2365301": {
+        "id": "V2365301",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "INTIMIDATE",
+        "roles": {
+          "AFFECTED": "#V2365293",
+          "FREQUENCY": "#V2365296",
+          "VFORM": "PASSIVE",
+          "LEX": "INTIMIDATED",
+          "WNSENSE": "intimidate%2:37:01::"
+        },
+        "start": 54,
+        "end": 73
+      },
+      "V2365296": {
+        "id": "V2365296",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365301",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 54,
+        "end": 61
+      },
+      "V2365347": {
+        "id": "V2365347",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 94,
+        "end": 97
+      },
+      "root": "#V2366946"
+    },
+    {
+      "V2367701": {
+        "id": "V2367701",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365191",
+          "LEX": "TRIED"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365191": {
+        "id": "V2365191",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2365170",
+          "FORMAL": "#V2365228",
+          "FREQUENCY": "#V2365182",
+          "TENSE": "PAST",
+          "LEX": "TRIED",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365170": {
+        "id": "V2365170",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365182": {
+        "id": "V2365182",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365191",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 2,
+        "end": 9
+      },
+      "V2365228": {
+        "id": "V2365228",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "MAKE",
+        "roles": {
+          "AGENT": "#V2365170",
+          "AFFECTED-RESULT": "#V2365253",
+          "VFORM": "BASE",
+          "LEX": "MAKE",
+          "WNSENSE": "make%1:04:00::"
+        },
+        "start": 15,
+        "end": 29
+      },
+      "V2365253": {
+        "id": "V2365253",
+        "indicator": "BARE",
+        "type": "DEVICE-COMPONENT",
+        "word": "LIGHT",
+        "roles": {
+          "LEX": "LIGHT",
+          "WNSENSE": "component%1:06:00"
+        },
+        "start": 23,
+        "end": 29
+      },
+      "root": "#V2367701"
+    },
+    {
+      "V2365270": {
+        "id": "V2365270",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 29,
+        "end": 32
+      },
+      "root": "#V2365270"
+    },
+    {
+      "V2365583": {
+        "id": "V2365583",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365276",
+          "LEX": "IT"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365276": {
+        "id": "V2365276",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "root": "#V2365583"
+    },
+    {
+      "V2366958": {
+        "id": "V2366958",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2365785",
+          "MOD": "#V2365282",
+          "LEX": "AND"
+        },
+        "start": 35,
+        "end": 98
+      },
+      "V2365282": {
+        "id": "V2365282",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V2366958",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 35,
+        "end": 39
+      },
+      "V2365785": {
+        "id": "V2365785",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2365309",
+          "SEQUENCE1": "#V2365344",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365344": {
+        "id": "V2365344",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "HARASS",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "HARASSED",
+          "WNSENSE": "harass%2:37:00::"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365309": {
+        "id": "V2365309",
+        "indicator": "F",
+        "type": "PROVOKE",
+        "word": "BULLIED",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "BULLIED",
+          "WNSENSE": "persuade%2:32:00"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365293": {
+        "id": "V2365293",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "BOSS",
+        "roles": {
+          "ASSOC-POSS": "#V2365287",
+          "MOD": [
+            "#V2365301",
+            "#V2365290"
+          ],
+          "LEX": "BOSS",
+          "WNSENSE": "professional%1:18:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365287": {
+        "id": "V2365287",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365290": {
+        "id": "V2365290",
+        "indicator": "F",
+        "type": "PREVIOUS-VAL",
+        "word": "FORMER",
+        "roles": {
+          "FIGURE": "#V2365293",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "FORMER",
+          "WNSENSE": "former%5:00:02:past:00"
+        },
+        "start": 42,
+        "end": 49
+      },
+      "V2365301": {
+        "id": "V2365301",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "INTIMIDATE",
+        "roles": {
+          "AFFECTED": "#V2365293",
+          "FREQUENCY": "#V2365296",
+          "VFORM": "PASSIVE",
+          "LEX": "INTIMIDATED",
+          "WNSENSE": "intimidate%2:37:01::"
+        },
+        "start": 54,
+        "end": 73
+      },
+      "V2365296": {
+        "id": "V2365296",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365301",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 54,
+        "end": 61
+      },
+      "V2365347": {
+        "id": "V2365347",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 94,
+        "end": 97
+      },
+      "root": "#V2366958"
+    },
+    {
+      "V2367701": {
+        "id": "V2367701",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365191",
+          "LEX": "TRIED"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365191": {
+        "id": "V2365191",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2365170",
+          "FORMAL": "#V2365228",
+          "FREQUENCY": "#V2365182",
+          "TENSE": "PAST",
+          "LEX": "TRIED",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365170": {
+        "id": "V2365170",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365182": {
+        "id": "V2365182",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365191",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 2,
+        "end": 9
+      },
+      "V2365228": {
+        "id": "V2365228",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "MAKE",
+        "roles": {
+          "AGENT": "#V2365170",
+          "AFFECTED-RESULT": "#V2365253",
+          "VFORM": "BASE",
+          "LEX": "MAKE",
+          "WNSENSE": "make%1:04:00::"
+        },
+        "start": 15,
+        "end": 29
+      },
+      "V2365253": {
+        "id": "V2365253",
+        "indicator": "BARE",
+        "type": "DEVICE-COMPONENT",
+        "word": "LIGHT",
+        "roles": {
+          "LEX": "LIGHT",
+          "WNSENSE": "component%1:06:00"
+        },
+        "start": 23,
+        "end": 29
+      },
+      "root": "#V2367701"
+    },
+    {
+      "V2365270": {
+        "id": "V2365270",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 29,
+        "end": 32
+      },
+      "root": "#V2365270"
+    },
+    {
+      "V2365583": {
+        "id": "V2365583",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365276",
+          "LEX": "IT"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365276": {
+        "id": "V2365276",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "root": "#V2365583"
+    },
+    {
+      "V2366955": {
+        "id": "V2366955",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2365789",
+          "MOD": "#V2365282",
+          "LEX": "AND"
+        },
+        "start": 35,
+        "end": 98
+      },
+      "V2365282": {
+        "id": "V2365282",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V2366955",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 35,
+        "end": 39
+      },
+      "V2365789": {
+        "id": "V2365789",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2365311",
+          "SEQUENCE1": "#V2365344",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365344": {
+        "id": "V2365344",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "HARASS",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "HARASSED",
+          "WNSENSE": "harass%2:37:00::"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365311": {
+        "id": "V2365311",
+        "indicator": "F",
+        "type": "PROVOKE",
+        "word": "BULLIED",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "BULLIED",
+          "WNSENSE": "persuade%2:32:00"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365293": {
+        "id": "V2365293",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "BOSS",
+        "roles": {
+          "ASSOC-POSS": "#V2365287",
+          "MOD": [
+            "#V2365301",
+            "#V2365290"
+          ],
+          "LEX": "BOSS",
+          "WNSENSE": "professional%1:18:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365287": {
+        "id": "V2365287",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365290": {
+        "id": "V2365290",
+        "indicator": "F",
+        "type": "PREVIOUS-VAL",
+        "word": "FORMER",
+        "roles": {
+          "FIGURE": "#V2365293",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "FORMER",
+          "WNSENSE": "former%5:00:02:past:00"
+        },
+        "start": 42,
+        "end": 49
+      },
+      "V2365301": {
+        "id": "V2365301",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "INTIMIDATE",
+        "roles": {
+          "AFFECTED": "#V2365293",
+          "FREQUENCY": "#V2365296",
+          "VFORM": "PASSIVE",
+          "LEX": "INTIMIDATED",
+          "WNSENSE": "intimidate%2:37:01::"
+        },
+        "start": 54,
+        "end": 73
+      },
+      "V2365296": {
+        "id": "V2365296",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365301",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 54,
+        "end": 61
+      },
+      "V2365347": {
+        "id": "V2365347",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 94,
+        "end": 97
+      },
+      "root": "#V2366955"
+    },
+    {
+      "V2367701": {
+        "id": "V2367701",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365191",
+          "LEX": "TRIED"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365191": {
+        "id": "V2365191",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2365170",
+          "FORMAL": "#V2365228",
+          "FREQUENCY": "#V2365182",
+          "TENSE": "PAST",
+          "LEX": "TRIED",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365170": {
+        "id": "V2365170",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365182": {
+        "id": "V2365182",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365191",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 2,
+        "end": 9
+      },
+      "V2365228": {
+        "id": "V2365228",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "MAKE",
+        "roles": {
+          "AGENT": "#V2365170",
+          "AFFECTED-RESULT": "#V2365253",
+          "VFORM": "BASE",
+          "LEX": "MAKE",
+          "WNSENSE": "make%1:04:00::"
+        },
+        "start": 15,
+        "end": 29
+      },
+      "V2365253": {
+        "id": "V2365253",
+        "indicator": "BARE",
+        "type": "DEVICE-COMPONENT",
+        "word": "LIGHT",
+        "roles": {
+          "LEX": "LIGHT",
+          "WNSENSE": "component%1:06:00"
+        },
+        "start": 23,
+        "end": 29
+      },
+      "root": "#V2367701"
+    },
+    {
+      "V2365270": {
+        "id": "V2365270",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 29,
+        "end": 32
+      },
+      "root": "#V2365270"
+    },
+    {
+      "V2365583": {
+        "id": "V2365583",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365276",
+          "LEX": "IT"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365276": {
+        "id": "V2365276",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "root": "#V2365583"
+    },
+    {
+      "V2366952": {
+        "id": "V2366952",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2365792",
+          "MOD": "#V2365282",
+          "LEX": "AND"
+        },
+        "start": 35,
+        "end": 98
+      },
+      "V2365282": {
+        "id": "V2365282",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V2366952",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 35,
+        "end": 39
+      },
+      "V2365792": {
+        "id": "V2365792",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2365313",
+          "SEQUENCE1": "#V2365344",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365344": {
+        "id": "V2365344",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "HARASS",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "HARASSED",
+          "WNSENSE": "harass%2:37:00::"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365313": {
+        "id": "V2365313",
+        "indicator": "F",
+        "type": "PROVOKE",
+        "word": "BULLIED",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "BULLIED",
+          "WNSENSE": "persuade%2:32:00"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365293": {
+        "id": "V2365293",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "BOSS",
+        "roles": {
+          "ASSOC-POSS": "#V2365287",
+          "MOD": [
+            "#V2365301",
+            "#V2365290"
+          ],
+          "LEX": "BOSS",
+          "WNSENSE": "professional%1:18:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365287": {
+        "id": "V2365287",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365290": {
+        "id": "V2365290",
+        "indicator": "F",
+        "type": "PREVIOUS-VAL",
+        "word": "FORMER",
+        "roles": {
+          "FIGURE": "#V2365293",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "FORMER",
+          "WNSENSE": "former%5:00:02:past:00"
+        },
+        "start": 42,
+        "end": 49
+      },
+      "V2365301": {
+        "id": "V2365301",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "INTIMIDATE",
+        "roles": {
+          "AFFECTED": "#V2365293",
+          "FREQUENCY": "#V2365296",
+          "VFORM": "PASSIVE",
+          "LEX": "INTIMIDATED",
+          "WNSENSE": "intimidate%2:37:01::"
+        },
+        "start": 54,
+        "end": 73
+      },
+      "V2365296": {
+        "id": "V2365296",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365301",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 54,
+        "end": 61
+      },
+      "V2365347": {
+        "id": "V2365347",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 94,
+        "end": 97
+      },
+      "root": "#V2366952"
+    },
+    {
+      "V2367701": {
+        "id": "V2367701",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365191",
+          "LEX": "TRIED"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365191": {
+        "id": "V2365191",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V2365170",
+          "FORMAL": "#V2365228",
+          "FREQUENCY": "#V2365182",
+          "TENSE": "PAST",
+          "LEX": "TRIED",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V2365170": {
+        "id": "V2365170",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2365182": {
+        "id": "V2365182",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365191",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 2,
+        "end": 9
+      },
+      "V2365228": {
+        "id": "V2365228",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "MAKE",
+        "roles": {
+          "AGENT": "#V2365170",
+          "AFFECTED-RESULT": "#V2365253",
+          "VFORM": "BASE",
+          "LEX": "MAKE",
+          "WNSENSE": "make%1:04:00::"
+        },
+        "start": 15,
+        "end": 29
+      },
+      "V2365253": {
+        "id": "V2365253",
+        "indicator": "BARE",
+        "type": "DEVICE-COMPONENT",
+        "word": "LIGHT",
+        "roles": {
+          "LEX": "LIGHT",
+          "WNSENSE": "component%1:06:00"
+        },
+        "start": 23,
+        "end": 29
+      },
+      "root": "#V2367701"
+    },
+    {
+      "V2365270": {
+        "id": "V2365270",
+        "indicator": "F",
+        "type": "POS-CONDITION",
+        "word": "IF",
+        "roles": {
+          "LEX": "IF"
+        },
+        "start": 29,
+        "end": 32
+      },
+      "root": "#V2365270"
+    },
+    {
+      "V2365583": {
+        "id": "V2365583",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2365276",
+          "LEX": "IT"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "V2365276": {
+        "id": "V2365276",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 32,
+        "end": 35
+      },
+      "root": "#V2365583"
+    },
+    {
+      "V2366949": {
+        "id": "V2366949",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2365796",
+          "MOD": "#V2365282",
+          "LEX": "AND"
+        },
+        "start": 35,
+        "end": 98
+      },
+      "V2365282": {
+        "id": "V2365282",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V2366949",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 35,
+        "end": 39
+      },
+      "V2365796": {
+        "id": "V2365796",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2365317",
+          "SEQUENCE1": "#V2365344",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365344": {
+        "id": "V2365344",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "HARASS",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "HARASSED",
+          "WNSENSE": "harass%2:37:00::"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365317": {
+        "id": "V2365317",
+        "indicator": "F",
+        "type": "PROVOKE",
+        "word": "BULLIED",
+        "roles": {
+          "AGENT": "#V2365293",
+          "AFFECTED": "#V2365347",
+          "LEX": "BULLIED",
+          "WNSENSE": "persuade%2:32:00"
+        },
+        "start": 39,
+        "end": 97
+      },
+      "V2365293": {
+        "id": "V2365293",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "BOSS",
+        "roles": {
+          "ASSOC-POSS": "#V2365287",
+          "MOD": [
+            "#V2365301",
+            "#V2365290"
+          ],
+          "LEX": "BOSS",
+          "WNSENSE": "professional%1:18:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365287": {
+        "id": "V2365287",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 39,
+        "end": 73
+      },
+      "V2365290": {
+        "id": "V2365290",
+        "indicator": "F",
+        "type": "PREVIOUS-VAL",
+        "word": "FORMER",
+        "roles": {
+          "FIGURE": "#V2365293",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "FORMER",
+          "WNSENSE": "former%5:00:02:past:00"
+        },
+        "start": 42,
+        "end": 49
+      },
+      "V2365301": {
+        "id": "V2365301",
+        "indicator": "F",
+        "type": "THREATEN",
+        "word": "INTIMIDATE",
+        "roles": {
+          "AFFECTED": "#V2365293",
+          "FREQUENCY": "#V2365296",
+          "VFORM": "PASSIVE",
+          "LEX": "INTIMIDATED",
+          "WNSENSE": "intimidate%2:37:01::"
+        },
+        "start": 54,
+        "end": 73
+      },
+      "V2365296": {
+        "id": "V2365296",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V2365301",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 54,
+        "end": 61
+      },
+      "V2365347": {
+        "id": "V2365347",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 94,
+        "end": 97
+      },
+      "root": "#V2366949"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+434",
+    "*last-utt-id*=434  utt-id+434",
+    "*last-utt-id*=434  utt-id+434",
+    "*last-utt-id*=434  utt-id+434",
+    "*last-utt-id*=434  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "parse": [
+    {
+      "V1540020": {
+        "id": "V1540020",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1539908",
+          "LEX": "COMMENTS"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V1539908": {
+        "id": "V1539908",
+        "indicator": "INDEF-SET",
+        "type": "SAY",
+        "word": "COMMENTS",
+        "roles": {
+          "MOD": "#V1539917",
+          "LEX": "COMMENTS",
+          "WNSENSE": "mention%2:32:00"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V1539917": {
+        "id": "V1539917",
+        "indicator": "F",
+        "type": "ASSOCIATED-INFORMATION",
+        "word": "ABOUT",
+        "roles": {
+          "GROUND": "#V1539927",
+          "FIGURE": "#V1539908",
+          "LEX": "ABOUT",
+          "WNSENSE": "about%4:02:00::"
+        },
+        "start": 9,
+        "end": 23
+      },
+      "V1539927": {
+        "id": "V1539927",
+        "indicator": "BARE",
+        "type": "ATTIRE",
+        "word": "CLOTHES",
+        "roles": {
+          "LEX": "CLOTHES",
+          "WNSENSE": "clothes%1:06:00::"
+        },
+        "start": 15,
+        "end": 23
+      },
+      "root": "#V1540020"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+255",
+    "*last-utt-id*=255  utt-id+NIL"
+  ]
+}

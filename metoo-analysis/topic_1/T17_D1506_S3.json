@@ -1,0 +1,102 @@
+{
+  "parse": [
+    {
+      "V176456": {
+        "id": "V176456",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V176194",
+          "LEX": "SLEPT"
+        },
+        "start": 0,
+        "end": 32
+      },
+      "V176194": {
+        "id": "V176194",
+        "indicator": "F",
+        "type": "SLEEP",
+        "word": "SLEEP",
+        "roles": {
+          "TIME": "#V176270",
+          "AFFECTED": "#V176457",
+          "LOCATION": "#V176202",
+          "TENSE": "PAST",
+          "LEX": "SLEPT",
+          "WNSENSE": "sleep%1:26:00::"
+        },
+        "start": 0,
+        "end": 32
+      },
+      "V176457": {
+        "id": "V176457",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ",
+          "COREF": "#V176266"
+        },
+        "start": 0,
+        "end": 32
+      },
+      "V176202": {
+        "id": "V176202",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V176266",
+          "FIGURE": "#V176194",
+          "LEX": "IN"
+        },
+        "start": 6,
+        "end": 22
+      },
+      "V176266": {
+        "id": "V176266",
+        "indicator": "THE",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "BATHROOM",
+        "roles": {
+          "LEX": "BATHROOM",
+          "WNSENSE": "bathroom%1:06:00::"
+        },
+        "start": 9,
+        "end": 22
+      },
+      "V176270": {
+        "id": "V176270",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TILL",
+        "roles": {
+          "GROUND": "#V176280",
+          "FIGURE": "#V176194",
+          "LEX": "TILL"
+        },
+        "start": 22,
+        "end": 32
+      },
+      "V176280": {
+        "id": "V176280",
+        "indicator": "THE",
+        "type": "MORNING-AM",
+        "word": "AM",
+        "roles": {
+          "LEX": "AM",
+          "WNSENSE": "morning%1:28:00"
+        },
+        "start": 27,
+        "end": 32
+      },
+      "root": "#V176456"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+29",
+    "*last-utt-id*=29  utt-id+NIL"
+  ]
+}

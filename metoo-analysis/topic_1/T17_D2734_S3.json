@@ -1,0 +1,107 @@
+{
+  "parse": [
+    {
+      "V106630": {
+        "id": "V106630",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "MOD": [
+            "#V106499",
+            "#V106532"
+          ],
+          "CONTENT": "#V106614",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V106499": {
+        "id": "V106499",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V106630",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V106532": {
+        "id": "V106532",
+        "indicator": "F",
+        "type": "EVAL-WRT-EXPECTATION",
+        "word": "JUST",
+        "roles": {
+          "FIGURE": "#V106630",
+          "MOD": "#V106520",
+          "LEX": "JUST",
+          "WNSENSE": "just%4:02:00::"
+        },
+        "start": 4,
+        "end": 13
+      },
+      "V106520": {
+        "id": "V106520",
+        "indicator": "F",
+        "type": "NEG",
+        "word": "NOT",
+        "roles": {
+          "FIGURE": "#V106532",
+          "LEX": "NOT",
+          "WNSENSE": "not%4:02:00::"
+        },
+        "start": 4,
+        "end": 8
+      },
+      "V106614": {
+        "id": "V106614",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V106549"
+        },
+        "start": 13,
+        "end": 29
+      },
+      "V106549": {
+        "id": "V106549",
+        "indicator": "THE",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V106545",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:00::"
+        },
+        "start": 13,
+        "end": 29
+      },
+      "V106545": {
+        "id": "V106545",
+        "indicator": "F",
+        "type": "OTHER",
+        "word": "OTHER",
+        "roles": {
+          "FIGURE": "#V106549",
+          "SCALE": "SIMILARITY-SCALE",
+          "LEX": "OTHER",
+          "WNSENSE": "other%3:00:00::"
+        },
+        "start": 17,
+        "end": 23
+      },
+      "root": "#V106630"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+17",
+    "*last-utt-id*=17  utt-id+NIL"
+  ]
+}

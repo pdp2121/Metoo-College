@@ -1,0 +1,156 @@
+{
+  "parse": [
+    {
+      "V2293881": {
+        "id": "V2293881",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2287172",
+          "LEX": "SCARED"
+        },
+        "start": 0,
+        "end": 34
+      },
+      "V2287172": {
+        "id": "V2287172",
+        "indicator": "F",
+        "type": "EVOKE-FEAR",
+        "word": "SCARE",
+        "roles": {
+          "TIME": "#V2288130",
+          "AGENT": "#V2287148",
+          "AFFECTED": "#V2287216",
+          "REASON": "#V2287178",
+          "TENSE": "PAST",
+          "LEX": "SCARED"
+        },
+        "start": 0,
+        "end": 34
+      },
+      "V2288130": {
+        "id": "V2288130",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2287172",
+          "GROUND": "#V2288301"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2288301": {
+        "id": "V2288301",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V2287919",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2287919": {
+        "id": "V2287919",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(I)",
+          "VAL": "(I)",
+          "LEX": "I"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V2287148": {
+        "id": "V2287148",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "\u2019",
+        "roles": {
+          "IDENTIFIED-AS": "#V2287153",
+          "LEX": "\u2019",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 2,
+        "end": 6
+      },
+      "V2287153": {
+        "id": "V2287153",
+        "indicator": "THE",
+        "type": "LETTER-SYMBOL",
+        "word": null,
+        "roles": {
+          "NAME-OF": "M",
+          "LEX": "M",
+          "WNSENSE": "m%1:10:00::"
+        },
+        "start": 4,
+        "end": 6
+      },
+      "V2287178": {
+        "id": "V2287178",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V2287274",
+          "FIGURE": "#V2287172",
+          "LEX": "FOR"
+        },
+        "start": 13,
+        "end": 30
+      },
+      "V2287274": {
+        "id": "V2287274",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V2287209",
+          "LEX": "THE"
+        },
+        "start": 17,
+        "end": 30
+      },
+      "V2287209": {
+        "id": "V2287209",
+        "indicator": "F",
+        "type": "NOT-CULPABLE-VAL",
+        "word": "INNOCENT",
+        "roles": {
+          "FIGURE": "#V2287274",
+          "SCALE": "DOMAIN",
+          "LEX": "INNOCENT",
+          "WNSENSE": "innocent%3:00:00::"
+        },
+        "start": 21,
+        "end": 30
+      },
+      "V2287216": {
+        "id": "V2287216",
+        "indicator": "BARE",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 30,
+        "end": 34
+      },
+      "root": "#V2293881"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+414",
+    "*last-utt-id*=414  utt-id+NIL"
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "parse": [
+    {
+      "V578822": {
+        "id": "V578822",
+        "indicator": "SPEECHACT",
+        "type": "SA_YN-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V575508",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 44
+      },
+      "V575508": {
+        "id": "V575508",
+        "indicator": "F",
+        "type": "PROPOSITION-EQUAL",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V575747",
+          "NEUTRAL1": "#V575616",
+          "TIME": "#V575442",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 44
+      },
+      "V575442": {
+        "id": "V575442",
+        "indicator": "F",
+        "type": "START-TIME",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V575464",
+          "FIGURE": "#V575508",
+          "LEX": "FROM",
+          "WNSENSE": "beginning%5:00:00:opening:00"
+        },
+        "start": 0,
+        "end": 16
+      },
+      "V575464": {
+        "id": "V575464",
+        "indicator": "THE",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "IDENTIFIED-AS": "#V578764",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "TIME"
+        },
+        "start": 5,
+        "end": 16
+      },
+      "V578764": {
+        "id": "V578764",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V577326",
+          "LEX": "I"
+        },
+        "start": 14,
+        "end": 16
+      },
+      "V577326": {
+        "id": "V577326",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(I)",
+          "VAL": "(I)",
+          "LEX": "I"
+        },
+        "start": 14,
+        "end": 16
+      },
+      "V575747": {
+        "id": "V575747",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V575566",
+          "LEX": "A"
+        },
+        "start": 20,
+        "end": 31
+      },
+      "V575566": {
+        "id": "V575566",
+        "indicator": "F",
+        "type": "ALLOW",
+        "word": "LET",
+        "roles": {
+          "AGENT": "#V575559",
+          "AFFECTED": "#V575747",
+          "LEX": "LET",
+          "WNSENSE": "let%2:41:00::"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "V575559": {
+        "id": "V575559",
+        "indicator": "KIND",
+        "type": "FEMALE-CHILD",
+        "word": "GIRL",
+        "roles": {
+          "WNSENSE": "girl%1:18:02::"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "V575616": {
+        "id": "V575616",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "END",
+        "roles": {
+          "AGENT": "#V575817",
+          "AFFECTED": "#V575624",
+          "TIME": "#V575631",
+          "PROP": "+",
+          "TENSE": "PRES",
+          "LEX": "END",
+          "WNSENSE": "end%2:42:00::"
+        },
+        "start": 31,
+        "end": 44
+      },
+      "V575817": {
+        "id": "V575817",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V575600"
+        },
+        "start": 31,
+        "end": 33
+      },
+      "V575600": {
+        "id": "V575600",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* TIME-UNIT SECOND)",
+          "AMOUNT": "PLURAL",
+          "LEX": "S",
+          "WNSENSE": "time_unit%1:28:00"
+        },
+        "start": 31,
+        "end": 33
+      },
+      "V575624": {
+        "id": "V575624",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V577326"
+        },
+        "start": 37,
+        "end": 40
+      },
+      "V575631": {
+        "id": "V575631",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V575616",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 40,
+        "end": 44
+      },
+      "root": "#V578822"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "Reference resolution to times not implemented yet",
+    "*last-utt-id*=NIL  utt-id+105",
+    "*last-utt-id*=105  utt-id+NIL"
+  ]
+}

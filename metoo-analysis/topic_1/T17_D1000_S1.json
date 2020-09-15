@@ -1,0 +1,103 @@
+{
+  "parse": [
+    {
+      "V240190": {
+        "id": "V240190",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V240167",
+          "LEX": "(HERE S)"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V240167": {
+        "id": "V240167",
+        "indicator": "A",
+        "type": "RATE",
+        "word": null,
+        "roles": {
+          "REPEATS": "#V234703",
+          "OVER-PERIOD": "#V234766",
+          "LEX": "(HERE S)"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V234703": {
+        "id": "V234703",
+        "indicator": "BARE",
+        "type": "LOCATION",
+        "word": "HERE",
+        "roles": {
+          "NAME-OF": "(HERE S)",
+          "LEX": "(HERE S)",
+          "WNSENSE": "here%1:15:00::"
+        },
+        "start": 0,
+        "end": 7
+      },
+      "V234766": {
+        "id": "V234766",
+        "indicator": "A",
+        "type": "LIST",
+        "word": "LIST",
+        "roles": {
+          "MOD": "#V234820",
+          "LEX": "LIST",
+          "WNSENSE": "list%1:10:00::"
+        },
+        "start": 7,
+        "end": 28
+      },
+      "V234820": {
+        "id": "V234820",
+        "indicator": "F",
+        "type": "START",
+        "word": "START",
+        "roles": {
+          "AFFECTED": "#V234766",
+          "AGENT1": "#V234844",
+          "VFORM": "BASE",
+          "LEX": "START",
+          "WNSENSE": "start%1:11:00::"
+        },
+        "start": 14,
+        "end": 28
+      },
+      "V234844": {
+        "id": "V234844",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V234857",
+          "FIGURE": "#V234820",
+          "LEX": "WITH"
+        },
+        "start": 23,
+        "end": 28
+      },
+      "V234857": {
+        "id": "V234857",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "|...|",
+        "roles": {
+          "LEX": "|...|",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 28,
+        "end": 28
+      },
+      "root": "#V240190"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+45",
+    "*last-utt-id*=45  utt-id+NIL"
+  ]
+}

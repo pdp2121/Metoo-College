@@ -1,0 +1,50 @@
+{
+  "parse": [
+    {
+      "V1918706": {
+        "id": "V1918706",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V1918694",
+          "FOCUS": "#V1918700",
+          "LEX": "WHY"
+        },
+        "start": 1,
+        "end": 5
+      },
+      "V1918694": {
+        "id": "V1918694",
+        "indicator": "F",
+        "type": "REASON-FOR",
+        "word": "WHY",
+        "roles": {
+          "GROUND": "#V1918700",
+          "FIGURE": "#V1918706",
+          "LEX": "WHY"
+        },
+        "start": 1,
+        "end": 5
+      },
+      "V1918700": {
+        "id": "V1918700",
+        "indicator": "WH-TERM",
+        "type": "REASON",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHY",
+          "SUCHTHAT": "#V1918694"
+        },
+        "start": 1,
+        "end": 5
+      },
+      "root": "#V1918706"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=344  utt-id+345",
+    "*last-utt-id*=345  utt-id+NIL"
+  ]
+}

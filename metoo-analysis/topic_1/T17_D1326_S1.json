@@ -1,0 +1,78 @@
+{
+  "parse": [
+    {
+      "V1074293": {
+        "id": "V1074293",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1074079",
+          "LEX": "CLOSE"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V1074079": {
+        "id": "V1074079",
+        "indicator": "F",
+        "type": "CLOSE",
+        "word": "CLOSE",
+        "roles": {
+          "AFFECTED": "#V1074294",
+          "MOD": "#V1074064",
+          "TENSE": "PRES",
+          "LEX": "CLOSE",
+          "WNSENSE": "close%2:35:00::"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V1074294": {
+        "id": "V1074294",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V1074064": {
+        "id": "V1074064",
+        "indicator": "F",
+        "type": "MODIFIER",
+        "word": "EVEN",
+        "roles": {
+          "FIGURE": "#V1074079",
+          "MOD": "#V1074054",
+          "LEX": "EVEN",
+          "WNSENSE": "even%4:02:00::"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V1074054": {
+        "id": "V1074054",
+        "indicator": "F",
+        "type": "NEG",
+        "word": "NOT",
+        "roles": {
+          "FIGURE": "#V1074064",
+          "LEX": "NOT",
+          "WNSENSE": "not%4:02:00::"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "root": "#V1074293"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+186",
+    "*last-utt-id*=186  utt-id+NIL"
+  ]
+}

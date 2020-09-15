@@ -1,0 +1,187 @@
+{
+  "parse": [
+    {
+      "V517807": {
+        "id": "V517807",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V516722",
+          "LEX": "LED"
+        },
+        "start": 0,
+        "end": 67
+      },
+      "V516722": {
+        "id": "V516722",
+        "indicator": "F",
+        "type": "GUIDING",
+        "word": "LEAD",
+        "roles": {
+          "TIME": [
+            "#V516640",
+            "#V516650"
+          ],
+          "RESULT": "#V516736",
+          "AGENT": "#V516939",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "LED"
+        },
+        "start": 0,
+        "end": 67
+      },
+      "V516640": {
+        "id": "V516640",
+        "indicator": "F",
+        "type": "TIME-REL-SO-FAR",
+        "word": "YET",
+        "roles": {
+          "FIGURE": "#V516722",
+          "LEX": "YET",
+          "WNSENSE": "yet%4:02:04::"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V516650": {
+        "id": "V516650",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V516668",
+          "FIGURE": "#V516722",
+          "LEX": "AT"
+        },
+        "start": 4,
+        "end": 13
+      },
+      "V516668": {
+        "id": "V516668",
+        "indicator": "INDEF-SET",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "TIMES"
+        },
+        "start": 7,
+        "end": 13
+      },
+      "V516939": {
+        "id": "V516939",
+        "indicator": "QUANTIFIER",
+        "type": "REFERENTIAL-SEM",
+        "word": "THESE",
+        "roles": {
+          "REFSET": "#V516695",
+          "QUAN": "EACH",
+          "LEX": "THESE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 13,
+        "end": 27
+      },
+      "V516695": {
+        "id": "V516695",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THESE",
+        "roles": {
+          "PROFORM": "THESE",
+          "LEX": "THESE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 18,
+        "end": 27
+      },
+      "V516736": {
+        "id": "V516736",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V516770",
+          "FIGURE": "#V516939",
+          "LEX": "TO"
+        },
+        "start": 35,
+        "end": 67
+      },
+      "V516770": {
+        "id": "V516770",
+        "indicator": "INDEF-SET",
+        "type": "ABSTRACT-OBJECT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "OR",
+          "SEQUENCE": "#V516766",
+          "SEQUENCE1": "#V516956",
+          "LEX": "OR",
+          "WNSENSE": "aggression%1:12:00::"
+        },
+        "start": 38,
+        "end": 67
+      },
+      "V516766": {
+        "id": "V516766",
+        "indicator": "BARE",
+        "type": "AGGRESSIVENESS-SCALE",
+        "word": "AGGRESSION",
+        "roles": {
+          "MOD": "#V516760",
+          "LEX": "AGGRESSION",
+          "WNSENSE": "aggression%1:12:00::"
+        },
+        "start": 38,
+        "end": 56
+      },
+      "V516760": {
+        "id": "V516760",
+        "indicator": "F",
+        "type": "BIOLOGICAL-PROPERTY-VAL",
+        "word": "SEXUAL",
+        "roles": {
+          "FIGURE": "#V516766",
+          "SCALE": "DOMAIN",
+          "LEX": "SEXUAL",
+          "WNSENSE": "sexual%3:00:00::"
+        },
+        "start": 38,
+        "end": 45
+      },
+      "V516956": {
+        "id": "V516956",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V516779"
+        },
+        "start": 59,
+        "end": 67
+      },
+      "V516779": {
+        "id": "V516779",
+        "indicator": "BARE",
+        "type": "CRITICIZE",
+        "word": "ASSAULT",
+        "roles": {
+          "LEX": "ASSAULT",
+          "WNSENSE": "knock%2:32:02"
+        },
+        "start": 59,
+        "end": 67
+      },
+      "root": "#V517807"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+83",
+    "*last-utt-id*=83  utt-id+NIL"
+  ]
+}

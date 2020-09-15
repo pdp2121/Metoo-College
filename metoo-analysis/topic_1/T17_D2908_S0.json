@@ -1,0 +1,6534 @@
+{
+  "parse": [
+    {
+      "V2075598": {
+        "id": "V2075598",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2074362",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2074362": {
+        "id": "V2074362",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V2073550",
+          "MOD": "#V2073558",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073550": {
+        "id": "V2073550",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073548": {
+        "id": "V2073548",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "12"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073558": {
+        "id": "V2073558",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V2074362",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V2075598"
+    },
+    {
+      "V2075669": {
+        "id": "V2075669",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2074573",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2074573": {
+        "id": "V2074573",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "TIME": [
+            "#V2074951",
+            "#V2073597"
+          ],
+          "AGENT1": "#V2073581",
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2073641",
+          "SEQUENCE1": "#V2073749",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073749": {
+        "id": "V2073749",
+        "indicator": "F",
+        "type": "DISCARD",
+        "word": "DROP",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "LEX": "DROPPED",
+          "WNSENSE": "eliminate%2:30:01"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073641": {
+        "id": "V2073641",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V2073621",
+          "RESULT": "#V2073681",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:36:00::"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2074951": {
+        "id": "V2074951",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2074573",
+          "GROUND": "#V2073564",
+          "LEX": "WALKING"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073564": {
+        "id": "V2073564",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V2073571",
+          "VFORM": "ING",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073571": {
+        "id": "V2073571",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V2073974",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073974": {
+        "id": "V2073974",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073581": {
+        "id": "V2073581",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2073591",
+          "FIGURE": "#V2074573",
+          "LEX": "WITH"
+        },
+        "start": 25,
+        "end": 37
+      },
+      "V2073591": {
+        "id": "V2073591",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V2073597": {
+        "id": "V2073597",
+        "indicator": "F",
+        "type": "START-TIME",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V2073610",
+          "FIGURE": "#V2074573",
+          "LEX": "FROM",
+          "WNSENSE": "beginning%5:00:00:opening:00"
+        },
+        "start": 37,
+        "end": 55
+      },
+      "V2073610": {
+        "id": "V2073610",
+        "indicator": "BARE",
+        "type": "DANCE",
+        "word": "DANCE",
+        "roles": {
+          "ASSOC-WITH": "#V2073607",
+          "LEX": "DANCE",
+          "WNSENSE": "dance%1:04:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073607": {
+        "id": "V2073607",
+        "indicator": "KIND",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "SCHOOL",
+        "roles": {
+          "LEX": "SCHOOL",
+          "WNSENSE": "school%1:14:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073621": {
+        "id": "V2073621",
+        "indicator": "BARE",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 55,
+        "end": 59
+      },
+      "V2073681": {
+        "id": "V2073681",
+        "indicator": "F",
+        "type": "OUTSIDE",
+        "word": "OUT-OF",
+        "roles": {
+          "GROUND": "#V2073726",
+          "FIGURE": "#V2073621",
+          "LEX": "OUT-OF"
+        },
+        "start": 63,
+        "end": 78
+      },
+      "V2073726": {
+        "id": "V2073726",
+        "indicator": "THE",
+        "type": "LAND-VEHICLE",
+        "word": "CAR",
+        "roles": {
+          "ASSOC-POSS": "#V2073721",
+          "LEX": "CAR",
+          "WNSENSE": "car%1:06:00::"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073721": {
+        "id": "V2073721",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00",
+          "COREF": "#V2073591"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073761": {
+        "id": "V2073761",
+        "indicator": "THE",
+        "type": "ATTIRE",
+        "word": "PANTS",
+        "roles": {
+          "ASSOC-POSS": "#V2073756",
+          "LEX": "PANTS",
+          "WNSENSE": "pants%1:06:01::"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "V2073756": {
+        "id": "V2073756",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00",
+          "COREF": "#V2073591"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "root": "#V2075669"
+    },
+    {
+      "V2075598": {
+        "id": "V2075598",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2074362",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2074362": {
+        "id": "V2074362",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V2073550",
+          "MOD": "#V2073558",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073550": {
+        "id": "V2073550",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073548": {
+        "id": "V2073548",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "12"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073558": {
+        "id": "V2073558",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V2074362",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V2075598"
+    },
+    {
+      "V2075664": {
+        "id": "V2075664",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2074576",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 101
+      },
+      "V2074576": {
+        "id": "V2074576",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "TIME": [
+            "#V2074951",
+            "#V2073597"
+          ],
+          "AGENT1": "#V2073581",
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2073642",
+          "SEQUENCE1": "#V2073749",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073749": {
+        "id": "V2073749",
+        "indicator": "F",
+        "type": "DISCARD",
+        "word": "DROP",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "LEX": "DROPPED",
+          "WNSENSE": "eliminate%2:30:01"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073642": {
+        "id": "V2073642",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "RESULT": "#V2073681",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:36:00::"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2074951": {
+        "id": "V2074951",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2074576",
+          "GROUND": "#V2073564",
+          "LEX": "WALKING"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073564": {
+        "id": "V2073564",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V2073571",
+          "VFORM": "ING",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073571": {
+        "id": "V2073571",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V2073974",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073974": {
+        "id": "V2073974",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073581": {
+        "id": "V2073581",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2073591",
+          "FIGURE": "#V2074576",
+          "LEX": "WITH"
+        },
+        "start": 25,
+        "end": 37
+      },
+      "V2073591": {
+        "id": "V2073591",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V2073597": {
+        "id": "V2073597",
+        "indicator": "F",
+        "type": "START-TIME",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V2073610",
+          "FIGURE": "#V2074576",
+          "LEX": "FROM",
+          "WNSENSE": "beginning%5:00:00:opening:00"
+        },
+        "start": 37,
+        "end": 55
+      },
+      "V2073610": {
+        "id": "V2073610",
+        "indicator": "BARE",
+        "type": "DANCE",
+        "word": "DANCE",
+        "roles": {
+          "ASSOC-WITH": "#V2073607",
+          "LEX": "DANCE",
+          "WNSENSE": "dance%1:04:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073607": {
+        "id": "V2073607",
+        "indicator": "KIND",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "SCHOOL",
+        "roles": {
+          "LEX": "SCHOOL",
+          "WNSENSE": "school%1:14:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073621": {
+        "id": "V2073621",
+        "indicator": "BARE",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 55,
+        "end": 59
+      },
+      "V2073681": {
+        "id": "V2073681",
+        "indicator": "F",
+        "type": "OUTSIDE",
+        "word": "OUT-OF",
+        "roles": {
+          "GROUND": "#V2073726",
+          "FIGURE": "#V2073761",
+          "LEX": "OUT-OF"
+        },
+        "start": 63,
+        "end": 78
+      },
+      "V2073726": {
+        "id": "V2073726",
+        "indicator": "THE",
+        "type": "LAND-VEHICLE",
+        "word": "CAR",
+        "roles": {
+          "ASSOC-POSS": "#V2073721",
+          "LEX": "CAR",
+          "WNSENSE": "car%1:06:00::"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073721": {
+        "id": "V2073721",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073761": {
+        "id": "V2073761",
+        "indicator": "THE",
+        "type": "ATTIRE",
+        "word": "PANTS",
+        "roles": {
+          "ASSOC-POSS": "#V2073756",
+          "LEX": "PANTS",
+          "WNSENSE": "pants%1:06:01::"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "V2073756": {
+        "id": "V2073756",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "root": "#V2075664"
+    },
+    {
+      "V2075598": {
+        "id": "V2075598",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2074362",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2074362": {
+        "id": "V2074362",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V2073550",
+          "MOD": "#V2073558",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073550": {
+        "id": "V2073550",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073548": {
+        "id": "V2073548",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "12"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073558": {
+        "id": "V2073558",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V2074362",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V2075598"
+    },
+    {
+      "V2075659": {
+        "id": "V2075659",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2074573",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 101
+      },
+      "V2074573": {
+        "id": "V2074573",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "TIME": [
+            "#V2074951",
+            "#V2073597"
+          ],
+          "AGENT1": "#V2073581",
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2073641",
+          "SEQUENCE1": "#V2073749",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073749": {
+        "id": "V2073749",
+        "indicator": "F",
+        "type": "DISCARD",
+        "word": "DROP",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "LEX": "DROPPED",
+          "WNSENSE": "eliminate%2:30:01"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073641": {
+        "id": "V2073641",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V2073621",
+          "RESULT": "#V2073681",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:36:00::"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2074951": {
+        "id": "V2074951",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2074573",
+          "GROUND": "#V2073564",
+          "LEX": "WALKING"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073564": {
+        "id": "V2073564",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V2073571",
+          "VFORM": "ING",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073571": {
+        "id": "V2073571",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V2073974",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073974": {
+        "id": "V2073974",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073581": {
+        "id": "V2073581",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2073591",
+          "FIGURE": "#V2074573",
+          "LEX": "WITH"
+        },
+        "start": 25,
+        "end": 37
+      },
+      "V2073591": {
+        "id": "V2073591",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V2073597": {
+        "id": "V2073597",
+        "indicator": "F",
+        "type": "START-TIME",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V2073611",
+          "FIGURE": "#V2074573",
+          "LEX": "FROM",
+          "WNSENSE": "beginning%5:00:00:opening:00"
+        },
+        "start": 37,
+        "end": 55
+      },
+      "V2073611": {
+        "id": "V2073611",
+        "indicator": "BARE",
+        "type": "DANCE",
+        "word": "DANCE",
+        "roles": {
+          "ASSOC-WITH": "#V2073607",
+          "LEX": "DANCE",
+          "WNSENSE": "dance%1:04:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073607": {
+        "id": "V2073607",
+        "indicator": "KIND",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "SCHOOL",
+        "roles": {
+          "LEX": "SCHOOL",
+          "WNSENSE": "school%1:14:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073621": {
+        "id": "V2073621",
+        "indicator": "BARE",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 55,
+        "end": 59
+      },
+      "V2073681": {
+        "id": "V2073681",
+        "indicator": "F",
+        "type": "OUTSIDE",
+        "word": "OUT-OF",
+        "roles": {
+          "GROUND": "#V2073726",
+          "FIGURE": "#V2073621",
+          "LEX": "OUT-OF"
+        },
+        "start": 63,
+        "end": 78
+      },
+      "V2073726": {
+        "id": "V2073726",
+        "indicator": "THE",
+        "type": "LAND-VEHICLE",
+        "word": "CAR",
+        "roles": {
+          "ASSOC-POSS": "#V2073721",
+          "LEX": "CAR",
+          "WNSENSE": "car%1:06:00::"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073721": {
+        "id": "V2073721",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073761": {
+        "id": "V2073761",
+        "indicator": "THE",
+        "type": "ATTIRE",
+        "word": "PANTS",
+        "roles": {
+          "ASSOC-POSS": "#V2073756",
+          "LEX": "PANTS",
+          "WNSENSE": "pants%1:06:01::"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "V2073756": {
+        "id": "V2073756",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "root": "#V2075659"
+    },
+    {
+      "V2075598": {
+        "id": "V2075598",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2074362",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2074362": {
+        "id": "V2074362",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V2073550",
+          "MOD": "#V2073558",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073550": {
+        "id": "V2073550",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073548": {
+        "id": "V2073548",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "12"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073558": {
+        "id": "V2073558",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V2074362",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V2075598"
+    },
+    {
+      "V2075654": {
+        "id": "V2075654",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2074576",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 101
+      },
+      "V2074576": {
+        "id": "V2074576",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "TIME": [
+            "#V2074951",
+            "#V2073597"
+          ],
+          "AGENT1": "#V2073581",
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2073642",
+          "SEQUENCE1": "#V2073749",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073749": {
+        "id": "V2073749",
+        "indicator": "F",
+        "type": "DISCARD",
+        "word": "DROP",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "LEX": "DROPPED",
+          "WNSENSE": "eliminate%2:30:01"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073642": {
+        "id": "V2073642",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "RESULT": "#V2073681",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:36:00::"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2074951": {
+        "id": "V2074951",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2074576",
+          "GROUND": "#V2073564",
+          "LEX": "WALKING"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073564": {
+        "id": "V2073564",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V2073571",
+          "VFORM": "ING",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073571": {
+        "id": "V2073571",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V2073974",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073974": {
+        "id": "V2073974",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073581": {
+        "id": "V2073581",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2073591",
+          "FIGURE": "#V2074576",
+          "LEX": "WITH"
+        },
+        "start": 25,
+        "end": 37
+      },
+      "V2073591": {
+        "id": "V2073591",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V2073597": {
+        "id": "V2073597",
+        "indicator": "F",
+        "type": "START-TIME",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V2073611",
+          "FIGURE": "#V2074576",
+          "LEX": "FROM",
+          "WNSENSE": "beginning%5:00:00:opening:00"
+        },
+        "start": 37,
+        "end": 55
+      },
+      "V2073611": {
+        "id": "V2073611",
+        "indicator": "BARE",
+        "type": "DANCE",
+        "word": "DANCE",
+        "roles": {
+          "ASSOC-WITH": "#V2073607",
+          "LEX": "DANCE",
+          "WNSENSE": "dance%1:04:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073607": {
+        "id": "V2073607",
+        "indicator": "KIND",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "SCHOOL",
+        "roles": {
+          "LEX": "SCHOOL",
+          "WNSENSE": "school%1:14:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073621": {
+        "id": "V2073621",
+        "indicator": "BARE",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 55,
+        "end": 59
+      },
+      "V2073681": {
+        "id": "V2073681",
+        "indicator": "F",
+        "type": "OUTSIDE",
+        "word": "OUT-OF",
+        "roles": {
+          "GROUND": "#V2073726",
+          "FIGURE": "#V2073761",
+          "LEX": "OUT-OF"
+        },
+        "start": 63,
+        "end": 78
+      },
+      "V2073726": {
+        "id": "V2073726",
+        "indicator": "THE",
+        "type": "LAND-VEHICLE",
+        "word": "CAR",
+        "roles": {
+          "ASSOC-POSS": "#V2073721",
+          "LEX": "CAR",
+          "WNSENSE": "car%1:06:00::"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073721": {
+        "id": "V2073721",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073761": {
+        "id": "V2073761",
+        "indicator": "THE",
+        "type": "ATTIRE",
+        "word": "PANTS",
+        "roles": {
+          "ASSOC-POSS": "#V2073756",
+          "LEX": "PANTS",
+          "WNSENSE": "pants%1:06:01::"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "V2073756": {
+        "id": "V2073756",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "root": "#V2075654"
+    },
+    {
+      "V2075596": {
+        "id": "V2075596",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2074361",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2074361": {
+        "id": "V2074361",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUANTITY": "#V2073550",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "MOD": "#V2073558",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073548": {
+        "id": "V2073548",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "12"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073550": {
+        "id": "V2073550",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073558": {
+        "id": "V2073558",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V2074361",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V2075596"
+    },
+    {
+      "V2075669": {
+        "id": "V2075669",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2074573",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 101
+      },
+      "V2074573": {
+        "id": "V2074573",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "TIME": [
+            "#V2074951",
+            "#V2073597"
+          ],
+          "AGENT1": "#V2073581",
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2073641",
+          "SEQUENCE1": "#V2073749",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073749": {
+        "id": "V2073749",
+        "indicator": "F",
+        "type": "DISCARD",
+        "word": "DROP",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "LEX": "DROPPED",
+          "WNSENSE": "eliminate%2:30:01"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073641": {
+        "id": "V2073641",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V2073621",
+          "RESULT": "#V2073681",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:36:00::"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2074951": {
+        "id": "V2074951",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2074573",
+          "GROUND": "#V2073564",
+          "LEX": "WALKING"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073564": {
+        "id": "V2073564",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V2073571",
+          "VFORM": "ING",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073571": {
+        "id": "V2073571",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V2073974",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073974": {
+        "id": "V2073974",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073581": {
+        "id": "V2073581",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2073591",
+          "FIGURE": "#V2074573",
+          "LEX": "WITH"
+        },
+        "start": 25,
+        "end": 37
+      },
+      "V2073591": {
+        "id": "V2073591",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V2073597": {
+        "id": "V2073597",
+        "indicator": "F",
+        "type": "START-TIME",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V2073610",
+          "FIGURE": "#V2074573",
+          "LEX": "FROM",
+          "WNSENSE": "beginning%5:00:00:opening:00"
+        },
+        "start": 37,
+        "end": 55
+      },
+      "V2073610": {
+        "id": "V2073610",
+        "indicator": "BARE",
+        "type": "DANCE",
+        "word": "DANCE",
+        "roles": {
+          "ASSOC-WITH": "#V2073607",
+          "LEX": "DANCE",
+          "WNSENSE": "dance%1:04:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073607": {
+        "id": "V2073607",
+        "indicator": "KIND",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "SCHOOL",
+        "roles": {
+          "LEX": "SCHOOL",
+          "WNSENSE": "school%1:14:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073621": {
+        "id": "V2073621",
+        "indicator": "BARE",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 55,
+        "end": 59
+      },
+      "V2073681": {
+        "id": "V2073681",
+        "indicator": "F",
+        "type": "OUTSIDE",
+        "word": "OUT-OF",
+        "roles": {
+          "GROUND": "#V2073726",
+          "FIGURE": "#V2073621",
+          "LEX": "OUT-OF"
+        },
+        "start": 63,
+        "end": 78
+      },
+      "V2073726": {
+        "id": "V2073726",
+        "indicator": "THE",
+        "type": "LAND-VEHICLE",
+        "word": "CAR",
+        "roles": {
+          "ASSOC-POSS": "#V2073721",
+          "LEX": "CAR",
+          "WNSENSE": "car%1:06:00::"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073721": {
+        "id": "V2073721",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073761": {
+        "id": "V2073761",
+        "indicator": "THE",
+        "type": "ATTIRE",
+        "word": "PANTS",
+        "roles": {
+          "ASSOC-POSS": "#V2073756",
+          "LEX": "PANTS",
+          "WNSENSE": "pants%1:06:01::"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "V2073756": {
+        "id": "V2073756",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "root": "#V2075669"
+    },
+    {
+      "V2075596": {
+        "id": "V2075596",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2074361",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2074361": {
+        "id": "V2074361",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUANTITY": "#V2073550",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "MOD": "#V2073558",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073548": {
+        "id": "V2073548",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "12"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073550": {
+        "id": "V2073550",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073558": {
+        "id": "V2073558",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V2074361",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V2075596"
+    },
+    {
+      "V2075664": {
+        "id": "V2075664",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2074576",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 101
+      },
+      "V2074576": {
+        "id": "V2074576",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "TIME": [
+            "#V2074951",
+            "#V2073597"
+          ],
+          "AGENT1": "#V2073581",
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2073642",
+          "SEQUENCE1": "#V2073749",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073749": {
+        "id": "V2073749",
+        "indicator": "F",
+        "type": "DISCARD",
+        "word": "DROP",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "LEX": "DROPPED",
+          "WNSENSE": "eliminate%2:30:01"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073642": {
+        "id": "V2073642",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "RESULT": "#V2073681",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:36:00::"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2074951": {
+        "id": "V2074951",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2074576",
+          "GROUND": "#V2073564",
+          "LEX": "WALKING"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073564": {
+        "id": "V2073564",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V2073571",
+          "VFORM": "ING",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073571": {
+        "id": "V2073571",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V2073974",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073974": {
+        "id": "V2073974",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073581": {
+        "id": "V2073581",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2073591",
+          "FIGURE": "#V2074576",
+          "LEX": "WITH"
+        },
+        "start": 25,
+        "end": 37
+      },
+      "V2073591": {
+        "id": "V2073591",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V2073597": {
+        "id": "V2073597",
+        "indicator": "F",
+        "type": "START-TIME",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V2073610",
+          "FIGURE": "#V2074576",
+          "LEX": "FROM",
+          "WNSENSE": "beginning%5:00:00:opening:00"
+        },
+        "start": 37,
+        "end": 55
+      },
+      "V2073610": {
+        "id": "V2073610",
+        "indicator": "BARE",
+        "type": "DANCE",
+        "word": "DANCE",
+        "roles": {
+          "ASSOC-WITH": "#V2073607",
+          "LEX": "DANCE",
+          "WNSENSE": "dance%1:04:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073607": {
+        "id": "V2073607",
+        "indicator": "KIND",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "SCHOOL",
+        "roles": {
+          "LEX": "SCHOOL",
+          "WNSENSE": "school%1:14:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073621": {
+        "id": "V2073621",
+        "indicator": "BARE",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 55,
+        "end": 59
+      },
+      "V2073681": {
+        "id": "V2073681",
+        "indicator": "F",
+        "type": "OUTSIDE",
+        "word": "OUT-OF",
+        "roles": {
+          "GROUND": "#V2073726",
+          "FIGURE": "#V2073761",
+          "LEX": "OUT-OF"
+        },
+        "start": 63,
+        "end": 78
+      },
+      "V2073726": {
+        "id": "V2073726",
+        "indicator": "THE",
+        "type": "LAND-VEHICLE",
+        "word": "CAR",
+        "roles": {
+          "ASSOC-POSS": "#V2073721",
+          "LEX": "CAR",
+          "WNSENSE": "car%1:06:00::"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073721": {
+        "id": "V2073721",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073761": {
+        "id": "V2073761",
+        "indicator": "THE",
+        "type": "ATTIRE",
+        "word": "PANTS",
+        "roles": {
+          "ASSOC-POSS": "#V2073756",
+          "LEX": "PANTS",
+          "WNSENSE": "pants%1:06:01::"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "V2073756": {
+        "id": "V2073756",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "root": "#V2075664"
+    },
+    {
+      "V2075596": {
+        "id": "V2075596",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2074361",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2074361": {
+        "id": "V2074361",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUANTITY": "#V2073550",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "MOD": "#V2073558",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073548": {
+        "id": "V2073548",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "12"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073550": {
+        "id": "V2073550",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073558": {
+        "id": "V2073558",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V2074361",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V2075596"
+    },
+    {
+      "V2075659": {
+        "id": "V2075659",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2074573",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 101
+      },
+      "V2074573": {
+        "id": "V2074573",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "TIME": [
+            "#V2074951",
+            "#V2073597"
+          ],
+          "AGENT1": "#V2073581",
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2073641",
+          "SEQUENCE1": "#V2073749",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073749": {
+        "id": "V2073749",
+        "indicator": "F",
+        "type": "DISCARD",
+        "word": "DROP",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "LEX": "DROPPED",
+          "WNSENSE": "eliminate%2:30:01"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073641": {
+        "id": "V2073641",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V2073621",
+          "RESULT": "#V2073681",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:36:00::"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2074951": {
+        "id": "V2074951",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2074573",
+          "GROUND": "#V2073564",
+          "LEX": "WALKING"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073564": {
+        "id": "V2073564",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V2073571",
+          "VFORM": "ING",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073571": {
+        "id": "V2073571",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V2073974",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073974": {
+        "id": "V2073974",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073581": {
+        "id": "V2073581",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2073591",
+          "FIGURE": "#V2074573",
+          "LEX": "WITH"
+        },
+        "start": 25,
+        "end": 37
+      },
+      "V2073591": {
+        "id": "V2073591",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V2073597": {
+        "id": "V2073597",
+        "indicator": "F",
+        "type": "START-TIME",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V2073611",
+          "FIGURE": "#V2074573",
+          "LEX": "FROM",
+          "WNSENSE": "beginning%5:00:00:opening:00"
+        },
+        "start": 37,
+        "end": 55
+      },
+      "V2073611": {
+        "id": "V2073611",
+        "indicator": "BARE",
+        "type": "DANCE",
+        "word": "DANCE",
+        "roles": {
+          "ASSOC-WITH": "#V2073607",
+          "LEX": "DANCE",
+          "WNSENSE": "dance%1:04:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073607": {
+        "id": "V2073607",
+        "indicator": "KIND",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "SCHOOL",
+        "roles": {
+          "LEX": "SCHOOL",
+          "WNSENSE": "school%1:14:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073621": {
+        "id": "V2073621",
+        "indicator": "BARE",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 55,
+        "end": 59
+      },
+      "V2073681": {
+        "id": "V2073681",
+        "indicator": "F",
+        "type": "OUTSIDE",
+        "word": "OUT-OF",
+        "roles": {
+          "GROUND": "#V2073726",
+          "FIGURE": "#V2073621",
+          "LEX": "OUT-OF"
+        },
+        "start": 63,
+        "end": 78
+      },
+      "V2073726": {
+        "id": "V2073726",
+        "indicator": "THE",
+        "type": "LAND-VEHICLE",
+        "word": "CAR",
+        "roles": {
+          "ASSOC-POSS": "#V2073721",
+          "LEX": "CAR",
+          "WNSENSE": "car%1:06:00::"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073721": {
+        "id": "V2073721",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073761": {
+        "id": "V2073761",
+        "indicator": "THE",
+        "type": "ATTIRE",
+        "word": "PANTS",
+        "roles": {
+          "ASSOC-POSS": "#V2073756",
+          "LEX": "PANTS",
+          "WNSENSE": "pants%1:06:01::"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "V2073756": {
+        "id": "V2073756",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "root": "#V2075659"
+    },
+    {
+      "V2075596": {
+        "id": "V2075596",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2074361",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2074361": {
+        "id": "V2074361",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUANTITY": "#V2073550",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "MOD": "#V2073558",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073548": {
+        "id": "V2073548",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "12"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073550": {
+        "id": "V2073550",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073558": {
+        "id": "V2073558",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V2074361",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V2075596"
+    },
+    {
+      "V2075654": {
+        "id": "V2075654",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2074576",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 101
+      },
+      "V2074576": {
+        "id": "V2074576",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "TIME": [
+            "#V2074951",
+            "#V2073597"
+          ],
+          "AGENT1": "#V2073581",
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2073642",
+          "SEQUENCE1": "#V2073749",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073749": {
+        "id": "V2073749",
+        "indicator": "F",
+        "type": "DISCARD",
+        "word": "DROP",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "LEX": "DROPPED",
+          "WNSENSE": "eliminate%2:30:01"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073642": {
+        "id": "V2073642",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "RESULT": "#V2073681",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:36:00::"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2074951": {
+        "id": "V2074951",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2074576",
+          "GROUND": "#V2073564",
+          "LEX": "WALKING"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073564": {
+        "id": "V2073564",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V2073571",
+          "VFORM": "ING",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073571": {
+        "id": "V2073571",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V2073974",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073974": {
+        "id": "V2073974",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073581": {
+        "id": "V2073581",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2073591",
+          "FIGURE": "#V2074576",
+          "LEX": "WITH"
+        },
+        "start": 25,
+        "end": 37
+      },
+      "V2073591": {
+        "id": "V2073591",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V2073597": {
+        "id": "V2073597",
+        "indicator": "F",
+        "type": "START-TIME",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V2073611",
+          "FIGURE": "#V2074576",
+          "LEX": "FROM",
+          "WNSENSE": "beginning%5:00:00:opening:00"
+        },
+        "start": 37,
+        "end": 55
+      },
+      "V2073611": {
+        "id": "V2073611",
+        "indicator": "BARE",
+        "type": "DANCE",
+        "word": "DANCE",
+        "roles": {
+          "ASSOC-WITH": "#V2073607",
+          "LEX": "DANCE",
+          "WNSENSE": "dance%1:04:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073607": {
+        "id": "V2073607",
+        "indicator": "KIND",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "SCHOOL",
+        "roles": {
+          "LEX": "SCHOOL",
+          "WNSENSE": "school%1:14:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073621": {
+        "id": "V2073621",
+        "indicator": "BARE",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 55,
+        "end": 59
+      },
+      "V2073681": {
+        "id": "V2073681",
+        "indicator": "F",
+        "type": "OUTSIDE",
+        "word": "OUT-OF",
+        "roles": {
+          "GROUND": "#V2073726",
+          "FIGURE": "#V2073761",
+          "LEX": "OUT-OF"
+        },
+        "start": 63,
+        "end": 78
+      },
+      "V2073726": {
+        "id": "V2073726",
+        "indicator": "THE",
+        "type": "LAND-VEHICLE",
+        "word": "CAR",
+        "roles": {
+          "ASSOC-POSS": "#V2073721",
+          "LEX": "CAR",
+          "WNSENSE": "car%1:06:00::"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073721": {
+        "id": "V2073721",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073761": {
+        "id": "V2073761",
+        "indicator": "THE",
+        "type": "ATTIRE",
+        "word": "PANTS",
+        "roles": {
+          "ASSOC-POSS": "#V2073756",
+          "LEX": "PANTS",
+          "WNSENSE": "pants%1:06:01::"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "V2073756": {
+        "id": "V2073756",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "root": "#V2075654"
+    },
+    {
+      "V2075598": {
+        "id": "V2075598",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2074362",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2074362": {
+        "id": "V2074362",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V2073550",
+          "MOD": "#V2073558",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073550": {
+        "id": "V2073550",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073548": {
+        "id": "V2073548",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "12"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073558": {
+        "id": "V2073558",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V2074362",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V2075598"
+    },
+    {
+      "V2075689": {
+        "id": "V2075689",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2074578",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 101
+      },
+      "V2074578": {
+        "id": "V2074578",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "TIME": [
+            "#V2074951",
+            "#V2073597"
+          ],
+          "AGENT1": "#V2073581",
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2073641",
+          "SEQUENCE1": "#V2073749",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073749": {
+        "id": "V2073749",
+        "indicator": "F",
+        "type": "DISCARD",
+        "word": "DROP",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "LEX": "DROPPED",
+          "WNSENSE": "eliminate%2:30:01"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073641": {
+        "id": "V2073641",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V2073621",
+          "RESULT": "#V2073711",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:36:00::"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2074951": {
+        "id": "V2074951",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2074578",
+          "GROUND": "#V2073564",
+          "LEX": "WALKING"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073564": {
+        "id": "V2073564",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V2073571",
+          "VFORM": "ING",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073571": {
+        "id": "V2073571",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V2073974",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073974": {
+        "id": "V2073974",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073581": {
+        "id": "V2073581",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2073591",
+          "FIGURE": "#V2074578",
+          "LEX": "WITH"
+        },
+        "start": 25,
+        "end": 37
+      },
+      "V2073591": {
+        "id": "V2073591",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V2073597": {
+        "id": "V2073597",
+        "indicator": "F",
+        "type": "START-TIME",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V2073610",
+          "FIGURE": "#V2074578",
+          "LEX": "FROM",
+          "WNSENSE": "beginning%5:00:00:opening:00"
+        },
+        "start": 37,
+        "end": 55
+      },
+      "V2073610": {
+        "id": "V2073610",
+        "indicator": "BARE",
+        "type": "DANCE",
+        "word": "DANCE",
+        "roles": {
+          "ASSOC-WITH": "#V2073607",
+          "LEX": "DANCE",
+          "WNSENSE": "dance%1:04:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073607": {
+        "id": "V2073607",
+        "indicator": "KIND",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "SCHOOL",
+        "roles": {
+          "LEX": "SCHOOL",
+          "WNSENSE": "school%1:14:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073621": {
+        "id": "V2073621",
+        "indicator": "BARE",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 55,
+        "end": 59
+      },
+      "V2073711": {
+        "id": "V2073711",
+        "indicator": "F",
+        "type": "OUTSIDE",
+        "word": "OUT-OF",
+        "roles": {
+          "GROUND": "#V2073726",
+          "FIGURE": "#V2073621",
+          "LEX": "OUT-OF",
+          "WNSENSE": "out_of%4:02:00"
+        },
+        "start": 63,
+        "end": 78
+      },
+      "V2073726": {
+        "id": "V2073726",
+        "indicator": "THE",
+        "type": "LAND-VEHICLE",
+        "word": "CAR",
+        "roles": {
+          "ASSOC-POSS": "#V2073721",
+          "LEX": "CAR",
+          "WNSENSE": "car%1:06:00::"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073721": {
+        "id": "V2073721",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073761": {
+        "id": "V2073761",
+        "indicator": "THE",
+        "type": "ATTIRE",
+        "word": "PANTS",
+        "roles": {
+          "ASSOC-POSS": "#V2073756",
+          "LEX": "PANTS",
+          "WNSENSE": "pants%1:06:01::"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "V2073756": {
+        "id": "V2073756",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "root": "#V2075689"
+    },
+    {
+      "V2075598": {
+        "id": "V2075598",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2074362",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2074362": {
+        "id": "V2074362",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V2073550",
+          "MOD": "#V2073558",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073550": {
+        "id": "V2073550",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073548": {
+        "id": "V2073548",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "12"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073558": {
+        "id": "V2073558",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V2074362",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V2075598"
+    },
+    {
+      "V2075684": {
+        "id": "V2075684",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2074581",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 101
+      },
+      "V2074581": {
+        "id": "V2074581",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "TIME": [
+            "#V2074951",
+            "#V2073597"
+          ],
+          "AGENT1": "#V2073581",
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2073642",
+          "SEQUENCE1": "#V2073749",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073749": {
+        "id": "V2073749",
+        "indicator": "F",
+        "type": "DISCARD",
+        "word": "DROP",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "LEX": "DROPPED",
+          "WNSENSE": "eliminate%2:30:01"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073642": {
+        "id": "V2073642",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "RESULT": "#V2073711",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:36:00::"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2074951": {
+        "id": "V2074951",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2074581",
+          "GROUND": "#V2073564",
+          "LEX": "WALKING"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073564": {
+        "id": "V2073564",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V2073571",
+          "VFORM": "ING",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073571": {
+        "id": "V2073571",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V2073974",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073974": {
+        "id": "V2073974",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073581": {
+        "id": "V2073581",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2073591",
+          "FIGURE": "#V2074581",
+          "LEX": "WITH"
+        },
+        "start": 25,
+        "end": 37
+      },
+      "V2073591": {
+        "id": "V2073591",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V2073597": {
+        "id": "V2073597",
+        "indicator": "F",
+        "type": "START-TIME",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V2073610",
+          "FIGURE": "#V2074581",
+          "LEX": "FROM",
+          "WNSENSE": "beginning%5:00:00:opening:00"
+        },
+        "start": 37,
+        "end": 55
+      },
+      "V2073610": {
+        "id": "V2073610",
+        "indicator": "BARE",
+        "type": "DANCE",
+        "word": "DANCE",
+        "roles": {
+          "ASSOC-WITH": "#V2073607",
+          "LEX": "DANCE",
+          "WNSENSE": "dance%1:04:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073607": {
+        "id": "V2073607",
+        "indicator": "KIND",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "SCHOOL",
+        "roles": {
+          "LEX": "SCHOOL",
+          "WNSENSE": "school%1:14:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073621": {
+        "id": "V2073621",
+        "indicator": "BARE",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 55,
+        "end": 59
+      },
+      "V2073711": {
+        "id": "V2073711",
+        "indicator": "F",
+        "type": "OUTSIDE",
+        "word": "OUT-OF",
+        "roles": {
+          "GROUND": "#V2073726",
+          "FIGURE": "#V2073761",
+          "LEX": "OUT-OF",
+          "WNSENSE": "out_of%4:02:00"
+        },
+        "start": 63,
+        "end": 78
+      },
+      "V2073726": {
+        "id": "V2073726",
+        "indicator": "THE",
+        "type": "LAND-VEHICLE",
+        "word": "CAR",
+        "roles": {
+          "ASSOC-POSS": "#V2073721",
+          "LEX": "CAR",
+          "WNSENSE": "car%1:06:00::"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073721": {
+        "id": "V2073721",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073761": {
+        "id": "V2073761",
+        "indicator": "THE",
+        "type": "ATTIRE",
+        "word": "PANTS",
+        "roles": {
+          "ASSOC-POSS": "#V2073756",
+          "LEX": "PANTS",
+          "WNSENSE": "pants%1:06:01::"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "V2073756": {
+        "id": "V2073756",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "root": "#V2075684"
+    },
+    {
+      "V2075598": {
+        "id": "V2075598",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2074362",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2074362": {
+        "id": "V2074362",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V2073550",
+          "MOD": "#V2073558",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073550": {
+        "id": "V2073550",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073548": {
+        "id": "V2073548",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "12"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073558": {
+        "id": "V2073558",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V2074362",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V2075598"
+    },
+    {
+      "V2075679": {
+        "id": "V2075679",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2074578",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 101
+      },
+      "V2074578": {
+        "id": "V2074578",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "TIME": [
+            "#V2074951",
+            "#V2073597"
+          ],
+          "AGENT1": "#V2073581",
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2073641",
+          "SEQUENCE1": "#V2073749",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073749": {
+        "id": "V2073749",
+        "indicator": "F",
+        "type": "DISCARD",
+        "word": "DROP",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "LEX": "DROPPED",
+          "WNSENSE": "eliminate%2:30:01"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073641": {
+        "id": "V2073641",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V2073621",
+          "RESULT": "#V2073711",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:36:00::"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2074951": {
+        "id": "V2074951",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2074578",
+          "GROUND": "#V2073564",
+          "LEX": "WALKING"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073564": {
+        "id": "V2073564",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V2073571",
+          "VFORM": "ING",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073571": {
+        "id": "V2073571",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V2073974",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073974": {
+        "id": "V2073974",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073581": {
+        "id": "V2073581",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2073591",
+          "FIGURE": "#V2074578",
+          "LEX": "WITH"
+        },
+        "start": 25,
+        "end": 37
+      },
+      "V2073591": {
+        "id": "V2073591",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V2073597": {
+        "id": "V2073597",
+        "indicator": "F",
+        "type": "START-TIME",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V2073611",
+          "FIGURE": "#V2074578",
+          "LEX": "FROM",
+          "WNSENSE": "beginning%5:00:00:opening:00"
+        },
+        "start": 37,
+        "end": 55
+      },
+      "V2073611": {
+        "id": "V2073611",
+        "indicator": "BARE",
+        "type": "DANCE",
+        "word": "DANCE",
+        "roles": {
+          "ASSOC-WITH": "#V2073607",
+          "LEX": "DANCE",
+          "WNSENSE": "dance%1:04:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073607": {
+        "id": "V2073607",
+        "indicator": "KIND",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "SCHOOL",
+        "roles": {
+          "LEX": "SCHOOL",
+          "WNSENSE": "school%1:14:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073621": {
+        "id": "V2073621",
+        "indicator": "BARE",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 55,
+        "end": 59
+      },
+      "V2073711": {
+        "id": "V2073711",
+        "indicator": "F",
+        "type": "OUTSIDE",
+        "word": "OUT-OF",
+        "roles": {
+          "GROUND": "#V2073726",
+          "FIGURE": "#V2073621",
+          "LEX": "OUT-OF",
+          "WNSENSE": "out_of%4:02:00"
+        },
+        "start": 63,
+        "end": 78
+      },
+      "V2073726": {
+        "id": "V2073726",
+        "indicator": "THE",
+        "type": "LAND-VEHICLE",
+        "word": "CAR",
+        "roles": {
+          "ASSOC-POSS": "#V2073721",
+          "LEX": "CAR",
+          "WNSENSE": "car%1:06:00::"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073721": {
+        "id": "V2073721",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073761": {
+        "id": "V2073761",
+        "indicator": "THE",
+        "type": "ATTIRE",
+        "word": "PANTS",
+        "roles": {
+          "ASSOC-POSS": "#V2073756",
+          "LEX": "PANTS",
+          "WNSENSE": "pants%1:06:01::"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "V2073756": {
+        "id": "V2073756",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "root": "#V2075679"
+    },
+    {
+      "V2075598": {
+        "id": "V2075598",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2074362",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2074362": {
+        "id": "V2074362",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V2073550",
+          "MOD": "#V2073558",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073550": {
+        "id": "V2073550",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073548": {
+        "id": "V2073548",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "12"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073558": {
+        "id": "V2073558",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V2074362",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V2075598"
+    },
+    {
+      "V2075674": {
+        "id": "V2075674",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2074581",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 101
+      },
+      "V2074581": {
+        "id": "V2074581",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "TIME": [
+            "#V2074951",
+            "#V2073597"
+          ],
+          "AGENT1": "#V2073581",
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2073642",
+          "SEQUENCE1": "#V2073749",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073749": {
+        "id": "V2073749",
+        "indicator": "F",
+        "type": "DISCARD",
+        "word": "DROP",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "LEX": "DROPPED",
+          "WNSENSE": "eliminate%2:30:01"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073642": {
+        "id": "V2073642",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "RESULT": "#V2073711",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:36:00::"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2074951": {
+        "id": "V2074951",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2074581",
+          "GROUND": "#V2073564",
+          "LEX": "WALKING"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073564": {
+        "id": "V2073564",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V2073571",
+          "VFORM": "ING",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073571": {
+        "id": "V2073571",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V2073974",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073974": {
+        "id": "V2073974",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073581": {
+        "id": "V2073581",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2073591",
+          "FIGURE": "#V2074581",
+          "LEX": "WITH"
+        },
+        "start": 25,
+        "end": 37
+      },
+      "V2073591": {
+        "id": "V2073591",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V2073597": {
+        "id": "V2073597",
+        "indicator": "F",
+        "type": "START-TIME",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V2073611",
+          "FIGURE": "#V2074581",
+          "LEX": "FROM",
+          "WNSENSE": "beginning%5:00:00:opening:00"
+        },
+        "start": 37,
+        "end": 55
+      },
+      "V2073611": {
+        "id": "V2073611",
+        "indicator": "BARE",
+        "type": "DANCE",
+        "word": "DANCE",
+        "roles": {
+          "ASSOC-WITH": "#V2073607",
+          "LEX": "DANCE",
+          "WNSENSE": "dance%1:04:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073607": {
+        "id": "V2073607",
+        "indicator": "KIND",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "SCHOOL",
+        "roles": {
+          "LEX": "SCHOOL",
+          "WNSENSE": "school%1:14:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073621": {
+        "id": "V2073621",
+        "indicator": "BARE",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 55,
+        "end": 59
+      },
+      "V2073711": {
+        "id": "V2073711",
+        "indicator": "F",
+        "type": "OUTSIDE",
+        "word": "OUT-OF",
+        "roles": {
+          "GROUND": "#V2073726",
+          "FIGURE": "#V2073761",
+          "LEX": "OUT-OF",
+          "WNSENSE": "out_of%4:02:00"
+        },
+        "start": 63,
+        "end": 78
+      },
+      "V2073726": {
+        "id": "V2073726",
+        "indicator": "THE",
+        "type": "LAND-VEHICLE",
+        "word": "CAR",
+        "roles": {
+          "ASSOC-POSS": "#V2073721",
+          "LEX": "CAR",
+          "WNSENSE": "car%1:06:00::"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073721": {
+        "id": "V2073721",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073761": {
+        "id": "V2073761",
+        "indicator": "THE",
+        "type": "ATTIRE",
+        "word": "PANTS",
+        "roles": {
+          "ASSOC-POSS": "#V2073756",
+          "LEX": "PANTS",
+          "WNSENSE": "pants%1:06:01::"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "V2073756": {
+        "id": "V2073756",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "root": "#V2075674"
+    },
+    {
+      "V2075596": {
+        "id": "V2075596",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2074361",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2074361": {
+        "id": "V2074361",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUANTITY": "#V2073550",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "MOD": "#V2073558",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073548": {
+        "id": "V2073548",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "12"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073550": {
+        "id": "V2073550",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073558": {
+        "id": "V2073558",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V2074361",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V2075596"
+    },
+    {
+      "V2075689": {
+        "id": "V2075689",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2074578",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 101
+      },
+      "V2074578": {
+        "id": "V2074578",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "TIME": [
+            "#V2074951",
+            "#V2073597"
+          ],
+          "AGENT1": "#V2073581",
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2073641",
+          "SEQUENCE1": "#V2073749",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073749": {
+        "id": "V2073749",
+        "indicator": "F",
+        "type": "DISCARD",
+        "word": "DROP",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "LEX": "DROPPED",
+          "WNSENSE": "eliminate%2:30:01"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073641": {
+        "id": "V2073641",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V2073621",
+          "RESULT": "#V2073711",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:36:00::"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2074951": {
+        "id": "V2074951",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2074578",
+          "GROUND": "#V2073564",
+          "LEX": "WALKING"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073564": {
+        "id": "V2073564",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V2073571",
+          "VFORM": "ING",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073571": {
+        "id": "V2073571",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V2073974",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073974": {
+        "id": "V2073974",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073581": {
+        "id": "V2073581",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2073591",
+          "FIGURE": "#V2074578",
+          "LEX": "WITH"
+        },
+        "start": 25,
+        "end": 37
+      },
+      "V2073591": {
+        "id": "V2073591",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V2073597": {
+        "id": "V2073597",
+        "indicator": "F",
+        "type": "START-TIME",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V2073610",
+          "FIGURE": "#V2074578",
+          "LEX": "FROM",
+          "WNSENSE": "beginning%5:00:00:opening:00"
+        },
+        "start": 37,
+        "end": 55
+      },
+      "V2073610": {
+        "id": "V2073610",
+        "indicator": "BARE",
+        "type": "DANCE",
+        "word": "DANCE",
+        "roles": {
+          "ASSOC-WITH": "#V2073607",
+          "LEX": "DANCE",
+          "WNSENSE": "dance%1:04:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073607": {
+        "id": "V2073607",
+        "indicator": "KIND",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "SCHOOL",
+        "roles": {
+          "LEX": "SCHOOL",
+          "WNSENSE": "school%1:14:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073621": {
+        "id": "V2073621",
+        "indicator": "BARE",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 55,
+        "end": 59
+      },
+      "V2073711": {
+        "id": "V2073711",
+        "indicator": "F",
+        "type": "OUTSIDE",
+        "word": "OUT-OF",
+        "roles": {
+          "GROUND": "#V2073726",
+          "FIGURE": "#V2073621",
+          "LEX": "OUT-OF",
+          "WNSENSE": "out_of%4:02:00"
+        },
+        "start": 63,
+        "end": 78
+      },
+      "V2073726": {
+        "id": "V2073726",
+        "indicator": "THE",
+        "type": "LAND-VEHICLE",
+        "word": "CAR",
+        "roles": {
+          "ASSOC-POSS": "#V2073721",
+          "LEX": "CAR",
+          "WNSENSE": "car%1:06:00::"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073721": {
+        "id": "V2073721",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073761": {
+        "id": "V2073761",
+        "indicator": "THE",
+        "type": "ATTIRE",
+        "word": "PANTS",
+        "roles": {
+          "ASSOC-POSS": "#V2073756",
+          "LEX": "PANTS",
+          "WNSENSE": "pants%1:06:01::"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "V2073756": {
+        "id": "V2073756",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "root": "#V2075689"
+    },
+    {
+      "V2075596": {
+        "id": "V2075596",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2074361",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2074361": {
+        "id": "V2074361",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUANTITY": "#V2073550",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "MOD": "#V2073558",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073548": {
+        "id": "V2073548",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "12"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073550": {
+        "id": "V2073550",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073558": {
+        "id": "V2073558",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V2074361",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V2075596"
+    },
+    {
+      "V2075684": {
+        "id": "V2075684",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2074581",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 101
+      },
+      "V2074581": {
+        "id": "V2074581",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "TIME": [
+            "#V2074951",
+            "#V2073597"
+          ],
+          "AGENT1": "#V2073581",
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2073642",
+          "SEQUENCE1": "#V2073749",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073749": {
+        "id": "V2073749",
+        "indicator": "F",
+        "type": "DISCARD",
+        "word": "DROP",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "LEX": "DROPPED",
+          "WNSENSE": "eliminate%2:30:01"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073642": {
+        "id": "V2073642",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "RESULT": "#V2073711",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:36:00::"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2074951": {
+        "id": "V2074951",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2074581",
+          "GROUND": "#V2073564",
+          "LEX": "WALKING"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073564": {
+        "id": "V2073564",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V2073571",
+          "VFORM": "ING",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073571": {
+        "id": "V2073571",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V2073974",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073974": {
+        "id": "V2073974",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073581": {
+        "id": "V2073581",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2073591",
+          "FIGURE": "#V2074581",
+          "LEX": "WITH"
+        },
+        "start": 25,
+        "end": 37
+      },
+      "V2073591": {
+        "id": "V2073591",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V2073597": {
+        "id": "V2073597",
+        "indicator": "F",
+        "type": "START-TIME",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V2073610",
+          "FIGURE": "#V2074581",
+          "LEX": "FROM",
+          "WNSENSE": "beginning%5:00:00:opening:00"
+        },
+        "start": 37,
+        "end": 55
+      },
+      "V2073610": {
+        "id": "V2073610",
+        "indicator": "BARE",
+        "type": "DANCE",
+        "word": "DANCE",
+        "roles": {
+          "ASSOC-WITH": "#V2073607",
+          "LEX": "DANCE",
+          "WNSENSE": "dance%1:04:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073607": {
+        "id": "V2073607",
+        "indicator": "KIND",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "SCHOOL",
+        "roles": {
+          "LEX": "SCHOOL",
+          "WNSENSE": "school%1:14:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073621": {
+        "id": "V2073621",
+        "indicator": "BARE",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 55,
+        "end": 59
+      },
+      "V2073711": {
+        "id": "V2073711",
+        "indicator": "F",
+        "type": "OUTSIDE",
+        "word": "OUT-OF",
+        "roles": {
+          "GROUND": "#V2073726",
+          "FIGURE": "#V2073761",
+          "LEX": "OUT-OF",
+          "WNSENSE": "out_of%4:02:00"
+        },
+        "start": 63,
+        "end": 78
+      },
+      "V2073726": {
+        "id": "V2073726",
+        "indicator": "THE",
+        "type": "LAND-VEHICLE",
+        "word": "CAR",
+        "roles": {
+          "ASSOC-POSS": "#V2073721",
+          "LEX": "CAR",
+          "WNSENSE": "car%1:06:00::"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073721": {
+        "id": "V2073721",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073761": {
+        "id": "V2073761",
+        "indicator": "THE",
+        "type": "ATTIRE",
+        "word": "PANTS",
+        "roles": {
+          "ASSOC-POSS": "#V2073756",
+          "LEX": "PANTS",
+          "WNSENSE": "pants%1:06:01::"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "V2073756": {
+        "id": "V2073756",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "root": "#V2075684"
+    },
+    {
+      "V2075596": {
+        "id": "V2075596",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2074361",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2074361": {
+        "id": "V2074361",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUANTITY": "#V2073550",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "MOD": "#V2073558",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073548": {
+        "id": "V2073548",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "12"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073550": {
+        "id": "V2073550",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073558": {
+        "id": "V2073558",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V2074361",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V2075596"
+    },
+    {
+      "V2075679": {
+        "id": "V2075679",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2074578",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 101
+      },
+      "V2074578": {
+        "id": "V2074578",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "TIME": [
+            "#V2074951",
+            "#V2073597"
+          ],
+          "AGENT1": "#V2073581",
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2073641",
+          "SEQUENCE1": "#V2073749",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073749": {
+        "id": "V2073749",
+        "indicator": "F",
+        "type": "DISCARD",
+        "word": "DROP",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "LEX": "DROPPED",
+          "WNSENSE": "eliminate%2:30:01"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073641": {
+        "id": "V2073641",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V2073621",
+          "RESULT": "#V2073711",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:36:00::"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2074951": {
+        "id": "V2074951",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2074578",
+          "GROUND": "#V2073564",
+          "LEX": "WALKING"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073564": {
+        "id": "V2073564",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V2073571",
+          "VFORM": "ING",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073571": {
+        "id": "V2073571",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V2073974",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073974": {
+        "id": "V2073974",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073581": {
+        "id": "V2073581",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2073591",
+          "FIGURE": "#V2074578",
+          "LEX": "WITH"
+        },
+        "start": 25,
+        "end": 37
+      },
+      "V2073591": {
+        "id": "V2073591",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V2073597": {
+        "id": "V2073597",
+        "indicator": "F",
+        "type": "START-TIME",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V2073611",
+          "FIGURE": "#V2074578",
+          "LEX": "FROM",
+          "WNSENSE": "beginning%5:00:00:opening:00"
+        },
+        "start": 37,
+        "end": 55
+      },
+      "V2073611": {
+        "id": "V2073611",
+        "indicator": "BARE",
+        "type": "DANCE",
+        "word": "DANCE",
+        "roles": {
+          "ASSOC-WITH": "#V2073607",
+          "LEX": "DANCE",
+          "WNSENSE": "dance%1:04:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073607": {
+        "id": "V2073607",
+        "indicator": "KIND",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "SCHOOL",
+        "roles": {
+          "LEX": "SCHOOL",
+          "WNSENSE": "school%1:14:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073621": {
+        "id": "V2073621",
+        "indicator": "BARE",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 55,
+        "end": 59
+      },
+      "V2073711": {
+        "id": "V2073711",
+        "indicator": "F",
+        "type": "OUTSIDE",
+        "word": "OUT-OF",
+        "roles": {
+          "GROUND": "#V2073726",
+          "FIGURE": "#V2073621",
+          "LEX": "OUT-OF",
+          "WNSENSE": "out_of%4:02:00"
+        },
+        "start": 63,
+        "end": 78
+      },
+      "V2073726": {
+        "id": "V2073726",
+        "indicator": "THE",
+        "type": "LAND-VEHICLE",
+        "word": "CAR",
+        "roles": {
+          "ASSOC-POSS": "#V2073721",
+          "LEX": "CAR",
+          "WNSENSE": "car%1:06:00::"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073721": {
+        "id": "V2073721",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073761": {
+        "id": "V2073761",
+        "indicator": "THE",
+        "type": "ATTIRE",
+        "word": "PANTS",
+        "roles": {
+          "ASSOC-POSS": "#V2073756",
+          "LEX": "PANTS",
+          "WNSENSE": "pants%1:06:01::"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "V2073756": {
+        "id": "V2073756",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "root": "#V2075679"
+    },
+    {
+      "V2075596": {
+        "id": "V2075596",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2074361",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2074361": {
+        "id": "V2074361",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUANTITY": "#V2073550",
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "MOD": "#V2073558",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073548": {
+        "id": "V2073548",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "12"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073550": {
+        "id": "V2073550",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073558": {
+        "id": "V2073558",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V2074361",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V2075596"
+    },
+    {
+      "V2075674": {
+        "id": "V2075674",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2074581",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 101
+      },
+      "V2074581": {
+        "id": "V2074581",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "TIME": [
+            "#V2074951",
+            "#V2073597"
+          ],
+          "AGENT1": "#V2073581",
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2073642",
+          "SEQUENCE1": "#V2073749",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073749": {
+        "id": "V2073749",
+        "indicator": "F",
+        "type": "DISCARD",
+        "word": "DROP",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "LEX": "DROPPED",
+          "WNSENSE": "eliminate%2:30:01"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073642": {
+        "id": "V2073642",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "RESULT": "#V2073711",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:36:00::"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2074951": {
+        "id": "V2074951",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2074581",
+          "GROUND": "#V2073564",
+          "LEX": "WALKING"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073564": {
+        "id": "V2073564",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V2073571",
+          "VFORM": "ING",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073571": {
+        "id": "V2073571",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V2073974",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073974": {
+        "id": "V2073974",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073581": {
+        "id": "V2073581",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2073591",
+          "FIGURE": "#V2074581",
+          "LEX": "WITH"
+        },
+        "start": 25,
+        "end": 37
+      },
+      "V2073591": {
+        "id": "V2073591",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V2073597": {
+        "id": "V2073597",
+        "indicator": "F",
+        "type": "START-TIME",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V2073611",
+          "FIGURE": "#V2074581",
+          "LEX": "FROM",
+          "WNSENSE": "beginning%5:00:00:opening:00"
+        },
+        "start": 37,
+        "end": 55
+      },
+      "V2073611": {
+        "id": "V2073611",
+        "indicator": "BARE",
+        "type": "DANCE",
+        "word": "DANCE",
+        "roles": {
+          "ASSOC-WITH": "#V2073607",
+          "LEX": "DANCE",
+          "WNSENSE": "dance%1:04:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073607": {
+        "id": "V2073607",
+        "indicator": "KIND",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "SCHOOL",
+        "roles": {
+          "LEX": "SCHOOL",
+          "WNSENSE": "school%1:14:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073621": {
+        "id": "V2073621",
+        "indicator": "BARE",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 55,
+        "end": 59
+      },
+      "V2073711": {
+        "id": "V2073711",
+        "indicator": "F",
+        "type": "OUTSIDE",
+        "word": "OUT-OF",
+        "roles": {
+          "GROUND": "#V2073726",
+          "FIGURE": "#V2073761",
+          "LEX": "OUT-OF",
+          "WNSENSE": "out_of%4:02:00"
+        },
+        "start": 63,
+        "end": 78
+      },
+      "V2073726": {
+        "id": "V2073726",
+        "indicator": "THE",
+        "type": "LAND-VEHICLE",
+        "word": "CAR",
+        "roles": {
+          "ASSOC-POSS": "#V2073721",
+          "LEX": "CAR",
+          "WNSENSE": "car%1:06:00::"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073721": {
+        "id": "V2073721",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073761": {
+        "id": "V2073761",
+        "indicator": "THE",
+        "type": "ATTIRE",
+        "word": "PANTS",
+        "roles": {
+          "ASSOC-POSS": "#V2073756",
+          "LEX": "PANTS",
+          "WNSENSE": "pants%1:06:01::"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "V2073756": {
+        "id": "V2073756",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "root": "#V2075674"
+    },
+    {
+      "V2075598": {
+        "id": "V2075598",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2074362",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2074362": {
+        "id": "V2074362",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V2073550",
+          "MOD": "#V2073558",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073550": {
+        "id": "V2073550",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073548": {
+        "id": "V2073548",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "12"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073558": {
+        "id": "V2073558",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V2074362",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V2075598"
+    },
+    {
+      "V2075851": {
+        "id": "V2075851",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2074743",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 101
+      },
+      "V2074743": {
+        "id": "V2074743",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "TIME": [
+            "#V2074951",
+            "#V2073597"
+          ],
+          "AGENT1": "#V2073581",
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2073641",
+          "SEQUENCE1": "#V2073749",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073749": {
+        "id": "V2073749",
+        "indicator": "F",
+        "type": "DISCARD",
+        "word": "DROP",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "LEX": "DROPPED",
+          "WNSENSE": "eliminate%2:30:01"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073641": {
+        "id": "V2073641",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V2073621",
+          "RESULT": "#V2073681",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:36:00::"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2074951": {
+        "id": "V2074951",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2074743",
+          "GROUND": "#V2073564",
+          "LEX": "WALKING"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073564": {
+        "id": "V2073564",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V2073571",
+          "VFORM": "ING",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073571": {
+        "id": "V2073571",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V2073974",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073974": {
+        "id": "V2073974",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073581": {
+        "id": "V2073581",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2073591",
+          "FIGURE": "#V2074743",
+          "LEX": "WITH"
+        },
+        "start": 25,
+        "end": 37
+      },
+      "V2073591": {
+        "id": "V2073591",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V2073597": {
+        "id": "V2073597",
+        "indicator": "F",
+        "type": "START-TIME",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V2073610",
+          "FIGURE": "#V2074743",
+          "LEX": "FROM",
+          "WNSENSE": "beginning%5:00:00:opening:00"
+        },
+        "start": 37,
+        "end": 55
+      },
+      "V2073610": {
+        "id": "V2073610",
+        "indicator": "BARE",
+        "type": "DANCE",
+        "word": "DANCE",
+        "roles": {
+          "ASSOC-WITH": "#V2073607",
+          "LEX": "DANCE",
+          "WNSENSE": "dance%1:04:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073607": {
+        "id": "V2073607",
+        "indicator": "KIND",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "SCHOOL",
+        "roles": {
+          "LEX": "SCHOOL",
+          "WNSENSE": "school%1:14:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073621": {
+        "id": "V2073621",
+        "indicator": "BARE",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 55,
+        "end": 59
+      },
+      "V2073681": {
+        "id": "V2073681",
+        "indicator": "F",
+        "type": "OUTSIDE",
+        "word": "OUT-OF",
+        "roles": {
+          "GROUND": "#V2073727",
+          "FIGURE": "#V2073621",
+          "LEX": "OUT-OF"
+        },
+        "start": 63,
+        "end": 78
+      },
+      "V2073727": {
+        "id": "V2073727",
+        "indicator": "THE",
+        "type": "BOXCAR",
+        "word": "CAR",
+        "roles": {
+          "ASSOC-POSS": "#V2073721",
+          "LEX": "CAR",
+          "WNSENSE": "boxcar%1:06:00"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073721": {
+        "id": "V2073721",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073761": {
+        "id": "V2073761",
+        "indicator": "THE",
+        "type": "ATTIRE",
+        "word": "PANTS",
+        "roles": {
+          "ASSOC-POSS": "#V2073756",
+          "LEX": "PANTS",
+          "WNSENSE": "pants%1:06:01::"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "V2073756": {
+        "id": "V2073756",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "root": "#V2075851"
+    },
+    {
+      "V2075598": {
+        "id": "V2075598",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2074362",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2074362": {
+        "id": "V2074362",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V2073550",
+          "MOD": "#V2073558",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073550": {
+        "id": "V2073550",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073548": {
+        "id": "V2073548",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "12"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073558": {
+        "id": "V2073558",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V2074362",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V2075598"
+    },
+    {
+      "V2075846": {
+        "id": "V2075846",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2074746",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 101
+      },
+      "V2074746": {
+        "id": "V2074746",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "TIME": [
+            "#V2074951",
+            "#V2073597"
+          ],
+          "AGENT1": "#V2073581",
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2073642",
+          "SEQUENCE1": "#V2073749",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073749": {
+        "id": "V2073749",
+        "indicator": "F",
+        "type": "DISCARD",
+        "word": "DROP",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "LEX": "DROPPED",
+          "WNSENSE": "eliminate%2:30:01"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073642": {
+        "id": "V2073642",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "RESULT": "#V2073681",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:36:00::"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2074951": {
+        "id": "V2074951",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2074746",
+          "GROUND": "#V2073564",
+          "LEX": "WALKING"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073564": {
+        "id": "V2073564",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V2073571",
+          "VFORM": "ING",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073571": {
+        "id": "V2073571",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V2073974",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073974": {
+        "id": "V2073974",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073581": {
+        "id": "V2073581",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2073591",
+          "FIGURE": "#V2074746",
+          "LEX": "WITH"
+        },
+        "start": 25,
+        "end": 37
+      },
+      "V2073591": {
+        "id": "V2073591",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V2073597": {
+        "id": "V2073597",
+        "indicator": "F",
+        "type": "START-TIME",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V2073610",
+          "FIGURE": "#V2074746",
+          "LEX": "FROM",
+          "WNSENSE": "beginning%5:00:00:opening:00"
+        },
+        "start": 37,
+        "end": 55
+      },
+      "V2073610": {
+        "id": "V2073610",
+        "indicator": "BARE",
+        "type": "DANCE",
+        "word": "DANCE",
+        "roles": {
+          "ASSOC-WITH": "#V2073607",
+          "LEX": "DANCE",
+          "WNSENSE": "dance%1:04:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073607": {
+        "id": "V2073607",
+        "indicator": "KIND",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "SCHOOL",
+        "roles": {
+          "LEX": "SCHOOL",
+          "WNSENSE": "school%1:14:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073621": {
+        "id": "V2073621",
+        "indicator": "BARE",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 55,
+        "end": 59
+      },
+      "V2073681": {
+        "id": "V2073681",
+        "indicator": "F",
+        "type": "OUTSIDE",
+        "word": "OUT-OF",
+        "roles": {
+          "GROUND": "#V2073727",
+          "FIGURE": "#V2073761",
+          "LEX": "OUT-OF"
+        },
+        "start": 63,
+        "end": 78
+      },
+      "V2073727": {
+        "id": "V2073727",
+        "indicator": "THE",
+        "type": "BOXCAR",
+        "word": "CAR",
+        "roles": {
+          "ASSOC-POSS": "#V2073721",
+          "LEX": "CAR",
+          "WNSENSE": "boxcar%1:06:00"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073721": {
+        "id": "V2073721",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073761": {
+        "id": "V2073761",
+        "indicator": "THE",
+        "type": "ATTIRE",
+        "word": "PANTS",
+        "roles": {
+          "ASSOC-POSS": "#V2073756",
+          "LEX": "PANTS",
+          "WNSENSE": "pants%1:06:01::"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "V2073756": {
+        "id": "V2073756",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "root": "#V2075846"
+    },
+    {
+      "V2075598": {
+        "id": "V2075598",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2074362",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2074362": {
+        "id": "V2074362",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V2073550",
+          "MOD": "#V2073558",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073550": {
+        "id": "V2073550",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073548": {
+        "id": "V2073548",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "12"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073558": {
+        "id": "V2073558",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V2074362",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V2075598"
+    },
+    {
+      "V2075841": {
+        "id": "V2075841",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2074743",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 101
+      },
+      "V2074743": {
+        "id": "V2074743",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "TIME": [
+            "#V2074951",
+            "#V2073597"
+          ],
+          "AGENT1": "#V2073581",
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2073641",
+          "SEQUENCE1": "#V2073749",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073749": {
+        "id": "V2073749",
+        "indicator": "F",
+        "type": "DISCARD",
+        "word": "DROP",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "LEX": "DROPPED",
+          "WNSENSE": "eliminate%2:30:01"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073641": {
+        "id": "V2073641",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V2073621",
+          "RESULT": "#V2073681",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:36:00::"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2074951": {
+        "id": "V2074951",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2074743",
+          "GROUND": "#V2073564",
+          "LEX": "WALKING"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073564": {
+        "id": "V2073564",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V2073571",
+          "VFORM": "ING",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073571": {
+        "id": "V2073571",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V2073974",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073974": {
+        "id": "V2073974",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073581": {
+        "id": "V2073581",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2073591",
+          "FIGURE": "#V2074743",
+          "LEX": "WITH"
+        },
+        "start": 25,
+        "end": 37
+      },
+      "V2073591": {
+        "id": "V2073591",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V2073597": {
+        "id": "V2073597",
+        "indicator": "F",
+        "type": "START-TIME",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V2073611",
+          "FIGURE": "#V2074743",
+          "LEX": "FROM",
+          "WNSENSE": "beginning%5:00:00:opening:00"
+        },
+        "start": 37,
+        "end": 55
+      },
+      "V2073611": {
+        "id": "V2073611",
+        "indicator": "BARE",
+        "type": "DANCE",
+        "word": "DANCE",
+        "roles": {
+          "ASSOC-WITH": "#V2073607",
+          "LEX": "DANCE",
+          "WNSENSE": "dance%1:04:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073607": {
+        "id": "V2073607",
+        "indicator": "KIND",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "SCHOOL",
+        "roles": {
+          "LEX": "SCHOOL",
+          "WNSENSE": "school%1:14:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073621": {
+        "id": "V2073621",
+        "indicator": "BARE",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 55,
+        "end": 59
+      },
+      "V2073681": {
+        "id": "V2073681",
+        "indicator": "F",
+        "type": "OUTSIDE",
+        "word": "OUT-OF",
+        "roles": {
+          "GROUND": "#V2073727",
+          "FIGURE": "#V2073621",
+          "LEX": "OUT-OF"
+        },
+        "start": 63,
+        "end": 78
+      },
+      "V2073727": {
+        "id": "V2073727",
+        "indicator": "THE",
+        "type": "BOXCAR",
+        "word": "CAR",
+        "roles": {
+          "ASSOC-POSS": "#V2073721",
+          "LEX": "CAR",
+          "WNSENSE": "boxcar%1:06:00"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073721": {
+        "id": "V2073721",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073761": {
+        "id": "V2073761",
+        "indicator": "THE",
+        "type": "ATTIRE",
+        "word": "PANTS",
+        "roles": {
+          "ASSOC-POSS": "#V2073756",
+          "LEX": "PANTS",
+          "WNSENSE": "pants%1:06:01::"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "V2073756": {
+        "id": "V2073756",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "root": "#V2075841"
+    },
+    {
+      "V2075598": {
+        "id": "V2075598",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V2074362",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2074362": {
+        "id": "V2074362",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V2073550",
+          "MOD": "#V2073558",
+          "LEX": "YEAR"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V2073550": {
+        "id": "V2073550",
+        "indicator": "A",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "AMOUNT": "#V2073548",
+          "LEX": "YEAR",
+          "WNSENSE": "year%1:28:00"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073548": {
+        "id": "V2073548",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "12"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V2073558": {
+        "id": "V2073558",
+        "indicator": "F",
+        "type": "OLD-VAL",
+        "word": "OLD",
+        "roles": {
+          "FIGURE": "#V2074362",
+          "SCALE": "AGE-SCALE",
+          "LEX": "OLD",
+          "WNSENSE": "old%3:00:02::"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "root": "#V2075598"
+    },
+    {
+      "V2075836": {
+        "id": "V2075836",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V2074746",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 101
+      },
+      "V2074746": {
+        "id": "V2074746",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "TIME": [
+            "#V2074951",
+            "#V2073597"
+          ],
+          "AGENT1": "#V2073581",
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V2073642",
+          "SEQUENCE1": "#V2073749",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073749": {
+        "id": "V2073749",
+        "indicator": "F",
+        "type": "DISCARD",
+        "word": "DROP",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "LEX": "DROPPED",
+          "WNSENSE": "eliminate%2:30:01"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2073642": {
+        "id": "V2073642",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V2073621",
+          "AFFECTED": "#V2073761",
+          "RESULT": "#V2073681",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:36:00::"
+        },
+        "start": 12,
+        "end": 100
+      },
+      "V2074951": {
+        "id": "V2074951",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V2074746",
+          "GROUND": "#V2073564",
+          "LEX": "WALKING"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073564": {
+        "id": "V2073564",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V2073571",
+          "VFORM": "ING",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V2073571": {
+        "id": "V2073571",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V2073974",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073974": {
+        "id": "V2073974",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V2073581": {
+        "id": "V2073581",
+        "indicator": "F",
+        "type": "ACCOMPANIMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V2073591",
+          "FIGURE": "#V2074746",
+          "LEX": "WITH"
+        },
+        "start": 25,
+        "end": 37
+      },
+      "V2073591": {
+        "id": "V2073591",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V2073597": {
+        "id": "V2073597",
+        "indicator": "F",
+        "type": "START-TIME",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V2073611",
+          "FIGURE": "#V2074746",
+          "LEX": "FROM",
+          "WNSENSE": "beginning%5:00:00:opening:00"
+        },
+        "start": 37,
+        "end": 55
+      },
+      "V2073611": {
+        "id": "V2073611",
+        "indicator": "BARE",
+        "type": "DANCE",
+        "word": "DANCE",
+        "roles": {
+          "ASSOC-WITH": "#V2073607",
+          "LEX": "DANCE",
+          "WNSENSE": "dance%1:04:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073607": {
+        "id": "V2073607",
+        "indicator": "KIND",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "SCHOOL",
+        "roles": {
+          "LEX": "SCHOOL",
+          "WNSENSE": "school%1:14:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "V2073621": {
+        "id": "V2073621",
+        "indicator": "BARE",
+        "type": "PERSON",
+        "word": "GUY",
+        "roles": {
+          "LEX": "GUY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 55,
+        "end": 59
+      },
+      "V2073681": {
+        "id": "V2073681",
+        "indicator": "F",
+        "type": "OUTSIDE",
+        "word": "OUT-OF",
+        "roles": {
+          "GROUND": "#V2073727",
+          "FIGURE": "#V2073761",
+          "LEX": "OUT-OF"
+        },
+        "start": 63,
+        "end": 78
+      },
+      "V2073727": {
+        "id": "V2073727",
+        "indicator": "THE",
+        "type": "BOXCAR",
+        "word": "CAR",
+        "roles": {
+          "ASSOC-POSS": "#V2073721",
+          "LEX": "CAR",
+          "WNSENSE": "boxcar%1:06:00"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073721": {
+        "id": "V2073721",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 70,
+        "end": 78
+      },
+      "V2073761": {
+        "id": "V2073761",
+        "indicator": "THE",
+        "type": "ATTIRE",
+        "word": "PANTS",
+        "roles": {
+          "ASSOC-POSS": "#V2073756",
+          "LEX": "PANTS",
+          "WNSENSE": "pants%1:06:01::"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "V2073756": {
+        "id": "V2073756",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 90,
+        "end": 100
+      },
+      "root": "#V2075836"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+381",
+    "*last-utt-id*=381  utt-id+381",
+    "*last-utt-id*=381  utt-id+NIL"
+  ]
+}

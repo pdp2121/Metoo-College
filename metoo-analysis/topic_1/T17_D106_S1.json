@@ -1,0 +1,171 @@
+{
+  "parse": [
+    {
+      "V1231801": {
+        "id": "V1231801",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V1231194",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 54
+      },
+      "V1231194": {
+        "id": "V1231194",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V1230618",
+          "SEQUENCE1": "#V1230669",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 54
+      },
+      "V1230669": {
+        "id": "V1230669",
+        "indicator": "F",
+        "type": "SAY",
+        "word": "SAY",
+        "roles": {
+          "AGENT": "#V1231324",
+          "FORMAL": "#V1230741",
+          "LEX": "SAID",
+          "WNSENSE": "say%2:32:01::"
+        },
+        "start": 0,
+        "end": 54
+      },
+      "V1230618": {
+        "id": "V1230618",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V1231324",
+          "RESULT": "#V1230649",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:36:00::"
+        },
+        "start": 0,
+        "end": 54
+      },
+      "V1231324": {
+        "id": "V1231324",
+        "indicator": "THE",
+        "type": "QUANTITY-ABSTR",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V1230598"
+        },
+        "start": 0,
+        "end": 7
+      },
+      "V1230598": {
+        "id": "V1230598",
+        "indicator": "BARE",
+        "type": "FRIEND",
+        "word": "ROOMIE",
+        "roles": {
+          "LEX": "ROOMIE",
+          "WNSENSE": "roomie%1:18:00::"
+        },
+        "start": 0,
+        "end": 7
+      },
+      "V1230649": {
+        "id": "V1230649",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V1230991",
+          "FIGURE": "#V1231324",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 11,
+        "end": 16
+      },
+      "V1230991": {
+        "id": "V1230991",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 11,
+        "end": 16
+      },
+      "V1230741": {
+        "id": "V1230741",
+        "indicator": "F",
+        "type": "SLEEP",
+        "word": "SLEEP",
+        "roles": {
+          "AFFECTED": "#V1230690",
+          "LOCATION": "#V1230753",
+          "PROP": "+",
+          "TENSE": "PRES",
+          "NEGATION": "+",
+          "MODALITY": "(:* DO DO)",
+          "LEX": "SLEEP",
+          "WNSENSE": "sleep%1:26:00::"
+        },
+        "start": 25,
+        "end": 54
+      },
+      "V1230690": {
+        "id": "V1230690",
+        "indicator": "INDEF-SET",
+        "type": "FEMALE-PERSON",
+        "word": "LADY",
+        "roles": {
+          "LEX": "LADIES",
+          "WNSENSE": "lady%1:18:02::"
+        },
+        "start": 25,
+        "end": 32
+      },
+      "V1230753": {
+        "id": "V1230753",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V1230776",
+          "FIGURE": "#V1230741",
+          "LEX": "ON"
+        },
+        "start": 44,
+        "end": 54
+      },
+      "V1230776": {
+        "id": "V1230776",
+        "indicator": "INDEF-SET",
+        "type": "STRUCTURE-INTERNAL-COMPONENT",
+        "word": "FLOOR",
+        "roles": {
+          "LEX": "FLOORS",
+          "WNSENSE": "floor%1:06:00::"
+        },
+        "start": 47,
+        "end": 54
+      },
+      "root": "#V1231801"
+    }
+  ],
+  "inputtags": [],
+  "debug": [
+    "*last-utt-id*=NIL  utt-id+209",
+    "*last-utt-id*=209  utt-id+NIL"
+  ]
+}
